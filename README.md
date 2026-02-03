@@ -114,6 +114,13 @@ python D:\screener\signal_screener.py NVDA
 python D:\screener\signal_screener.py AAPL MSFT GOOGL
 ```
 
+### 检查特定公司的新信号
+
+```bash
+# 查看 NVDA、AAPL 最近30天是否有新信号
+python D:\screener\signal_screener.py NVDA AAPL --check-new --days 30
+```
+
 ### 增量更新（每天运行）
 
 只更新最近有新财报的公司，比全量扫描快很多：

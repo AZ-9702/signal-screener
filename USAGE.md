@@ -13,6 +13,16 @@ python D:\claude-test\screener\signal_screener.py NVDA AAPL MSFT
 ```
 终端输出季度数据表 + 信号列表。
 
+**检查特定公司的新信号：**
+```bash
+# 查看 NVDA、AAPL 最近30天是否有新信号
+python D:\claude-test\screener\signal_screener.py NVDA AAPL --check-new --days 30
+
+# 查看最近90天的新信号
+python D:\claude-test\screener\signal_screener.py TSLA META --check-new --days 90
+```
+只显示指定时间范围内、且之前缓存中没有的新信号。
+
 ### 2. 全量扫描
 ```bash
 python D:\claude-test\screener\signal_screener.py scan

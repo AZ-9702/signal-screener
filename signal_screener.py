@@ -2093,6 +2093,10 @@ def _parse_ticker_mode():
                         help="Data source (default: auto = SEC first, yfinance fallback)")
     parser.add_argument("--threshold", type=float, default=None,
                         help="Override incremental margin threshold")
+    parser.add_argument("--check-new", action="store_true",
+                        help="Only show NEW signals (not in cache) from recent quarters")
+    parser.add_argument("--days", type=int, default=30,
+                        help="Days to look back for --check-new (default: 30)")
     return parser.parse_args()
 
 
@@ -2160,11 +2164,30 @@ def _run_ticker_mode(args):
         THRESHOLDS["incr_margin_yoy"] = args.threshold
 
     tickers = [t.upper() for t in args.tickers]
+    check_new = getattr(args, 'check_new', False)
+    days_back = getattr(args, 'days', 30)
+
+    if check_new:
+        print(f"{BOLD}{CYAN}Signal Screener -- Check New Signals{RESET}")
+        print(f"  Tickers: {', '.join(tickers)}")
+        print(f"  Looking back: {days_back} days")
+        print()
+        cutoff = datetime.now() - timedelta(days=days_back)
+        new_signals_found = []
+
     all_results = []
 
     for ticker in tickers:
         print(f"\n{DIM}Fetching {ticker}...{RESET}", end="", flush=True)
         try:
+            # Load old cached signals if checking for new
+            old_signal_keys = set()
+            if check_new:
+                old_result = _load_result(ticker)
+                if old_result and old_result.get("signals"):
+                    for s in old_result["signals"]:
+                        old_signal_keys.add((s.get("quarter", ""), s.get("signal", "")))
+
             data = fetch_data(ticker, args.quarters, args.source)
             if data is None:
                 print(f" {RED}FAILED (no data){RESET}")
@@ -2173,7 +2196,49 @@ def _run_ticker_mode(args):
             print(f" {GREEN}OK{RESET} ({len(data['quarters'])}Q via {src})")
 
             signals = compute_signals(data)
-            print_company_report(data, signals, args.show)
+
+            if check_new:
+                # Filter to only NEW signals from recent quarters
+                new_sigs = []
+                for s in signals:
+                    key = (s.get("quarter", ""), s.get("signal", ""))
+                    if key in old_signal_keys:
+                        continue
+                    # Check if signal quarter is within the days range
+                    q_label = s.get("quarter", "")
+                    # quarter_label format: "2025-10 (Q4)" -> extract date
+                    if q_label:
+                        try:
+                            q_date_str = q_label.split(" ")[0]  # "2025-10"
+                            q_date = datetime.strptime(q_date_str + "-01", "%Y-%m-%d")
+                            if q_date >= cutoff:
+                                new_sigs.append(s)
+                        except (ValueError, IndexError):
+                            pass
+
+                if new_sigs:
+                    new_signals_found.append({
+                        "ticker": ticker,
+                        "name": data.get("name", ticker),
+                        "signals": new_sigs,
+                    })
+                    # Print summary for this ticker
+                    print(f"  {YELLOW}Found {len(new_sigs)} new signal(s){RESET}")
+                else:
+                    print(f"  {DIM}No new signals in last {days_back} days{RESET}")
+
+                # Save updated result to cache
+                _save_result(ticker, {
+                    "ticker": ticker,
+                    "name": data.get("name", ticker),
+                    "quarters": data.get("quarters", []),
+                    "signals": _make_serializable(signals),
+                    "last_updated": datetime.now().isoformat(),
+                })
+            else:
+                # Normal mode: show full report
+                print_company_report(data, signals, args.show)
+
             all_results.append((data, signals))
         except Exception as e:
             print(f" {RED}ERROR: {e}{RESET}")
@@ -2184,7 +2249,26 @@ def _run_ticker_mode(args):
         if len(tickers) > 1:
             time.sleep(0.1)
 
-    if len(tickers) > 1:
+    if check_new:
+        # Print summary of new signals
+        print(f"\n{BOLD}{'='*60}{RESET}")
+        if new_signals_found:
+            print(f"{BOLD}{YELLOW}New signals detected:{RESET}")
+            for item in new_signals_found:
+                print(f"\n  {BOLD}{item['ticker']}{RESET} ({item['name'][:40]})")
+                for s in item["signals"]:
+                    sev = s.get("severity", "MEDIUM")
+                    if sev == "HIGH":
+                        color, icon = RED, "[!!]"
+                    elif sev == "WARNING":
+                        color, icon = YELLOW, "[!]"
+                    else:
+                        color, icon = GREEN, "[+]"
+                    print(f"    {icon} {color}[{s['quarter']}] {s['signal']}{RESET}")
+                    print(f"        {s['detail']}")
+        else:
+            print(f"{DIM}No new signals found for the specified tickers in the last {days_back} days.{RESET}")
+    elif len(tickers) > 1:
         print_summary(all_results)
 
     print()
