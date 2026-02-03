@@ -1337,13 +1337,16 @@ def _run_update_mode(args):
     """Incremental update: find recent filers, re-fetch, detect new signals."""
     days = args.days
     min_revenue = _parse_revenue_str(args.min_revenue)
+    show_all = getattr(args, 'all', False)
 
     print(f"{BOLD}{CYAN}Signal Screener -- Incremental Update Mode{RESET}")
     print(f"  Looking back: {days} days")
     print(f"  Min quarterly revenue: {fmt_b(min_revenue)}")
+    if show_all:
+        print(f"  Mode: Show ALL signals from recent filers")
     print()
 
-    print(f"{DIM}Fetching recent filers from SEC daily index...{RESET}")
+    print(f"{DIM}Fetching recent filers from SEC RSS feed...{RESET}")
     filers = _fetch_recent_filers(days)
     print(f"  Found {len(filers)} companies with recent 10-Q/10-K filings")
 
@@ -1352,7 +1355,7 @@ def _run_update_mode(args):
         return
 
     progress = ProgressTracker(len(filers), label="Updating")
-    new_signals_summary = []
+    signals_summary = []
     total_passed = 0
 
     try:
@@ -1360,34 +1363,49 @@ def _run_update_mode(args):
             ticker = filer["ticker"]
             cik = filer["cik"]
 
-            # Load old result for comparison
-            old_result = _load_result(ticker)
+            # Load old result for comparison (only needed if not --all)
             old_signal_keys = set()
-            if old_result and old_result.get("signals"):
-                for s in old_result["signals"]:
-                    old_signal_keys.add((s.get("quarter", ""), s.get("signal", "")))
+            if not show_all:
+                old_result = _load_result(ticker)
+                if old_result and old_result.get("signals"):
+                    for s in old_result["signals"]:
+                        old_signal_keys.add((s.get("quarter", ""), s.get("signal", "")))
 
             # Re-fetch with force refresh
             result, status = _process_company(cik, ticker, min_revenue=min_revenue,
                                               force_refresh=True)
             if status == "pass" and result:
                 total_passed += 1
-                # Find NEW signals
-                new_sigs = []
-                for s in result.get("signals", []):
-                    key = (s.get("quarter", ""), s.get("signal", ""))
-                    if key not in old_signal_keys:
-                        new_sigs.append(s)
+                all_sigs = result.get("signals", [])
 
-                if new_sigs:
-                    new_signals_summary.append({
-                        "ticker": ticker,
-                        "name": result.get("name", ticker),
-                        "form_type": filer["form_type"],
-                        "filed_date": filer["filed_date"],
-                        "new_signals": new_sigs,
-                        "all_signals": result.get("signals", []),
-                    })
+                if show_all:
+                    # Show ALL signals from this company
+                    if all_sigs:
+                        signals_summary.append({
+                            "ticker": ticker,
+                            "name": result.get("name", ticker),
+                            "form_type": filer["form_type"],
+                            "filed_date": filer["filed_date"],
+                            "display_signals": all_sigs,
+                            "all_signals": all_sigs,
+                        })
+                else:
+                    # Only show NEW signals (not in old cache)
+                    new_sigs = []
+                    for s in all_sigs:
+                        key = (s.get("quarter", ""), s.get("signal", ""))
+                        if key not in old_signal_keys:
+                            new_sigs.append(s)
+
+                    if new_sigs:
+                        signals_summary.append({
+                            "ticker": ticker,
+                            "name": result.get("name", ticker),
+                            "form_type": filer["form_type"],
+                            "filed_date": filer["filed_date"],
+                            "display_signals": new_sigs,
+                            "all_signals": all_sigs,
+                        })
 
             progress.update(status)
 
@@ -1398,11 +1416,11 @@ def _run_update_mode(args):
 
     # Save scan history
     companies_with_signals = []
-    for item in new_signals_summary:
+    for item in signals_summary:
         companies_with_signals.append({
             "ticker": item["ticker"],
             "name": item["name"],
-            "signals": _make_serializable(item["new_signals"]),
+            "signals": _make_serializable(item["display_signals"]),
             "form_type": item["form_type"],
             "filed_date": item["filed_date"],
         })
@@ -1410,7 +1428,7 @@ def _run_update_mode(args):
     record = {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "time": datetime.now().strftime("%H:%M:%S"),
-        "mode": "update",
+        "mode": "update" + (" --all" if show_all else ""),
         "days_back": days,
         "total_scanned": progress.current,
         "passed_filter": total_passed,
@@ -1419,17 +1437,18 @@ def _run_update_mode(args):
     _append_scan_history(record)
 
     # Print summary
+    label = "ALL signals" if show_all else "NEW signals"
     print(f"\n{BOLD}Update Complete:{RESET}")
     print(f"  Processed: {progress.current}/{len(filers)}")
     print(f"  Successfully updated: {total_passed}")
-    print(f"  Companies with NEW signals: {len(new_signals_summary)}")
+    print(f"  Companies with {label}: {len(signals_summary)}")
 
-    if new_signals_summary:
-        print(f"\n{BOLD}{YELLOW}New signals detected:{RESET}")
-        for item in new_signals_summary:
+    if signals_summary:
+        print(f"\n{BOLD}{YELLOW}{'Signals' if show_all else 'New signals'} detected:{RESET}")
+        for item in signals_summary:
             print(f"\n  {BOLD}{item['ticker']}{RESET} ({item['name'][:40]}) "
                   f"-- filed {item['form_type']} on {item['filed_date']}")
-            for s in item["new_signals"]:
+            for s in item["display_signals"]:
                 sev = s.get("severity", "MEDIUM")
                 if sev == "HIGH":
                     color, icon = RED, "[!!]"
@@ -2098,6 +2117,8 @@ def _parse_subcommand(mode):
                             help="Number of days to look back (default: 3)")
         parser.add_argument("--min-revenue", default="5M",
                             help="Minimum quarterly revenue filter (default: 5M)")
+        parser.add_argument("--all", action="store_true",
+                            help="Show all signals from matched companies (not just new ones)")
         parser.add_argument("--no-report", action="store_true",
                             help="Skip automatic HTML report generation")
     elif mode == "report":
