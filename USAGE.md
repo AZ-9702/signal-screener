@@ -50,6 +50,7 @@ python D:\claude-test\screener\signal_screener.py filter
 | `--incr-margin-spread N` | 关闭 | 增量 OPM 超过当季 OPM 至少 N 个百分点 |
 | `--min-rev-growth X` | 关闭 | 最近季度 YoY 收入增速 >= X（0.3 = 30%） |
 | `--min-op-margin X` | 关闭 | 最近季度经营利润率 >= X（0.1 = 10%） |
+| `--after YYYY-MM` | 关闭 | 只看最新季度数据在该日期之后的公司（排除退市/停报） |
 | `--top N` | 50 | 显示前 N 家 |
 | `--sort KEY` | score | 排序方式: `score` / `revenue` / `op_margin` / `rev_growth` |
 | `--html` | 关闭 | 生成筛选结果的 HTML 报告 |
@@ -73,6 +74,9 @@ python D:\claude-test\screener\signal_screener.py filter --signal "ACCELERATION"
 
 # 高增长 + 高利润率
 python D:\claude-test\screener\signal_screener.py filter --min-rev-growth 0.3 --min-op-margin 0.1
+
+# 排除退市/停报公司，只看2025年后仍有数据的
+python D:\claude-test\screener\signal_screener.py filter --severity HIGH --after 2025-01
 
 # 组合筛选 + HTML 报告
 python D:\claude-test\screener\signal_screener.py filter --incr-margin-spread 20 --severity HIGH --html

@@ -1795,6 +1795,15 @@ def _filter_company(result, criteria):
     recent_quarters = quarters[-recent_n:] if recent_n < len(quarters) else quarters
     recent_labels = {q["quarter_label"] for q in recent_quarters}
 
+    # ── Filter by data freshness (--after) ──
+    after_date = criteria.get("after")
+    if after_date is not None:
+        last_date_str = quarters[-1].get("date", "")
+        if isinstance(last_date_str, str):
+            last_date_str = last_date_str[:10]  # "2025-10-26T00:00:00" -> "2025-10-26"
+        if last_date_str < after_date:
+            return None
+
     # ── Filter signals by recency ──
     matched_signals = [s for s in signals if s.get("quarter") in recent_labels]
 
@@ -1902,6 +1911,7 @@ def _run_filter_mode(args):
         "incr_margin_spread": args.incr_margin_spread,
         "min_rev_growth": args.min_rev_growth,
         "min_op_margin": args.min_op_margin,
+        "after": args.after,
     }
 
     # Build description of active filters
@@ -1917,6 +1927,8 @@ def _run_filter_mode(args):
         filter_parts.append(f"min_rev_growth={args.min_rev_growth:.0%}")
     if args.min_op_margin is not None:
         filter_parts.append(f"min_op_margin={args.min_op_margin:.0%}")
+    if args.after:
+        filter_parts.append(f"after={args.after}")
 
     print(f"{BOLD}{CYAN}Signal Screener -- Filter Results{RESET}")
     print(f"  Filters: {', '.join(filter_parts)}")
@@ -2119,6 +2131,8 @@ def _parse_subcommand(mode):
                             help="Show top N results (default: 50)")
         parser.add_argument("--html", action="store_true",
                             help="Generate HTML report for filtered results")
+        parser.add_argument("--after", default=None,
+                            help="Only include companies whose latest quarter is after this date (e.g. 2025-01)")
         parser.add_argument("--sort", default="score",
                             choices=["score", "revenue", "op_margin", "rev_growth"],
                             help="Sort results by (default: score)")
