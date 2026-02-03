@@ -1238,107 +1238,96 @@ def _run_scan_mode(args):
 # ══════════════════════════════════════════════════════════════════════
 
 def _fetch_recent_filers(days=3):
-    """Fetch recent 10-Q/10-K filers from SEC daily index files.
+    """Fetch recent 10-Q/10-K filers from SEC RSS feed.
 
     Returns list of {cik, ticker, form_type, filed_date}.
     """
+    import re
+    import xml.etree.ElementTree as ET
+
     cik_to_ticker = _build_cik_to_ticker_map()
     filers = []
     seen_ciks = set()
     target_forms = {"10-Q", "10-K", "10-Q/A", "10-K/A"}
 
-    today = datetime.now()
-    for day_offset in range(days):
-        d = today - timedelta(days=day_offset)
-        # Skip weekends
-        if d.weekday() >= 5:
+    cutoff = datetime.now() - timedelta(days=days)
+
+    # Fetch from SEC RSS feed for each form type
+    for form_type in ["10-Q", "10-K"]:
+        url = f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type={form_type}&company=&dateb=&owner=include&count=100&output=atom"
+
+        try:
+            _rate_limiter.wait()
+            req = urllib.request.Request(url, headers={
+                "User-Agent": SEC_UA,
+                "Accept": "application/atom+xml,application/xml,text/xml,*/*"
+            })
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                xml_text = resp.read().decode("utf-8", errors="replace")
+        except Exception:
             continue
 
-        year = d.year
-        qtr = (d.month - 1) // 3 + 1
-        date_str = d.strftime("%Y%m%d")
-        url = f"https://www.sec.gov/Archives/edgar/daily-index/{year}/QTR{qtr}/company.{date_str}.idx"
+        # Parse Atom XML
+        try:
+            root = ET.fromstring(xml_text)
+        except ET.ParseError:
+            continue
 
-        text = _sec_get_text(url)
-        if text is None:
-            continue  # 404 = holiday or not yet published
+        ns = {"atom": "http://www.w3.org/2005/Atom"}
 
-        # Parse fixed-width index file
-        # Format: Company Name | Form Type | CIK | Date Filed | Filename
-        # Header lines end with a dashed line
-        in_data = False
-        for line in text.split("\n"):
-            if line.startswith("---"):
-                in_data = True
-                continue
-            if not in_data or not line.strip():
-                continue
-
-            # Fixed-width parsing: form type starts around col 62, CIK around col 74
-            # Actually the format varies. Use split approach on the known delimiters.
-            # The index file is pipe-delimited with spaces
-            parts = line.split()
-            if len(parts) < 4:
-                continue
-
-            # Find the form type and CIK by looking for known patterns
-            # Form type is typically the second-to-last group before the CIK
-            # Better approach: parse from right side where CIK and filename are
-            # The format is: "Company Name     Form-Type     CIK     Date     URL"
-            # CIK is a numeric field
+        for entry in root.findall("atom:entry", ns):
             try:
-                # Try to find CIK (all digits) and form type
-                # Walk from the end: last field is URL, then date, then CIK, then form type
-                # But company name can have spaces, so we parse right-to-left
-                stripped = line.rstrip()
-                if not stripped:
+                title = entry.find("atom:title", ns)
+                if title is None or title.text is None:
                     continue
 
-                # Split by multiple spaces (2+) to separate fields
-                import re
-                fields = re.split(r'\s{2,}', stripped)
-                if len(fields) < 4:
+                # Title format: "10-Q - Company Name (CIK) (Filer)"
+                title_text = title.text
+                # Extract form type from title
+                form_match = re.match(r"(10-[QK](/A)?)\s*-", title_text)
+                if not form_match:
+                    continue
+                filing_form = form_match.group(1)
+                if filing_form not in target_forms:
                     continue
 
-                # fields[-1] is filename/URL, fields[-2] is date, fields[-3] is CIK, fields[-4] is form type
-                # But sometimes it's: CompanyName  FormType  CIK  DateFiled  Filename
-                form_type = None
-                cik_raw = None
-                filed_date = None
-
-                for fi, f in enumerate(fields):
-                    f_stripped = f.strip()
-                    if f_stripped in target_forms:
-                        form_type = f_stripped
-                        # CIK should be next
-                        if fi + 1 < len(fields):
-                            cik_candidate = fields[fi + 1].strip()
-                            if cik_candidate.isdigit():
-                                cik_raw = cik_candidate
-                        if fi + 2 < len(fields):
-                            filed_date = fields[fi + 2].strip()
-                        break
-
-                if form_type is None or cik_raw is None:
+                # Extract CIK from title (number in parentheses)
+                cik_match = re.search(r"\((\d{7,10})\)", title_text)
+                if not cik_match:
                     continue
-
+                cik_raw = cik_match.group(1)
                 cik_padded = cik_raw.zfill(10)
+
                 if cik_padded in seen_ciks:
                     continue
-                seen_ciks.add(cik_padded)
+
+                # Get filing date from <updated> element
+                updated = entry.find("atom:updated", ns)
+                if updated is not None and updated.text:
+                    # Format: 2026-02-02T17:00:39-05:00
+                    filed_date = updated.text[:10]
+                    try:
+                        filed_dt = datetime.strptime(filed_date, "%Y-%m-%d")
+                        if filed_dt < cutoff:
+                            continue
+                    except ValueError:
+                        pass
+                else:
+                    filed_date = datetime.now().strftime("%Y-%m-%d")
 
                 ticker = cik_to_ticker.get(cik_padded, None)
                 if ticker is None:
                     continue
 
+                seen_ciks.add(cik_padded)
                 filers.append({
                     "cik": cik_padded,
                     "ticker": ticker,
-                    "form_type": form_type,
-                    "filed_date": filed_date or d.strftime("%Y-%m-%d"),
+                    "form_type": filing_form,
+                    "filed_date": filed_date,
                 })
 
-            except (ValueError, IndexError):
+            except Exception:
                 continue
 
     return filers
