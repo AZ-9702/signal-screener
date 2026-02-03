@@ -118,8 +118,12 @@ python D:\screener\signal_screener.py AAPL MSFT GOOGL
 
 只更新最近有新财报的公司，比全量扫描快很多：
 
-```
+```bash
+# 只显示新增信号（缓存中没有的）
 python D:\screener\signal_screener.py update
+
+# 显示过去15天内申报公司的所有信号
+python D:\screener\signal_screener.py update --days 15 --all
 ```
 
 ---

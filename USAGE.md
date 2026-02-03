@@ -25,8 +25,17 @@ python D:\claude-test\screener\signal_screener.py scan --min-revenue 10M     # �
 ```bash
 python D:\claude-test\screener\signal_screener.py update
 python D:\claude-test\screener\signal_screener.py update --days 5
+python D:\claude-test\screener\signal_screener.py update --days 15 --all
 ```
-只处理最近 N 天提交 10-Q/10-K 的公司，对比旧数据，显示新增信号。
+只处理最近 N 天提交 10-Q/10-K 的公司。
+
+| 参数 | 说明 |
+|------|------|
+| `--days N` | 回溯天数（默认 3） |
+| `--all` | 显示所有信号（默认只显示新增信号） |
+
+- 不加 `--all`：只显示缓存中没有的**新增信号**
+- 加 `--all`：显示时间范围内所有公司的**全部信号**
 
 ### 4. 生成报告
 ```bash
