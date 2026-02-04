@@ -3282,10 +3282,9 @@ function renderCard(ticker, data, filedInfo) {
       <span class="brief-label">商业模式</span>
       <span class="brief-value brief-loading" id="brief-model-${ticker}">-</span>
     </div>
-    <button class="btn-brief" onclick="event.stopPropagation(); loadCompanyBrief('${ticker}')">加载公司简介</button>
-  </div>`;
+      </div>`;
 
-  return `<div class="card" onclick="this.classList.toggle('expanded')">
+  return `<div class="card" onclick="toggleCard(this, '${ticker}')">
     <div class="card-header">
       <span class="card-ticker">${ticker}</span>
       <span class="card-name">${name}</span>
@@ -3486,10 +3485,25 @@ function populateSectorDropdown() {
   });
 }
 
+// Client-side cache for company briefs
+const BRIEF_CACHE = {};
+
 async function loadCompanyBrief(ticker) {
   const bizEl = document.getElementById(`brief-biz-${ticker}`);
   const modelEl = document.getElementById(`brief-model-${ticker}`);
   if (!bizEl || !modelEl) return;
+
+  // Check client-side cache first
+  if (BRIEF_CACHE[ticker]) {
+    bizEl.textContent = BRIEF_CACHE[ticker].business || '暂无信息';
+    bizEl.classList.remove('brief-loading');
+    modelEl.textContent = BRIEF_CACHE[ticker].model || '暂无信息';
+    modelEl.classList.remove('brief-loading');
+    return;
+  }
+
+  // Skip if already loading
+  if (bizEl.textContent === '加载中...') return;
 
   bizEl.textContent = '加载中...';
   bizEl.classList.add('brief-loading');
@@ -3501,6 +3515,8 @@ async function loadCompanyBrief(ticker) {
     if (data.error) {
       bizEl.textContent = '加载失败: ' + data.error;
     } else {
+      // Cache the result
+      BRIEF_CACHE[ticker] = data;
       bizEl.textContent = data.business || '暂无信息';
       bizEl.classList.remove('brief-loading');
       modelEl.textContent = data.model || '暂无信息';
@@ -3509,6 +3525,15 @@ async function loadCompanyBrief(ticker) {
   } catch (e) {
     bizEl.textContent = '加载失败';
     console.error('Error loading brief:', e);
+  }
+}
+
+function toggleCard(el, ticker) {
+  const wasExpanded = el.classList.contains('expanded');
+  el.classList.toggle('expanded');
+  // Auto-load brief when expanding (not collapsing)
+  if (!wasExpanded) {
+    loadCompanyBrief(ticker);
   }
 }
 
