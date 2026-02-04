@@ -1,10 +1,22 @@
-# Cache - keep results, exclude raw SEC data (22GB)
+# Cache - keep results, exclude raw SEC data
 cache/facts/
+cache/company_tickers.json
+
+# Generated reports (regenerate on demand)
 reports/
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Test and debug files
 test_*.py
 debug_*.py
-nul
+
+# Local exports
+docs/
+
+# IDE
+.vscode/
+.idea/

@@ -1,1 +1,1 @@
-web: python signal_screener.py serve
+web: python signal_screener.py serve --no-browser
