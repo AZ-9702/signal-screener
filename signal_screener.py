@@ -3029,6 +3029,7 @@ _SERVE_HTML_TEMPLATE = r"""<!DOCTYPE html>
     <button class="btn btn-apply" onclick="applyAllFilters()">Apply Filters</button>
     <button class="btn-clear" onclick="clearFilters()">&#x2715; Clear All</button>
     <button class="btn-secondary btn-small" onclick="refreshData()">Refresh Data</button>
+    <button class="btn-secondary btn-small" onclick="exportTickers()" title="Download filtered tickers">&#x2913; Export</button>
   </div>
 </header>
 <div class="stats" id="statsBar">
@@ -3045,6 +3046,7 @@ _SERVE_HTML_TEMPLATE = r"""<!DOCTYPE html>
 
 <script>
 let DATA = {all_results: {}, recent_filers: []};
+let FILTERED_TICKERS = [];  // Track currently filtered tickers for export
 const SEVERITY_RANK = {HIGH: 3, MEDIUM: 2, WARNING: 1};
 
 function fmtPct(v) {
@@ -3160,6 +3162,9 @@ function applyFilters() {
 
   const minRank = severityQ ? SEVERITY_RANK[severityQ] : 0;
 
+  // Reset filtered tickers for export
+  FILTERED_TICKERS = [];
+
   // Determine which tickers to show
   let tickersToShow = Object.keys(DATA.all_results);
   const recentFilerTickers = new Set(DATA.recent_filers.map(f => f.ticker));
@@ -3227,6 +3232,7 @@ function applyFilters() {
     }
 
     matched++;
+    FILTERED_TICKERS.push(ticker);  // Track for export
     const filedInfo = DATA.recent_filers.find(f => f.ticker === ticker);
     // Pass filtered signals but FULL quarters history for display
     const renderData = {...data, signals: filteredSignals, quarters: allQuarters};
@@ -3322,6 +3328,25 @@ function clearFilters() {
   DATA.recent_filers = [];
   updateStatusLive();
   applyFilters();
+}
+
+function exportTickers() {
+  if (FILTERED_TICKERS.length === 0) {
+    alert('No tickers to export. Apply filters first.');
+    return;
+  }
+  // Create download
+  const content = FILTERED_TICKERS.join('\n');
+  const blob = new Blob([content], {type: 'text/plain'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  const date = new Date().toISOString().slice(0, 10);
+  a.download = `tickers_${date}_${FILTERED_TICKERS.length}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }
 
 // Initial load
