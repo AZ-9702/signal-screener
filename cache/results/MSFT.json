@@ -1,6 +1,8 @@
 {
   "ticker": "MSFT",
   "name": "MICROSOFT CORPORATION",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -323,7 +325,7 @@
       "incr_op_margin_yoy": 0.4032862814292016,
       "rev_growth_yoy": 0.1604472990427659,
       "rev_growth_yoy_accel": 0.008495849470785605,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06669434817512049
     },
     {
@@ -414,7 +416,7 @@
       "incr_op_margin_yoy": 0.6129219060225016,
       "rev_growth_yoy": 0.18431043683769155,
       "rev_growth_yoy_accel": 0.003334955199426226,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.004082236952293761
     },
     {
@@ -576,5 +578,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:01.893529"
+  "last_updated": "2026-02-04T17:45:09.966608"
 }

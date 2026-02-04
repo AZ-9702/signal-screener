@@ -314,10 +314,29 @@ def _save_result(ticker, data):
     _atomic_json_write(path, _make_serializable(data))
 
 
-def _load_result(ticker):
-    """Load cached result for a ticker."""
+def _load_result(ticker, fetch_sector_if_missing=False):
+    """Load cached result for a ticker.
+
+    If fetch_sector_if_missing is True and sector/industry is missing,
+    fetch from yfinance and update the cache.
+    """
     path = os.path.join(RESULTS_CACHE_DIR, f"{ticker.upper()}.json")
-    return _safe_json_load(path)
+    result = _safe_json_load(path)
+
+    # Optionally fetch missing sector/industry
+    if fetch_sector_if_missing and result:
+        if not result.get("sector") or not result.get("industry"):
+            try:
+                sector_info = fetch_sector_industry(ticker)
+                if sector_info.get("sector") or sector_info.get("industry"):
+                    result["sector"] = sector_info.get("sector", "")
+                    result["industry"] = sector_info.get("industry", "")
+                    # Update cache
+                    _atomic_json_write(path, result)
+            except Exception:
+                pass  # Ignore errors, sector is optional
+
+    return result
 
 
 # ── Scan history ─────────────────────────────────────────────────────

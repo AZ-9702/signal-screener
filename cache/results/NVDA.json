@@ -1,6 +1,8 @@
 {
   "ticker": "NVDA",
   "name": "NVIDIA CORP",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
     {
       "date": "2021-01-31T00:00:00",
@@ -189,7 +191,7 @@
       "incr_op_margin_yoy": 1.0766331658291457,
       "rev_growth_yoy": -0.20829517205285883,
       "rev_growth_yoy_accel": -0.04329446812494106,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3054154339939882
     },
     {
@@ -212,7 +214,7 @@
       "incr_op_margin_yoy": -0.24817518248175183,
       "rev_growth_yoy": -0.13223938223938225,
       "rev_growth_yoy_accel": 0.07605578981347658,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03324644213469896
     },
     {
@@ -706,5 +708,30 @@
       "severity": "MEDIUM"
     }
   ],
-  "last_updated": "2026-02-03T14:48:01.211604"
+  "data_quality": {
+    "n_quarters": 20,
+    "coverage": {
+      "revenue": [
+        20,
+        20
+      ],
+      "gross_profit": [
+        20,
+        20
+      ],
+      "op_income": [
+        20,
+        20
+      ],
+      "fcf": [
+        20,
+        20
+      ]
+    },
+    "gaps": [],
+    "warnings": []
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-04T17:44:56.667982"
 }

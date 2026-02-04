@@ -1,6 +1,8 @@
 {
   "ticker": "AAPL",
   "name": "Apple Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
   "quarters": [
     {
       "date": "2021-03-27T00:00:00",
@@ -322,7 +324,7 @@
       "incr_op_margin_yoy": 0.48269513991163476,
       "rev_growth_yoy": 0.060694093722764755,
       "rev_growth_yoy_accel": 0.012037052510984372,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.059557799171261805
     },
     {
@@ -610,5 +612,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T16:23:17.495139"
+  "last_updated": "2026-02-04T17:45:06.014507"
 }
