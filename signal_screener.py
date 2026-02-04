@@ -3371,18 +3371,19 @@ function applyFilters() {
     const validLabels = new Set(filteredQuarters.map(q => q.quarter_label));
     signals = signals.filter(s => validLabels.has(s.quarter));
 
-    // Severity filter - but still show company if it has data (just no signals)
+    // Severity filter
     let filteredSignals = signals;
     if (minRank > 0) {
       filteredSignals = signals.filter(s => (SEVERITY_RANK[s.severity] || 0) >= minRank);
-      if (filteredSignals.length === 0 && signals.length > 0) return; // Skip only if had signals but none matched
     }
 
     // Signal type filter
     if (signalQ) {
       filteredSignals = filteredSignals.filter(s => (s.signal || '').toUpperCase().includes(signalQ));
-      if (filteredSignals.length === 0 && signals.length > 0) return; // Skip only if had signals but none matched
     }
+
+    // Skip if no signals match all criteria (severity + signal type + date range)
+    if (filteredSignals.length === 0) return;
 
     matched++;
     FILTERED_TICKERS.push({ticker: ticker, sector: data.sector || '', industry: data.industry || ''});  // Track for export
