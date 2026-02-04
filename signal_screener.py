@@ -44,6 +44,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CACHE_DIR = os.path.join(SCRIPT_DIR, "cache")
 FACTS_CACHE_DIR = os.path.join(CACHE_DIR, "facts")
 RESULTS_CACHE_DIR = os.path.join(CACHE_DIR, "results")
+BRIEFS_CACHE_DIR = os.path.join(CACHE_DIR, "briefs")
 SCAN_HISTORY_FILE = os.path.join(CACHE_DIR, "scan_history.json")
 REPORTS_DIR = os.path.join(SCRIPT_DIR, "reports")
 SEC_UA = "SignalScreener/1.0 (research@example.com)"
@@ -691,6 +692,89 @@ def fetch_data_sec(ticker=None, cik=None, n_quarters=20, use_cache=True,
     }
 
 
+def fetch_sector_industry(ticker):
+    """Fetch sector and industry from yfinance."""
+    try:
+        import yfinance as yf
+        info = yf.Ticker(ticker).info or {}
+        return {
+            "sector": info.get("sector", ""),
+            "industry": info.get("industry", ""),
+        }
+    except Exception:
+        return {"sector": "", "industry": ""}
+
+
+def _generate_company_brief(ticker):
+    """Generate company brief using LLM. Caches result."""
+    # Check cache first
+    os.makedirs(BRIEFS_CACHE_DIR, exist_ok=True)
+    cache_path = os.path.join(BRIEFS_CACHE_DIR, f"{ticker.upper()}.json")
+
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                cached = json.load(f)
+                if cached.get("business") and cached.get("model"):
+                    return cached
+        except Exception:
+            pass
+
+    # Generate using DeepSeek
+    api_key = os.environ.get("DEEPSEEK_API_KEY", "")
+    if not api_key:
+        return {"business": "需要设置 DEEPSEEK_API_KEY 环境变量", "model": ""}
+
+    prompt = f"""请用中文简洁介绍美股公司 {ticker}:
+1. 业务介绍：这家公司做什么产品或服务？（1-2句话）
+2. 商业模式：这家公司怎么赚钱？（1-2句话）
+
+只返回JSON格式，不要markdown：
+{{"business": "业务介绍内容", "model": "商业模式内容"}}"""
+
+    try:
+        import urllib.request
+        url = "https://api.deepseek.com/chat/completions"
+        payload = {
+            "model": "deepseek-chat",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": 0.3,
+            "max_tokens": 500,
+        }
+        data = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(
+            url, data=data,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {api_key}",
+            },
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+
+        text = result.get("choices", [{}])[0].get("message", {}).get("content", "")
+        # Parse JSON from response
+        try:
+            brief = json.loads(text)
+        except json.JSONDecodeError:
+            import re
+            match = re.search(r'\{[\s\S]*\}', text)
+            if match:
+                brief = json.loads(match.group())
+            else:
+                brief = {"business": text[:200], "model": ""}
+
+        # Cache the result
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(brief, f, ensure_ascii=False)
+
+        return brief
+
+    except Exception as e:
+        return {"business": f"生成失败: {e}", "model": ""}
+
+
 def fetch_data_yfinance(ticker):
     """Fallback: fetch from yfinance (5 quarters only)."""
     import yfinance as yf
@@ -1151,9 +1235,14 @@ def _process_company(cik, ticker, min_revenue, force_refresh=False):
 
         signals = compute_signals(company_data)
 
+        # Fetch sector/industry from yfinance
+        sector_info = fetch_sector_industry(ticker)
+
         result = {
             "ticker": ticker,
             "name": company_data.get("name", ticker),
+            "sector": sector_info.get("sector", ""),
+            "industry": sector_info.get("industry", ""),
             "quarters": company_data["quarters"],
             "signals": signals,
             "data_quality": company_data.get("data_quality"),
@@ -2957,6 +3046,8 @@ _SERVE_HTML_TEMPLATE = r"""<!DOCTYPE html>
   .card-ticker { font-size: 16px; font-weight: 600; color: var(--text-bright); margin-right: 12px; }
   .card-name { color: var(--text-dim); font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .card-filed { color: var(--blue); font-size: 11px; margin-right: 12px; }
+  .card-sector { background: #238636; color: white; padding: 2px 8px; border-radius: 12px; font-size: 11px; margin-right: 8px; white-space: nowrap; }
+  .card-industry { color: var(--text-dim); font-size: 11px; margin-right: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 180px; }
   .badges { display: flex; gap: 6px; flex-wrap: wrap; }
   .badge { padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
   .badge-high { background: var(--red-bg); color: var(--red); border: 1px solid var(--red); }
@@ -2981,6 +3072,14 @@ _SERVE_HTML_TEMPLATE = r"""<!DOCTYPE html>
   .card.expanded .expand-icon { transform: rotate(90deg); }
   .footer { text-align: center; padding: 20px; color: var(--text-dim); font-size: 12px; }
   .loading { text-align: center; padding: 40px; color: var(--text-dim); }
+  .company-brief { background: var(--bg); border-radius: 6px; padding: 12px; margin-top: 12px; }
+  .brief-row { display: flex; padding: 8px 0; border-bottom: 1px solid var(--border); }
+  .brief-row:last-child { border-bottom: none; }
+  .brief-label { color: var(--blue); font-size: 12px; min-width: 70px; }
+  .brief-value { color: var(--text); font-size: 13px; line-height: 1.5; }
+  .brief-loading { color: var(--text-dim); font-style: italic; }
+  .btn-brief { background: transparent; border: 1px solid var(--border); color: var(--text-dim); padding: 4px 10px; border-radius: 4px; font-size: 11px; cursor: pointer; margin-top: 8px; }
+  .btn-brief:hover { border-color: var(--blue); color: var(--blue); }
 </style>
 </head>
 <body>
@@ -3011,6 +3110,12 @@ _SERVE_HTML_TEMPLATE = r"""<!DOCTYPE html>
         <option value="INFLECTION">GM Inflection</option>
         <option value="LEVERAGE">Op Leverage</option>
         <option value="FCF">FCF Related</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Sector:</label>
+      <select id="sectorFilter">
+        <option value="">All Sectors</option>
       </select>
     </div>
     <div class="filter-group">
@@ -3090,6 +3195,8 @@ function renderCard(ticker, data, filedInfo) {
   const signals = data.signals || [];
   const quarters = data.quarters || [];
   const name = data.name || '';
+  const sector = data.sector || '';
+  const industry = data.industry || '';
 
   const high = signals.filter(s => s.severity === 'HIGH').length;
   const med = signals.filter(s => s.severity === 'MEDIUM').length;
@@ -3098,6 +3205,14 @@ function renderCard(ticker, data, filedInfo) {
   if (high) badges += `<span class="badge badge-high">${high} HIGH</span>`;
   if (med) badges += `<span class="badge badge-medium">${med} MED</span>`;
   if (warn) badges += `<span class="badge badge-warning">${warn} WARN</span>`;
+
+  let sectorHtml = '';
+  if (sector) {
+    sectorHtml = `<span class="card-sector">${sector}</span>`;
+    if (industry) {
+      sectorHtml += `<span class="card-industry" title="${industry}">${industry}</span>`;
+    }
+  }
 
   let filedHtml = '';
   if (filedInfo) {
@@ -3138,10 +3253,24 @@ function renderCard(ticker, data, filedInfo) {
     tableHtml += '</table>';
   }
 
+  // Company brief section
+  const briefHtml = `<div class="company-brief" id="brief-${ticker}">
+    <div class="brief-row">
+      <span class="brief-label">业务</span>
+      <span class="brief-value brief-loading" id="brief-biz-${ticker}">点击下方按钮加载公司简介...</span>
+    </div>
+    <div class="brief-row">
+      <span class="brief-label">商业模式</span>
+      <span class="brief-value brief-loading" id="brief-model-${ticker}">-</span>
+    </div>
+    <button class="btn-brief" onclick="event.stopPropagation(); loadCompanyBrief('${ticker}')">加载公司简介</button>
+  </div>`;
+
   return `<div class="card" onclick="this.classList.toggle('expanded')">
     <div class="card-header">
       <span class="card-ticker">${ticker}</span>
       <span class="card-name">${name}</span>
+      ${sectorHtml}
       ${filedHtml}
       <div class="badges">${badges}</div>
       <span class="expand-icon">&#9654;</span>
@@ -3149,6 +3278,7 @@ function renderCard(ticker, data, filedInfo) {
     <div class="card-body">
       ${signalHtml}
       ${tableHtml}
+      ${briefHtml}
     </div>
   </div>`;
 }
@@ -3157,6 +3287,7 @@ function applyFilters() {
   const tickerQ = document.getElementById('tickerFilter').value.toUpperCase().trim();
   const severityQ = document.getElementById('severityFilter').value;
   const signalQ = document.getElementById('signalFilter').value.toUpperCase();
+  const sectorQ = document.getElementById('sectorFilter').value;
   const fromDate = parseDateFilter(document.getElementById('fromFilter').value);
   const toDate = parseDateFilter(document.getElementById('toFilter').value);
 
@@ -3204,6 +3335,9 @@ function applyFilters() {
     // Ticker filter
     if (tickerQ && !ticker.includes(tickerQ)) return;
 
+    // Sector filter
+    if (sectorQ && (data.sector || '') !== sectorQ) return;
+
     // Date range filter - filter quarters to determine which signals to show
     let filteredQuarters = allQuarters;
     if (fromDate) {
@@ -3232,7 +3366,7 @@ function applyFilters() {
     }
 
     matched++;
-    FILTERED_TICKERS.push(ticker);  // Track for export
+    FILTERED_TICKERS.push({ticker: ticker, sector: data.sector || '', industry: data.industry || ''});  // Track for export
     const filedInfo = DATA.recent_filers.find(f => f.ticker === ticker);
     // Pass filtered signals but FULL quarters history for display
     const renderData = {...data, signals: filteredSignals, quarters: allQuarters};
@@ -3268,6 +3402,7 @@ async function refreshData() {
       console.error('[RefreshData] Server error:', DATA.error);
     }
     document.getElementById('lastUpdate').textContent = DATA.generated || 'Now';
+    populateSectorDropdown();
     updateStatusLive();
     applyFilters();
   } catch (e) {
@@ -3318,10 +3453,50 @@ function updateStatusLive() {
   document.getElementById('status').style.color = count > 0 ? 'var(--green)' : 'var(--yellow)';
 }
 
+function populateSectorDropdown() {
+  const sectors = new Set();
+  Object.values(DATA.all_results).forEach(d => {
+    if (d.sector) sectors.add(d.sector);
+  });
+  const sorted = [...sectors].sort();
+  const select = document.getElementById('sectorFilter');
+  select.innerHTML = '<option value="">All Sectors</option>';
+  sorted.forEach(s => {
+    select.innerHTML += `<option value="${s}">${s}</option>`;
+  });
+}
+
+async function loadCompanyBrief(ticker) {
+  const bizEl = document.getElementById(`brief-biz-${ticker}`);
+  const modelEl = document.getElementById(`brief-model-${ticker}`);
+  if (!bizEl || !modelEl) return;
+
+  bizEl.textContent = '加载中...';
+  bizEl.classList.add('brief-loading');
+  modelEl.textContent = '-';
+
+  try {
+    const resp = await fetch(`/api/company-brief?ticker=${ticker}`);
+    const data = await resp.json();
+    if (data.error) {
+      bizEl.textContent = '加载失败: ' + data.error;
+    } else {
+      bizEl.textContent = data.business || '暂无信息';
+      bizEl.classList.remove('brief-loading');
+      modelEl.textContent = data.model || '暂无信息';
+      modelEl.classList.remove('brief-loading');
+    }
+  } catch (e) {
+    bizEl.textContent = '加载失败';
+    console.error('Error loading brief:', e);
+  }
+}
+
 function clearFilters() {
   document.getElementById('tickerFilter').value = '';
   document.getElementById('severityFilter').value = '';
   document.getElementById('signalFilter').value = '';
+  document.getElementById('sectorFilter').value = '';
   document.getElementById('fromFilter').value = '';
   document.getElementById('toFilter').value = '';
   document.getElementById('recentDays').value = '';
@@ -3335,14 +3510,20 @@ function exportTickers() {
     alert('No tickers to export. Apply filters first.');
     return;
   }
-  // Create download
-  const content = FILTERED_TICKERS.join('\n');
-  const blob = new Blob([content], {type: 'text/plain'});
+  // Create CSV content with header
+  let lines = ['ticker,sector,industry'];
+  FILTERED_TICKERS.forEach(item => {
+    const sector = (item.sector || '').replace(/,/g, ' ');
+    const industry = (item.industry || '').replace(/,/g, ' ');
+    lines.push(`${item.ticker},${sector},${industry}`);
+  });
+  const content = lines.join('\n');
+  const blob = new Blob([content], {type: 'text/csv;charset=utf-8'});
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
   const date = new Date().toISOString().slice(0, 10);
-  a.download = `tickers_${date}_${FILTERED_TICKERS.length}.txt`;
+  a.download = `tickers_${date}_${FILTERED_TICKERS.length}.csv`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -3372,6 +3553,10 @@ class SignalScreenerHandler(http.server.SimpleHTTPRequestHandler):
             query = urlparse.parse_qs(parsed.query)
             days = int(query.get("days", [7])[0])
             self._serve_recent_filers(days)
+        elif path.startswith("/api/company-brief"):
+            query = urlparse.parse_qs(parsed.query)
+            ticker = query.get("ticker", [""])[0]
+            self._serve_company_brief(ticker)
         else:
             self.send_error(404, "Not Found")
 
@@ -3428,6 +3613,26 @@ class SignalScreenerHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.end_headers()
         self.wfile.write(json.dumps(data).encode("utf-8"))
+
+    def _serve_company_brief(self, ticker):
+        """Generate and serve company brief using LLM."""
+        data = {"ticker": ticker, "business": "", "model": "", "error": None}
+
+        if not ticker:
+            data["error"] = "No ticker provided"
+        else:
+            try:
+                brief = _generate_company_brief(ticker)
+                data["business"] = brief.get("business", "")
+                data["model"] = brief.get("model", "")
+            except Exception as e:
+                data["error"] = str(e)
+                print(f"Error generating brief for {ticker}: {e}")
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(json.dumps(data, ensure_ascii=False).encode("utf-8"))
 
     def log_message(self, format, *args):
         # Suppress default logging, use custom format

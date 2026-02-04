@@ -1,5 +1,6 @@
-# Cache - keep results, exclude raw SEC data
+# Cache - keep results, exclude raw SEC data and LLM-generated briefs
 cache/facts/
+cache/briefs/
 cache/company_tickers.json
 
 # Generated reports (regenerate on demand)
