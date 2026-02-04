@@ -158,18 +158,18 @@
       "quarter_label": "2020-12 (Q4)",
       "revenue": 2304000000,
       "gross_profit": null,
-      "operating_income": 515000000,
-      "net_income": 184000000,
-      "opex": 1789000000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 31000000,
-      "ocf": 595000000,
-      "capex": -564000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
       "gross_margin": null,
-      "op_margin": 0.22352430555555555,
-      "fcf_margin": 0.013454861111111112,
+      "op_margin": null,
+      "fcf_margin": null,
       "rev_growth_yoy": -0.10628394103956555,
       "rev_growth_yoy_accel": -0.001313271079701403
     },
@@ -191,9 +191,7 @@
       "op_margin": 0.3052099533437014,
       "fcf_margin": 0.2192846034214619,
       "rev_growth_yoy": 0.02023006743355811,
-      "rev_growth_yoy_accel": 0.12651400847312366,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.20582974231035078
+      "rev_growth_yoy_accel": 0.12651400847312366
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -255,7 +253,6 @@
       "gross_margin": null,
       "op_margin": 0.12582268679829656,
       "fcf_margin": -0.04607046070460705,
-      "incr_op_margin_yoy": -0.6810035842293907,
       "rev_growth_yoy": 0.12109375,
       "rev_growth_yoy_accel": 0.05175949680924456,
       "fcf_margin_change": -0.2209091703820264
@@ -542,12 +539,6 @@
     },
     {
       "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +1.3% -> +21.9% (+20.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +2.0% vs prior quarter YoY: -10.6% (accel: +12.7%)",
       "severity": "MEDIUM"
@@ -571,22 +562,22 @@
         20
       ],
       "op_income": [
-        12,
+        11,
         20
       ],
       "fcf": [
-        12,
+        11,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 12/20Q",
-      "fcf: 12/20Q"
+      "op_income: 11/20Q",
+      "fcf: 11/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T01:01:29.990140"
+  "last_updated": "2026-02-04T13:47:58.857820"
 }

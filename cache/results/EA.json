@@ -3,24 +3,6 @@
   "name": "ELECTRONIC ARTS INC.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1673000000,
-      "gross_profit": 1072000000,
-      "operating_income": 251000000,
-      "net_income": 211000000,
-      "opex": 821000000,
-      "cogs": 601000000,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.6407650926479378,
-      "op_margin": 0.15002988643156007,
-      "fcf_margin": null
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 1346000000,
@@ -95,8 +77,6 @@
       "gross_margin": 0.6472889882615986,
       "op_margin": 0.05701509223029626,
       "fcf_margin": 0.8574622694242594,
-      "incr_op_margin_yoy": -1.2844827586206897,
-      "rev_growth_yoy": 0.06933652121936641,
       "fcf_margin_change": 0.8224129813629232
     },
     {
@@ -118,8 +98,7 @@
       "fcf_margin": 0.2432876712328767,
       "incr_op_margin_yoy": 0.3966597077244259,
       "rev_growth_yoy": 0.3558692421991085,
-      "rev_growth_yoy_accel": 0.2865327209797421,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.6141745981913826
     },
     {
@@ -231,7 +210,7 @@
       "incr_op_margin_yoy": 0.643312101910828,
       "rev_growth_yoy": 0.08885116015846067,
       "rev_growth_yoy_accel": 0.06200184508996752,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14265182594958478
     },
     {
@@ -276,7 +255,7 @@
       "incr_op_margin_yoy": 1.1875,
       "rev_growth_yoy": 0.03402445507708666,
       "rev_growth_yoy_accel": 0.028772354236750522,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5913552688483988
     },
     {
@@ -434,9 +413,44 @@
       "rev_growth_yoy_accel": -0.09847835787594823,
       "op_leverage_ratio": 1.5027169359664871,
       "fcf_margin_change": 0.06051704394024151
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1901000000,
+      "gross_profit": 1403000000,
+      "operating_income": 127000000,
+      "net_income": 88000000,
+      "opex": 1276000000,
+      "cogs": 498000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 1826000000,
+      "ocf": 1826000000,
+      "capex": null,
+      "gross_margin": 0.7380326144134666,
+      "op_margin": 0.06680694371383482,
+      "fcf_margin": 0.9605470804839558,
+      "incr_op_margin_yoy": -13.88888888888889,
+      "rev_growth_yoy": 0.009559214020180564,
+      "rev_growth_yoy_accel": 0.10141106587203241,
+      "op_leverage_ratio": 0.5040239260467645,
+      "fcf_margin_change": 0.8898564877705245
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +7.1% -> +96.1% (+89.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +1.0% vs prior quarter YoY: -9.2% (accel: +10.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -613,12 +627,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +35.6% vs prior quarter YoY: +6.9% (accel: +28.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +39.7% vs year-ago OPM: +13.0%",
       "severity": "HIGH"
@@ -664,7 +672,7 @@
         20
       ],
       "fcf": [
-        19,
+        20,
         20
       ]
     },
@@ -673,5 +681,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:20.428277"
+  "last_updated": "2026-02-04T13:46:43.615432"
 }

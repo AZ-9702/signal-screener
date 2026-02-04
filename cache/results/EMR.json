@@ -3,24 +3,6 @@
   "name": "EMERSON ELECTRIC CO.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4161000000,
-      "gross_profit": 1723000000,
-      "operating_income": null,
-      "net_income": 445000000,
-      "opex": null,
-      "cogs": 2438000000,
-      "rd": null,
-      "sga": 998000000,
-      "fcf": 686000000,
-      "ocf": 808000000,
-      "capex": -122000000,
-      "gross_margin": 0.41408315308819993,
-      "op_margin": null,
-      "fcf_margin": 0.16486421533285267
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 4431000000,
@@ -36,8 +18,7 @@
       "capex": -100000000,
       "gross_margin": 0.42022116903633494,
       "op_margin": null,
-      "fcf_margin": 0.15955766192733017,
-      "fcf_margin_change": -0.005306553405522496
+      "fcf_margin": 0.15955766192733017
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +75,6 @@
       "gross_margin": 0.4073328862061256,
       "op_margin": null,
       "fcf_margin": 0.1006036217303823,
-      "rev_growth_yoy": 0.07498197548666186,
       "fcf_margin_change": -0.06131269118653705
     },
     {
@@ -115,7 +95,6 @@
       "op_margin": null,
       "fcf_margin": 0.07827175954915466,
       "rev_growth_yoy": 0.08124576844955991,
-      "rev_growth_yoy_accel": 0.006263792962898057,
       "fcf_margin_change": -0.022331862181227638
     },
     {
@@ -411,6 +390,27 @@
       "rev_growth_yoy": 0.05109331024031175,
       "rev_growth_yoy_accel": 0.011595593345334582,
       "fcf_margin_change": -0.04115433673613644
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4346000000,
+      "gross_profit": 2311000000,
+      "operating_income": null,
+      "net_income": 605000000,
+      "opex": null,
+      "cogs": 2035000000,
+      "rd": null,
+      "sga": 1242000000,
+      "fcf": 602000000,
+      "ocf": 699000000,
+      "capex": -97000000,
+      "gross_margin": 0.5317533364012885,
+      "op_margin": null,
+      "fcf_margin": 0.13851817763460653,
+      "rev_growth_yoy": 0.04095808383233533,
+      "rev_growth_yoy_accel": -0.01013522640797642,
+      "fcf_margin_change": -0.03491127653635126
     }
   ],
   "signals": [
@@ -532,5 +532,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:46.842914"
+  "last_updated": "2026-02-04T13:46:46.456050"
 }

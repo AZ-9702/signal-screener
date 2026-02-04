@@ -3,24 +3,6 @@
   "name": "PayPal Holdings, Inc.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6116000000,
-      "gross_profit": null,
-      "operating_income": 963000000,
-      "net_income": 1567000000,
-      "opex": 5153000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1486000000,
-      "ocf": 1712000000,
-      "capex": -226000000,
-      "gross_margin": null,
-      "op_margin": 0.15745585349901897,
-      "fcf_margin": 0.24296926095487248
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 6033000000,
@@ -36,8 +18,7 @@
       "capex": -221000000,
       "gross_margin": null,
       "op_margin": 0.17271672468092159,
-      "fcf_margin": 0.25476545665506384,
-      "fcf_margin_change": 0.011796195700191359
+      "fcf_margin": 0.25476545665506384
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +76,6 @@
       "gross_margin": null,
       "op_margin": 0.15177797051170858,
       "fcf_margin": 0.14556230124313385,
-      "incr_op_margin_yoy": 0.1084788029925187,
-      "rev_growth_yoy": 0.13113145846958796,
       "op_leverage_ratio": 0.8392665284717479,
       "fcf_margin_change": -0.06246099218941226
     },
@@ -119,7 +98,6 @@
       "fcf_margin": 0.15826006478482185,
       "incr_op_margin_yoy": -0.7355555555555555,
       "rev_growth_yoy": 0.07458975634012929,
-      "rev_growth_yoy_accel": -0.056541702129458665,
       "fcf_margin_change": 0.012697763541688
     },
     {
@@ -438,6 +416,29 @@
       "rev_growth_yoy_accel": 0.021529523215840292,
       "op_leverage_ratio": 0.9344312707144565,
       "fcf_margin_change": 0.1206165197937801
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8676000000,
+      "gross_profit": null,
+      "operating_income": 1511000000,
+      "net_income": 1437000000,
+      "opex": 7165000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2190000000,
+      "ocf": 2384000000,
+      "capex": -194000000,
+      "gross_margin": null,
+      "op_margin": 0.17415859843245735,
+      "fcf_margin": 0.2524204702627939,
+      "incr_op_margin_yoy": 0.22580645161290322,
+      "rev_growth_yoy": 0.037054745398039685,
+      "rev_growth_yoy_accel": -0.03558447978355837,
+      "op_leverage_ratio": 0.7918954886964725,
+      "fcf_margin_change": 0.04830974197480531
     }
   ],
   "signals": [
@@ -542,12 +543,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +15.8% -> +23.0% (+7.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.5% vs prior quarter YoY: +13.1% (decel: -5.7%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -577,5 +572,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:58:56.614045"
+  "last_updated": "2026-02-04T13:47:39.111367"
 }

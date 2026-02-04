@@ -37,7 +37,7 @@
       "gross_margin": 0.22399537561058283,
       "op_margin": 0.10042006888161199,
       "fcf_margin": 0.06561911737111936,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.056666484109346195
     },
     {
@@ -99,7 +99,7 @@
       "fcf_margin": 0.01689882270084415,
       "incr_op_margin_yoy": 0.21590435075410727,
       "rev_growth_yoy": 0.6491866284722448,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07949138007228806
     },
     {
@@ -345,7 +345,7 @@
       "incr_op_margin_yoy": 0.32191680726973204,
       "rev_growth_yoy": 0.16847856498548466,
       "rev_growth_yoy_accel": 0.04585174818129026,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03618453886020473
     },
     {
@@ -390,7 +390,7 @@
       "incr_op_margin_yoy": 0.27513941810290443,
       "rev_growth_yoy": 0.16595093373311084,
       "rev_growth_yoy_accel": -0.044085294183807744,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0193547397239488
     },
     {
@@ -634,5 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T16:23:16.581104"
+  "last_updated": "2026-02-04T13:48:15.135020"
 }

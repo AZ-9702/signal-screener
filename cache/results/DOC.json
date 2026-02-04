@@ -1,25 +1,7 @@
 {
   "ticker": "DOC",
-  "name": "Healthpeak Properties, Inc.",
+  "name": "Healthpeak Properties,\u00a0Inc.",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 431697000,
-      "gross_profit": 655302000,
-      "operating_income": null,
-      "net_income": 146394000,
-      "opex": -223605000,
-      "cogs": -223605000,
-      "rd": null,
-      "sga": null,
-      "fcf": 218707000,
-      "ocf": 218707000,
-      "capex": null,
-      "gross_margin": 1.5179674632902245,
-      "op_margin": null,
-      "fcf_margin": 0.5066215424244319
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +18,7 @@
       "capex": null,
       "gross_margin": 0.6007674465598889,
       "op_margin": null,
-      "fcf_margin": 0.26956395680861717,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.23705758561581475
+      "fcf_margin": 0.26956395680861717
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +77,6 @@
       "gross_margin": 0.5876553429703749,
       "op_margin": null,
       "fcf_margin": 0.46339131424550656,
-      "rev_growth_yoy": 0.11931516781446246,
       "fcf_margin_change": 0.023606490841936223
     },
     {
@@ -118,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.3896346504217733,
       "rev_growth_yoy": 0.09465906395241568,
-      "rev_growth_yoy_accel": -0.02465610386204678,
       "op_leverage_ratio": 0.7817539266460405,
       "fcf_margin_change": -0.07375666382373325
     },
@@ -226,7 +204,7 @@
       "fcf_margin": 0.5460205709256917,
       "rev_growth_yoy": 0.0530919116795255,
       "rev_growth_yoy_accel": -0.0016984858548464155,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21516974589592058
     },
     {
@@ -421,9 +399,37 @@
       "rev_growth_yoy_accel": 0.009480527008267849,
       "op_leverage_ratio": 6.5235744186232205,
       "fcf_margin_change": -0.07729044028553378
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 719402000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 113968000,
+      "opex": 660779000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 294084000,
+      "ocf": 294084000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4087895224088896,
+      "rev_growth_yoy": 0.03067961053771698,
+      "rev_growth_yoy_accel": 0.022861187557607132,
+      "op_leverage_ratio": 1.6732983408319526,
+      "fcf_margin_change": -0.037411139749884026
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +1.9% vs OpEx growth +1.1% (leverage: 1.7x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -493,7 +499,7 @@
         20
       ],
       "gross_profit": [
-        20,
+        19,
         20
       ],
       "op_income": [
@@ -512,5 +518,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:32:25.388882"
+  "last_updated": "2026-02-04T13:46:55.880486"
 }

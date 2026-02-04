@@ -3,24 +3,6 @@
   "name": "Atmos Energy Corp",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 914480000,
-      "gross_profit": 626220000,
-      "operating_income": 298840000,
-      "net_income": 217678000,
-      "opex": 327380000,
-      "cogs": 288260000,
-      "rd": null,
-      "sga": null,
-      "fcf": 157069000,
-      "ocf": 157069000,
-      "capex": null,
-      "gross_margin": 0.6847826086956522,
-      "op_margin": 0.3267868078033418,
-      "fcf_margin": 0.17175772023445018
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 1319073000,
@@ -36,9 +18,7 @@
       "capex": null,
       "gross_margin": 0.5649907169656266,
       "op_margin": 0.2894487264920137,
-      "fcf_margin": -1.1821294196757874,
-      "op_leverage_ratio": 4.014484342306611,
-      "fcf_margin_change": -1.3538871399102377
+      "fcf_margin": -1.1821294196757874
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +75,7 @@
       "gross_margin": 0.6335227777635157,
       "op_margin": 0.2723783701591452,
       "fcf_margin": 0.06104349783666046,
-      "incr_op_margin_yoy": -0.23374972026122515,
-      "rev_growth_yoy": 0.1074993438894235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06953019881912154
     },
     {
@@ -119,7 +97,6 @@
       "fcf_margin": 0.3507415055833398,
       "incr_op_margin_yoy": 0.010062102036003459,
       "rev_growth_yoy": 0.25074124024978145,
-      "rev_growth_yoy_accel": 0.14324189636035795,
       "op_leverage_ratio": 8.351577500614766,
       "fcf_margin_change": 0.2896980077466793
     },
@@ -187,7 +164,7 @@
       "incr_op_margin_yoy": 0.09618588226805568,
       "rev_growth_yoy": 0.4652740065522233,
       "rev_growth_yoy_accel": 0.1939011318759481,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0604952463228912
     },
     {
@@ -277,7 +254,7 @@
       "incr_op_margin_yoy": -0.23935160440127543,
       "rev_growth_yoy": -0.21936659413790618,
       "rev_growth_yoy_accel": -0.03256785398391271,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1936803094286218
     },
     {
@@ -435,6 +412,28 @@
       "rev_growth_yoy": 0.12088566808117408,
       "rev_growth_yoy_accel": -0.07471720498970193,
       "fcf_margin_change": -0.11973861727369295
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1342585000,
+      "gross_profit": null,
+      "operating_income": 514764000,
+      "net_income": 402964000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 308058000,
+      "ocf": 308058000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.38341259585054205,
+      "fcf_margin": 0.22945139413891857,
+      "incr_op_margin_yoy": 0.331864622477279,
+      "rev_growth_yoy": 0.14165488235959384,
+      "rev_growth_yoy_accel": 0.020769214278419754,
+      "fcf_margin_change": -0.24259394946361978
     }
   ],
   "signals": [
@@ -601,28 +600,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +25.1% vs prior quarter YoY: +10.7% (accel: +14.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -118.2% -> +40.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +68.5% -> +56.5% -> +85.7% (reversal +29.2%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +44.2% vs OpEx growth +11.0% (leverage: 4.0x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -633,7 +614,7 @@
         20
       ],
       "gross_profit": [
-        16,
+        15,
         20
       ],
       "op_income": [
@@ -646,9 +627,11 @@
       ]
     },
     "gaps": [],
-    "warnings": []
+    "warnings": [
+      "gross_profit: 15/20Q"
+    ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:11:10.609822"
+  "last_updated": "2026-02-04T13:45:52.243941"
 }

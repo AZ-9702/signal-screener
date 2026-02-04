@@ -3,24 +3,6 @@
   "name": "AVIAT NETWORKS, INC.",
   "quarters": [
     {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 70531000,
-      "gross_profit": 26909000,
-      "operating_income": 7878000,
-      "net_income": 6641000,
-      "opex": 19031000,
-      "cogs": 43622000,
-      "rd": 5419000,
-      "sga": 13612000,
-      "fcf": 5621000,
-      "ocf": 5979000,
-      "capex": -358000,
-      "gross_margin": 0.3815201826147368,
-      "op_margin": 0.11169556648849442,
-      "fcf_margin": 0.07969545306319208
-    },
-    {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
       "revenue": 66404000,
@@ -36,8 +18,7 @@
       "capex": -1023000,
       "gross_margin": 0.3851876392988374,
       "op_margin": 0.06076441178242275,
-      "fcf_margin": 0.04433467863381724,
-      "fcf_margin_change": -0.03536077442937484
+      "fcf_margin": 0.04433467863381724
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -76,7 +57,7 @@
       "gross_margin": 0.3565023647447989,
       "op_margin": 0.09314087317859975,
       "fcf_margin": 0.004551792011810055,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03259632617026176
     },
     {
@@ -96,9 +77,7 @@
       "gross_margin": 0.36160484948114663,
       "op_margin": 0.11825747457104695,
       "fcf_margin": -0.04230453097708826,
-      "incr_op_margin_yoy": 0.18137188054002454,
-      "rev_growth_yoy": 0.10396846776594688,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.046856322988898316
     },
     {
@@ -120,7 +99,6 @@
       "fcf_margin": -0.11883353910569543,
       "incr_op_margin_yoy": 0.4249260355029586,
       "rev_growth_yoy": 0.12216131558339859,
-      "rev_growth_yoy_accel": 0.0181928478174517,
       "fcf_margin_change": -0.07652900812860716
     },
     {
@@ -189,7 +167,7 @@
       "incr_op_margin_yoy": -0.041344878695686094,
       "rev_growth_yoy": 0.16463320661666495,
       "rev_growth_yoy_accel": 0.05400962478009205,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0588090724176966
     },
     {
@@ -302,7 +280,7 @@
       "incr_op_margin_yoy": -0.08772615789286603,
       "rev_growth_yoy": 0.3370028749401054,
       "rev_growth_yoy_accel": 0.2890004930162608,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21407105236795695
     },
     {
@@ -369,7 +347,7 @@
       "incr_op_margin_yoy": 0.1284918613185959,
       "rev_growth_yoy": 0.2437076476282672,
       "rev_growth_yoy_accel": 0.233852224290442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5230207101818358
     },
     {
@@ -438,9 +416,44 @@
       "rev_growth_yoy": 0.21362901310656007,
       "rev_growth_yoy_accel": 0.20070176401111622,
       "fcf_margin_change": -0.19697880534181753
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 111472000,
+      "gross_profit": 36101000,
+      "operating_income": 7287000,
+      "net_income": 5718000,
+      "opex": 28814000,
+      "cogs": 75371000,
+      "rd": 6409000,
+      "sga": 22384000,
+      "fcf": 22476000,
+      "ocf": 23917000,
+      "capex": -1441000,
+      "gross_margin": 0.32385711209989954,
+      "op_margin": 0.06537067604420842,
+      "fcf_margin": 0.20162910865508826,
+      "incr_op_margin_yoy": 0.10156133828996282,
+      "rev_growth_yoy": -0.056896537137152384,
+      "rev_growth_yoy_accel": -0.27052555024371244,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.3271322767505038
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -12.6% -> +20.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -5.7% vs prior quarter YoY: +21.4% (decel: -27.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -617,5 +630,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:49:50.843105"
+  "last_updated": "2026-02-04T13:45:56.748325"
 }

@@ -3,24 +3,6 @@
   "name": "THE CLOROX COMPANY",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1842000000,
-      "gross_profit": 837000000,
-      "operating_income": null,
-      "net_income": 259000000,
-      "opex": null,
-      "cogs": 1005000000,
-      "rd": 40000000,
-      "sga": 269000000,
-      "fcf": 164000000,
-      "ocf": 246000000,
-      "capex": -82000000,
-      "gross_margin": 0.4543973941368078,
-      "op_margin": null,
-      "fcf_margin": 0.08903365906623235
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 1781000000,
@@ -36,8 +18,7 @@
       "capex": -81000000,
       "gross_margin": 0.43458731049971927,
       "op_margin": null,
-      "fcf_margin": 0.10275126333520494,
-      "fcf_margin_change": 0.013717604268972589
+      "fcf_margin": 0.10275126333520494
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +75,6 @@
       "gross_margin": 0.32998225901833234,
       "op_margin": null,
       "fcf_margin": 0.07332939089296274,
-      "rev_growth_yoy": -0.08197611292073832,
       "fcf_margin_change": 0.07942019930935255
     },
     {
@@ -115,7 +95,6 @@
       "op_margin": null,
       "fcf_margin": 0.09176340519624102,
       "rev_growth_yoy": 0.015721504772599662,
-      "rev_growth_yoy_accel": 0.09769761769333798,
       "fcf_margin_change": 0.018434014303278276
     },
     {
@@ -411,9 +390,42 @@
       "rev_growth_yoy": -0.18898978433598185,
       "rev_growth_yoy_accel": -0.23365610067859877,
       "fcf_margin_change": -0.0702729322048456
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1673000000,
+      "gross_profit": 722000000,
+      "operating_income": null,
+      "net_income": 157000000,
+      "opex": null,
+      "cogs": 951000000,
+      "rd": 29000000,
+      "sga": 262000000,
+      "fcf": 269000000,
+      "ocf": 311000000,
+      "capex": -42000000,
+      "gross_margin": 0.43156007172743577,
+      "op_margin": null,
+      "fcf_margin": 0.1607890017931859,
+      "rev_growth_yoy": -0.00771055753262159,
+      "rev_growth_yoy_accel": 0.18127922680336025,
+      "fcf_margin_change": 0.12090096820326288
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +4.0% -> +16.1% (+12.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -0.8% vs prior quarter YoY: -18.9% (accel: +18.1%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -523,12 +535,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +1.6% vs prior quarter YoY: -8.2% (accel: +9.8%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.6% -> +7.3%",
@@ -568,5 +574,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:50.671928"
+  "last_updated": "2026-02-04T13:46:16.696287"
 }

@@ -3,24 +3,6 @@
   "name": "DIGITAL TURBINE, INC.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 88592000,
-      "gross_profit": 37699000,
-      "operating_income": 20517000,
-      "net_income": 14515000,
-      "opex": 17182000,
-      "cogs": 50893000,
-      "rd": 5202000,
-      "sga": null,
-      "fcf": 18946000,
-      "ocf": 18946000,
-      "capex": null,
-      "gross_margin": 0.425535037023659,
-      "op_margin": 0.2315897597977244,
-      "fcf_margin": 0.2138567816507134
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 95082000,
@@ -36,9 +18,7 @@
       "capex": null,
       "gross_margin": 0.43520329820575926,
       "op_margin": 0.16779201110620307,
-      "fcf_margin": 0.14916598304621273,
-      "op_leverage_ratio": 0.02031938864811797,
-      "fcf_margin_change": -0.06469079860450067
+      "fcf_margin": 0.14916598304621273
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +77,6 @@
       "gross_margin": 0.2870006152010589,
       "op_margin": 0.0776032192858874,
       "fcf_margin": 0.09509783294761204,
-      "incr_op_margin_yoy": 0.030052806775998187,
-      "rev_growth_yoy": 3.2383849557522124,
       "op_leverage_ratio": 1.173286660236096,
       "fcf_margin_change": -0.023375434730213918
     },
@@ -121,7 +99,6 @@
       "fcf_margin": -0.27387516505099163,
       "incr_op_margin_yoy": -0.04666935185298198,
       "rev_growth_yoy": -2.5850634189436485,
-      "rev_growth_yoy_accel": -5.823448374695861,
       "fcf_margin_change": -0.36897299799860367
     },
     {
@@ -318,7 +295,7 @@
       "incr_op_margin_yoy": 0.40078232371286604,
       "rev_growth_yoy": -0.19387699329079158,
       "rev_growth_yoy_accel": 0.005205208853115706,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09329701431178934
     },
     {
@@ -431,11 +408,52 @@
       "incr_op_margin_yoy": 0.9273407547692734,
       "rev_growth_yoy": 0.18234114951822653,
       "rev_growth_yoy_accel": 0.07269533507789734,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.035886441929703736
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 151399000,
+      "gross_profit": 86974000,
+      "operating_income": 21654000,
+      "net_income": 5107000,
+      "opex": 129745000,
+      "cogs": 64425000,
+      "rd": 9892000,
+      "sga": null,
+      "fcf": 14176000,
+      "ocf": 14176000,
+      "capex": null,
+      "gross_margin": 0.5744687877727066,
+      "op_margin": 0.14302604376515035,
+      "fcf_margin": 0.09363337934860864,
+      "incr_op_margin_yoy": 2.052678677962057,
+      "rev_growth_yoy": 0.12449772350839665,
+      "rev_growth_yoy_accel": -0.057843426009829876,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.009374948226421459
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +55.6% -> +55.1% -> +57.4% (reversal +2.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +12.4% vs prior quarter YoY: +18.2% (decel: -5.8%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -9.5% (year-ago) -> +14.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -557,12 +575,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -258.5% vs prior quarter YoY: +323.8% (decel: -582.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -13.6% -> +11.8%",
@@ -594,5 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:18:10.783315"
+  "last_updated": "2026-02-04T13:46:35.833235"
 }

@@ -3,24 +3,6 @@
   "name": "eGain Corporation",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 19233000,
-      "gross_profit": 14522000,
-      "operating_income": 1896000,
-      "net_income": 1606000,
-      "opex": 12626000,
-      "cogs": 4711000,
-      "rd": 4508000,
-      "sga": null,
-      "fcf": -25000,
-      "ocf": 213000,
-      "capex": -238000,
-      "gross_margin": 0.7550564134560391,
-      "op_margin": 0.09858056465450007,
-      "fcf_margin": -0.0012998492174907711
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 19743000,
@@ -36,9 +18,7 @@
       "capex": -37000,
       "gross_margin": 0.7545459150078508,
       "op_margin": 0.07987641189282277,
-      "fcf_margin": -0.049485893734488175,
-      "op_leverage_ratio": 0.4824246151135229,
-      "fcf_margin_change": -0.0481860445169974
+      "fcf_margin": -0.049485893734488175
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +77,6 @@
       "gross_margin": 0.7358073875200277,
       "op_margin": -0.027280994240678993,
       "fcf_margin": -0.11406053782531503,
-      "incr_op_margin_yoy": -0.6544041450777202,
-      "rev_growth_yoy": 0.20069671918057505,
       "op_leverage_ratio": 0.5479457057169052,
       "fcf_margin_change": -0.44220374793206996
     },
@@ -121,7 +99,6 @@
       "fcf_margin": 0.03765060240963856,
       "incr_op_margin_yoy": -0.49339101177601535,
       "rev_growth_yoy": 0.21075824342805044,
-      "rev_growth_yoy_accel": 0.01006152424747539,
       "op_leverage_ratio": 2.800292658859426,
       "fcf_margin_change": 0.15171114023495358
     },
@@ -190,7 +167,7 @@
       "incr_op_margin_yoy": 0.33625847626645394,
       "rev_growth_yoy": 0.10856103581171783,
       "rev_growth_yoy_accel": -0.045837360533440896,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2570456142985503
     },
     {
@@ -234,7 +211,7 @@
       "incr_op_margin_yoy": 3.6051236749116606,
       "rev_growth_yoy": 0.04816406416202187,
       "rev_growth_yoy_accel": 0.08543816054756403,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.22642875029442813
     },
     {
@@ -409,7 +386,7 @@
       "fcf_margin": -0.19531720754067314,
       "rev_growth_yoy": 0.03436915679814798,
       "rev_growth_yoy_accel": 0.09436915679814797,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.29555996064648493
     },
     {
@@ -434,9 +411,36 @@
       "rev_growth_yoy_accel": 0.044028934857432554,
       "op_leverage_ratio": 0.1327620254123719,
       "fcf_margin_change": 0.6295523615308042
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 22979000,
+      "gross_profit": 16807000,
+      "operating_income": 2046000,
+      "net_income": 2336000,
+      "opex": 14761000,
+      "cogs": 6172000,
+      "rd": 7277000,
+      "sga": null,
+      "fcf": 9874000,
+      "ocf": 10108000,
+      "capex": -234000,
+      "gross_margin": 0.7314069367683537,
+      "op_margin": 0.08903781713738632,
+      "fcf_margin": 0.4296966795770051,
+      "rev_growth_yoy": 0.02635222653981866,
+      "rev_growth_yoy_accel": -0.052045865115761876,
+      "fcf_margin_change": -0.004538474413125937
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +2.6% vs prior quarter YoY: +7.8% (decel: -5.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -643,5 +647,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:48:31.517213"
+  "last_updated": "2026-02-04T13:46:39.441954"
 }

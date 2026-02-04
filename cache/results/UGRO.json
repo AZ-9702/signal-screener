@@ -3,24 +3,6 @@
   "name": "URBAN-GRO, INC.",
   "quarters": [
     {
-      "date": "2020-03-31T00:00:00",
-      "quarter_label": "2020-03 (Q1)",
-      "revenue": 4261003,
-      "gross_profit": 1113488,
-      "operating_income": -1414565,
-      "net_income": -1695631,
-      "opex": 2528053,
-      "cogs": 3147515,
-      "rd": null,
-      "sga": null,
-      "fcf": -1913382,
-      "ocf": -1866585,
-      "capex": -46797,
-      "gross_margin": 0.26132063272426703,
-      "op_margin": -0.3319793485242794,
-      "fcf_margin": -0.44904497837715673
-    },
-    {
       "date": "2020-06-30T00:00:00",
       "quarter_label": "2020-06 (Q2)",
       "revenue": 4005264,
@@ -36,8 +18,7 @@
       "capex": -38534,
       "gross_margin": 0.2979708703346396,
       "op_margin": -0.2314331839299482,
-      "fcf_margin": -0.33315506793060334,
-      "fcf_margin_change": 0.11588991044655339
+      "fcf_margin": -0.33315506793060334
     },
     {
       "date": "2020-09-30T00:00:00",
@@ -56,7 +37,7 @@
       "gross_margin": 0.20399592220610469,
       "op_margin": -0.017769171122118253,
       "fcf_margin": 0.011582858240677407,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.34473792617128074
     },
     {
@@ -96,8 +77,6 @@
       "gross_margin": 0.21942524894140594,
       "op_margin": 0.01269955572204184,
       "fcf_margin": 0.024802486347838413,
-      "incr_op_margin_yoy": 0.20163700229823545,
-      "rev_growth_yoy": 1.8243016961030067,
       "op_leverage_ratio": 1.1349261854261112,
       "fcf_margin_change": 0.09620247000000337
     },
@@ -120,7 +99,6 @@
       "fcf_margin": 0.07781606177458132,
       "incr_op_margin_yoy": 0.13017229824542917,
       "rev_growth_yoy": 2.2036083014752585,
-      "rev_growth_yoy_accel": 0.3793066053722518,
       "op_leverage_ratio": 0.7748615621330621,
       "fcf_margin_change": 0.05301357542674291
     },
@@ -257,7 +235,7 @@
       "incr_op_margin_yoy": 1.4059372400367058,
       "rev_growth_yoy": -0.08610054675394153,
       "rev_growth_yoy_accel": 0.2375859786590781,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0003556736146999029
     },
     {
@@ -302,7 +280,7 @@
       "incr_op_margin_yoy": -0.7666101600091705,
       "rev_growth_yoy": 0.15699048177554614,
       "rev_growth_yoy_accel": 0.3606436750766587,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3129510908591145
     },
     {
@@ -325,7 +303,7 @@
       "incr_op_margin_yoy": 0.44270041080874106,
       "rev_growth_yoy": 0.6925798087092536,
       "rev_growth_yoy_accel": 0.5355893269337075,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.37241568888676796
     },
     {
@@ -358,7 +336,7 @@
       "operating_income": -2063772,
       "net_income": -2141503,
       "opex": 5179787,
-      "cogs": 12426663,
+      "cogs": 12409578,
       "rd": null,
       "sga": null,
       "fcf": 628549,
@@ -370,7 +348,7 @@
       "incr_op_margin_yoy": -2.4395860987137556,
       "rev_growth_yoy": -0.07293044567720933,
       "rev_growth_yoy_accel": 0.15471521701354846,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3346905191483368
     },
     {
@@ -392,7 +370,7 @@
       "fcf_margin": -0.13315702668711923,
       "rev_growth_yoy": -0.04736790528531745,
       "rev_growth_yoy_accel": 0.025562540391891875,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17359722624603696
     },
     {
@@ -438,9 +416,37 @@
       "rev_growth_yoy": -1.2411070153053219,
       "rev_growth_yoy_accel": -0.713501417550859,
       "fcf_margin_change": 0.5498537347768686
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 9514075,
+      "gross_profit": 610022,
+      "operating_income": -4075175,
+      "net_income": -4033912,
+      "opex": 4685197,
+      "cogs": 8904053,
+      "rd": null,
+      "sga": null,
+      "fcf": 2213953,
+      "ocf": 2213953,
+      "capex": null,
+      "gross_margin": 0.0641178464538066,
+      "op_margin": -0.42833118301043455,
+      "fcf_margin": 0.23270291646849536,
+      "incr_op_margin_yoy": 0.33364330011447096,
+      "rev_growth_yoy": -0.3878741488435905,
+      "rev_growth_yoy_accel": 0.8532328664617314,
+      "fcf_margin_change": -0.4115013847867244
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -38.8% vs prior quarter YoY: -124.1% (accel: +85.3%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
@@ -599,12 +605,6 @@
     },
     {
       "quarter": "2021-06 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +220.4% vs prior quarter YoY: +182.4% (accel: +37.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -23.1% (year-ago) -> +1.7%",
       "severity": "HIGH"
@@ -623,12 +623,6 @@
     },
     {
       "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -33.2% (year-ago) -> +1.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -2.8% -> +1.3%",
       "severity": "HIGH"
@@ -644,12 +638,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -33.3% -> +1.2%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2020-06 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -44.9% -> -33.3% (+11.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -677,5 +665,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:26:37.545288"
+  "last_updated": "2026-02-04T13:48:10.242564"
 }

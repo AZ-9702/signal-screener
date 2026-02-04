@@ -3,24 +3,6 @@
   "name": "HAMILTON LANE INC",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 84583000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 33203000,
-      "opex": 41864000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 51747000,
-      "ocf": 58157000,
-      "capex": -6410000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.6117896031117364
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 102877000,
@@ -36,9 +18,7 @@
       "capex": -10079000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.2944098292135268,
-      "op_leverage_ratio": 0.5976198491932179,
-      "fcf_margin_change": -0.31737977389820954
+      "fcf_margin": 0.2944098292135268
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +76,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.7359002878827532,
-      "rev_growth_yoy": 0.08418949434283485,
       "fcf_margin_change": 0.22318226462693924
     },
     {
@@ -117,7 +96,6 @@
       "op_margin": null,
       "fcf_margin": 0.1612784935579782,
       "rev_growth_yoy": -0.019217123360906713,
-      "rev_growth_yoy_accel": -0.10340661770374156,
       "op_leverage_ratio": 1.2779727391986357,
       "fcf_margin_change": -0.574621794324775
     },
@@ -423,9 +401,43 @@
       "rev_growth_yoy_accel": 0.37813269992779275,
       "op_leverage_ratio": 0.6890647536262539,
       "fcf_margin_change": -0.10790032816354378
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 198589000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 58372000,
+      "opex": 112583000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 72446000,
+      "ocf": 74114000,
+      "capex": -1668000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.36480369003318414,
+      "rev_growth_yoy": 0.1802437879247122,
+      "rev_growth_yoy_accel": -0.09229802902073411,
+      "op_leverage_ratio": 3.166135234241349,
+      "fcf_margin_change": -0.2524008363708393
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +4.0% vs OpEx growth +1.3% (leverage: 3.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +18.0% vs prior quarter YoY: +27.3% (decel: -9.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -559,12 +571,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -1.9% vs prior quarter YoY: +8.4% (decel: -10.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +51.3% -> +73.6% (+22.3%)",
@@ -611,5 +617,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:30.625954"
+  "last_updated": "2026-02-04T13:47:00.686900"
 }

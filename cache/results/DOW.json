@@ -3,24 +3,6 @@
   "name": "Dow Inc.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 10706000000,
-      "gross_profit": 1571000000,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": 9135000000,
-      "rd": null,
-      "sga": 408000000,
-      "fcf": 1630000000,
-      "ocf": 1630000000,
-      "capex": null,
-      "gross_margin": 0.14674014571268448,
-      "op_margin": null,
-      "fcf_margin": 0.15225107416402017
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 11882000000,
@@ -36,8 +18,7 @@
       "capex": null,
       "gross_margin": 0.15317286652078774,
       "op_margin": null,
-      "fcf_margin": -0.02449082646019189,
-      "fcf_margin_change": -0.17674190062421205
+      "fcf_margin": -0.02449082646019189
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +75,6 @@
       "gross_margin": 0.18003341687552213,
       "op_margin": null,
       "fcf_margin": 0.1792676134781398,
-      "rev_growth_yoy": 0.34167756398281335,
       "fcf_margin_change": -0.004125255700265534
     },
     {
@@ -115,7 +95,6 @@
       "op_margin": null,
       "fcf_margin": 0.10501834381551363,
       "rev_growth_yoy": 0.28463221679851874,
-      "rev_growth_yoy_accel": -0.057045347184294604,
       "fcf_margin_change": -0.07424926966262617
     },
     {
@@ -411,6 +390,27 @@
       "rev_growth_yoy": -0.08327971320893464,
       "rev_growth_yoy_accel": -0.00897829314480271,
       "fcf_margin_change": 0.15952134500284576
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 9460000000,
+      "gross_profit": 548000000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": 8912000000,
+      "rd": null,
+      "sga": 339000000,
+      "fcf": 284000000,
+      "ocf": 284000000,
+      "capex": null,
+      "gross_margin": 0.057928118393234675,
+      "op_margin": null,
+      "fcf_margin": 0.030021141649048625,
+      "rev_growth_yoy": -0.09082172032676598,
+      "rev_growth_yoy_accel": -0.007542007117831345,
+      "fcf_margin_change": -0.08298397215823103
     }
   ],
   "signals": [
@@ -463,12 +463,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +28.5% vs prior quarter YoY: +34.2% (decel: -5.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.4% -> +14.4%",
@@ -502,5 +496,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:18:54.790888"
+  "last_updated": "2026-02-04T13:46:31.702019"
 }

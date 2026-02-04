@@ -3,24 +3,6 @@
   "name": "TEVA PHARMACEUTICAL INDUSTRIES LIMITED",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4454000000,
-      "gross_profit": 2048000000,
-      "operating_income": 406000000,
-      "net_income": 150000000,
-      "opex": 1642000000,
-      "cogs": 2405000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 155000000,
-      "ocf": 331000000,
-      "capex": -176000000,
-      "gross_margin": 0.4598114054782218,
-      "op_margin": 0.09115401885945218,
-      "fcf_margin": 0.034800179613830265
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 3982000000,
@@ -36,8 +18,7 @@
       "capex": -150000000,
       "gross_margin": 0.47162230035158215,
       "op_margin": 0.1089904570567554,
-      "fcf_margin": -0.1393771973882471,
-      "fcf_margin_change": -0.17417737700207736
+      "fcf_margin": -0.1393771973882471
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +75,6 @@
       "gross_margin": 0.5,
       "op_margin": 0.01902439024390244,
       "fcf_margin": 0.07390243902439024,
-      "incr_op_margin_yoy": 0.9265536723163842,
-      "rev_growth_yoy": -0.0794791198922317,
       "op_leverage_ratio": 0.08011049989930905,
       "fcf_margin_change": -0.024631134425571174
     },
@@ -118,7 +97,6 @@
       "fcf_margin": -0.056268779022125105,
       "incr_op_margin_yoy": 3.573208722741433,
       "rev_growth_yoy": -0.08061275740833752,
-      "rev_growth_yoy_accel": -0.0011336375161058176,
       "fcf_margin_change": -0.13017121804651535
     },
     {
@@ -433,11 +411,51 @@
       "incr_op_margin_yoy": 6.304054054054054,
       "rev_growth_yoy": 0.034164358264081256,
       "rev_growth_yoy_accel": 0.031282513883677796,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.028007833880678706
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1500000000,
+      "gross_profit": 2656000000,
+      "operating_income": 300000000,
+      "net_income": 480000000,
+      "opex": 2356000000,
+      "cogs": 2056000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 1158000000,
+      "ocf": 1158000000,
+      "capex": null,
+      "gross_margin": 1.7706666666666666,
+      "op_margin": 0.2,
+      "fcf_margin": 0.772,
+      "incr_op_margin_yoy": -0.12055698057896666,
+      "rev_growth_yoy": -0.6453062189642942,
+      "rev_growth_yoy_accel": -0.6794705772283754,
+      "fcf_margin_change": 0.6896339285714286
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +8.2% -> +77.2% (+69.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -64.5% vs prior quarter YoY: +3.4% (decel: -67.9%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.7% (year-ago) -> +20.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -613,12 +631,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +92.7% vs year-ago OPM: +9.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.7% -> +9.9% (+7.2%)",
@@ -656,5 +668,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:04:49.957741"
+  "last_updated": "2026-02-04T13:47:52.743323"
 }

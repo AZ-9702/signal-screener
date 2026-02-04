@@ -3,24 +3,6 @@
   "name": "BROADRIDGE FINANCIAL SOLUTIONS, INC.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1054900000,
-      "gross_profit": 248500000,
-      "operating_income": 79500000,
-      "net_income": 56300000,
-      "opex": 975500000,
-      "cogs": 806500000,
-      "rd": null,
-      "sga": 169000000,
-      "fcf": 111700000,
-      "ocf": 127500000,
-      "capex": -15800000,
-      "gross_margin": 0.23556735235567353,
-      "op_margin": 0.07536259361076879,
-      "fcf_margin": 0.105886813916011
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 1389800000,
@@ -36,9 +18,7 @@
       "capex": -11400000,
       "gross_margin": 0.3088214131529716,
       "op_margin": 0.17211109512160022,
-      "fcf_margin": 0.06821125341775795,
-      "op_leverage_ratio": 1.7686625613065978,
-      "fcf_margin_change": -0.03767556049825305
+      "fcf_margin": 0.06821125341775795
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +76,6 @@
       "gross_margin": 0.22324547475389012,
       "op_margin": 0.054699904731660844,
       "fcf_margin": 0.027945379485550967,
-      "incr_op_margin_yoy": -0.051783097215437224,
-      "rev_growth_yoy": 0.19404682908332543,
       "op_leverage_ratio": 0.6026119426189525,
       "fcf_margin_change": 0.14622855494032505
     },
@@ -120,7 +98,6 @@
       "fcf_margin": 0.045706461498337354,
       "incr_op_margin_yoy": 0.0472550382209868,
       "rev_growth_yoy": 0.10354007770902288,
-      "rev_growth_yoy_accel": -0.09050675137430256,
       "op_leverage_ratio": 2.6712036712685747,
       "fcf_margin_change": 0.017761082012786387
     },
@@ -439,9 +416,38 @@
       "rev_growth_yoy": 0.11701454775458571,
       "rev_growth_yoy_accel": 0.054729920896590546,
       "fcf_margin_change": -0.31416867501530943
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1713900000,
+      "gross_profit": 473600000,
+      "operating_income": 206000000,
+      "net_income": 284600000,
+      "opex": 1507900000,
+      "cogs": 1240300000,
+      "rd": null,
+      "sga": 267500000,
+      "fcf": 318500000,
+      "ocf": 324800000,
+      "capex": -6300000,
+      "gross_margin": 0.2763288406558142,
+      "op_margin": 0.12019371025147325,
+      "fcf_margin": 0.18583347919948656,
+      "incr_op_margin_yoy": -0.03769045709703288,
+      "rev_growth_yoy": 0.07846715328467153,
+      "rev_growth_yoy_accel": -0.038547394469914176,
+      "op_leverage_ratio": 1.0234967926505638,
+      "fcf_margin_change": 0.16878301990667166
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +1.7% -> +18.6% (+16.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -641,12 +647,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +10.4% vs prior quarter YoY: +19.4% (decel: -9.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -11.8% -> +2.8%",
@@ -656,12 +656,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.8% -> +28.7% (+21.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +31.7% vs OpEx growth +17.9% (leverage: 1.8x)",
       "severity": "MEDIUM"
     }
   ],
@@ -690,5 +684,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:18.946482"
+  "last_updated": "2026-02-04T13:46:07.445069"
 }

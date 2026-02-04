@@ -1,25 +1,7 @@
 {
   "ticker": "INNV",
-  "name": "INNOVAGE HOLDING CORP",
+  "name": "InnovAge Holding Corp.",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 157311000,
-      "gross_profit": null,
-      "operating_income": 20542000,
-      "net_income": 9705000,
-      "opex": 136769000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 10480000,
-      "ocf": 17315000,
-      "capex": -6835000,
-      "gross_margin": null,
-      "op_margin": 0.13058209533980458,
-      "fcf_margin": 0.06661962609099173
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +18,7 @@
       "capex": -2619000,
       "gross_margin": null,
       "op_margin": -0.03432965683138419,
-      "fcf_margin": -0.12094070680963226,
-      "fcf_margin_change": -0.187560332900624
+      "fcf_margin": -0.12094070680963226
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +37,7 @@
       "gross_margin": null,
       "op_margin": 0.06216203617378333,
       "fcf_margin": 0.03508996830132389,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15603067511095614
     },
     {
@@ -95,8 +76,6 @@
       "gross_margin": null,
       "op_margin": 0.016840604505275164,
       "fcf_margin": 0.013567151411462789,
-      "incr_op_margin_yoy": -0.9750540495592882,
-      "rev_growth_yoy": 0.11467093845948471,
       "op_leverage_ratio": 0.19353716110356742,
       "fcf_margin_change": -0.08764623045714529
     },
@@ -119,7 +98,6 @@
       "fcf_margin": -0.09008846463951646,
       "incr_op_margin_yoy": -0.062087311766661914,
       "rev_growth_yoy": 0.13467640811730686,
-      "rev_growth_yoy_accel": 0.020005469657822142,
       "op_leverage_ratio": 0.16976082729255712,
       "fcf_margin_change": -0.10365561605097925
     },
@@ -209,7 +187,7 @@
       "incr_op_margin_yoy": 0.3103734439834025,
       "rev_growth_yoy": -0.02717651768447048,
       "rev_growth_yoy_accel": 0.017842016675381243,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.39259760158031254
     },
     {
@@ -278,7 +256,7 @@
       "incr_op_margin_yoy": 0.5547523551907472,
       "rev_growth_yoy": 0.1280455761513472,
       "rev_growth_yoy_accel": 0.06224057901319584,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13724619000620317
     },
     {
@@ -416,7 +394,7 @@
       "incr_op_margin_yoy": 0.12413699127906977,
       "rev_growth_yoy": 0.11041067998655975,
       "rev_growth_yoy_accel": -0.019443104372562012,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05814919757317834
     },
     {
@@ -441,9 +419,44 @@
       "rev_growth_yoy_accel": 0.04052379467001958,
       "op_leverage_ratio": 3.4903796646617127,
       "fcf_margin_change": -0.04210824791976201
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 239708000,
+      "gross_profit": 52825000,
+      "operating_income": 13262000,
+      "net_income": 10618000,
+      "opex": 226446000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 18998000,
+      "ocf": 21361000,
+      "capex": -2363000,
+      "gross_margin": 0.22037228628164265,
+      "op_margin": 0.05532564620288017,
+      "fcf_margin": 0.07925475995794884,
+      "incr_op_margin_yoy": 0.8407307304047673,
+      "rev_growth_yoy": 0.14693371738620759,
+      "rev_growth_yoy_accel": -0.0040007572703717464,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.07990277673014765
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.1% -> +7.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -6.0% (year-ago) -> +5.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -555,7 +568,7 @@
         20
       ],
       "gross_profit": [
-        15,
+        16,
         20
       ],
       "op_income": [
@@ -568,11 +581,9 @@
       ]
     },
     "gaps": [],
-    "warnings": [
-      "gross_profit: 15/20Q"
-    ]
+    "warnings": []
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:10:04.226610"
+  "last_updated": "2026-02-04T13:47:07.697714"
 }

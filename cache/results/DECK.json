@@ -1,25 +1,7 @@
 {
   "ticker": "DECK",
-  "name": "DECKERS OUTDOOR CORPORATION",
+  "name": "DECKERS OUTDOOR CORP",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1077759000,
-      "gross_profit": 613897000,
-      "operating_income": 328655000,
-      "net_income": 255536000,
-      "opex": 285242000,
-      "cogs": 463862000,
-      "rd": null,
-      "sga": 285242000,
-      "fcf": 530256000,
-      "ocf": 538223000,
-      "capex": -7967000,
-      "gross_margin": 0.5696050786864225,
-      "op_margin": 0.3049429417893982,
-      "fcf_margin": 0.49199867502846184
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +18,7 @@
       "capex": -10918000,
       "gross_margin": 0.5321746010249685,
       "op_margin": 0.09737378561195179,
-      "fcf_margin": 0.11232777607504081,
-      "fcf_margin_change": -0.37967089895342104
+      "fcf_margin": 0.11232777607504081
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +76,6 @@
       "gross_margin": 0.5230224828078589,
       "op_margin": 0.24701789599175586,
       "fcf_margin": 0.32451892314220476,
-      "incr_op_margin_yoy": -0.3205567627030811,
-      "rev_growth_yoy": 0.10205713893365771,
       "op_leverage_ratio": 1.7338321189180292,
       "fcf_margin_change": 0.5289040058819672
     },
@@ -119,7 +98,6 @@
       "fcf_margin": -0.08793258759767231,
       "incr_op_margin_yoy": 0.1524605449064461,
       "rev_growth_yoy": 0.3115159269264489,
-      "rev_growth_yoy_accel": 0.20945878799279122,
       "fcf_margin_change": -0.41245151073987707
     },
     {
@@ -436,9 +414,44 @@
       "rev_growth_yoy_accel": -0.0775006296873884,
       "op_leverage_ratio": 1.7208416959360784,
       "fcf_margin_change": -0.02238051871332717
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1957549000,
+      "gross_profit": 1171360000,
+      "operating_income": 614366000,
+      "net_income": 481145000,
+      "opex": 556994000,
+      "cogs": 786189000,
+      "rd": null,
+      "sga": 556994000,
+      "fcf": 1020282000,
+      "ocf": 1041880000,
+      "capex": -21598000,
+      "gross_margin": 0.5983809345257769,
+      "op_margin": 0.31384450657429264,
+      "fcf_margin": 0.5212038115010148,
+      "incr_op_margin_yoy": 0.36117928580193887,
+      "rev_growth_yoy": 0.07135863482498844,
+      "rev_growth_yoy_accel": -0.019786165833889632,
+      "op_leverage_ratio": 2.204711843273932,
+      "fcf_margin_change": 0.5309295670012804
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.0% -> +52.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +36.8% vs OpEx growth +16.7% (leverage: 2.2x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -626,12 +639,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.2% vs prior quarter YoY: +10.2% (accel: +20.9%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -20.4% -> +32.5%",
@@ -675,5 +682,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:26:46.743730"
+  "last_updated": "2026-02-04T13:46:28.344330"
 }

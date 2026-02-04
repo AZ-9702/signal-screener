@@ -3,24 +3,6 @@
   "name": "3M COMPANY",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 8583000000,
-      "gross_profit": 4195000000,
-      "operating_income": 1849000000,
-      "net_income": 1389000000,
-      "opex": 6734000000,
-      "cogs": 4388000000,
-      "rd": null,
-      "sga": 1890000000,
-      "fcf": 2093000000,
-      "ocf": 2515000000,
-      "capex": -422000000,
-      "gross_margin": 0.48875684492601656,
-      "op_margin": 0.2154258417802633,
-      "fcf_margin": 0.24385413025748573
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 8851000000,
@@ -36,9 +18,7 @@
       "capex": -310000000,
       "gross_margin": 0.48875833239182015,
       "op_margin": 0.22528527849960456,
-      "fcf_margin": 0.15568862275449102,
-      "op_leverage_ratio": 1.709478653682028,
-      "fcf_margin_change": -0.0881655075029947
+      "fcf_margin": 0.15568862275449102
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +76,6 @@
       "gross_margin": 0.4544821179749187,
       "op_margin": 0.18764514630747794,
       "fcf_margin": 0.16825359962842545,
-      "incr_op_margin_yoy": -8.03448275862069,
-      "rev_growth_yoy": 0.0033787719911452874,
       "fcf_margin_change": -0.0029608937734980634
     },
     {
@@ -119,7 +97,6 @@
       "fcf_margin": 0.06648544569033865,
       "incr_op_margin_yoy": 16.045454545454547,
       "rev_growth_yoy": -0.0024855948480397693,
-      "rev_growth_yoy_accel": -0.005864366839185057,
       "op_leverage_ratio": 0.9181302252670692,
       "fcf_margin_change": -0.1017681539380868
     },
@@ -298,7 +275,7 @@
       "incr_op_margin_yoy": -9.285714285714286,
       "rev_growth_yoy": -0.0034864898518241812,
       "rev_growth_yoy_accel": 0.2535997832017715,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.222261287138949
     },
     {
@@ -432,8 +409,30 @@
       "incr_op_margin_yoy": 0.5874439461883408,
       "rev_growth_yoy": 0.03543056879567842,
       "rev_growth_yoy_accel": 0.021201951689363473,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4191633541222385
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6133000000,
+      "gross_profit": 2058000000,
+      "operating_income": 796000000,
+      "net_income": 577000000,
+      "opex": 5337000000,
+      "cogs": 4075000000,
+      "rd": null,
+      "sga": 965000000,
+      "fcf": 1335000000,
+      "ocf": 1583000000,
+      "capex": -248000000,
+      "gross_margin": 0.3355617153106147,
+      "op_margin": 0.1297896624816566,
+      "fcf_margin": 0.21767487363443666,
+      "incr_op_margin_yoy": -2.3495934959349594,
+      "rev_growth_yoy": 0.020465890183028287,
+      "rev_growth_yoy_accel": -0.014964678612650134,
+      "fcf_margin_change": -0.018323285027524366
     }
   ],
   "signals": [
@@ -568,12 +567,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +1604.5% vs year-ago OPM: +22.5%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +3.1% vs OpEx growth +1.8% (leverage: 1.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -601,5 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:36.900849"
+  "last_updated": "2026-02-04T13:45:44.456546"
 }

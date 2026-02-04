@@ -3,24 +3,6 @@
   "name": "CIRRUS LOGIC, INC.",
   "quarters": [
     {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 485795000,
-      "gross_profit": 251500000,
-      "operating_income": 129650000,
-      "net_income": 114368000,
-      "opex": 121850000,
-      "cogs": 234295000,
-      "rd": 89435000,
-      "sga": 32415000,
-      "fcf": 129537000,
-      "ocf": 134304000,
-      "capex": -4767000,
-      "gross_margin": 0.5177080867444086,
-      "op_margin": 0.26688212105929454,
-      "fcf_margin": 0.26664951265451475
-    },
-    {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 293537000,
@@ -36,8 +18,7 @@
       "capex": -6519000,
       "gross_margin": 0.5046007828655331,
       "op_margin": 0.08415974817484678,
-      "fcf_margin": 0.5654619349519822,
-      "fcf_margin_change": 0.2988124222974674
+      "fcf_margin": 0.5654619349519822
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -95,8 +76,6 @@
       "gross_margin": 0.5279885620289269,
       "op_margin": 0.26292379488245626,
       "fcf_margin": -0.2538857552398199,
-      "incr_op_margin_yoy": 0.23218339354797454,
-      "rev_growth_yoy": 0.12876624913801088,
       "op_leverage_ratio": 4.867500121421608,
       "fcf_margin_change": -0.30814795672258605
     },
@@ -119,7 +98,6 @@
       "fcf_margin": 0.5106067285477538,
       "incr_op_margin_yoy": 0.4233512357777382,
       "rev_growth_yoy": 0.6692001349063321,
-      "rev_growth_yoy_accel": 0.5404338857683213,
       "fcf_margin_change": 0.7644924837875737
     },
     {
@@ -254,7 +232,7 @@
       "incr_op_margin_yoy": 0.1759002537346037,
       "rev_growth_yoy": -0.11008853551965134,
       "rev_growth_yoy_accel": 0.08456443331727792,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09955911993594535
     },
     {
@@ -435,9 +413,38 @@
       "rev_growth_yoy_accel": -0.05363217985954729,
       "op_leverage_ratio": 6.702747008963204,
       "fcf_margin_change": -0.1211756156559207
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 580624000,
+      "gross_profit": 308126000,
+      "operating_income": 152927000,
+      "net_income": 140310000,
+      "opex": 155199000,
+      "cogs": 272498000,
+      "rd": 113553000,
+      "sga": 41646000,
+      "fcf": 285748000,
+      "ocf": 290834000,
+      "capex": -5086000,
+      "gross_margin": 0.5306807848108243,
+      "op_margin": 0.26338387665683816,
+      "fcf_margin": 0.4921394913059054,
+      "incr_op_margin_yoy": 0.2876316000964398,
+      "rev_growth_yoy": 0.04478009421705912,
+      "rev_growth_yoy_accel": 0.009525405249305632,
+      "op_leverage_ratio": 0.938353513446315,
+      "fcf_margin_change": 0.3346487611290657
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +15.7% -> +49.2% (+33.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -644,12 +651,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +66.9% vs prior quarter YoY: +12.9% (accel: +54.0%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +42.3% vs year-ago OPM: +8.4%",
       "severity": "HIGH"
@@ -670,12 +671,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +68.0% vs OpEx growth +16.1% (leverage: 4.2x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +26.7% -> +56.5% (+29.9%)",
       "severity": "MEDIUM"
     }
   ],
@@ -704,5 +699,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:52:46.242625"
+  "last_updated": "2026-02-04T13:46:14.174102"
 }

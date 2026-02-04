@@ -1,25 +1,7 @@
 {
   "ticker": "CCZ",
-  "name": "Comcast Corporation",
+  "name": "COMCAST CORPORATION",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 27708000000,
-      "gross_profit": null,
-      "operating_income": 3918000000,
-      "net_income": 3380000000,
-      "opex": 23790000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 2207000000,
-      "ocf": 5042000000,
-      "capex": -2835000000,
-      "gross_margin": null,
-      "op_margin": 0.14140320485058466,
-      "fcf_margin": 0.07965208604013281
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +18,7 @@
       "capex": -1859000000,
       "gross_margin": null,
       "op_margin": 0.1852233045396067,
-      "fcf_margin": 0.2165778349568094,
-      "fcf_margin_change": 0.13692574891667658
+      "fcf_margin": 0.2165778349568094
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.15892009493670886,
       "fcf_margin": 0.15364583333333334,
-      "incr_op_margin_yoy": 0.3436073059360731,
-      "rev_growth_yoy": 0.09484625378951927,
       "fcf_margin_change": 0.02301014780953639
     },
     {
@@ -119,8 +98,7 @@
       "fcf_margin": 0.1741696227023541,
       "incr_op_margin_yoy": 0.1392904073587385,
       "rev_growth_yoy": 0.13986399558904614,
-      "rev_growth_yoy_accel": 0.04501774179952686,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.020523789369020745
     },
     {
@@ -187,7 +165,7 @@
       "incr_op_margin_yoy": -1.3410138248847927,
       "rev_growth_yoy": 0.007153217299578059,
       "rev_growth_yoy_accel": 0.0219726773299431,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0632997497083524
     },
     {
@@ -232,7 +210,7 @@
       "incr_op_margin_yoy": 0.6881287726358148,
       "rev_growth_yoy": 0.01655783582089552,
       "rev_growth_yoy_accel": 0.059092502057593366,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.014923313246419767
     },
     {
@@ -436,6 +414,29 @@
       "rev_growth_yoy_accel": -0.04824279775017211,
       "op_leverage_ratio": 0.5279048323213187,
       "fcf_margin_change": 0.010738613287657295
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 32310000000,
+      "gross_profit": null,
+      "operating_income": 3488000000,
+      "net_income": 2168000000,
+      "opex": 28822000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 5092000000,
+      "ocf": 8841000000,
+      "capex": -3749000000,
+      "gross_margin": null,
+      "op_margin": 0.10795419374806561,
+      "fcf_margin": 0.15759826679046735,
+      "incr_op_margin_yoy": -3.8005050505050506,
+      "rev_growth_yoy": 0.012408347433728144,
+      "rev_growth_yoy_accel": 0.039598868169618384,
+      "op_leverage_ratio": 0.28976419486130084,
+      "fcf_margin_change": -0.022605592431277632
     }
   ],
   "signals": [
@@ -540,18 +541,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +58.5% vs year-ago OPM: +19.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +34.4% vs year-ago OPM: +14.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +8.0% -> +21.7% (+13.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -581,5 +570,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:53:13.707411"
+  "last_updated": "2026-02-04T13:46:20.912169"
 }

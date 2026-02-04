@@ -3,24 +3,6 @@
   "name": "Atkore Inc.",
   "quarters": [
     {
-      "date": "2020-12-25T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 511082000,
-      "gross_profit": 189191000,
-      "operating_income": 119853000,
-      "net_income": 85066000,
-      "opex": 69338000,
-      "cogs": 321891000,
-      "rd": null,
-      "sga": 61078000,
-      "fcf": 78047000,
-      "ocf": 86276000,
-      "capex": -8229000,
-      "gross_margin": 0.3701773883642938,
-      "op_margin": 0.23450835678032098,
-      "fcf_margin": 0.15270934996732421
-    },
-    {
       "date": "2021-03-26T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 639543000,
@@ -36,9 +18,7 @@
       "capex": -12145000,
       "gross_margin": 0.3750318586865934,
       "op_margin": 0.2570788828898135,
-      "fcf_margin": 0.08572527570468287,
-      "op_leverage_ratio": 2.8580156553474474,
-      "fcf_margin_change": -0.06698407426264134
+      "fcf_margin": 0.08572527570468287
     },
     {
       "date": "2021-06-25T00:00:00",
@@ -97,8 +77,6 @@
       "gross_margin": 0.4219880804137959,
       "op_margin": 0.3192527125919213,
       "fcf_margin": 0.1044646711885452,
-      "incr_op_margin_yoy": 0.4506109747997537,
-      "rev_growth_yoy": 0.6451391361855827,
       "fcf_margin_change": -0.13808321342288388
     },
     {
@@ -120,7 +98,6 @@
       "fcf_margin": 0.04883301291608868,
       "incr_op_margin_yoy": 0.4500597615368918,
       "rev_growth_yoy": 0.5363673748285885,
-      "rev_growth_yoy_accel": -0.10877176135699418,
       "op_leverage_ratio": 1.2959336744232413,
       "fcf_margin_change": -0.05563165827245652
     },
@@ -323,7 +300,7 @@
       "incr_op_margin_yoy": 0.6629045094208965,
       "rev_growth_yoy": -0.10526733810820603,
       "rev_growth_yoy_accel": 0.009722158885992205,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.015717483055645035
     },
     {
@@ -413,7 +390,7 @@
       "incr_op_margin_yoy": 1.1983531648323962,
       "rev_growth_yoy": -0.10618047482623266,
       "rev_growth_yoy_accel": 0.008821082725623722,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0777417571614857
     },
     {
@@ -438,9 +415,43 @@
       "rev_growth_yoy_accel": 0.06014960067600756,
       "op_leverage_ratio": 0.02593512144364037,
       "fcf_margin_change": 0.23649669266734344
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 655548000,
+      "gross_profit": 125933000,
+      "operating_income": 20071000,
+      "net_income": 15034000,
+      "opex": 105862000,
+      "cogs": 529615000,
+      "rd": null,
+      "sga": 99552000,
+      "fcf": -67255000,
+      "ocf": -55497000,
+      "capex": -11758000,
+      "gross_margin": 0.19210340051376865,
+      "op_margin": 0.03061713253644279,
+      "fcf_margin": -0.1025935553155528,
+      "incr_op_margin_yoy": 7.913208794842123,
+      "rev_growth_yoy": -0.009143028157624657,
+      "rev_growth_yoy_accel": 0.03688784599260045,
+      "fcf_margin_change": -0.35287579852742074
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +791.3% vs year-ago OPM: +10.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -7.5% -> +3.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -593,12 +604,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +53.6% vs prior quarter YoY: +64.5% (decel: -10.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +45.0% vs year-ago OPM: +25.7%",
       "severity": "MEDIUM"
@@ -608,12 +613,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +39.7% -> +38.7% -> +42.2% (reversal +3.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +45.1% vs year-ago OPM: +23.5%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -637,12 +636,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +33.5% vs OpEx growth +20.0% (leverage: 1.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +25.1% vs OpEx growth +8.8% (leverage: 2.9x)",
       "severity": "MEDIUM"
     }
   ],
@@ -671,5 +664,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:30:21.616219"
+  "last_updated": "2026-02-04T13:46:01.922672"
 }

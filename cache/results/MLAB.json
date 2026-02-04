@@ -3,24 +3,6 @@
   "name": "MESA LABORATORIES INC /CO",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 34172000,
-      "gross_profit": 20653000,
-      "operating_income": 22000,
-      "net_income": -4542000,
-      "opex": 20631000,
-      "cogs": 13519000,
-      "rd": 2705000,
-      "sga": null,
-      "fcf": 10696000,
-      "ocf": 10943000,
-      "capex": -247000,
-      "gross_margin": 0.6043837059580943,
-      "op_margin": 0.0006438019431113192,
-      "fcf_margin": 0.3130047992508487
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 37964000,
@@ -36,9 +18,7 @@
       "capex": -1038000,
       "gross_margin": 0.6515646401854388,
       "op_margin": 0.1131598356337583,
-      "fcf_margin": 0.3287851648930566,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.015780365642207916
+      "fcf_margin": 0.3287851648930566
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +56,7 @@
       "gross_margin": 0.6456473214285714,
       "op_margin": 0.11721540178571428,
       "fcf_margin": 0.09754464285714286,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1583545553100965
     },
     {
@@ -96,8 +76,6 @@
       "gross_margin": 0.523383794061723,
       "op_margin": -0.045926575983618545,
       "fcf_margin": 0.2530166739798157,
-      "incr_op_margin_yoy": -0.12346521145975443,
-      "rev_growth_yoy": 0.6006086854734871,
       "op_leverage_ratio": 0.8167305144906323,
       "fcf_margin_change": 0.15547203112267283
     },
@@ -120,7 +98,6 @@
       "fcf_margin": 0.1447035445574823,
       "incr_op_margin_yoy": -0.210662204159694,
       "rev_growth_yoy": 0.5509166578864187,
-      "rev_growth_yoy_accel": -0.049692027587068366,
       "op_leverage_ratio": 0.5832538030613921,
       "fcf_margin_change": -0.1083131294223334
     },
@@ -166,7 +143,7 @@
       "incr_op_margin_yoy": -0.008992099174996725,
       "rev_growth_yoy": 0.6392020089285714,
       "rev_growth_yoy_accel": 0.19438528498813612,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21197314464772715
     },
     {
@@ -432,11 +409,58 @@
       "incr_op_margin_yoy": 0.418732782369146,
       "rev_growth_yoy": 0.0502135458994,
       "rev_growth_yoy_accel": 0.026610313992918994,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10254496241601592
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 65126000,
+      "gross_profit": 41795000,
+      "operating_income": 7975000,
+      "net_income": 3630000,
+      "opex": 33820000,
+      "cogs": 23331000,
+      "rd": 5029000,
+      "sga": null,
+      "fcf": 18022000,
+      "ocf": 18754000,
+      "capex": -732000,
+      "gross_margin": 0.6417559807143076,
+      "op_margin": 0.12245493351349691,
+      "fcf_margin": 0.2767251174646071,
+      "incr_op_margin_yoy": 0.9606299212598425,
+      "rev_growth_yoy": 0.036378103119032466,
+      "rev_growth_yoy_accel": -0.013835442780367531,
+      "op_leverage_ratio": 1.9425056316693405,
+      "fcf_margin_change": 0.15933374153230884
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.7% -> +27.7% (+15.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +7.2% vs OpEx growth +3.7% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +62.0% -> +61.5% -> +64.2% (reversal +2.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +96.1% vs year-ago OPM: +9.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -631,5 +655,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:29:57.831925"
+  "last_updated": "2026-02-04T13:47:24.805142"
 }

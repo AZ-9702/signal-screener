@@ -3,24 +3,6 @@
   "name": "The Marzetti Company",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 375015000,
-      "gross_profit": 106845000,
-      "operating_income": 58598000,
-      "net_income": 44630000,
-      "opex": 48247000,
-      "cogs": 268170000,
-      "rd": null,
-      "sga": 48247000,
-      "fcf": 52070000,
-      "ocf": 67213000,
-      "capex": -15143000,
-      "gross_margin": 0.28490860365585374,
-      "op_margin": 0.15625508313000813,
-      "fcf_margin": 0.13884777942215645
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 357249000,
@@ -36,8 +18,7 @@
       "capex": -26047000,
       "gross_margin": 0.2534646702999868,
       "op_margin": 0.10465529644589627,
-      "fcf_margin": 0.06101066762958049,
-      "fcf_margin_change": -0.07783711179257596
+      "fcf_margin": 0.06101066762958049
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +57,7 @@
       "gross_margin": 0.23559644540575836,
       "op_margin": 0.10332962637990491,
       "fcf_margin": -0.08008804864611178,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08845496896584952
     },
     {
@@ -96,9 +77,7 @@
       "gross_margin": 0.2254806536469457,
       "op_margin": 0.1057496376278806,
       "fcf_margin": 0.015601257623819227,
-      "incr_op_margin_yoy": -0.24885793454654384,
-      "rev_growth_yoy": 0.14242630294788208,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09568930626993101
     },
     {
@@ -120,7 +99,6 @@
       "fcf_margin": -0.053339083109042514,
       "incr_op_margin_yoy": -0.973186290409774,
       "rev_growth_yoy": 0.12944752819462055,
-      "rev_growth_yoy_accel": -0.012978774753261535,
       "fcf_margin_change": -0.06894034073286175
     },
     {
@@ -143,7 +121,7 @@
       "incr_op_margin_yoy": -0.10781336484808593,
       "rev_growth_yoy": 0.1733736895888123,
       "rev_growth_yoy_accel": 0.043926161394191754,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08887740760458088
     },
     {
@@ -255,7 +233,7 @@
       "incr_op_margin_yoy": 0.20749271541556819,
       "rev_growth_yoy": 0.08468123805920519,
       "rev_growth_yoy_accel": 0.07971232690943716,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02945224888434332
     },
     {
@@ -345,7 +323,7 @@
       "incr_op_margin_yoy": -0.18271159245888488,
       "rev_growth_yoy": 0.010802215039040497,
       "rev_growth_yoy_accel": 0.014840388535337739,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.036085538879779624
     },
     {
@@ -436,8 +414,31 @@
       "incr_op_margin_yoy": 0.1261796834361299,
       "rev_growth_yoy": 0.05768628980748374,
       "rev_growth_yoy_accel": 0.007772967884003369,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04623498985775233
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 517953000,
+      "gross_profit": 137260000,
+      "operating_income": 75184000,
+      "net_income": 59079000,
+      "opex": 62076000,
+      "cogs": 380693000,
+      "rd": null,
+      "sga": 60409000,
+      "fcf": 70945000,
+      "ocf": 88617000,
+      "capex": -17672000,
+      "gross_margin": 0.26500473981229955,
+      "op_margin": 0.14515602767046432,
+      "fcf_margin": 0.1369718874106338,
+      "incr_op_margin_yoy": -0.05513176144244106,
+      "rev_growth_yoy": 0.016987989420794384,
+      "rev_growth_yoy_accel": -0.040698300386689354,
+      "op_leverage_ratio": 1.1738992365371153,
+      "fcf_margin_change": 0.02778028180788429
     }
   ],
   "signals": [
@@ -605,5 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:08:05.539457"
+  "last_updated": "2026-02-04T13:47:18.361905"
 }

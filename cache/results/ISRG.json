@@ -1,25 +1,7 @@
 {
   "ticker": "ISRG",
-  "name": "INTUITIVE SURGICAL, INC.",
+  "name": "Intuitive Surgical, Inc.",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1329100000,
-      "gross_profit": 895800000,
-      "operating_income": 415800000,
-      "net_income": 365200000,
-      "opex": 480000000,
-      "cogs": 433300000,
-      "rd": 149800000,
-      "sga": 330200000,
-      "fcf": 627500000,
-      "ocf": 627500000,
-      "capex": null,
-      "gross_margin": 0.673989917989617,
-      "op_margin": 0.3128432774057633,
-      "fcf_margin": 0.4721239936799338
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +18,7 @@
       "capex": null,
       "gross_margin": 0.698552743595697,
       "op_margin": 0.3225756520393158,
-      "fcf_margin": 0.3696308335268168,
-      "fcf_margin_change": -0.10249316015311699
+      "fcf_margin": 0.3696308335268168
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +76,6 @@
       "gross_margin": 0.6840781582511124,
       "op_margin": 0.2904494744309022,
       "fcf_margin": 0.3660927323144386,
-      "incr_op_margin_yoy": 0.15613718411552346,
-      "rev_growth_yoy": 0.16672936573621247,
       "op_leverage_ratio": 0.680688237669471,
       "fcf_margin_change": 0.008792083842978471
     },
@@ -119,7 +98,6 @@
       "fcf_margin": 0.14989581232775426,
       "incr_op_margin_yoy": -0.04447852760736196,
       "rev_growth_yoy": 0.1513814720222893,
-      "rev_growth_yoy_accel": -0.015347893713923172,
       "fcf_margin_change": -0.21619691998668436
     },
     {
@@ -211,7 +189,7 @@
       "incr_op_margin_yoy": -0.09832134292565947,
       "rev_growth_yoy": 0.14014922363379714,
       "rev_growth_yoy_accel": 0.07288927651314195,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045632116716556065
     },
     {
@@ -234,7 +212,7 @@
       "incr_op_margin_yoy": 0.2805816937553465,
       "rev_growth_yoy": 0.15360357400959201,
       "rev_growth_yoy_accel": 0.013454350375794871,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16016178957262747
     },
     {
@@ -347,7 +325,7 @@
       "incr_op_margin_yoy": 0.37873641304347827,
       "rev_growth_yoy": 0.16883638240523025,
       "rev_growth_yoy_accel": 0.024181219810549465,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0379245593836538
     },
     {
@@ -415,7 +393,7 @@
       "incr_op_margin_yoy": 0.4094396651941409,
       "rev_growth_yoy": 0.21399074580824917,
       "rev_growth_yoy_accel": 0.022093993454499028,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0350978484970616
     },
     {
@@ -440,6 +418,29 @@
       "rev_growth_yoy_accel": 0.015144232848342765,
       "op_leverage_ratio": 0.8273739972096269,
       "fcf_margin_change": 0.04251841980065585
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2866200000,
+      "gross_profit": 1904300000,
+      "operating_income": 864300000,
+      "net_income": 794800000,
+      "opex": 1040000000,
+      "cogs": 961900000,
+      "rd": 352900000,
+      "sga": 687100000,
+      "fcf": 892500000,
+      "ocf": 892500000,
+      "capex": null,
+      "gross_margin": 0.6643988556276603,
+      "op_margin": 0.3015490893866443,
+      "fcf_margin": 0.3113879003558719,
+      "incr_op_margin_yoy": 0.28584051248067155,
+      "rev_growth_yoy": 0.18756991920447483,
+      "rev_growth_yoy_accel": -0.04156505945211711,
+      "op_leverage_ratio": 0.9477097020693953,
+      "fcf_margin_change": -0.02432724075625936
     }
   ],
   "signals": [
@@ -583,5 +584,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:12.025574"
+  "last_updated": "2026-02-04T13:47:05.390278"
 }

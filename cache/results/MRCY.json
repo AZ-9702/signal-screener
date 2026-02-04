@@ -3,24 +3,6 @@
   "name": "MERCURY SYSTEMS, INC.",
   "quarters": [
     {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 210676000,
-      "gross_profit": 88667000,
-      "operating_income": 18113000,
-      "net_income": 12686000,
-      "opex": 70554000,
-      "cogs": 122009000,
-      "rd": 28128000,
-      "sga": 31596000,
-      "fcf": 10164000,
-      "ocf": 23939000,
-      "capex": -13775000,
-      "gross_margin": 0.4208690121323739,
-      "op_margin": 0.08597562133323207,
-      "fcf_margin": 0.04824469801970799
-    },
-    {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
       "revenue": 256857000,
@@ -36,9 +18,7 @@
       "capex": -9955000,
       "gross_margin": 0.41121324316643115,
       "op_margin": 0.08452952420996897,
-      "fcf_margin": 0.05150725890281363,
-      "op_leverage_ratio": 1.1578731511937685,
-      "fcf_margin_change": 0.003262560883105642
+      "fcf_margin": 0.05150725890281363
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -95,8 +75,6 @@
       "gross_margin": 0.39578001633542065,
       "op_margin": -0.001756057718486251,
       "fcf_margin": -0.005458753062891369,
-      "incr_op_margin_yoy": -1.9064303380049463,
-      "rev_growth_yoy": 0.04606125045092939,
       "fcf_margin_change": 0.02735268449849397
     },
     {
@@ -118,7 +96,6 @@
       "fcf_margin": -0.040794230959201816,
       "incr_op_margin_yoy": 3.1086726599682706,
       "rev_growth_yoy": -0.01472414612021475,
-      "rev_growth_yoy_accel": -0.06078539657114414,
       "op_leverage_ratio": 5.934904995978305,
       "fcf_margin_change": -0.03533547789631045
     },
@@ -209,7 +186,7 @@
       "incr_op_margin_yoy": -0.7690311418685121,
       "rev_growth_yoy": 0.04111034278375975,
       "rev_growth_yoy_accel": -0.0006720331124195761,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14482539553206583
     },
     {
@@ -276,7 +253,7 @@
       "incr_op_margin_yoy": 1.4437976653696498,
       "rev_growth_yoy": -0.1399245605171002,
       "rev_growth_yoy_accel": 0.06478677049323028,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4500692595305078
     },
     {
@@ -322,7 +299,7 @@
       "incr_op_margin_yoy": -0.19901562165632355,
       "rev_growth_yoy": -0.01845314252317996,
       "rev_growth_yoy_accel": 0.1911309230000686,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.37068326861093137
     },
     {
@@ -412,7 +389,7 @@
       "incr_op_margin_yoy": 1.2841950861752842,
       "rev_growth_yoy": 0.09873955496192112,
       "rev_growth_yoy_accel": 0.08385417240758947,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.010574276238236785
     },
     {
@@ -436,9 +413,44 @@
       "rev_growth_yoy": 0.10163820555590884,
       "rev_growth_yoy_accel": 0.0028986505939877227,
       "fcf_margin_change": -0.14379600650947677
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 232872000,
+      "gross_profit": 60633000,
+      "operating_income": -10818000,
+      "net_income": -15095000,
+      "opex": 71451000,
+      "cogs": 172239000,
+      "rd": 15381000,
+      "sga": 42139000,
+      "fcf": 45709000,
+      "ocf": 51611000,
+      "capex": -5902000,
+      "gross_margin": 0.260370503967845,
+      "op_margin": -0.046454704730495726,
+      "fcf_margin": 0.196283795389742,
+      "incr_op_margin_yoy": 0.16384528572894225,
+      "rev_growth_yoy": 0.043684033613445375,
+      "rev_growth_yoy_accel": -0.05795417194246347,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.21567023198863458
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.9% -> +19.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.4% vs prior quarter YoY: +10.2% (decel: -5.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -579,12 +591,6 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -1.5% vs prior quarter YoY: +4.6% (decel: -6.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +310.9% vs year-ago OPM: +8.5%",
       "severity": "HIGH"
@@ -621,5 +627,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:56:04.824979"
+  "last_updated": "2026-02-04T13:47:22.172586"
 }

@@ -3,24 +3,6 @@
   "name": "BellRing Brands, Inc.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 282400000,
-      "gross_profit": 91900000,
-      "operating_income": 47800000,
-      "net_income": 7800000,
-      "opex": 44100000,
-      "cogs": 190500000,
-      "rd": null,
-      "sga": 38300000,
-      "fcf": 23300000,
-      "ocf": 23300000,
-      "capex": null,
-      "gross_margin": 0.32542492917847027,
-      "op_margin": 0.16926345609065155,
-      "fcf_margin": 0.0825070821529745
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 282100000,
@@ -36,8 +18,7 @@
       "capex": null,
       "gross_margin": 0.3084012761432116,
       "op_margin": 0.055299539170506916,
-      "fcf_margin": 0.17901453385324353,
-      "fcf_margin_change": 0.09650745170026903
+      "fcf_margin": 0.17901453385324353
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +37,7 @@
       "gross_margin": 0.3248686514886165,
       "op_margin": 0.15032107413893753,
       "fcf_margin": 0.21044950379451255,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.031434969941269014
     },
     {
@@ -95,8 +76,6 @@
       "gross_margin": 0.301141924959217,
       "op_margin": 0.16508972267536703,
       "fcf_margin": -0.029690048939641108,
-      "incr_op_margin_yoy": 0.11618257261410789,
-      "rev_growth_yoy": 0.0853399433427762,
       "fcf_margin_change": -0.26557240188081754
     },
     {
@@ -118,7 +97,6 @@
       "fcf_margin": 0.08470812182741116,
       "incr_op_margin_yoy": 0.5317220543806647,
       "rev_growth_yoy": 0.1173342786246012,
-      "rev_growth_yoy_accel": 0.031994335281825007,
       "op_leverage_ratio": 0.09782265784045409,
       "fcf_margin_change": 0.11439817076705228
     },
@@ -142,7 +120,7 @@
       "incr_op_margin_yoy": 0.5714285714285714,
       "rev_growth_yoy": 0.08172796263864565,
       "rev_growth_yoy_accel": -0.03560631598595555,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10143774945828002
     },
     {
@@ -301,7 +279,7 @@
       "incr_op_margin_yoy": 0.30275229357798167,
       "rev_growth_yoy": 0.28267634854771784,
       "rev_growth_yoy_accel": 0.09602071027917633,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13944184553775574
     },
     {
@@ -437,11 +415,39 @@
       "incr_op_margin_yoy": -0.10714285714285714,
       "rev_growth_yoy": 0.16624685138539042,
       "rev_growth_yoy_accel": 0.10396512845174664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18726896681924937
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 537300000,
+      "gross_profit": 160800000,
+      "operating_income": 78500000,
+      "net_income": 43700000,
+      "opex": 82300000,
+      "cogs": 376500000,
+      "rd": null,
+      "sga": 78000000,
+      "fcf": -3100000,
+      "ocf": -3100000,
+      "capex": null,
+      "gross_margin": 0.2992741485203797,
+      "op_margin": 0.14610087474409084,
+      "fcf_margin": -0.005769588684161549,
+      "incr_op_margin_yoy": -8.363636363636363,
+      "rev_growth_yoy": 0.00825670857571777,
+      "rev_growth_yoy_accel": -0.15799014280967263,
+      "fcf_margin_change": -0.266645861439484
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +0.8% vs prior quarter YoY: +16.6% (decel: -15.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -597,12 +603,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +53.2% vs year-ago OPM: +5.5%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +8.3% -> +17.9% (+9.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -630,5 +630,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:21:13.567566"
+  "last_updated": "2026-02-04T13:46:04.788981"
 }

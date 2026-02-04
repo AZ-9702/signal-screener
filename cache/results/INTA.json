@@ -3,24 +3,6 @@
   "name": "Intapp, Inc.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 49585000,
-      "gross_profit": 32158000,
-      "operating_income": -4897000,
-      "net_income": -10330000,
-      "opex": 37055000,
-      "cogs": 17427000,
-      "rd": 12146000,
-      "sga": null,
-      "fcf": 4949000,
-      "ocf": 6909000,
-      "capex": -1960000,
-      "gross_margin": 0.6485429061208027,
-      "op_margin": -0.09875970555611577,
-      "fcf_margin": 0.09980840980135121
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 55648000,
@@ -36,9 +18,7 @@
       "capex": -36000,
       "gross_margin": 0.6474087119033928,
       "op_margin": -0.07448605520414031,
-      "fcf_margin": 0.0324360264519839,
-      "op_leverage_ratio": 1.4536078712214169,
-      "fcf_margin_change": -0.0673723833493673
+      "fcf_margin": 0.0324360264519839
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +77,6 @@
       "gross_margin": 0.6359491166514676,
       "op_margin": -0.37558155710465707,
       "fcf_margin": 0.027698347682272747,
-      "incr_op_margin_yoy": -1.2838803599788249,
-      "rev_growth_yoy": 0.30476958757688816,
       "op_leverage_ratio": 1.2800758227273743,
       "fcf_margin_change": -0.04654188386620771
     },
@@ -121,7 +99,6 @@
       "fcf_margin": -0.03043222370555388,
       "incr_op_margin_yoy": -1.75176596503746,
       "rev_growth_yoy": 0.25185092006900517,
-      "rev_growth_yoy_accel": -0.05291866750788299,
       "op_leverage_ratio": 0.7263246567196233,
       "fcf_margin_change": -0.058130571387826624
     },
@@ -145,7 +122,7 @@
       "incr_op_margin_yoy": -0.9245653393157599,
       "rev_growth_yoy": 0.23285502065070116,
       "rev_growth_yoy_accel": -0.018995899418304013,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1548082250826543
     },
     {
@@ -237,7 +214,7 @@
       "incr_op_margin_yoy": 0.543931301706985,
       "rev_growth_yoy": 0.25288330398167397,
       "rev_growth_yoy_accel": -0.0681048819994064,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07689479293823323
     },
     {
@@ -329,7 +306,7 @@
       "incr_op_margin_yoy": 0.6450372020043529,
       "rev_growth_yoy": 0.20880584237838065,
       "rev_growth_yoy_accel": 0.006521655644485147,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08458200158824428
     },
     {
@@ -446,9 +423,37 @@
       "rev_growth_yoy_accel": -0.010446838334359915,
       "op_leverage_ratio": 0.23684318342354552,
       "fcf_margin_change": -0.18222664819199738
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 140208000,
+      "gross_profit": 105138000,
+      "operating_income": -7177000,
+      "net_income": -5934000,
+      "opex": 112315000,
+      "cogs": 35070000,
+      "rd": 39283000,
+      "sga": null,
+      "fcf": 22217000,
+      "ocf": 22881000,
+      "capex": -664000,
+      "gross_margin": 0.749871619308456,
+      "op_margin": -0.05118823462284606,
+      "fcf_margin": 0.15845743466849252,
+      "incr_op_margin_yoy": 0.15837675667140375,
+      "rev_growth_yoy": 0.15674578620399476,
+      "rev_growth_yoy_accel": -0.013465905223133734,
+      "fcf_margin_change": 0.06324571320431649
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.5% -> +15.8% (+6.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -534,22 +539,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +25.2% vs prior quarter YoY: +30.5% (decel: -5.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -12.7% -> +7.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +64.9% -> +64.7% -> +66.8% (reversal +2.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -577,5 +570,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:22:25.910074"
+  "last_updated": "2026-02-04T13:47:09.987819"
 }

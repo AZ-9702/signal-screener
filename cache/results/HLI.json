@@ -3,24 +3,6 @@
   "name": "Houlihan Lokey, Inc.",
   "quarters": [
     {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 537876000,
-      "gross_profit": 189187000,
-      "operating_income": 158416000,
-      "net_income": 118515000,
-      "opex": 379460000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 304058000,
-      "ocf": 308514000,
-      "capex": -4456000,
-      "gross_margin": 0.35172976671203027,
-      "op_margin": 0.294521413857469,
-      "fcf_margin": 0.5652938595512721
-    },
-    {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
       "revenue": 500704000,
@@ -36,8 +18,7 @@
       "capex": -3146000,
       "gross_margin": 0.3498234485843932,
       "op_margin": 0.2801575381862338,
-      "fcf_margin": 0.5382561353614111,
-      "fcf_margin_change": -0.027037724189860946
+      "fcf_margin": 0.5382561353614111
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +76,6 @@
       "gross_margin": 0.36114280185148934,
       "op_margin": 0.2804461756214573,
       "fcf_margin": 0.6153962992716006,
-      "incr_op_margin_yoy": 0.2588723420019264,
-      "rev_growth_yoy": 0.652421747763425,
       "op_leverage_ratio": 0.9576648095903936,
       "fcf_margin_change": 0.22618189762774044
     },
@@ -119,7 +98,6 @@
       "fcf_margin": 0.13443881774151786,
       "incr_op_margin_yoy": 1.4106236034938047,
       "rev_growth_yoy": -0.05899293794337573,
-      "rev_growth_yoy_accel": -0.7114146857068007,
       "fcf_margin_change": -0.48095748153008266
     },
     {
@@ -435,8 +413,31 @@
       "incr_op_margin_yoy": 0.2446535297946624,
       "rev_growth_yoy": 0.1469588160505916,
       "rev_growth_yoy_accel": -0.0316595492817916,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7287351082820062
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 717072000,
+      "gross_profit": 230712000,
+      "operating_income": 160730000,
+      "net_income": 116548000,
+      "opex": 556342000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 217043000,
+      "ocf": 217682000,
+      "capex": -639000,
+      "gross_margin": 0.3217417497824486,
+      "op_margin": 0.2241476448669032,
+      "fcf_margin": 0.3026795077760671,
+      "incr_op_margin_yoy": 0.2980010648080925,
+      "rev_growth_yoy": 0.1302653729028353,
+      "rev_growth_yoy_accel": -0.01669344314775631,
+      "op_leverage_ratio": 0.9204970366075947,
+      "fcf_margin_change": -0.18682996372451216
     }
   ],
   "signals": [
@@ -586,12 +587,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -5.9% vs prior quarter YoY: +65.2% (decel: -71.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +141.1% vs year-ago OPM: +28.0%",
       "severity": "HIGH"
@@ -634,5 +629,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:31:41.149305"
+  "last_updated": "2026-02-04T13:46:58.554175"
 }

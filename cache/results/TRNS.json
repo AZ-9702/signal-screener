@@ -1,25 +1,7 @@
 {
   "ticker": "TRNS",
-  "name": "TRANSCAT INC",
+  "name": "Transcat, Inc.",
   "quarters": [
-    {
-      "date": "2021-03-27T00:00:00",
-      "quarter_label": "2021-03 (Q1)",
-      "revenue": 48762000,
-      "gross_profit": 13970000,
-      "operating_income": 4512000,
-      "net_income": 3208000,
-      "opex": 9458000,
-      "cogs": 34792000,
-      "rd": null,
-      "sga": null,
-      "fcf": 5670000,
-      "ocf": 7992000,
-      "capex": -2322000,
-      "gross_margin": 0.2864935810672245,
-      "op_margin": 0.09253106927525533,
-      "fcf_margin": 0.11627906976744186
-    },
     {
       "date": "2021-06-26T00:00:00",
       "quarter_label": "2021-06 (Q2)",
@@ -36,8 +18,7 @@
       "capex": -1203000,
       "gross_margin": 0.2829043732998535,
       "op_margin": 0.0771918811466834,
-      "fcf_margin": 0.017827997489014438,
-      "fcf_margin_change": -0.09845107227842742
+      "fcf_margin": 0.017827997489014438
     },
     {
       "date": "2021-09-25T00:00:00",
@@ -96,8 +77,6 @@
       "gross_margin": 0.29835361488904794,
       "op_margin": 0.08079813886900501,
       "fcf_margin": 0.01698282032927702,
-      "incr_op_margin_yoy": 0.0004214667041303737,
-      "rev_growth_yoy": 0.14597432426889792,
       "op_leverage_ratio": 1.2501669429968625,
       "fcf_margin_change": -0.037730157549784704
     },
@@ -120,7 +99,6 @@
       "fcf_margin": -0.00651287023654891,
       "incr_op_margin_yoy": -0.012370833939746763,
       "rev_growth_yoy": 0.1437748482946223,
-      "rev_growth_yoy_accel": -0.002199475974275611,
       "fcf_margin_change": -0.02349569056582593
     },
     {
@@ -257,7 +235,7 @@
       "incr_op_margin_yoy": 0.14567233384853168,
       "rev_growth_yoy": 0.13525661126790006,
       "rev_growth_yoy_accel": 0.02247998517601324,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.019740499168738462
     },
     {
@@ -280,7 +258,7 @@
       "incr_op_margin_yoy": 0.37858919285552795,
       "rev_growth_yoy": 0.14252340212995634,
       "rev_growth_yoy_accel": 0.007266790862056283,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08963711795646077
     },
     {
@@ -325,7 +303,7 @@
       "incr_op_margin_yoy": 0.41656710473914776,
       "rev_growth_yoy": 0.07996305967772753,
       "rev_growth_yoy_accel": -0.020848848306034312,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03629976659214503
     },
     {
@@ -437,6 +415,27 @@
       "fcf_margin": null,
       "rev_growth_yoy": 0.2129861704950904,
       "rev_growth_yoy_accel": 0.0
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 83856000,
+      "gross_profit": 25253000,
+      "operating_income": 88000,
+      "net_income": -1101000,
+      "opex": 25165000,
+      "cogs": 58603000,
+      "rd": null,
+      "sga": null,
+      "fcf": 9466000,
+      "ocf": 12145000,
+      "capex": -2679000,
+      "gross_margin": 0.3011472047319214,
+      "op_margin": 0.0010494180499904598,
+      "fcf_margin": 0.1128839916046556,
+      "incr_op_margin_yoy": -0.11764705882352941,
+      "rev_growth_yoy": 0.2561943853551847,
+      "rev_growth_yoy_accel": 0.043208214860094296
     }
   ],
   "signals": [
@@ -586,5 +585,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:20:55.705930"
+  "last_updated": "2026-02-04T13:47:55.744742"
 }
