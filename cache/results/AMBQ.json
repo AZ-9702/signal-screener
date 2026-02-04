@@ -1,0 +1,120 @@
+{
+  "ticker": "AMBQ",
+  "name": "Ambiq Micro, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 20252000,
+      "gross_profit": 6411000,
+      "operating_income": -10963000,
+      "net_income": -10633000,
+      "opex": 17374000,
+      "cogs": 13841000,
+      "rd": 9391000,
+      "sga": 7983000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3165613272763184,
+      "op_margin": -0.5413292514319573,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 20266000,
+      "gross_profit": 6598000,
+      "operating_income": -10089000,
+      "net_income": -9438000,
+      "opex": 16687000,
+      "cogs": 13668000,
+      "rd": 9568000,
+      "sga": 7119000,
+      "fcf": -16610000,
+      "ocf": -16610000,
+      "capex": null,
+      "gross_margin": 0.32556992006316,
+      "op_margin": -0.49782887594986674,
+      "fcf_margin": -0.8195993289252936
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 17873000,
+      "gross_profit": 7170000,
+      "operating_income": -8797000,
+      "net_income": -8496000,
+      "opex": 15967000,
+      "cogs": 10703000,
+      "rd": 8898000,
+      "sga": 7069000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.40116376657528113,
+      "op_margin": -0.4921949309013596,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.9104665825977302,
+      "rev_growth_yoy": -0.11746987951807229
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 18165000,
+      "gross_profit": 7677000,
+      "operating_income": -10043000,
+      "net_income": -9002000,
+      "opex": 17720000,
+      "cogs": 10488000,
+      "rd": 8889000,
+      "sga": 8831000,
+      "fcf": -5028000,
+      "ocf": -5028000,
+      "capex": null,
+      "gross_margin": 0.4226259289843105,
+      "op_margin": -0.5528764106798789,
+      "fcf_margin": -0.2767960363336086,
+      "incr_op_margin_yoy": -0.021894336030461686,
+      "rev_growth_yoy": -0.10367117339386164,
+      "rev_growth_yoy_accel": 0.01379870612421065,
+      "op_leverage_ratio": 0.1488081800702676
+    }
+  ],
+  "signals": [],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:20:10.279670"
+}

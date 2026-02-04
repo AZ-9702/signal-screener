@@ -1,0 +1,141 @@
+{
+  "ticker": "OMDA",
+  "name": "Omada Health, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 41212000,
+      "gross_profit": 24834000,
+      "operating_income": -10037000,
+      "net_income": -10692000,
+      "opex": 34871000,
+      "cogs": 16378000,
+      "rd": 8987000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.6025914782102301,
+      "op_margin": -0.24354556925167428,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 45515000,
+      "gross_profit": 28562000,
+      "operating_income": -8524000,
+      "net_income": -9226000,
+      "opex": 37086000,
+      "cogs": 16953000,
+      "rd": 8850000,
+      "sga": null,
+      "fcf": 980000,
+      "ocf": 1056000,
+      "capex": -76000,
+      "gross_margin": 0.6275293859167308,
+      "op_margin": -0.18727891903767988,
+      "fcf_margin": 0.021531363286828517,
+      "op_leverage_ratio": 1.6437596908481147
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 61371000,
+      "gross_profit": 40306000,
+      "operating_income": -4344000,
+      "net_income": -5311000,
+      "opex": 44650000,
+      "cogs": 21065000,
+      "rd": 10024000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.6567597073536361,
+      "op_margin": -0.07078261719704747,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.2824048811945037,
+      "rev_growth_yoy": 0.48915364456954286,
+      "op_leverage_ratio": 1.7080381389948618
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 68030000,
+      "gross_profit": 45071000,
+      "operating_income": -2513000,
+      "net_income": -3178000,
+      "opex": 47584000,
+      "cogs": 22959000,
+      "rd": 10301000,
+      "sga": null,
+      "fcf": 9596000,
+      "ocf": 10133000,
+      "capex": -537000,
+      "gross_margin": 0.6625165368219903,
+      "op_margin": -0.03693958547699544,
+      "fcf_margin": 0.14105541672791416,
+      "incr_op_margin_yoy": 0.26697757050854987,
+      "rev_growth_yoy": 0.49467208612545316,
+      "rev_growth_yoy_accel": 0.005518441555910303,
+      "op_leverage_ratio": 1.6512284727958424
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +10.9% vs OpEx growth +6.6% (leverage: 1.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +34.8% vs OpEx growth +20.4% (leverage: 1.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +10.4% vs OpEx growth +6.4% (leverage: 1.6x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:03:00.221999"
+}

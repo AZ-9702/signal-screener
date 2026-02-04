@@ -1,0 +1,201 @@
+{
+  "ticker": "NBTB",
+  "name": "NBT BANCORP INC.",
+  "quarters": [
+    {
+      "date": "2017-03-31T00:00:00",
+      "quarter_label": "2017-03 (Q1)",
+      "revenue": 27339000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2017-06-30T00:00:00",
+      "quarter_label": "2017-06 (Q2)",
+      "revenue": 29084000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2017-09-30T00:00:00",
+      "quarter_label": "2017-09 (Q3)",
+      "revenue": 29498000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2017-12-31T00:00:00",
+      "quarter_label": "2017-12 (Q4)",
+      "revenue": 27523000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2018-03-31T00:00:00",
+      "quarter_label": "2018-03 (Q1)",
+      "revenue": 29858000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.09213943450748016
+    },
+    {
+      "date": "2018-06-30T00:00:00",
+      "quarter_label": "2018-06 (Q2)",
+      "revenue": 32850000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.12948700316325126,
+      "rev_growth_yoy_accel": 0.0373475686557711
+    },
+    {
+      "date": "2018-09-30T00:00:00",
+      "quarter_label": "2018-09 (Q3)",
+      "revenue": 31681000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.07400501728930775,
+      "rev_growth_yoy_accel": -0.05548198587394351
+    },
+    {
+      "date": "2018-12-31T00:00:00",
+      "quarter_label": "2018-12 (Q4)",
+      "revenue": 31623000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.14896631907858882,
+      "rev_growth_yoy_accel": 0.07496130178928107
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2018-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +14.9% vs prior quarter YoY: +7.4% (accel: +7.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2018-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +7.4% vs prior quarter YoY: +12.9% (decel: -5.5%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 8,
+    "coverage": {
+      "revenue": [
+        8,
+        8
+      ],
+      "gross_profit": [
+        0,
+        8
+      ],
+      "op_income": [
+        0,
+        8
+      ],
+      "fcf": [
+        0,
+        8
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "fcf: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:32:22.756035"
+}

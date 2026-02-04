@@ -1,0 +1,128 @@
+{
+  "ticker": "SLDE",
+  "name": "Slide Insurance Holdings, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 209131000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 53742000,
+      "opex": 137682000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 200104000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 17577000,
+      "opex": 175736000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 115093000,
+      "ocf": 120145000,
+      "capex": -5052000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.575165913724863
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 261607000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 70072000,
+      "opex": 165310000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.2509240619515997,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 265693000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 110997000,
+      "opex": 118678000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 24455000,
+      "ocf": 25273000,
+      "capex": -818000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.09204231951914428,
+      "rev_growth_yoy": 0.3277745572302403,
+      "rev_growth_yoy_accel": 0.07685049527864057,
+      "op_leverage_ratio": Infinity
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +32.8% vs prior quarter YoY: +25.1% (accel: +7.7%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        0,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:37:16.332844"
+}

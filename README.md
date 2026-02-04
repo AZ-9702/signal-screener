@@ -4,6 +4,19 @@
 
 ---
 
+## 快速启动（安装完成后）
+
+双击以下 `.bat` 文件即可使用：
+
+| 文件 | 功能 | 说明 |
+|------|------|------|
+| `signal_serve.bat` | **启动本地服务器** ⭐推荐 | 浏览器筛选界面，自动更新数据 |
+| `signal_update.bat` | 增量更新 | 更新最近 3 天有新财报的公司 |
+| `signal_review.bat` | 回顾信号 | 查看最近 15 天提交财报的公司 |
+| `signal_report.bat` | 生成报告 | 生成静态 HTML 报告 |
+
+---
+
 ## 第一步：安装 Python
 
 1. 打开浏览器，访问 https://www.python.org/downloads/
@@ -29,6 +42,10 @@
 ```
 screener/
 ├── signal_screener.py   （主程序）
+├── signal_serve.bat     （双击启动服务器）
+├── signal_update.bat    （双击增量更新）
+├── signal_review.bat    （双击查看近期信号）
+├── signal_report.bat    （双击生成报告）
 ├── requirements.txt     （依赖列表）
 ├── USAGE.md             （详细使用说明）
 └── README.md            （本文件）
@@ -77,15 +94,30 @@ python D:\screener\signal_screener.py scan
 
 ## 日常使用
 
-### 查看筛选结果
+### 方式一：本地服务器（推荐）⭐
 
+双击 `signal_serve.bat` 或运行：
+```bash
+python D:\screener\signal_screener.py serve --update
 ```
-python D:\screener\signal_screener.py filter --severity HIGH --after 2025-01
-```
 
-这会显示：所有有高级别信号、且最近仍在正常申报的公司。
+浏览器会自动打开 `http://localhost:8000`，显示全量缓存数据（~4000家公司）。
 
-### 常用筛选命令
+**筛选控件：**
+- **Ticker** — 搜索特定公司
+- **Severity** — 筛选信号级别 (HIGH/MEDIUM/WARNING)
+- **Signal** — 筛选信号类型
+- **Quarter From/To** — 季度结束年月范围（输入 `202501` 自动格式化为 `2025/01`）
+- **Filed in last N days** — 只显示最近 N 天提交财报的公司
+
+**操作按钮：**
+- **Apply Filters**（绿色）— 设置好条件后点击筛选
+- **✕ Clear All** — 清除所有条件，回到全量数据
+- **Refresh Data** — 重新从缓存加载
+
+按 `Ctrl+C` 停止服务器。
+
+### 方式二：命令行筛选
 
 ```bash
 # 高信号 + 排除退市公司
@@ -102,9 +134,6 @@ python D:\screener\signal_screener.py filter --signal "ACCELERATION" --after 202
 
 # 高增长 + 高利润率
 python D:\screener\signal_screener.py filter --min-rev-growth 0.3 --min-op-margin 0.1 --after 2025-01
-
-# 生成 HTML 报告（会自动打开浏览器）
-python D:\screener\signal_screener.py filter --severity HIGH --after 2025-01 --html
 ```
 
 ### 查看单个公司详情
@@ -132,6 +161,23 @@ python D:\screener\signal_screener.py update
 # 显示过去15天内申报公司的所有信号
 python D:\screener\signal_screener.py update --days 15 --all
 ```
+
+### 回顾重要信号
+
+```bash
+# 查看过去30天提交财报且有重要信号的公司
+python D:\screener\signal_screener.py update --days 30 --review
+
+# 查看过去15天
+python D:\screener\signal_screener.py update --days 15 --review
+```
+
+`--review` 模式会：
+1. 从 SEC 查询过去 N 天提交 10-Q/10-K 的公司
+2. 显示每个公司的**重要信号**（HIGH/MEDIUM 级别）
+3. 同时显示最近 8 季度的财务数据
+
+适合快速了解"最近提交财报的公司中有哪些值得关注"。
 
 ---
 
@@ -186,8 +232,20 @@ A: 建议每天运行一次 `update` 命令来获取最新财报数据。
 
 | 路径 | 说明 |
 |------|------|
-| `cache/facts/` | SEC 原始数据缓存 |
+| `cache/facts/` | SEC 原始数据缓存（30天有效） |
 | `cache/results/` | 计算结果缓存（约 4000 家公司） |
-| `reports/` | 生成的 HTML 报告 |
+| `reports/signal_master.html` | 完整缓存视图 |
+| `reports/signal_queries.html` | 查询历史报告 |
 
 这些都是缓存文件，删除后重新扫描即可恢复。
+
+---
+
+## serve 模式参数
+
+| 参数 | 默认 | 说明 |
+|------|------|------|
+| `--port N` | 8000 | 服务器端口 |
+| `--update` | 关闭 | 启动前先运行增量更新 |
+| `--days N` | 3 | 增量更新回溯天数 |
+| `--no-browser` | 关闭 | 不自动打开浏览器 |

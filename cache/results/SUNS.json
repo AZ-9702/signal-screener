@@ -1,0 +1,209 @@
+{
+  "ticker": "SUNS",
+  "name": "SUNRISE REALTY TRUST, INC.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 2026306,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1762345,
+      "opex": 263961,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1117808,
+      "ocf": 1117808,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5516481715989588
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 1979576,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1513743,
+      "opex": 393979,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2080604,
+      "ocf": 2080604,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.0510351711679673,
+      "fcf_margin_change": 0.49938699956900845
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 3177733,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1738363,
+      "opex": 1486897,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -513105,
+      "ocf": -513105,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.1614688836349687,
+      "op_leverage_ratio": 0.21818608233383338,
+      "fcf_margin_change": -1.212504054802936
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 3444835,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1853970,
+      "opex": 1575012,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1044772,
+      "ocf": -1044772,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.3032865144484424,
+      "op_leverage_ratio": 1.4183740452808162,
+      "fcf_margin_change": -0.1418176308134737
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 4622364,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 3099437,
+      "opex": 1405279,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -914591,
+      "ocf": -914591,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.19786217615055846,
+      "rev_growth_yoy": 1.2811776701051074,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.10542433829788395
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 5669467,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 3358314,
+      "opex": 1842660,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -322747,
+      "ocf": -322747,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.056927220848097364,
+      "rev_growth_yoy": 1.8639804685447794,
+      "rev_growth_yoy_accel": 0.582802798439672,
+      "op_leverage_ratio": 0.7278265683852434,
+      "fcf_margin_change": 0.14093495530246108
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 6056166,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 4054959,
+      "opex": 2195072,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -656263,
+      "ocf": -656263,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.10836278265820323,
+      "rev_growth_yoy": 0.9058133581392773,
+      "rev_growth_yoy_accel": -0.9581671104055021,
+      "op_leverage_ratio": 0.35663612916701637,
+      "fcf_margin_change": -0.05143556181010587
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +90.6% vs prior quarter YoY: +186.4% (decel: -95.8%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -19.8% -> -5.7% (+14.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +186.4% vs prior quarter YoY: +128.1% (accel: +58.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -30.3% -> -19.8% (+10.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +55.2% -> +105.1% (+49.9%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        0,
+        7
+      ],
+      "op_income": [
+        0,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:15:47.395759"
+}

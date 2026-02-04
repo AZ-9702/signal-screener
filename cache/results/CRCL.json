@@ -1,0 +1,136 @@
+{
+  "ticker": "CRCL",
+  "name": "CIRCLE INTERNET GROUP, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 430030000,
+      "gross_profit": null,
+      "operating_income": 50246000,
+      "net_income": 32923000,
+      "opex": 131407000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.11684301095272423,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 445762000,
+      "gross_profit": null,
+      "operating_income": 63799000,
+      "net_income": 70996000,
+      "opex": 124260000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 107660000,
+      "ocf": 113242000,
+      "capex": -5582000,
+      "gross_margin": null,
+      "op_margin": 0.14312346050134378,
+      "fcf_margin": 0.2415190168744756,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 658078000,
+      "gross_profit": null,
+      "operating_income": -325582000,
+      "net_income": -482100000,
+      "opex": 576718000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.4947468233248946,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -1.6480214691643864,
+      "rev_growth_yoy": 0.5303071878706137,
+      "op_leverage_ratio": 0.13080753391243385
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 739759000,
+      "gross_profit": null,
+      "operating_income": 81020000,
+      "net_income": 214385000,
+      "opex": 211127000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -14744000,
+      "ocf": -10682000,
+      "capex": -4062000,
+      "gross_margin": null,
+      "op_margin": 0.10952215518837892,
+      "fcf_margin": -0.019930815306065896,
+      "incr_op_margin_yoy": 0.0585754276404181,
+      "rev_growth_yoy": 0.6595380494523984,
+      "rev_growth_yoy_accel": 0.12923086158178465,
+      "op_leverage_ratio": Infinity
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +66.0% vs prior quarter YoY: +53.0% (accel: +12.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -49.5% -> +11.0%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:21:24.303117"
+}

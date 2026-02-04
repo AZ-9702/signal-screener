@@ -1,0 +1,198 @@
+{
+  "ticker": "ACNB",
+  "name": "ACNB Corporation",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 31641000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 6768000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 10740000,
+      "ocf": 10818000,
+      "capex": -78000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.33943301412724
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 33296000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 11279000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 9419000,
+      "ocf": 9706000,
+      "capex": -287000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.28288683325324365,
+      "fcf_margin_change": -0.05654618087399632
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 34074000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 7204000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 13330000,
+      "ocf": 13552000,
+      "capex": -222000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.39120737218993956,
+      "fcf_margin_change": 0.10832053893669591
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 33184000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 6595000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 5333000,
+      "ocf": 5706000,
+      "capex": -373000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1607099807135969,
+      "fcf_margin_change": -0.23049739147634266
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 43474000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -272000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -730000,
+      "ocf": -71000,
+      "capex": -659000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.016791645581266963,
+      "rev_growth_yoy": 0.37397680225024493,
+      "fcf_margin_change": -0.17750162629486388
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 50258000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 11648000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 17947000,
+      "ocf": 17762000,
+      "capex": 185000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3570973775319352,
+      "rev_growth_yoy": 0.5094305622296973,
+      "rev_growth_yoy_accel": 0.13545375997945236,
+      "fcf_margin_change": 0.37388902311320216
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 50901000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 14870000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 22767000,
+      "ocf": 23197000,
+      "capex": -430000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4472800141451052,
+      "rev_growth_yoy": 0.4938369431237894,
+      "rev_growth_yoy_accel": -0.015593619105907897,
+      "fcf_margin_change": 0.09018263661317
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +35.7% -> +44.7% (+9.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.7% -> +35.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +50.9% vs prior quarter YoY: +37.4% (accel: +13.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +28.3% -> +39.1% (+10.8%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        0,
+        7
+      ],
+      "op_income": [
+        0,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:25:10.239012"
+}

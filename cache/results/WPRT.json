@@ -1,0 +1,164 @@
+{
+  "ticker": "WPRT",
+  "name": "WESTPORT FUEL SYSTEMS INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 14109000,
+      "gross_profit": 2359000,
+      "operating_income": -7740000,
+      "net_income": 5817000,
+      "opex": 10240000,
+      "cogs": 11750000,
+      "rd": 3460000,
+      "sga": null,
+      "fcf": 262000,
+      "ocf": 1524000,
+      "capex": -1262000,
+      "gross_margin": 0.16719824225671556,
+      "op_margin": -0.5485860089304699,
+      "fcf_margin": 0.018569707279041746
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 4877000,
+      "gross_profit": 663000,
+      "operating_income": -2142000,
+      "net_income": -3868000,
+      "opex": 4514000,
+      "cogs": 4214000,
+      "rd": 628000,
+      "sga": null,
+      "fcf": -11872000,
+      "ocf": -11689000,
+      "capex": -183000,
+      "gross_margin": 0.13594422800902195,
+      "op_margin": -0.4392044289522247,
+      "fcf_margin": -2.434283370924749,
+      "fcf_margin_change": -2.4528530782037907
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 268885000,
+      "gross_profit": 55111000,
+      "operating_income": 714000,
+      "net_income": -10142000,
+      "opex": -12227000,
+      "cogs": 213774000,
+      "rd": 13150000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": -14734000,
+      "gross_margin": 0.20496122877810216,
+      "op_margin": 0.0026554103055209475,
+      "fcf_margin": null,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 12498000,
+      "gross_profit": 842000,
+      "operating_income": -1010000,
+      "net_income": -34344000,
+      "opex": 6159000,
+      "cogs": 11656000,
+      "rd": 1574000,
+      "sga": null,
+      "fcf": -6444000,
+      "ocf": -5622000,
+      "capex": -822000,
+      "gross_margin": 0.06737077932469195,
+      "op_margin": -0.080812930068811,
+      "fcf_margin": -0.5156024963994239,
+      "incr_op_margin_yoy": -4.177529484792054,
+      "rev_growth_yoy": -0.11418243674250478
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 1617000,
+      "gross_profit": 472000,
+      "operating_income": -7710000,
+      "net_income": -13726000,
+      "opex": 6900000,
+      "cogs": 1145000,
+      "rd": 2319000,
+      "sga": null,
+      "fcf": -4981000,
+      "ocf": -4467000,
+      "capex": -514000,
+      "gross_margin": 0.2918985776128633,
+      "op_margin": -4.768089053803339,
+      "fcf_margin": -3.080395794681509,
+      "incr_op_margin_yoy": 1.7079754601226993,
+      "rev_growth_yoy": -0.6684437153988108,
+      "rev_growth_yoy_accel": -0.5542612786563059,
+      "fcf_margin_change": -2.564793298282085
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +20.5% -> +6.7% -> +29.2% (reversal +22.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -66.8% vs prior quarter YoY: -11.4% (decel: -55.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +16.7% -> +13.6% -> +20.5% (reversal +6.9%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -43.9% -> +0.3%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        5,
+        5
+      ],
+      "op_income": [
+        5,
+        5
+      ],
+      "fcf": [
+        4,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2024-12 (Q4)",
+        "2025-06 (Q2)",
+        181
+      ]
+    ],
+    "warnings": [
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:47:05.884495"
+}

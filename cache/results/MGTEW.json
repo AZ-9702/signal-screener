@@ -1,0 +1,131 @@
+{
+  "ticker": "MGTEW",
+  "name": "MARBLEGATE CAPITAL CORPORATION",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 5136000,
+      "gross_profit": null,
+      "operating_income": 1200000,
+      "net_income": 2542000,
+      "opex": 3936000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 6368000,
+      "ocf": 6368000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2336448598130841,
+      "fcf_margin": 1.2398753894080996
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 5441000,
+      "gross_profit": null,
+      "operating_income": 1847000,
+      "net_income": 9022000,
+      "opex": 3594000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 3163000,
+      "ocf": 3498000,
+      "capex": -335000,
+      "gross_margin": null,
+      "op_margin": 0.33945965815107515,
+      "fcf_margin": 0.5813269619555229,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -0.6585484274525767
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 17757000,
+      "gross_profit": null,
+      "operating_income": 3556000,
+      "net_income": -47992000,
+      "opex": 14201000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -2874000,
+      "ocf": -2874000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2002590527679225,
+      "fcf_margin": -0.1618516641324548,
+      "incr_op_margin_yoy": 0.18667300530861264,
+      "rev_growth_yoy": 2.4573598130841123,
+      "op_leverage_ratio": 0.7669666116914641,
+      "fcf_margin_change": -0.7431786260879777
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 11963000,
+      "gross_profit": null,
+      "operating_income": -1241000,
+      "net_income": -1733000,
+      "opex": 13204000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -4805000,
+      "ocf": 1727000,
+      "capex": -6532000,
+      "gross_margin": null,
+      "op_margin": -0.10373652093956365,
+      "fcf_margin": -0.4016551032349745,
+      "incr_op_margin_yoy": -0.47347439435755906,
+      "rev_growth_yoy": 1.1986767138393677,
+      "rev_growth_yoy_accel": -1.2586830992447446,
+      "fcf_margin_change": -0.2398034391025197
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +119.9% vs prior quarter YoY: +245.7% (decel: -125.9%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T01:13:19.410592"
+}

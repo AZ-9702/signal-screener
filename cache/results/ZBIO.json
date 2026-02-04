@@ -1,0 +1,198 @@
+{
+  "ticker": "ZBIO",
+  "name": "Zenas BioPharma, Inc.",
+  "quarters": [
+    {
+      "date": "2023-09-30T00:00:00",
+      "quarter_label": "2023-09 (Q3)",
+      "revenue": 50000000,
+      "gross_profit": null,
+      "operating_income": 35624000,
+      "net_income": 35608000,
+      "opex": 14376000,
+      "cogs": null,
+      "rd": 9352000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.71248,
+      "fcf_margin": null
+    },
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -24779000,
+      "net_income": -24587000,
+      "opex": 24779000,
+      "cogs": null,
+      "rd": 20418000,
+      "sga": null,
+      "fcf": -15400000,
+      "ocf": -15400000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -39702000,
+      "net_income": -37977000,
+      "opex": 39702000,
+      "cogs": null,
+      "rd": 33807000,
+      "sga": null,
+      "fcf": -30994000,
+      "ocf": -30959000,
+      "capex": -35000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -40984000,
+      "net_income": -38606000,
+      "opex": 40984000,
+      "cogs": null,
+      "rd": 33530000,
+      "sga": null,
+      "fcf": -31059000,
+      "ocf": -31059000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 1.53216,
+      "rev_growth_yoy": -1.0
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 5000000,
+      "gross_profit": null,
+      "operating_income": -55623000,
+      "net_income": -52604000,
+      "opex": 60623000,
+      "cogs": null,
+      "rd": 49157000,
+      "sga": null,
+      "fcf": -38628000,
+      "ocf": -38554000,
+      "capex": -74000,
+      "gross_margin": null,
+      "op_margin": -11.1246,
+      "fcf_margin": -7.7256,
+      "incr_op_margin_yoy": -6.1688
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 10000000,
+      "gross_profit": null,
+      "operating_income": -37330000,
+      "net_income": -33573000,
+      "opex": 47330000,
+      "cogs": null,
+      "rd": 34915000,
+      "sga": null,
+      "fcf": -37069000,
+      "ocf": -37051000,
+      "capex": -18000,
+      "gross_margin": null,
+      "op_margin": -3.733,
+      "fcf_margin": -3.7069,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 4.0187
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -55163000,
+      "net_income": -52223000,
+      "opex": 55163000,
+      "cogs": null,
+      "rd": 43027000,
+      "sga": null,
+      "fcf": -41743000,
+      "ocf": -41743000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -52580000,
+      "net_income": -51499000,
+      "opex": 52580000,
+      "cogs": null,
+      "rd": 34402000,
+      "sga": null,
+      "fcf": -41125000,
+      "ocf": -41125000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -772.6% -> -370.7% (+401.9%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 8,
+    "coverage": {
+      "revenue": [
+        8,
+        8
+      ],
+      "gross_profit": [
+        0,
+        8
+      ],
+      "op_income": [
+        8,
+        8
+      ],
+      "fcf": [
+        7,
+        8
+      ]
+    },
+    "gaps": [
+      [
+        "2023-12 (Q4)",
+        "2024-06 (Q2)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 1Q missing between 2023-12 (Q4) and 2024-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:59:00.626638"
+}

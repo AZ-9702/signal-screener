@@ -1,0 +1,147 @@
+{
+  "ticker": "KG",
+  "name": "Kestrel Group Ltd",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 631000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -547000,
+      "opex": 589000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 752000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -429000,
+      "opex": 590000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -486000,
+      "ocf": -486000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.6462765957446809,
+      "op_leverage_ratio": 112.94611727416799
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 5555000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 69927000,
+      "opex": 2474000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 7.803486529318542,
+      "op_leverage_ratio": 2.0001651646564578
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 17445000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -5053000,
+      "opex": 4353000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -9698000,
+      "ocf": -9698000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.5559186013184293,
+      "rev_growth_yoy": 22.19813829787234,
+      "rev_growth_yoy_accel": 14.394651768553798,
+      "op_leverage_ratio": 2.818192835781715
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +214.0% vs OpEx growth +75.9% (leverage: 2.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +2219.8% vs prior quarter YoY: +780.3% (accel: +1439.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +638.7% vs OpEx growth +319.3% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +19.2% vs OpEx growth +0.2% (leverage: 112.9x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        0,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:27:35.640008"
+}

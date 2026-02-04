@@ -1,0 +1,186 @@
+{
+  "ticker": "FBLA",
+  "name": "FB Bancorp, Inc. /MD/",
+  "quarters": [
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 15441000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -1182000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 2525000,
+      "fcf": 6801000,
+      "ocf": 8048000,
+      "capex": -1247000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.44045074800854866
+    },
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 15593000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -807000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 2138000,
+      "fcf": -11519000,
+      "ocf": -10347000,
+      "capex": -1172000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.7387289168216508,
+      "fcf_margin_change": -1.1791796648301993
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 16795000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -895000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 2278000,
+      "fcf": -1192000,
+      "ocf": 215000,
+      "capex": -1407000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.0709735040190533,
+      "fcf_margin_change": 0.6677554128025974
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 15877000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -5361000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 1993000,
+      "fcf": 9119000,
+      "ocf": 10865000,
+      "capex": -1746000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5743528374378031,
+      "rev_growth_yoy": 0.028236513179198237,
+      "fcf_margin_change": 0.6453263414568564
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 17203000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 705000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 2159000,
+      "fcf": 3983000,
+      "ocf": 7036000,
+      "capex": -3053000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.23152938440969598,
+      "rev_growth_yoy": 0.10325145898800744,
+      "rev_growth_yoy_accel": 0.07501494580880921,
+      "fcf_margin_change": -0.34282345302810713
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 18735000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1080000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 2411000,
+      "fcf": -18303000,
+      "ocf": -16833000,
+      "capex": -1470000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.9769415532425941,
+      "rev_growth_yoy": 0.11551056862161357,
+      "rev_growth_yoy_accel": 0.01225910963360613,
+      "fcf_margin_change": -1.2084709376522902
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +10.3% vs prior quarter YoY: +2.8% (accel: +7.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -7.1% -> +57.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -73.9% -> -7.1% (+66.8%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        0,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-03 (Q1)",
+        "2024-09 (Q3)",
+        183
+      ],
+      [
+        "2025-03 (Q1)",
+        "2025-09 (Q3)",
+        183
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "gap: 1Q missing between 2024-03 (Q1) and 2024-09 (Q3)",
+      "gap: 1Q missing between 2025-03 (Q1) and 2025-09 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:59:43.023219"
+}

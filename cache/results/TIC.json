@@ -1,0 +1,145 @@
+{
+  "ticker": "TIC",
+  "name": "TIC Solutions, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 309292000,
+      "gross_profit": 80619000,
+      "operating_income": 19749000,
+      "net_income": -5450000,
+      "opex": 60870000,
+      "cogs": 228673000,
+      "rd": null,
+      "sga": 60870000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.2606565963555475,
+      "op_margin": 0.06385228198595502,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 234215000,
+      "gross_profit": 43669000,
+      "operating_income": -9440000,
+      "net_income": -25793000,
+      "opex": 53109000,
+      "cogs": 190546000,
+      "rd": null,
+      "sga": 52458000,
+      "fcf": 28316000,
+      "ocf": 32792000,
+      "capex": -4476000,
+      "gross_margin": 0.1864483487394061,
+      "op_margin": -0.04030484810964285,
+      "fcf_margin": 0.12089746600345837
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 313925000,
+      "gross_profit": 74101000,
+      "operating_income": 18350000,
+      "net_income": -233000,
+      "opex": 55751000,
+      "cogs": 239824000,
+      "rd": null,
+      "sga": 55236000,
+      "fcf": -14505000,
+      "ocf": -6487000,
+      "capex": -8018000,
+      "gross_margin": 0.2360468264712909,
+      "op_margin": 0.05845345225770487,
+      "fcf_margin": -0.0462053038146054,
+      "incr_op_margin_yoy": -0.3019641700841787,
+      "rev_growth_yoy": 0.014979372243704978,
+      "op_leverage_ratio": 6.841217759590345,
+      "fcf_margin_change": -0.16710276981806377
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 473888000,
+      "gross_profit": 152727000,
+      "operating_income": -6513000,
+      "net_income": -13890000,
+      "opex": 159240000,
+      "cogs": 321161000,
+      "rd": null,
+      "sga": 140485000,
+      "fcf": 10332000,
+      "ocf": 19025000,
+      "capex": -8693000,
+      "gross_margin": 0.32228501249240327,
+      "op_margin": -0.013743753798365859,
+      "fcf_margin": 0.02180262002836113,
+      "op_leverage_ratio": 0.27450616895832275,
+      "fcf_margin_change": 0.06800792384296653
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -4.6% -> +2.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +34.0% vs OpEx growth +5.0% (leverage: 6.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +26.1% -> +18.6% -> +23.6% (reversal +5.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -4.0% -> +5.8%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        3,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-06 (Q2)",
+        "2025-03 (Q1)",
+        274
+      ]
+    ],
+    "warnings": [
+      "fcf: 3/4Q",
+      "gap: 2Q missing between 2024-06 (Q2) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:31:33.349721"
+}

@@ -1,0 +1,162 @@
+{
+  "ticker": "CNTA",
+  "name": "CENTESSA PHARMACEUTICALS PLC",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -36090000,
+      "net_income": -38046000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -37286000,
+      "ocf": -37286000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -43980000,
+      "net_income": -43816000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -40580000,
+      "ocf": -40580000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -46405000,
+      "net_income": -42566000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -21423000,
+      "ocf": -21389000,
+      "capex": -34000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -74580000,
+      "net_income": -111329000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -42800000,
+      "ocf": -42800000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 15000000,
+      "gross_profit": null,
+      "operating_income": -30777000,
+      "net_income": -26135000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -57246000,
+      "ocf": -57246000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -2.0518,
+      "fcf_margin": -3.8164,
+      "incr_op_margin_yoy": 0.3542
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -54653000,
+      "net_income": -50343000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -22452000,
+      "ocf": -22452000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -53790000,
+      "net_income": -54891000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -58546000,
+      "ocf": -58312000,
+      "capex": -234000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    }
+  ],
+  "signals": [],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        0,
+        7
+      ],
+      "op_income": [
+        7,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:14:44.488694"
+}

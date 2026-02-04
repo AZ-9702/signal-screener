@@ -1,0 +1,549 @@
+{
+  "ticker": "VALE",
+  "name": "Vale S.A.",
+  "quarters": [
+    {
+      "date": "2009-03-31T00:00:00",
+      "quarter_label": "2009-03 (Q1)",
+      "revenue": 5421000000,
+      "gross_profit": null,
+      "operating_income": 1685000000,
+      "net_income": 1363000000,
+      "opex": 3639000000,
+      "cogs": null,
+      "rd": 189000000,
+      "sga": 233000000,
+      "fcf": 477000000,
+      "ocf": 2165000000,
+      "capex": -1688000000,
+      "gross_margin": null,
+      "op_margin": 0.3108282604685482,
+      "fcf_margin": 0.08799114554510237
+    },
+    {
+      "date": "2009-06-30T00:00:00",
+      "quarter_label": "2009-06 (Q2)",
+      "revenue": 5084000000,
+      "gross_profit": null,
+      "operating_income": 976000000,
+      "net_income": 790000000,
+      "opex": 3972000000,
+      "cogs": null,
+      "rd": 265000000,
+      "sga": 230000000,
+      "fcf": -942000000,
+      "ocf": 1066000000,
+      "capex": -2008000000,
+      "gross_margin": null,
+      "op_margin": 0.1919748229740362,
+      "fcf_margin": -0.18528717545239967,
+      "fcf_margin_change": -0.27327832099750204
+    },
+    {
+      "date": "2009-09-30T00:00:00",
+      "quarter_label": "2009-09 (Q3)",
+      "revenue": 6893000000,
+      "gross_profit": null,
+      "operating_income": 2293000000,
+      "net_income": 1677000000,
+      "opex": 4413000000,
+      "cogs": null,
+      "rd": 231000000,
+      "sga": 289000000,
+      "fcf": 849000000,
+      "ocf": 2494000000,
+      "capex": -1645000000,
+      "gross_margin": null,
+      "op_margin": 0.33265631800377193,
+      "fcf_margin": 0.1231684317423473,
+      "op_leverage_ratio": 3.2048202443841425,
+      "fcf_margin_change": 0.30845560719474696
+    },
+    {
+      "date": "2009-12-31T00:00:00",
+      "quarter_label": "2009-12 (Q4)",
+      "revenue": 6541000000,
+      "gross_profit": null,
+      "operating_income": 1103000000,
+      "net_income": 1519000000,
+      "opex": 5230000000,
+      "cogs": null,
+      "rd": 296000000,
+      "sga": 378000000,
+      "fcf": -1344000000,
+      "ocf": 1411000000,
+      "capex": -2755000000,
+      "gross_margin": null,
+      "op_margin": 0.16862865005350863,
+      "fcf_margin": -0.20547316924017733,
+      "fcf_margin_change": -0.32864160098252465
+    },
+    {
+      "date": "2010-03-31T00:00:00",
+      "quarter_label": "2010-03 (Q1)",
+      "revenue": 6848000000,
+      "gross_profit": null,
+      "operating_income": 2062000000,
+      "net_income": 1604000000,
+      "opex": 4542000000,
+      "cogs": null,
+      "rd": 172000000,
+      "sga": 293000000,
+      "fcf": -411000000,
+      "ocf": 1406000000,
+      "capex": -1817000000,
+      "gross_margin": null,
+      "op_margin": 0.30110981308411217,
+      "fcf_margin": -0.06001752336448598,
+      "incr_op_margin_yoy": 0.2641906096706377,
+      "rev_growth_yoy": 0.2632355653938388,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.14545564587569135
+    },
+    {
+      "date": "2010-06-30T00:00:00",
+      "quarter_label": "2010-06 (Q2)",
+      "revenue": 9930000000,
+      "gross_profit": null,
+      "operating_income": 4630000000,
+      "net_income": 3705000000,
+      "opex": 5028000000,
+      "cogs": null,
+      "rd": 189000000,
+      "sga": 343000000,
+      "fcf": 1440000000,
+      "ocf": 3676000000,
+      "capex": -2236000000,
+      "gross_margin": null,
+      "op_margin": 0.4662638469284995,
+      "fcf_margin": 0.14501510574018128,
+      "incr_op_margin_yoy": 0.7540239372678498,
+      "rev_growth_yoy": 0.9531864673485445,
+      "rev_growth_yoy_accel": 0.6899509019547057,
+      "op_leverage_ratio": 4.20610144802123,
+      "fcf_margin_change": 0.20503262910466727
+    },
+    {
+      "date": "2010-09-30T00:00:00",
+      "quarter_label": "2010-09 (Q3)",
+      "revenue": 14496000000,
+      "gross_profit": null,
+      "operating_income": 7836000000,
+      "net_income": 6038000000,
+      "opex": 6266000000,
+      "cogs": null,
+      "rd": 216000000,
+      "sga": 418000000,
+      "fcf": 3027000000,
+      "ocf": 6879000000,
+      "capex": -3852000000,
+      "gross_margin": null,
+      "op_margin": 0.5405629139072847,
+      "fcf_margin": 0.20881622516556292,
+      "incr_op_margin_yoy": 0.7290543206628962,
+      "rev_growth_yoy": 1.103003046568983,
+      "rev_growth_yoy_accel": 0.14981657922043856,
+      "op_leverage_ratio": 1.8675028918097116,
+      "fcf_margin_change": 0.06380111942538164
+    },
+    {
+      "date": "2010-12-31T00:00:00",
+      "quarter_label": "2010-12 (Q4)",
+      "revenue": 15207000000,
+      "gross_profit": null,
+      "operating_income": 7167000000,
+      "net_income": 5917000000,
+      "opex": 7762000000,
+      "cogs": null,
+      "rd": 301000000,
+      "sga": 647000000,
+      "fcf": 2966000000,
+      "ocf": 7708000000,
+      "capex": -4742000000,
+      "gross_margin": null,
+      "op_margin": 0.47129611363188006,
+      "fcf_margin": 0.1950417570855527,
+      "incr_op_margin_yoy": 0.6997461343180245,
+      "rev_growth_yoy": 1.32487387249656,
+      "rev_growth_yoy_accel": 0.221870825927577,
+      "op_leverage_ratio": 0.20543773462124162,
+      "fcf_margin_change": -0.013774468080010205
+    },
+    {
+      "date": "2011-03-31T00:00:00",
+      "quarter_label": "2011-03 (Q1)",
+      "revenue": 13548000000,
+      "gross_profit": null,
+      "operating_income": 7969000000,
+      "net_income": 6826000000,
+      "opex": 5244000000,
+      "cogs": null,
+      "rd": 342000000,
+      "sga": 419000000,
+      "fcf": 3195000000,
+      "ocf": 6008000000,
+      "capex": -2813000000,
+      "gross_margin": null,
+      "op_margin": 0.5882049010924122,
+      "fcf_margin": 0.2358281665190434,
+      "incr_op_margin_yoy": 0.8816417910447761,
+      "rev_growth_yoy": 0.9783878504672897,
+      "rev_growth_yoy_accel": -0.34648602202927037,
+      "fcf_margin_change": 0.040786409433490683
+    },
+    {
+      "date": "2011-06-30T00:00:00",
+      "quarter_label": "2011-06 (Q2)",
+      "revenue": 15345000000,
+      "gross_profit": null,
+      "operating_income": 7747000000,
+      "net_income": 6452000000,
+      "opex": 7242000000,
+      "cogs": null,
+      "rd": 363000000,
+      "sga": 434000000,
+      "fcf": 3585000000,
+      "ocf": 7065000000,
+      "capex": -3480000000,
+      "gross_margin": null,
+      "op_margin": 0.5048550016291952,
+      "fcf_margin": 0.23362658846529813,
+      "incr_op_margin_yoy": 0.5756232686980609,
+      "rev_growth_yoy": 0.5453172205438066,
+      "rev_growth_yoy_accel": -0.4330706299234831,
+      "op_leverage_ratio": 0.34812890835920063,
+      "fcf_margin_change": -0.002201578053745268
+    },
+    {
+      "date": "2011-09-30T00:00:00",
+      "quarter_label": "2011-09 (Q3)",
+      "revenue": 16741000000,
+      "gross_profit": null,
+      "operating_income": 8373000000,
+      "net_income": 4935000000,
+      "opex": 7988000000,
+      "cogs": null,
+      "rd": 440000000,
+      "sga": 654000000,
+      "fcf": 500000000,
+      "ocf": 4211000000,
+      "capex": -3711000000,
+      "gross_margin": null,
+      "op_margin": 0.5001493339704917,
+      "fcf_margin": 0.029866794098321485,
+      "incr_op_margin_yoy": 0.23919821826280624,
+      "rev_growth_yoy": 0.15487030905077262,
+      "rev_growth_yoy_accel": -0.390446911493034,
+      "op_leverage_ratio": 0.8831576161161909,
+      "fcf_margin_change": -0.20375979436697664
+    },
+    {
+      "date": "2011-12-31T00:00:00",
+      "quarter_label": "2011-12 (Q4)",
+      "revenue": 14755000000,
+      "gross_profit": null,
+      "operating_income": 6023000000,
+      "net_income": 4672000000,
+      "opex": 8404000000,
+      "cogs": null,
+      "rd": 529000000,
+      "sga": 827000000,
+      "fcf": 1441000000,
+      "ocf": 7512000000,
+      "capex": -6071000000,
+      "gross_margin": null,
+      "op_margin": 0.4082006099627245,
+      "fcf_margin": 0.09766180955608268,
+      "incr_op_margin_yoy": 2.5309734513274336,
+      "rev_growth_yoy": -0.029723153810745053,
+      "rev_growth_yoy_accel": -0.18459346286151768,
+      "fcf_margin_change": 0.0677950154577612
+    },
+    {
+      "date": "2012-03-31T00:00:00",
+      "quarter_label": "2012-03 (Q1)",
+      "revenue": 11339000000,
+      "gross_profit": null,
+      "operating_income": 3850000000,
+      "net_income": 3827000000,
+      "opex": 7204000000,
+      "cogs": null,
+      "rd": 299000000,
+      "sga": 529000000,
+      "fcf": 294000000,
+      "ocf": 3255000000,
+      "capex": -2961000000,
+      "gross_margin": null,
+      "op_margin": 0.3395361142957933,
+      "fcf_margin": 0.025928212364406032,
+      "incr_op_margin_yoy": 1.8646446355817112,
+      "rev_growth_yoy": -0.1630498966637142,
+      "rev_growth_yoy_accel": -0.13332674285296914,
+      "fcf_margin_change": -0.07173359719167666
+    },
+    {
+      "date": "2012-06-30T00:00:00",
+      "quarter_label": "2012-06 (Q2)",
+      "revenue": 12150000000,
+      "gross_profit": null,
+      "operating_income": 3923000000,
+      "net_income": 2662000000,
+      "opex": 7970000000,
+      "cogs": null,
+      "rd": 359000000,
+      "sga": 615000000,
+      "fcf": 1151000000,
+      "ocf": 4379000000,
+      "capex": -3228000000,
+      "gross_margin": null,
+      "op_margin": 0.322880658436214,
+      "fcf_margin": 0.09473251028806584,
+      "incr_op_margin_yoy": 1.1968701095461658,
+      "rev_growth_yoy": -0.20821114369501467,
+      "rev_growth_yoy_accel": -0.04516124703130048,
+      "op_leverage_ratio": 0.6726529225020419,
+      "fcf_margin_change": 0.0688042979236598
+    },
+    {
+      "date": "2012-09-30T00:00:00",
+      "quarter_label": "2012-09 (Q3)",
+      "revenue": 10963000000,
+      "gross_profit": null,
+      "operating_income": 2647000000,
+      "net_income": 1669000000,
+      "opex": 8078000000,
+      "cogs": null,
+      "rd": 360000000,
+      "sga": 519000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -4984000000,
+      "gross_margin": null,
+      "op_margin": 0.2414485086199033,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.991000346140533,
+      "rev_growth_yoy": -0.3451406726002031,
+      "rev_growth_yoy_accel": -0.13692952890518842
+    },
+    {
+      "date": "2012-12-31T00:00:00",
+      "quarter_label": "2012-12 (Q4)",
+      "revenue": 14301000000,
+      "gross_profit": null,
+      "operating_income": -1197000000,
+      "net_income": -2647000000,
+      "opex": 15219000000,
+      "cogs": null,
+      "rd": 460000000,
+      "sga": 577000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.08370044052863436,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 15.90308370044053,
+      "rev_growth_yoy": -0.03076923076923077,
+      "rev_growth_yoy_accel": 0.3143714418309723,
+      "op_leverage_ratio": 0.34443060458877206
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2012-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -3.1% vs prior quarter YoY: -34.5% (accel: +31.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2012-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -34.5% vs prior quarter YoY: -20.8% (decel: -13.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2012-09 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +99.1% vs year-ago OPM: +50.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2012-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +2.6% -> +9.5% (+6.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2012-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +119.7% vs year-ago OPM: +50.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2012-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -16.3% vs prior quarter YoY: -3.0% (decel: -13.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2012-03 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +186.5% vs year-ago OPM: +58.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2011-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +3.0% -> +9.8% (+6.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2011-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.0% vs prior quarter YoY: +15.5% (decel: -18.5%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2011-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +253.1% vs year-ago OPM: +47.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2011-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +15.5% vs prior quarter YoY: +54.5% (decel: -39.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2011-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +54.5% vs prior quarter YoY: +97.8% (decel: -43.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2011-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +57.6% vs year-ago OPM: +46.6%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2011-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +97.8% vs prior quarter YoY: +132.5% (decel: -34.6%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2011-03 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +88.2% vs year-ago OPM: +30.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +132.5% vs prior quarter YoY: +110.3% (accel: +22.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +70.0% vs year-ago OPM: +16.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +14.5% -> +20.9% (+6.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2010-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +46.0% vs OpEx growth +24.6% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2010-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +110.3% vs prior quarter YoY: +95.3% (accel: +15.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2010-09 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +72.9% vs year-ago OPM: +33.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -6.0% -> +14.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +45.0% vs OpEx growth +10.7% (leverage: 4.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2010-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +95.3% vs prior quarter YoY: +26.3% (accel: +69.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +75.4% vs year-ago OPM: +19.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2010-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -20.5% -> -6.0% (+14.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2009-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -18.5% -> +12.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2009-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +35.6% vs OpEx growth +11.1% (leverage: 3.2x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 16,
+    "coverage": {
+      "revenue": [
+        16,
+        16
+      ],
+      "gross_profit": [
+        0,
+        16
+      ],
+      "op_income": [
+        16,
+        16
+      ],
+      "fcf": [
+        14,
+        16
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T19:55:09.200687"
+}

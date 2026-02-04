@@ -1,0 +1,191 @@
+{
+  "ticker": "CSTM",
+  "name": "Constellium SE",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 1880000000,
+      "gross_profit": 245000000,
+      "operating_income": null,
+      "net_income": 21000000,
+      "opex": null,
+      "cogs": 1635000000,
+      "rd": 15000000,
+      "sga": 80000000,
+      "fcf": -37000000,
+      "ocf": 37000000,
+      "capex": -74000000,
+      "gross_margin": 0.13031914893617022,
+      "op_margin": null,
+      "fcf_margin": -0.019680851063829788
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 1932000000,
+      "gross_profit": 280000000,
+      "operating_income": null,
+      "net_income": 76000000,
+      "opex": null,
+      "cogs": 1652000000,
+      "rd": 13000000,
+      "sga": 75000000,
+      "fcf": 54000000,
+      "ocf": 138000000,
+      "capex": -84000000,
+      "gross_margin": 0.14492753623188406,
+      "op_margin": null,
+      "fcf_margin": 0.027950310559006212,
+      "fcf_margin_change": 0.047631161622835996
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 1802000000,
+      "gross_profit": 205000000,
+      "operating_income": null,
+      "net_income": 7000000,
+      "opex": null,
+      "cogs": 1597000000,
+      "rd": 11000000,
+      "sga": 66000000,
+      "fcf": -39000000,
+      "ocf": 65000000,
+      "capex": -104000000,
+      "gross_margin": 0.11376248612652608,
+      "op_margin": null,
+      "fcf_margin": -0.021642619311875694,
+      "fcf_margin_change": -0.0495929298708819
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 1721000000,
+      "gross_profit": 208000000,
+      "operating_income": null,
+      "net_income": -48000000,
+      "opex": null,
+      "cogs": 1513000000,
+      "rd": 10000000,
+      "sga": 92000000,
+      "fcf": -90000000,
+      "ocf": 61000000,
+      "capex": -151000000,
+      "gross_margin": 0.12085996513654852,
+      "op_margin": null,
+      "fcf_margin": -0.05229517722254503,
+      "fcf_margin_change": -0.030652557910669335
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 1979000000,
+      "gross_profit": 263000000,
+      "operating_income": null,
+      "net_income": 37000000,
+      "opex": null,
+      "cogs": 1716000000,
+      "rd": 13000000,
+      "sga": 78000000,
+      "fcf": -11000000,
+      "ocf": 58000000,
+      "capex": -69000000,
+      "gross_margin": 0.1328954017180394,
+      "op_margin": null,
+      "fcf_margin": -0.0055583628094997475,
+      "rev_growth_yoy": 0.052659574468085106,
+      "fcf_margin_change": 0.04673681441304528
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 2103000000,
+      "gross_profit": 263000000,
+      "operating_income": null,
+      "net_income": 36000000,
+      "opex": null,
+      "cogs": 1840000000,
+      "rd": 12000000,
+      "sga": 88000000,
+      "fcf": 37000000,
+      "ocf": 114000000,
+      "capex": -77000000,
+      "gross_margin": 0.12505943889681406,
+      "op_margin": null,
+      "fcf_margin": 0.01759391345696624,
+      "rev_growth_yoy": 0.08850931677018634,
+      "rev_growth_yoy_accel": 0.03584974230210123,
+      "fcf_margin_change": 0.023152276266465988
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 2166000000,
+      "gross_profit": 314000000,
+      "operating_income": null,
+      "net_income": 88000000,
+      "opex": null,
+      "cogs": 1852000000,
+      "rd": 12000000,
+      "sga": 85000000,
+      "fcf": 24000000,
+      "ocf": 99000000,
+      "capex": -75000000,
+      "gross_margin": 0.14496768236380425,
+      "op_margin": null,
+      "fcf_margin": 0.0110803324099723,
+      "rev_growth_yoy": 0.20199778024417314,
+      "rev_growth_yoy_accel": 0.1134884634739868,
+      "fcf_margin_change": -0.006513581046993939
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +20.2% vs prior quarter YoY: +8.9% (accel: +11.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.6% -> +1.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -2.0% -> +2.8%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        7,
+        7
+      ],
+      "op_income": [
+        0,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "op_income: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:20:34.967103"
+}

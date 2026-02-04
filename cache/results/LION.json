@@ -1,0 +1,142 @@
+{
+  "ticker": "LION",
+  "name": "Lionsgate Studios Corp.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 486900000,
+      "gross_profit": null,
+      "operating_income": -22500000,
+      "net_income": -59400000,
+      "opex": 509400000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -163000000,
+      "ocf": -158900000,
+      "capex": -4100000,
+      "gross_margin": null,
+      "op_margin": -0.04621072088724584,
+      "fcf_margin": -0.334771000205381
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 604000000,
+      "gross_profit": null,
+      "operating_income": -100700000,
+      "net_income": -163300000,
+      "opex": 704700000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -86500000,
+      "ocf": -82000000,
+      "capex": -4500000,
+      "gross_margin": null,
+      "op_margin": -0.16672185430463576,
+      "fcf_margin": -0.14321192052980133,
+      "op_leverage_ratio": 0.6272978771935304,
+      "fcf_margin_change": 0.19155907967557964
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 525900000,
+      "gross_profit": null,
+      "operating_income": -10600000,
+      "net_income": -108900000,
+      "opex": 536500000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -34500000,
+      "ocf": -31000000,
+      "capex": -3500000,
+      "gross_margin": null,
+      "op_margin": -0.020155923179311655,
+      "fcf_margin": -0.06560182544209926,
+      "incr_op_margin_yoy": 0.30512820512820515,
+      "rev_growth_yoy": 0.08009858287122612,
+      "fcf_margin_change": 0.07761009508770207
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 475100000,
+      "gross_profit": null,
+      "operating_income": -46000000,
+      "net_income": -113500000,
+      "opex": 521100000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -107200000,
+      "ocf": -104000000,
+      "capex": -3200000,
+      "gross_margin": null,
+      "op_margin": -0.096821721742791,
+      "fcf_margin": -0.22563670806146074,
+      "incr_op_margin_yoy": -0.4243599689681924,
+      "rev_growth_yoy": -0.21341059602649007,
+      "rev_growth_yoy_accel": -0.2935091788977162,
+      "fcf_margin_change": -0.1600348826193615
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -21.3% vs prior quarter YoY: +8.0% (decel: -29.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -14.3% -> -6.6% (+7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -33.5% -> -14.3% (+19.2%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:25:49.698481"
+}

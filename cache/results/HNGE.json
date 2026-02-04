@@ -1,0 +1,129 @@
+{
+  "ticker": "HNGE",
+  "name": "Hinge Health, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 89825000,
+      "gross_profit": 66617000,
+      "operating_income": -17551000,
+      "net_income": -12926000,
+      "opex": 84168000,
+      "cogs": 23208000,
+      "rd": 24920000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7416309490676315,
+      "op_margin": -0.19539103812969663,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 100615000,
+      "gross_profit": 79257000,
+      "operating_income": -3845000,
+      "net_income": 341000,
+      "opex": 83102000,
+      "cogs": 21358000,
+      "rd": 23785000,
+      "sga": null,
+      "fcf": 28083000,
+      "ocf": 28398000,
+      "capex": -315000,
+      "gross_margin": 0.7877254882472793,
+      "op_margin": -0.038214977886001096,
+      "fcf_margin": 0.27911345226854845,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 139098000,
+      "gross_profit": 97763000,
+      "operating_income": -580671000,
+      "net_income": -575651000,
+      "opex": 678434000,
+      "cogs": 41335000,
+      "rd": 279962000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7028354110051905,
+      "op_margin": -4.174546003537075,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -11.428571428571429,
+      "rev_growth_yoy": 0.5485443918730866,
+      "op_leverage_ratio": 0.053389817712145536
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 154211000,
+      "gross_profit": 126199000,
+      "operating_income": -6093000,
+      "net_income": -1844000,
+      "opex": 132292000,
+      "cogs": 28012000,
+      "rd": 31921000,
+      "sga": null,
+      "fcf": 82346000,
+      "ocf": 82398000,
+      "capex": -52000,
+      "gross_margin": 0.8183527763907893,
+      "op_margin": -0.03951080013747398,
+      "fcf_margin": 0.5339826601215218,
+      "incr_op_margin_yoy": -0.04194342861407568,
+      "rev_growth_yoy": 0.5326839934403419,
+      "rev_growth_yoy_accel": -0.01586039843274467,
+      "op_leverage_ratio": Infinity
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +78.8% -> +70.3% -> +81.8% (reversal +11.6%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:20:29.944288"
+}

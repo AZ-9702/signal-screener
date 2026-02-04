@@ -1,0 +1,166 @@
+{
+  "ticker": "MH",
+  "name": "MCGRAW HILL, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 522954000,
+      "gross_profit": 397664000,
+      "operating_income": 75780000,
+      "net_income": -9447000,
+      "opex": 321884000,
+      "cogs": 125290000,
+      "rd": 63450000,
+      "sga": null,
+      "fcf": -18814000,
+      "ocf": -2895000,
+      "capex": -15919000,
+      "gross_margin": 0.7604186983941226,
+      "op_margin": 0.14490758269369772,
+      "fcf_margin": -0.035976395629443506
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 688590000,
+      "gross_profit": 535232000,
+      "operating_income": 179096000,
+      "net_income": 133403000,
+      "opex": 356136000,
+      "cogs": 153358000,
+      "rd": 63492000,
+      "sga": null,
+      "fcf": 402244000,
+      "ocf": 415358000,
+      "capex": -13114000,
+      "gross_margin": 0.7772869196473954,
+      "op_margin": 0.26009091041112997,
+      "fcf_margin": 0.5841560289867701,
+      "op_leverage_ratio": 2.9764918591660514,
+      "fcf_margin_change": 0.6201324246162137
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 535710000,
+      "gross_profit": 412326000,
+      "operating_income": 96225000,
+      "net_income": 502000,
+      "opex": 316101000,
+      "cogs": 123384000,
+      "rd": 65458000,
+      "sga": null,
+      "fcf": -112935000,
+      "ocf": -96652000,
+      "capex": -16283000,
+      "gross_margin": 0.7696813574508596,
+      "op_margin": 0.17962143697149577,
+      "fcf_margin": -0.2108136865094921,
+      "incr_op_margin_yoy": 1.60277516462841,
+      "rev_growth_yoy": 0.024392202755882927,
+      "fcf_margin_change": -0.7949697154962622
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 669187000,
+      "gross_profit": 530110000,
+      "operating_income": 156525000,
+      "net_income": 105284000,
+      "opex": 373585000,
+      "cogs": 139077000,
+      "rd": 69651000,
+      "sga": null,
+      "fcf": 243788000,
+      "ocf": 264983000,
+      "capex": -21195000,
+      "gross_margin": 0.792170200556795,
+      "op_margin": 0.23390322884335768,
+      "fcf_margin": 0.3643047459080945,
+      "incr_op_margin_yoy": 1.1632737205586765,
+      "rev_growth_yoy": -0.028177870721329094,
+      "rev_growth_yoy_accel": -0.05257007347721202,
+      "op_leverage_ratio": 1.3701104308298666,
+      "fcf_margin_change": 0.5751184324175865
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -21.1% -> +36.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +77.7% -> +77.0% -> +79.2% (reversal +2.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -2.8% vs prior quarter YoY: +2.4% (decel: -5.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +116.3% vs year-ago OPM: +26.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +160.3% vs year-ago OPM: +14.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.6% -> +58.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +31.7% vs OpEx growth +10.6% (leverage: 3.0x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:24:46.252814"
+}

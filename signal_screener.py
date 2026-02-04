@@ -58,7 +58,7 @@ THRESHOLDS = {
     "fcf_margin_improve": 0.05,    # FCF margin improvement > 5pp
 }
 
-SUBCOMMANDS = {"scan", "update", "report", "filter"}
+SUBCOMMANDS = {"scan", "update", "report", "filter", "serve"}
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -283,8 +283,9 @@ def _make_serializable(obj):
         return {k: _make_serializable(v) for k, v in obj.items()}
     if isinstance(obj, (list, tuple)):
         return [_make_serializable(x) for x in obj]
-    if isinstance(obj, float) and math.isnan(obj):
-        return None
+    if isinstance(obj, float):
+        if math.isnan(obj) or math.isinf(obj):
+            return None
     return obj
 
 
@@ -1070,7 +1071,7 @@ class ProgressTracker:
 
     def _draw(self):
         elapsed = time.monotonic() - self.start_time
-        if self.current > 0:
+        if self.current > 0 and elapsed > 0:
             rate = self.current / elapsed
             eta_sec = (self.total - self.current) / rate if rate > 0 else 0
             eta_str = f"ETA {int(eta_sec//60)}m{int(eta_sec%60):02d}s"
@@ -1227,10 +1228,10 @@ def _run_scan_mode(args):
                 parts.append(f"{GREEN}{med}M{RESET}")
             print(f"  {BOLD}{c['ticker']:<8}{RESET} {c['name'][:40]:<40} {', '.join(parts)}")
 
-    # Auto-generate report unless --no-report
+    # Auto-generate master report unless --no-report
     if not args.no_report:
         print()
-        _generate_html_report()
+        _generate_master_report()
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -1459,10 +1460,238 @@ def _run_update_mode(args):
                 print(f"    {icon} {color}[{s['quarter']}] {s['signal']}{RESET}")
                 print(f"        {s['detail']}")
 
-    # Auto-generate report unless --no-report
-    if not args.no_report:
+    # Append to query history and update reports unless --no-report
+    if not args.no_report and signals_summary:
         print()
-        _generate_html_report()
+        # Prepare data for query history
+        query_companies = []
+        for item in signals_summary:
+            # Load full quarters data for the company
+            result = _load_result(item["ticker"])
+            quarters = result.get("quarters", [])[-8:] if result else []
+            query_companies.append({
+                "ticker": item["ticker"],
+                "name": item["name"],
+                "signals": item["display_signals"],
+                "quarters": quarters,
+                "filed_date": item.get("filed_date", ""),
+            })
+
+        cmd = f"update --days {days}" + (" --all" if show_all else "")
+        _append_query(cmd, query_companies)
+
+        # Also update master report
+        _generate_master_report()
+
+
+def _run_review_mode(args):
+    """Review mode: show important signals from companies that filed in past N days.
+
+    Approach A: Query recent filers, show their HIGH/MEDIUM signals (not just "new" ones).
+    This gives a clear view of "what's interesting among companies that recently filed".
+    """
+    days = args.days
+    min_revenue = _parse_revenue_str(args.min_revenue)
+    cutoff = datetime.now() - timedelta(days=days)
+    cutoff_str = cutoff.strftime("%Y-%m-%d")
+
+    print(f"{BOLD}{CYAN}Signal Screener -- Review Mode{RESET}")
+    print(f"  Looking back: {days} days (filed since {cutoff_str})")
+    print(f"  Min quarterly revenue: {fmt_b(min_revenue)}")
+    print(f"  Showing: All signals from recent quarters")
+    print()
+
+    # ── Step 1: Fetch recent filers from SEC ──
+    print(f"{DIM}Fetching recent filers from SEC...{RESET}")
+    filers = _fetch_recent_filers(days)
+    print(f"  Found {len(filers)} companies with recent 10-Q/10-K filings")
+
+    if not filers:
+        print(f"\n{DIM}No recent filings found.{RESET}")
+        return
+
+    # ── Step 2: Process each filer, collect those with important signals ──
+    progress = ProgressTracker(len(filers), label="Processing")
+    companies_with_signals = []
+    total_passed = 0
+
+    try:
+        for filer in filers:
+            ticker = filer["ticker"]
+            cik = filer["cik"]
+
+            # Process company (uses cache if available, or fetches fresh)
+            result, status = _process_company(cik, ticker, min_revenue=min_revenue,
+                                              force_refresh=False)  # Use cache to speed up
+            if status == "pass" and result:
+                total_passed += 1
+                all_sigs = result.get("signals", [])
+                quarters = result.get("quarters", [])
+
+                # Get the latest 2 quarter labels (the recently filed report should be one of these)
+                recent_quarter_labels = set()
+                if quarters:
+                    for q in quarters[-2:]:  # Last 2 quarters
+                        qlabel = q.get("quarter_label", "")
+                        if qlabel:
+                            recent_quarter_labels.add(qlabel)
+
+                # Filter signals: only from the most recent 2 quarters
+                # Include all severity levels (HIGH, MEDIUM, WARNING) for complete picture
+                recent_sigs = [
+                    s for s in all_sigs
+                    if s.get("quarter", "") in recent_quarter_labels
+                ]
+
+                if recent_sigs:
+                    companies_with_signals.append({
+                        "ticker": ticker,
+                        "name": result.get("name", ticker),
+                        "form_type": filer["form_type"],
+                        "filed_date": filer["filed_date"],
+                        "signals": recent_sigs,
+                        "quarters": quarters[-8:],  # Last 8 quarters for display
+                    })
+
+            progress.update(status)
+
+    except KeyboardInterrupt:
+        sys.stderr.write("\n  Interrupted! Showing partial results...\n")
+
+    progress.finish()
+
+    if not companies_with_signals:
+        print(f"\n{DIM}No companies with signals (filed in past {days} days).{RESET}")
+        return
+
+    # ── Step 3: Display results ──
+    print(f"\n{BOLD}{YELLOW}Companies with signals (filed in past {days} days): {len(companies_with_signals)}{RESET}")
+
+    # Sort by filed_date (most recent first), then by signal count
+    companies_with_signals.sort(
+        key=lambda x: (x["filed_date"], len(x["signals"])),
+        reverse=True
+    )
+
+    for company in companies_with_signals:
+        ticker = company["ticker"]
+        name = company["name"][:40]
+        form_type = company["form_type"]
+        filed_date = company["filed_date"]
+
+        print(f"\n  {BOLD}{ticker}{RESET} ({name}) -- Filed {form_type} on {filed_date}")
+
+        # Show signals
+        print(f"    {CYAN}Signals:{RESET}")
+        for s in company["signals"]:
+            sev = s.get("severity", "MEDIUM")
+            if sev == "HIGH":
+                color, icon = RED, "[!!]"
+            else:
+                color, icon = GREEN, "[+]"
+            print(f"      {icon} {color}[{s.get('quarter', '')}] {s.get('signal', '')}{RESET}")
+            detail = s.get("detail", "")
+            if detail:
+                print(f"          {detail}")
+
+        # Show quarterly data
+        quarters = company.get("quarters", [])
+        if quarters:
+            print(f"    {CYAN}Quarterly Data (last {len(quarters)}Q):{RESET}")
+            print(f"      {'Quarter':<12} {'Revenue':>10} {'RevGr%':>8} {'GM%':>7} {'OPM%':>7} {'IncrOPM':>8} {'FCF%':>7}")
+            print(f"      {'-'*12} {'-'*10} {'-'*8} {'-'*7} {'-'*7} {'-'*8} {'-'*7}")
+            for q in reversed(quarters):
+                qlabel = q.get("quarter_label", "")[:12]
+                rev = q.get("revenue")
+                rev_str = fmt_b(rev) if rev else "-"
+                rev_g = q.get("rev_growth_yoy")
+                rev_g_str = f"{rev_g*100:+.1f}%" if rev_g is not None else "-"
+                gm = q.get("gross_margin")
+                gm_str = f"{gm*100:.1f}%" if gm is not None else "-"
+                op_m = q.get("op_margin")
+                op_m_str = f"{op_m*100:.1f}%" if op_m is not None else "-"
+                incr_opm = q.get("incr_op_margin_yoy")
+                incr_str = f"{incr_opm*100:.1f}%" if incr_opm is not None else "-"
+                fcf_m = q.get("fcf_margin")
+                fcf_str = f"{fcf_m*100:.1f}%" if fcf_m is not None else "-"
+                print(f"      {qlabel:<12} {rev_str:>10} {rev_g_str:>8} {gm_str:>7} {op_m_str:>7} {incr_str:>8} {fcf_str:>7}")
+
+    # Append to query history and update reports unless --no-report
+    if not args.no_report and companies_with_signals:
+        print()
+        # Append to query history
+        cmd = f"update --days {days} --review"
+        _append_query(cmd, companies_with_signals)
+
+        # Also keep the dedicated review report for backwards compatibility
+        _generate_review_report_v2(days, companies_with_signals, cutoff_str)
+
+        # Update master report
+        _generate_master_report()
+
+
+def _generate_review_report_v2(days, companies_with_signals, cutoff_str):
+    """Generate HTML report for review mode (Approach A: important signals from recent filers)."""
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    output_path = os.path.join(REPORTS_DIR, f"signal_review_{days}d.html")
+
+    # Build companies_list for HTML template
+    companies_list = []
+    for company in companies_with_signals:
+        companies_list.append({
+            "ticker": company["ticker"],
+            "name": company["name"],
+            "signals": _make_serializable(company["signals"]),
+            "filed_date": company["filed_date"],
+            "form_type": company["form_type"],
+            "quarters": _make_serializable(company.get("quarters", [])),
+        })
+
+    # Create a pseudo scan_history entry for the HTML template
+    review_entry = {
+        "date": datetime.now().strftime("%Y-%m-%d"),
+        "time": datetime.now().strftime("%H:%M:%S"),
+        "mode": f"review --days {days}",
+        "days_back": days,
+        "total_scanned": len(companies_with_signals),
+        "passed_filter": len(companies_with_signals),
+        "companies_with_signals": companies_list,
+    }
+
+    # Build all_results dict so HTML template can access quarters data
+    all_results = {}
+    for company in companies_list:
+        ticker = company["ticker"]
+        all_results[ticker] = {
+            "name": company["name"],
+            "signals": company["signals"],
+            "quarters": company.get("quarters", []),
+        }
+
+    data = {
+        "review_mode": True,
+        "days_back": days,
+        "cutoff_date": cutoff_str,
+        "generated": datetime.now().isoformat(),
+        "n_companies": len(companies_with_signals),
+        "companies": companies_list,
+        "scan_history": [review_entry],
+        "all_results": all_results,
+    }
+
+    data_json = json.dumps(data, default=str)
+    html = _HTML_TEMPLATE.replace("/*DATA_PLACEHOLDER*/", data_json)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"{GREEN}Review report generated: {output_path}{RESET}")
+
+    try:
+        webbrowser.open(f"file://{os.path.abspath(output_path)}")
+        print(f"{DIM}Opened in browser.{RESET}")
+    except Exception:
+        pass
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -1620,16 +1849,22 @@ function renderCard(ticker, name, signals, quarters) {
 
   let tableHtml = '';
   if (quarters && quarters.length > 0) {
-    const recent = quarters.slice(-8);
-    tableHtml = '<table><tr><th>Quarter</th><th>Revenue</th><th>Gross%</th><th>OpMar%</th><th>FCF%</th><th>RevGr YoY</th></tr>';
+    const recent = [...quarters].sort((a,b) => (a.end||a.quarter_end||'').localeCompare(b.end||b.quarter_end||'')).slice(-8);
+    tableHtml = `<table>
+      <tr>
+        <th>Quarter</th><th>Revenue</th><th>RevGr YoY</th><th>Gross%</th>
+        <th>OpMar%</th><th>Incr OPM</th><th>FCF%</th><th>Op Income</th>
+      </tr>`;
     recent.forEach(q => {
       tableHtml += `<tr>
         <td style="text-align:left">${q.quarter_label||''}</td>
         <td>${fmtB(q.revenue)}</td>
+        <td class="${valClass(q.rev_growth_yoy)}">${fmtPct(q.rev_growth_yoy)}</td>
         <td class="${valClass(q.gross_margin)}">${fmtPct(q.gross_margin)}</td>
         <td class="${valClass(q.op_margin)}">${fmtPct(q.op_margin)}</td>
+        <td class="${valClass(q.incr_op_margin_yoy)}">${fmtPct(q.incr_op_margin_yoy)}</td>
         <td class="${valClass(q.fcf_margin)}">${fmtPct(q.fcf_margin)}</td>
-        <td class="${valClass(q.rev_growth_yoy)}">${fmtPct(q.rev_growth_yoy)}</td>
+        <td>${fmtB(q.operating_income)}</td>
       </tr>`;
     });
     tableHtml += '</table>';
@@ -1716,6 +1951,515 @@ renderNewSignals();
 </html>"""
 
 
+# ══════════════════════════════════════════════════════════════════════
+#  Master Report Template (signal_master.html) - Complete cache view
+# ══════════════════════════════════════════════════════════════════════
+
+_MASTER_HTML_TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Master - Complete Cache</title>
+<style>
+  :root {
+    --bg: #0d1117; --surface: #161b22; --border: #30363d;
+    --text: #c9d1d9; --text-dim: #8b949e; --text-bright: #f0f6fc;
+    --red: #f85149; --green: #3fb950; --yellow: #d29922; --blue: #58a6ff;
+    --red-bg: #f8514920; --green-bg: #3fb95020; --yellow-bg: #d2992220;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 20px; }
+  header h1 { color: var(--text-bright); font-size: 20px; font-weight: 600; margin-bottom: 12px; }
+  .filter-bar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .filter-bar input, .filter-bar select { background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 14px; }
+  .filter-bar input { width: 180px; }
+  .filter-bar label { color: var(--text-dim); font-size: 13px; margin-right: 4px; }
+  .filter-group { display: flex; align-items: center; gap: 4px; }
+  .stats { display: flex; gap: 24px; padding: 12px 20px; background: var(--surface); border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+  .stat { display: flex; flex-direction: column; }
+  .stat-value { font-size: 20px; font-weight: 600; color: var(--text-bright); }
+  .stat-label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin: 12px 0; overflow: hidden; }
+  .card-header { padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; user-select: none; }
+  .card-header:hover { background: #1c2129; }
+  .card-ticker { font-size: 16px; font-weight: 600; color: var(--text-bright); margin-right: 12px; }
+  .card-name { color: var(--text-dim); font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge { padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge-high { background: var(--red-bg); color: var(--red); border: 1px solid var(--red); }
+  .badge-medium { background: var(--green-bg); color: var(--green); border: 1px solid var(--green); }
+  .badge-warning { background: var(--yellow-bg); color: var(--yellow); border: 1px solid var(--yellow); }
+  .card-body { display: none; padding: 0 16px 16px; }
+  .card.expanded .card-body { display: block; }
+  .signal-list { list-style: none; margin: 8px 0; }
+  .signal-list li { padding: 6px 0; border-bottom: 1px solid var(--border); display: flex; gap: 8px; align-items: baseline; }
+  .signal-list li:last-child { border-bottom: none; }
+  .signal-quarter { color: var(--blue); font-size: 12px; white-space: nowrap; min-width: 100px; }
+  .signal-name { font-weight: 500; }
+  .signal-detail { color: var(--text-dim); font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { text-align: right; padding: 6px 10px; color: var(--text-dim); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  .positive { color: var(--green); }
+  .negative { color: var(--red); }
+  .no-data { color: var(--text-dim); font-style: italic; text-align: center; padding: 40px; }
+  .expand-icon { color: var(--text-dim); transition: transform 0.2s; }
+  .card.expanded .expand-icon { transform: rotate(90deg); }
+  .footer { text-align: center; padding: 20px; color: var(--text-dim); font-size: 12px; }
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Signal Master - Complete Cache View</h1>
+  <div class="filter-bar">
+    <div class="filter-group">
+      <label>Ticker:</label>
+      <input type="text" id="tickerFilter" placeholder="Search ticker..." oninput="applyFilters()">
+    </div>
+    <div class="filter-group">
+      <label>Severity:</label>
+      <select id="severityFilter" onchange="applyFilters()">
+        <option value="">All</option>
+        <option value="HIGH">HIGH only</option>
+        <option value="MEDIUM">MEDIUM+</option>
+        <option value="WARNING">WARNING+</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Signal:</label>
+      <select id="signalFilter" onchange="applyFilters()">
+        <option value="">All Types</option>
+        <option value="TURNED POSITIVE">Turned Positive</option>
+        <option value="INCREMENTAL">Incremental Margin</option>
+        <option value="ACCELERATION">Rev Acceleration</option>
+        <option value="INFLECTION">GM Inflection</option>
+        <option value="LEVERAGE">Op Leverage</option>
+        <option value="FCF">FCF Related</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Data After:</label>
+      <input type="text" id="afterFilter" placeholder="YYYY-MM" style="width:100px" oninput="applyFilters()">
+    </div>
+  </div>
+</header>
+<div class="stats" id="statsBar"></div>
+<div class="container" id="mainContent"></div>
+<div class="footer">
+  Generated: <span id="genTime"></span> | Signal Master (Complete Cache)
+</div>
+
+<script>
+const DATA = /*DATA_PLACEHOLDER*/;
+const SEVERITY_RANK = {HIGH: 3, MEDIUM: 2, WARNING: 1};
+
+function fmtPct(v) {
+  if (v == null || isNaN(v)) return '';
+  return (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+}
+function fmtB(v) {
+  if (v == null || isNaN(v)) return '';
+  let s = v < 0 ? '-' : '', a = Math.abs(v);
+  if (a >= 1e9) return s + '$' + (a/1e9).toFixed(1) + 'B';
+  if (a >= 1e6) return s + '$' + (a/1e6).toFixed(0) + 'M';
+  return s + '$' + a.toLocaleString();
+}
+function valClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
+
+document.getElementById('genTime').textContent = DATA.generated;
+
+function renderCard(ticker, data) {
+  const signals = data.signals || [];
+  const quarters = data.quarters || [];
+  const name = data.name || '';
+
+  const high = signals.filter(s => s.severity === 'HIGH').length;
+  const med = signals.filter(s => s.severity === 'MEDIUM').length;
+  const warn = signals.filter(s => s.severity === 'WARNING').length;
+  let badges = '';
+  if (high) badges += `<span class="badge badge-high">${high} HIGH</span>`;
+  if (med) badges += `<span class="badge badge-medium">${med} MED</span>`;
+  if (warn) badges += `<span class="badge badge-warning">${warn} WARN</span>`;
+
+  let signalHtml = '<ul class="signal-list">';
+  signals.forEach(s => {
+    const c = s.severity === 'HIGH' ? 'var(--red)' : s.severity === 'WARNING' ? 'var(--yellow)' : 'var(--green)';
+    signalHtml += `<li>
+      <span class="signal-quarter">${s.quarter||''}</span>
+      <span class="signal-name" style="color:${c}">${s.signal||''}</span>
+      <span class="signal-detail">${s.detail||''}</span>
+    </li>`;
+  });
+  signalHtml += '</ul>';
+
+  let tableHtml = '';
+  if (quarters.length > 0) {
+    const recent = [...quarters].sort((a,b) => (a.end||a.quarter_end||'').localeCompare(b.end||b.quarter_end||'')).slice(-8);
+    tableHtml = `<table>
+      <tr>
+        <th>Quarter</th><th>Revenue</th><th>RevGr YoY</th><th>Gross%</th>
+        <th>OpMar%</th><th>Incr OPM</th><th>FCF%</th><th>Op Income</th>
+      </tr>`;
+    recent.forEach(q => {
+      tableHtml += `<tr>
+        <td style="text-align:left">${q.quarter_label||''}</td>
+        <td>${fmtB(q.revenue)}</td>
+        <td class="${valClass(q.rev_growth_yoy)}">${fmtPct(q.rev_growth_yoy)}</td>
+        <td class="${valClass(q.gross_margin)}">${fmtPct(q.gross_margin)}</td>
+        <td class="${valClass(q.op_margin)}">${fmtPct(q.op_margin)}</td>
+        <td class="${valClass(q.incr_op_margin_yoy)}">${fmtPct(q.incr_op_margin_yoy)}</td>
+        <td class="${valClass(q.fcf_margin)}">${fmtPct(q.fcf_margin)}</td>
+        <td>${fmtB(q.operating_income)}</td>
+      </tr>`;
+    });
+    tableHtml += '</table>';
+  }
+
+  return `<div class="card" data-ticker="${ticker}" onclick="this.classList.toggle('expanded')">
+    <div class="card-header">
+      <span class="card-ticker">${ticker}</span>
+      <span class="card-name">${name}</span>
+      <div class="badges">${badges}</div>
+      <span class="expand-icon">&#9654;</span>
+    </div>
+    <div class="card-body">
+      ${signalHtml}
+      ${tableHtml}
+    </div>
+  </div>`;
+}
+
+function applyFilters() {
+  const tickerQ = document.getElementById('tickerFilter').value.toUpperCase().trim();
+  const severityQ = document.getElementById('severityFilter').value;
+  const signalQ = document.getElementById('signalFilter').value.toUpperCase();
+  const afterQ = document.getElementById('afterFilter').value.trim();
+
+  const minRank = severityQ ? SEVERITY_RANK[severityQ] : 0;
+
+  const tickers = Object.keys(DATA.all_results);
+  let matched = 0, total = tickers.length;
+
+  const container = document.getElementById('mainContent');
+  let html = '';
+
+  // Sort by signal score
+  const sorted = tickers.slice().sort((a, b) => {
+    const sa = DATA.all_results[a].signals || [];
+    const sb = DATA.all_results[b].signals || [];
+    const scoreA = sa.filter(s=>s.severity==='HIGH').length * 10 + sa.length;
+    const scoreB = sb.filter(s=>s.severity==='HIGH').length * 10 + sb.length;
+    return scoreB - scoreA;
+  });
+
+  sorted.forEach(ticker => {
+    const data = DATA.all_results[ticker];
+    let signals = data.signals || [];
+    let quarters = data.quarters || [];
+
+    // Ticker filter
+    if (tickerQ && !ticker.includes(tickerQ)) return;
+
+    // After date filter - filter BOTH quarters AND signals
+    if (afterQ && /^\d{4}-\d{2}$/.test(afterQ)) {
+      // Filter quarters: keep only those with date >= afterQ
+      quarters = quarters.filter(q => {
+        const qDate = (q.date || '').slice(0, 7);
+        return qDate >= afterQ;
+      });
+      if (quarters.length === 0) return;
+
+      // Get quarter labels for filtered quarters
+      const validLabels = new Set(quarters.map(q => q.quarter_label));
+      // Filter signals: keep only those in filtered quarters
+      signals = signals.filter(s => validLabels.has(s.quarter));
+    }
+
+    // Severity filter
+    let filteredSignals = signals;
+    if (minRank > 0) {
+      filteredSignals = signals.filter(s => (SEVERITY_RANK[s.severity] || 0) >= minRank);
+      if (filteredSignals.length === 0) return;
+    }
+
+    // Signal type filter
+    if (signalQ) {
+      filteredSignals = filteredSignals.filter(s => (s.signal || '').toUpperCase().includes(signalQ));
+      if (filteredSignals.length === 0) return;
+    }
+
+    matched++;
+    // Render with filtered signals AND filtered quarters
+    const renderData = {...data, signals: filteredSignals, quarters: quarters};
+    html += renderCard(ticker, renderData);
+  });
+
+  container.innerHTML = html || '<div class="no-data">No companies match the filter criteria.</div>';
+
+  // Update stats
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat"><span class="stat-value">${total}</span><span class="stat-label">Total Cached</span></div>
+    <div class="stat"><span class="stat-value">${matched}</span><span class="stat-label">Matching Filter</span></div>
+  `;
+}
+
+// Initial render
+applyFilters();
+</script>
+</body>
+</html>"""
+
+
+# ══════════════════════════════════════════════════════════════════════
+#  Queries Report Template (signal_queries.html) - Query history
+# ══════════════════════════════════════════════════════════════════════
+
+_QUERIES_HTML_TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Queries - History</title>
+<style>
+  :root {
+    --bg: #0d1117; --surface: #161b22; --border: #30363d;
+    --text: #c9d1d9; --text-dim: #8b949e; --text-bright: #f0f6fc;
+    --red: #f85149; --green: #3fb950; --yellow: #d29922; --blue: #58a6ff;
+    --red-bg: #f8514920; --green-bg: #3fb95020; --yellow-bg: #d2992220;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; display: flex; height: 100vh; }
+  .sidebar { width: 320px; background: var(--surface); border-right: 1px solid var(--border); display: flex; flex-direction: column; flex-shrink: 0; }
+  .sidebar-header { padding: 16px; border-bottom: 1px solid var(--border); }
+  .sidebar-header h1 { color: var(--text-bright); font-size: 18px; font-weight: 600; }
+  .sidebar-header p { color: var(--text-dim); font-size: 12px; margin-top: 4px; }
+  .query-list { flex: 1; overflow-y: auto; }
+  .query-item { padding: 12px 16px; border-bottom: 1px solid var(--border); cursor: pointer; display: flex; flex-direction: column; gap: 4px; }
+  .query-item:hover { background: #1c2129; }
+  .query-item.selected { background: var(--blue); background-opacity: 0.2; border-left: 3px solid var(--blue); }
+  .query-time { font-size: 12px; color: var(--text-dim); }
+  .query-cmd { font-size: 13px; color: var(--text-bright); font-family: monospace; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .query-stats { font-size: 11px; color: var(--text-dim); }
+  .query-delete { color: var(--red); font-size: 11px; margin-left: auto; opacity: 0; transition: opacity 0.2s; }
+  .query-item:hover .query-delete { opacity: 1; }
+  .main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+  .main-header { padding: 16px 20px; background: var(--surface); border-bottom: 1px solid var(--border); }
+  .main-header h2 { color: var(--text-bright); font-size: 16px; font-weight: 600; }
+  .main-content { flex: 1; overflow-y: auto; padding: 20px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin: 12px 0; overflow: hidden; }
+  .card-header { padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; user-select: none; }
+  .card-header:hover { background: #1c2129; }
+  .card-ticker { font-size: 16px; font-weight: 600; color: var(--text-bright); margin-right: 12px; }
+  .card-name { color: var(--text-dim); font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge { padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge-high { background: var(--red-bg); color: var(--red); border: 1px solid var(--red); }
+  .badge-medium { background: var(--green-bg); color: var(--green); border: 1px solid var(--green); }
+  .badge-warning { background: var(--yellow-bg); color: var(--yellow); border: 1px solid var(--yellow); }
+  .card-body { display: none; padding: 0 16px 16px; }
+  .card.expanded .card-body { display: block; }
+  .signal-list { list-style: none; margin: 8px 0; }
+  .signal-list li { padding: 6px 0; border-bottom: 1px solid var(--border); display: flex; gap: 8px; align-items: baseline; }
+  .signal-list li:last-child { border-bottom: none; }
+  .signal-quarter { color: var(--blue); font-size: 12px; white-space: nowrap; min-width: 100px; }
+  .signal-name { font-weight: 500; }
+  .signal-detail { color: var(--text-dim); font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { text-align: right; padding: 6px 10px; color: var(--text-dim); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  .positive { color: var(--green); }
+  .negative { color: var(--red); }
+  .no-data { color: var(--text-dim); font-style: italic; text-align: center; padding: 40px; }
+  .expand-icon { color: var(--text-dim); transition: transform 0.2s; }
+  .card.expanded .expand-icon { transform: rotate(90deg); }
+</style>
+</head>
+<body>
+<div class="sidebar">
+  <div class="sidebar-header">
+    <h1>Query History</h1>
+    <p id="queryCount">0 queries</p>
+  </div>
+  <div class="query-list" id="queryList"></div>
+</div>
+<div class="main">
+  <div class="main-header">
+    <h2 id="selectedQuery">Select a query from the list</h2>
+  </div>
+  <div class="main-content" id="mainContent">
+    <div class="no-data">Select a query from the sidebar to view results.</div>
+  </div>
+</div>
+
+<script>
+const DATA = /*DATA_PLACEHOLDER*/;
+let selectedIdx = -1;
+
+function fmtPct(v) {
+  if (v == null || isNaN(v)) return '';
+  return (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+}
+function fmtB(v) {
+  if (v == null || isNaN(v)) return '';
+  let s = v < 0 ? '-' : '', a = Math.abs(v);
+  if (a >= 1e9) return s + '$' + (a/1e9).toFixed(1) + 'B';
+  if (a >= 1e6) return s + '$' + (a/1e6).toFixed(0) + 'M';
+  return s + '$' + a.toLocaleString();
+}
+function valClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
+
+function renderCard(ticker, data) {
+  const signals = data.signals || [];
+  const quarters = data.quarters || [];
+  const name = data.name || '';
+
+  const high = signals.filter(s => s.severity === 'HIGH').length;
+  const med = signals.filter(s => s.severity === 'MEDIUM').length;
+  const warn = signals.filter(s => s.severity === 'WARNING').length;
+  let badges = '';
+  if (high) badges += `<span class="badge badge-high">${high} HIGH</span>`;
+  if (med) badges += `<span class="badge badge-medium">${med} MED</span>`;
+  if (warn) badges += `<span class="badge badge-warning">${warn} WARN</span>`;
+
+  let signalHtml = '<ul class="signal-list">';
+  signals.forEach(s => {
+    const c = s.severity === 'HIGH' ? 'var(--red)' : s.severity === 'WARNING' ? 'var(--yellow)' : 'var(--green)';
+    signalHtml += `<li>
+      <span class="signal-quarter">${s.quarter||''}</span>
+      <span class="signal-name" style="color:${c}">${s.signal||''}</span>
+      <span class="signal-detail">${s.detail||''}</span>
+    </li>`;
+  });
+  signalHtml += '</ul>';
+
+  let tableHtml = '';
+  if (quarters.length > 0) {
+    const recent = [...quarters].sort((a,b) => (a.end||a.quarter_end||'').localeCompare(b.end||b.quarter_end||'')).slice(-8);
+    tableHtml = `<table>
+      <tr>
+        <th>Quarter</th><th>Revenue</th><th>RevGr YoY</th><th>Gross%</th>
+        <th>OpMar%</th><th>Incr OPM</th><th>FCF%</th><th>Op Income</th>
+      </tr>`;
+    recent.forEach(q => {
+      tableHtml += `<tr>
+        <td style="text-align:left">${q.quarter_label||''}</td>
+        <td>${fmtB(q.revenue)}</td>
+        <td class="${valClass(q.rev_growth_yoy)}">${fmtPct(q.rev_growth_yoy)}</td>
+        <td class="${valClass(q.gross_margin)}">${fmtPct(q.gross_margin)}</td>
+        <td class="${valClass(q.op_margin)}">${fmtPct(q.op_margin)}</td>
+        <td class="${valClass(q.incr_op_margin_yoy)}">${fmtPct(q.incr_op_margin_yoy)}</td>
+        <td class="${valClass(q.fcf_margin)}">${fmtPct(q.fcf_margin)}</td>
+        <td>${fmtB(q.operating_income)}</td>
+      </tr>`;
+    });
+    tableHtml += '</table>';
+  }
+
+  return `<div class="card" onclick="this.classList.toggle('expanded')">
+    <div class="card-header">
+      <span class="card-ticker">${ticker}</span>
+      <span class="card-name">${name}</span>
+      <div class="badges">${badges}</div>
+      <span class="expand-icon">&#9654;</span>
+    </div>
+    <div class="card-body">
+      ${signalHtml}
+      ${tableHtml}
+    </div>
+  </div>`;
+}
+
+function renderQueryList() {
+  const list = document.getElementById('queryList');
+  const queries = DATA.queries || [];
+  document.getElementById('queryCount').textContent = queries.length + ' queries';
+
+  if (queries.length === 0) {
+    list.innerHTML = '<div class="no-data" style="padding:20px;">No queries yet.</div>';
+    return;
+  }
+
+  let html = '';
+  queries.slice().reverse().forEach((q, i) => {
+    const idx = queries.length - 1 - i;
+    const signalCount = (q.companies || []).reduce((sum, c) => sum + (c.signals || []).length, 0);
+    html += `<div class="query-item ${idx === selectedIdx ? 'selected' : ''}" onclick="selectQuery(${idx})">
+      <span class="query-time">${q.timestamp || ''}</span>
+      <span class="query-cmd">${q.command || ''}</span>
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <span class="query-stats">${(q.companies || []).length} companies, ${signalCount} signals</span>
+        <span class="query-delete" onclick="deleteQuery(${idx}, event)">[Delete]</span>
+      </div>
+    </div>`;
+  });
+  list.innerHTML = html;
+}
+
+function selectQuery(idx) {
+  selectedIdx = idx;
+  renderQueryList();
+
+  const q = DATA.queries[idx];
+  if (!q) return;
+
+  document.getElementById('selectedQuery').textContent = q.command || 'Query Results';
+
+  const container = document.getElementById('mainContent');
+  const companies = q.companies || [];
+
+  if (companies.length === 0) {
+    container.innerHTML = '<div class="no-data">No companies with signals in this query.</div>';
+    return;
+  }
+
+  // Sort by signal score
+  companies.sort((a, b) => {
+    const scoreA = (a.signals||[]).filter(s=>s.severity==='HIGH').length * 10 + (a.signals||[]).length;
+    const scoreB = (b.signals||[]).filter(s=>s.severity==='HIGH').length * 10 + (b.signals||[]).length;
+    return scoreB - scoreA;
+  });
+
+  let html = '';
+  companies.forEach(c => {
+    html += renderCard(c.ticker, c);
+  });
+  container.innerHTML = html;
+}
+
+function deleteQuery(idx, event) {
+  event.stopPropagation();
+  if (!confirm('Delete this query from history?')) return;
+
+  DATA.queries.splice(idx, 1);
+  if (selectedIdx === idx) selectedIdx = -1;
+  else if (selectedIdx > idx) selectedIdx--;
+
+  renderQueryList();
+  if (selectedIdx === -1) {
+    document.getElementById('selectedQuery').textContent = 'Select a query from the list';
+    document.getElementById('mainContent').innerHTML = '<div class="no-data">Select a query from the sidebar to view results.</div>';
+  }
+
+  // Note: This only updates the in-memory data. To persist deletions,
+  // you would need to regenerate the HTML file from Python.
+}
+
+// Initial render
+renderQueryList();
+if (DATA.queries && DATA.queries.length > 0) {
+  selectQuery(DATA.queries.length - 1);
+}
+</script>
+</body>
+</html>"""
+
+
 def _assemble_report_data():
     """Load scan history and all cached results with signals."""
     scan_history = _load_scan_history()
@@ -1758,23 +2502,138 @@ def _generate_html_report(output_path=None):
 
 
 def _run_report_mode(args):
-    """Generate HTML report and optionally open in browser."""
-    output_path = args.output
-    path = _generate_html_report(output_path)
+    """Generate master report (complete cache) and optionally open in browser.
 
-    # Count what's in the report
-    data = _assemble_report_data()
-    n_scans = len(data["scan_history"])
-    n_companies = len(data["all_results"])
-    print(f"  Scan history entries: {n_scans}")
-    print(f"  Companies with signals: {n_companies}")
+    New dual-file architecture:
+    - signal_master.html: Complete cache view with client-side filtering
+    - signal_queries.html: Query history (updated by update/filter commands)
+    """
+    print(f"{BOLD}{CYAN}Signal Screener -- Report Generation{RESET}")
 
-    # Open in browser
+    # Generate master report (always)
+    master_path = _generate_master_report()
+
+    # Also regenerate queries report if history exists
+    queries = _load_query_history()
+    if queries:
+        _generate_queries_report(queries)
+        print(f"  Query history entries: {len(queries)}")
+
+    # Open master report in browser
     try:
-        webbrowser.open(f"file://{os.path.abspath(path)}")
-        print(f"{DIM}Opened in browser.{RESET}")
+        webbrowser.open(f"file://{os.path.abspath(master_path)}")
+        print(f"{DIM}Opened master report in browser.{RESET}")
     except Exception:
         pass
+
+    print(f"\n{DIM}Files:{RESET}")
+    print(f"  Master (cache view): {MASTER_REPORT_FILE}")
+    print(f"  Queries (history):   {QUERIES_REPORT_FILE}")
+
+
+# ══════════════════════════════════════════════════════════════════════
+#  Master Report & Query History (Dual-file architecture)
+# ══════════════════════════════════════════════════════════════════════
+
+MASTER_REPORT_FILE = os.path.join(REPORTS_DIR, "signal_master.html")
+QUERIES_REPORT_FILE = os.path.join(REPORTS_DIR, "signal_queries.html")
+QUERIES_JSON_FILE = os.path.join(CACHE_DIR, "query_history.json")
+
+
+def _generate_master_report():
+    """Generate signal_master.html - complete cache view with client-side filtering."""
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+
+    # Load all cached results (including those without signals for completeness)
+    all_results = {}
+    if os.path.isdir(RESULTS_CACHE_DIR):
+        for fname in os.listdir(RESULTS_CACHE_DIR):
+            if not fname.endswith(".json"):
+                continue
+            ticker = fname[:-5]
+            result = _load_result(ticker)
+            if result and result.get("signals"):  # Only include those with signals
+                all_results[ticker] = _make_serializable(result)
+
+    data = {
+        "all_results": all_results,
+        "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+    }
+    data_json = json.dumps(data, default=str)
+
+    html = _MASTER_HTML_TEMPLATE.replace("/*DATA_PLACEHOLDER*/", data_json)
+
+    with open(MASTER_REPORT_FILE, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"{GREEN}Master report generated: {MASTER_REPORT_FILE}{RESET}")
+    print(f"  Total companies with signals: {len(all_results)}")
+    return MASTER_REPORT_FILE
+
+
+def _load_query_history():
+    """Load query history from JSON file."""
+    if os.path.isfile(QUERIES_JSON_FILE):
+        try:
+            with open(QUERIES_JSON_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError):
+            pass
+    return []
+
+
+def _save_query_history(queries):
+    """Save query history to JSON file."""
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    _atomic_json_write(QUERIES_JSON_FILE, queries)
+
+
+def _append_query(command, companies):
+    """Append a query result to history and regenerate queries report.
+
+    Args:
+        command: str, the command that was run (e.g., "update --days 15 --review")
+        companies: list of dicts, each with ticker, name, signals, quarters
+    """
+    queries = _load_query_history()
+
+    query_entry = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "command": command,
+        "companies": _make_serializable(companies),
+    }
+    queries.append(query_entry)
+
+    # Keep last 100 queries
+    if len(queries) > 100:
+        queries = queries[-100:]
+
+    _save_query_history(queries)
+    _generate_queries_report(queries)
+
+    return query_entry
+
+
+def _generate_queries_report(queries=None):
+    """Generate signal_queries.html - query history with selectable results."""
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+
+    if queries is None:
+        queries = _load_query_history()
+
+    data = {
+        "queries": queries,
+        "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+    }
+    data_json = json.dumps(data, default=str)
+
+    html = _QUERIES_HTML_TEMPLATE.replace("/*DATA_PLACEHOLDER*/", data_json)
+
+    with open(QUERIES_REPORT_FILE, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    print(f"{GREEN}Queries report updated: {QUERIES_REPORT_FILE}{RESET}")
+    return QUERIES_REPORT_FILE
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -2020,58 +2879,591 @@ def _run_filter_mode(args):
 
 
 def _generate_filter_html_report(matched, filter_parts):
-    """Generate HTML report for filter results, reusing _HTML_TEMPLATE."""
+    """Generate HTML report for filter results and append to query history."""
     os.makedirs(REPORTS_DIR, exist_ok=True)
-    output_path = os.path.join(REPORTS_DIR, "filter_report.html")
 
-    # Build a data structure compatible with _HTML_TEMPLATE
-    all_results = {}
-    companies_with_signals = []
+    # Build data for query history
+    query_companies = []
     for r in matched:
-        all_results[r["ticker"]] = _make_serializable({
-            "name": r["name"],
-            "signals": r["signals"],
-            "quarters": r["quarters"],
-        })
-        companies_with_signals.append({
+        query_companies.append({
             "ticker": r["ticker"],
             "name": r["name"],
             "signals": _make_serializable(r["signals"]),
+            "quarters": _make_serializable(r["quarters"]),
         })
 
-    scan_entry = {
-        "date": datetime.now().strftime("%Y-%m-%d"),
-        "time": datetime.now().strftime("%H:%M:%S"),
-        "mode": "filter",
-        "total_scanned": len(matched),
-        "passed_filter": len(matched),
-        "companies_with_signals": companies_with_signals,
-    }
+    # Append to query history
+    cmd = f"filter {', '.join(filter_parts)}"
+    _append_query(cmd, query_companies)
 
-    data = {
-        "scan_history": [scan_entry],
-        "all_results": all_results,
-        "generated": datetime.now().isoformat(),
-    }
-
-    data_json = json.dumps(data, default=str)
-    html = _HTML_TEMPLATE.replace("/*DATA_PLACEHOLDER*/", data_json)
-    # Patch the title to show filter info
-    html = html.replace("<title>Signal Screener Report</title>",
-                         "<title>Signal Screener - Filter Results</title>")
-    html = html.replace("<h1>Signal Screener Report</h1>",
-                         f"<h1>Signal Screener - Filter ({', '.join(filter_parts)})</h1>")
-
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(html)
-
-    print(f"{GREEN}Filter report generated: {output_path}{RESET}")
-
+    # Open queries report in browser
     try:
-        webbrowser.open(f"file://{os.path.abspath(output_path)}")
-        print(f"{DIM}Opened in browser.{RESET}")
+        webbrowser.open(f"file://{os.path.abspath(QUERIES_REPORT_FILE)}")
+        print(f"{DIM}Opened queries report in browser.{RESET}")
     except Exception:
         pass
+
+
+# ══════════════════════════════════════════════════════════════════════
+#  Serve mode (Local HTTP server)
+# ══════════════════════════════════════════════════════════════════════
+
+import http.server
+import socketserver
+import urllib.parse as urlparse
+
+_SERVE_HTML_TEMPLATE = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signal Screener</title>
+<style>
+  :root {
+    --bg: #0d1117; --surface: #161b22; --border: #30363d;
+    --text: #c9d1d9; --text-dim: #8b949e; --text-bright: #f0f6fc;
+    --red: #f85149; --green: #3fb950; --yellow: #d29922; --blue: #58a6ff;
+    --red-bg: #f8514920; --green-bg: #3fb95020; --yellow-bg: #d2992220;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 14px; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 20px; }
+  header h1 { color: var(--text-bright); font-size: 20px; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
+  header h1 .status { font-size: 12px; padding: 4px 8px; border-radius: 4px; background: var(--green-bg); color: var(--green); }
+  .filter-bar { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .filter-bar input, .filter-bar select { background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 12px; font-size: 14px; }
+  .filter-bar input[type="text"] { width: 140px; }
+  .filter-bar input[type="number"] { width: 80px; }
+  .filter-bar label { color: var(--text-dim); font-size: 13px; margin-right: 4px; }
+  .filter-group { display: flex; align-items: center; gap: 4px; }
+  .btn { background: var(--blue); color: white; border: none; border-radius: 6px; padding: 6px 16px; font-size: 14px; cursor: pointer; transition: all 0.2s; }
+  .btn:hover { opacity: 0.9; transform: translateY(-1px); }
+  .btn-secondary { background: var(--surface); border: 1px solid var(--border); color: var(--text); transition: all 0.2s; }
+  .btn-secondary:hover { background: var(--border); }
+  .btn-clear { background: transparent; border: 1px solid var(--text-dim); color: var(--text-dim); border-radius: 6px; padding: 6px 14px; font-size: 13px; cursor: pointer; transition: all 0.2s; }
+  .btn-clear:hover { border-color: var(--yellow); color: var(--yellow); background: var(--yellow-bg); }
+  .btn-apply { background: var(--green); font-weight: 600; }
+  .btn-apply:hover { background: #2ea043; }
+  .btn-small { padding: 4px 10px; font-size: 12px; }
+  .stats { display: flex; gap: 24px; padding: 12px 20px; background: var(--surface); border-bottom: 1px solid var(--border); flex-wrap: wrap; }
+  .stat { display: flex; flex-direction: column; }
+  .stat-value { font-size: 20px; font-weight: 600; color: var(--text-bright); }
+  .stat-label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; margin: 12px 0; overflow: hidden; }
+  .card-header { padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; user-select: none; }
+  .card-header:hover { background: #1c2129; }
+  .card-ticker { font-size: 16px; font-weight: 600; color: var(--text-bright); margin-right: 12px; }
+  .card-name { color: var(--text-dim); font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card-filed { color: var(--blue); font-size: 11px; margin-right: 12px; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge { padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .badge-high { background: var(--red-bg); color: var(--red); border: 1px solid var(--red); }
+  .badge-medium { background: var(--green-bg); color: var(--green); border: 1px solid var(--green); }
+  .badge-warning { background: var(--yellow-bg); color: var(--yellow); border: 1px solid var(--yellow); }
+  .card-body { display: none; padding: 0 16px 16px; }
+  .card.expanded .card-body { display: block; }
+  .signal-list { list-style: none; margin: 8px 0; }
+  .signal-list li { padding: 6px 0; border-bottom: 1px solid var(--border); display: flex; gap: 8px; align-items: baseline; }
+  .signal-list li:last-child { border-bottom: none; }
+  .signal-quarter { color: var(--blue); font-size: 12px; white-space: nowrap; min-width: 100px; }
+  .signal-name { font-weight: 500; }
+  .signal-detail { color: var(--text-dim); font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 13px; }
+  th { text-align: right; padding: 6px 10px; color: var(--text-dim); font-weight: 500; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  .positive { color: var(--green); }
+  .negative { color: var(--red); }
+  .no-data { color: var(--text-dim); font-style: italic; text-align: center; padding: 40px; }
+  .expand-icon { color: var(--text-dim); transition: transform 0.2s; }
+  .card.expanded .expand-icon { transform: rotate(90deg); }
+  .footer { text-align: center; padding: 20px; color: var(--text-dim); font-size: 12px; }
+  .loading { text-align: center; padding: 40px; color: var(--text-dim); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Signal Screener <span class="status" id="status">Live</span></h1>
+  <div class="filter-bar">
+    <div class="filter-group">
+      <label>Ticker:</label>
+      <input type="text" id="tickerFilter" placeholder="Search..." onkeydown="if(event.key==='Enter')applyAllFilters()">
+    </div>
+    <div class="filter-group">
+      <label>Severity:</label>
+      <select id="severityFilter">
+        <option value="">All</option>
+        <option value="HIGH">HIGH only</option>
+        <option value="MEDIUM">MEDIUM+</option>
+        <option value="WARNING">WARNING+</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Signal:</label>
+      <select id="signalFilter">
+        <option value="">All Types</option>
+        <option value="TURNED POSITIVE">Turned Positive</option>
+        <option value="INCREMENTAL">Incremental Margin</option>
+        <option value="ACCELERATION">Rev Acceleration</option>
+        <option value="DECELERATION">Rev Deceleration</option>
+        <option value="INFLECTION">GM Inflection</option>
+        <option value="LEVERAGE">Op Leverage</option>
+        <option value="FCF">FCF Related</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Quarter From:</label>
+      <input type="text" id="fromFilter" placeholder="202501" style="width:80px" oninput="formatDateInput(this, event)" maxlength="7" onkeydown="if(event.key==='Enter')applyAllFilters()">
+    </div>
+    <div class="filter-group">
+      <label>Quarter To:</label>
+      <input type="text" id="toFilter" placeholder="202512" style="width:80px" oninput="formatDateInput(this, event)" maxlength="7" onkeydown="if(event.key==='Enter')applyAllFilters()">
+    </div>
+    <div class="filter-group">
+      <label>Filed in last:</label>
+      <input type="number" id="recentDays" placeholder="days" style="width:70px" min="1" value="" onkeydown="if(event.key==='Enter')applyAllFilters()">
+      <span style="color:var(--text-dim);font-size:12px">days</span>
+    </div>
+    <button class="btn btn-apply" onclick="applyAllFilters()">Apply Filters</button>
+    <button class="btn-clear" onclick="clearFilters()">&#x2715; Clear All</button>
+    <button class="btn-secondary btn-small" onclick="refreshData()">Refresh Data</button>
+  </div>
+</header>
+<div class="stats" id="statsBar">
+  <div class="stat"><span class="stat-value" id="totalCount">-</span><span class="stat-label">Total Cached</span></div>
+  <div class="stat"><span class="stat-value" id="matchedCount">-</span><span class="stat-label">Matching</span></div>
+  <div class="stat"><span class="stat-value" id="lastUpdate">-</span><span class="stat-label">Last Update</span></div>
+</div>
+<div class="container" id="mainContent">
+  <div class="loading">Loading data...</div>
+</div>
+<div class="footer">
+  Signal Screener | Press Ctrl+C in terminal to stop server
+</div>
+
+<script>
+let DATA = {all_results: {}, recent_filers: []};
+const SEVERITY_RANK = {HIGH: 3, MEDIUM: 2, WARNING: 1};
+
+function fmtPct(v) {
+  if (v == null || isNaN(v)) return '';
+  return (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+}
+function fmtB(v) {
+  if (v == null || isNaN(v)) return '';
+  let s = v < 0 ? '-' : '', a = Math.abs(v);
+  if (a >= 1e9) return s + '$' + (a/1e9).toFixed(1) + 'B';
+  if (a >= 1e6) return s + '$' + (a/1e6).toFixed(0) + 'M';
+  return s + '$' + a.toLocaleString();
+}
+function valClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
+
+function formatDateInput(input, event) {
+  // Check if user is deleting
+  const isDeleting = event && event.inputType && event.inputType.startsWith('delete');
+
+  // Remove all non-digits
+  let v = input.value.replace(/\D/g, '');
+
+  // Only auto-format when typing, not when deleting (YYYY/MM format)
+  if (!isDeleting && v.length >= 4) {
+    v = v.slice(0,4) + '/' + v.slice(4);
+  }
+  input.value = v.slice(0, 7);
+}
+
+function parseDateFilter(val) {
+  // Convert YYYY/MM or YYYYMM to comparable format
+  if (!val) return null;
+  const clean = val.replace(/\D/g, '');
+  if (clean.length >= 6) {
+    return clean.slice(0,4) + '-' + clean.slice(4,6);
+  }
+  return null;
+}
+
+function renderCard(ticker, data, filedInfo) {
+  const signals = data.signals || [];
+  const quarters = data.quarters || [];
+  const name = data.name || '';
+
+  const high = signals.filter(s => s.severity === 'HIGH').length;
+  const med = signals.filter(s => s.severity === 'MEDIUM').length;
+  const warn = signals.filter(s => s.severity === 'WARNING').length;
+  let badges = '';
+  if (high) badges += `<span class="badge badge-high">${high} HIGH</span>`;
+  if (med) badges += `<span class="badge badge-medium">${med} MED</span>`;
+  if (warn) badges += `<span class="badge badge-warning">${warn} WARN</span>`;
+
+  let filedHtml = '';
+  if (filedInfo) {
+    filedHtml = `<span class="card-filed">Filed ${filedInfo.form_type} on ${filedInfo.filed_date}</span>`;
+  }
+
+  let signalHtml = '<ul class="signal-list">';
+  signals.forEach(s => {
+    const c = s.severity === 'HIGH' ? 'var(--red)' : s.severity === 'WARNING' ? 'var(--yellow)' : 'var(--green)';
+    signalHtml += `<li>
+      <span class="signal-quarter">${s.quarter||''}</span>
+      <span class="signal-name" style="color:${c}">${s.signal||''}</span>
+      <span class="signal-detail">${s.detail||''}</span>
+    </li>`;
+  });
+  signalHtml += '</ul>';
+
+  let tableHtml = '';
+  if (quarters.length > 0) {
+    const recent = [...quarters].sort((a,b) => (a.end||a.quarter_end||'').localeCompare(b.end||b.quarter_end||'')).slice(-8);
+    tableHtml = `<table>
+      <tr>
+        <th>Quarter</th><th>Revenue</th><th>RevGr YoY</th><th>Gross%</th>
+        <th>OpMar%</th><th>Incr OPM</th><th>FCF%</th><th>Op Income</th>
+      </tr>`;
+    recent.forEach(q => {
+      tableHtml += `<tr>
+        <td style="text-align:left">${q.quarter_label||''}</td>
+        <td>${fmtB(q.revenue)}</td>
+        <td class="${valClass(q.rev_growth_yoy)}">${fmtPct(q.rev_growth_yoy)}</td>
+        <td class="${valClass(q.gross_margin)}">${fmtPct(q.gross_margin)}</td>
+        <td class="${valClass(q.op_margin)}">${fmtPct(q.op_margin)}</td>
+        <td class="${valClass(q.incr_op_margin_yoy)}">${fmtPct(q.incr_op_margin_yoy)}</td>
+        <td class="${valClass(q.fcf_margin)}">${fmtPct(q.fcf_margin)}</td>
+        <td>${fmtB(q.operating_income)}</td>
+      </tr>`;
+    });
+    tableHtml += '</table>';
+  }
+
+  return `<div class="card" onclick="this.classList.toggle('expanded')">
+    <div class="card-header">
+      <span class="card-ticker">${ticker}</span>
+      <span class="card-name">${name}</span>
+      ${filedHtml}
+      <div class="badges">${badges}</div>
+      <span class="expand-icon">&#9654;</span>
+    </div>
+    <div class="card-body">
+      ${signalHtml}
+      ${tableHtml}
+    </div>
+  </div>`;
+}
+
+function applyFilters() {
+  const tickerQ = document.getElementById('tickerFilter').value.toUpperCase().trim();
+  const severityQ = document.getElementById('severityFilter').value;
+  const signalQ = document.getElementById('signalFilter').value.toUpperCase();
+  const fromDate = parseDateFilter(document.getElementById('fromFilter').value);
+  const toDate = parseDateFilter(document.getElementById('toFilter').value);
+
+  const minRank = severityQ ? SEVERITY_RANK[severityQ] : 0;
+
+  // Determine which tickers to show
+  let tickersToShow = Object.keys(DATA.all_results);
+  const recentFilerTickers = new Set(DATA.recent_filers.map(f => f.ticker));
+  const recentDays = document.getElementById('recentDays').value;
+
+  console.log(`[Filter] Total cached: ${tickersToShow.length}, Recent filers: ${DATA.recent_filers.length}, Days input: ${recentDays}`);
+
+  // If recent filers filter is active
+  let recentFilterActive = false;
+  if (recentDays && DATA.recent_filers.length > 0) {
+    recentFilterActive = true;
+    const beforeFilter = tickersToShow.length;
+    tickersToShow = tickersToShow.filter(t => recentFilerTickers.has(t));
+    console.log(`[Filter] After recent filers filter: ${tickersToShow.length} (was ${beforeFilter})`);
+  }
+
+  let matched = 0;
+  const total = Object.keys(DATA.all_results).length;
+  const container = document.getElementById('mainContent');
+  let html = '';
+
+  // Sort by signal score
+  const sorted = tickersToShow.slice().sort((a, b) => {
+    const sa = DATA.all_results[a]?.signals || [];
+    const sb = DATA.all_results[b]?.signals || [];
+    const scoreA = sa.filter(s=>s.severity==='HIGH').length * 10 + sa.length;
+    const scoreB = sb.filter(s=>s.severity==='HIGH').length * 10 + sb.length;
+    return scoreB - scoreA;
+  });
+
+  sorted.forEach(ticker => {
+    const data = DATA.all_results[ticker];
+    if (!data) return;
+    let signals = data.signals || [];
+    const allQuarters = data.quarters || [];  // Keep full history for display
+
+    // Ticker filter
+    if (tickerQ && !ticker.includes(tickerQ)) return;
+
+    // Date range filter - filter quarters to determine which signals to show
+    let filteredQuarters = allQuarters;
+    if (fromDate) {
+      filteredQuarters = filteredQuarters.filter(q => (q.date || '').slice(0, 7) >= fromDate);
+    }
+    if (toDate) {
+      filteredQuarters = filteredQuarters.filter(q => (q.date || '').slice(0, 7) <= toDate);
+    }
+    if (filteredQuarters.length === 0) return;  // Skip if no quarters in range
+
+    // Filter signals to match filtered quarters (only signals within date range)
+    const validLabels = new Set(filteredQuarters.map(q => q.quarter_label));
+    signals = signals.filter(s => validLabels.has(s.quarter));
+
+    // Severity filter - but still show company if it has data (just no signals)
+    let filteredSignals = signals;
+    if (minRank > 0) {
+      filteredSignals = signals.filter(s => (SEVERITY_RANK[s.severity] || 0) >= minRank);
+      if (filteredSignals.length === 0 && signals.length > 0) return; // Skip only if had signals but none matched
+    }
+
+    // Signal type filter
+    if (signalQ) {
+      filteredSignals = filteredSignals.filter(s => (s.signal || '').toUpperCase().includes(signalQ));
+      if (filteredSignals.length === 0 && signals.length > 0) return; // Skip only if had signals but none matched
+    }
+
+    matched++;
+    const filedInfo = DATA.recent_filers.find(f => f.ticker === ticker);
+    // Pass filtered signals but FULL quarters history for display
+    const renderData = {...data, signals: filteredSignals, quarters: allQuarters};
+    html += renderCard(ticker, renderData, filedInfo);
+  });
+
+  // Show helpful message if no results
+  if (!html) {
+    if (total === 0) {
+      html = '<div class="no-data">No cached data found. Run <code>python signal_screener.py scan</code> first to build the cache.</div>';
+    } else if (recentFilterActive && tickersToShow.length === 0) {
+      html = `<div class="no-data">None of the ${DATA.recent_filers.length} companies that filed in the last ${recentDays} days are in the cache.<br>Clear the "Filed in last" field to see all cached data, or the <code>--update</code> flag will fetch their data on next startup.</div>`;
+    } else {
+      html = '<div class="no-data">No companies match the filter criteria.</div>';
+    }
+  }
+
+  container.innerHTML = html;
+  document.getElementById('totalCount').textContent = total;
+  document.getElementById('matchedCount').textContent = matched;
+}
+
+async function refreshData() {
+  document.getElementById('status').textContent = 'Loading...';
+  document.getElementById('status').style.background = 'var(--yellow-bg)';
+  document.getElementById('status').style.color = 'var(--yellow)';
+  console.log('[RefreshData] Fetching /api/data...');
+  try {
+    const resp = await fetch('/api/data');
+    DATA = await resp.json();
+    console.log(`[RefreshData] Loaded ${Object.keys(DATA.all_results).length} companies`);
+    if (DATA.error) {
+      console.error('[RefreshData] Server error:', DATA.error);
+    }
+    document.getElementById('lastUpdate').textContent = DATA.generated || 'Now';
+    updateStatusLive();
+    applyFilters();
+  } catch (e) {
+    document.getElementById('status').textContent = 'Error';
+    document.getElementById('status').style.background = 'var(--red-bg)';
+    document.getElementById('status').style.color = 'var(--red)';
+    document.getElementById('mainContent').innerHTML = '<div class="no-data">Failed to load data. Check if server is running.</div>';
+    console.error('[RefreshData] Error:', e);
+  }
+}
+
+async function applyAllFilters() {
+  const days = document.getElementById('recentDays').value;
+
+  // If "Filed in last N days" is set, fetch filers first
+  if (days && days > 0) {
+    document.getElementById('status').textContent = 'Fetching filers...';
+    document.getElementById('status').style.background = 'var(--yellow-bg)';
+    document.getElementById('status').style.color = 'var(--yellow)';
+    console.log(`[ApplyFilters] Fetching filers for last ${days} days...`);
+
+    try {
+      const resp = await fetch(`/api/recent-filers?days=${days}`);
+      const result = await resp.json();
+      DATA.recent_filers = result.filers || [];
+      console.log(`[ApplyFilters] Got ${DATA.recent_filers.length} filers from SEC`);
+    } catch (e) {
+      document.getElementById('status').textContent = 'Error fetching filers';
+      document.getElementById('status').style.background = 'var(--red-bg)';
+      document.getElementById('status').style.color = 'var(--red)';
+      console.error('[ApplyFilters] Error:', e);
+      return;
+    }
+  } else {
+    // Clear recent filers if no days specified
+    DATA.recent_filers = [];
+  }
+
+  // Now apply all filters
+  applyFilters();
+  updateStatusLive();
+}
+
+function updateStatusLive() {
+  const count = Object.keys(DATA.all_results).length;
+  document.getElementById('status').textContent = count > 0 ? 'Live' : 'Empty Cache';
+  document.getElementById('status').style.background = count > 0 ? 'var(--green-bg)' : 'var(--yellow-bg)';
+  document.getElementById('status').style.color = count > 0 ? 'var(--green)' : 'var(--yellow)';
+}
+
+function clearFilters() {
+  document.getElementById('tickerFilter').value = '';
+  document.getElementById('severityFilter').value = '';
+  document.getElementById('signalFilter').value = '';
+  document.getElementById('fromFilter').value = '';
+  document.getElementById('toFilter').value = '';
+  document.getElementById('recentDays').value = '';
+  DATA.recent_filers = [];
+  updateStatusLive();
+  applyFilters();
+}
+
+// Initial load
+console.log('[Init] Starting Signal Screener...');
+refreshData();
+</script>
+</body>
+</html>"""
+
+
+class SignalScreenerHandler(http.server.SimpleHTTPRequestHandler):
+    """Custom HTTP handler for Signal Screener server."""
+
+    def do_GET(self):
+        parsed = urlparse.urlparse(self.path)
+        path = parsed.path
+
+        if path == "/" or path == "/index.html":
+            self._serve_html()
+        elif path == "/api/data":
+            self._serve_data()
+        elif path.startswith("/api/recent-filers"):
+            query = urlparse.parse_qs(parsed.query)
+            days = int(query.get("days", [7])[0])
+            self._serve_recent_filers(days)
+        else:
+            self.send_error(404, "Not Found")
+
+    def _serve_html(self):
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(_SERVE_HTML_TEMPLATE.encode("utf-8"))
+
+    def _serve_data(self):
+        """Serve all cached results as JSON."""
+        all_results = {}
+        error_msg = None
+        try:
+            if os.path.isdir(RESULTS_CACHE_DIR):
+                for fname in os.listdir(RESULTS_CACHE_DIR):
+                    if not fname.endswith(".json"):
+                        continue
+                    ticker = fname[:-5]
+                    try:
+                        result = _load_result(ticker)
+                        if result and result.get("quarters"):
+                            all_results[ticker] = _make_serializable(result)
+                    except Exception as e:
+                        print(f"  Error loading {ticker}: {e}")
+            print(f"  Serving {len(all_results)} companies")
+        except Exception as e:
+            error_msg = str(e)
+            print(f"Error in _serve_data: {e}")
+
+        data = {
+            "all_results": all_results,
+            "recent_filers": [],
+            "generated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "error": error_msg,
+        }
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(json.dumps(data).encode("utf-8"))
+
+    def _serve_recent_filers(self, days):
+        """Serve recent filers list."""
+        try:
+            filers = _fetch_recent_filers(days)
+        except Exception as e:
+            filers = []
+            print(f"Error fetching recent filers: {e}")
+
+        data = {"filers": filers, "days": days}
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(json.dumps(data).encode("utf-8"))
+
+    def log_message(self, format, *args):
+        # Suppress default logging, use custom format
+        pass
+
+
+def _run_serve_mode(args):
+    """Start local HTTP server for Signal Screener."""
+    # Render/Heroku set PORT env var; use it if available
+    port = int(os.environ.get("PORT", args.port))
+    # Auto-disable browser on cloud (RENDER=true or PORT env set)
+    no_browser = args.no_browser or os.environ.get("RENDER") or os.environ.get("PORT")
+    do_update = args.update
+    days = args.days
+
+    print(f"{BOLD}{CYAN}Signal Screener -- Local Server Mode{RESET}")
+    print(f"  Port: {port}")
+
+    # Optional: run incremental update first
+    if do_update:
+        print(f"\n{DIM}Running incremental update (last {days} days)...{RESET}")
+        # Create a minimal args object for update
+        class UpdateArgs:
+            pass
+        update_args = UpdateArgs()
+        update_args.days = days
+        update_args.min_revenue = "5M"
+        update_args.no_report = True
+        _run_update_mode(update_args)
+        print()
+
+    # Count cached companies
+    n_cached = 0
+    if os.path.isdir(RESULTS_CACHE_DIR):
+        n_cached = len([f for f in os.listdir(RESULTS_CACHE_DIR) if f.endswith(".json")])
+    print(f"  Cached companies: {n_cached}")
+    if n_cached == 0:
+        print(f"\n{YELLOW}Warning: No cached data found!{RESET}")
+        print(f"{DIM}Run 'python signal_screener.py scan' to build the initial cache.{RESET}")
+
+    url = f"http://localhost:{port}"
+    print(f"\n{GREEN}Server running at: {url}{RESET}")
+    print(f"{DIM}Press Ctrl+C to stop{RESET}\n")
+
+    # Open browser
+    if not no_browser:
+        try:
+            webbrowser.open(url)
+        except Exception:
+            pass
+
+    # Start server
+    socketserver.TCPServer.allow_reuse_address = True
+    try:
+        with socketserver.TCPServer(("", port), SignalScreenerHandler) as httpd:
+            try:
+                httpd.serve_forever()
+            except KeyboardInterrupt:
+                print(f"\n{DIM}Server stopped.{RESET}")
+    except OSError as e:
+        print(f"\n{RED}Error starting server: {e}{RESET}")
+        print(f"{DIM}Port {port} may be in use. Try --port {port+1}{RESET}")
 
 
 # ══════════════════════════════════════════════════════════════════════
@@ -2123,6 +3515,8 @@ def _parse_subcommand(mode):
                             help="Minimum quarterly revenue filter (default: 5M)")
         parser.add_argument("--all", action="store_true",
                             help="Show all signals from matched companies (not just new ones)")
+        parser.add_argument("--review", action="store_true",
+                            help="Review mode: show all new signals from scan_history within --days, no API calls")
         parser.add_argument("--no-report", action="store_true",
                             help="Skip automatic HTML report generation")
     elif mode == "report":
@@ -2150,6 +3544,15 @@ def _parse_subcommand(mode):
         parser.add_argument("--sort", default="score",
                             choices=["score", "revenue", "op_margin", "rev_growth"],
                             help="Sort results by (default: score)")
+    elif mode == "serve":
+        parser.add_argument("--port", type=int, default=8000,
+                            help="Port to serve on (default: 8000)")
+        parser.add_argument("--no-browser", action="store_true",
+                            help="Don't auto-open browser")
+        parser.add_argument("--update", action="store_true",
+                            help="Run incremental update before serving")
+        parser.add_argument("--days", type=int, default=3,
+                            help="Days for incremental update (default: 3)")
 
     return parser.parse_args()
 
@@ -2287,11 +3690,16 @@ def main():
         if mode == "scan":
             _run_scan_mode(args)
         elif mode == "update":
-            _run_update_mode(args)
+            if getattr(args, 'review', False):
+                _run_review_mode(args)
+            else:
+                _run_update_mode(args)
         elif mode == "report":
             _run_report_mode(args)
         elif mode == "filter":
             _run_filter_mode(args)
+        elif mode == "serve":
+            _run_serve_mode(args)
     else:
         args = _parse_ticker_mode()
         _run_ticker_mode(args)

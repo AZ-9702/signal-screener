@@ -1,0 +1,164 @@
+{
+  "ticker": "GLXY",
+  "name": "Galaxy Digital Inc.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -1000,
+      "opex": 1000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1000,
+      "ocf": -1000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 8882891000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -125596000,
+      "opex": 9003390000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 221271000,
+      "ocf": 221271000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.024909795696018335
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 8570657000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -33330000,
+      "opex": 8751430000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -48535000,
+      "ocf": -48535000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.005662926424426972,
+      "fcf_margin_change": -0.030572722120445307
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 0,
+      "opex": 0,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 0,
+      "ocf": 0,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 8661555000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 30691000,
+      "opex": 8890256000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 329289000,
+      "ocf": 329289000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.03801730751579826,
+      "rev_growth_yoy": -0.02491711313355078
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 28401871000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 505057000,
+      "opex": 28674608000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 427659000,
+      "ocf": 427659000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.015057423505655667,
+      "rev_growth_yoy": 2.313849918390154,
+      "rev_growth_yoy_accel": 2.338767031523705,
+      "op_leverage_ratio": 1.0241195804904617,
+      "fcf_margin_change": -0.02295988401014259
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +231.4% vs prior quarter YoY: -2.5% (accel: +233.9%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        0,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:29:34.451778"
+}

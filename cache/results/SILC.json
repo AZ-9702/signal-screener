@@ -1,0 +1,260 @@
+{
+  "ticker": "SILC",
+  "name": "SILICOM LTD.",
+  "quarters": [
+    {
+      "date": "2013-06-30T00:00:00",
+      "quarter_label": "2013-06 (Q2)",
+      "revenue": 15715000,
+      "gross_profit": 6301000,
+      "operating_income": 3479000,
+      "net_income": 3289000,
+      "opex": 2822000,
+      "cogs": 9414000,
+      "rd": 1345000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.4009545020680878,
+      "op_margin": 0.22138084632516702,
+      "fcf_margin": null
+    },
+    {
+      "date": "2014-06-30T00:00:00",
+      "quarter_label": "2014-06 (Q2)",
+      "revenue": 17918000,
+      "gross_profit": 7188000,
+      "operating_income": 3901000,
+      "net_income": 3327000,
+      "opex": 3287000,
+      "cogs": 10730000,
+      "rd": 1586000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.40116084384417905,
+      "op_margin": 0.2177140305837705,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.19155696777122105,
+      "rev_growth_yoy": 0.14018453706649697,
+      "op_leverage_ratio": 0.8507543303261387
+    },
+    {
+      "date": "2015-06-30T00:00:00",
+      "quarter_label": "2015-06 (Q2)",
+      "revenue": 17121000,
+      "gross_profit": 7046000,
+      "operating_income": 2411000,
+      "net_income": 2055000,
+      "opex": 4635000,
+      "cogs": 10075000,
+      "rd": 2283000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.41154138192862566,
+      "op_margin": 0.1408212137141522,
+      "fcf_margin": null,
+      "rev_growth_yoy": -0.04448041076012948,
+      "rev_growth_yoy_accel": -0.18466494782662646
+    },
+    {
+      "date": "2016-06-30T00:00:00",
+      "quarter_label": "2016-06 (Q2)",
+      "revenue": 26001000,
+      "gross_profit": 9851000,
+      "operating_income": 4286000,
+      "net_income": 3533000,
+      "opex": 5565000,
+      "cogs": 16150000,
+      "rd": 2869000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3788700434598669,
+      "op_margin": 0.16483981385331334,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.21114864864864866,
+      "rev_growth_yoy": 0.5186612931487646,
+      "rev_growth_yoy_accel": 0.5631417039088941,
+      "op_leverage_ratio": 2.5849409610156173
+    },
+    {
+      "date": "2017-06-30T00:00:00",
+      "quarter_label": "2017-06 (Q2)",
+      "revenue": 30266000,
+      "gross_profit": 11124000,
+      "operating_income": 5094000,
+      "net_income": 4193000,
+      "opex": 6030000,
+      "cogs": 19142000,
+      "rd": 3328000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.36754113526729665,
+      "op_margin": 0.16830767197515364,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.18944900351699884,
+      "rev_growth_yoy": 0.164032152609515,
+      "rev_growth_yoy_accel": -0.35462914053924965,
+      "op_leverage_ratio": 1.9630944715525829
+    },
+    {
+      "date": "2018-06-30T00:00:00",
+      "quarter_label": "2018-06 (Q2)",
+      "revenue": 27603000,
+      "gross_profit": 8889000,
+      "operating_income": 2578000,
+      "net_income": 2436000,
+      "opex": 6311000,
+      "cogs": 18714000,
+      "rd": 3647000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.32203021410716226,
+      "op_margin": 0.09339564540086223,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.944799098760796,
+      "rev_growth_yoy": -0.08798651952686183,
+      "rev_growth_yoy_accel": -0.25201867213637685
+    },
+    {
+      "date": "2019-06-30T00:00:00",
+      "quarter_label": "2019-06 (Q2)",
+      "revenue": 25402000,
+      "gross_profit": 8674000,
+      "operating_income": 2269000,
+      "net_income": 2278000,
+      "opex": 6405000,
+      "cogs": 16728000,
+      "rd": 3659000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3414691756554602,
+      "op_margin": 0.0893236753011574,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.1403907314856883,
+      "rev_growth_yoy": -0.07973770966923885,
+      "rev_growth_yoy_accel": 0.008248809857622982
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2018-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -8.8% vs prior quarter YoY: +16.4% (decel: -25.2%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2018-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +94.5% vs year-ago OPM: +16.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2017-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +16.4% vs OpEx growth +8.4% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2017-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +16.4% vs prior quarter YoY: +51.9% (decel: -35.5%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2016-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +51.9% vs OpEx growth +20.1% (leverage: 2.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2016-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +51.9% vs prior quarter YoY: -4.4% (accel: +56.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2015-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.4% vs prior quarter YoY: +14.0% (decel: -18.5%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        7,
+        7
+      ],
+      "op_income": [
+        7,
+        7
+      ],
+      "fcf": [
+        0,
+        7
+      ]
+    },
+    "gaps": [
+      [
+        "2013-06 (Q2)",
+        "2014-06 (Q2)",
+        365
+      ],
+      [
+        "2014-06 (Q2)",
+        "2015-06 (Q2)",
+        365
+      ],
+      [
+        "2015-06 (Q2)",
+        "2016-06 (Q2)",
+        366
+      ],
+      [
+        "2016-06 (Q2)",
+        "2017-06 (Q2)",
+        365
+      ],
+      [
+        "2017-06 (Q2)",
+        "2018-06 (Q2)",
+        365
+      ],
+      [
+        "2018-06 (Q2)",
+        "2019-06 (Q2)",
+        365
+      ]
+    ],
+    "warnings": [
+      "fcf: no data",
+      "gap: 3Q missing between 2013-06 (Q2) and 2014-06 (Q2)",
+      "gap: 3Q missing between 2014-06 (Q2) and 2015-06 (Q2)",
+      "gap: 3Q missing between 2015-06 (Q2) and 2016-06 (Q2)",
+      "gap: 3Q missing between 2016-06 (Q2) and 2017-06 (Q2)",
+      "gap: 3Q missing between 2017-06 (Q2) and 2018-06 (Q2)",
+      "gap: 3Q missing between 2018-06 (Q2) and 2019-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:24:21.285490"
+}

@@ -1,0 +1,130 @@
+{
+  "ticker": "AVIR",
+  "name": "Atea Pharmaceuticals, Inc.",
+  "quarters": [
+    {
+      "date": "2021-03-31T00:00:00",
+      "quarter_label": "2021-03 (Q1)",
+      "revenue": 65985000,
+      "gross_profit": null,
+      "operating_income": 30655000,
+      "net_income": 30713000,
+      "opex": 35330000,
+      "cogs": null,
+      "rd": 26571000,
+      "sga": null,
+      "fcf": -16837000,
+      "ocf": -16837000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.46457528226111994,
+      "fcf_margin": -0.25516405243615975
+    },
+    {
+      "date": "2021-06-30T00:00:00",
+      "quarter_label": "2021-06 (Q2)",
+      "revenue": 60391000,
+      "gross_profit": null,
+      "operating_income": 8687000,
+      "net_income": 1539000,
+      "opex": 51704000,
+      "cogs": null,
+      "rd": 39803000,
+      "sga": null,
+      "fcf": -17348000,
+      "ocf": -17348000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.14384593730853934,
+      "fcf_margin": -0.28726134688943716,
+      "fcf_margin_change": -0.032097294453277414
+    },
+    {
+      "date": "2021-09-30T00:00:00",
+      "quarter_label": "2021-09 (Q3)",
+      "revenue": 32811000,
+      "gross_profit": null,
+      "operating_income": -22147000,
+      "net_income": -28194000,
+      "opex": 54958000,
+      "cogs": null,
+      "rd": 43019000,
+      "sga": null,
+      "fcf": 22603000,
+      "ocf": 22603000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.6749870470269117,
+      "fcf_margin": 0.6888848252110573,
+      "fcf_margin_change": 0.9761461721004945
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 192180000,
+      "gross_profit": null,
+      "operating_income": 121181000,
+      "net_income": 117132000,
+      "opex": 70999000,
+      "cogs": null,
+      "rd": 57811000,
+      "sga": null,
+      "fcf": -75423000,
+      "ocf": -75423000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6305598917681341,
+      "fcf_margin": -0.3924601935685295,
+      "op_leverage_ratio": 16.641170170041264,
+      "fcf_margin_change": -1.0813450187795868
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +485.7% vs OpEx growth +29.2% (leverage: 16.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -67.5% -> +63.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -28.7% -> +68.9%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:43:54.714180"
+}

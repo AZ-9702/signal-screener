@@ -1,0 +1,129 @@
+{
+  "ticker": "CARL",
+  "name": "Carlsmed, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 6081000,
+      "gross_profit": 4562000,
+      "operating_income": -6319000,
+      "net_income": -6277000,
+      "opex": 10881000,
+      "cogs": 1519000,
+      "rd": 3998000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7502055582963328,
+      "op_margin": -1.0391382996217728,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 6590000,
+      "gross_profit": 4798000,
+      "operating_income": -7777000,
+      "net_income": -7813000,
+      "opex": 12575000,
+      "cogs": 1792000,
+      "rd": 4035000,
+      "sga": null,
+      "fcf": -7632000,
+      "ocf": -7580000,
+      "capex": -52000,
+      "gross_margin": 0.728072837632777,
+      "op_margin": -1.1801213960546282,
+      "fcf_margin": -1.1581183611532626,
+      "op_leverage_ratio": 0.5376481839907413
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 12083000,
+      "gross_profit": 8869000,
+      "operating_income": -6502000,
+      "net_income": -6766000,
+      "opex": 15371000,
+      "cogs": 3214000,
+      "rd": 4160000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7340064553504925,
+      "op_margin": -0.5381113961764462,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.03048983672109297,
+      "rev_growth_yoy": 0.9870087156717645,
+      "op_leverage_ratio": 3.748823650087595
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 13074000,
+      "gross_profit": 9927000,
+      "operating_income": -9035000,
+      "net_income": -8526000,
+      "opex": 18962000,
+      "cogs": 3147000,
+      "rd": 4445000,
+      "sga": null,
+      "fcf": -8618000,
+      "ocf": -8459000,
+      "capex": -159000,
+      "gross_margin": 0.7592932537861404,
+      "op_margin": -0.691066238335628,
+      "fcf_margin": -0.6591708734893682,
+      "incr_op_margin_yoy": -0.19401603948180135,
+      "rev_growth_yoy": 0.9839150227617602,
+      "rev_growth_yoy_accel": -0.0030936929100042754,
+      "op_leverage_ratio": 0.3510634338243376
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +83.4% vs OpEx growth +22.2% (leverage: 3.7x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:38:47.320324"
+}

@@ -1,0 +1,148 @@
+{
+  "ticker": "CAI",
+  "name": "CARIS LIFE SCIENCES, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 100049000,
+      "gross_profit": null,
+      "operating_income": -67011000,
+      "net_income": -66186000,
+      "opex": 167060000,
+      "cogs": null,
+      "rd": 24787000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.6697818069146119,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 101620000,
+      "gross_profit": null,
+      "operating_income": -60842000,
+      "net_income": -67729000,
+      "opex": 162462000,
+      "cogs": null,
+      "rd": 27644000,
+      "sga": null,
+      "fcf": -71255000,
+      "ocf": -69427000,
+      "capex": -1828000,
+      "gross_margin": null,
+      "op_margin": -0.5987207242668766,
+      "fcf_margin": -0.701190710490061,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 181398000,
+      "gross_profit": null,
+      "operating_income": -17989000,
+      "net_income": -71790000,
+      "opex": 199387000,
+      "cogs": null,
+      "rd": 25047000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.0991686788167455,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.6026134310194348,
+      "rev_growth_yoy": 0.8130915851232896,
+      "op_leverage_ratio": 3.4541026930416487
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 216833000,
+      "gross_profit": null,
+      "operating_income": 32642000,
+      "net_income": 24325000,
+      "opex": 184191000,
+      "cogs": null,
+      "rd": 21624000,
+      "sga": null,
+      "fcf": 55330000,
+      "ocf": 62425000,
+      "capex": -7095000,
+      "gross_margin": null,
+      "op_margin": 0.15053981635636643,
+      "fcf_margin": 0.25517333616193105,
+      "incr_op_margin_yoy": 0.8114014911511722,
+      "rev_growth_yoy": 1.1337630387718953,
+      "rev_growth_yoy_accel": 0.3206714536486057,
+      "op_leverage_ratio": Infinity
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +113.4% vs prior quarter YoY: +81.3% (accel: +32.1%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -59.9% (year-ago) -> +15.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -9.9% -> +15.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +78.5% vs OpEx growth +22.7% (leverage: 3.5x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:49:24.287009"
+}

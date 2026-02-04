@@ -1,0 +1,138 @@
+{
+  "ticker": "GRCE",
+  "name": "GRACE THERAPEUTICS, INC.",
+  "quarters": [
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 81000,
+      "gross_profit": 45000,
+      "operating_income": -1964000,
+      "net_income": -3220000,
+      "opex": 2009000,
+      "cogs": 36000,
+      "rd": 678000,
+      "sga": null,
+      "fcf": -4214000,
+      "ocf": -4214000,
+      "capex": null,
+      "gross_margin": 0.5555555555555556,
+      "op_margin": -24.246913580246915,
+      "fcf_margin": -52.02469135802469
+    },
+    {
+      "date": "2021-03-31T00:00:00",
+      "quarter_label": "2021-03 (Q1)",
+      "revenue": 115000,
+      "gross_profit": 75000,
+      "operating_income": -2300000,
+      "net_income": -5646000,
+      "opex": 2375000,
+      "cogs": 40000,
+      "rd": 453000,
+      "sga": null,
+      "fcf": -1760000,
+      "ocf": -1760000,
+      "capex": null,
+      "gross_margin": 0.6521739130434783,
+      "op_margin": -20.0,
+      "fcf_margin": -15.304347826086957,
+      "op_leverage_ratio": 2.304054509883289,
+      "fcf_margin_change": 36.72034353193773
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": 0,
+      "operating_income": -4474000,
+      "net_income": -3778000,
+      "opex": 4474000,
+      "cogs": 0,
+      "rd": 2179000,
+      "sga": null,
+      "fcf": -4584000,
+      "ocf": -4584000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": -1.0
+    },
+    {
+      "date": "2022-03-31T00:00:00",
+      "quarter_label": "2022-03 (Q1)",
+      "revenue": 100000000,
+      "gross_profit": 100000000,
+      "operating_income": -4403000,
+      "net_income": -3904000,
+      "opex": 104403000,
+      "cogs": 0,
+      "rd": 2326000,
+      "sga": null,
+      "fcf": -3145000,
+      "ocf": -3145000,
+      "capex": null,
+      "gross_margin": 1.0,
+      "op_margin": -0.04403,
+      "fcf_margin": -0.03145,
+      "incr_op_margin_yoy": -0.021054212344195824,
+      "rev_growth_yoy": 868.5652173913044,
+      "rev_growth_yoy_accel": 869.5652173913044
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2022-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +86856.5% vs prior quarter YoY: -100.0% (accel: +86956.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -5202.5% -> -1530.4% (+3672.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-03 (Q1)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +42.0% vs OpEx growth +18.2% (leverage: 2.3x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2021-03 (Q1)",
+        "2021-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gap: 2Q missing between 2021-03 (Q1) and 2021-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:36:15.729687"
+}

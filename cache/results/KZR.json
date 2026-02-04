@@ -1,0 +1,159 @@
+{
+  "ticker": "KZR",
+  "name": "Kezar Life Sciences, Inc.",
+  "quarters": [
+    {
+      "date": "2022-09-30T00:00:00",
+      "quarter_label": "2022-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -18927000,
+      "net_income": -17847000,
+      "opex": 18927000,
+      "cogs": null,
+      "rd": 13860000,
+      "sga": null,
+      "fcf": -16963000,
+      "ocf": -16360000,
+      "capex": -603000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -20034000,
+      "net_income": -18181000,
+      "opex": 20034000,
+      "cogs": null,
+      "rd": 14859000,
+      "sga": null,
+      "fcf": -16226000,
+      "ocf": -15883000,
+      "capex": -343000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2023-09-30T00:00:00",
+      "quarter_label": "2023-09 (Q3)",
+      "revenue": 7000000,
+      "gross_profit": null,
+      "operating_income": -25527000,
+      "net_income": -23103000,
+      "opex": 32527000,
+      "cogs": null,
+      "rd": 23738000,
+      "sga": null,
+      "fcf": -20341000,
+      "ocf": -20205000,
+      "capex": -136000,
+      "gross_margin": null,
+      "op_margin": -3.646714285714286,
+      "fcf_margin": -2.9058571428571427,
+      "incr_op_margin_yoy": -0.9428571428571428
+    },
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -34589000,
+      "net_income": -32260000,
+      "opex": 34589000,
+      "cogs": null,
+      "rd": 22642000,
+      "sga": null,
+      "fcf": -18981000,
+      "ocf": -18980000,
+      "capex": -1000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -21948000,
+      "net_income": -20313000,
+      "opex": 21948000,
+      "cogs": null,
+      "rd": 16242000,
+      "sga": null,
+      "fcf": -17512000,
+      "ocf": -17494000,
+      "capex": -18000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.5112857142857142,
+      "rev_growth_yoy": -1.0
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -21563000,
+      "net_income": -20218000,
+      "opex": 21563000,
+      "cogs": null,
+      "rd": 16030000,
+      "sga": null,
+      "fcf": -16836000,
+      "ocf": -16825000,
+      "capex": -11000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    }
+  ],
+  "signals": [],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        6,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2022-12 (Q4)",
+        "2023-09 (Q3)",
+        273
+      ],
+      [
+        "2023-12 (Q4)",
+        "2024-09 (Q3)",
+        274
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2022-12 (Q4) and 2023-09 (Q3)",
+      "gap: 2Q missing between 2023-12 (Q4) and 2024-09 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:41:39.315284"
+}

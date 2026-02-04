@@ -1,0 +1,154 @@
+{
+  "ticker": "KRNT",
+  "name": "KORNIT DIGITAL LTD.",
+  "quarters": [
+    {
+      "date": "2015-12-31T00:00:00",
+      "quarter_label": "2015-12 (Q4)",
+      "revenue": 25498000,
+      "gross_profit": 12055000,
+      "operating_income": 2199000,
+      "net_income": 2065000,
+      "opex": 9856000,
+      "cogs": 13443000,
+      "rd": 3377000,
+      "sga": null,
+      "fcf": 630000,
+      "ocf": 630000,
+      "capex": null,
+      "gross_margin": 0.4727821789944309,
+      "op_margin": 0.08624205820064319,
+      "fcf_margin": 0.02470782022119382
+    },
+    {
+      "date": "2016-12-31T00:00:00",
+      "quarter_label": "2016-12 (Q4)",
+      "revenue": 31987000,
+      "gross_profit": 13627000,
+      "operating_income": 804000,
+      "net_income": 820000,
+      "opex": 12823000,
+      "cogs": 18360000,
+      "rd": 5090000,
+      "sga": null,
+      "fcf": 5280000,
+      "ocf": 5280000,
+      "capex": null,
+      "gross_margin": 0.42601681933285396,
+      "op_margin": 0.025135211179541688,
+      "fcf_margin": 0.16506705849251258,
+      "incr_op_margin_yoy": -0.21497919556171982,
+      "rev_growth_yoy": 0.2544905482782963,
+      "op_leverage_ratio": 0.8453855220191737,
+      "fcf_margin_change": 0.14035923827131874
+    },
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 72291000,
+      "gross_profit": 36944000,
+      "operating_income": 8959000,
+      "net_income": 5901000,
+      "opex": 27985000,
+      "cogs": 35347000,
+      "rd": 9251000,
+      "sga": null,
+      "fcf": 34344000,
+      "ocf": 34344000,
+      "capex": null,
+      "gross_margin": 0.5110456350029741,
+      "op_margin": 0.1239296731266686,
+      "fcf_margin": 0.4750798854629207,
+      "op_leverage_ratio": 1.0656333158561602,
+      "fcf_margin_change": 0.3100128269704081
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 87548000,
+      "gross_profit": 42387000,
+      "operating_income": -307000,
+      "net_income": 954000,
+      "opex": 42694000,
+      "cogs": 45161000,
+      "rd": 12993000,
+      "sga": null,
+      "fcf": 5459000,
+      "ocf": 10514000,
+      "capex": -5055000,
+      "gross_margin": 0.484157262301823,
+      "op_margin": -0.003506647781788276,
+      "fcf_margin": 0.06235436560515374,
+      "incr_op_margin_yoy": -0.6073277839680147,
+      "rev_growth_yoy": 0.2110497848971518,
+      "op_leverage_ratio": 0.40153839352415477,
+      "fcf_margin_change": -0.41272551985776695
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2020-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +16.5% -> +47.5% (+31.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2020-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +47.3% -> +42.6% -> +51.1% (reversal +8.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2016-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +2.5% -> +16.5% (+14.0%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2015-12 (Q4)",
+        "2016-12 (Q4)",
+        366
+      ],
+      [
+        "2016-12 (Q4)",
+        "2020-12 (Q4)",
+        1461
+      ],
+      [
+        "2020-12 (Q4)",
+        "2021-12 (Q4)",
+        365
+      ]
+    ],
+    "warnings": [
+      "gap: 3Q missing between 2015-12 (Q4) and 2016-12 (Q4)",
+      "gap: 15Q missing between 2016-12 (Q4) and 2020-12 (Q4)",
+      "gap: 3Q missing between 2020-12 (Q4) and 2021-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:19:21.297048"
+}

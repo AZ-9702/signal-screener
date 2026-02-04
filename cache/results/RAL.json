@@ -1,0 +1,139 @@
+{
+  "ticker": "RAL",
+  "name": "Ralliant Corporation",
+  "quarters": [
+    {
+      "date": "2024-06-28T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 533700000,
+      "gross_profit": 274700000,
+      "operating_income": 105200000,
+      "net_income": 64800000,
+      "opex": 169500000,
+      "cogs": 259000000,
+      "rd": 38800000,
+      "sga": 130700000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.5147086378115046,
+      "op_margin": 0.19711448379239274,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-27T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 531700000,
+      "gross_profit": 279800000,
+      "operating_income": 111200000,
+      "net_income": 90900000,
+      "opex": 168600000,
+      "cogs": 251900000,
+      "rd": 39900000,
+      "sga": 128700000,
+      "fcf": 131900000,
+      "ocf": 138000000,
+      "capex": -6100000,
+      "gross_margin": 0.5262365995862328,
+      "op_margin": 0.20914049275907468,
+      "fcf_margin": 0.24807222117735564
+    },
+    {
+      "date": "2025-06-27T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 503300000,
+      "gross_profit": 248300000,
+      "operating_income": 58900000,
+      "net_income": 47600000,
+      "opex": 189400000,
+      "cogs": 255000000,
+      "rd": 42000000,
+      "sga": 147400000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.4933439300615935,
+      "op_margin": 0.11702761772302801,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 1.5230263157894737,
+      "rev_growth_yoy": -0.05696083942289676
+    },
+    {
+      "date": "2025-09-26T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 529100000,
+      "gross_profit": 268600000,
+      "operating_income": 52000000,
+      "net_income": 39900000,
+      "opex": 216600000,
+      "cogs": 260500000,
+      "rd": 38800000,
+      "sga": 177800000,
+      "fcf": 126600000,
+      "ocf": 138600000,
+      "capex": -12000000,
+      "gross_margin": 0.5076545076545077,
+      "op_margin": 0.09828009828009827,
+      "fcf_margin": 0.23927423927423927,
+      "incr_op_margin_yoy": 22.76923076923077,
+      "rev_growth_yoy": -0.004889975550122249,
+      "rev_growth_yoy_accel": 0.05207086387277451,
+      "op_leverage_ratio": 0.35694709037996286
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -0.5% vs prior quarter YoY: -5.7% (accel: +5.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +2276.9% vs year-ago OPM: +20.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +152.3% vs year-ago OPM: +19.7%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:56:29.449976"
+}

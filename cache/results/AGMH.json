@@ -1,0 +1,178 @@
+{
+  "ticker": "AGMH",
+  "name": "AGM GROUP HOLDINGS INC.",
+  "quarters": [
+    {
+      "date": "2020-09-30T00:00:00",
+      "quarter_label": "2020-09 (Q3)",
+      "revenue": 31261,
+      "gross_profit": 21138,
+      "operating_income": -268928,
+      "net_income": -319942,
+      "opex": 290066,
+      "cogs": 10123,
+      "rd": 16007,
+      "sga": 274059,
+      "fcf": -599087,
+      "ocf": -599061,
+      "capex": -26,
+      "gross_margin": 0.6761779853491571,
+      "op_margin": -8.602667860912959,
+      "fcf_margin": -19.164038258532997
+    },
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 13595,
+      "gross_profit": 4933,
+      "operating_income": -209980,
+      "net_income": -92664,
+      "opex": 214913,
+      "cogs": 8662,
+      "rd": 16095,
+      "sga": 198818,
+      "fcf": -708872,
+      "ocf": -708883,
+      "capex": 11,
+      "gross_margin": 0.3628539904376609,
+      "op_margin": -15.445384332475175,
+      "fcf_margin": -52.142111070246415,
+      "fcf_margin_change": -32.97807281171342
+    },
+    {
+      "date": "2021-09-30T00:00:00",
+      "quarter_label": "2021-09 (Q3)",
+      "revenue": 5335896,
+      "gross_profit": 713939,
+      "operating_income": 374244,
+      "net_income": 202009,
+      "opex": 339695,
+      "cogs": 4621957,
+      "rd": 10304,
+      "sga": 329391,
+      "fcf": -2283797,
+      "ocf": -2283797,
+      "capex": null,
+      "gross_margin": 0.1337992719498281,
+      "op_margin": 0.07013704914788445,
+      "fcf_margin": -0.4280062804822283,
+      "incr_op_margin_yoy": 0.12124717346245312,
+      "rev_growth_yoy": 169.688589616455,
+      "op_leverage_ratio": 674.2655401762859,
+      "fcf_margin_change": 51.714104789764185
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 31374035,
+      "gross_profit": 5883629,
+      "operating_income": 5082614,
+      "net_income": 3857511,
+      "opex": 801015,
+      "cogs": 25490406,
+      "rd": 3508,
+      "sga": 797507,
+      "fcf": 777526,
+      "ocf": 777526,
+      "capex": null,
+      "gross_margin": 0.18753179181447333,
+      "op_margin": 0.16200064798805763,
+      "fcf_margin": 0.024782467412941944,
+      "incr_op_margin_yoy": 0.16876657342817894,
+      "rev_growth_yoy": 2306.762780433983,
+      "rev_growth_yoy_accel": 2137.0741908175282,
+      "op_leverage_ratio": 3.593266726710263,
+      "fcf_margin_change": 0.4527887478951702
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -42.8% -> +2.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +488.0% vs OpEx growth +135.8% (leverage: 3.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +36.3% -> +13.4% -> +18.8% (reversal +5.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +230676.3% vs prior quarter YoY: +16968.9% (accel: +213707.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1544.5% (year-ago) -> +16.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -5214.2% -> -42.8% (+5171.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +39149.0% vs OpEx growth +58.1% (leverage: 674.3x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -860.3% (year-ago) -> +7.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1544.5% -> +7.0%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2020-12 (Q4)",
+        "2021-09 (Q3)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gap: 2Q missing between 2020-12 (Q4) and 2021-09 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T00:25:47.394598"
+}

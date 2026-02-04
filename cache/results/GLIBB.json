@@ -1,0 +1,140 @@
+{
+  "ticker": "GLIBB",
+  "name": "GCI LIBERTY, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 246000000,
+      "gross_profit": null,
+      "operating_income": 30000000,
+      "net_income": 13000000,
+      "opex": 216000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.12195121951219512,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 262000000,
+      "gross_profit": null,
+      "operating_income": 41000000,
+      "net_income": 21000000,
+      "opex": 221000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1000000,
+      "ocf": 61000000,
+      "capex": -60000000,
+      "gross_margin": null,
+      "op_margin": 0.15648854961832062,
+      "fcf_margin": 0.003816793893129771,
+      "op_leverage_ratio": 2.809756097560976
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 261000000,
+      "gross_profit": null,
+      "operating_income": 51000000,
+      "net_income": 27000000,
+      "opex": 210000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.19540229885057472,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 1.4,
+      "rev_growth_yoy": 0.06097560975609756
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 257000000,
+      "gross_profit": null,
+      "operating_income": -488000000,
+      "net_income": -387000000,
+      "opex": 745000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 21000000,
+      "ocf": 76000000,
+      "capex": -55000000,
+      "gross_margin": null,
+      "op_margin": -1.8988326848249026,
+      "fcf_margin": 0.08171206225680934,
+      "incr_op_margin_yoy": 105.8,
+      "rev_growth_yoy": -0.019083969465648856,
+      "rev_growth_yoy_accel": -0.08005957922174642
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -1.9% vs prior quarter YoY: +6.1% (decel: -8.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +140.0% vs year-ago OPM: +12.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +6.5% vs OpEx growth +2.3% (leverage: 2.8x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T00:54:37.106264"
+}

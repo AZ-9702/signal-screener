@@ -1,0 +1,128 @@
+{
+  "ticker": "SI",
+  "name": "Shoulder Innovations, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 8260000,
+      "gross_profit": 6354000,
+      "operating_income": -3980000,
+      "net_income": -4172000,
+      "opex": 10334000,
+      "cogs": 1906000,
+      "rd": 1162000,
+      "sga": 9172000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7692493946731235,
+      "op_margin": -0.48184019370460046,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 7454000,
+      "gross_profit": 5701000,
+      "operating_income": -3881000,
+      "net_income": -4055000,
+      "opex": 9582000,
+      "cogs": 1753000,
+      "rd": 1090000,
+      "sga": 8492000,
+      "fcf": -5777000,
+      "ocf": -4890000,
+      "capex": -887000,
+      "gross_margin": 0.7648242554333244,
+      "op_margin": -0.5206600482962168,
+      "fcf_margin": -0.7750201234236651
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 11013000,
+      "gross_profit": 8393000,
+      "operating_income": -5862000,
+      "net_income": -19196000,
+      "opex": 14255000,
+      "cogs": 2620000,
+      "rd": 1406000,
+      "sga": 12849000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7620993371470081,
+      "op_margin": -0.5322800326886407,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.683617871413004,
+      "rev_growth_yoy": 0.33329297820823245,
+      "op_leverage_ratio": 0.9790367295042665
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 11756000,
+      "gross_profit": 8961000,
+      "operating_income": -7641000,
+      "net_income": -8729000,
+      "opex": 16602000,
+      "cogs": 2795000,
+      "rd": 1525000,
+      "sga": 15077000,
+      "fcf": -11370000,
+      "ocf": -8555000,
+      "capex": -2815000,
+      "gross_margin": 0.7622490643075877,
+      "op_margin": -0.6499659748213679,
+      "fcf_margin": -0.9671657026199387,
+      "incr_op_margin_yoy": -0.8740120874012087,
+      "rev_growth_yoy": 0.5771397907163939,
+      "rev_growth_yoy_accel": 0.24384681250816143,
+      "op_leverage_ratio": 0.4097673079624572
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +57.7% vs prior quarter YoY: +33.3% (accel: +24.4%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:47:19.733092"
+}

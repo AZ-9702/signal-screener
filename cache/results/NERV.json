@@ -1,0 +1,242 @@
+{
+  "ticker": "NERV",
+  "name": "Minerva Neurosciences, Inc.",
+  "quarters": [
+    {
+      "date": "2017-12-31T00:00:00",
+      "quarter_label": "2017-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2018-03-31T00:00:00",
+      "quarter_label": "2018-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2018-12-31T00:00:00",
+      "quarter_label": "2018-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2019-03-31T00:00:00",
+      "quarter_label": "2019-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2019-12-31T00:00:00",
+      "quarter_label": "2019-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2020-03-31T00:00:00",
+      "quarter_label": "2020-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2020-06-30T00:00:00",
+      "quarter_label": "2020-06 (Q2)",
+      "revenue": 41175600,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -7299000,
+      "net_income": -7324000,
+      "opex": 7299492,
+      "cogs": null,
+      "rd": 3551332,
+      "sga": null,
+      "fcf": -7158881,
+      "ocf": -7158881,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2021-03-31T00:00:00",
+      "quarter_label": "2021-03 (Q1)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -7507521,
+      "net_income": -8804733,
+      "opex": 7507521,
+      "cogs": null,
+      "rd": 3258707,
+      "sga": null,
+      "fcf": -5217359,
+      "ocf": -5217359,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -21377225,
+      "net_income": -21306649,
+      "opex": 21377225,
+      "cogs": null,
+      "rd": 18746459,
+      "sga": null,
+      "fcf": -4833039,
+      "ocf": -4833039,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    }
+  ],
+  "signals": [],
+  "data_quality": {
+    "n_quarters": 10,
+    "coverage": {
+      "revenue": [
+        10,
+        10
+      ],
+      "gross_profit": [
+        0,
+        10
+      ],
+      "op_income": [
+        3,
+        10
+      ],
+      "fcf": [
+        3,
+        10
+      ]
+    },
+    "gaps": [
+      [
+        "2018-03 (Q1)",
+        "2018-12 (Q4)",
+        275
+      ],
+      [
+        "2019-03 (Q1)",
+        "2019-12 (Q4)",
+        275
+      ],
+      [
+        "2020-06 (Q2)",
+        "2020-12 (Q4)",
+        184
+      ],
+      [
+        "2021-03 (Q1)",
+        "2021-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: 3/10Q",
+      "fcf: 3/10Q",
+      "gap: 2Q missing between 2018-03 (Q1) and 2018-12 (Q4)",
+      "gap: 2Q missing between 2019-03 (Q1) and 2019-12 (Q4)",
+      "gap: 1Q missing between 2020-06 (Q2) and 2020-12 (Q4)",
+      "gap: 2Q missing between 2021-03 (Q1) and 2021-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:03:17.373240"
+}

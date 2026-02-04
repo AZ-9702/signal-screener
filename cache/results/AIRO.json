@@ -1,0 +1,145 @@
+{
+  "ticker": "AIRO",
+  "name": "AIRO Group Holdings, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 9780336,
+      "gross_profit": 5775085,
+      "operating_income": -2693556,
+      "net_income": -5599841,
+      "opex": 8468641,
+      "cogs": 4005251,
+      "rd": 3161395,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.5904792023505123,
+      "op_margin": -0.2754052621505028,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 23685377,
+      "gross_profit": 16281735,
+      "operating_income": -30367151,
+      "net_income": -30330526,
+      "opex": 46648886,
+      "cogs": 7403642,
+      "rd": 3258612,
+      "sga": null,
+      "fcf": 5278628,
+      "ocf": 5375493,
+      "capex": -96865,
+      "gross_margin": 0.6874171772735558,
+      "op_margin": -1.2821054526596727,
+      "fcf_margin": 0.2228644281237322,
+      "op_leverage_ratio": 0.3153504902901922
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": -38505649,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 24550193,
+      "gross_profit": 15034567,
+      "operating_income": -19689341,
+      "net_income": 5870429,
+      "opex": 34723908,
+      "cogs": 9515626,
+      "rd": 4101005,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.6124011733838508,
+      "op_margin": -0.8020035117442865,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -1.1507074848456555,
+      "rev_growth_yoy": 1.51015844445426
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 6283692,
+      "gross_profit": 2789942,
+      "operating_income": -11979879,
+      "net_income": -7962016,
+      "opex": 14769821,
+      "cogs": 3493750,
+      "rd": 4124171,
+      "sga": null,
+      "fcf": -6705893,
+      "ocf": -5765656,
+      "capex": -940237,
+      "gross_margin": 0.44399725511689625,
+      "op_margin": -1.906503214988895,
+      "fcf_margin": -1.0671899577509527,
+      "incr_op_margin_yoy": -1.056637446316262,
+      "rev_growth_yoy": -0.7347016262396837,
+      "rev_growth_yoy_accel": -2.2448600706939437
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -73.5% vs prior quarter YoY: +151.0% (decel: -224.5%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        4,
+        5
+      ],
+      "op_income": [
+        4,
+        5
+      ],
+      "fcf": [
+        2,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2024-12 (Q4)",
+        "2025-06 (Q2)",
+        181
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/5Q",
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:37:54.884377"
+}

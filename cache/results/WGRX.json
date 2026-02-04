@@ -1,0 +1,172 @@
+{
+  "ticker": "WGRX",
+  "name": "WELLGISTICS HEALTH, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 44540,
+      "gross_profit": -2608,
+      "operating_income": -573016,
+      "net_income": -574325,
+      "opex": 570408,
+      "cogs": 47148,
+      "rd": null,
+      "sga": null,
+      "fcf": 329956,
+      "ocf": 329956,
+      "capex": null,
+      "gross_margin": -0.05855410866636731,
+      "op_margin": -12.86519982038617,
+      "fcf_margin": 7.408082622361922
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 5673868,
+      "gross_profit": 521244,
+      "operating_income": -1744820,
+      "net_income": -1867027,
+      "opex": 2266064,
+      "cogs": 5152624,
+      "rd": null,
+      "sga": null,
+      "fcf": 1037591,
+      "ocf": 1037591,
+      "capex": null,
+      "gross_margin": 0.09186748792886969,
+      "op_margin": -0.30751860987953894,
+      "fcf_margin": 0.18287189620907643,
+      "op_leverage_ratio": 42.51617621207616,
+      "fcf_margin_change": -7.225210726152846
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 12410423,
+      "gross_profit": 1248678,
+      "operating_income": -3747532,
+      "net_income": -4331752,
+      "opex": 4996210,
+      "cogs": 11161745,
+      "rd": null,
+      "sga": null,
+      "fcf": -2623777,
+      "ocf": -2623777,
+      "capex": null,
+      "gross_margin": 0.10061526508806348,
+      "op_margin": -0.3019665002554707,
+      "fcf_margin": -0.21141720955039164,
+      "op_leverage_ratio": 0.9854734560429093,
+      "fcf_margin_change": -0.3942891057594681
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 10863443,
+      "gross_profit": 692641,
+      "operating_income": -31348368,
+      "net_income": -32430903,
+      "opex": 32041009,
+      "cogs": 10170802,
+      "rd": null,
+      "sga": null,
+      "fcf": -1347449,
+      "ocf": -1347449,
+      "capex": null,
+      "gross_margin": 0.06375888380875197,
+      "op_margin": -2.8856751952396675,
+      "fcf_margin": -0.12403517006532827,
+      "fcf_margin_change": 0.08738203948506337
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 7790865,
+      "gross_profit": 505752,
+      "operating_income": -5500376,
+      "net_income": -6672464,
+      "opex": 6006128,
+      "cogs": 7285113,
+      "rd": null,
+      "sga": null,
+      "fcf": -2078998,
+      "ocf": -2078998,
+      "capex": null,
+      "gross_margin": 0.0649160266542932,
+      "op_margin": -0.7060032486764949,
+      "fcf_margin": -0.2668507283851023,
+      "incr_op_margin_yoy": -0.6360900168789716,
+      "rev_growth_yoy": 173.91838796587336,
+      "fcf_margin_change": -0.14281555831977405
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 3012904,
+      "gross_profit": 231012,
+      "operating_income": -31548329,
+      "net_income": -34318204,
+      "opex": 31779341,
+      "cogs": 2781892,
+      "rd": null,
+      "sga": null,
+      "fcf": -1135329,
+      "ocf": -1135329,
+      "capex": null,
+      "gross_margin": 0.076674198713268,
+      "op_margin": -10.471070103793549,
+      "fcf_margin": -0.3768221622726778,
+      "incr_op_margin_yoy": 11.200267647363887,
+      "rev_growth_yoy": -0.4689858840565202,
+      "rev_growth_yoy_accel": -174.38737384992987,
+      "fcf_margin_change": -0.10997143388757546
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -46.9% vs prior quarter YoY: +17391.8% (decel: -17438.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -21.1% -> -12.4% (+8.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +12638.8% vs OpEx growth +297.3% (leverage: 42.5x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        6,
+        6
+      ],
+      "op_income": [
+        6,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [],
+    "warnings": []
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:44:52.434620"
+}

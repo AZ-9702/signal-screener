@@ -1,0 +1,128 @@
+{
+  "ticker": "PAPA",
+  "name": "Papa Medical Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 8688749,
+      "gross_profit": 2162679,
+      "operating_income": 566001,
+      "net_income": 431419,
+      "opex": 1596678,
+      "cogs": 6526070,
+      "rd": 163461,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.2489056825096455,
+      "op_margin": 0.06514182881793455,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 9972437,
+      "gross_profit": 2439166,
+      "operating_income": 441686,
+      "net_income": 304466,
+      "opex": 1997480,
+      "cogs": 7533271,
+      "rd": 195790,
+      "sga": null,
+      "fcf": 898234,
+      "ocf": 898359,
+      "capex": -125,
+      "gross_margin": 0.24459076552702214,
+      "op_margin": 0.04429067839686528,
+      "fcf_margin": 0.09007166452894112,
+      "op_leverage_ratio": 0.5885585746024349
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 14711421,
+      "gross_profit": 3649414,
+      "operating_income": 970914,
+      "net_income": 621223,
+      "opex": 2678500,
+      "cogs": 11062007,
+      "rd": 329096,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.24806672312620243,
+      "op_margin": 0.06599729557056384,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.06723145474301108,
+      "rev_growth_yoy": 0.6931575535212261,
+      "op_leverage_ratio": 1.393819429838212
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 7368220,
+      "gross_profit": 1419655,
+      "operating_income": -1284934,
+      "net_income": -819923,
+      "opex": 2704589,
+      "cogs": 5948565,
+      "rd": 329505,
+      "sga": null,
+      "fcf": -218283,
+      "ocf": -78960,
+      "capex": -139323,
+      "gross_margin": 0.19267272149854375,
+      "op_margin": -0.17438865831910558,
+      "fcf_margin": -0.029624929765940756,
+      "incr_op_margin_yoy": 0.6630092653569192,
+      "rev_growth_yoy": -0.26114148427310196,
+      "rev_growth_yoy_accel": -0.9542990377943281
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -26.1% vs prior quarter YoY: +69.3% (decel: -95.4%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T00:34:21.105819"
+}

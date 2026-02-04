@@ -1,0 +1,129 @@
+{
+  "ticker": "HTFL",
+  "name": "Heartflow, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 31054000,
+      "gross_profit": 23839000,
+      "operating_income": -14177000,
+      "net_income": -23379000,
+      "opex": 38016000,
+      "cogs": 7215000,
+      "rd": 9932000,
+      "sga": 28084000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7676627809621949,
+      "op_margin": -0.45652733947317575,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 32934000,
+      "gross_profit": 24937000,
+      "operating_income": -14929000,
+      "net_income": -19140000,
+      "opex": 39866000,
+      "cogs": 7997000,
+      "rd": 11863000,
+      "sga": 28003000,
+      "fcf": -11287000,
+      "ocf": -10267000,
+      "capex": -1020000,
+      "gross_margin": 0.7571810287241149,
+      "op_margin": -0.45330054047488916,
+      "fcf_margin": -0.34271573449930165,
+      "op_leverage_ratio": 1.2440418521181065
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 43424000,
+      "gross_profit": 32778000,
+      "operating_income": -13715000,
+      "net_income": -9196000,
+      "opex": 46493000,
+      "cogs": 10646000,
+      "rd": 15032000,
+      "sga": 31461000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7548360353721444,
+      "op_margin": -0.3158391672807664,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.03734842360549717,
+      "rev_growth_yoy": 0.3983383783087525,
+      "op_leverage_ratio": 1.9160935054923123
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 46276000,
+      "gross_profit": 35415000,
+      "operating_income": -15099000,
+      "net_income": -50855000,
+      "opex": 50514000,
+      "cogs": 10861000,
+      "rd": 17297000,
+      "sga": 33217000,
+      "fcf": -4192000,
+      "ocf": -2957000,
+      "capex": -1235000,
+      "gross_margin": 0.7652995073040021,
+      "op_margin": -0.32628144178407814,
+      "fcf_margin": -0.09058691330279195,
+      "incr_op_margin_yoy": -0.012741717883375806,
+      "rev_growth_yoy": 0.4051132568166636,
+      "rev_growth_yoy_accel": 0.006774878507911086,
+      "op_leverage_ratio": 0.7594045456269838
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +31.9% vs OpEx growth +16.6% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:27:20.681566"
+}

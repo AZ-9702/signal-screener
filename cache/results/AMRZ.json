@@ -1,0 +1,140 @@
+{
+  "ticker": "AMRZ",
+  "name": "Amrize Ltd",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 3243000000,
+      "gross_profit": 979000000,
+      "operating_income": 754000000,
+      "net_income": 474000000,
+      "opex": 225000000,
+      "cogs": 2264000000,
+      "rd": null,
+      "sga": 228000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3018809744064138,
+      "op_margin": 0.23250077089115018,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 3446000000,
+      "gross_profit": 1042000000,
+      "operating_income": 844000000,
+      "net_income": 553000000,
+      "opex": 198000000,
+      "cogs": 2404000000,
+      "rd": null,
+      "sga": 241000000,
+      "fcf": 402000000,
+      "ocf": 623000000,
+      "capex": -221000000,
+      "gross_margin": 0.3023795705165409,
+      "op_margin": 0.24492164828787,
+      "fcf_margin": 0.11665699361578642,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 3220000000,
+      "gross_profit": 966000000,
+      "operating_income": 669000000,
+      "net_income": 429000000,
+      "opex": 297000000,
+      "cogs": 2254000000,
+      "rd": null,
+      "sga": 299000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3,
+      "op_margin": 0.2077639751552795,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 3.6956521739130435,
+      "rev_growth_yoy": -0.0070921985815602835
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 3675000000,
+      "gross_profit": 1086000000,
+      "operating_income": 778000000,
+      "net_income": 545000000,
+      "opex": 308000000,
+      "cogs": 2589000000,
+      "rd": null,
+      "sga": 312000000,
+      "fcf": 669000000,
+      "ocf": 854000000,
+      "capex": -185000000,
+      "gross_margin": 0.29551020408163264,
+      "op_margin": 0.21170068027210884,
+      "fcf_margin": 0.1820408163265306,
+      "incr_op_margin_yoy": -0.28820960698689957,
+      "rev_growth_yoy": 0.06645385954730122,
+      "rev_growth_yoy_accel": 0.0735460581288615,
+      "op_leverage_ratio": 3.8152173913043477
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +14.1% vs OpEx growth +3.7% (leverage: 3.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +6.6% vs prior quarter YoY: -0.7% (accel: +7.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +369.6% vs year-ago OPM: +23.3%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:09:05.680892"
+}

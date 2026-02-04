@@ -1,0 +1,147 @@
+{
+  "ticker": "MNTN",
+  "name": "MNTN, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 54821000,
+      "gross_profit": 38143000,
+      "operating_income": -2277000,
+      "net_income": -9274000,
+      "opex": 40420000,
+      "cogs": 16678000,
+      "rd": 7797000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.6957735174476934,
+      "op_margin": -0.04153517812517101,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 57127000,
+      "gross_profit": 40946000,
+      "operating_income": 374000,
+      "net_income": -3884000,
+      "opex": 40572000,
+      "cogs": 16181000,
+      "rd": 8158000,
+      "sga": null,
+      "fcf": 12595000,
+      "ocf": 12595000,
+      "capex": null,
+      "gross_margin": 0.7167538992070299,
+      "op_margin": 0.006546816741645807,
+      "fcf_margin": 0.22047368144660143,
+      "op_leverage_ratio": 11.185749026256746
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 68460000,
+      "gross_profit": 52561000,
+      "operating_income": 3716000,
+      "net_income": -26228000,
+      "opex": 48845000,
+      "cogs": 15899000,
+      "rd": 10732000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7677621969033012,
+      "op_margin": 0.05427987145778557,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.4394017156683041,
+      "rev_growth_yoy": 0.24879152149723646,
+      "op_leverage_ratio": 0.9728969981361295
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 70023000,
+      "gross_profit": 55234000,
+      "operating_income": 7530000,
+      "net_income": 6436000,
+      "opex": 47704000,
+      "cogs": 14789000,
+      "rd": 13714000,
+      "sga": null,
+      "fcf": 9333000,
+      "ocf": 9333000,
+      "capex": null,
+      "gross_margin": 0.7887979663824743,
+      "op_margin": 0.10753609528297844,
+      "fcf_margin": 0.13328477785870357,
+      "incr_op_margin_yoy": 0.5549007444168734,
+      "rev_growth_yoy": 0.22574264358359444,
+      "rev_growth_yoy_accel": -0.02304887791364202,
+      "op_leverage_ratio": Infinity
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +55.5% vs year-ago OPM: +0.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -4.2% (year-ago) -> +5.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +4.2% vs OpEx growth +0.4% (leverage: 11.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -4.2% -> +0.7%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:12:00.860703"
+}

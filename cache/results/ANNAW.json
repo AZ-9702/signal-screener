@@ -1,0 +1,171 @@
+{
+  "ticker": "ANNAW",
+  "name": "ALEANNA, INC.",
+  "quarters": [
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 648328,
+      "gross_profit": null,
+      "operating_income": -256436,
+      "net_income": -77178,
+      "opex": 2120585,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -2219863,
+      "ocf": -2219863,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.39553435915154056,
+      "fcf_margin": -3.4239813797954124
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 771702,
+      "gross_profit": null,
+      "operating_income": -13365761,
+      "net_income": null,
+      "opex": 10808988,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -9977419,
+      "ocf": -9977419,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -17.31984755773602,
+      "fcf_margin": -12.929108645565258,
+      "op_leverage_ratio": 0.046445601905257226,
+      "fcf_margin_change": -9.505127265769845
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 644600,
+      "gross_profit": null,
+      "operating_income": -3625250,
+      "net_income": null,
+      "opex": 4269850,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1859544,
+      "ocf": -1859544,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -5.624030406453615,
+      "fcf_margin": -2.8848029785913747,
+      "fcf_margin_change": 10.044305666973884
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 4030410,
+      "gross_profit": null,
+      "operating_income": 583303,
+      "net_income": null,
+      "opex": 3447107,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -700041,
+      "ocf": -700041,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.1447254745795093,
+      "fcf_margin": -0.17368977349698914,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 2.7111132050943856
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 11224868,
+      "gross_profit": null,
+      "operating_income": 5728614,
+      "net_income": null,
+      "opex": 5496254,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 8970902,
+      "ocf": 8970902,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5103502330717831,
+      "fcf_margin": 0.7991988859022663,
+      "incr_op_margin_yoy": 0.5658797678635924,
+      "rev_growth_yoy": 16.313563504892585,
+      "op_leverage_ratio": 3.002828323984396,
+      "fcf_margin_change": 0.9728886593992554
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -17.4% -> +79.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +178.5% vs OpEx growth +59.4% (leverage: 3.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -39.6% (year-ago) -> +51.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -288.5% -> -17.4% (+271.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -562.4% -> +14.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -1292.9% -> -288.5% (+1004.4%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        0,
+        5
+      ],
+      "op_income": [
+        5,
+        5
+      ],
+      "fcf": [
+        5,
+        5
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T01:11:49.310437"
+}

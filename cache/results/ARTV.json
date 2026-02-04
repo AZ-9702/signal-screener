@@ -1,0 +1,150 @@
+{
+  "ticker": "ARTV",
+  "name": "Artiva Biotherapeutics, Inc.",
+  "quarters": [
+    {
+      "date": "2023-06-30T00:00:00",
+      "quarter_label": "2023-06 (Q2)",
+      "revenue": 3497000,
+      "gross_profit": null,
+      "operating_income": -11824000,
+      "net_income": -11284000,
+      "opex": 15321000,
+      "cogs": null,
+      "rd": 11262000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -3.3811838718901917,
+      "fcf_margin": null
+    },
+    {
+      "date": "2023-09-30T00:00:00",
+      "quarter_label": "2023-09 (Q3)",
+      "revenue": 26656000,
+      "gross_profit": null,
+      "operating_income": 10811000,
+      "net_income": 11279000,
+      "opex": 15845000,
+      "cogs": null,
+      "rd": 13065000,
+      "sga": null,
+      "fcf": -10927000,
+      "ocf": -10748000,
+      "capex": -179000,
+      "gross_margin": null,
+      "op_margin": 0.4055747298919568,
+      "fcf_margin": -0.4099264705882353,
+      "op_leverage_ratio": 193.63327726928424
+    },
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 2350000,
+      "gross_profit": null,
+      "operating_income": -11970000,
+      "net_income": -11998000,
+      "opex": 14320000,
+      "cogs": null,
+      "rd": 11153000,
+      "sga": null,
+      "fcf": -11311000,
+      "ocf": -10675000,
+      "capex": -636000,
+      "gross_margin": null,
+      "op_margin": -5.093617021276596,
+      "fcf_margin": -4.813191489361702,
+      "fcf_margin_change": -4.4032650187734665
+    },
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 251000,
+      "gross_profit": null,
+      "operating_income": -14492000,
+      "net_income": -13963000,
+      "opex": 14743000,
+      "cogs": null,
+      "rd": 11156000,
+      "sga": null,
+      "fcf": -15104000,
+      "ocf": -15086000,
+      "capex": -18000,
+      "gross_margin": null,
+      "op_margin": -57.73705179282869,
+      "fcf_margin": -60.17529880478088,
+      "fcf_margin_change": -55.36210731541918
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -18267000,
+      "net_income": -16095000,
+      "opex": 18267000,
+      "cogs": null,
+      "rd": 13317000,
+      "sga": null,
+      "fcf": -14714000,
+      "ocf": -14650000,
+      "capex": -64000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 2.6795744680851064,
+      "rev_growth_yoy": -1.0
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2023-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +662.3% vs OpEx growth +3.4% (leverage: 193.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -338.1% -> +40.6%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        0,
+        5
+      ],
+      "op_income": [
+        5,
+        5
+      ],
+      "fcf": [
+        4,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2024-03 (Q1)",
+        "2024-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2024-03 (Q1) and 2024-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:16:32.975597"
+}

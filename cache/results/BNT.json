@@ -1,0 +1,146 @@
+{
+  "ticker": "BNT",
+  "name": "BROOKFIELD WEALTH SOLUTIONS LTD.",
+  "quarters": [
+    {
+      "date": "2022-06-30T00:00:00",
+      "quarter_label": "2022-06 (Q2)",
+      "revenue": 1280000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 25000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2023-06-30T00:00:00",
+      "quarter_label": "2023-06 (Q2)",
+      "revenue": 2040000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 360000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.59375
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 2902000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.42254901960784313,
+      "rev_growth_yoy_accel": -0.17120098039215687
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 3037000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.046519641626464506,
+      "rev_growth_yoy_accel": -0.37602937798137864
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.7% vs prior quarter YoY: +42.3% (decel: -37.6%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +42.3% vs prior quarter YoY: +59.4% (decel: -17.1%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        0,
+        4
+      ],
+      "fcf": [
+        0,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2022-06 (Q2)",
+        "2023-06 (Q2)",
+        365
+      ],
+      [
+        "2023-06 (Q2)",
+        "2024-06 (Q2)",
+        366
+      ],
+      [
+        "2024-06 (Q2)",
+        "2025-06 (Q2)",
+        365
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "fcf: no data",
+      "gap: 3Q missing between 2022-06 (Q2) and 2023-06 (Q2)",
+      "gap: 3Q missing between 2023-06 (Q2) and 2024-06 (Q2)",
+      "gap: 3Q missing between 2024-06 (Q2) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:30:22.046276"
+}

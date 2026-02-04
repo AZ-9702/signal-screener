@@ -1,0 +1,137 @@
+{
+  "ticker": "KMTS",
+  "name": "Kestra Medical Technologies, Ltd.",
+  "quarters": [
+    {
+      "date": "2024-07-31T00:00:00",
+      "quarter_label": "2024-07 (Q3)",
+      "revenue": 12782000,
+      "gross_profit": 4200000,
+      "operating_income": -18431000,
+      "net_income": -19884000,
+      "opex": 22631000,
+      "cogs": 8582000,
+      "rd": 3404000,
+      "sga": 19227000,
+      "fcf": -24536000,
+      "ocf": -17499000,
+      "capex": -7037000,
+      "gross_margin": 0.32858707557502737,
+      "op_margin": -1.4419496166484118,
+      "fcf_margin": -1.9195744015021123
+    },
+    {
+      "date": "2024-10-31T00:00:00",
+      "quarter_label": "2024-10 (Q4)",
+      "revenue": 14710000,
+      "gross_profit": 5830000,
+      "operating_income": -19134000,
+      "net_income": -20368000,
+      "opex": 24964000,
+      "cogs": 8880000,
+      "rd": 3509000,
+      "sga": 21455000,
+      "fcf": -22503000,
+      "ocf": -18056000,
+      "capex": -4447000,
+      "gross_margin": 0.39632902787219576,
+      "op_margin": -1.3007477906186269,
+      "fcf_margin": -1.529775662814412,
+      "op_leverage_ratio": 1.4631782008601761,
+      "fcf_margin_change": 0.38979873868770043
+    },
+    {
+      "date": "2025-07-31T00:00:00",
+      "quarter_label": "2025-07 (Q3)",
+      "revenue": 19371000,
+      "gross_profit": 8851000,
+      "operating_income": -28878000,
+      "net_income": -25826000,
+      "opex": 37729000,
+      "cogs": 10520000,
+      "rd": 4001000,
+      "sga": 33728000,
+      "fcf": -34440000,
+      "ocf": -26274000,
+      "capex": -8166000,
+      "gross_margin": 0.4569201383511435,
+      "op_margin": -1.490785194362707,
+      "fcf_margin": -1.7779154406070932,
+      "incr_op_margin_yoy": -1.5855213234178176,
+      "rev_growth_yoy": 0.5154905335628227,
+      "op_leverage_ratio": 0.6196690208371112,
+      "fcf_margin_change": -0.24813977779268126
+    },
+    {
+      "date": "2025-10-31T00:00:00",
+      "quarter_label": "2025-10 (Q4)",
+      "revenue": 22565000,
+      "gross_profit": 11424000,
+      "operating_income": -31755000,
+      "net_income": -32785000,
+      "opex": 43179000,
+      "cogs": 11141000,
+      "rd": 4878000,
+      "sga": 38301000,
+      "fcf": -25608000,
+      "ocf": -18343000,
+      "capex": -7265000,
+      "gross_margin": 0.5062707733215156,
+      "op_margin": -1.4072678927542654,
+      "fcf_margin": -1.1348548637270108,
+      "incr_op_margin_yoy": -1.606747294716741,
+      "rev_growth_yoy": 0.5339904826648538,
+      "rev_growth_yoy_accel": 0.01849994910203112,
+      "op_leverage_ratio": 1.1414625381078969,
+      "fcf_margin_change": 0.6430605768800823
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-10 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -177.8% -> -113.5% (+64.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-10 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -192.0% -> -153.0% (+39.0%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-10 (Q4)",
+        "2025-07 (Q3)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gap: 2Q missing between 2024-10 (Q4) and 2025-07 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:48:20.595411"
+}

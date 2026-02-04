@@ -1,0 +1,144 @@
+{
+  "ticker": "IAU",
+  "name": "ISHARES GOLD TRUST",
+  "quarters": [
+    {
+      "date": "2012-09-30T00:00:00",
+      "quarter_label": "2012-09 (Q3)",
+      "revenue": 45216000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2012-12-31T00:00:00",
+      "quarter_label": "2012-12 (Q4)",
+      "revenue": 16102000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2013-06-30T00:00:00",
+      "quarter_label": "2013-06 (Q2)",
+      "revenue": -839741000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2013-09-30T00:00:00",
+      "quarter_label": "2013-09 (Q3)",
+      "revenue": 772113000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 16.076101380042463
+    },
+    {
+      "date": "2013-12-31T00:00:00",
+      "quarter_label": "2013-12 (Q4)",
+      "revenue": -1585336000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": -99.45584399453485,
+      "rev_growth_yoy_accel": -115.5319453745773
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2013-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -9945.6% vs prior quarter YoY: +1607.6% (decel: -11553.2%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        0,
+        5
+      ],
+      "op_income": [
+        0,
+        5
+      ],
+      "fcf": [
+        0,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2012-12 (Q4)",
+        "2013-06 (Q2)",
+        181
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "fcf: no data",
+      "gap: 1Q missing between 2012-12 (Q4) and 2013-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T19:50:51.841694"
+}

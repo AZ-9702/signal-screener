@@ -1,0 +1,166 @@
+{
+  "ticker": "PBR",
+  "name": "PETROBRAS - PETROLEO BRASILEIRO SA",
+  "quarters": [
+    {
+      "date": "2009-03-31T00:00:00",
+      "quarter_label": "2009-03 (Q1)",
+      "revenue": 22899000000,
+      "gross_profit": 12879000000,
+      "operating_income": 4256000000,
+      "net_income": 2750000000,
+      "opex": 13956000000,
+      "cogs": 10020000000,
+      "rd": 146000000,
+      "sga": 1440000000,
+      "fcf": -428000000,
+      "ocf": 5902000000,
+      "capex": -6330000000,
+      "gross_margin": 0.5624263068256256,
+      "op_margin": 0.18585964452596182,
+      "fcf_margin": -0.01869077252281759
+    },
+    {
+      "date": "2009-12-31T00:00:00",
+      "quarter_label": "2009-12 (Q4)",
+      "revenue": 33504000000,
+      "gross_profit": 19485000000,
+      "operating_income": 5772000000,
+      "net_income": 4929000000,
+      "opex": 20428000000,
+      "cogs": 14019000000,
+      "rd": 136000000,
+      "sga": 1894000000,
+      "fcf": -3870000000,
+      "ocf": 6915000000,
+      "capex": -10785000000,
+      "gross_margin": 0.5815723495702005,
+      "op_margin": 0.1722779369627507,
+      "fcf_margin": -0.11550859598853869,
+      "op_leverage_ratio": 0.9986575919374222,
+      "fcf_margin_change": -0.0968178234657211
+    },
+    {
+      "date": "2010-03-31T00:00:00",
+      "quarter_label": "2010-03 (Q1)",
+      "revenue": 34620000000,
+      "gross_profit": 19363000000,
+      "operating_income": 6301000000,
+      "net_income": 4366000000,
+      "opex": 21258000000,
+      "cogs": 15257000000,
+      "rd": 217000000,
+      "sga": 2052000000,
+      "fcf": -4258000000,
+      "ocf": 5525000000,
+      "capex": -9783000000,
+      "gross_margin": 0.5593009820912768,
+      "op_margin": 0.18200462160600808,
+      "fcf_margin": -0.12299248989023685,
+      "incr_op_margin_yoy": 0.17447316781844552,
+      "rev_growth_yoy": 0.5118564129437967,
+      "op_leverage_ratio": 0.8198139261918735,
+      "fcf_margin_change": -0.007483893901698166
+    },
+    {
+      "date": "2010-12-31T00:00:00",
+      "quarter_label": "2010-12 (Q4)",
+      "revenue": 40445000000,
+      "gross_profit": 20936000000,
+      "operating_income": 5908000000,
+      "net_income": 5842000000,
+      "opex": 26080000000,
+      "cogs": 19509000000,
+      "rd": 257000000,
+      "sga": 2475000000,
+      "fcf": -1822000000,
+      "ocf": 9862000000,
+      "capex": -11684000000,
+      "gross_margin": 0.5176412411917418,
+      "op_margin": 0.14607491655334404,
+      "fcf_margin": -0.04504883174681666,
+      "incr_op_margin_yoy": 0.019593718484368246,
+      "rev_growth_yoy": 0.20716929321872016,
+      "rev_growth_yoy_accel": -0.30468711972507656,
+      "op_leverage_ratio": 0.7417611151086118,
+      "fcf_margin_change": 0.07794365814342019
+    },
+    {
+      "date": "2011-03-31T00:00:00",
+      "quarter_label": "2011-03 (Q1)",
+      "revenue": 41122000000,
+      "gross_profit": 22089000000,
+      "operating_income": 7394000000,
+      "net_income": 6645000000,
+      "opex": 25219000000,
+      "cogs": 19033000000,
+      "rd": 296000000,
+      "sga": 2322000000,
+      "fcf": -903000000,
+      "ocf": 9021000000,
+      "capex": -9924000000,
+      "gross_margin": 0.5371577257915471,
+      "op_margin": 0.1798064296483634,
+      "fcf_margin": -0.02195904868440251,
+      "incr_op_margin_yoy": 0.16810212242386957,
+      "rev_growth_yoy": 0.1878105141536684,
+      "rev_growth_yoy_accel": -0.019358779065051762,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.023089783062414153
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2010-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -12.3% -> -4.5% (+7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2010-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +20.7% vs prior quarter YoY: +51.2% (decel: -30.5%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        5,
+        5
+      ],
+      "op_income": [
+        5,
+        5
+      ],
+      "fcf": [
+        5,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2009-03 (Q1)",
+        "2009-12 (Q4)",
+        275
+      ],
+      [
+        "2010-03 (Q1)",
+        "2010-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gap: 2Q missing between 2009-03 (Q1) and 2009-12 (Q4)",
+      "gap: 2Q missing between 2010-03 (Q1) and 2010-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T19:50:33.289342"
+}

@@ -1,0 +1,197 @@
+{
+  "ticker": "SJ",
+  "name": "SCIENJOY HOLDING CORPORATION",
+  "quarters": [
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 80193000,
+      "gross_profit": 11709000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": 68484000,
+      "rd": 4815000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.1460102502712207,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2022-03-31T00:00:00",
+      "quarter_label": "2022-03 (Q1)",
+      "revenue": 73107000,
+      "gross_profit": 18058000,
+      "operating_income": 12340000,
+      "net_income": 13128000,
+      "opex": 5718000,
+      "cogs": 55049000,
+      "rd": 2653000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.24700781046958567,
+      "op_margin": 0.16879368596714406,
+      "fcf_margin": null
+    },
+    {
+      "date": "2022-06-30T00:00:00",
+      "quarter_label": "2022-06 (Q2)",
+      "revenue": 75623000,
+      "gross_profit": 13908000,
+      "operating_income": 8306000,
+      "net_income": null,
+      "opex": 5602000,
+      "cogs": 61715000,
+      "rd": 2734000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.18391230181294052,
+      "op_margin": 0.1098343096676937,
+      "fcf_margin": null,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 83658000,
+      "gross_profit": 1949000,
+      "operating_income": null,
+      "net_income": 1687000,
+      "opex": null,
+      "cogs": 81709000,
+      "rd": 2241000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.02329723397642784,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.04320826007257491
+    },
+    {
+      "date": "2023-03-31T00:00:00",
+      "quarter_label": "2023-03 (Q1)",
+      "revenue": 44308000,
+      "gross_profit": 5838000,
+      "operating_income": 715000,
+      "net_income": -458000,
+      "opex": 5123000,
+      "cogs": 38470000,
+      "rd": 2448000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.1317595016701273,
+      "op_margin": 0.016137040714995034,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.40365984930032295,
+      "rev_growth_yoy": -0.3939294458806954,
+      "rev_growth_yoy_accel": -0.4371377059532703
+    },
+    {
+      "date": "2023-06-30T00:00:00",
+      "quarter_label": "2023-06 (Q2)",
+      "revenue": 50081000,
+      "gross_profit": 6955000,
+      "operating_income": 1589000,
+      "net_income": 11687000,
+      "opex": 5366000,
+      "cogs": 43126000,
+      "rd": 2501000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.13887502246360894,
+      "op_margin": 0.03172859966853697,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.26297862344373973,
+      "rev_growth_yoy": -0.3377543868928765,
+      "rev_growth_yoy_accel": 0.05617505898781888,
+      "op_leverage_ratio": 2.7468661197283066
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +13.0% vs OpEx growth +4.7% (leverage: 2.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -33.8% vs prior quarter YoY: -39.4% (accel: +5.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +26.3% vs year-ago OPM: +11.0%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-03 (Q1)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +18.4% -> +2.3% -> +13.2% (reversal +10.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -39.4% vs prior quarter YoY: +4.3% (decel: -43.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2023-03 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +40.4% vs year-ago OPM: +16.9%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        6,
+        6
+      ],
+      "op_income": [
+        4,
+        6
+      ],
+      "fcf": [
+        0,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2022-06 (Q2)",
+        "2022-12 (Q4)",
+        184
+      ]
+    ],
+    "warnings": [
+      "op_income: 4/6Q",
+      "fcf: no data",
+      "gap: 1Q missing between 2022-06 (Q2) and 2022-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:34:07.898304"
+}

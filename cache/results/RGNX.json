@@ -1,0 +1,721 @@
+{
+  "ticker": "RGNX",
+  "name": "REGENXBIO Inc.",
+  "quarters": [
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 21445000,
+      "gross_profit": 11188000,
+      "operating_income": -53651000,
+      "net_income": -46241000,
+      "opex": 75096000,
+      "cogs": 10257000,
+      "rd": 47180000,
+      "sga": null,
+      "fcf": 26579000,
+      "ocf": 39468000,
+      "capex": -12889000,
+      "gross_margin": 0.5217066915364887,
+      "op_margin": -2.501795290277454,
+      "fcf_margin": 1.2394031242713919
+    },
+    {
+      "date": "2021-03-31T00:00:00",
+      "quarter_label": "2021-03 (Q1)",
+      "revenue": 18884000,
+      "gross_profit": 14033000,
+      "operating_income": -44042000,
+      "net_income": -50139000,
+      "opex": 62926000,
+      "cogs": 4851000,
+      "rd": 39722000,
+      "sga": null,
+      "fcf": -75068000,
+      "ocf": -44047000,
+      "capex": -31021000,
+      "gross_margin": 0.7431158652827791,
+      "op_margin": -2.33223893242957,
+      "fcf_margin": -3.9752171150180047,
+      "fcf_margin_change": -5.214620239289396
+    },
+    {
+      "date": "2021-06-30T00:00:00",
+      "quarter_label": "2021-06 (Q2)",
+      "revenue": 22035000,
+      "gross_profit": 12216000,
+      "operating_income": -52226000,
+      "net_income": -57639000,
+      "opex": 74261000,
+      "cogs": 9819000,
+      "rd": 45882000,
+      "sga": null,
+      "fcf": -55914000,
+      "ocf": -36072000,
+      "capex": -19842000,
+      "gross_margin": 0.5543907420013615,
+      "op_margin": -2.370138416156115,
+      "fcf_margin": -2.537508509189925,
+      "op_leverage_ratio": 0.9263242060948897,
+      "fcf_margin_change": 1.4377086058280795
+    },
+    {
+      "date": "2021-09-30T00:00:00",
+      "quarter_label": "2021-09 (Q3)",
+      "revenue": 30773000,
+      "gross_profit": 16668000,
+      "operating_income": -57348000,
+      "net_income": -58405000,
+      "opex": 88121000,
+      "cogs": 14105000,
+      "rd": 47855000,
+      "sga": null,
+      "fcf": -61201000,
+      "ocf": -42503000,
+      "capex": -18698000,
+      "gross_margin": 0.54164364865304,
+      "op_margin": -1.863581711240373,
+      "fcf_margin": -1.988788873363013,
+      "op_leverage_ratio": 2.1246947677036174,
+      "fcf_margin_change": 0.5487196358269122
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 398655000,
+      "gross_profit": 375597000,
+      "operating_income": 313596000,
+      "net_income": 294023000,
+      "opex": 85059000,
+      "cogs": 23058000,
+      "rd": 47978000,
+      "sga": null,
+      "fcf": 326883000,
+      "ocf": 341497000,
+      "capex": -14614000,
+      "gross_margin": 0.9421605147307822,
+      "op_margin": 0.7866350603905633,
+      "fcf_margin": 0.8199646310719795,
+      "incr_op_margin_yoy": 0.9735876567429284,
+      "rev_growth_yoy": 17.589647936581954,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 2.8087535044349927
+    },
+    {
+      "date": "2022-03-31T00:00:00",
+      "quarter_label": "2022-03 (Q1)",
+      "revenue": 22218000,
+      "gross_profit": 6501000,
+      "operating_income": -71527000,
+      "net_income": -76723000,
+      "opex": 93745000,
+      "cogs": 15717000,
+      "rd": 55627000,
+      "sga": null,
+      "fcf": -66878000,
+      "ocf": -55911000,
+      "capex": -10967000,
+      "gross_margin": 0.2926005941128815,
+      "op_margin": -3.2193266720676927,
+      "fcf_margin": -3.010081915563957,
+      "incr_op_margin_yoy": -8.24385122975405,
+      "rev_growth_yoy": 0.1765515780554967,
+      "rev_growth_yoy_accel": -17.41309635852646,
+      "fcf_margin_change": -3.830046546635937
+    },
+    {
+      "date": "2022-06-30T00:00:00",
+      "quarter_label": "2022-06 (Q2)",
+      "revenue": 32649000,
+      "gross_profit": 19698000,
+      "operating_income": -62533000,
+      "net_income": -68179000,
+      "opex": 95182000,
+      "cogs": 12951000,
+      "rd": 61008000,
+      "sga": null,
+      "fcf": -70986000,
+      "ocf": -61749000,
+      "capex": -9237000,
+      "gross_margin": 0.603326288707158,
+      "op_margin": -1.9153113418481424,
+      "fcf_margin": -2.174216668198107,
+      "incr_op_margin_yoy": -0.9710759374411155,
+      "rev_growth_yoy": 0.48168822328114363,
+      "rev_growth_yoy_accel": 0.30513664522564693,
+      "op_leverage_ratio": 30.627554987013294,
+      "fcf_margin_change": 0.8358652473658501
+    },
+    {
+      "date": "2022-09-30T00:00:00",
+      "quarter_label": "2022-09 (Q3)",
+      "revenue": 26512000,
+      "gross_profit": 13418000,
+      "operating_income": -71045000,
+      "net_income": -75484000,
+      "opex": 97557000,
+      "cogs": 13094000,
+      "rd": 63313000,
+      "sga": null,
+      "fcf": -55506000,
+      "ocf": -50456000,
+      "capex": -5050000,
+      "gross_margin": 0.5061104405552203,
+      "op_margin": -2.6797299336149667,
+      "fcf_margin": -2.093617984308992,
+      "incr_op_margin_yoy": 3.2145036376437455,
+      "rev_growth_yoy": -0.13846553797159847,
+      "rev_growth_yoy_accel": -0.6201537612527421,
+      "fcf_margin_change": 0.08059868388911484
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 31345000,
+      "gross_profit": 18562000,
+      "operating_income": -57771000,
+      "net_income": -59935000,
+      "opex": 89116000,
+      "cogs": 12783000,
+      "rd": 62505000,
+      "sga": null,
+      "fcf": -44842000,
+      "ocf": -39372000,
+      "capex": -5470000,
+      "gross_margin": 0.592183761365449,
+      "op_margin": -1.8430690700271175,
+      "fcf_margin": -1.4305949912266709,
+      "incr_op_margin_yoy": 1.01104516620838,
+      "rev_growth_yoy": -0.9213731171062698,
+      "rev_growth_yoy_accel": -0.7829075791346713,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.6630229930823213
+    },
+    {
+      "date": "2023-03-31T00:00:00",
+      "quarter_label": "2023-03 (Q1)",
+      "revenue": 19138000,
+      "gross_profit": 15026000,
+      "operating_income": -66157000,
+      "net_income": -66676000,
+      "opex": 85295000,
+      "cogs": 4112000,
+      "rd": 58516000,
+      "sga": null,
+      "fcf": -85736000,
+      "ocf": -80918000,
+      "capex": -4818000,
+      "gross_margin": 0.7851395130107639,
+      "op_margin": -3.456839795171909,
+      "fcf_margin": -4.479882955376738,
+      "incr_op_margin_yoy": -1.7435064935064934,
+      "rev_growth_yoy": -0.13862633900441085,
+      "rev_growth_yoy_accel": 0.7827467781018589,
+      "fcf_margin_change": -3.049287964150067
+    },
+    {
+      "date": "2023-06-30T00:00:00",
+      "quarter_label": "2023-06 (Q2)",
+      "revenue": 19977000,
+      "gross_profit": 10502000,
+      "operating_income": -73108000,
+      "net_income": -72061000,
+      "opex": 93085000,
+      "cogs": 9475000,
+      "rd": 59886000,
+      "sga": null,
+      "fcf": -49899000,
+      "ocf": -47322000,
+      "capex": -2577000,
+      "gross_margin": 0.5257045602442809,
+      "op_margin": -3.659608549832307,
+      "fcf_margin": -2.497822495870251,
+      "incr_op_margin_yoy": 0.8345170454545454,
+      "rev_growth_yoy": -0.38812827345401085,
+      "rev_growth_yoy_accel": -0.2495019344496,
+      "op_leverage_ratio": 0.48001137203456123,
+      "fcf_margin_change": 1.9820604595064868
+    },
+    {
+      "date": "2023-09-30T00:00:00",
+      "quarter_label": "2023-09 (Q3)",
+      "revenue": 28914000,
+      "gross_profit": 16526000,
+      "operating_income": -64960000,
+      "net_income": -61868000,
+      "opex": 93874000,
+      "cogs": 12388000,
+      "rd": 58183000,
+      "sga": null,
+      "fcf": -50846000,
+      "ocf": -49407000,
+      "capex": -1439000,
+      "gross_margin": 0.5715570311959605,
+      "op_margin": -2.246662516428028,
+      "fcf_margin": -1.7585252818703743,
+      "incr_op_margin_yoy": 2.5333055786844296,
+      "rev_growth_yoy": 0.0906004828002414,
+      "rev_growth_yoy_accel": 0.47872875625425226,
+      "op_leverage_ratio": 52.77936832680777,
+      "fcf_margin_change": 0.7392972139998766
+    },
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 22213000,
+      "gross_profit": 10975000,
+      "operating_income": -63903000,
+      "net_income": -62889000,
+      "opex": 86116000,
+      "cogs": 11238000,
+      "rd": 55681000,
+      "sga": null,
+      "fcf": -41886000,
+      "ocf": -40760000,
+      "capex": -1126000,
+      "gross_margin": 0.4940800432179354,
+      "op_margin": -2.8768288839868545,
+      "fcf_margin": -1.8856525458065097,
+      "incr_op_margin_yoy": 0.671484888304862,
+      "rev_growth_yoy": -0.29133833147232413,
+      "rev_growth_yoy_accel": -0.38193881427256554,
+      "fcf_margin_change": -0.12712726393613538
+    },
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 15622000,
+      "gross_profit": 11339000,
+      "operating_income": -63863000,
+      "net_income": -63330000,
+      "opex": 79485000,
+      "cogs": 4283000,
+      "rd": 54844000,
+      "sga": null,
+      "fcf": -56012000,
+      "ocf": -55455000,
+      "capex": -557000,
+      "gross_margin": 0.7258353603891947,
+      "op_margin": -4.088016899244655,
+      "fcf_margin": -3.585456407630265,
+      "incr_op_margin_yoy": -0.6524459613196815,
+      "rev_growth_yoy": -0.1837182568711464,
+      "rev_growth_yoy_accel": 0.10762007460117773,
+      "fcf_margin_change": -1.6998038618237552
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 22295000,
+      "gross_profit": 11716000,
+      "operating_income": -56037000,
+      "net_income": -52989000,
+      "opex": 78332000,
+      "cogs": 10579000,
+      "rd": 48869000,
+      "sga": null,
+      "fcf": -45971000,
+      "ocf": -45497000,
+      "capex": -474000,
+      "gross_margin": 0.5254989908051133,
+      "op_margin": -2.51343350527024,
+      "fcf_margin": -2.06194213949316,
+      "incr_op_margin_yoy": 7.364538395168249,
+      "rev_growth_yoy": 0.11603343845422236,
+      "rev_growth_yoy_accel": 0.29975169532536877,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 1.523514268137105
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 24197000,
+      "gross_profit": 11810000,
+      "operating_income": -62078000,
+      "net_income": -59597000,
+      "opex": 86275000,
+      "cogs": 12387000,
+      "rd": 54429000,
+      "sga": null,
+      "fcf": -40875000,
+      "ocf": -40549000,
+      "capex": -326000,
+      "gross_margin": 0.4880770343431004,
+      "op_margin": -2.565524651816341,
+      "fcf_margin": -1.6892589990494689,
+      "incr_op_margin_yoy": -0.6109815560737757,
+      "rev_growth_yoy": -0.1631389638237532,
+      "rev_growth_yoy_accel": -0.2791724022779756,
+      "op_leverage_ratio": 0.8413131722301392,
+      "fcf_margin_change": 0.372683140443691
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 21214000,
+      "gross_profit": 14896000,
+      "operating_income": -51368000,
+      "net_income": -51186000,
+      "opex": 72582000,
+      "cogs": 6318000,
+      "rd": 50380000,
+      "sga": null,
+      "fcf": -32703000,
+      "ocf": -31624000,
+      "capex": -1079000,
+      "gross_margin": 0.7021778071085133,
+      "op_margin": -2.421419817101914,
+      "fcf_margin": -1.5415763175261619,
+      "rev_growth_yoy": -0.044973664070589295,
+      "rev_growth_yoy_accel": 0.11816529975316391,
+      "fcf_margin_change": 0.147682681523307
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 89012000,
+      "gross_profit": null,
+      "operating_income": 12127000,
+      "net_income": 6083000,
+      "opex": 76885000,
+      "cogs": null,
+      "rd": 53087000,
+      "sga": null,
+      "fcf": 32605000,
+      "ocf": 33629000,
+      "capex": -1024000,
+      "gross_margin": null,
+      "op_margin": 0.13624005752033433,
+      "fcf_margin": 0.3662989259875073,
+      "incr_op_margin_yoy": 1.0354271699141573,
+      "rev_growth_yoy": 4.697861989501984,
+      "rev_growth_yoy_accel": 4.742835653572573,
+      "op_leverage_ratio": 53.90783656980608,
+      "fcf_margin_change": 1.9078752435136692
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 21359000,
+      "gross_profit": null,
+      "operating_income": -63278000,
+      "net_income": -70871000,
+      "opex": 84637000,
+      "cogs": null,
+      "rd": 59500000,
+      "sga": null,
+      "fcf": -49733000,
+      "ocf": -49342000,
+      "capex": -391000,
+      "gross_margin": null,
+      "op_margin": -2.962591881642399,
+      "fcf_margin": -2.328432979072054,
+      "rev_growth_yoy": -0.04198250728862974,
+      "rev_growth_yoy_accel": -4.739844496790614,
+      "fcf_margin_change": -2.694731905059561
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 29733000,
+      "gross_profit": null,
+      "operating_income": -52411000,
+      "net_income": -61941000,
+      "opex": 82144000,
+      "cogs": null,
+      "rd": 56101000,
+      "sga": null,
+      "fcf": -56451000,
+      "ocf": -55960000,
+      "capex": -491000,
+      "gross_margin": null,
+      "op_margin": -1.7627215551743853,
+      "fcf_margin": -1.8985975179093937,
+      "incr_op_margin_yoy": 1.746206647398844,
+      "rev_growth_yoy": 0.22878869281315867,
+      "rev_growth_yoy_accel": 0.2707712001017884,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.42983546116266025
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -232.8% -> -189.9% (+43.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +22.9% vs prior quarter YoY: -4.2% (accel: +27.1%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.2% vs prior quarter YoY: +469.8% (decel: -474.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -154.2% -> +36.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +319.6% vs OpEx growth +5.9% (leverage: 53.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +469.8% vs prior quarter YoY: -4.5% (accel: +474.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -408.8% (year-ago) -> +13.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -242.1% -> +13.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -168.9% -> -154.2% (+14.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +52.5% -> +48.8% -> +70.2% (reversal +21.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -4.5% vs prior quarter YoY: -16.3% (accel: +11.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -206.2% -> -168.9% (+37.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -16.3% vs prior quarter YoY: +11.6% (decel: -27.9%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -358.5% -> -206.2% (+152.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +11.6% vs prior quarter YoY: -18.4% (accel: +30.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-03 (Q1)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +57.2% -> +49.4% -> +72.6% (reversal +23.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -18.4% vs prior quarter YoY: -29.1% (accel: +10.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -29.1% vs prior quarter YoY: +9.1% (decel: -38.2%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2023-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -249.8% -> -175.9% (+73.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +44.7% vs OpEx growth +0.8% (leverage: 52.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +78.5% -> +52.6% -> +57.2% (reversal +4.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +9.1% vs prior quarter YoY: -38.8% (accel: +47.9%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -448.0% -> -249.8% (+198.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -38.8% vs prior quarter YoY: -13.9% (decel: -25.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2023-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -13.9% vs prior quarter YoY: -92.1% (accel: +78.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -209.4% -> -143.1% (+66.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2022-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +60.3% -> +50.6% -> +59.2% (reversal +8.6%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -92.1% vs prior quarter YoY: -13.8% (decel: -78.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2022-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -217.4% -> -209.4% (+8.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2022-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -13.8% vs prior quarter YoY: +48.2% (decel: -62.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -301.0% -> -217.4% (+83.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +46.9% vs OpEx growth +1.5% (leverage: 30.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +94.2% -> +29.3% -> +60.3% (reversal +31.1%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +48.2% vs prior quarter YoY: +17.7% (accel: +30.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +17.7% vs prior quarter YoY: +1759.0% (decel: -1741.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -198.9% -> +82.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +55.4% -> +54.2% -> +94.2% (reversal +40.1%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -250.2% (year-ago) -> +78.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -186.4% -> +78.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -253.8% -> -198.9% (+54.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +39.7% vs OpEx growth +18.7% (leverage: 2.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2021-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -397.5% -> -253.8% (+143.8%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 20,
+    "coverage": {
+      "revenue": [
+        20,
+        20
+      ],
+      "gross_profit": [
+        17,
+        20
+      ],
+      "op_income": [
+        20,
+        20
+      ],
+      "fcf": [
+        20,
+        20
+      ]
+    },
+    "gaps": [],
+    "warnings": []
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:14:20.430347"
+}

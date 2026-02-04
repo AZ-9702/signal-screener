@@ -1,0 +1,162 @@
+{
+  "ticker": "NXTC",
+  "name": "NextCure, Inc.",
+  "quarters": [
+    {
+      "date": "2019-03-31T00:00:00",
+      "quarter_label": "2019-03 (Q1)",
+      "revenue": 1357000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2019-06-30T00:00:00",
+      "quarter_label": "2019-06 (Q2)",
+      "revenue": 1402000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2019-09-30T00:00:00",
+      "quarter_label": "2019-09 (Q3)",
+      "revenue": 1583000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2019-12-31T00:00:00",
+      "quarter_label": "2019-12 (Q4)",
+      "revenue": 2005000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2020-03-31T00:00:00",
+      "quarter_label": "2020-03 (Q1)",
+      "revenue": 22378000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": -1445000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 15.490788504053059
+    },
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -16237000,
+      "net_income": -15461000,
+      "opex": 16237000,
+      "cogs": null,
+      "rd": 12106000,
+      "sga": null,
+      "fcf": -7258000,
+      "ocf": -6278000,
+      "capex": -980000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": -1.0,
+      "rev_growth_yoy_accel": -16.490788504053057
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2020-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -100.0% vs prior quarter YoY: +1549.1% (decel: -1649.1%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        1,
+        6
+      ],
+      "fcf": [
+        1,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2020-03 (Q1)",
+        "2020-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: 1/6Q",
+      "fcf: 1/6Q",
+      "gap: 2Q missing between 2020-03 (Q1) and 2020-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:45:31.586380"
+}

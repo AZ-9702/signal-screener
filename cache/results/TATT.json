@@ -1,0 +1,175 @@
+{
+  "ticker": "TATT",
+  "name": "TAT TECHNOLOGIES LTD.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 36525000,
+      "gross_profit": 7984000,
+      "operating_income": 2734000,
+      "net_income": 2617000,
+      "opex": 5250000,
+      "cogs": 28541000,
+      "rd": 343000,
+      "sga": null,
+      "fcf": -5078000,
+      "ocf": -4100000,
+      "capex": -978000,
+      "gross_margin": 0.21859000684462696,
+      "op_margin": 0.07485284052019164,
+      "fcf_margin": -0.1390280629705681
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 40459000,
+      "gross_profit": 8481000,
+      "operating_income": 3446000,
+      "net_income": 2865000,
+      "opex": 5035000,
+      "cogs": 31978000,
+      "rd": 326000,
+      "sga": null,
+      "fcf": 1169000,
+      "ocf": 2790000,
+      "capex": -1621000,
+      "gross_margin": 0.2096196149188067,
+      "op_margin": 0.0851726439111199,
+      "fcf_margin": 0.028893447687782695,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.16792151065835081
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 41044000,
+      "gross_profit": 9483000,
+      "operating_income": 4114000,
+      "net_income": 3575000,
+      "opex": 5369000,
+      "cogs": 31561000,
+      "rd": 302000,
+      "sga": null,
+      "fcf": -2499000,
+      "ocf": -961000,
+      "capex": -1538000,
+      "gross_margin": 0.23104473248221422,
+      "op_margin": 0.100233895331839,
+      "fcf_margin": -0.06088587856934022,
+      "op_leverage_ratio": 0.21796849712424185,
+      "fcf_margin_change": -0.08977932625712291
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 43104000,
+      "gross_profit": 10825000,
+      "operating_income": 4435000,
+      "net_income": 3442000,
+      "opex": 6390000,
+      "cogs": 32279000,
+      "rd": 240000,
+      "sga": null,
+      "fcf": 3644000,
+      "ocf": 6949000,
+      "capex": -3305000,
+      "gross_margin": 0.25113678544914625,
+      "op_margin": 0.1028906829992576,
+      "fcf_margin": 0.084539717891611,
+      "incr_op_margin_yoy": 0.2585499316005472,
+      "rev_growth_yoy": 0.18012320328542095,
+      "op_leverage_ratio": 0.2639278398920401,
+      "fcf_margin_change": 0.1454255964609512
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 46235000,
+      "gross_profit": 11601000,
+      "operating_income": 5260000,
+      "net_income": 4841000,
+      "opex": 6341000,
+      "cogs": 34634000,
+      "rd": 323000,
+      "sga": null,
+      "fcf": 4752000,
+      "ocf": 7495000,
+      "capex": -2743000,
+      "gross_margin": 0.2509138098842868,
+      "op_margin": 0.11376662701416676,
+      "fcf_margin": 0.10277927976641073,
+      "incr_op_margin_yoy": 0.3140581717451524,
+      "rev_growth_yoy": 0.1427618082503275,
+      "rev_growth_yoy_accel": -0.03736139503509345,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.018239561874799734
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +31.4% vs year-ago OPM: +8.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -6.1% -> +8.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +25.9% vs year-ago OPM: +7.5%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +21.9% -> +21.0% -> +23.1% (reversal +2.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -13.9% -> +2.9%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        5,
+        5
+      ],
+      "op_income": [
+        5,
+        5
+      ],
+      "fcf": [
+        5,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2024-12 (Q4)",
+        "2025-06 (Q2)",
+        181
+      ]
+    ],
+    "warnings": [
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:13:39.228288"
+}

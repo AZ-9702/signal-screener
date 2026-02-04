@@ -1,0 +1,202 @@
+{
+  "ticker": "REFI",
+  "name": "CHICAGO ATLANTIC REAL ESTATE FINANCE, INC.",
+  "quarters": [
+    {
+      "date": "2021-09-30T00:00:00",
+      "quarter_label": "2021-09 (Q3)",
+      "revenue": 4116117,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 4067521,
+      "opex": 48596,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 10786474,
+      "ocf": 10786474,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 2.620546014605513
+    },
+    {
+      "date": "2022-03-31T00:00:00",
+      "quarter_label": "2022-03 (Q1)",
+      "revenue": 9833053,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 7803952,
+      "opex": 2029101,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 3035632,
+      "ocf": 3035632,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3087171400377889,
+      "op_leverage_ratio": 0.03408004814323482,
+      "fcf_margin_change": -2.311828874567724
+    },
+    {
+      "date": "2022-06-30T00:00:00",
+      "quarter_label": "2022-06 (Q2)",
+      "revenue": 11400472,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 7463839,
+      "opex": 3936633,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 4339050,
+      "ocf": 4339050,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3806026627669451,
+      "op_leverage_ratio": 0.1695620113580535,
+      "fcf_margin_change": 0.07188552272915621
+    },
+    {
+      "date": "2022-09-30T00:00:00",
+      "quarter_label": "2022-09 (Q3)",
+      "revenue": 12933749,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 9768969,
+      "opex": 3164780,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 5003147,
+      "ocf": 5003147,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3868288305270189,
+      "rev_growth_yoy": 2.142220932981254,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.006226167760073786
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 14762622,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 7255717,
+      "opex": 7506905,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 4627326,
+      "ocf": 4627326,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.31344878978815555,
+      "op_leverage_ratio": 0.10306241708447461,
+      "fcf_margin_change": -0.07338004073886334
+    },
+    {
+      "date": "2023-03-31T00:00:00",
+      "quarter_label": "2023-03 (Q1)",
+      "revenue": 14909008,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 10692349,
+      "opex": 4216659,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1702067,
+      "ocf": 1702067,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1141636653491634,
+      "rev_growth_yoy": 0.5162135300196186,
+      "fcf_margin_change": -0.19928512443899216
+    },
+    {
+      "date": "2023-06-30T00:00:00",
+      "quarter_label": "2023-06 (Q2)",
+      "revenue": 13664296,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 8643378,
+      "opex": 5020918,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 10210705,
+      "ocf": 10210705,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.747254377393464,
+      "rev_growth_yoy": 0.19857283101962797,
+      "rev_growth_yoy_accel": -0.3176406989999906,
+      "fcf_margin_change": 0.6330907120443006
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.4% -> +74.7% (+63.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +19.9% vs prior quarter YoY: +51.6% (decel: -31.8%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +30.9% -> +38.1% (+7.2%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        0,
+        7
+      ],
+      "op_income": [
+        0,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [
+      [
+        "2021-09 (Q3)",
+        "2022-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "gap: 1Q missing between 2021-09 (Q3) and 2022-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:51:50.575721"
+}

@@ -1,0 +1,220 @@
+{
+  "ticker": "BZAIW",
+  "name": "Blaize Holdings, Inc.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 549000,
+      "gross_profit": 243000,
+      "operating_income": -475812,
+      "net_income": -10633,
+      "opex": 718812,
+      "cogs": 306000,
+      "rd": 4094000,
+      "sga": 3988000,
+      "fcf": -7540000,
+      "ocf": -7363000,
+      "capex": -177000,
+      "gross_margin": 0.4426229508196721,
+      "op_margin": -0.866688524590164,
+      "fcf_margin": -13.734061930783243
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 223000,
+      "gross_profit": -34000,
+      "operating_income": -748339,
+      "net_income": -600213,
+      "opex": 714339,
+      "cogs": 257000,
+      "rd": 5872000,
+      "sga": 5004000,
+      "fcf": -14167000,
+      "ocf": -14263000,
+      "capex": 96000,
+      "gross_margin": -0.15246636771300448,
+      "op_margin": -3.355780269058296,
+      "fcf_margin": -63.52914798206278,
+      "fcf_margin_change": -49.79508605127954
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 781000,
+      "gross_profit": 305000,
+      "operating_income": -1302114,
+      "net_income": -875953,
+      "opex": 1607114,
+      "cogs": 476000,
+      "rd": 5799000,
+      "sga": 5546000,
+      "fcf": -15246000,
+      "ocf": -14162000,
+      "capex": -1084000,
+      "gross_margin": 0.3905249679897567,
+      "op_margin": -1.6672394366197183,
+      "fcf_margin": -19.52112676056338,
+      "op_leverage_ratio": 2.0021272514918906,
+      "fcf_margin_change": 44.008021221499405
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 1007000,
+      "gross_profit": 680000,
+      "operating_income": -38021000,
+      "net_income": -147761000,
+      "opex": 38701000,
+      "cogs": 327000,
+      "rd": 13118000,
+      "sga": 13357000,
+      "fcf": -16605000,
+      "ocf": -15944000,
+      "capex": -661000,
+      "gross_margin": 0.6752730883813307,
+      "op_margin": -37.75670307845085,
+      "fcf_margin": -16.489572989076464,
+      "rev_growth_yoy": 0.8342440801457195,
+      "op_leverage_ratio": 0.012537234719536838,
+      "fcf_margin_change": 3.031553771486916
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 1982000,
+      "gross_profit": 1178000,
+      "operating_income": -21883000,
+      "net_income": -29589000,
+      "opex": 23061000,
+      "cogs": 804000,
+      "rd": 9613000,
+      "sga": 12992000,
+      "fcf": -16449000,
+      "ocf": -16429000,
+      "capex": -20000,
+      "gross_margin": 0.5943491422805247,
+      "op_margin": -11.040867810292633,
+      "fcf_margin": -8.299192734611504,
+      "incr_op_margin_yoy": -12.015156907333713,
+      "rev_growth_yoy": 7.887892376681615,
+      "rev_growth_yoy_accel": 7.053648296535895,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 8.19038025446496
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 11867000,
+      "gross_profit": 1776000,
+      "operating_income": -22585000,
+      "net_income": -26258000,
+      "opex": 24361000,
+      "cogs": 10091000,
+      "rd": 9676000,
+      "sga": 14321000,
+      "fcf": -24943000,
+      "ocf": -24917000,
+      "capex": -26000,
+      "gross_margin": 0.14965871745175696,
+      "op_margin": -1.9031768770540154,
+      "fcf_margin": -2.101879160697733,
+      "incr_op_margin_yoy": -1.91979848457514,
+      "rev_growth_yoy": 14.194622279129321,
+      "rev_growth_yoy_accel": 6.306729902447707,
+      "op_leverage_ratio": 88.47239967398897,
+      "fcf_margin_change": 6.197313573913771
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -829.9% -> -210.2% (+619.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +498.7% vs OpEx growth +5.6% (leverage: 88.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +1419.5% vs prior quarter YoY: +788.8% (accel: +630.7%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -1649.0% -> -829.9% (+819.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +788.8% vs prior quarter YoY: +83.4% (accel: +705.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -1952.1% -> -1649.0% (+303.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -6352.9% -> -1952.1% (+4400.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +250.2% vs OpEx growth +125.0% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +44.3% -> -15.2% -> +39.1% (reversal +54.3%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        6,
+        6
+      ],
+      "op_income": [
+        6,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T01:12:32.698359"
+}

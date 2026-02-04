@@ -1,0 +1,189 @@
+{
+  "ticker": "BAM",
+  "name": "BROOKFIELD ASSET MANAGEMENT LTD.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 884000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 373000000,
+      "opex": 448000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 516000000,
+      "ocf": 516000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.583710407239819
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 916000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 124000000,
+      "opex": 54000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 393000000,
+      "ocf": 393000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.42903930131004364,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -0.1546711059297754
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 1117000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 537000000,
+      "opex": 476000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 567000000,
+      "ocf": 567000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5076096687555953,
+      "op_leverage_ratio": 0.028079016535938243,
+      "fcf_margin_change": 0.07857036744555168
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 1081000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 507000000,
+      "opex": 502000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 265000000,
+      "ocf": 265000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.24514338575393155,
+      "rev_growth_yoy": 0.2228506787330317,
+      "fcf_margin_change": -0.26246628300166375
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 1090000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 584000000,
+      "opex": 557000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 529000000,
+      "ocf": 529000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4853211009174312,
+      "rev_growth_yoy": 0.18995633187772926,
+      "rev_growth_yoy_accel": -0.03289434685530243,
+      "fcf_margin_change": 0.24017771516349964
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 1252000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 692000000,
+      "opex": 495000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 745000000,
+      "ocf": 745000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5950479233226837,
+      "rev_growth_yoy": 0.12085944494180842,
+      "rev_growth_yoy_accel": -0.06909688693592084,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.10972682240525256
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +48.5% -> +59.5% (+11.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +12.1% vs prior quarter YoY: +19.0% (decel: -6.9%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +24.5% -> +48.5% (+24.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +42.9% -> +50.8% (+7.9%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        0,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T19:52:43.304144"
+}

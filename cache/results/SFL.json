@@ -1,0 +1,148 @@
+{
+  "ticker": "SFL",
+  "name": "SFL Corporation Ltd.",
+  "quarters": [
+    {
+      "date": "2011-12-31T00:00:00",
+      "quarter_label": "2011-12 (Q4)",
+      "revenue": 76061000,
+      "gross_profit": null,
+      "operating_income": 42017000,
+      "net_income": 30156000,
+      "opex": 36381000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 32280000,
+      "ocf": 32280000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5524118799384704,
+      "fcf_margin": 0.42439620830649083
+    },
+    {
+      "date": "2012-03-31T00:00:00",
+      "quarter_label": "2012-03 (Q1)",
+      "revenue": 84120000,
+      "gross_profit": null,
+      "operating_income": 48220000,
+      "net_income": 38952000,
+      "opex": 38122000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 30288000,
+      "ocf": 30288000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5732287208749406,
+      "fcf_margin": 0.3600570613409415,
+      "op_leverage_ratio": 2.214088550000766,
+      "fcf_margin_change": -0.06433914696554932
+    },
+    {
+      "date": "2012-12-31T00:00:00",
+      "quarter_label": "2012-12 (Q4)",
+      "revenue": 77654000,
+      "gross_profit": null,
+      "operating_income": 57881000,
+      "net_income": 51099000,
+      "opex": 41310000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 18319000,
+      "ocf": 18319000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.7453704896077472,
+      "fcf_margin": 0.23590542663610375,
+      "incr_op_margin_yoy": 9.958568738229754,
+      "rev_growth_yoy": 0.02094371622776456,
+      "fcf_margin_change": -0.12415163470483775
+    },
+    {
+      "date": "2013-03-31T00:00:00",
+      "quarter_label": "2013-03 (Q1)",
+      "revenue": 65087000,
+      "gross_profit": null,
+      "operating_income": 43781000,
+      "net_income": 32378000,
+      "opex": 39331000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 68000000,
+      "ocf": 68000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6726535252815462,
+      "fcf_margin": 1.044755481125263,
+      "incr_op_margin_yoy": 0.2332265013397783,
+      "rev_growth_yoy": -0.22626010461245838,
+      "rev_growth_yoy_accel": -0.24720382084022294,
+      "fcf_margin_change": 0.8088500544891593
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2013-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +23.6% -> +104.5% (+80.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2013-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -22.6% vs prior quarter YoY: +2.1% (decel: -24.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2012-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +995.9% vs year-ago OPM: +55.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2012-03 (Q1)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +10.6% vs OpEx growth +4.8% (leverage: 2.2x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2012-03 (Q1)",
+        "2012-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2012-03 (Q1) and 2012-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:57:56.285989"
+}

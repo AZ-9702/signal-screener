@@ -1,0 +1,195 @@
+{
+  "ticker": "ILPT",
+  "name": "INDUSTRIAL LOGISTICS PROPERTIES TRUST",
+  "quarters": [
+    {
+      "date": "2018-03-31T00:00:00",
+      "quarter_label": "2018-03 (Q1)",
+      "revenue": 40605000,
+      "gross_profit": null,
+      "operating_income": 23028000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5671222755818249,
+      "fcf_margin": null
+    },
+    {
+      "date": "2018-06-30T00:00:00",
+      "quarter_label": "2018-06 (Q2)",
+      "revenue": 39420000,
+      "gross_profit": null,
+      "operating_income": 22236000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5640791476407915,
+      "fcf_margin": null
+    },
+    {
+      "date": "2018-09-30T00:00:00",
+      "quarter_label": "2018-09 (Q3)",
+      "revenue": 40431000,
+      "gross_profit": null,
+      "operating_income": 22132000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5474017461848582,
+      "fcf_margin": null
+    },
+    {
+      "date": "2018-12-31T00:00:00",
+      "quarter_label": "2018-12 (Q4)",
+      "revenue": 42074000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2019-03-31T00:00:00",
+      "quarter_label": "2019-03 (Q1)",
+      "revenue": 45987000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.13254525304765424
+    },
+    {
+      "date": "2019-06-30T00:00:00",
+      "quarter_label": "2019-06 (Q2)",
+      "revenue": 60090000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.5243531202435312,
+      "rev_growth_yoy_accel": 0.39180786719587696
+    },
+    {
+      "date": "2019-09-30T00:00:00",
+      "quarter_label": "2019-09 (Q3)",
+      "revenue": 60958000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.5077044841829289,
+      "rev_growth_yoy_accel": -0.016648636060602295
+    },
+    {
+      "date": "2019-12-31T00:00:00",
+      "quarter_label": "2019-12 (Q4)",
+      "revenue": 62199000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.4783239054998336,
+      "rev_growth_yoy_accel": -0.029380578683095293
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2019-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +52.4% vs prior quarter YoY: +13.3% (accel: +39.2%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 8,
+    "coverage": {
+      "revenue": [
+        8,
+        8
+      ],
+      "gross_profit": [
+        0,
+        8
+      ],
+      "op_income": [
+        3,
+        8
+      ],
+      "fcf": [
+        0,
+        8
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: 3/8Q",
+      "fcf: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:39:14.747995"
+}

@@ -1,0 +1,198 @@
+{
+  "ticker": "PRMB",
+  "name": "Primo Brands Corp",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 1135800000,
+      "gross_profit": 345500000,
+      "operating_income": 124800000,
+      "net_income": 33500000,
+      "opex": 220700000,
+      "cogs": 790300000,
+      "rd": null,
+      "sga": 218700000,
+      "fcf": -17500000,
+      "ocf": 6000000,
+      "capex": -23500000,
+      "gross_margin": 0.30419087867582323,
+      "op_margin": 0.109878499735869,
+      "fcf_margin": -0.015407642190526502
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 1314400000,
+      "gross_profit": 429800000,
+      "operating_income": 159000000,
+      "net_income": 54500000,
+      "opex": 270800000,
+      "cogs": 884600000,
+      "rd": null,
+      "sga": 256300000,
+      "fcf": 61400000,
+      "ocf": 102500000,
+      "capex": -41100000,
+      "gross_margin": 0.3269933049300061,
+      "op_margin": 0.12096774193548387,
+      "fcf_margin": 0.04671332927571516,
+      "op_leverage_ratio": 0.6926984207320523,
+      "fcf_margin_change": 0.06212097146624166
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": 0,
+      "operating_income": 0,
+      "net_income": 0,
+      "opex": 0,
+      "cogs": 0,
+      "rd": null,
+      "sga": 239700000,
+      "fcf": 229300000,
+      "ocf": 261600000,
+      "capex": -32300000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 1397200000,
+      "gross_profit": 430100000,
+      "operating_income": -81000000,
+      "net_income": -157700000,
+      "opex": 511100000,
+      "cogs": 967100000,
+      "rd": null,
+      "sga": 335900000,
+      "fcf": 40400000,
+      "ocf": 93700000,
+      "capex": -53300000,
+      "gross_margin": 0.3078299456054967,
+      "op_margin": -0.05797308903521328,
+      "fcf_margin": 0.028914972802748354
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 1613700000,
+      "gross_profit": 521000000,
+      "operating_income": 153200000,
+      "net_income": 28700000,
+      "opex": 367800000,
+      "cogs": 1092700000,
+      "rd": null,
+      "sga": 327800000,
+      "fcf": -23200000,
+      "ocf": 38800000,
+      "capex": -62000000,
+      "gross_margin": 0.3228605069095867,
+      "op_margin": 0.0949371010720704,
+      "fcf_margin": -0.014376897812480634,
+      "incr_op_margin_yoy": 0.05942665829671479,
+      "rev_growth_yoy": 0.4207606973058637,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -0.04329187061522899
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 1730100000,
+      "gross_profit": 540900000,
+      "operating_income": 112800000,
+      "net_income": 27600000,
+      "opex": 428100000,
+      "cogs": 1189200000,
+      "rd": null,
+      "sga": 378600000,
+      "fcf": 101100000,
+      "ocf": 155000000,
+      "capex": -53900000,
+      "gross_margin": 0.3126408878099532,
+      "op_margin": 0.06519854343679556,
+      "fcf_margin": 0.05843592855904283,
+      "incr_op_margin_yoy": -0.11113783978830888,
+      "rev_growth_yoy": 0.31626597687157637,
+      "rev_growth_yoy_accel": -0.10449472043428731,
+      "op_leverage_ratio": 0.43997154957689705,
+      "fcf_margin_change": 0.07281282637152346
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 1766100000,
+      "gross_profit": 528200000,
+      "operating_income": 146400000,
+      "net_income": 16800000,
+      "opex": 381800000,
+      "cogs": 1237900000,
+      "rd": null,
+      "sga": 343000000,
+      "fcf": 167700000,
+      "ocf": 283400000,
+      "capex": -115700000,
+      "gross_margin": 0.2990770624539947,
+      "op_margin": 0.08289451333446578,
+      "fcf_margin": 0.09495498556140648,
+      "incr_op_margin_yoy": 0.08289451333446578,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.03651905700236365
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.4% -> +5.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +31.6% vs prior quarter YoY: +42.1% (decel: -10.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -5.8% -> +9.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.5% -> +4.7%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        7,
+        7
+      ],
+      "op_income": [
+        7,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": []
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:50:46.900407"
+}

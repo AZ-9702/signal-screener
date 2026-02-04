@@ -1,0 +1,129 @@
+{
+  "ticker": "CHYM",
+  "name": "Chime Financial, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 384214000,
+      "gross_profit": 333710000,
+      "operating_income": -9441000,
+      "net_income": 385000,
+      "opex": 343151000,
+      "cogs": 50504000,
+      "rd": 75371000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.8685524213068758,
+      "op_margin": -0.024572243593414086,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 421871000,
+      "gross_profit": 368355000,
+      "operating_income": -30644000,
+      "net_income": -22026000,
+      "opex": 398999000,
+      "cogs": 53516000,
+      "rd": 80400000,
+      "sga": null,
+      "fcf": -28028000,
+      "ocf": -24928000,
+      "capex": -3100000,
+      "gross_margin": 0.8731460564959431,
+      "op_margin": -0.0726383183484999,
+      "fcf_margin": -0.06643737066544038,
+      "op_leverage_ratio": 0.6022130695127886
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 528149000,
+      "gross_profit": 461029000,
+      "operating_income": -930638000,
+      "net_income": -923376000,
+      "opex": 1391667000,
+      "cogs": 67120000,
+      "rd": 621754000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.8729146509791744,
+      "op_margin": -1.7620747175512972,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -6.4000903185465665,
+      "rev_growth_yoy": 0.37462195547273136,
+      "op_leverage_ratio": 0.10125849910515672
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 543519000,
+      "gross_profit": 474118000,
+      "operating_income": -64710000,
+      "net_income": -54722000,
+      "opex": 538828000,
+      "cogs": 69401000,
+      "rd": 123942000,
+      "sga": null,
+      "fcf": 15427000,
+      "ocf": 17484000,
+      "capex": -2057000,
+      "gross_margin": 0.8723117315126058,
+      "op_margin": -0.11905747545164015,
+      "fcf_margin": 0.028383552368914426,
+      "incr_op_margin_yoy": -0.28003748520320926,
+      "rev_growth_yoy": 0.2883535488336482,
+      "rev_growth_yoy_accel": -0.08626840663908314,
+      "op_leverage_ratio": Infinity
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +28.8% vs prior quarter YoY: +37.5% (decel: -8.6%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:38:15.698826"
+}

@@ -1,0 +1,140 @@
+{
+  "ticker": "NIQ",
+  "name": "NIQ Global Intelligence plc",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 985800000,
+      "gross_profit": 551800000,
+      "operating_income": -27300000,
+      "net_income": -189200000,
+      "opex": 1013100000,
+      "cogs": 434000000,
+      "rd": null,
+      "sga": 404600000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.559748427672956,
+      "op_margin": -0.027693244065733414,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 982100000,
+      "gross_profit": 542700000,
+      "operating_income": -15900000,
+      "net_income": -214700000,
+      "opex": 998000000,
+      "cogs": 439400000,
+      "rd": null,
+      "sga": 396100000,
+      "fcf": 115800000,
+      "ocf": 128200000,
+      "capex": -12400000,
+      "gross_margin": 0.552591385805926,
+      "op_margin": -0.016189797372976274,
+      "fcf_margin": 0.11791059973526118
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 1040800000,
+      "gross_profit": 591600000,
+      "operating_income": 39500000,
+      "net_income": -14100000,
+      "opex": 1001300000,
+      "cogs": 449200000,
+      "rd": null,
+      "sga": 403000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.5684089162182936,
+      "op_margin": 0.037951575710991545,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 1.2145454545454546,
+      "rev_growth_yoy": 0.055792249949279775,
+      "op_leverage_ratio": 18.075860941149607
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 1052600000,
+      "gross_profit": 585700000,
+      "operating_income": -34700000,
+      "net_income": -198600000,
+      "opex": 1087300000,
+      "cogs": 466900000,
+      "rd": null,
+      "sga": 454900000,
+      "fcf": 264800000,
+      "ocf": 272200000,
+      "capex": -7400000,
+      "gross_margin": 0.5564316929507885,
+      "op_margin": -0.03296598897966939,
+      "fcf_margin": 0.25156754702641076,
+      "incr_op_margin_yoy": -0.26666666666666666,
+      "rev_growth_yoy": 0.07178495061602688,
+      "rev_growth_yoy_accel": 0.015992700666747107,
+      "op_leverage_ratio": 0.13200199310011976
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +6.0% vs OpEx growth +0.3% (leverage: 18.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -2.8% (year-ago) -> +3.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1.6% -> +3.8%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:02:15.050719"
+}

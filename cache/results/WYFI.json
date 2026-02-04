@@ -1,0 +1,129 @@
+{
+  "ticker": "WYFI",
+  "name": "WHITEFIBER, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 12589701,
+      "gross_profit": null,
+      "operating_income": 2410620,
+      "net_income": 1945065,
+      "opex": 10179081,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.19147555609144332,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 12281447,
+      "gross_profit": 6691636,
+      "operating_income": -847373,
+      "net_income": -364563,
+      "opex": 13128820,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 16830668,
+      "ocf": 19624021,
+      "capex": -2793353,
+      "gross_margin": 0.5448572957241927,
+      "op_margin": -0.06899618587288615,
+      "fcf_margin": 1.3704140888284582
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 18662249,
+      "gross_profit": null,
+      "operating_income": -9156464,
+      "net_income": -8833392,
+      "opex": 27818713,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.4906409725858872,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -1.904815573298062,
+      "rev_growth_yoy": 0.4823425115497183,
+      "op_leverage_ratio": 0.4643364659504384
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 20179766,
+      "gross_profit": 12735683,
+      "operating_income": -14504064,
+      "net_income": -15753716,
+      "opex": 34683830,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -32458193,
+      "ocf": -16926704,
+      "capex": -15531489,
+      "gross_margin": 0.6311115302328084,
+      "op_margin": -0.7187429229853309,
+      "fcf_margin": -1.6084523973171938,
+      "incr_op_margin_yoy": -1.729062981629382,
+      "rev_growth_yoy": 0.6431098061979179,
+      "rev_growth_yoy_accel": 0.1607672946481996,
+      "op_leverage_ratio": 0.32950247123182574
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +64.3% vs prior quarter YoY: +48.2% (accel: +16.1%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        2,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: 2/4Q",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:07:42.403117"
+}

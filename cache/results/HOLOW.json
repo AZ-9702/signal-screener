@@ -1,0 +1,137 @@
+{
+  "ticker": "HOLOW",
+  "name": "MicroCloud Hologram Inc.",
+  "quarters": [
+    {
+      "date": "2022-03-31T00:00:00",
+      "quarter_label": "2022-03 (Q1)",
+      "revenue": 24215211,
+      "gross_profit": 10786199,
+      "operating_income": 3275527,
+      "net_income": -309846,
+      "opex": 258433,
+      "cogs": 13429012,
+      "rd": 6553058,
+      "sga": 684577,
+      "fcf": 271269,
+      "ocf": 271975,
+      "capex": -706,
+      "gross_margin": 0.4454307253403656,
+      "op_margin": 0.13526733258694298,
+      "fcf_margin": 0.011202421486230288
+    },
+    {
+      "date": "2022-09-30T00:00:00",
+      "quarter_label": "2022-09 (Q3)",
+      "revenue": 24243082,
+      "gross_profit": 9420192,
+      "operating_income": 1026707,
+      "net_income": 1660208,
+      "opex": -8393485,
+      "cogs": 14822890,
+      "rd": 6891664,
+      "sga": 879875,
+      "fcf": 5143590,
+      "ocf": 5143590,
+      "capex": null,
+      "gross_margin": 0.38857237705997943,
+      "op_margin": 0.04235051467466059,
+      "fcf_margin": 0.21216733086989517,
+      "fcf_margin_change": 0.20096490938366487
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 12823540,
+      "gross_profit": 6077967,
+      "operating_income": -27041103,
+      "net_income": -27094502,
+      "opex": 75667446,
+      "cogs": 6745573,
+      "rd": 31681743,
+      "sga": 952236,
+      "fcf": -24910130,
+      "ocf": -24894532,
+      "capex": -15598,
+      "gross_margin": 0.4739695123187513,
+      "op_margin": -2.1087081258373273,
+      "fcf_margin": -1.942531469469429,
+      "fcf_margin_change": -2.154698800339324
+    },
+    {
+      "date": "2023-03-31T00:00:00",
+      "quarter_label": "2023-03 (Q1)",
+      "revenue": 6579731,
+      "gross_profit": 3885022,
+      "operating_income": -3805127,
+      "net_income": -3614639,
+      "opex": 7690149,
+      "cogs": 2694709,
+      "rd": 4106916,
+      "sga": 1108925,
+      "fcf": -1495747,
+      "ocf": -1464577,
+      "capex": -31170,
+      "gross_margin": 0.5904530139606011,
+      "op_margin": -0.5783104202892185,
+      "fcf_margin": -0.22732646668989964,
+      "incr_op_margin_yoy": 0.40150049785999586,
+      "rev_growth_yoy": -0.7282810791943957,
+      "fcf_margin_change": 1.7152050027795291
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2023-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -194.3% -> -22.7% (+171.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2022-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +44.5% -> +38.9% -> +47.4% (reversal +8.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +1.1% -> +21.2% (+20.1%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2022-03 (Q1)",
+        "2022-09 (Q3)",
+        183
+      ]
+    ],
+    "warnings": [
+      "gap: 1Q missing between 2022-03 (Q1) and 2022-09 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T01:11:45.065878"
+}

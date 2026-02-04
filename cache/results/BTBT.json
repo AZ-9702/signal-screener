@@ -1,0 +1,233 @@
+{
+  "ticker": "BTBT",
+  "name": "BIT DIGITAL, INC.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 30386838,
+      "gross_profit": null,
+      "operating_income": 47159034,
+      "net_income": 50081857,
+      "opex": -16772196,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -21341939,
+      "ocf": -20867530,
+      "capex": -474409,
+      "gross_margin": null,
+      "op_margin": 1.5519559488223158,
+      "fcf_margin": -0.7023415532738221
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 29043406,
+      "gross_profit": null,
+      "operating_income": -11480293,
+      "net_income": -11953100,
+      "opex": 40523699,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -14588748,
+      "ocf": -9502895,
+      "capex": -5085853,
+      "gross_margin": null,
+      "op_margin": -0.3952805328686312,
+      "fcf_margin": -0.5023084413722,
+      "fcf_margin_change": 0.2000331119016221
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 22838671,
+      "gross_profit": null,
+      "operating_income": -36611683,
+      "net_income": -38795486,
+      "opex": 59450354,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 8450906,
+      "ocf": 10059323,
+      "capex": -1608417,
+      "gross_margin": null,
+      "op_margin": -1.6030566314476005,
+      "fcf_margin": 0.3700261718381074,
+      "fcf_margin_change": 0.8723346132103074
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 25781805,
+      "gross_profit": null,
+      "operating_income": 28496206,
+      "net_income": 28972539,
+      "opex": -2714401,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -79510021,
+      "ocf": 7324106,
+      "capex": -86834127,
+      "gross_margin": null,
+      "op_margin": 1.1052835905011305,
+      "fcf_margin": -3.0839586677503767,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -3.4539848395884842
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 25105120,
+      "gross_profit": null,
+      "operating_income": -52368312,
+      "net_income": -57711645,
+      "opex": 77473432,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -47559316,
+      "ocf": 17401915,
+      "capex": -64961231,
+      "gross_margin": null,
+      "op_margin": -2.0859614293817357,
+      "fcf_margin": -1.8944070372896047,
+      "incr_op_margin_yoy": 18.843744781527526,
+      "rev_growth_yoy": -0.17381597914202196,
+      "fcf_margin_change": 1.189551630460772
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 25659419,
+      "gross_profit": null,
+      "operating_income": 11739005,
+      "net_income": 14874202,
+      "opex": 13920414,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -64490404,
+      "ocf": 17693160,
+      "capex": -82183564,
+      "gross_margin": null,
+      "op_margin": 0.4574930165020494,
+      "fcf_margin": -2.5133228464759862,
+      "incr_op_margin_yoy": -6.861521040122199,
+      "rev_growth_yoy": -0.1165148123467337,
+      "rev_growth_yoy_accel": 0.05730116679528825,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -0.6189158091863816
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 30464002,
+      "gross_profit": null,
+      "operating_income": 141802408,
+      "net_income": 150883713,
+      "opex": -111338406,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -256833227,
+      "ocf": -239959926,
+      "capex": -16873301,
+      "gross_margin": null,
+      "op_margin": 4.654753108275138,
+      "fcf_margin": -8.430711992469012,
+      "incr_op_margin_yoy": 23.397553627508103,
+      "rev_growth_yoy": 0.333878052711561,
+      "rev_growth_yoy_accel": 0.45039286505829473,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -5.917389145993026
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +33.4% vs prior quarter YoY: -11.7% (accel: +45.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -160.3% (year-ago) -> +465.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -11.7% vs prior quarter YoY: -17.4% (accel: +5.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -39.5% (year-ago) -> +45.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -208.6% -> +45.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -308.4% -> -189.4% (+119.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -160.3% -> +110.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -50.2% -> +37.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -70.2% -> -50.2% (+20.0%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        0,
+        7
+      ],
+      "op_income": [
+        7,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:12:57.544396"
+}

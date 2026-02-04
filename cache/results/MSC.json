@@ -1,0 +1,182 @@
+{
+  "ticker": "MSC",
+  "name": "STUDIO CITY INTERNATIONAL HOLDINGS LIMITED",
+  "quarters": [
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 23705000,
+      "gross_profit": null,
+      "operating_income": -51340000,
+      "net_income": -61491000,
+      "opex": 75045000,
+      "cogs": null,
+      "rd": null,
+      "sga": 19219000,
+      "fcf": -18600000,
+      "ocf": -18600000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -2.165787808479224,
+      "fcf_margin": -0.7846445897489981
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 28381000,
+      "gross_profit": null,
+      "operating_income": -44973000,
+      "net_income": -53946000,
+      "opex": 73354000,
+      "cogs": null,
+      "rd": null,
+      "sga": 18628000,
+      "fcf": -15979000,
+      "ocf": -15979000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -1.584616468764314,
+      "fcf_margin": -0.5630175117155843,
+      "incr_op_margin_yoy": 1.361633875106929,
+      "rev_growth_yoy": 0.19725796245517824,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.22162707803341375
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 4237000,
+      "gross_profit": null,
+      "operating_income": -69991000,
+      "net_income": -85406000,
+      "opex": 74228000,
+      "cogs": null,
+      "rd": null,
+      "sga": 20328000,
+      "fcf": -20116000,
+      "ocf": -20116000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -16.518999291951854,
+      "fcf_margin": -4.747698843521359,
+      "incr_op_margin_yoy": 1.0361994698475812,
+      "rev_growth_yoy": -0.8507099820302315,
+      "rev_growth_yoy_accel": -1.0479679444854098,
+      "fcf_margin_change": -4.184681331805775
+    },
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 141251000,
+      "gross_profit": null,
+      "operating_income": 13337000,
+      "net_income": -18624000,
+      "opex": 127914000,
+      "cogs": null,
+      "rd": null,
+      "sga": 35299000,
+      "fcf": 65558000,
+      "ocf": 65558000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.09442057047383735,
+      "fcf_margin": 0.4641241477936439,
+      "incr_op_margin_yoy": 0.6081714277373115,
+      "rev_growth_yoy": 32.337502950200616,
+      "rev_growth_yoy_accel": 33.18821293223085,
+      "op_leverage_ratio": 44.71087749110553,
+      "fcf_margin_change": 5.211822991315003
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -474.8% -> +46.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3233.8% vs OpEx growth +72.3% (leverage: 44.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +3233.8% vs prior quarter YoY: -85.1% (accel: +3318.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1651.9% (year-ago) -> +9.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1651.9% -> +9.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -85.1% vs prior quarter YoY: +19.7% (decel: -104.8%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2021-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -78.5% -> -56.3% (+22.2%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2020-12 (Q4)",
+        "2021-12 (Q4)",
+        365
+      ],
+      [
+        "2021-12 (Q4)",
+        "2022-12 (Q4)",
+        365
+      ],
+      [
+        "2022-12 (Q4)",
+        "2023-12 (Q4)",
+        365
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 3Q missing between 2020-12 (Q4) and 2021-12 (Q4)",
+      "gap: 3Q missing between 2021-12 (Q4) and 2022-12 (Q4)",
+      "gap: 3Q missing between 2022-12 (Q4) and 2023-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:17:04.536546"
+}

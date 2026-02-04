@@ -1,0 +1,184 @@
+{
+  "ticker": "NMAX",
+  "name": "NEWSMAX INC.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 40599645,
+      "gross_profit": 20295628,
+      "operating_income": -50843344,
+      "net_income": -50683687,
+      "opex": 71138972,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -3392945,
+      "ocf": -3307824,
+      "capex": -85121,
+      "gross_margin": 0.49989668628875944,
+      "op_margin": -1.2523100633022777,
+      "fcf_margin": -0.0835708046215675
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 39226732,
+      "gross_profit": 16721695,
+      "operating_income": -4751130,
+      "net_income": -4829560,
+      "opex": 21472825,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -4242124,
+      "ocf": -4119756,
+      "capex": -122368,
+      "gross_margin": 0.4262831530294188,
+      "op_margin": -0.12111969969866468,
+      "fcf_margin": -0.10814370159614622,
+      "fcf_margin_change": -0.02457289697457872
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 43513952,
+      "gross_profit": 19762663,
+      "operating_income": -8794775,
+      "net_income": -9770287,
+      "opex": 28557438,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -14042556,
+      "ocf": -13752592,
+      "capex": -289964,
+      "gross_margin": 0.45416842395744705,
+      "op_margin": -0.20211391049932675,
+      "fcf_margin": -0.3227138734721222,
+      "op_leverage_ratio": 0.331258243502206,
+      "fcf_margin_change": -0.214570171875976
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 45301707,
+      "gross_profit": 21667079,
+      "operating_income": -11572780,
+      "net_income": -17232525,
+      "opex": 33239859,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -15799036,
+      "ocf": -15725959,
+      "capex": -73077,
+      "gross_margin": 0.47828394192739804,
+      "op_margin": -0.25546013089528835,
+      "fcf_margin": -0.3487514499177702,
+      "incr_op_margin_yoy": 8.351775029763537,
+      "rev_growth_yoy": 0.11581534764651268,
+      "op_leverage_ratio": 0.250569529061306,
+      "fcf_margin_change": -0.02603757644564797
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 46439744,
+      "gross_profit": 17641761,
+      "operating_income": -76405449,
+      "net_income": -75175622,
+      "opex": 94047210,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -23838287,
+      "ocf": -23221904,
+      "capex": -616383,
+      "gross_margin": 0.3798849752487869,
+      "op_margin": -1.6452599092708178,
+      "fcf_margin": -0.5133165032089755,
+      "incr_op_margin_yoy": -9.934035739854584,
+      "rev_growth_yoy": 0.1838800132521873,
+      "rev_growth_yoy_accel": 0.06806466560567463,
+      "op_leverage_ratio": 0.01373235126461785,
+      "fcf_margin_change": -0.1645650532912053
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 45272696,
+      "gross_profit": 15960736,
+      "operating_income": -7198559,
+      "net_income": -4115406,
+      "opex": 23159295,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -69227691,
+      "ocf": -68134154,
+      "capex": -1093537,
+      "gross_margin": 0.35254662103622014,
+      "op_margin": -0.15900442509542617,
+      "fcf_margin": -1.5291267610835457,
+      "incr_op_margin_yoy": 0.9075885973171763,
+      "rev_growth_yoy": 0.040417933080406025,
+      "rev_growth_yoy_accel": -0.14346208017178128,
+      "fcf_margin_change": -1.0158102578745702
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.0% vs prior quarter YoY: +18.4% (decel: -14.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +18.4% vs prior quarter YoY: +11.6% (accel: +6.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +50.0% -> +42.6% -> +45.4% (reversal +2.8%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        6,
+        6
+      ],
+      "op_income": [
+        6,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:04:06.940660"
+}

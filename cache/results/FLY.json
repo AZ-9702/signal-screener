@@ -1,0 +1,134 @@
+{
+  "ticker": "FLY",
+  "name": "Firefly Aerospace Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 21071000,
+      "gross_profit": 2951000,
+      "operating_income": -48900000,
+      "net_income": -53453000,
+      "opex": 51851000,
+      "cogs": 18120000,
+      "rd": 39544000,
+      "sga": 12288000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.14005030610792085,
+      "op_margin": -2.3207251672915383,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 22370000,
+      "gross_profit": 7771000,
+      "operating_income": -34194000,
+      "net_income": -40790000,
+      "opex": 41965000,
+      "cogs": 14599000,
+      "rd": 29858000,
+      "sga": 10305000,
+      "fcf": -44785000,
+      "ocf": -36578000,
+      "capex": -8207000,
+      "gross_margin": 0.34738489047831916,
+      "op_margin": -1.5285650424675905,
+      "fcf_margin": -2.0020116227089853,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 15549000,
+      "gross_profit": 3995000,
+      "operating_income": -54350000,
+      "net_income": -63778000,
+      "opex": 58345000,
+      "cogs": 11554000,
+      "rd": 45774000,
+      "sga": 12571000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.2569297060904238,
+      "op_margin": -3.4954016335455655,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.9869612459253894,
+      "rev_growth_yoy": -0.26206634711214466
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 30778000,
+      "gross_profit": 8490000,
+      "operating_income": -62193000,
+      "net_income": -133412000,
+      "opex": 70683000,
+      "cogs": 22288000,
+      "rd": 48763000,
+      "sga": 21920000,
+      "fcf": -61966000,
+      "ocf": -53046000,
+      "capex": -8920000,
+      "gross_margin": 0.27584638378062254,
+      "op_margin": -2.0206966014685817,
+      "fcf_margin": -2.0133212034570147,
+      "incr_op_margin_yoy": -3.330042816365366,
+      "rev_growth_yoy": 0.375860527492177,
+      "rev_growth_yoy_accel": 0.6379268746043216,
+      "op_leverage_ratio": 4.631565405358768
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +97.9% vs OpEx growth +21.1% (leverage: 4.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +37.6% vs prior quarter YoY: -26.2% (accel: +63.8%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:07:20.339433"
+}

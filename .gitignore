@@ -1,4 +1,10 @@
-cache/
+# Cache - keep results, exclude raw SEC data (22GB)
+cache/facts/
 reports/
 __pycache__/
 *.pyc
+
+# Test and debug files
+test_*.py
+debug_*.py
+nul

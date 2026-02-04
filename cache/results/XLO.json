@@ -1,0 +1,187 @@
+{
+  "ticker": "XLO",
+  "name": "Xilio Therapeutics, Inc.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 2357000,
+      "gross_profit": null,
+      "operating_income": -14704000,
+      "net_income": -13925000,
+      "opex": 17061000,
+      "cogs": null,
+      "rd": 11216000,
+      "sga": null,
+      "fcf": 19953000,
+      "ocf": 19953000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -6.238438693254136,
+      "fcf_margin": 8.465422146796776
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 2263000,
+      "gross_profit": null,
+      "operating_income": -14762000,
+      "net_income": -14020000,
+      "opex": 17025000,
+      "cogs": null,
+      "rd": 10759000,
+      "sga": null,
+      "fcf": -13681000,
+      "ocf": -13672000,
+      "capex": -9000,
+      "gross_margin": null,
+      "op_margin": -6.523199292973929,
+      "fcf_margin": -6.045514803358373,
+      "fcf_margin_change": -14.510936950155148
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 1724000,
+      "gross_profit": null,
+      "operating_income": -13629000,
+      "net_income": -13093000,
+      "opex": 15353000,
+      "cogs": null,
+      "rd": 8836000,
+      "sga": null,
+      "fcf": -14163000,
+      "ocf": -14157000,
+      "capex": -6000,
+      "gross_margin": null,
+      "op_margin": -7.905452436194896,
+      "fcf_margin": -8.215197215777263,
+      "fcf_margin_change": -2.169682412418889
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 2930000,
+      "gross_profit": null,
+      "operating_income": -13851000,
+      "net_income": -13265000,
+      "opex": 16781000,
+      "cogs": null,
+      "rd": 8266000,
+      "sga": null,
+      "fcf": 28956000,
+      "ocf": 28978000,
+      "capex": -22000,
+      "gross_margin": null,
+      "op_margin": -4.727303754266211,
+      "fcf_margin": 9.88259385665529,
+      "op_leverage_ratio": 7.520991343172999,
+      "fcf_margin_change": 18.097791072432553
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 8084000,
+      "gross_profit": null,
+      "operating_income": -14366000,
+      "net_income": -15844000,
+      "opex": 22450000,
+      "cogs": null,
+      "rd": 15330000,
+      "sga": null,
+      "fcf": -14878000,
+      "ocf": -14477000,
+      "capex": -401000,
+      "gross_margin": null,
+      "op_margin": -1.7770905492330529,
+      "fcf_margin": -1.8404255319148937,
+      "incr_op_margin_yoy": 0.05901868342936965,
+      "rev_growth_yoy": 2.429783623249894,
+      "op_leverage_ratio": 5.20700715284672,
+      "fcf_margin_change": -11.723019388570185
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 19066000,
+      "gross_profit": null,
+      "operating_income": -1929000,
+      "net_income": -16287000,
+      "opex": 20995000,
+      "cogs": null,
+      "rd": 14321000,
+      "sga": null,
+      "fcf": -17495000,
+      "ocf": -17495000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.10117486625406483,
+      "fcf_margin": -0.9176020140564355,
+      "incr_op_margin_yoy": 0.7637326667856931,
+      "rev_growth_yoy": 7.425099425541317,
+      "rev_growth_yoy_accel": 4.995315802291423,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.9228235178584582
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -184.0% -> -91.8% (+92.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +742.5% vs prior quarter YoY: +243.0% (accel: +499.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +175.9% vs OpEx growth +33.8% (leverage: 5.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -821.5% -> +988.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +70.0% vs OpEx growth +9.3% (leverage: 7.5x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        6,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T23:43:45.370625"
+}

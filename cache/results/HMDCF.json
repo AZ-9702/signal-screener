@@ -1,0 +1,141 @@
+{
+  "ticker": "HMDCF",
+  "name": "HUTCHMED (CHINA) LIMITED",
+  "quarters": [
+    {
+      "date": "2018-03-31T00:00:00",
+      "quarter_label": "2018-03 (Q1)",
+      "revenue": 52337000,
+      "gross_profit": null,
+      "operating_income": -25021000,
+      "net_income": -11730000,
+      "opex": 77358000,
+      "cogs": null,
+      "rd": 28664000,
+      "sga": null,
+      "fcf": -32158000,
+      "ocf": -30840000,
+      "capex": -1318000,
+      "gross_margin": null,
+      "op_margin": -0.478074784569234,
+      "fcf_margin": -0.6144410264249002
+    },
+    {
+      "date": "2018-12-31T00:00:00",
+      "quarter_label": "2018-12 (Q4)",
+      "revenue": 53108000,
+      "gross_profit": null,
+      "operating_income": -24170000,
+      "net_income": -16536000,
+      "opex": 77278000,
+      "cogs": null,
+      "rd": 25429000,
+      "sga": null,
+      "fcf": -16867000,
+      "ocf": -13936000,
+      "capex": -2931000,
+      "gross_margin": null,
+      "op_margin": -0.4551103411915342,
+      "fcf_margin": -0.3175981019808692,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": 0.296842924444031
+    },
+    {
+      "date": "2019-03-31T00:00:00",
+      "quarter_label": "2019-03 (Q1)",
+      "revenue": 52168000,
+      "gross_profit": null,
+      "operating_income": -36050000,
+      "net_income": -19885000,
+      "opex": 88218000,
+      "cogs": null,
+      "rd": 33282000,
+      "sga": null,
+      "fcf": -30284000,
+      "ocf": -28923000,
+      "capex": -1361000,
+      "gross_margin": null,
+      "op_margin": -0.6910366508204263,
+      "fcf_margin": -0.5805091243674283,
+      "rev_growth_yoy": -0.003229073122265319,
+      "fcf_margin_change": -0.2629110223865591
+    },
+    {
+      "date": "2019-12-31T00:00:00",
+      "quarter_label": "2019-12 (Q4)",
+      "revenue": 53344000,
+      "gross_profit": null,
+      "operating_income": -38434000,
+      "net_income": -29562000,
+      "opex": 91778000,
+      "cogs": null,
+      "rd": 37455000,
+      "sga": null,
+      "fcf": -20337000,
+      "ocf": -17386000,
+      "capex": -2951000,
+      "gross_margin": null,
+      "op_margin": -0.720493401319736,
+      "fcf_margin": -0.38124250149970007,
+      "rev_growth_yoy": 0.004443774949160202,
+      "rev_growth_yoy_accel": 0.007672848071425521,
+      "op_leverage_ratio": 0.5586121071249498,
+      "fcf_margin_change": 0.19926662286772823
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2019-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -58.1% -> -38.1% (+19.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2018-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -61.4% -> -31.8% (+29.7%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2018-03 (Q1)",
+        "2018-12 (Q4)",
+        275
+      ],
+      [
+        "2019-03 (Q1)",
+        "2019-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2018-03 (Q1) and 2018-12 (Q4)",
+      "gap: 2Q missing between 2019-03 (Q1) and 2019-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T00:55:55.919481"
+}

@@ -1,0 +1,196 @@
+{
+  "ticker": "FLOC",
+  "name": "Flowco Holdings Inc.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 66712000,
+      "gross_profit": 38804000,
+      "operating_income": 22227000,
+      "net_income": null,
+      "opex": 16577000,
+      "cogs": 27908000,
+      "rd": null,
+      "sga": 4476000,
+      "fcf": 13459000,
+      "ocf": 28233000,
+      "capex": -14774000,
+      "gross_margin": 0.5816644681616501,
+      "op_margin": 0.33317843866171004,
+      "fcf_margin": 0.20174781148818804
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 93208000,
+      "gross_profit": 48896000,
+      "operating_income": 27705000,
+      "net_income": null,
+      "opex": 21191000,
+      "cogs": 44312000,
+      "rd": null,
+      "sga": 6716000,
+      "fcf": 9232000,
+      "ocf": 21938000,
+      "capex": -12706000,
+      "gross_margin": 0.5245901639344263,
+      "op_margin": 0.2972384344691443,
+      "fcf_margin": 0.09904729207793322,
+      "op_leverage_ratio": 1.426936679157003,
+      "fcf_margin_change": -0.10270051941025482
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 189365000,
+      "gross_profit": 88556000,
+      "operating_income": 32891000,
+      "net_income": null,
+      "opex": 55665000,
+      "cogs": 100809000,
+      "rd": null,
+      "sga": 25012000,
+      "fcf": 32430000,
+      "ocf": 67037000,
+      "capex": -34607000,
+      "gross_margin": 0.46764713648245454,
+      "op_margin": 0.17369101998785413,
+      "fcf_margin": 0.17125656800359096,
+      "op_leverage_ratio": 0.6341434196842001,
+      "fcf_margin_change": 0.07220927592565773
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 192350000,
+      "gross_profit": 99933000,
+      "operating_income": 35325000,
+      "net_income": 6172000,
+      "opex": 64608000,
+      "cogs": 92417000,
+      "rd": null,
+      "sga": 30534000,
+      "fcf": 14699000,
+      "ocf": 42549000,
+      "capex": -27850000,
+      "gross_margin": 0.5195373017936054,
+      "op_margin": 0.1836495970886405,
+      "fcf_margin": 0.07641798804263063,
+      "incr_op_margin_yoy": 0.10425189831102055,
+      "rev_growth_yoy": 1.8832893632330017,
+      "op_leverage_ratio": 0.09811685203358851,
+      "fcf_margin_change": -0.09483857996096033
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 193215000,
+      "gross_profit": 103034000,
+      "operating_income": 37118000,
+      "net_income": 5471000,
+      "opex": 65916000,
+      "cogs": 90181000,
+      "rd": null,
+      "sga": 32683000,
+      "fcf": 46408000,
+      "ocf": 82178000,
+      "capex": -35770000,
+      "gross_margin": 0.5332608751908495,
+      "op_margin": 0.19210723805087596,
+      "fcf_margin": 0.2401883911704578,
+      "incr_op_margin_yoy": 0.09412341136120471,
+      "rev_growth_yoy": 1.0729443824564415,
+      "rev_growth_yoy_accel": -0.8103449807765601,
+      "fcf_margin_change": 0.16377040312782715
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 176941000,
+      "gross_profit": 102758000,
+      "operating_income": 34593000,
+      "net_income": 12517000,
+      "opex": 68165000,
+      "cogs": 74183000,
+      "rd": null,
+      "sga": 28980000,
+      "fcf": 42804000,
+      "ocf": 82467000,
+      "capex": -39663000,
+      "gross_margin": 0.5807472547346291,
+      "op_margin": 0.1955058465816289,
+      "fcf_margin": 0.24191114552308396,
+      "incr_op_margin_yoy": -0.1369929169349646,
+      "rev_growth_yoy": -0.06560874501623848,
+      "rev_growth_yoy_accel": -1.13855312747268,
+      "fcf_margin_change": 0.0017227543526261713
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -6.6% vs prior quarter YoY: +107.3% (decel: -113.9%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +7.6% -> +24.0% (+16.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +107.3% vs prior quarter YoY: +188.3% (decel: -81.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +52.5% -> +46.8% -> +52.0% (reversal +5.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.9% -> +17.1% (+7.2%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        6,
+        6
+      ],
+      "op_income": [
+        6,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:39:00.923242"
+}

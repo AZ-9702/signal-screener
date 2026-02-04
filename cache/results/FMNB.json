@@ -1,0 +1,190 @@
+{
+  "ticker": "FMNB",
+  "name": "Farmers National Banc Corp.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 63411000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 11240000,
+      "opex": 49957000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 12160000,
+      "ocf": 13713000,
+      "capex": -1553000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.19176483575404898
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 66452000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 11783000,
+      "opex": 52295000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 14368000,
+      "ocf": 16593000,
+      "capex": -2225000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.21621621621621623,
+      "op_leverage_ratio": 1.0247163402700747,
+      "fcf_margin_change": 0.024451380462167244
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 70263000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 8535000,
+      "opex": 60130000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 20415000,
+      "ocf": 23882000,
+      "capex": -3467000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.2905512147218308,
+      "op_leverage_ratio": 0.38278248621697797,
+      "fcf_margin_change": 0.07433499850561459
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 69323000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 14391000,
+      "opex": 51639000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 7980000,
+      "ocf": 12427000,
+      "capex": -4447000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.11511331015680222,
+      "fcf_margin_change": -0.1754379045650286
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 67786000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 13578000,
+      "opex": 51432000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 12172000,
+      "ocf": 15670000,
+      "capex": -3498000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.17956510193845338,
+      "rev_growth_yoy": 0.0689943385217076,
+      "fcf_margin_change": 0.06445179178165115
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 69824000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 13910000,
+      "opex": 53504000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 12424000,
+      "ocf": 14018000,
+      "capex": -1594000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.17793308890925758,
+      "rev_growth_yoy": 0.05074339372780353,
+      "rev_growth_yoy_accel": -0.018250944793904066,
+      "op_leverage_ratio": 0.746290363940026,
+      "fcf_margin_change": -0.0016320130291958002
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 70796000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 12461000,
+      "opex": 56157000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 9032000,
+      "ocf": 10712000,
+      "capex": -1680000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.12757782925589017,
+      "rev_growth_yoy": 0.0075857848369696715,
+      "rev_growth_yoy_accel": -0.04315760889083386,
+      "op_leverage_ratio": 0.28074403775813006,
+      "fcf_margin_change": -0.0503552596533674
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.5% -> +18.0% (+6.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +21.6% -> +29.1% (+7.4%)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        0,
+        7
+      ],
+      "op_income": [
+        0,
+        7
+      ],
+      "fcf": [
+        7,
+        7
+      ]
+    },
+    "gaps": [],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:24:28.807682"
+}

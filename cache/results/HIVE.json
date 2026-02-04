@@ -1,0 +1,147 @@
+{
+  "ticker": "HIVE",
+  "name": "HIVE Digital Technologies Ltd.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 32241000,
+      "gross_profit": -2401000,
+      "operating_income": null,
+      "net_income": -18288000,
+      "opex": 5084000,
+      "cogs": null,
+      "rd": null,
+      "sga": 3443000,
+      "fcf": -4387000,
+      "ocf": -4387000,
+      "capex": null,
+      "gross_margin": -0.07447039483886976,
+      "op_margin": null,
+      "fcf_margin": -0.13606898049067956
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 22648000,
+      "gross_profit": -14979000,
+      "operating_income": null,
+      "net_income": 80000,
+      "opex": 3829000,
+      "cogs": null,
+      "rd": null,
+      "sga": 3381000,
+      "fcf": -2155000,
+      "ocf": -2155000,
+      "capex": null,
+      "gross_margin": -0.661382903567644,
+      "op_margin": null,
+      "fcf_margin": -0.09515188979159307,
+      "fcf_margin_change": 0.040917090699086486
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 45611000,
+      "gross_profit": -6192000,
+      "operating_income": null,
+      "net_income": 35016000,
+      "opex": 8628000,
+      "cogs": null,
+      "rd": null,
+      "sga": 5750000,
+      "fcf": 10228000,
+      "ocf": 10228000,
+      "capex": null,
+      "gross_margin": -0.13575672535134067,
+      "op_margin": null,
+      "fcf_margin": 0.22424415163008923,
+      "rev_growth_yoy": 0.41468937067708816,
+      "op_leverage_ratio": 0.808971805765198,
+      "fcf_margin_change": 0.3193960414216823
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 87253000,
+      "gross_profit": 4112000,
+      "operating_income": null,
+      "net_income": -15797000,
+      "opex": 12671000,
+      "cogs": null,
+      "rd": null,
+      "sga": 7800000,
+      "fcf": -10612000,
+      "ocf": -10612000,
+      "capex": null,
+      "gross_margin": 0.04712731940449039,
+      "op_margin": null,
+      "fcf_margin": -0.12162332527248347,
+      "rev_growth_yoy": 2.8525697633345106,
+      "rev_growth_yoy_accel": 2.4378803926574224,
+      "op_leverage_ratio": 1.9483563032386824,
+      "fcf_margin_change": -0.3458674769025727
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +91.3% vs OpEx growth +46.9% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +285.3% vs prior quarter YoY: +41.5% (accel: +243.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -9.5% -> +22.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: -7.4% -> -66.1% -> -13.6% (reversal +52.6%)",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        0,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "op_income: no data",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:12:15.360676"
+}

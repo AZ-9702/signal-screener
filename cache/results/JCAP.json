@@ -1,0 +1,135 @@
+{
+  "ticker": "JCAP",
+  "name": "Jefferson Capital, Inc. / DE",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 103804000,
+      "gross_profit": null,
+      "operating_income": 55147000,
+      "net_income": 32168000,
+      "opex": 47674000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.53126083773265,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 110601000,
+      "gross_profit": null,
+      "operating_income": 59427000,
+      "net_income": 36878000,
+      "opex": 50307000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 7590000,
+      "ocf": 7713000,
+      "capex": -123000,
+      "gross_margin": null,
+      "op_margin": 0.5373097892424119,
+      "fcf_margin": 0.06862505763962351,
+      "op_leverage_ratio": 1.1855883249425796
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 152708000,
+      "gross_profit": null,
+      "operating_income": 86641000,
+      "net_income": 47651000,
+      "opex": 65507000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.5673638578201535,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.6439964011123834,
+      "rev_growth_yoy": 0.4711186466802821,
+      "op_leverage_ratio": 1.260027658096743
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 150842000,
+      "gross_profit": null,
+      "operating_income": 70036000,
+      "net_income": 38362000,
+      "opex": 80237000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 62974000,
+      "ocf": 63080000,
+      "capex": -106000,
+      "gross_margin": null,
+      "op_margin": 0.46430039378952814,
+      "fcf_margin": 0.41748319433579506,
+      "incr_op_margin_yoy": 0.2636365895479735,
+      "rev_growth_yoy": 0.36383938662399073,
+      "rev_growth_yoy_accel": -0.10727926005629135
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +36.4% vs prior quarter YoY: +47.1% (decel: -10.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +64.4% vs year-ago OPM: +53.1%",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:51:36.863486"
+}

@@ -1,0 +1,180 @@
+{
+  "ticker": "AII",
+  "name": "American Integrity Insurance Group, Inc.",
+  "quarters": [
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 44308000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 12106000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -20746000,
+      "ocf": -20151000,
+      "capex": -595000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.4682224428997021
+    },
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 46383000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 14724000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 47022000,
+      "ocf": 47366000,
+      "capex": -344000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.0137765991850463,
+      "fcf_margin_change": 1.4819990420847484
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 46543000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 4513000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -31282000,
+      "ocf": -31007000,
+      "capex": -275000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.6721096620329587,
+      "fcf_margin_change": -1.685886261218005
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 71886000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 38096000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 67977000,
+      "ocf": 68085000,
+      "capex": -108000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.9456222352057424,
+      "rev_growth_yoy": 0.6224158165568294,
+      "fcf_margin_change": 1.6177318972387011
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 74499000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 27494000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 26925000,
+      "ocf": 27396000,
+      "capex": -471000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.361414247171103,
+      "rev_growth_yoy": 0.6061703641420348,
+      "rev_growth_yoy_accel": -0.01624545241479458,
+      "fcf_margin_change": -0.5842079880346394
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 62026000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 13163000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -11935000,
+      "ocf": -7478000,
+      "capex": -4457000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.19241930803211557,
+      "rev_growth_yoy": 0.3326601207485551,
+      "rev_growth_yoy_accel": -0.27351024339347974,
+      "fcf_margin_change": -0.5538335552032185
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +33.3% vs prior quarter YoY: +60.6% (decel: -27.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -67.2% -> +94.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-06 (Q2)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -46.8% -> +101.4%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 6,
+    "coverage": {
+      "revenue": [
+        6,
+        6
+      ],
+      "gross_profit": [
+        0,
+        6
+      ],
+      "op_income": [
+        0,
+        6
+      ],
+      "fcf": [
+        6,
+        6
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-03 (Q1)",
+        182
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "op_income: no data",
+      "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:38:38.230252"
+}

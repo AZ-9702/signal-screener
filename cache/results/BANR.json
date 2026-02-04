@@ -1,0 +1,140 @@
+{
+  "ticker": "BANR",
+  "name": "Banner Corporation",
+  "quarters": [
+    {
+      "date": "2021-06-30T00:00:00",
+      "quarter_label": "2021-06 (Q2)",
+      "revenue": 9758000,
+      "gross_profit": null,
+      "operating_income": 22336000,
+      "net_income": 54382000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -5621000,
+      "ocf": -2757000,
+      "capex": -2864000,
+      "gross_margin": null,
+      "op_margin": 2.2889936462389833,
+      "fcf_margin": -0.5760401721664276
+    },
+    {
+      "date": "2021-09-30T00:00:00",
+      "quarter_label": "2021-09 (Q3)",
+      "revenue": 10457000,
+      "gross_profit": null,
+      "operating_income": 25334000,
+      "net_income": 49884000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 8842000,
+      "ocf": 9999000,
+      "capex": -1157000,
+      "gross_margin": null,
+      "op_margin": 2.422683369991393,
+      "fcf_margin": 0.8455579994262217,
+      "fcf_margin_change": 1.4215981715926493
+    },
+    {
+      "date": "2022-06-30T00:00:00",
+      "quarter_label": "2022-06 (Q2)",
+      "revenue": 11000000,
+      "gross_profit": null,
+      "operating_income": 27173000,
+      "net_income": 47965000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 60615000,
+      "ocf": 64723000,
+      "capex": -4108000,
+      "gross_margin": null,
+      "op_margin": 2.4702727272727274,
+      "fcf_margin": 5.510454545454546,
+      "incr_op_margin_yoy": 3.894524959742351,
+      "rev_growth_yoy": 0.12728018036482885,
+      "fcf_margin_change": 4.664896546028324
+    },
+    {
+      "date": "2022-09-30T00:00:00",
+      "quarter_label": "2022-09 (Q3)",
+      "revenue": 11449000,
+      "gross_profit": null,
+      "operating_income": 15585000,
+      "net_income": 49070000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 37160000,
+      "ocf": 41990000,
+      "capex": -4830000,
+      "gross_margin": null,
+      "op_margin": 1.3612542580138003,
+      "fcf_margin": 3.2456983142632545,
+      "rev_growth_yoy": 0.09486468394376972,
+      "rev_growth_yoy_accel": -0.032415496421059134,
+      "fcf_margin_change": -2.264756231191291
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +84.6% -> +551.0% (+466.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2022-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +389.5% vs year-ago OPM: +228.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2021-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -57.6% -> +84.6%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2021-09 (Q3)",
+        "2022-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2021-09 (Q3) and 2022-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:35:29.566281"
+}

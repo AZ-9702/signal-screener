@@ -1,0 +1,213 @@
+{
+  "ticker": "FMCQF",
+  "name": "FRESENIUS MEDICAL CARE AG",
+  "quarters": [
+    {
+      "date": "2009-09-30T00:00:00",
+      "quarter_label": "2009-09 (Q3)",
+      "revenue": 2888669000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2010-09-30T00:00:00",
+      "quarter_label": "2010-09 (Q3)",
+      "revenue": 3058105000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.05865538765431415
+    },
+    {
+      "date": "2015-06-30T00:00:00",
+      "quarter_label": "2015-06 (Q2)",
+      "revenue": 4198736000,
+      "gross_profit": 1297267000,
+      "operating_income": 546963000,
+      "net_income": 240768000,
+      "opex": 750304000,
+      "cogs": 2901469000,
+      "rd": 34483000,
+      "sga": 722618000,
+      "fcf": -835502000,
+      "ocf": 0,
+      "capex": -835502000,
+      "gross_margin": 0.3089660793152987,
+      "op_margin": 0.13026849032661258,
+      "fcf_margin": -0.19898893381246166
+    },
+    {
+      "date": "2015-09-30T00:00:00",
+      "quarter_label": "2015-09 (Q3)",
+      "revenue": 4231351000,
+      "gross_profit": 1381762000,
+      "operating_income": 613530000,
+      "net_income": 262320000,
+      "opex": 768232000,
+      "cogs": 2849589000,
+      "rd": 34939000,
+      "sga": 742330000,
+      "fcf": 349675000,
+      "ocf": 579274000,
+      "capex": -229599000,
+      "gross_margin": 0.3265533868497319,
+      "op_margin": 0.14499624351655063,
+      "fcf_margin": 0.0826390909191887,
+      "fcf_margin_change": 0.2816280247316504
+    },
+    {
+      "date": "2016-03-31T00:00:00",
+      "quarter_label": "2016-03 (Q1)",
+      "revenue": 4205328000,
+      "gross_profit": 1317649000,
+      "operating_income": 540291000,
+      "net_income": 228016000,
+      "opex": 777358000,
+      "cogs": 2887679000,
+      "rd": 37474000,
+      "sga": 758455000,
+      "fcf": 429979000,
+      "ocf": 179801000,
+      "capex": 250178000,
+      "gross_margin": 0.3133284728325591,
+      "op_margin": 0.12847773110682448,
+      "fcf_margin": 0.10224624571495969,
+      "fcf_margin_change": 0.019607154795770992
+    },
+    {
+      "date": "2016-06-30T00:00:00",
+      "quarter_label": "2016-06 (Q2)",
+      "revenue": 4420489000,
+      "gross_profit": 1398530000,
+      "operating_income": 641090000,
+      "net_income": 293950000,
+      "opex": 757440000,
+      "cogs": 3021959000,
+      "rd": 38764000,
+      "sga": 732147000,
+      "fcf": -78630000,
+      "ocf": 677647000,
+      "capex": -756277000,
+      "gross_margin": 0.3163745006491363,
+      "op_margin": 0.14502694158949384,
+      "fcf_margin": -0.017787624853268496,
+      "incr_op_margin_yoy": 0.4244677636830167,
+      "rev_growth_yoy": 0.05281422790096829,
+      "op_leverage_ratio": Infinity,
+      "fcf_margin_change": -0.12003387056822819
+    },
+    {
+      "date": "2016-09-30T00:00:00",
+      "quarter_label": "2016-09 (Q3)",
+      "revenue": 4598241000,
+      "gross_profit": 1471658000,
+      "operating_income": 669942000,
+      "net_income": 333178000,
+      "opex": 801716000,
+      "cogs": 3126583000,
+      "rd": 43898000,
+      "sga": 786849000,
+      "fcf": 197325000,
+      "ocf": 438868000,
+      "capex": -241543000,
+      "gross_margin": 0.32004803575976115,
+      "op_margin": 0.14569527782471603,
+      "fcf_margin": 0.04291314874535719,
+      "incr_op_margin_yoy": 0.15375725694349804,
+      "rev_growth_yoy": 0.08670753147162691,
+      "rev_growth_yoy_accel": 0.03389330357065862,
+      "op_leverage_ratio": 0.6878979880289451,
+      "fcf_margin_change": 0.06070077359862569
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2016-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.8% -> +4.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2016-06 (Q2)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +42.4% vs year-ago OPM: +13.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2015-09 (Q3)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -19.9% -> +8.3%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 7,
+    "coverage": {
+      "revenue": [
+        7,
+        7
+      ],
+      "gross_profit": [
+        5,
+        7
+      ],
+      "op_income": [
+        5,
+        7
+      ],
+      "fcf": [
+        5,
+        7
+      ]
+    },
+    "gaps": [
+      [
+        "2009-09 (Q3)",
+        "2010-09 (Q3)",
+        365
+      ],
+      [
+        "2010-09 (Q3)",
+        "2015-06 (Q2)",
+        1734
+      ],
+      [
+        "2015-09 (Q3)",
+        "2016-03 (Q1)",
+        183
+      ]
+    ],
+    "warnings": [
+      "gross_profit: 5/7Q",
+      "op_income: 5/7Q",
+      "fcf: 5/7Q",
+      "gap: 3Q missing between 2009-09 (Q3) and 2010-09 (Q3)",
+      "gap: 18Q missing between 2010-09 (Q3) and 2015-06 (Q2)",
+      "gap: 1Q missing between 2015-09 (Q3) and 2016-03 (Q1)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T00:54:18.969653"
+}

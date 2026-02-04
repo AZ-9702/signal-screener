@@ -1,0 +1,131 @@
+{
+  "ticker": "LENZ",
+  "name": "LENZ THERAPEUTICS, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -14352000,
+      "net_income": -10254000,
+      "opex": 14352000,
+      "cogs": null,
+      "rd": 6945000,
+      "sga": 7407000,
+      "fcf": -15928000,
+      "ocf": -15795000,
+      "capex": -133000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 0,
+      "gross_profit": null,
+      "operating_income": -12945000,
+      "net_income": -10215000,
+      "opex": 12945000,
+      "cogs": null,
+      "rd": 6451000,
+      "sga": 6494000,
+      "fcf": -10767000,
+      "ocf": -10581000,
+      "capex": -186000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 5000000,
+      "gross_profit": null,
+      "operating_income": -16857000,
+      "net_income": -14912000,
+      "opex": 21857000,
+      "cogs": null,
+      "rd": 9061000,
+      "sga": 12796000,
+      "fcf": -11748000,
+      "ocf": -11508000,
+      "capex": -240000,
+      "gross_margin": null,
+      "op_margin": -3.3714,
+      "fcf_margin": -2.3496,
+      "incr_op_margin_yoy": -0.501
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 12500000,
+      "gross_profit": null,
+      "operating_income": -18887000,
+      "net_income": -16700000,
+      "opex": 31387000,
+      "cogs": null,
+      "rd": 3791000,
+      "sga": 27596000,
+      "fcf": -9027000,
+      "ocf": -8588000,
+      "capex": -439000,
+      "gross_margin": null,
+      "op_margin": -1.51096,
+      "fcf_margin": -0.72216,
+      "incr_op_margin_yoy": -0.47536,
+      "op_leverage_ratio": 3.4402413431269676,
+      "fcf_margin_change": 1.62744
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -235.0% -> -72.2% (+162.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +150.0% vs OpEx growth +43.6% (leverage: 3.4x)",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T22:18:34.805715"
+}

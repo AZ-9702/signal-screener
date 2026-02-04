@@ -1,0 +1,135 @@
+{
+  "ticker": "FIG",
+  "name": "FIGMA, INC.",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 177198000,
+      "gross_profit": 137640000,
+      "operating_income": -894287000,
+      "net_income": -827854000,
+      "opex": 1031927000,
+      "cogs": 39558000,
+      "rd": 535676000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.7767582026885179,
+      "op_margin": -5.04682332757706,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 198639000,
+      "gross_profit": 179936000,
+      "operating_income": -47336000,
+      "net_income": -15598000,
+      "opex": 227272000,
+      "cogs": 18703000,
+      "rd": 104182000,
+      "sga": null,
+      "fcf": 61161000,
+      "ocf": 61574000,
+      "capex": -413000,
+      "gross_margin": 0.9058442702591133,
+      "op_margin": -0.23830164267842668,
+      "fcf_margin": 0.30790026127799675,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 249640000,
+      "gross_profit": 221751000,
+      "operating_income": 2076000,
+      "net_income": 28227000,
+      "opex": 219675000,
+      "cogs": 27889000,
+      "rd": 83052000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.8882831277038936,
+      "op_margin": 0.008315975004005768,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 12.373526407332763,
+      "rev_growth_yoy": 0.4088195126355828,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 274173000,
+      "gross_profit": 190289000,
+      "operating_income": -1136780000,
+      "net_income": -1097015000,
+      "opex": 1327069000,
+      "cogs": 83884000,
+      "rd": 680885000,
+      "sga": null,
+      "fcf": 49461000,
+      "ocf": 51163000,
+      "capex": -1702000,
+      "gross_margin": 0.6940471891834717,
+      "op_margin": -4.146214251585677,
+      "fcf_margin": 0.1804006959109759,
+      "incr_op_margin_yoy": -14.42322662641989,
+      "rev_growth_yoy": 0.3802576533309169,
+      "rev_growth_yoy_accel": -0.028561859304665926,
+      "op_leverage_ratio": 0.019494628070213803
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -504.7% (year-ago) -> +0.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -23.8% -> +0.8%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:28:08.350454"
+}

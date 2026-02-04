@@ -1,0 +1,147 @@
+{
+  "ticker": "SDAWW",
+  "name": "SunCar Technology Group Inc.",
+  "quarters": [
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 113283000,
+      "gross_profit": null,
+      "operating_income": -11910000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": 8647000,
+      "sga": null,
+      "fcf": 2385000,
+      "ocf": 3442000,
+      "capex": -1057000,
+      "gross_margin": null,
+      "op_margin": -0.10513492757077408,
+      "fcf_margin": 0.021053467863668865
+    },
+    {
+      "date": "2024-03-31T00:00:00",
+      "quarter_label": "2024-03 (Q1)",
+      "revenue": 85587000,
+      "gross_profit": null,
+      "operating_income": -4545000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": 606000,
+      "sga": null,
+      "fcf": -4468000,
+      "ocf": -4300000,
+      "capex": -168000,
+      "gross_margin": null,
+      "op_margin": -0.05310385923095797,
+      "fcf_margin": -0.05220418988865132,
+      "fcf_margin_change": -0.07325765775232018
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 129188000,
+      "gross_profit": null,
+      "operating_income": 3000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": 6619000,
+      "sga": null,
+      "fcf": 10635000,
+      "ocf": 10659000,
+      "capex": -24000,
+      "gross_margin": null,
+      "op_margin": 2.3221971080905348e-05,
+      "fcf_margin": 0.08232188748180945,
+      "incr_op_margin_yoy": 0.7490097453630934,
+      "rev_growth_yoy": 0.14040058967364918,
+      "fcf_margin_change": 0.13452607737046077
+    },
+    {
+      "date": "2025-03-31T00:00:00",
+      "quarter_label": "2025-03 (Q1)",
+      "revenue": 102595000,
+      "gross_profit": null,
+      "operating_income": -2958000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": 923000,
+      "sga": null,
+      "fcf": -9282000,
+      "ocf": -9265000,
+      "capex": -17000,
+      "gross_margin": null,
+      "op_margin": -0.02883181441590721,
+      "fcf_margin": -0.09047224523612261,
+      "incr_op_margin_yoy": 0.0933090310442145,
+      "rev_growth_yoy": 0.1987217684928786,
+      "rev_growth_yoy_accel": 0.05832117881922941,
+      "fcf_margin_change": -0.17279413271793206
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +19.9% vs prior quarter YoY: +14.0% (accel: +5.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -5.2% -> +8.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -10.5% (year-ago) -> +0.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -5.3% -> +0.0%",
+      "severity": "HIGH"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        0,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-03 (Q1)",
+        "2024-12 (Q4)",
+        275
+      ]
+    ],
+    "warnings": [
+      "gross_profit: no data",
+      "gap: 2Q missing between 2024-03 (Q1) and 2024-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-03T01:12:59.119517"
+}

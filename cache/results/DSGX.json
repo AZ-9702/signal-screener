@@ -1,0 +1,187 @@
+{
+  "ticker": "DSGX",
+  "name": "DESCARTES SYSTEMS GROUP INC",
+  "quarters": [
+    {
+      "date": "2021-07-31T00:00:00",
+      "quarter_label": "2021-07 (Q3)",
+      "revenue": 104570000,
+      "gross_profit": 79100000,
+      "operating_income": 26119000,
+      "net_income": 23176000,
+      "opex": 52981000,
+      "cogs": 25470000,
+      "rd": 15473000,
+      "sga": null,
+      "fcf": 45433000,
+      "ocf": 46374000,
+      "capex": -941000,
+      "gross_margin": 0.7564310987855025,
+      "op_margin": 0.24977527015396386,
+      "fcf_margin": 0.43447451467916226
+    },
+    {
+      "date": "2022-07-31T00:00:00",
+      "quarter_label": "2022-07 (Q3)",
+      "revenue": 123011000,
+      "gross_profit": 94092000,
+      "operating_income": 31547000,
+      "net_income": 22902000,
+      "opex": 62545000,
+      "cogs": 28919000,
+      "rd": 18155000,
+      "sga": null,
+      "fcf": 44613000,
+      "ocf": 46399000,
+      "capex": -1786000,
+      "gross_margin": 0.7649072034208323,
+      "op_margin": 0.25645673964117033,
+      "fcf_margin": 0.36267488273406445,
+      "incr_op_margin_yoy": 0.29434412450517866,
+      "rev_growth_yoy": 0.17635076981925982,
+      "op_leverage_ratio": 0.9769176218939988,
+      "fcf_margin_change": -0.07179963194509781
+    },
+    {
+      "date": "2023-07-31T00:00:00",
+      "quarter_label": "2023-07 (Q3)",
+      "revenue": 143393000,
+      "gross_profit": 108419000,
+      "operating_income": 36830000,
+      "net_income": 28116000,
+      "opex": 71589000,
+      "cogs": 34974000,
+      "rd": 21738000,
+      "sga": null,
+      "fcf": 49831000,
+      "ocf": 52011000,
+      "capex": -2180000,
+      "gross_margin": 0.7560968806008661,
+      "op_margin": 0.25684656852147597,
+      "fcf_margin": 0.3475134769479682,
+      "incr_op_margin_yoy": 0.25919929349425963,
+      "rev_growth_yoy": 0.16569249904480088,
+      "rev_growth_yoy_accel": -0.010658270774458939,
+      "op_leverage_ratio": 1.1458687917688049,
+      "fcf_margin_change": -0.01516140578609626
+    },
+    {
+      "date": "2024-07-31T00:00:00",
+      "quarter_label": "2024-07 (Q3)",
+      "revenue": 163425000,
+      "gross_profit": 122877000,
+      "operating_income": 45846000,
+      "net_income": 34681000,
+      "opex": 77031000,
+      "cogs": 40548000,
+      "rd": 23909000,
+      "sga": null,
+      "fcf": 33084000,
+      "ocf": 34660000,
+      "capex": -1576000,
+      "gross_margin": 0.7518861863240018,
+      "op_margin": 0.28053235429095913,
+      "fcf_margin": 0.2024414869206058,
+      "incr_op_margin_yoy": 0.4500798722044728,
+      "rev_growth_yoy": 0.13969998535493364,
+      "rev_growth_yoy_accel": -0.02599251368986724,
+      "op_leverage_ratio": 1.8377402152837825,
+      "fcf_margin_change": -0.1450719900273624
+    },
+    {
+      "date": "2025-07-31T00:00:00",
+      "quarter_label": "2025-07 (Q3)",
+      "revenue": 179815000,
+      "gross_profit": 138227000,
+      "operating_income": 48183000,
+      "net_income": 38020000,
+      "opex": 90044000,
+      "cogs": 41588000,
+      "rd": 26752000,
+      "sga": null,
+      "fcf": 62096000,
+      "ocf": 63336000,
+      "capex": -1240000,
+      "gross_margin": 0.7687178489002586,
+      "op_margin": 0.2679587353669049,
+      "fcf_margin": 0.34533270305591857,
+      "incr_op_margin_yoy": 0.1425869432580842,
+      "rev_growth_yoy": 0.10029065320483402,
+      "rev_growth_yoy_accel": -0.03940933215009962,
+      "op_leverage_ratio": 0.5936747334989294,
+      "fcf_margin_change": 0.14289121613531278
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-07 (Q3)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.2% -> +34.5% (+14.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-07 (Q3)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +14.0% vs OpEx growth +7.6% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-07 (Q3)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +45.0% vs year-ago OPM: +25.7%",
+      "severity": "MEDIUM"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 5,
+    "coverage": {
+      "revenue": [
+        5,
+        5
+      ],
+      "gross_profit": [
+        5,
+        5
+      ],
+      "op_income": [
+        5,
+        5
+      ],
+      "fcf": [
+        5,
+        5
+      ]
+    },
+    "gaps": [
+      [
+        "2021-07 (Q3)",
+        "2022-07 (Q3)",
+        365
+      ],
+      [
+        "2022-07 (Q3)",
+        "2023-07 (Q3)",
+        365
+      ],
+      [
+        "2023-07 (Q3)",
+        "2024-07 (Q3)",
+        366
+      ],
+      [
+        "2024-07 (Q3)",
+        "2025-07 (Q3)",
+        365
+      ]
+    ],
+    "warnings": [
+      "gap: 3Q missing between 2021-07 (Q3) and 2022-07 (Q3)",
+      "gap: 3Q missing between 2022-07 (Q3) and 2023-07 (Q3)",
+      "gap: 3Q missing between 2023-07 (Q3) and 2024-07 (Q3)",
+      "gap: 3Q missing between 2024-07 (Q3) and 2025-07 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T20:51:07.347451"
+}

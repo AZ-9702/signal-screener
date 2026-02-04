@@ -1,0 +1,127 @@
+{
+  "ticker": "VOYG",
+  "name": "Voyager Technologies, Inc./DE",
+  "quarters": [
+    {
+      "date": "2024-06-30T00:00:00",
+      "quarter_label": "2024-06 (Q2)",
+      "revenue": 36653000,
+      "gross_profit": 9263000,
+      "operating_income": -12647000,
+      "net_income": -23322000,
+      "opex": 21910000,
+      "cogs": 27390000,
+      "rd": 6870000,
+      "sga": 13295000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.2527214689111396,
+      "op_margin": -0.34504679016724416,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 39599000,
+      "gross_profit": 9323000,
+      "operating_income": -12093000,
+      "net_income": -14967000,
+      "opex": 21416000,
+      "cogs": 30276000,
+      "rd": null,
+      "sga": 15173000,
+      "fcf": -21383000,
+      "ocf": -948000,
+      "capex": -20435000,
+      "gross_margin": 0.23543523826359253,
+      "op_margin": -0.3053864996590823,
+      "fcf_margin": -0.539988383545039,
+      "op_leverage_ratio": Infinity
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 45674000,
+      "gross_profit": 8210000,
+      "operating_income": -24137000,
+      "net_income": -31382000,
+      "opex": 32347000,
+      "cogs": 37464000,
+      "rd": 502000,
+      "sga": 30241000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.17975215658799318,
+      "op_margin": -0.5284625826509611,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -1.2736947123378783,
+      "rev_growth_yoy": 0.24611900799388864,
+      "op_leverage_ratio": 0.30056646764982614
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 39587000,
+      "gross_profit": 6090000,
+      "operating_income": -24043000,
+      "net_income": -16273000,
+      "opex": 30133000,
+      "cogs": 33497000,
+      "rd": null,
+      "sga": 25106000,
+      "fcf": -53758000,
+      "ocf": -15061000,
+      "capex": -38697000,
+      "gross_margin": 0.15383838128678606,
+      "op_margin": -0.6073458458584889,
+      "fcf_margin": -1.3579710511026346,
+      "rev_growth_yoy": -0.0003030379555039269,
+      "rev_growth_yoy_accel": -0.24642204594939257
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.0% vs prior quarter YoY: +24.6% (decel: -24.6%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-09 (Q3)",
+        "2025-06 (Q2)",
+        273
+      ]
+    ],
+    "warnings": [
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:35:36.547863"
+}

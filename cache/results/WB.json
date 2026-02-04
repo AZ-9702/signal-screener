@@ -1,0 +1,163 @@
+{
+  "ticker": "WB",
+  "name": "WEIBO CORPORATION",
+  "quarters": [
+    {
+      "date": "2020-12-31T00:00:00",
+      "quarter_label": "2020-12 (Q4)",
+      "revenue": 513410000,
+      "gross_profit": 426122000,
+      "operating_income": 181644000,
+      "net_income": 29042000,
+      "opex": 331766000,
+      "cogs": 87288000,
+      "rd": 90229000,
+      "sga": null,
+      "fcf": 312727000,
+      "ocf": 321151000,
+      "capex": -8424000,
+      "gross_margin": 0.829983833583296,
+      "op_margin": 0.3537991079254397,
+      "fcf_margin": 0.6091174694688456
+    },
+    {
+      "date": "2021-12-31T00:00:00",
+      "quarter_label": "2021-12 (Q4)",
+      "revenue": 616287000,
+      "gross_profit": 487742000,
+      "operating_income": 182522000,
+      "net_income": 115733000,
+      "opex": 433765000,
+      "cogs": 128545000,
+      "rd": 113867000,
+      "sga": null,
+      "fcf": 238360000,
+      "ocf": 249668000,
+      "capex": -11308000,
+      "gross_margin": 0.7914202311585349,
+      "op_margin": 0.2961639625693873,
+      "fcf_margin": 0.38676785328913316,
+      "incr_op_margin_yoy": 0.008534463485521546,
+      "rev_growth_yoy": 0.20037981340449154,
+      "op_leverage_ratio": 0.6517633425225202,
+      "fcf_margin_change": -0.22234961617971244
+    },
+    {
+      "date": "2022-12-31T00:00:00",
+      "quarter_label": "2022-12 (Q4)",
+      "revenue": 447998000,
+      "gross_profit": 341911000,
+      "operating_income": 160470000,
+      "net_income": 141916000,
+      "opex": 287528000,
+      "cogs": 106087000,
+      "rd": 99328000,
+      "sga": null,
+      "fcf": 143872000,
+      "ocf": 159140000,
+      "capex": -15268000,
+      "gross_margin": 0.7631976035607302,
+      "op_margin": 0.35819356336412217,
+      "fcf_margin": 0.3211442908227269,
+      "incr_op_margin_yoy": 0.13103649079856675,
+      "rev_growth_yoy": -0.273069203147235,
+      "rev_growth_yoy_accel": -0.47344901655172655,
+      "fcf_margin_change": -0.06562356246640627
+    },
+    {
+      "date": "2023-12-31T00:00:00",
+      "quarter_label": "2023-12 (Q4)",
+      "revenue": 463667000,
+      "gross_profit": 363511000,
+      "operating_income": 119005000,
+      "net_income": 83230000,
+      "opex": 344662000,
+      "cogs": 100156000,
+      "rd": 67243000,
+      "sga": null,
+      "fcf": 210686000,
+      "ocf": 218187000,
+      "capex": -7501000,
+      "gross_margin": 0.7839915284029271,
+      "op_margin": 0.25666049125773455,
+      "fcf_margin": 0.4543907588851482,
+      "incr_op_margin_yoy": -2.646307996681345,
+      "rev_growth_yoy": 0.03497560256965433,
+      "rev_growth_yoy_accel": 0.3080448057168893,
+      "op_leverage_ratio": 0.1760154208640664,
+      "fcf_margin_change": 0.1332464680624213
+    }
+  ],
+  "signals": [
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +32.1% -> +45.4% (+13.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +79.1% -> +76.3% -> +78.4% (reversal +2.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +3.5% vs prior quarter YoY: -27.3% (accel: +30.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2022-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -27.3% vs prior quarter YoY: +20.0% (decel: -47.3%)",
+      "severity": "WARNING"
+    }
+  ],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        4,
+        4
+      ],
+      "fcf": [
+        4,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2020-12 (Q4)",
+        "2021-12 (Q4)",
+        365
+      ],
+      [
+        "2021-12 (Q4)",
+        "2022-12 (Q4)",
+        365
+      ],
+      [
+        "2022-12 (Q4)",
+        "2023-12 (Q4)",
+        365
+      ]
+    ],
+    "warnings": [
+      "gap: 3Q missing between 2020-12 (Q4) and 2021-12 (Q4)",
+      "gap: 3Q missing between 2021-12 (Q4) and 2022-12 (Q4)",
+      "gap: 3Q missing between 2022-12 (Q4) and 2023-12 (Q4)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-02T21:27:06.020898"
+}
