@@ -248,9 +248,26 @@ def _load_ticker_cik_map():
 
 
 def _build_cik_to_ticker_map():
-    """Build reverse CIK->ticker mapping."""
+    """Build reverse CIK->ticker mapping.
+
+    When multiple tickers map to same CIK (e.g., BA and BA-PA),
+    prefer the base ticker without suffix.
+    """
     ticker_cik = _load_ticker_cik_map()
-    return {cik: ticker for ticker, cik in ticker_cik.items()}
+    cik_to_ticker = {}
+    for ticker, cik in ticker_cik.items():
+        if cik not in cik_to_ticker:
+            cik_to_ticker[cik] = ticker
+        else:
+            # Prefer ticker without suffix (-PA, -PB, etc.)
+            existing = cik_to_ticker[cik]
+            if '-' in existing and '-' not in ticker:
+                cik_to_ticker[cik] = ticker
+            elif '-' not in existing and '-' in ticker:
+                pass  # Keep existing
+            elif len(ticker) < len(existing):
+                cik_to_ticker[cik] = ticker  # Prefer shorter
+    return cik_to_ticker
 
 
 # ── Facts caching ────────────────────────────────────────────────────
@@ -1239,97 +1256,81 @@ def _run_scan_mode(args):
 # ══════════════════════════════════════════════════════════════════════
 
 def _fetch_recent_filers(days=3):
-    """Fetch recent 10-Q/10-K filers from SEC RSS feed.
+    """Fetch recent 10-Q/10-K filers from SEC daily index files.
 
     Returns list of {cik, ticker, form_type, filed_date}.
+    Uses daily index files instead of RSS feed to get ALL filings in date range.
     """
     import re
-    import xml.etree.ElementTree as ET
 
     cik_to_ticker = _build_cik_to_ticker_map()
     filers = []
     seen_ciks = set()
     target_forms = {"10-Q", "10-K", "10-Q/A", "10-K/A"}
 
-    cutoff = datetime.now() - timedelta(days=days)
+    today = datetime.now()
 
-    # Fetch from SEC RSS feed for each form type
-    for form_type in ["10-Q", "10-K"]:
-        url = f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type={form_type}&company=&dateb=&owner=include&count=100&output=atom"
+    # Iterate through each day in the range
+    for i in range(days + 1):
+        d = today - timedelta(days=i)
+        # Skip weekends (no filings)
+        if d.weekday() >= 5:
+            continue
+
+        year = d.year
+        qtr = (d.month - 1) // 3 + 1
+        date_str = d.strftime("%Y%m%d")
+        url = f"https://www.sec.gov/Archives/edgar/daily-index/{year}/QTR{qtr}/company.{date_str}.idx"
 
         try:
             _rate_limiter.wait()
-            req = urllib.request.Request(url, headers={
-                "User-Agent": SEC_UA,
-                "Accept": "application/atom+xml,application/xml,text/xml,*/*"
-            })
+            req = urllib.request.Request(url, headers={"User-Agent": SEC_UA})
             with urllib.request.urlopen(req, timeout=20) as resp:
-                xml_text = resp.read().decode("utf-8", errors="replace")
+                content = resp.read().decode("utf-8", errors="ignore")
+        except urllib.error.HTTPError as e:
+            # 403/404 = today's file not yet available or holiday
+            continue
         except Exception:
             continue
 
-        # Parse Atom XML
-        try:
-            root = ET.fromstring(xml_text)
-        except ET.ParseError:
-            continue
-
-        ns = {"atom": "http://www.w3.org/2005/Atom"}
-
-        for entry in root.findall("atom:entry", ns):
-            try:
-                title = entry.find("atom:title", ns)
-                if title is None or title.text is None:
-                    continue
-
-                # Title format: "10-Q - Company Name (CIK) (Filer)"
-                title_text = title.text
-                # Extract form type from title
-                form_match = re.match(r"(10-[QK](/A)?)\s*-", title_text)
-                if not form_match:
-                    continue
-                filing_form = form_match.group(1)
-                if filing_form not in target_forms:
-                    continue
-
-                # Extract CIK from title (number in parentheses)
-                cik_match = re.search(r"\((\d{7,10})\)", title_text)
-                if not cik_match:
-                    continue
-                cik_raw = cik_match.group(1)
-                cik_padded = cik_raw.zfill(10)
-
-                if cik_padded in seen_ciks:
-                    continue
-
-                # Get filing date from <updated> element
-                updated = entry.find("atom:updated", ns)
-                if updated is not None and updated.text:
-                    # Format: 2026-02-02T17:00:39-05:00
-                    filed_date = updated.text[:10]
-                    try:
-                        filed_dt = datetime.strptime(filed_date, "%Y-%m-%d")
-                        if filed_dt < cutoff:
-                            continue
-                    except ValueError:
-                        pass
-                else:
-                    filed_date = datetime.now().strftime("%Y-%m-%d")
-
-                ticker = cik_to_ticker.get(cik_padded, None)
-                if ticker is None:
-                    continue
-
-                seen_ciks.add(cik_padded)
-                filers.append({
-                    "cik": cik_padded,
-                    "ticker": ticker,
-                    "form_type": filing_form,
-                    "filed_date": filed_date,
-                })
-
-            except Exception:
+        # Parse fixed-width index file
+        # Format: Company Name | Form Type | CIK | Date Filed | Filename
+        for line in content.strip().split("\n"):
+            if not line or line.startswith("Company Name") or line.startswith("-"):
                 continue
+
+            # Split by multiple spaces (fields are space-padded)
+            parts = re.split(r"\s{2,}", line.strip())
+            if len(parts) < 4:
+                continue
+
+            # Parts: [Company Name, Form Type, CIK, Date, Filename]
+            # Form type is at index 1, CIK at index 2
+            form_type = parts[1] if len(parts) > 1 else None
+            cik_raw = parts[2] if len(parts) > 2 else None
+            filed_date = d.strftime("%Y-%m-%d")
+
+            if form_type not in target_forms:
+                continue
+            if not cik_raw or not cik_raw.isdigit():
+                continue
+
+            cik_padded = cik_raw.zfill(10)
+
+            if cik_padded in seen_ciks:
+                continue
+
+            ticker = cik_to_ticker.get(cik_padded, None)
+            if ticker is None:
+                continue
+
+            seen_ciks.add(cik_padded)
+            filers.append({
+                "cik": cik_padded,
+                "ticker": ticker,
+                "form_type": form_type,
+                "filed_date": filed_date,
+            })
 
     return filers
 
