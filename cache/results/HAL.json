@@ -1,25 +1,9 @@
 {
   "ticker": "HAL",
   "name": "HALLIBURTON COMPANY",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3237000000,
-      "gross_profit": null,
-      "operating_income": -96000000,
-      "net_income": -235000000,
-      "opex": 3333000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 638000000,
-      "ocf": 638000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.029657089898053754,
-      "fcf_margin": 0.1970960766141489
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.10721529991306868,
-      "fcf_margin": 0.058823529411764705,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.1382725472023842
+      "fcf_margin": 0.058823529411764705
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.1285948094458733,
       "fcf_margin": 0.15945756371288286,
-      "incr_op_margin_yoy": 0.6211538461538462,
-      "rev_growth_yoy": 0.321285140562249,
       "op_leverage_ratio": 1.1783326987700509,
       "fcf_margin_change": -0.00038699587260937474
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.011671335200746966,
       "incr_op_margin_yoy": 0.16926770708283315,
       "rev_growth_yoy": 0.2413793103448276,
-      "rev_growth_yoy_accel": -0.0799058302174214,
       "fcf_margin_change": -0.1711288989136298
     },
     {
@@ -167,7 +146,7 @@
       "incr_op_margin_yoy": 0.26720106880427524,
       "rev_growth_yoy": 0.3878238341968912,
       "rev_growth_yoy_accel": 0.019062032200667822,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06646047678601609
     },
     {
@@ -414,7 +393,7 @@
       "incr_op_margin_yoy": 0.9442724458204335,
       "rev_growth_yoy": -0.05537459283387622,
       "rev_growth_yoy_accel": 0.011303560164056245,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09301771294040707
     },
     {
@@ -439,9 +418,38 @@
       "rev_growth_yoy_accel": 0.03834808765571227,
       "op_leverage_ratio": 0.16946903874241664,
       "fcf_margin_change": -0.0754705729841846
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5657000000,
+      "gross_profit": null,
+      "operating_income": 746000000,
+      "net_income": 589000000,
+      "opex": 4911000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1165000000,
+      "ocf": 1165000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.13187201697012552,
+      "fcf_margin": 0.20593954392787697,
+      "incr_op_margin_yoy": -3.9574468085106385,
+      "rev_growth_yoy": 0.00837789661319073,
+      "rev_growth_yoy_accel": 0.025404401791354676,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.11879668678501983
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +8.7% -> +20.6% (+11.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -599,28 +607,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +24.1% vs prior quarter YoY: +32.1% (decel: -8.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -3.0% (year-ago) -> +12.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.9% -> +11.0% (+5.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -3.0% -> +10.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -650,7 +640,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:37.924142",
-  "sector": "Energy",
-  "industry": "Oil & Gas Equipment & Services"
+  "last_updated": "2026-02-09T19:08:11.753337"
 }

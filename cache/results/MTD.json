@@ -1,25 +1,9 @@
 {
   "ticker": "MTD",
-  "name": "Mettler-Toledo International Inc",
+  "name": "Mettler-Toledo International Inc.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 937985000,
-      "gross_profit": 559044000,
-      "operating_income": null,
-      "net_income": 216295000,
-      "opex": null,
-      "cogs": null,
-      "rd": 39866000,
-      "sga": 226369000,
-      "fcf": 215803000,
-      "ocf": 250869000,
-      "capex": -35066000,
-      "gross_margin": 0.5960052666087411,
-      "op_margin": null,
-      "fcf_margin": 0.2300708433503734
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -24605000,
       "gross_margin": 0.5864021183754149,
       "op_margin": null,
-      "fcf_margin": 0.16692400452516815,
-      "fcf_margin_change": -0.06314683882520525
+      "fcf_margin": 0.16692400452516815
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.5853356844468826,
       "op_margin": null,
       "fcf_margin": 0.19602232465227398,
-      "rev_growth_yoy": 0.10581619109047587,
       "fcf_margin_change": -0.05700987241689981
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.07984709136090694,
       "rev_growth_yoy": 0.11611407401882172,
-      "rev_growth_yoy_accel": 0.010297882928345853,
       "fcf_margin_change": -0.11617523329136704
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.07874410053062486,
       "rev_growth_yoy_accel": 0.04022178735396788,
       "fcf_margin_change": 0.050840486277069274
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1129735000,
+      "gross_profit": 675435000,
+      "operating_income": null,
+      "net_income": 285765000,
+      "opex": null,
+      "cogs": null,
+      "rd": 52599000,
+      "sga": 259826000,
+      "fcf": 184081000,
+      "ocf": 225585000,
+      "capex": -41504000,
+      "gross_margin": 0.597870297016557,
+      "op_margin": null,
+      "fcf_margin": 0.16294175182675583,
+      "rev_growth_yoy": 0.08095475478099791,
+      "rev_growth_yoy_accel": 0.002210654250373048,
+      "fcf_margin_change": -0.10401393133890716
     }
   ],
   "signals": [
@@ -508,7 +510,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:23.366728",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-09T19:08:45.204184"
 }

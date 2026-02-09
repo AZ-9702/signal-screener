@@ -1,25 +1,9 @@
 {
   "ticker": "IEHC",
   "name": "IEH Corporation",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2019-12-31T00:00:00",
-      "quarter_label": "2019-12 (Q4)",
-      "revenue": 8424657,
-      "gross_profit": 3153862,
-      "operating_income": 1446900,
-      "net_income": null,
-      "opex": 6977757,
-      "cogs": 5270795,
-      "rd": null,
-      "sga": 1469198,
-      "fcf": 1075674,
-      "ocf": 1211187,
-      "capex": -135513,
-      "gross_margin": 0.37436087902451104,
-      "op_margin": 0.17174586454973775,
-      "fcf_margin": 0.12768163736517701
-    },
     {
       "date": "2020-03-31T00:00:00",
       "quarter_label": "2020-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -500585,
       "gross_margin": 0.09866292131830781,
       "op_margin": -0.08305521311828698,
-      "fcf_margin": -0.016983301640227103,
-      "op_leverage_ratio": 0.06613355247824873,
-      "fcf_margin_change": -0.14466493900540411
+      "fcf_margin": -0.016983301640227103
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -157,7 +139,7 @@
       "incr_op_margin_yoy": 0.4816318206117153,
       "rev_growth_yoy": -0.36090707042136755,
       "rev_growth_yoy_accel": 0.012637855013044819,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09351104087090434
     },
     {
@@ -243,7 +225,7 @@
       "fcf_margin": -0.19860930852456918,
       "rev_growth_yoy": 0.14720889650676286,
       "rev_growth_yoy_accel": -0.00021015873397756124,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1016098226646048
     },
     {
@@ -311,7 +293,7 @@
       "incr_op_margin_yoy": 0.6875382453408722,
       "rev_growth_yoy": 0.5182077611544826,
       "rev_growth_yoy_accel": 0.20978698036251442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03149181585507718
     },
     {
@@ -422,9 +404,43 @@
       "rev_growth_yoy_accel": 0.07625179020877651,
       "op_leverage_ratio": 7.269919456165705,
       "fcf_margin_change": -0.07081216909588052
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7497879,
+      "gross_profit": 1018245,
+      "operating_income": -723444,
+      "net_income": -660286,
+      "opex": 8221323,
+      "cogs": 6479634,
+      "rd": null,
+      "sga": 1548550,
+      "fcf": -461669,
+      "ocf": -39056,
+      "capex": -422613,
+      "gross_margin": 0.13580440548587142,
+      "op_margin": -0.0964864863783478,
+      "fcf_margin": -0.061573279590134755,
+      "rev_growth_yoy": 0.038830411592969204,
+      "rev_growth_yoy_accel": 0.07472845663348343,
+      "op_leverage_ratio": 0.41033815647337757,
+      "fcf_margin_change": 0.0791995990951582
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -14.1% -> -6.2% (+7.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +3.9% vs prior quarter YoY: -3.6% (accel: +7.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -607,12 +623,6 @@
     },
     {
       "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +37.4% -> +9.9% -> +27.2% (reversal +17.3%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -8.3% -> +4.8%",
       "severity": "HIGH"
@@ -651,7 +661,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:49:05.706848",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-09T19:08:18.581996"
 }

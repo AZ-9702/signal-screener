@@ -1,25 +1,9 @@
 {
   "ticker": "UA",
   "name": "UNDER ARMOUR, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Manufacturing",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1403766000,
-      "gross_profit": 693622000,
-      "operating_income": 55846000,
-      "net_income": 184454000,
-      "opex": 637776000,
-      "cogs": 710144000,
-      "rd": null,
-      "sga": 585778000,
-      "fcf": 441919000,
-      "ocf": 462571000,
-      "capex": -20652000,
-      "gross_margin": 0.49411511605210556,
-      "op_margin": 0.03978298377364888,
-      "fcf_margin": 0.31480959077225124
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8465000,
       "gross_margin": 0.5000346008375789,
       "op_margin": 0.08502260985765932,
-      "fcf_margin": -0.12651418435485345,
-      "fcf_margin_change": -0.4413237751271047
+      "fcf_margin": -0.12651418435485345
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5074094055407875,
       "op_margin": 0.05632403765355201,
       "fcf_margin": 0.28960276745106117,
-      "incr_op_margin_yoy": 0.24143209049817044,
-      "rev_growth_yoy": 0.08935891024572472,
       "fcf_margin_change": 0.23906612375814507
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.2779271990745189,
       "incr_op_margin_yoy": -3.4936228571428574,
       "rev_growth_yoy": 0.03479969296728033,
-      "rev_growth_yoy_accel": -0.054559217278444386,
       "fcf_margin_change": -0.5675299665255801
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 35.01090028259992,
       "rev_growth_yoy": -0.0018327322879039668,
       "rev_growth_yoy_accel": -0.0366324252551843,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.316286586409524
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": -1.8570874334285614,
       "rev_growth_yoy": 0.0183451394083073,
       "rev_growth_yoy_accel": 0.02017787169621127,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1324653734775759
     },
     {
@@ -343,7 +323,7 @@
       "incr_op_margin_yoy": -0.16292855140827853,
       "rev_growth_yoy": -0.10703129487907781,
       "rev_growth_yoy_accel": -0.0057816479510316016,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3531187483948719
     },
     {
@@ -434,9 +414,37 @@
       "rev_growth_yoy_accel": -0.005019387415914567,
       "op_leverage_ratio": 1.3566750335979993,
       "fcf_margin_change": -0.07963210947760664
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1327761000,
+      "gross_profit": 589740000,
+      "operating_income": -149780000,
+      "net_income": -430827000,
+      "opex": 739520000,
+      "cogs": 738021000,
+      "rd": null,
+      "sga": 664540000,
+      "fcf": 261940000,
+      "ocf": 278057000,
+      "capex": -16117000,
+      "gross_margin": 0.44416126094982455,
+      "op_margin": -0.11280644634087009,
+      "fcf_margin": 0.19727948026790967,
+      "incr_op_margin_yoy": 2.2283495728595213,
+      "rev_growth_yoy": -0.05230261256110644,
+      "rev_growth_yoy_accel": -0.005382011541680741,
+      "fcf_margin_change": 0.26501635947713736
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -6.8% -> +19.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -600,22 +608,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.5% vs prior quarter YoY: +8.9% (decel: -5.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.1% -> +29.0% (+23.9%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +24.1% vs year-ago OPM: +4.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-06 (Q2)",
@@ -655,5 +651,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:55:48.851835"
+  "last_updated": "2026-02-09T19:10:32.327791"
 }

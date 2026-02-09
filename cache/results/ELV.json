@@ -1,25 +1,9 @@
 {
   "ticker": "ELV",
-  "name": "Elevance Health, Inc.",
+  "name": "ELEVANCE HEALTH, INC.",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 31824000000,
-      "gross_profit": 29302000000,
-      "operating_income": 605000000,
-      "net_income": 551000000,
-      "opex": 28697000000,
-      "cogs": 2522000000,
-      "rd": null,
-      "sga": 4318000000,
-      "fcf": 3535000000,
-      "ocf": 3813000000,
-      "capex": -278000000,
-      "gross_margin": 0.920751633986928,
-      "op_margin": 0.01901080945198592,
-      "fcf_margin": 0.11107968828557063
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -204000000,
       "gross_margin": 0.9285780453913849,
       "op_margin": 0.06672842365292574,
-      "fcf_margin": 0.07105141269106068,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.04002827559450996
+      "fcf_margin": 0.07105141269106068
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.9160766518137831,
       "op_margin": 0.0324758754544709,
       "fcf_margin": 0.03641234520652798,
-      "incr_op_margin_yoy": 0.1225562329199075,
-      "rev_growth_yoy": 0.14947838109602815,
       "op_leverage_ratio": 0.44853950936649956,
       "fcf_margin_change": -0.0262865549107184
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.06003412521328258,
       "incr_op_margin_yoy": 0.050087565674255694,
       "rev_growth_yoy": 0.17631619576964644,
-      "rev_growth_yoy_accel": 0.026837814673618288,
       "op_leverage_ratio": 3.0266325235475087,
       "fcf_margin_change": 0.0236217800067546
     },
@@ -441,6 +420,28 @@
       "rev_growth_yoy_accel": -0.009948518296677436,
       "op_leverage_ratio": 0.3994054130959682,
       "fcf_margin_change": -0.020618155457805307
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 49747000000,
+      "gross_profit": 44225000000,
+      "operating_income": 309000000,
+      "net_income": 547000000,
+      "opex": 43916000000,
+      "cogs": 5522000000,
+      "rd": null,
+      "sga": 5415000000,
+      "fcf": -209000000,
+      "ocf": 84000000,
+      "capex": -293000000,
+      "gross_margin": 0.8889983315576818,
+      "op_margin": 0.006211429834964923,
+      "fcf_margin": -0.004201258367338734,
+      "incr_op_margin_yoy": -0.08455284552845528,
+      "rev_growth_yoy": 0.09473614717662075,
+      "rev_growth_yoy_accel": -0.029526700338122297,
+      "fcf_margin_change": -0.019483938653667144
     }
   ],
   "signals": [
@@ -521,12 +522,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.1% vs OpEx growth +1.4% (leverage: 3.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +12.3% vs year-ago OPM: +1.9%",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -554,7 +549,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:54:24.693910",
-  "sector": "Healthcare",
-  "industry": "Healthcare Plans"
+  "last_updated": "2026-02-09T19:07:39.604746"
 }

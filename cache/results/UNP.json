@@ -1,25 +1,9 @@
 {
   "ticker": "UNP",
-  "name": "UNION PACIFIC CORPORATION",
+  "name": "UNION PACIFIC CORP",
+  "sector": "Industrials",
+  "industry": "Railroads",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5141000000,
-      "gross_profit": null,
-      "operating_income": 2006000000,
-      "net_income": 1380000000,
-      "opex": 3135000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1914000000,
-      "ocf": 2547000000,
-      "capex": -633000000,
-      "gross_margin": null,
-      "op_margin": 0.3901964598327174,
-      "fcf_margin": 0.3723011087337094
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -536000000,
       "gross_margin": null,
       "op_margin": 0.39852029594081184,
-      "fcf_margin": 0.28434313137372524,
-      "fcf_margin_change": -0.08795797735998417
+      "fcf_margin": 0.28434313137372524
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.4256061398918542,
       "fcf_margin": 0.26827141112855396,
-      "incr_op_margin_yoy": 0.7331081081081081,
-      "rev_growth_yoy": 0.11515269402839914,
       "op_leverage_ratio": 0.59139158005591,
       "fcf_margin_change": -0.006432146183699028
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.23686006825938566,
       "incr_op_margin_yoy": 0.4470314318975553,
       "rev_growth_yoy": 0.17176564687062587,
-      "rev_growth_yoy_accel": 0.05661295284222673,
       "op_leverage_ratio": 0.3839369485986027,
       "fcf_margin_change": -0.0314113428691683
     },
@@ -278,7 +258,7 @@
       "incr_op_margin_yoy": 0.23809523809523808,
       "rev_growth_yoy": -0.0033980582524271844,
       "rev_growth_yoy_accel": 0.09178927041038122,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02886264372843761
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": 0.8503401360544217,
       "rev_growth_yoy": 0.024471449975029133,
       "rev_growth_yoy_accel": 0.02513468990207274,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.010647110211824906
     },
     {
@@ -437,9 +417,37 @@
       "rev_growth_yoy_accel": 0.0006475780991787132,
       "op_leverage_ratio": 0.8041333057582651,
       "fcf_margin_change": 0.024754866394195357
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6085000000,
+      "gross_profit": null,
+      "operating_income": 2401000000,
+      "net_income": 1848000000,
+      "opex": 3684000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1226000000,
+      "ocf": 2225000000,
+      "capex": -999000000,
+      "gross_margin": null,
+      "op_margin": 0.3945768282662284,
+      "fcf_margin": 0.20147904683648316,
+      "incr_op_margin_yoy": 3.4444444444444446,
+      "rev_growth_yoy": -0.005881391929423297,
+      "rev_growth_yoy_accel": -0.031000420003631145,
+      "fcf_margin_change": -0.05028264438709146
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +344.4% vs year-ago OPM: +41.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -507,18 +515,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +17.2% vs prior quarter YoY: +11.5% (accel: +5.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +73.3% vs year-ago OPM: +39.0%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.1% vs OpEx growth +0.8% (leverage: 13.2x)",
@@ -552,5 +548,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:47:39.913083"
+  "last_updated": "2026-02-09T19:10:23.991091"
 }

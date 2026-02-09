@@ -1,25 +1,9 @@
 {
   "ticker": "ATR",
-  "name": "AptarGroup,\u00a0Inc",
+  "name": "AptarGroup, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 749329000,
-      "gross_profit": 231019000,
-      "operating_income": 81523000,
-      "net_income": 53232000,
-      "opex": 667806000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 116137000,
-      "ocf": 188726000,
-      "capex": -72589000,
-      "gross_margin": 0.30830116010457354,
-      "op_margin": 0.10879466829656934,
-      "fcf_margin": 0.1549879959270227
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -63884000,
       "gross_margin": null,
       "op_margin": 0.119202475944765,
-      "fcf_margin": 0.0106867811430646,
-      "op_leverage_ratio": 1.4942413781235304,
-      "fcf_margin_change": -0.1443012147839581
+      "fcf_margin": 0.0106867811430646
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.10741001458243499,
       "fcf_margin": 0.015754435234701037,
-      "incr_op_margin_yoy": 0.09136459235432388,
-      "rev_growth_yoy": 0.08629587270744893,
       "fcf_margin_change": 0.01073651756150292
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.022509503723376557,
       "incr_op_margin_yoy": 0.0750388688433219,
       "rev_growth_yoy": 0.08777296286855298,
-      "rev_growth_yoy_accel": 0.0014770901611040471,
       "op_leverage_ratio": 1.3364875167610726,
       "fcf_margin_change": 0.00675506848867552
     },
@@ -351,17 +330,17 @@
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
       "revenue": 848088000,
-      "gross_profit": null,
+      "gross_profit": 329414000,
       "operating_income": 120107000,
       "net_income": 100944000,
       "opex": 727981000,
-      "cogs": null,
+      "cogs": 518674000,
       "rd": null,
       "sga": null,
       "fcf": 112174000,
       "ocf": 178239000,
       "capex": -66065000,
-      "gross_margin": null,
+      "gross_margin": 0.3884195979662488,
       "op_margin": 0.14162091669732385,
       "fcf_margin": 0.13226693456339436,
       "incr_op_margin_yoy": 3.7370940882597834,
@@ -436,9 +415,37 @@
       "rev_growth_yoy": 0.05701145177946334,
       "rev_growth_yoy_accel": -0.004463413147470292,
       "fcf_margin_change": 0.05418176012204766
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 962736000,
+      "gross_profit": 338221000,
+      "operating_income": 106274000,
+      "net_income": 74344000,
+      "opex": 856462000,
+      "cogs": 624515000,
+      "rd": null,
+      "sga": null,
+      "fcf": 96874000,
+      "ocf": 183693000,
+      "capex": -86819000,
+      "gross_margin": 0.3513123016070865,
+      "op_margin": 0.11038747901813166,
+      "fcf_margin": 0.10062363929467684,
+      "incr_op_margin_yoy": -0.12065626962528783,
+      "rev_growth_yoy": 0.13518408467045873,
+      "rev_growth_yoy_accel": 0.07817263289099538,
+      "fcf_margin_change": -0.018291472172958692
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +13.5% vs prior quarter YoY: +5.7% (accel: +7.8%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -544,7 +551,7 @@
         20
       ],
       "gross_profit": [
-        5,
+        6,
         20
       ],
       "op_income": [
@@ -558,12 +565,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 5/20Q"
+      "gross_profit: 6/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:48.667991",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-09T19:06:48.067325"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "LVS",
   "name": "LAS VEGAS SANDS CORP.",
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1146000000,
-      "gross_profit": null,
-      "operating_income": -211000000,
-      "net_income": -299000000,
-      "opex": 1357000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 249000000,
-      "fcf": -225000000,
-      "ocf": 4000000,
-      "capex": -229000000,
-      "gross_margin": null,
-      "op_margin": -0.18411867364746945,
-      "fcf_margin": -0.19633507853403143
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -291000000,
       "gross_margin": null,
       "op_margin": -0.0802675585284281,
-      "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "fcf_margin": null
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -92,9 +75,7 @@
       "gross_margin": null,
       "op_margin": -0.13690476190476192,
       "fcf_margin": null,
-      "incr_op_margin_yoy": -0.5289855072463768,
-      "rev_growth_yoy": -0.12041884816753927,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-03-31T00:00:00",
@@ -114,8 +95,7 @@
       "op_margin": -0.32025450689289503,
       "fcf_margin": null,
       "incr_op_margin_yoy": 0.8142292490118577,
-      "rev_growth_yoy": -0.21153846153846154,
-      "rev_growth_yoy_accel": -0.09111961337092227
+      "rev_growth_yoy": -0.21153846153846154
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -137,7 +117,7 @@
       "incr_op_margin_yoy": 0.0625,
       "rev_growth_yoy": -0.10912190963341858,
       "rev_growth_yoy_accel": 0.10241655190504295,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-09-30T00:00:00",
@@ -261,16 +241,17 @@
       "cogs": null,
       "rd": 65000000,
       "sga": 287000000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 681000000,
+      "ocf": 1006000000,
       "capex": -325000000,
       "gross_margin": null,
       "op_margin": 0.24356775300171526,
-      "fcf_margin": null,
+      "fcf_margin": 0.23361921097770155,
       "incr_op_margin_yoy": 0.4872080088987764,
       "rev_growth_yoy": 1.6096687555953446,
       "rev_growth_yoy_accel": -0.17142577176783957,
-      "op_leverage_ratio": 0.923076923076923
+      "op_leverage_ratio": 0.923076923076923,
+      "fcf_margin_change": 0.051508298634231064
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -292,7 +273,8 @@
       "incr_op_margin_yoy": 0.40405244338498214,
       "rev_growth_yoy": 0.39575471698113207,
       "rev_growth_yoy_accel": -1.2139140386142127,
-      "op_leverage_ratio": 0.8995410504844467
+      "op_leverage_ratio": 0.8995410504844467,
+      "fcf_margin_change": -0.058560069375809015
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -349,16 +331,17 @@
       "cogs": null,
       "rd": 59000000,
       "sga": 303000000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 368000000,
+      "ocf": 915000000,
       "capex": -547000000,
       "gross_margin": null,
       "op_margin": 0.2037292817679558,
-      "fcf_margin": null,
+      "fcf_margin": 0.1270718232044199,
       "incr_op_margin_yoy": 6.315789473684211,
       "rev_growth_yoy": -0.006518010291595197,
       "rev_growth_yoy_accel": 0.03391132781216151,
-      "op_leverage_ratio": 1.357697147651007
+      "op_leverage_ratio": 1.357697147651007,
+      "fcf_margin_change": 0.04429777398741766
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -379,7 +362,8 @@
       "fcf_margin": 0.051362683438155136,
       "incr_op_margin_yoy": 1.1134020618556701,
       "rev_growth_yoy": -0.03278134504900304,
-      "rev_growth_yoy_accel": -0.026263334757407844
+      "rev_growth_yoy_accel": -0.026263334757407844,
+      "fcf_margin_change": -0.07570913976626475
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -426,6 +410,29 @@
       "rev_growth_yoy_accel": 0.09203792247456516,
       "op_leverage_ratio": 0.534219040801718,
       "fcf_margin_change": 0.3000019383647293
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3649000000,
+      "gross_profit": null,
+      "operating_income": 707000000,
+      "net_income": 395000000,
+      "opex": 2942000000,
+      "cogs": null,
+      "rd": 59000000,
+      "sga": 315000000,
+      "fcf": 930000000,
+      "ocf": 1204000000,
+      "capex": -274000000,
+      "gross_margin": null,
+      "op_margin": 0.19375171279802686,
+      "fcf_margin": 0.254864346396273,
+      "incr_op_margin_yoy": 0.1553784860557769,
+      "rev_growth_yoy": 0.26001381215469616,
+      "rev_growth_yoy_accel": 0.018030217822108535,
+      "op_leverage_ratio": 0.7556343986244917,
+      "fcf_margin_change": -0.011121843936960307
     }
   ],
   "signals": [
@@ -506,6 +513,12 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +40.4% vs year-ago OPM: +17.8%",
       "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +18.2% -> +23.4% (+5.2%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2023-12 (Q4)",
@@ -596,12 +609,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: -10.9% vs prior quarter YoY: -21.2% (accel: +10.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -21.2% vs prior quarter YoY: -12.0% (decel: -9.1%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -620,19 +627,17 @@
         20
       ],
       "fcf": [
-        10,
+        12,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "fcf: 10/20Q"
+      "fcf: 12/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:31.278791",
-  "sector": "Consumer Cyclical",
-  "industry": "Resorts & Casinos"
+  "last_updated": "2026-02-09T19:08:38.020298"
 }

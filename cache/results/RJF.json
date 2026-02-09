@@ -1,25 +1,9 @@
 {
   "ticker": "RJF",
   "name": "RAYMOND JAMES FINANCIAL, INC.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2260000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 312000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1896000000,
-      "ocf": 1921000000,
-      "capex": -25000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.8389380530973451
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -37000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.5072644250726442,
-      "fcf_margin_change": -1.3462024781699893
+      "fcf_margin": -0.5072644250726442
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.8183108587650816,
-      "rev_growth_yoy": 0.24690265486725663,
       "fcf_margin_change": -2.47655261700684
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.4035411287347842,
       "rev_growth_yoy": 0.12536322125363222,
-      "rev_growth_yoy_accel": -0.1215394336136244,
       "fcf_margin_change": 1.221851987499866
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.04671496377716713,
       "rev_growth_yoy_accel": 0.025449679353987967,
       "fcf_margin_change": 0.014456720656877448
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4176000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 563000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -56000000,
+      "ocf": -10000000,
+      "capex": -46000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.013409961685823755,
+      "rev_growth_yoy": 0.03494423791821561,
+      "rev_growth_yoy_accel": -0.011770725858951517,
+      "fcf_margin_change": -0.19288490201995265
     }
   ],
   "signals": [
@@ -481,12 +483,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +12.5% vs prior quarter YoY: +24.7% (decel: -12.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +54.6% -> +165.8% (+111.2%)",
@@ -527,5 +523,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:47.825769"
+  "last_updated": "2026-02-09T19:09:35.204330"
 }

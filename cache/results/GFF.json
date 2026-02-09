@@ -1,25 +1,9 @@
 {
   "ticker": "GFF",
-  "name": "GRIFFON CORP",
+  "name": "GRIFFON CORPORATION",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 609291000,
-      "gross_profit": 170172000,
-      "operating_income": 48615000,
-      "net_income": 29500000,
-      "opex": 121557000,
-      "cogs": 439119000,
-      "rd": null,
-      "sga": 121557000,
-      "fcf": null,
-      "ocf": null,
-      "capex": -9022000,
-      "gross_margin": 0.2792951151420257,
-      "op_margin": 0.07978946020866877,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8813000,
       "gross_margin": 0.26828515260730396,
       "op_margin": 0.0685047382614613,
-      "fcf_margin": null,
-      "op_leverage_ratio": 0.966902074507186
+      "fcf_margin": null
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.26293615258073694,
       "op_margin": 0.06877945305445955,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2021-09-30T00:00:00",
@@ -93,8 +76,6 @@
       "gross_margin": 0.2802573388379195,
       "op_margin": 0.06504446986813665,
       "fcf_margin": null,
-      "incr_op_margin_yoy": 0.5771861817352639,
-      "rev_growth_yoy": -0.028790840501500926,
       "op_leverage_ratio": 1.7516611677709926
     },
     {
@@ -116,7 +97,6 @@
       "fcf_margin": null,
       "incr_op_margin_yoy": 0.4096833235487102,
       "rev_growth_yoy": 0.22806821332257984,
-      "rev_growth_yoy_accel": 0.25685905382408075,
       "op_leverage_ratio": 1.3262353627112495
     },
     {
@@ -330,7 +310,7 @@
       "incr_op_margin_yoy": 1.764326334208224,
       "rev_growth_yoy": 0.02851329544657265,
       "rev_growth_yoy_accel": 0.08062689888803704,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2024-12-31T00:00:00",
@@ -415,7 +395,28 @@
       "incr_op_margin_yoy": 2.928258270227182,
       "rev_growth_yoy": 0.0038033995631168776,
       "rev_growth_yoy_accel": 0.05657626337896526,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 649088000,
+      "gross_profit": 266765000,
+      "operating_income": 113359000,
+      "net_income": 64387000,
+      "opex": 153406000,
+      "cogs": 382323000,
+      "rd": null,
+      "sga": 153406000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -7662000,
+      "gross_margin": 0.41098433494379805,
+      "op_margin": 0.17464349980280022,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.07561165280851828,
+      "rev_growth_yoy": 0.026435431099781616,
+      "rev_growth_yoy_accel": 0.022632031536664737
     }
   ],
   "signals": [
@@ -547,12 +548,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +22.8% vs prior quarter YoY: -2.9% (accel: +25.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +41.0% vs year-ago OPM: +6.9%",
       "severity": "HIGH"
@@ -562,12 +557,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +55.8% vs OpEx growth +31.9% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +57.7% vs year-ago OPM: +8.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -603,7 +592,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:14:25.379286",
-  "sector": "Industrials",
-  "industry": "Building Products & Equipment"
+  "last_updated": "2026-02-09T19:07:56.954136"
 }

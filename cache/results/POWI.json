@@ -1,25 +1,9 @@
 {
   "ticker": "POWI",
-  "name": "Power Integrations, Inc.",
+  "name": "POWER INTEGRATIONS, INC.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 150693000,
-      "gross_profit": 74005000,
-      "operating_income": 27727000,
-      "net_income": 27278000,
-      "opex": 46278000,
-      "cogs": 76688000,
-      "rd": 21921000,
-      "sga": null,
-      "fcf": 11506000,
-      "ocf": 46366000,
-      "capex": -34860000,
-      "gross_margin": 0.49109779485443916,
-      "op_margin": 0.18399660236374615,
-      "fcf_margin": 0.07635391159509732
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -11051000,
       "gross_margin": 0.4858550567812268,
       "op_margin": 0.23130363710666121,
-      "fcf_margin": 0.27093250142456704,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.19457858982946974
+      "fcf_margin": 0.27093250142456704
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.539668933242207,
       "op_margin": 0.256605696943019,
       "fcf_margin": 0.1748931388789139,
-      "incr_op_margin_yoy": 0.7548381221255863,
-      "rev_growth_yoy": 0.14573337845818982,
       "fcf_margin_change": -0.09507563516281126
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.3288351843820169,
       "incr_op_margin_yoy": 1.29113171659534,
       "rev_growth_yoy": 0.048418011131768135,
-      "rev_growth_yoy_accel": -0.09731536732642168,
       "op_leverage_ratio": 3.5551394559005156,
       "fcf_margin_change": 0.15394204550310303
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 3.9024767801857587,
       "rev_growth_yoy": 0.021520182110932207,
       "rev_growth_yoy_accel": -0.02689782902083593,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03762824472356463
     },
     {
@@ -255,7 +234,7 @@
       "incr_op_margin_yoy": 0.882984851103047,
       "rev_growth_yoy": -0.2166969350882777,
       "rev_growth_yoy_accel": 0.11356188895268193,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1281746665990904
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.6336572255530287,
       "rev_growth_yoy": -0.07707690959358143,
       "rev_growth_yoy_accel": 0.06108723184105333,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10792706849532127
     },
     {
@@ -438,9 +417,37 @@
       "rev_growth_yoy_accel": -0.06429931474424116,
       "op_leverage_ratio": 0.4932064511645361,
       "fcf_margin_change": 0.0033741113844845405
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 103204000,
+      "gross_profit": 54609000,
+      "operating_income": 8774000,
+      "net_income": 13290000,
+      "opex": 45835000,
+      "cogs": 48595000,
+      "rd": 24334000,
+      "sga": null,
+      "fcf": 19156000,
+      "ocf": 26206000,
+      "capex": -7050000,
+      "gross_margin": 0.529136467578776,
+      "op_margin": 0.08501608464788186,
+      "fcf_margin": 0.18561296073795588,
+      "incr_op_margin_yoy": -2.3729227761485827,
+      "rev_growth_yoy": -0.019439429928741092,
+      "rev_growth_yoy_accel": -0.046045781957885494,
+      "fcf_margin_change": -0.017550537105113756
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -3.3% -> +8.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -617,38 +624,14 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +4.8% vs prior quarter YoY: +14.6% (decel: -9.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +129.1% vs year-ago OPM: +23.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +75.5% vs year-ago OPM: +18.4%",
       "severity": "HIGH"
     },
     {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +27.1% -> +32.5% (+5.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +49.1% -> +48.6% -> +50.7% (reversal +2.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +7.6% -> +27.1% (+19.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -677,5 +660,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:28:33.364141"
+  "last_updated": "2026-02-09T19:09:14.288233"
 }

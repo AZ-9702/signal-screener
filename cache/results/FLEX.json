@@ -1,25 +1,9 @@
 {
   "ticker": "FLEX",
   "name": "FLEX LTD.",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6720000000,
-      "gross_profit": 479000000,
-      "operating_income": 240000000,
-      "net_income": null,
-      "opex": 239000000,
-      "cogs": 6212000000,
-      "rd": null,
-      "sga": 222000000,
-      "fcf": 272000000,
-      "ocf": 348000000,
-      "capex": -76000000,
-      "gross_margin": 0.0712797619047619,
-      "op_margin": 0.03571428571428571,
-      "fcf_margin": 0.04047619047619048
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -90000000,
       "gross_margin": 0.08123204596233642,
       "op_margin": 0.045004787743376955,
-      "fcf_margin": 0.011330992658793488,
-      "fcf_margin_change": -0.029145197817396988
+      "fcf_margin": 0.011330992658793488
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.07426679280983917,
       "op_margin": 0.0402081362346263,
       "fcf_margin": 0.03405865657521287,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02272766391641938
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.07418038978697689,
       "op_margin": 0.03792113612328146,
       "fcf_margin": 0.004079166037165735,
-      "incr_op_margin_yoy": -0.10891089108910891,
-      "rev_growth_yoy": -0.015029761904761905,
       "op_leverage_ratio": 1.1895970460748115,
       "fcf_margin_change": -0.01004830225630031
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.03649102320829076,
       "incr_op_margin_yoy": -0.09230769230769231,
       "rev_growth_yoy": 0.09336099585062241,
-      "rev_growth_yoy_accel": 0.10839075775538431,
       "op_leverage_ratio": 0.22735532026965777,
       "fcf_margin_change": 0.03241185717112502
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.01691542288557214,
       "rev_growth_yoy": 0.1584673604541154,
       "rev_growth_yoy_accel": 0.065106364603493,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045882611611720726
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": -0.17288135593220338,
       "rev_growth_yoy": -0.037986093226886425,
       "rev_growth_yoy_accel": -0.036488883481412084,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04938599735772212
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 0.05675146771037182,
       "rev_growth_yoy": -0.13931297709923665,
       "rev_growth_yoy_accel": -0.022617673548262995,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06066768493576017
     },
     {
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": 0.08531317494600432,
       "rev_growth_yoy": -0.1239459242403962,
       "rev_growth_yoy_accel": 0.01536705285884045,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0032663176135199062
     },
     {
@@ -438,6 +418,29 @@
       "rev_growth_yoy_accel": -0.0017645195550504006,
       "op_leverage_ratio": 0.1594796878126876,
       "fcf_margin_change": 0.004076354101702644
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7058000000,
+      "gross_profit": 679000000,
+      "operating_income": 389000000,
+      "net_income": 239000000,
+      "opex": 290000000,
+      "cogs": 6373000000,
+      "rd": null,
+      "sga": 270000000,
+      "fcf": 272000000,
+      "ocf": 420000000,
+      "capex": -148000000,
+      "gross_margin": 0.09620289033720601,
+      "op_margin": 0.05511476338906206,
+      "fcf_margin": 0.03853782941343157,
+      "incr_op_margin_yoy": 0.10956175298804781,
+      "rev_growth_yoy": 0.07657107992678462,
+      "rev_growth_yoy_accel": 0.036998887413415636,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.0059947984525296275
     }
   ],
   "signals": [
@@ -512,12 +515,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +15.8% vs prior quarter YoY: +9.3% (accel: +6.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +9.3% vs prior quarter YoY: -1.5% (accel: +10.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -545,7 +542,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:15.158729",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-09T19:07:43.438299"
 }

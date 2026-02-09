@@ -1,25 +1,9 @@
 {
   "ticker": "GHM",
-  "name": "GRAHAM CORP",
+  "name": "GRAHAM CORPORATION",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 27154000,
-      "gross_profit": 6227000,
-      "operating_income": 1291000,
-      "net_income": 1060000,
-      "opex": 4936000,
-      "cogs": 20927000,
-      "rd": null,
-      "sga": 4936000,
-      "fcf": 2263000,
-      "ocf": 2928000,
-      "capex": -665000,
-      "gross_margin": 0.2293216469028504,
-      "op_margin": 0.04754363997937689,
-      "fcf_margin": 0.08333947116446933
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -696000,
       "gross_margin": 0.194032176385805,
       "op_margin": 0.023411631802422967,
-      "fcf_margin": -0.1202913793775077,
-      "fcf_margin_change": -0.20363085054197702
+      "fcf_margin": -0.1202913793775077
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -75,7 +58,7 @@
       "gross_margin": 0.10083172260294032,
       "op_margin": -0.02055877701634159,
       "fcf_margin": -0.07049141919990629,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.30267919150605194
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.019496767915479253,
       "op_margin": -0.1592409814415792,
       "fcf_margin": -0.2270104955862932,
-      "incr_op_margin_yoy": -3.6253086419753084,
-      "rev_growth_yoy": 0.05965971864182073,
       "fcf_margin_change": -0.1565190763863869
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.29992198706495204,
       "incr_op_margin_yoy": -0.18846864780321343,
       "rev_growth_yoy": 0.5479334657785049,
-      "rev_growth_yoy_accel": 0.48827374713668414,
       "op_leverage_ratio": 1.75268510393688,
       "fcf_margin_change": 0.5269324826512453
     },
@@ -164,7 +144,7 @@
       "incr_op_margin_yoy": 0.16262196647485613,
       "rev_growth_yoy": 0.11705617056170561,
       "rev_growth_yoy_accel": -0.6726446777788213,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.011215091677561857
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 0.234818165999652,
       "rev_growth_yoy": 0.31861399861399864,
       "rev_growth_yoy_accel": 0.23581962561150727,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06537042721392829
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": -0.19311502938706968,
       "rev_growth_yoy": 0.050074628434484646,
       "rev_growth_yoy_accel": -0.09037206782600296,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.021047427375506203
     },
     {
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": 0.40438317426652526,
       "rev_growth_yoy": 0.18828201260094063,
       "rev_growth_yoy_accel": 0.13820738416645598,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08016877804927805
     },
     {
@@ -438,9 +418,37 @@
       "rev_growth_yoy_accel": 0.12186933243679864,
       "op_leverage_ratio": 6.666852939693049,
       "fcf_margin_change": 0.30989667320626363
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 56701000,
+      "gross_profit": 13469000,
+      "operating_income": 3124000,
+      "net_income": 2845000,
+      "opex": 10345000,
+      "cogs": 43232000,
+      "rd": null,
+      "sga": 10129000,
+      "fcf": 2426000,
+      "ocf": 4760000,
+      "capex": -2334000,
+      "gross_margin": 0.2375443113878062,
+      "op_margin": 0.05509603005238003,
+      "fcf_margin": 0.04278584151954992,
+      "incr_op_margin_yoy": 0.09457781456953643,
+      "rev_growth_yoy": 0.20545527988604714,
+      "rev_growth_yoy_accel": -0.027242664590550497,
+      "fcf_margin_change": -0.10017082772182104
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +26.5% -> +21.7% -> +23.8% (reversal +2.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -658,12 +666,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +54.8% vs prior quarter YoY: +6.0% (accel: +48.8%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -37.3% -> -7.0% (+30.3%)",
@@ -701,7 +703,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:10:23.957197",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-09T19:07:50.283963"
 }

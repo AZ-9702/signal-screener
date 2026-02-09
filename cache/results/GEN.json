@@ -1,25 +1,9 @@
 {
   "ticker": "GEN",
   "name": "Gen Digital Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 639000000,
-      "gross_profit": 552000000,
-      "operating_income": 280000000,
-      "net_income": 178000000,
-      "opex": 272000000,
-      "cogs": 87000000,
-      "rd": 71000000,
-      "sga": null,
-      "fcf": 291000000,
-      "ocf": 293000000,
-      "capex": -2000000,
-      "gross_margin": 0.863849765258216,
-      "op_margin": 0.4381846635367762,
-      "fcf_margin": 0.45539906103286387
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -1000000,
       "gross_margin": 0.8526785714285714,
       "op_margin": 0.3958333333333333,
-      "fcf_margin": 0.5282738095238095,
-      "op_leverage_ratio": 0.4013413816230718,
-      "fcf_margin_change": 0.07287474849094566
+      "fcf_margin": 0.5282738095238095
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.8513119533527697,
       "op_margin": 0.41836734693877553,
       "fcf_margin": 0.3746355685131195,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15363824101069
     },
     {
@@ -96,9 +78,7 @@
       "gross_margin": 0.8504273504273504,
       "op_margin": 0.4301994301994302,
       "fcf_margin": 0.4672364672364672,
-      "incr_op_margin_yoy": 0.3492063492063492,
-      "rev_growth_yoy": 0.09859154929577464,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3819763516295308
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.45251396648044695,
       "incr_op_margin_yoy": -3.1136363636363638,
       "rev_growth_yoy": 0.06547619047619048,
-      "rev_growth_yoy_accel": -0.03311535881958416,
       "op_leverage_ratio": 0.03080204650885279,
       "fcf_margin_change": -0.014722500756020274
     },
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 2.15,
       "rev_growth_yoy": 0.021119324181626188,
       "rev_growth_yoy_accel": 0.005093683155985164,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.1197879117067213
     },
     {
@@ -391,7 +370,7 @@
       "incr_op_margin_yoy": 0.3953488372093023,
       "rev_growth_yoy": 0.04446742502585315,
       "rev_growth_yoy_accel": 0.0076640601467784925,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14283132167172097
     },
     {
@@ -438,9 +417,38 @@
       "rev_growth_yoy": 0.25256673511293637,
       "rev_growth_yoy_accel": -0.05002393846219316,
       "fcf_margin_change": -0.2344907860244923
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 1240000000,
+      "gross_profit": 972000000,
+      "operating_income": 433000000,
+      "net_income": 192000000,
+      "opex": 539000000,
+      "cogs": 268000000,
+      "rd": 96000000,
+      "sga": null,
+      "fcf": 535000000,
+      "ocf": 541000000,
+      "capex": -6000000,
+      "gross_margin": 0.7838709677419354,
+      "op_margin": 0.34919354838709676,
+      "fcf_margin": 0.4314516129032258,
+      "incr_op_margin_yoy": 0.23228346456692914,
+      "rev_growth_yoy": 0.25760649087221094,
+      "rev_growth_yoy_accel": 0.005039755759274567,
+      "op_leverage_ratio": 0.3677833214540271,
+      "fcf_margin_change": 0.3437466948704389
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +8.8% -> +43.1% (+34.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -572,12 +580,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +8.5% -> +46.7% (+38.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +45.5% -> +52.8% (+7.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -605,7 +607,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:25:12.037771",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-09T19:08:04.488462"
 }

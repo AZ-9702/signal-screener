@@ -1,25 +1,9 @@
 {
   "ticker": "GOLD",
-  "name": "A-Mark Precious Metals, Inc.",
+  "name": "GOLD.COM, INC.",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1518744000,
-      "gross_profit": 18751000,
-      "operating_income": null,
-      "net_income": 8925000,
-      "opex": null,
-      "cogs": 1499993000,
-      "rd": null,
-      "sga": 9033000,
-      "fcf": -110164000,
-      "ocf": -109703000,
-      "capex": -461000,
-      "gross_margin": 0.012346386224406484,
-      "op_margin": null,
-      "fcf_margin": -0.07253625364116664
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -414000,
       "gross_margin": 0.03326243761249755,
       "op_margin": null,
-      "fcf_margin": 0.025329728532331716,
-      "fcf_margin_change": 0.09786598217349836
+      "fcf_margin": 0.025329728532331716
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.03386982085570839,
       "op_margin": null,
       "fcf_margin": 0.05515206816402276,
-      "rev_growth_yoy": 0.2815616061693083,
       "fcf_margin_change": 0.09012873863246545
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.05438868909471508,
       "rev_growth_yoy": 0.029093105647310134,
-      "rev_growth_yoy_accel": -0.25246850052199815,
       "fcf_margin_change": -0.10954075725873784
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.35566698194097,
       "rev_growth_yoy_accel": 0.36077875621021444,
       "fcf_margin_change": 0.027448884990178415
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6476900000,
+      "gross_profit": 93370000,
+      "operating_income": null,
+      "net_income": 11636000,
+      "opex": null,
+      "cogs": 6383530000,
+      "rd": null,
+      "sga": 59784000,
+      "fcf": -46620000,
+      "ocf": -42622000,
+      "capex": -3998000,
+      "gross_margin": 0.014415847087341166,
+      "op_margin": null,
+      "fcf_margin": -0.007197887878460375,
+      "rev_growth_yoy": 1.3618107860243696,
+      "rev_growth_yoy_accel": 1.0061438040833997,
+      "fcf_margin_change": -0.05975298103026627
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +136.2% vs prior quarter YoY: +35.6% (accel: +100.6%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -517,21 +525,9 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +2.9% vs prior quarter YoY: +28.2% (decel: -25.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.5% -> +5.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -7.3% -> +2.5%",
       "severity": "HIGH"
     }
   ],
@@ -562,7 +558,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:54:33.917504",
-  "sector": "Financial Services",
-  "industry": "Capital Markets"
+  "last_updated": "2026-02-09T19:08:08.139789"
 }

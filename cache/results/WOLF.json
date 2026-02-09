@@ -1,45 +1,9 @@
 {
   "ticker": "WOLF",
   "name": "WOLFSPEED, INC.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-27T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 127000000,
-      "gross_profit": 41300000,
-      "operating_income": -57600000,
-      "net_income": -83000000,
-      "opex": 98900000,
-      "cogs": 85700000,
-      "rd": 45500000,
-      "sga": 46800000,
-      "fcf": -170300000,
-      "ocf": -26300000,
-      "capex": -144000000,
-      "gross_margin": 0.3251968503937008,
-      "op_margin": -0.45354330708661417,
-      "fcf_margin": -1.3409448818897638
-    },
-    {
-      "date": "2021-03-28T00:00:00",
-      "quarter_label": "2021-03 (Q1)",
-      "revenue": 137300000,
-      "gross_profit": 44000000,
-      "operating_income": -61400000,
-      "net_income": -108900000,
-      "opex": 105400000,
-      "cogs": 93300000,
-      "rd": 46000000,
-      "sga": 44200000,
-      "fcf": -186100000,
-      "ocf": -49600000,
-      "capex": -136500000,
-      "gross_margin": 0.32046613255644574,
-      "op_margin": -0.4471959213401311,
-      "fcf_margin": -1.3554260742898763,
-      "op_leverage_ratio": 1.2340036341611147,
-      "fcf_margin_change": -0.014481192400112475
-    },
     {
       "date": "2021-06-27T00:00:00",
       "quarter_label": "2021-06 (Q2)",
@@ -56,9 +20,7 @@
       "capex": -176500000,
       "gross_margin": 0.3004115226337449,
       "op_margin": -0.9101508916323731,
-      "fcf_margin": -1.5534979423868314,
-      "op_leverage_ratio": 0.09177394455866249,
-      "fcf_margin_change": -0.1980718680969551
+      "fcf_margin": -1.5534979423868314
     },
     {
       "date": "2021-09-26T00:00:00",
@@ -77,7 +39,7 @@
       "gross_margin": 0.31545338441890164,
       "op_margin": -0.41954022988505746,
       "fcf_margin": -2.054916985951469,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5014190435646375
     },
     {
@@ -97,8 +59,6 @@
       "gross_margin": 0.3292894280762565,
       "op_margin": -0.35181975736568455,
       "fcf_margin": -1.0098209127671867,
-      "incr_op_margin_yoy": -0.07158351409978309,
-      "rev_growth_yoy": 0.36299212598425196,
       "op_leverage_ratio": 4.331212370005473,
       "fcf_margin_change": 1.0450960731842822
     },
@@ -119,9 +79,6 @@
       "gross_margin": 0.3404255319148936,
       "op_margin": -0.3313829787234043,
       "fcf_margin": -0.8632978723404255,
-      "incr_op_margin_yoy": -0.01775147928994083,
-      "rev_growth_yoy": 0.36926438455935906,
-      "rev_growth_yoy_accel": 0.006272258575107104,
       "op_leverage_ratio": 1.2081579598910623,
       "fcf_margin_change": 0.14652304042676112
     },
@@ -144,7 +101,6 @@
       "fcf_margin": -0.5781181619256017,
       "incr_op_margin_yoy": 0.8923821039903265,
       "rev_growth_yoy": 0.5672153635116598,
-      "rev_growth_yoy_accel": 0.19795097895230074,
       "op_leverage_ratio": 2.3659343200740057,
       "fcf_margin_change": 0.2851797104148238
     },
@@ -392,7 +348,7 @@
       "incr_op_margin_yoy": 5.758169934640523,
       "rev_growth_yoy": -0.07623318385650224,
       "rev_growth_yoy_accel": 0.05764397545251887,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.3500751538188003
     },
     {
@@ -429,24 +385,72 @@
       "cogs": 273900000,
       "rd": 31700000,
       "sga": 37900000,
-      "fcf": -98300000,
-      "ocf": 5700000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": -0.39176829268292684,
+      "op_margin": -0.8201219512195121,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 32.714285714285715,
+      "rev_growth_yoy": 0.01078582434514638,
+      "rev_growth_yoy_accel": 0.029221300179725355
+    },
+    {
+      "date": "2025-09-29T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 196800000,
+      "gross_profit": -77100000,
+      "operating_income": -161400000,
+      "net_income": 420200000,
+      "opex": 84300000,
+      "cogs": 273900000,
+      "rd": 31700000,
+      "sga": 37900000,
+      "fcf": -126400000,
+      "ocf": -22400000,
       "capex": -104000000,
       "gross_margin": -0.39176829268292684,
       "op_margin": -0.8201219512195121,
-      "fcf_margin": -0.4994918699186992,
+      "fcf_margin": -0.6422764227642277,
       "incr_op_margin_yoy": 32.714285714285715,
       "rev_growth_yoy": 0.01078582434514638,
-      "rev_growth_yoy_accel": 0.029221300179725355,
-      "fcf_margin_change": 1.8071071148528746
+      "rev_growth_yoy_accel": 0.0
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 168500000,
+      "gross_profit": -78300000,
+      "operating_income": -158400000,
+      "net_income": -150600000,
+      "opex": 80100000,
+      "cogs": 246800000,
+      "rd": 24900000,
+      "sga": 29400000,
+      "fcf": -72600000,
+      "ocf": -42600000,
+      "capex": -30000000,
+      "gross_margin": -0.4646884272997033,
+      "op_margin": -0.9400593471810089,
+      "fcf_margin": -0.4308605341246291,
+      "incr_op_margin_yoy": -13.716666666666667,
+      "rev_growth_yoy": -0.0664819944598338,
+      "rev_growth_yoy_accel": -0.07726781880498018,
+      "fcf_margin_change": 0.2114158886395986
     }
   ],
   "signals": [
     {
-      "quarter": "2025-09 (Q3)",
+      "quarter": "2025-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -230.7% -> -49.9% (+180.7%)",
+      "detail": "FCF margin: -64.2% -> -43.1% (+21.1%)",
       "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -6.6% vs prior quarter YoY: +1.1% (decel: -7.7%)",
+      "severity": "WARNING"
     },
     {
       "quarter": "2025-06 (Q2)",
@@ -545,12 +549,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-06 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +56.7% vs prior quarter YoY: +36.9% (accel: +19.8%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2022-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -101.0% -> -86.3% (+14.7%)",
@@ -585,7 +583,7 @@
         20
       ],
       "fcf": [
-        20,
+        19,
         20
       ]
     },
@@ -594,5 +592,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:28:32.257144"
+  "last_updated": "2026-02-09T19:10:46.034441"
 }

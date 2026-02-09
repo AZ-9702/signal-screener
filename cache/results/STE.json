@@ -1,25 +1,9 @@
 {
   "ticker": "STE",
   "name": "STERIS plc",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 808924000,
-      "gross_profit": 345861000,
-      "operating_income": 147030000,
-      "net_income": 114501000,
-      "opex": 198831000,
-      "cogs": 463063000,
-      "rd": 16438000,
-      "sga": 182373000,
-      "fcf": 151961000,
-      "ocf": 205712000,
-      "capex": -53751000,
-      "gross_margin": 0.4275568533014226,
-      "op_margin": 0.1817599675618476,
-      "fcf_margin": 0.18785571944954038
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -74765000,
       "gross_margin": 0.4348076942890407,
       "op_margin": 0.16722245690193022,
-      "fcf_margin": 0.12946306427591006,
-      "op_leverage_ratio": 0.43236133292430295,
-      "fcf_margin_change": -0.05839265517363032
+      "fcf_margin": 0.12946306427591006
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.40129492015355245,
       "op_margin": 0.09733037590278909,
       "fcf_margin": 0.07883724524534559,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.036469351909589075
     },
     {
@@ -97,9 +79,7 @@
       "gross_margin": 0.4451008336841827,
       "op_margin": 0.16785597007703246,
       "fcf_margin": 0.13498421384797485,
-      "incr_op_margin_yoy": 0.13974108042305028,
-      "rev_growth_yoy": 0.49454213251183055,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05614696860262926
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": 0.08149016342800693,
       "incr_op_margin_yoy": -0.16080437780842638,
       "rev_growth_yoy": 0.38596798510871394,
-      "rev_growth_yoy_accel": -0.1085741474031166,
       "fcf_margin_change": -0.05349405041996792
     },
     {
@@ -189,7 +168,7 @@
       "incr_op_margin_yoy": -1.727182115904884,
       "rev_growth_yoy": 0.005809072343339915,
       "rev_growth_yoy_accel": 0.0028583252579545506,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07601316058378461
     },
     {
@@ -280,7 +259,7 @@
       "incr_op_margin_yoy": 0.14112362302464224,
       "rev_growth_yoy": 0.14774003819097792,
       "rev_growth_yoy_accel": 0.029588441837073723,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07667496676350137
     },
     {
@@ -303,7 +282,7 @@
       "incr_op_margin_yoy": 0.1434900640677598,
       "rev_growth_yoy": 0.1078125146341235,
       "rev_growth_yoy_accel": -0.039927523556854416,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.008403767745356491
     },
     {
@@ -348,7 +327,7 @@
       "incr_op_margin_yoy": -2.5140541344437835,
       "rev_growth_yoy": -0.01001817694210197,
       "rev_growth_yoy_accel": -0.0060945995113912575,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04082543040576672
     },
     {
@@ -363,8 +342,8 @@
       "rd": 27358000,
       "sga": 335450000,
       "fcf": 243600000,
-      "ocf": 332806000,
-      "capex": -89206000,
+      "ocf": 332800000,
+      "capex": -89200000,
       "gross_margin": 0.4453125342010988,
       "op_margin": 0.17897152279708442,
       "fcf_margin": 0.17773627031089254,
@@ -386,8 +365,8 @@
       "rd": 27686000,
       "sga": 333902000,
       "fcf": 189896000,
-      "ocf": 260781000,
-      "capex": -70885000,
+      "ocf": 260787000,
+      "capex": -70891000,
       "gross_margin": 0.43309528810946885,
       "op_margin": 0.14599559212201568,
       "fcf_margin": 0.1282620897502315,
@@ -439,11 +418,40 @@
       "incr_op_margin_yoy": 0.35112795689104026,
       "rev_growth_yoy": 0.09886884910362763,
       "rev_growth_yoy_accel": 0.011648977622379458,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09678607461892247
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1496200000,
+      "gross_profit": 655500000,
+      "operating_income": 273200000,
+      "net_income": 192900000,
+      "opex": 382300000,
+      "cogs": 840700000,
+      "rd": 29500000,
+      "sga": 352300000,
+      "fcf": 199500000,
+      "ocf": 298200000,
+      "capex": -98700000,
+      "gross_margin": 0.43810987835850823,
+      "op_margin": 0.18259590963774897,
+      "fcf_margin": 0.13333778906563293,
+      "incr_op_margin_yoy": 0.22213643238080077,
+      "rev_growth_yoy": 0.09166259293578584,
+      "rev_growth_yoy_accel": -0.00720625616784179,
+      "op_leverage_ratio": 4.2474429289124895,
+      "fcf_margin_change": -0.004510598252041531
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +2.5% vs OpEx growth +0.6% (leverage: 4.2x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -571,12 +579,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +38.6% vs prior quarter YoY: +49.5% (decel: -10.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.9% -> +13.5% (+5.6%)",
@@ -614,5 +616,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:12:13.494038"
+  "last_updated": "2026-02-09T19:10:02.398839"
 }

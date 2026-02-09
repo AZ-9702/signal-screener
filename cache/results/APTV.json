@@ -1,25 +1,9 @@
 {
   "ticker": "APTV",
-  "name": "Aptiv PLC",
+  "name": "APTIV PLC",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4212000000,
-      "gross_profit": 779000000,
-      "operating_income": 446000000,
-      "net_income": 299000000,
-      "opex": 3766000000,
-      "cogs": 3433000000,
-      "rd": null,
-      "sga": 278000000,
-      "fcf": 799000000,
-      "ocf": 799000000,
-      "capex": null,
-      "gross_margin": 0.18494776828110163,
-      "op_margin": 0.10588793922127256,
-      "fcf_margin": 0.18969610636277304
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.18071091225453642,
       "op_margin": 0.10663683818046234,
-      "fcf_margin": 0.06263982102908278,
-      "fcf_margin_change": -0.12705628533369026
+      "fcf_margin": 0.06263982102908278
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.14296081277213352,
       "op_margin": 0.06289308176100629,
       "fcf_margin": 0.16182873730043543,
-      "incr_op_margin_yoy": 2.3846153846153846,
-      "rev_growth_yoy": -0.018518518518518517,
       "op_leverage_ratio": 1.0385217900081158,
       "fcf_margin_change": 0.16073404655057227
     },
@@ -118,7 +99,6 @@
       "fcf_margin": -0.04834849210148397,
       "incr_op_margin_yoy": -1.1161290322580646,
       "rev_growth_yoy": 0.038528461347253296,
-      "rev_growth_yoy_accel": 0.05704697986577181,
       "op_leverage_ratio": 0.8590146750524109,
       "fcf_margin_change": -0.2101772294019194
     },
@@ -435,9 +415,37 @@
       "rev_growth_yoy": 0.07375360527400082,
       "rev_growth_yoy_accel": 0.04267065140348013,
       "fcf_margin_change": 0.014122850140229376
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5153000000,
+      "gross_profit": 963000000,
+      "operating_income": 425000000,
+      "net_income": 138000000,
+      "opex": 4728000000,
+      "cogs": 4190000000,
+      "rd": null,
+      "sga": 450000000,
+      "fcf": 818000000,
+      "ocf": 818000000,
+      "capex": null,
+      "gross_margin": 0.18688142829419754,
+      "op_margin": 0.08247622744032602,
+      "fcf_margin": 0.15874248010867456,
+      "incr_op_margin_yoy": -0.21951219512195122,
+      "rev_growth_yoy": 0.050132463827185655,
+      "rev_growth_yoy_accel": -0.023621141446815166,
+      "fcf_margin_change": 0.04669336268733919
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -3.4% -> +8.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -541,22 +549,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +3.9% vs prior quarter YoY: -1.9% (accel: +5.7%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.1% -> +16.2% (+16.1%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +238.5% vs year-ago OPM: +10.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -584,7 +580,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:31.597699",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-09T19:07:00.675504"
 }

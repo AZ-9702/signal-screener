@@ -1,25 +1,9 @@
 {
   "ticker": "SMCI",
-  "name": "SUPER MICRO COMPUTER, INC.",
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 830306000,
-      "gross_profit": 136095000,
-      "operating_income": 37365000,
-      "net_income": 27674000,
-      "opex": 98730000,
-      "cogs": 694211000,
-      "rd": 52729000,
-      "sga": null,
-      "fcf": 49547000,
-      "ocf": 63247000,
-      "capex": -13700000,
-      "gross_margin": 0.16390945025087136,
-      "op_margin": 0.045001481381562944,
-      "fcf_margin": 0.05967318073095943
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -19076000,
       "gross_margin": 0.1373139959436577,
       "op_margin": 0.019037126582659974,
-      "fcf_margin": -0.16016189650187915,
-      "op_leverage_ratio": 1.078178935094704,
-      "fcf_margin_change": -0.21983507723283857
+      "fcf_margin": -0.16016189650187915
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.1396625267928957,
       "op_margin": 0.043541600741714356,
       "fcf_margin": -0.05591431049820926,
-      "incr_op_margin_yoy": 0.03999848003437461,
-      "rev_growth_yoy": 0.41203243141685114,
       "op_leverage_ratio": 4.003538598978276,
       "fcf_margin_change": 0.08485142691621657
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.17623663767346126,
       "incr_op_margin_yoy": 0.15822579627465955,
       "rev_growth_yoy": 0.5130246092952078,
-      "rev_growth_yoy_accel": 0.10099217787835663,
       "op_leverage_ratio": 2.119093696184468,
       "fcf_margin_change": -0.120322327175252
     },
@@ -439,9 +418,50 @@
       "rev_growth_yoy": -0.15486379566587663,
       "rev_growth_yoy_accel": -0.22999972113093098,
       "fcf_margin_change": -0.33535912050559247
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 12682491000,
+      "gross_profit": 798567000,
+      "operating_income": 474298000,
+      "net_income": 400564000,
+      "opex": 324269000,
+      "cogs": 11883924000,
+      "rd": 180761000,
+      "sga": null,
+      "fcf": -45119000,
+      "ocf": -23898000,
+      "capex": -21221000,
+      "gross_margin": 0.06296610027162645,
+      "op_margin": 0.037397858196784844,
+      "fcf_margin": -0.003557581866212245,
+      "incr_op_margin_yoy": 0.015086524732783603,
+      "rev_growth_yoy": 1.2336343568343713,
+      "rev_growth_yoy_accel": 1.388498152500248,
+      "op_leverage_ratio": 11.12376733981495,
+      "fcf_margin_change": 0.1857275416642663
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -18.9% -> -0.4% (+18.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +152.8% vs OpEx growth +13.7% (leverage: 11.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +123.4% vs prior quarter YoY: -15.5% (accel: +138.8%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -642,12 +662,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +51.3% vs prior quarter YoY: +41.2% (accel: +10.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +15.8% vs year-ago OPM: +1.9%",
       "severity": "MEDIUM"
@@ -702,5 +716,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:23.394181"
+  "last_updated": "2026-02-09T19:10:10.514035"
 }

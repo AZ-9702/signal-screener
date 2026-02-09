@@ -1,6 +1,8 @@
 {
   "ticker": "RDDT",
   "name": "Reddit, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -57,7 +59,7 @@
       "gross_margin": 0.8728000848160071,
       "op_margin": -0.09438190334830464,
       "fcf_margin": -0.05608940378202286,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2437669047121666
     },
     {
@@ -121,7 +123,7 @@
       "incr_op_margin_yoy": 0.22363045449451366,
       "rev_growth_yoy": 0.5362643486622485,
       "rev_growth_yoy_accel": 0.05243022138730041,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02356306191801194
     },
     {
@@ -237,9 +239,50 @@
       "rev_growth_yoy_accel": -0.09778335178558217,
       "op_leverage_ratio": 5.101089595222316,
       "fcf_margin_change": 0.09122331156486965
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 725607000,
+      "gross_profit": 666889000,
+      "operating_income": 231828000,
+      "net_income": 251603000,
+      "opex": 493779000,
+      "cogs": 58718000,
+      "rd": 198885000,
+      "sga": null,
+      "fcf": 263643000,
+      "ocf": 266807000,
+      "capex": -3164000,
+      "gross_margin": 0.9190774069158649,
+      "op_margin": 0.3194952639652043,
+      "fcf_margin": 0.36334131285944044,
+      "incr_op_margin_yoy": 0.6007250755287009,
+      "rev_growth_yoy": 0.6965048502830209,
+      "rev_growth_yoy_accel": 0.01741967469862471,
+      "op_leverage_ratio": 2.264727908056498,
+      "fcf_margin_change": 0.05030052545759639
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +31.3% -> +36.3% (+5.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +24.1% vs OpEx growth +10.6% (leverage: 2.3x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +60.1% vs year-ago OPM: +12.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -380,23 +423,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
-        11,
-        11
+        12,
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [],
@@ -404,5 +447,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:04:59.483681"
+  "last_updated": "2026-02-09T19:09:42.646931"
 }

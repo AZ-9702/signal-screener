@@ -1,6 +1,8 @@
 {
   "ticker": "MSGE",
   "name": "MADISON SQUARE GARDEN ENTERTAINMENT CORP.",
+  "sector": "Consumer Cyclical",
+  "industry": "Leisure",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -316,9 +318,49 @@
       "rev_growth_yoy": 0.14092305030494398,
       "rev_growth_yoy_accel": 0.3125536918776516,
       "fcf_margin_change": 0.3003986170450853
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 459940000,
+      "gross_profit": null,
+      "operating_income": 163815000,
+      "net_income": 92715000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 68359000,
+      "fcf": 164386000,
+      "ocf": 164386000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.3561660216549985,
+      "fcf_margin": 0.3574074879332087,
+      "incr_op_margin_yoy": 0.4724406450507397,
+      "rev_growth_yoy": 0.12891705549842053,
+      "rev_growth_yoy_accel": -0.012005994806523451,
+      "fcf_margin_change": 0.23224794236952317
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +12.5% -> +35.7% (+23.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +47.2% vs year-ago OPM: +34.1%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -18.8% -> +35.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -429,23 +471,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
         0,
-        15
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        14,
-        15
+        15,
+        16
       ]
     },
     "gaps": [],
@@ -455,7 +497,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:24:01.627524",
-  "sector": "Consumer Cyclical",
-  "industry": "Leisure"
+  "last_updated": "2026-02-09T19:08:55.473044"
 }

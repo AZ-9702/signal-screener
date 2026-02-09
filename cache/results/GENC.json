@@ -1,25 +1,9 @@
 {
   "ticker": "GENC",
-  "name": "GENCOR INDUSTRIES INC",
+  "name": "GENCOR INDUSTRIES, INC.",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 18964000,
-      "gross_profit": 2981000,
-      "operating_income": -1058000,
-      "net_income": 1551000,
-      "opex": 4039000,
-      "cogs": 15983000,
-      "rd": 845000,
-      "sga": 3194000,
-      "fcf": 3705000,
-      "ocf": 3705000,
-      "capex": null,
-      "gross_margin": 0.1571925754060325,
-      "op_margin": -0.05578991773887366,
-      "fcf_margin": 0.19537017506855095
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.28784188834769575,
       "op_margin": 0.05802735106781566,
-      "fcf_margin": 0.26124016485575124,
-      "op_leverage_ratio": 0.5859472276843732,
-      "fcf_margin_change": 0.0658699897872003
+      "fcf_margin": 0.26124016485575124
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.2249287692122477,
       "op_margin": 0.04923953609695413,
       "fcf_margin": -0.0462699145230547,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3075100793788059
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.1842733512384363,
       "op_margin": -0.05187506217049637,
       "fcf_margin": -0.048791405550581916,
-      "incr_op_margin_yoy": 0.013134851138353765,
-      "rev_growth_yoy": 0.06021936300358574,
       "fcf_margin_change": 0.16624626346104307
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.06609251647419587,
       "incr_op_margin_yoy": 0.07192001720060202,
       "rev_growth_yoy": 0.43565005620082425,
-      "rev_growth_yoy_accel": 0.37543069319723854,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11488392202477779
     },
     {
@@ -187,7 +166,7 @@
       "incr_op_margin_yoy": 0.5528938625633852,
       "rev_growth_yoy": 0.28444245498856063,
       "rev_growth_yoy_accel": 0.13331737391287335,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21549640134909964
     },
     {
@@ -364,7 +343,7 @@
       "incr_op_margin_yoy": 0.22989996294924045,
       "rev_growth_yoy": 0.2074717503266969,
       "rev_growth_yoy_accel": 0.20507608169558195,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6253441438974832
     },
     {
@@ -433,9 +412,56 @@
       "rev_growth_yoy": -0.09989962238898714,
       "rev_growth_yoy_accel": -0.1560618078220426,
       "fcf_margin_change": 0.8712261102641102
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 23577000,
+      "gross_profit": 6755000,
+      "operating_income": 3101000,
+      "net_income": 3442000,
+      "opex": 3654000,
+      "cogs": 16822000,
+      "rd": 758000,
+      "sga": 2896000,
+      "fcf": 11117000,
+      "ocf": 11117000,
+      "capex": null,
+      "gross_margin": 0.28650803749416803,
+      "op_margin": 0.1315264876786699,
+      "fcf_margin": 0.47151885311956565,
+      "incr_op_margin_yoy": 0.19428498532976146,
+      "rev_growth_yoy": -0.24952253628724216,
+      "rev_growth_yoy_accel": -0.14962291389825502,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.4861224323240689
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.5% -> +47.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +26.5% -> +24.2% -> +28.7% (reversal +4.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -25.0% vs prior quarter YoY: -10.0% (decel: -15.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1.2% -> +13.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -612,12 +638,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +43.6% vs prior quarter YoY: +6.0% (accel: +37.5%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -5.2% -> +6.2%",
       "severity": "HIGH"
@@ -627,18 +647,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -21.5% -> -4.9% (+16.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +19.5% -> +26.1% (+6.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -5.6% -> +5.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -666,7 +674,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:01:34.118885",
-  "sector": "Industrials",
-  "industry": "Farm & Heavy Construction Machinery"
+  "last_updated": "2026-02-09T19:07:46.807144"
 }

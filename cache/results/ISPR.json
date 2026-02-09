@@ -1,6 +1,8 @@
 {
   "ticker": "ISPR",
   "name": "Ispire Technology Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Tobacco",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -76,7 +78,7 @@
       "gross_margin": 0.161097085063268,
       "op_margin": 0.009713738728352114,
       "fcf_margin": 0.18766621065247358,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11673537691241816
     },
     {
@@ -120,7 +122,7 @@
       "incr_op_margin_yoy": 0.22700922624212738,
       "rev_growth_yoy": 0.4934512503277773,
       "rev_growth_yoy_accel": 0.2240651210826557,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04411044740021686
     },
     {
@@ -233,7 +235,7 @@
       "incr_op_margin_yoy": 1.2340283138239316,
       "rev_growth_yoy": -0.08226672203786024,
       "rev_growth_yoy_accel": -0.2267604957879748,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14354177914122354
     },
     {
@@ -322,11 +324,39 @@
       "incr_op_margin_yoy": -0.2856834807818788,
       "rev_growth_yoy": -0.22846503356664025,
       "rev_growth_yoy_accel": 0.2322862463031586,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.22475441506572696
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 20286556,
+      "gross_profit": 3474601,
+      "operating_income": -6874867,
+      "net_income": -6602911,
+      "opex": 10349468,
+      "cogs": 16811955,
+      "rd": null,
+      "sga": null,
+      "fcf": -4036160,
+      "ocf": -3966784,
+      "capex": -69376,
+      "gross_margin": 0.17127604113778602,
+      "op_margin": -0.33888783290766555,
+      "fcf_margin": -0.19895737847271858,
+      "incr_op_margin_yoy": -0.022523613240869725,
+      "rev_growth_yoy": -0.5149989504602913,
+      "rev_growth_yoy_accel": -0.28653391689365104,
+      "fcf_margin_change": -0.1597127554824953
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -51.5% vs prior quarter YoY: -22.8% (decel: -28.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -461,23 +491,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        14,
-        15
+        15,
+        16
       ]
     },
     "gaps": [],
@@ -485,7 +515,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:04:40.275307",
-  "sector": "Consumer Defensive",
-  "industry": "Tobacco"
+  "last_updated": "2026-02-09T19:08:24.257217"
 }

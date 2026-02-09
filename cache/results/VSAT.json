@@ -1,25 +1,9 @@
 {
   "ticker": "VSAT",
-  "name": "VIASAT INC",
+  "name": "VIASAT, INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 575559000,
-      "gross_profit": null,
-      "operating_income": 21760000,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": 28803000,
-      "sga": 132394000,
-      "fcf": -5522000,
-      "ocf": 223852000,
-      "capex": -229374000,
-      "gross_margin": null,
-      "op_margin": 0.03780672355049613,
-      "fcf_margin": -0.009594151077474246
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -171569000,
       "gross_margin": null,
       "op_margin": 0.048850082748387834,
-      "fcf_margin": -0.002900389739871295,
-      "fcf_margin_change": 0.006693761337602951
+      "fcf_margin": -0.002900389739871295
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.00628997230856017,
       "fcf_margin": -0.0893170510075488,
-      "incr_op_margin_yoy": -0.11954244648233188,
-      "rev_growth_yoy": 0.25046606863935755,
       "fcf_margin_change": -0.03298173389236874
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.2106443742660723,
       "incr_op_margin_yoy": -0.4710164083004475,
       "rev_growth_yoy": 0.17778650580245794,
-      "rev_growth_yoy_accel": -0.07267956283689961,
       "fcf_margin_change": -0.1213273232585235
     },
     {
@@ -347,7 +327,7 @@
       "gross_profit": null,
       "operating_income": 21248000,
       "net_income": -158413000,
-      "opex": null,
+      "opex": 1036672000,
       "cogs": null,
       "rd": 36701000,
       "sga": 238024000,
@@ -369,7 +349,7 @@
       "gross_profit": null,
       "operating_income": -153785000,
       "net_income": -246053000,
-      "opex": null,
+      "opex": 1235020000,
       "cogs": null,
       "rd": 33740000,
       "sga": 419497000,
@@ -382,6 +362,7 @@
       "incr_op_margin_yoy": 52.56908904810645,
       "rev_growth_yoy": -0.0025486668411574477,
       "rev_growth_yoy_accel": 0.0016798090909990837,
+      "op_leverage_ratio": 0.10843580003572956,
       "fcf_margin_change": 0.06488711695202909
     },
     {
@@ -404,6 +385,7 @@
       "incr_op_margin_yoy": -0.29293178454500607,
       "rev_growth_yoy": 0.039587735028318805,
       "rev_growth_yoy_accel": 0.04213640186947625,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.039468662211933514
     },
     {
@@ -427,9 +409,44 @@
       "rev_growth_yoy": 0.016601292746257112,
       "rev_growth_yoy_accel": -0.022986442282061693,
       "fcf_margin_change": 0.02667975751202803
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1157045000,
+      "gross_profit": null,
+      "operating_income": 26302000,
+      "net_income": 24968000,
+      "opex": 1065905000,
+      "cogs": null,
+      "rd": 46929000,
+      "sga": 240708000,
+      "fcf": 726888000,
+      "ocf": 726888000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.02273204585819912,
+      "fcf_margin": 0.6282279427334287,
+      "incr_op_margin_yoy": 0.15187210769877998,
+      "rev_growth_yoy": 0.029612900183045063,
+      "rev_growth_yoy_accel": 0.013011607436787951,
+      "op_leverage_ratio": 0.5694739363471343,
+      "fcf_margin_change": 0.3808410273960571
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +24.7% -> +62.8% (+38.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +15.2% vs year-ago OPM: +1.9%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -569,12 +586,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +17.8% vs prior quarter YoY: +25.0% (decel: -7.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -27.2% -> -5.6% (+21.6%)",
@@ -608,5 +619,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:54.135969"
+  "last_updated": "2026-02-09T19:10:36.489702"
 }

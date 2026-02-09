@@ -1,25 +1,9 @@
 {
   "ticker": "MSGS",
   "name": "MADISON SQUARE GARDEN SPORTS CORP.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 28771000,
-      "gross_profit": null,
-      "operating_income": -38406000,
-      "net_income": -40625000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 48909000,
-      "fcf": 35791000,
-      "ocf": 35852000,
-      "capex": -61000,
-      "gross_margin": null,
-      "op_margin": -1.3348858225296305,
-      "fcf_margin": 1.2439956901046192
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -296000,
       "gross_margin": null,
       "op_margin": 0.04439101688432326,
-      "fcf_margin": -0.18048194087754768,
-      "fcf_margin_change": -1.424477630982167
+      "fcf_margin": -0.18048194087754768
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.12403783397391403,
       "fcf_margin": 0.1489876752963765,
-      "incr_op_margin_yoy": 0.28497756987845557,
-      "rev_growth_yoy": 9.065030760140418,
       "fcf_margin_change": 1.1860739794359956
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.1175164459076187,
       "incr_op_margin_yoy": 0.3441950324364839,
       "rev_growth_yoy": 0.8456587071744713,
-      "rev_growth_yoy_accel": -8.219372052965946,
       "fcf_margin_change": -0.03147122938875779
     },
     {
@@ -427,9 +407,55 @@
       "rev_growth_yoy": -0.2598720618305288,
       "rev_growth_yoy_accel": -0.15736866250555331,
       "fcf_margin_change": -2.404607872354306
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 403424000,
+      "gross_profit": null,
+      "operating_income": 22180000,
+      "net_income": 8243000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 69065000,
+      "fcf": 31588000,
+      "ocf": 32445000,
+      "capex": -857000,
+      "gross_margin": null,
+      "op_margin": 0.05497937653684461,
+      "fcf_margin": 0.07829975410486238,
+      "incr_op_margin_yoy": 0.19413117267053542,
+      "rev_growth_yoy": 0.1276417923797864,
+      "rev_growth_yoy_accel": 0.3875138542103152,
+      "fcf_margin_change": 2.240944859797568
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -216.3% -> +7.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +12.8% vs prior quarter YoY: -26.0% (accel: +38.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +19.4% vs year-ago OPM: +3.7%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -69.5% -> +5.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -612,12 +638,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +84.6% vs prior quarter YoY: +906.5% (decel: -821.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +34.4% vs year-ago OPM: +4.4%",
       "severity": "HIGH"
@@ -630,12 +650,6 @@
     },
     {
       "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -133.5% (year-ago) -> +12.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -185.9% -> +12.4%",
       "severity": "HIGH"
@@ -644,12 +658,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -18.0% -> +12.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -133.5% -> +4.4%",
       "severity": "HIGH"
     }
   ],
@@ -680,7 +688,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:51:52.593660",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-09T19:08:59.287613"
 }

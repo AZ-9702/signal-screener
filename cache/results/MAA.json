@@ -1,25 +1,9 @@
 {
   "ticker": "MAA",
   "name": "MID-AMERICA APARTMENT COMMUNITIES, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 423661000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 83342000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 180064000,
-      "ocf": 180064000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.42501906005037043
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.34849237067799205,
-      "fcf_margin_change": -0.07652668937237839
+      "fcf_margin": 0.34849237067799205
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.46749069729817183,
-      "rev_growth_yoy": 0.09421211770731788,
       "fcf_margin_change": -0.15325061629626002
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.3772974176500489,
       "rev_growth_yoy": 0.1201703509370478,
-      "rev_growth_yoy_accel": 0.025958233229729913,
       "fcf_margin_change": -0.0901932796481229
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.005891574703425351,
       "rev_growth_yoy_accel": -0.0004531872536235205,
       "fcf_margin_change": -0.16214124984326345
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 555556000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 57571000,
+      "opex": 205736000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 261672000,
+      "ocf": 261672000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.47100922319262145,
+      "rev_growth_yoy": 0.010410452647354101,
+      "rev_growth_yoy_accel": 0.00451887794392875,
+      "fcf_margin_change": -0.009598598616882281
     }
   ],
   "signals": [
@@ -485,7 +487,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:24:09.421732",
-  "sector": "Real Estate",
-  "industry": "REIT - Residential"
+  "last_updated": "2026-02-09T19:08:48.806824"
 }

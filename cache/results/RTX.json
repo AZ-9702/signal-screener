@@ -1,25 +1,9 @@
 {
   "ticker": "RTX",
-  "name": "RTX CORPORATION",
+  "name": "RTX Corporation",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 16419000000,
-      "gross_profit": 2153000000,
-      "operating_income": 142000000,
-      "net_income": 135000000,
-      "opex": 16327000000,
-      "cogs": null,
-      "rd": 710000000,
-      "sga": 1351000000,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.1311285705584993,
-      "op_margin": 0.008648516962056154,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -93,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.07744660877728232,
       "fcf_margin": null,
-      "incr_op_margin_yoy": 1.8848,
-      "rev_growth_yoy": 0.038065655642852796,
       "op_leverage_ratio": 0.915995176548315
     },
     {
@@ -115,8 +97,7 @@
       "op_margin": 0.0687197760244337,
       "fcf_margin": 0.0023542886230593025,
       "incr_op_margin_yoy": 0.14408602150537633,
-      "rev_growth_yoy": 0.030489803947282144,
-      "rev_growth_yoy_accel": -0.007575851695570651
+      "rev_growth_yoy": 0.030489803947282144
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -342,7 +323,7 @@
       "incr_op_margin_yoy": 0.5168301886792452,
       "rev_growth_yoy": 0.4920528817587641,
       "rev_growth_yoy_accel": 0.41528520499108734,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.013239984255550341
     },
     {
@@ -435,6 +416,29 @@
       "rev_growth_yoy_accel": 0.024605098357388472,
       "op_leverage_ratio": 1.4907283647550627,
       "fcf_margin_change": 0.1824002416766677
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 24238000000,
+      "gross_profit": null,
+      "operating_income": 2596000000,
+      "net_income": 1622000000,
+      "opex": 21948000000,
+      "cogs": null,
+      "rd": 789000000,
+      "sga": 1638000000,
+      "fcf": 3195000000,
+      "ocf": 4165000000,
+      "capex": -970000000,
+      "gross_margin": null,
+      "op_margin": 0.1071045465797508,
+      "fcf_margin": 0.13181780674973181,
+      "incr_op_margin_yoy": 0.18546845124282982,
+      "rev_growth_yoy": 0.12093604032742912,
+      "rev_growth_yoy_accel": 0.002015237898239014,
+      "op_leverage_ratio": 0.8121165796193585,
+      "fcf_margin_change": -0.04724616691340547
     }
   ],
   "signals": [
@@ -547,12 +551,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +188.5% vs year-ago OPM: +0.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.1% vs OpEx growth +2.3% (leverage: 1.8x)",
@@ -567,7 +565,7 @@
         20
       ],
       "gross_profit": [
-        1,
+        0,
         20
       ],
       "op_income": [
@@ -575,17 +573,16 @@
         20
       ],
       "fcf": [
-        15,
+        16,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 1/20Q",
-      "fcf: 15/20Q"
+      "gross_profit: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:08.481562"
+  "last_updated": "2026-02-09T19:09:39.785195"
 }

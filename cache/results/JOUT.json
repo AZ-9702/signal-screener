@@ -1,25 +1,9 @@
 {
   "ticker": "JOUT",
   "name": "Johnson Outdoors Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Leisure",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 165667000,
-      "gross_profit": 75030000,
-      "operating_income": 23557000,
-      "net_income": 19847000,
-      "opex": 51473000,
-      "cogs": 90637000,
-      "rd": 6049000,
-      "sga": null,
-      "fcf": -11238000,
-      "ocf": -11238000,
-      "capex": null,
-      "gross_margin": 0.4528964730453259,
-      "op_margin": 0.14219488491974866,
-      "fcf_margin": -0.06783487357168295
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.4523467665263199,
       "op_margin": 0.17479966627214344,
-      "fcf_margin": -0.0034779487378490074,
-      "op_leverage_ratio": 2.189729608636466,
-      "fcf_margin_change": 0.06435692483383394
+      "fcf_margin": -0.0034779487378490074
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.39492848023761756,
       "op_margin": 0.08962768036267946,
       "fcf_margin": -0.4088806961777963,
-      "incr_op_margin_yoy": 0.8068022729144363,
-      "rev_growth_yoy": -0.0732976392401625,
       "fcf_margin_change": -0.41313307197474086
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.22083291583826856,
       "incr_op_margin_yoy": 1.2464162583923062,
       "rev_growth_yoy": -0.08019655018529658,
-      "rev_growth_yoy_accel": -0.006898910945134076,
       "op_leverage_ratio": 1.7535486992339522,
       "fcf_margin_change": 0.18804778033952776
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 1.4668171094471227,
       "rev_growth_yoy": -0.045648224453101585,
       "rev_growth_yoy_accel": 0.03454832573219499,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.31029955045035085
     },
     {
@@ -367,7 +346,7 @@
       "incr_op_margin_yoy": 0.6544603968381997,
       "rev_growth_yoy": -0.22355817777906004,
       "rev_growth_yoy_accel": -0.3224631546849711,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5231257518514218
     },
     {
@@ -437,6 +416,29 @@
       "rev_growth_yoy": 0.28229782571736217,
       "rev_growth_yoy_accel": 0.23485244327847354,
       "fcf_margin_change": -0.22276463325722484
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 140935000,
+      "gross_profit": 51610000,
+      "operating_income": -2912000,
+      "net_income": -3300000,
+      "opex": 54522000,
+      "cogs": 89325000,
+      "rd": 7862000,
+      "sga": null,
+      "fcf": -38415000,
+      "ocf": -38415000,
+      "capex": null,
+      "gross_margin": 0.36619718309859156,
+      "op_margin": -0.02066200730833363,
+      "fcf_margin": -0.2725724624827048,
+      "incr_op_margin_yoy": 0.5205491798353662,
+      "rev_growth_yoy": 0.30920863175691365,
+      "rev_growth_yoy_accel": 0.026910806039551483,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.44490345348165883
     }
   ],
   "signals": [
@@ -645,28 +647,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +80.7% vs year-ago OPM: +14.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.3% -> +32.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -6.8% -> -0.3% (+6.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +24.4% vs OpEx growth +11.2% (leverage: 2.2x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -694,7 +678,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:27:46.328672",
-  "sector": "Consumer Cyclical",
-  "industry": "Leisure"
+  "last_updated": "2026-02-09T19:08:32.794630"
 }

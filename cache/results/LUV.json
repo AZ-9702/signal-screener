@@ -1,25 +1,9 @@
 {
   "ticker": "LUV",
   "name": "SOUTHWEST AIRLINES CO.",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2013000000,
-      "gross_profit": null,
-      "operating_income": -1169000000,
-      "net_income": -908000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -596000000,
-      "ocf": -596000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.5807252856433184,
-      "fcf_margin": -0.29607550919026326
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.09697855750487329,
-      "fcf_margin": 0.31432748538011696,
-      "fcf_margin_change": 0.6104029945703802
+      "fcf_margin": 0.31432748538011696
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.0386062165907741,
       "fcf_margin": 0.0489012076816472,
-      "incr_op_margin_yoy": 0.4489795918367347,
-      "rev_growth_yoy": 1.509190263288624,
       "fcf_margin_change": 0.17179071398641316
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.2281636131231359,
       "incr_op_margin_yoy": -0.13247539742619227,
       "rev_growth_yoy": 1.2875243664717348,
-      "rev_growth_yoy_accel": -0.2216658968168892,
       "fcf_margin_change": 0.1792624054414887
     },
     {
@@ -427,9 +407,43 @@
       "rev_growth_yoy": 0.011499272197962155,
       "rev_growth_yoy_accel": 0.02645711826812805,
       "fcf_margin_change": -0.014055250214169826
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7442000000,
+      "gross_profit": null,
+      "operating_income": 391000000,
+      "net_income": 323000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 295000000,
+      "ocf": 295000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.05253963988175222,
+      "fcf_margin": 0.039639881752217145,
+      "incr_op_margin_yoy": 0.220703125,
+      "rev_growth_yoy": 0.07388167388167388,
+      "rev_growth_yoy_accel": 0.06238240168371173,
+      "fcf_margin_change": -0.0016610248530498015
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +7.4% vs prior quarter YoY: +1.1% (accel: +6.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +22.1% vs year-ago OPM: +4.0%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -545,21 +559,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +128.8% vs prior quarter YoY: +150.9% (decel: -22.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -12.3% -> +4.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -58.1% (year-ago) -> +3.9%",
       "severity": "HIGH"
     },
     {
@@ -567,18 +569,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +31.4% -> +50.0% (+18.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -29.6% -> +31.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -58.1% -> +9.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -608,7 +598,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:17:00.718028",
-  "sector": "Industrials",
-  "industry": "Airlines"
+  "last_updated": "2026-02-09T19:09:58.566562"
 }

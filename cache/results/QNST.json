@@ -1,25 +1,9 @@
 {
   "ticker": "QNST",
   "name": "QuinStreet, Inc.",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
   "quarters": [
-    {
-      "date": "2020-09-30T00:00:00",
-      "quarter_label": "2020-09 (Q3)",
-      "revenue": 139269000,
-      "gross_profit": 17038000,
-      "operating_income": 2923000,
-      "net_income": 14681000,
-      "opex": 14115000,
-      "cogs": 122231000,
-      "rd": 4891000,
-      "sga": null,
-      "fcf": 17121000,
-      "ocf": 17558000,
-      "capex": -437000,
-      "gross_margin": 0.12233878321808873,
-      "op_margin": 0.0209881596047936,
-      "fcf_margin": 0.12293475217026043
-    },
     {
       "date": "2020-12-31T00:00:00",
       "quarter_label": "2020-12 (Q4)",
@@ -36,8 +20,7 @@
       "capex": -604000,
       "gross_margin": 0.10766255705056013,
       "op_margin": -0.0017115168039831664,
-      "fcf_margin": 0.036860589176693735,
-      "fcf_margin_change": -0.08607416299356668
+      "fcf_margin": 0.036860589176693735
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.13320309437315422,
       "op_margin": 0.04086192927893788,
       "fcf_margin": 0.08323968324491023,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04637909406821649
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.11342163300085209,
       "op_margin": 0.024672948724374717,
       "fcf_margin": 0.03348203097589093,
-      "incr_op_margin_yoy": 0.049904125079895764,
-      "rev_growth_yoy": 0.14604111467735104,
       "op_leverage_ratio": 1.3266437201086156,
       "fcf_margin_change": -0.05785515602393711
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.10869617253512698,
       "incr_op_margin_yoy": 0.7597800145273426,
       "rev_growth_yoy": -0.07140211012980854,
-      "rev_growth_yoy_accel": -0.21744322480715958,
       "fcf_margin_change": 0.07521414155923604
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 2.1695906432748537,
       "rev_growth_yoy": -0.015641742675691923,
       "rev_growth_yoy_accel": 0.055760367454116624,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1110989656161449
     },
     {
@@ -343,7 +323,7 @@
       "incr_op_margin_yoy": 0.05733064741431281,
       "rev_growth_yoy": 0.521893609184112,
       "rev_growth_yoy_accel": 0.5455455252557163,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.060360214124333254
     },
     {
@@ -389,7 +369,7 @@
       "incr_op_margin_yoy": 0.06257777666606217,
       "rev_growth_yoy": 1.3034650277544566,
       "rev_growth_yoy_accel": 0.050299755771047616,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18593699767324934
     },
     {
@@ -434,11 +414,39 @@
       "incr_op_margin_yoy": 0.9038287609285499,
       "rev_growth_yoy": 0.023759128139560704,
       "rev_growth_yoy_accel": -0.5768506460423157,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.044756266055960406
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 287845000,
+      "gross_profit": 27722000,
+      "operating_income": 1247000,
+      "net_income": 50227000,
+      "opex": 26475000,
+      "cogs": 260123000,
+      "rd": 8316000,
+      "sga": null,
+      "fcf": 20734000,
+      "ocf": 21623000,
+      "capex": -889000,
+      "gross_margin": 0.09630877729333495,
+      "op_margin": 0.004332192673140058,
+      "fcf_margin": 0.0720318226823464,
+      "incr_op_margin_yoy": 0.5020003810249571,
+      "rev_growth_yoy": 0.018574219026454727,
+      "rev_growth_yoy_accel": -0.005184909113105977,
+      "fcf_margin_change": 0.007568619567458676
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.5% (year-ago) -> +0.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -602,18 +610,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -7.1% vs prior quarter YoY: +14.6% (decel: -21.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +12.2% -> +10.8% -> +13.3% (reversal +2.6%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.2% -> +4.1%",
@@ -653,5 +649,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:08:28.440420"
+  "last_updated": "2026-02-09T19:09:30.771111"
 }

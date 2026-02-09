@@ -1,25 +1,9 @@
 {
   "ticker": "AXP",
-  "name": "AMERICAN EXPRESS CO",
+  "name": "American Express Co",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5941000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 1438000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 3064000000,
-      "ocf": 3500000000,
-      "capex": -436000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5157380912304326
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -319000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.3468340997523877,
-      "fcf_margin_change": -0.16890399147804486
+      "fcf_margin": 0.3468340997523877
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5559367724543561,
-      "rev_growth_yoy": 0.3736744655781855,
       "fcf_margin_change": 0.037376750042253604
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.4493455497382199,
       "rev_growth_yoy": 0.35125574814290766,
-      "rev_growth_yoy_accel": -0.022418717435277846,
       "fcf_margin_change": -0.10659122271613625
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.07194318649650061,
       "rev_growth_yoy_accel": 0.020710756266311164,
       "fcf_margin_change": 0.1728172703737627
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 10942000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 2462000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2345000000,
+      "ocf": 3067000000,
+      "capex": -722000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.21431182599159204,
+      "rev_growth_yoy": 0.0994774919614148,
+      "rev_growth_yoy_accel": 0.027534305464914186,
+      "fcf_margin_change": -0.3213578811615525
     }
   ],
   "signals": [
@@ -509,7 +511,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:08.854527",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-09T19:06:44.037175"
 }

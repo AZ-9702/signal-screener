@@ -1,25 +1,9 @@
 {
   "ticker": "CMP",
   "name": "Compass Minerals International, Inc.",
+  "sector": "Basic Materials",
+  "industry": "Other Industrial Metals & Mining",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 421100000,
-      "gross_profit": 100000000,
-      "operating_income": 28100000,
-      "net_income": 32300000,
-      "opex": 71900000,
-      "cogs": null,
-      "rd": null,
-      "sga": 30400000,
-      "fcf": -13300000,
-      "ocf": -13300000,
-      "capex": null,
-      "gross_margin": 0.23747328425552125,
-      "op_margin": 0.06672999287580147,
-      "fcf_margin": -0.03158394680598433
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.22535211267605634,
       "op_margin": 0.14929577464788732,
-      "fcf_margin": 0.4699530516431925,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.5015369984491769
+      "fcf_margin": 0.4699530516431925
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.18069381598793363,
       "op_margin": 0.06153846153846154,
       "fcf_margin": -0.043137254901960784,
-      "incr_op_margin_yoy": 0.0859375,
-      "rev_growth_yoy": -0.21277606269294705,
       "op_leverage_ratio": 2.0638528439245327,
       "fcf_margin_change": 0.21997091703946575
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.35719063545150503,
       "incr_op_margin_yoy": -1.9377777777777778,
       "rev_growth_yoy": 0.0528169014084507,
-      "rev_growth_yoy_accel": 0.26559296410139777,
       "op_leverage_ratio": 2.7335640138408306,
       "fcf_margin_change": 0.40032789035346583
     },
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.10344827586206896,
       "rev_growth_yoy": 0.1780821917808219,
       "rev_growth_yoy_accel": 0.10135200120910676,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1282472437809756
     },
     {
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": -0.7459893048128342,
       "rev_growth_yoy": -0.08338907469342252,
       "rev_growth_yoy_accel": -0.14643583185782674,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.35259109374339936
     },
     {
@@ -303,7 +282,7 @@
       "incr_op_margin_yoy": 1.989384288747346,
       "rev_growth_yoy": -0.11457066407200195,
       "rev_growth_yoy_accel": -0.08420744046246734,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3898714250338482
     },
     {
@@ -371,7 +350,7 @@
       "incr_op_margin_yoy": -1.617391304347826,
       "rev_growth_yoy": -0.1009657594381036,
       "rev_growth_yoy_accel": 0.0051986241235402325,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.047477400622605366
     },
     {
@@ -441,9 +420,50 @@
       "rev_growth_yoy_accel": 0.031895513143707435,
       "op_leverage_ratio": 1.3825722273998136,
       "fcf_margin_change": -0.13191401329332364
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 396100000,
+      "gross_profit": 63200000,
+      "operating_income": 36600000,
+      "net_income": 18600000,
+      "opex": 26600000,
+      "cogs": null,
+      "rd": null,
+      "sga": 26600000,
+      "fcf": -37000000,
+      "ocf": -37000000,
+      "capex": null,
+      "gross_margin": 0.1595556677606665,
+      "op_margin": 0.09240090886139864,
+      "fcf_margin": -0.09341075485988387,
+      "incr_op_margin_yoy": 0.40607424071991,
+      "rev_growth_yoy": 0.2893880208333333,
+      "rev_growth_yoy_accel": 0.19982863386015323,
+      "op_leverage_ratio": 97.82505494505494,
+      "fcf_margin_change": -0.06308108453021355
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +74.1% vs OpEx growth +0.8% (leverage: 97.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +28.9% vs prior quarter YoY: +9.0% (accel: +20.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +40.6% vs year-ago OPM: +0.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -607,12 +627,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +5.3% vs prior quarter YoY: -21.3% (accel: +26.6%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -26.3% -> -4.3% (+22.0%)",
@@ -623,12 +637,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +56.6% vs OpEx growth +27.4% (leverage: 2.1x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -3.2% -> +47.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -656,7 +664,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:59:23.663180",
-  "sector": "Basic Materials",
-  "industry": "Other Industrial Metals & Mining"
+  "last_updated": "2026-02-09T19:07:23.678709"
 }

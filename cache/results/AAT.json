@@ -1,25 +1,9 @@
 {
   "ticker": "AAT",
   "name": "AMERICAN ASSETS TRUST, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 81347000,
-      "gross_profit": 50482000,
-      "operating_income": 16415000,
-      "net_income": 2898000,
-      "opex": 64932000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 17836000,
-      "ocf": 17836000,
-      "capex": null,
-      "gross_margin": 0.6205760507455714,
-      "op_margin": 0.20178986317872816,
-      "fcf_margin": 0.21925823939420017
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.647560307670326,
       "op_margin": 0.23887314552425404,
-      "fcf_margin": 0.5060962541375944,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.2868380147433942
+      "fcf_margin": 0.5060962541375944
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6437437958858738,
       "op_margin": 0.25273472436533756,
       "fcf_margin": 0.38032570984893904,
-      "incr_op_margin_yoy": 0.45588235294117646,
-      "rev_growth_yoy": 0.25077753328334174,
       "op_leverage_ratio": 0.4592199439670185,
       "fcf_margin_change": -0.1579605160631949
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.38581846851286095,
       "incr_op_margin_yoy": 0.4735758407687028,
       "rev_growth_yoy": 0.20817755340175745,
-      "rev_growth_yoy_accel": -0.04259997988158429,
       "fcf_margin_change": 0.005492758663921904
     },
     {
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 0.21865054105665183,
       "rev_growth_yoy": 0.061929634374692025,
       "rev_growth_yoy_accel": 0.020129876150862328,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1220857606827011
     },
     {
@@ -377,7 +356,7 @@
       "revenue": 108607000,
       "gross_profit": 67302000,
       "operating_income": 71972000,
-      "net_income": null,
+      "net_income": 42535000,
       "opex": 81111000,
       "cogs": null,
       "rd": null,
@@ -399,7 +378,7 @@
       "revenue": 107933000,
       "gross_profit": 67610000,
       "operating_income": 25978000,
-      "net_income": null,
+      "net_income": 5456000,
       "opex": 81955000,
       "cogs": null,
       "rd": null,
@@ -421,7 +400,7 @@
       "revenue": 109578000,
       "gross_profit": 66281000,
       "operating_income": 24767000,
-      "net_income": null,
+      "net_income": 4509000,
       "opex": 84811000,
       "cogs": null,
       "rd": null,
@@ -437,9 +416,43 @@
       "rev_growth_yoy_accel": -0.08107760361203642,
       "op_leverage_ratio": 0.43734977290741195,
       "fcf_margin_change": -0.08592429218439035
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 110086000,
+      "gross_profit": 65416000,
+      "operating_income": 23215000,
+      "net_income": 3148000,
+      "opex": 86871000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 40570000,
+      "ocf": 40570000,
+      "capex": null,
+      "gross_margin": 0.5942263321403266,
+      "op_margin": 0.21088058427047945,
+      "fcf_margin": 0.36853005831804225,
+      "incr_op_margin_yoy": 2.0251926496739774,
+      "rev_growth_yoy": -0.029737352370879606,
+      "rev_growth_yoy_accel": 0.07800631671144267,
+      "fcf_margin_change": -0.001115308452659891
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -3.0% vs prior quarter YoY: -10.8% (accel: +7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +202.5% vs year-ago OPM: +26.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -555,12 +568,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +45.6% vs year-ago OPM: +20.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +37.3% -> +53.8% (+16.6%)",
@@ -570,12 +577,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.3% vs OpEx growth +2.3% (leverage: 4.1x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +21.9% -> +50.6% (+28.7%)",
       "severity": "MEDIUM"
     }
   ],
@@ -604,7 +605,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:51:18.943895",
-  "sector": "Real Estate",
-  "industry": "REIT - Diversified"
+  "last_updated": "2026-02-09T19:06:52.568487"
 }

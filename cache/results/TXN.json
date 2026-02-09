@@ -1,25 +1,9 @@
 {
   "ticker": "TXN",
-  "name": "TEXAS INSTRUMENTS INCORPORATED",
+  "name": "TEXAS INSTRUMENTS INC",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4076000000,
-      "gross_profit": 2646000000,
-      "operating_income": 1813000000,
-      "net_income": 1688000000,
-      "opex": 833000000,
-      "cogs": 1430000000,
-      "rd": 388000000,
-      "sga": 398000000,
-      "fcf": 1913000000,
-      "ocf": 2125000000,
-      "capex": -212000000,
-      "gross_margin": 0.6491658488714426,
-      "op_margin": 0.44479882237487733,
-      "fcf_margin": 0.4693326790971541
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -308000000,
       "gross_margin": 0.6521333644206109,
       "op_margin": 0.4520867335043134,
-      "fcf_margin": 0.35952436465376547,
-      "op_leverage_ratio": 1.7412070657507361,
-      "fcf_margin_change": -0.10980831444338862
+      "fcf_margin": 0.35952436465376547
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.6788714193409433,
       "op_margin": 0.49644626319190177,
       "fcf_margin": 0.4182640534137411,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03944309271505114
     },
     {
@@ -97,9 +79,7 @@
       "gross_margin": 0.6932947019867549,
       "op_margin": 0.5180049668874173,
       "fcf_margin": 0.2224751655629139,
-      "incr_op_margin_yoy": 0.9126984126984127,
-      "rev_growth_yoy": 0.18547595682041218,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1957888878508272
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": 0.3467889908256881,
       "incr_op_margin_yoy": 1.0129870129870129,
       "rev_growth_yoy": 0.14362322219631615,
-      "rev_growth_yoy_accel": -0.04185273462409603,
       "op_leverage_ratio": 0.3998797081953643,
       "fcf_margin_change": 0.12431382526277418
     },
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.8871391076115486,
       "rev_growth_yoy": -0.08406884377758164,
       "rev_growth_yoy_accel": 0.0724087549864881,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03243624599924287
     },
     {
@@ -439,9 +418,37 @@
       "rev_growth_yoy_accel": -0.021413261114537924,
       "op_leverage_ratio": 1.3935476618705038,
       "fcf_margin_change": 0.08463013435729697
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4423000000,
+      "gross_profit": 2472000000,
+      "operating_income": 1473000000,
+      "net_income": 1163000000,
+      "opex": 999000000,
+      "cogs": 1951000000,
+      "rd": 521000000,
+      "sga": 446000000,
+      "fcf": 1329000000,
+      "ocf": 2254000000,
+      "capex": -925000000,
+      "gross_margin": 0.5588966764639385,
+      "op_margin": 0.33303187881528373,
+      "fcf_margin": 0.3004747908659281,
+      "incr_op_margin_yoy": 0.23076923076923078,
+      "rev_growth_yoy": 0.1038183179435987,
+      "rev_growth_yoy_accel": -0.03855701330188431,
+      "fcf_margin_change": 0.09106947665251602
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.9% -> +30.0% (+9.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -623,21 +630,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +91.3% vs year-ago OPM: +44.5%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.8% vs OpEx growth +0.7% (leverage: 9.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +5.2% vs OpEx growth +3.0% (leverage: 1.7x)",
       "severity": "MEDIUM"
     }
   ],
@@ -666,5 +661,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:12.559570"
+  "last_updated": "2026-02-09T19:10:16.630348"
 }

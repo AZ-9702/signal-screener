@@ -1,25 +1,9 @@
 {
   "ticker": "VTR",
   "name": "Ventas,\u00a0Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 921165000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 849713000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 295763000,
-      "ocf": 295763000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.3210749431426509
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.26100774367757124,
-      "fcf_margin_change": -0.06006719946507966
+      "fcf_margin": 0.26100774367757124
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.25996631600361486,
-      "rev_growth_yoy": 0.10994664365233156,
       "op_leverage_ratio": 1.9334059220261377,
       "fcf_margin_change": 0.02283465234558754
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.2698166387238417,
       "rev_growth_yoy": 0.11783374766970123,
-      "rev_growth_yoy_accel": 0.007887104017369667,
       "fcf_margin_change": 0.009850322720226845
     },
     {
@@ -160,7 +141,7 @@
       "fcf_margin": 0.28948707962008186,
       "rev_growth_yoy": 0.06269785816297468,
       "rev_growth_yoy_accel": -0.05016623799082963,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.017643624787042123
     },
     {
@@ -204,7 +185,7 @@
       "fcf_margin": 0.22540554841284943,
       "rev_growth_yoy": 0.05866126023778591,
       "rev_growth_yoy_accel": 0.03031643157235289,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02877615736740119
     },
     {
@@ -226,7 +207,7 @@
       "fcf_margin": 0.28184999792110693,
       "rev_growth_yoy": 0.0815494194174036,
       "rev_growth_yoy_accel": 0.022888159179617687,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0564444495082575
     },
     {
@@ -292,7 +273,7 @@
       "fcf_margin": 0.2220559140071705,
       "rev_growth_yoy": 0.1138728887114816,
       "rev_growth_yoy_accel": 0.00643108354230644,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01762625488440553
     },
     {
@@ -335,7 +316,7 @@
       "fcf_margin": 0.28606301792019023,
       "rev_growth_yoy": 0.07521359642104238,
       "rev_growth_yoy_accel": -0.010312065254473146,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.006398077621434239
     },
     {
@@ -425,9 +406,37 @@
       "rev_growth_yoy_accel": 0.021271085832877096,
       "op_leverage_ratio": 0.9959806123410291,
       "fcf_margin_change": -0.08028216061538584
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1566017000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 1489731000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 471663000,
+      "ocf": 471663000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.30118638558840677,
+      "rev_growth_yoy": 0.2167425374322971,
+      "rev_growth_yoy_accel": 0.01236015915491634,
+      "op_leverage_ratio": 1.6542132754256527,
+      "fcf_margin_change": 0.046933855695781124
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +5.2% vs OpEx growth +3.1% (leverage: 1.7x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -505,5 +514,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:06:02.962851"
+  "last_updated": "2026-02-09T19:10:41.751741"
 }

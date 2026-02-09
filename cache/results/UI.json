@@ -1,25 +1,9 @@
 {
   "ticker": "UI",
   "name": "UBIQUITI INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 479436000,
-      "gross_profit": 230674000,
-      "operating_income": 190811000,
-      "net_income": 159668000,
-      "opex": 39863000,
-      "cogs": 248762000,
-      "rd": 28912000,
-      "sga": 10951000,
-      "fcf": 182954000,
-      "ocf": 191988000,
-      "capex": -9034000,
-      "gross_margin": 0.4811361683311224,
-      "op_margin": 0.3979905555694608,
-      "fcf_margin": 0.3816025496625201
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -4132000,
       "gross_margin": 0.47671310277225476,
       "op_margin": 0.3831032217054728,
-      "fcf_margin": 0.28827340300532706,
-      "fcf_margin_change": -0.09332914665719305
+      "fcf_margin": 0.28827340300532706
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.4048011307682504,
       "op_margin": 0.2905495116610476,
       "fcf_margin": 0.21240369353399835,
-      "incr_op_margin_yoy": 1.3665893756136283,
-      "rev_growth_yoy": -0.09984857207218481,
       "fcf_margin_change": -0.0010720339443527072
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.27811477149591696,
       "incr_op_margin_yoy": 1.0661817915342267,
       "rev_growth_yoy": -0.23364802016963554,
-      "rev_growth_yoy_accel": -0.13379944809745073,
       "fcf_margin_change": 0.06571107796191861
     },
     {
@@ -164,7 +144,7 @@
       "incr_op_margin_yoy": -1.013173683269933,
       "rev_growth_yoy": 0.08535150376759044,
       "rev_growth_yoy_accel": 0.15805263876156395,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08558683834165903
     },
     {
@@ -344,7 +324,7 @@
       "incr_op_margin_yoy": 0.4687277977677446,
       "rev_growth_yoy": 0.18844773450692973,
       "rev_growth_yoy_accel": 0.15510116517575487,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03246852674284867
     },
     {
@@ -437,9 +417,50 @@
       "rev_growth_yoy": 0.33329880947189394,
       "rev_growth_yoy_accel": -0.16268216246486572,
       "fcf_margin_change": 0.09851974018328244
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 814867000,
+      "gross_profit": 374000000,
+      "operating_income": 292901000,
+      "net_income": 233610000,
+      "opex": 81099000,
+      "cogs": 440867000,
+      "rd": 50845000,
+      "sga": 30254000,
+      "fcf": 260275000,
+      "ocf": 263906000,
+      "capex": -3631000,
+      "gross_margin": 0.4589706050189786,
+      "op_margin": 0.35944638818359315,
+      "fcf_margin": 0.31940795246340814,
+      "incr_op_margin_yoy": 0.5306761307607867,
+      "rev_growth_yoy": 0.35838560776423245,
+      "rev_growth_yoy_accel": 0.025086798292338508,
+      "op_leverage_ratio": 1.5455764754763255,
+      "fcf_margin_change": 0.05598316032742057
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +26.3% -> +31.9% (+5.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +11.1% vs OpEx growth +7.2% (leverage: 1.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +53.1% vs year-ago OPM: +29.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -640,20 +661,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -23.4% vs prior quarter YoY: -10.0% (decel: -13.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +106.6% vs year-ago OPM: +38.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +136.7% vs year-ago OPM: +39.8%",
       "severity": "HIGH"
     },
     {
@@ -688,5 +697,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:57.492553"
+  "last_updated": "2026-02-09T19:10:28.036508"
 }
