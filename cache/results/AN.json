@@ -1,25 +1,9 @@
 {
   "ticker": "AN",
   "name": "AUTONATION, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5785100000,
-      "gross_profit": 986700000,
-      "operating_income": 309400000,
-      "net_income": 151500000,
-      "opex": 677300000,
-      "cogs": 4798400000,
-      "rd": null,
-      "sga": 632000000,
-      "fcf": 400000,
-      "ocf": 43300000,
-      "capex": -42900000,
-      "gross_margin": 0.1705588494580906,
-      "op_margin": 0.053482221569203646,
-      "fcf_margin": 6.914314359302346e-05
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -41300000,
       "gross_margin": 0.17493817541244622,
       "op_margin": 0.057064941224296215,
-      "fcf_margin": 0.08215047935228158,
-      "op_leverage_ratio": 0.7471503080866067,
-      "fcf_margin_change": 0.08208133620868856
+      "fcf_margin": 0.08215047935228158
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.20078088206250094,
       "op_margin": 0.08088358172675204,
       "fcf_margin": 0.0021421083815687525,
-      "incr_op_margin_yoy": 0.2797290516808831,
-      "rev_growth_yoy": 0.13780228518089574,
       "op_leverage_ratio": 1.186081326944544,
       "fcf_margin_change": -0.08936976558974562
     },
@@ -120,8 +100,7 @@
       "fcf_margin": 0.08686766970738065,
       "incr_op_margin_yoy": 0.21448763250883393,
       "rev_growth_yoy": 0.1438056844744063,
-      "rev_growth_yoy_accel": 0.0060033992935105696,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0847255613258119
     },
     {
@@ -344,7 +323,7 @@
       "incr_op_margin_yoy": 0.22439660795825178,
       "rev_growth_yoy": -0.044481843109376584,
       "rev_growth_yoy_accel": 0.014980283710263186,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.00022785758771739356
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy": 0.06852310168384931,
       "rev_growth_yoy_accel": -0.007706760670326357,
       "fcf_margin_change": 0.05426999792730654
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6929200000,
+      "gross_profit": 1214800000,
+      "operating_income": 313900000,
+      "net_income": 172100000,
+      "opex": 900900000,
+      "cogs": 5714400000,
+      "rd": null,
+      "sga": 835500000,
+      "fcf": 64200000,
+      "ocf": 150500000,
+      "capex": -86300000,
+      "gross_margin": 0.17531605380130463,
+      "op_margin": 0.04530104485366276,
+      "fcf_margin": 0.009265138832765687,
+      "incr_op_margin_yoy": 0.09014084507042254,
+      "rev_growth_yoy": -0.039372261964176786,
+      "rev_growth_yoy_accel": -0.1078953636480261,
+      "fcf_margin_change": -0.008184487449668166
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.9% vs prior quarter YoY: +6.9% (decel: -10.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -534,18 +541,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +21.4% vs year-ago OPM: +5.7%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +28.0% vs year-ago OPM: +5.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +0.0% -> +8.2% (+8.2%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -573,7 +568,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:46:51.690722",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto & Truck Dealerships"
+  "last_updated": "2026-02-13T11:32:30.579121"
 }

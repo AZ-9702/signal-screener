@@ -1,6 +1,8 @@
 {
   "ticker": "NE",
   "name": "Noble Corporation plc",
+  "sector": "Energy",
+  "industry": "Oil & Gas Drilling",
   "quarters": [
     {
       "date": "2021-09-30T00:00:00",
@@ -55,7 +57,7 @@
       "gross_margin": null,
       "op_margin": 0.17299102681053813,
       "fcf_margin": 0.320229108895778,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5666877494323332
     },
     {
@@ -164,7 +166,7 @@
       "incr_op_margin_yoy": 0.38106073374908705,
       "rev_growth_yoy": 1.2802021760736517,
       "rev_growth_yoy_accel": -0.04045215079176501,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13172967998977864
     },
     {
@@ -231,7 +233,7 @@
       "incr_op_margin_yoy": 1.8563221565486383,
       "rev_growth_yoy": 0.08505250299513731,
       "rev_growth_yoy_accel": 0.04074494989328075,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04786264693524159
     },
     {
@@ -345,9 +347,43 @@
       "rev_growth_yoy": -0.0031628295082499636,
       "rev_growth_yoy_accel": -0.22804462108037876,
       "fcf_margin_change": 0.09233886733207891
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 764412000,
+      "gross_profit": null,
+      "operating_income": 42560000,
+      "net_income": 86637000,
+      "opex": 721852000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 187125000,
+      "ocf": 187125000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.055676781630848285,
+      "fcf_margin": 0.24479600006279337,
+      "incr_op_margin_yoy": 0.7882820124103137,
+      "rev_growth_yoy": -0.17569480913709196,
+      "rev_growth_yoy_accel": -0.17253197962884198,
+      "fcf_margin_change": -0.1024848222755779
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -17.6% vs prior quarter YoY: -0.3% (decel: -17.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +78.8% vs year-ago OPM: +18.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -476,23 +512,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 16,
+    "n_quarters": 17,
     "coverage": {
       "revenue": [
-        16,
-        16
+        17,
+        17
       ],
       "gross_profit": [
         0,
-        16
+        17
       ],
       "op_income": [
-        16,
-        16
+        17,
+        17
       ],
       "fcf": [
-        15,
-        16
+        16,
+        17
       ]
     },
     "gaps": [
@@ -509,7 +545,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:59:15.128289",
-  "sector": "Energy",
-  "industry": "Oil & Gas Drilling"
+  "last_updated": "2026-02-13T11:37:36.803720"
 }

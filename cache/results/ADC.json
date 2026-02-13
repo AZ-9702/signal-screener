@@ -1,25 +1,9 @@
 {
   "ticker": "ADC",
   "name": "AGREE REALTY CORPORATION",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 71415000,
-      "gross_profit": null,
-      "operating_income": 35375000,
-      "net_income": 23615000,
-      "opex": 36040000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -299599000,
-      "ocf": 52101000,
-      "capex": -351700000,
-      "gross_margin": null,
-      "op_margin": 0.4953441153819226,
-      "fcf_margin": -4.19518308478611
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -387900000,
       "gross_margin": null,
       "op_margin": 0.5123797042233614,
-      "fcf_margin": -4.395598041861003,
-      "op_leverage_ratio": 1.693805779141993,
-      "fcf_margin_change": -0.20041495707489343
+      "fcf_margin": -4.395598041861003
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.5145604515818493,
       "fcf_margin": -2.784667220933794,
-      "incr_op_margin_yoy": 0.5831874781217182,
-      "rev_growth_yoy": 0.2800112021284044,
       "op_leverage_ratio": 0.32287235011543064,
       "fcf_margin_change": 0.32920462754170776
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -3.5420573102031687,
       "incr_op_margin_yoy": 0.5392190318334714,
       "rev_growth_yoy": 0.26356499505325776,
-      "rev_growth_yoy_accel": -0.016446207075146657,
       "op_leverage_ratio": 1.0373329634081283,
       "fcf_margin_change": -0.7573900892693746
     },
@@ -329,7 +308,7 @@
       "incr_op_margin_yoy": 0.8969349503858876,
       "rev_growth_yoy": 0.1745573518090839,
       "rev_growth_yoy_accel": -0.005788254660770292,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.29512745057455736
     },
     {
@@ -446,9 +425,38 @@
       "rev_growth_yoy_accel": 0.036762906242005844,
       "op_leverage_ratio": 2.0966798727956917,
       "fcf_margin_change": 0.11804714429332741
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 190489000,
+      "gross_profit": null,
+      "operating_income": 92432000,
+      "net_income": 56037000,
+      "opex": 100104000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 111315000,
+      "ocf": 111315000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.4852353679215073,
+      "fcf_margin": 0.5843644514906372,
+      "incr_op_margin_yoy": 0.5745925054612671,
+      "rev_growth_yoy": 0.18511951422847686,
+      "rev_growth_yoy_accel": -0.0020743276189689186,
+      "op_leverage_ratio": 1.2469066367738655,
+      "fcf_margin_change": -0.21531571792133297
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +57.5% vs year-ago OPM: +46.9%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -544,12 +552,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.1% vs OpEx growth +3.3% (leverage: 1.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +9.0% vs OpEx growth +5.3% (leverage: 1.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -579,7 +581,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:21.046673",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-13T11:45:09.840657"
 }

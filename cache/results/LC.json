@@ -1,6 +1,8 @@
 {
   "ticker": "LC",
   "name": "LendingClub Corporation",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
     {
       "date": "2016-03-31T00:00:00",
@@ -55,7 +57,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2016-12-31T00:00:00",
@@ -135,7 +137,7 @@
       "fcf_margin": null,
       "rev_growth_yoy": 0.3445825622403017,
       "rev_growth_yoy_accel": -0.004731049515305397,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2017-12-31T00:00:00",
@@ -218,7 +220,7 @@
       "fcf_margin": null,
       "rev_growth_yoy": 0.19875998182172305,
       "rev_growth_yoy_accel": -0.06924314199162196,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2018-12-31T00:00:00",
@@ -226,7 +228,7 @@
       "revenue": 181521000,
       "gross_profit": null,
       "operating_income": null,
-      "net_income": -13462000,
+      "net_income": null,
       "opex": 194915000,
       "cogs": null,
       "rd": 39552000,
@@ -381,7 +383,7 @@
       "fcf_margin": null,
       "rev_growth_yoy": -0.6353613540527877,
       "rev_growth_yoy_accel": 0.13472569726084338,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2020-12-31T00:00:00",
@@ -394,15 +396,15 @@
       "cogs": null,
       "rd": 29189000,
       "sga": null,
-      "fcf": 46510000,
-      "ocf": 53074000,
-      "capex": -6564000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6126669652501515,
+      "fcf_margin": null,
       "rev_growth_yoy": -0.5972432965843617,
       "rev_growth_yoy_accel": 0.038118057468426,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     }
   ],
   "signals": [
@@ -495,7 +497,7 @@
         20
       ],
       "fcf": [
-        1,
+        0,
         20
       ]
     },
@@ -503,12 +505,10 @@
     "warnings": [
       "gross_profit: no data",
       "op_income: no data",
-      "fcf: 1/20Q"
+      "fcf: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:30:14.147297",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-13T11:36:42.299426"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "PINS",
   "name": "Pinterest, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 705617000,
-      "gross_profit": 576594000,
-      "operating_income": 205149000,
-      "net_income": 207841000,
-      "opex": 500468000,
-      "cogs": 129023000,
-      "rd": 163710000,
-      "sga": null,
-      "fcf": 100696000,
-      "ocf": 100696000,
-      "capex": null,
-      "gross_margin": 0.8171486798078844,
-      "op_margin": 0.2907370429000435,
-      "fcf_margin": 0.14270631234791678
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.7249345671125034,
       "op_margin": -0.04721060115821363,
-      "fcf_margin": 0.5576304020773654,
-      "fcf_margin_change": 0.4149240897294486
+      "fcf_margin": 0.5576304020773654
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.7996893821137184,
       "op_margin": 0.1555443554757857,
       "fcf_margin": 0.2618638337135743,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09093707126677794
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.8331693546958324,
       "op_margin": 0.21194937725519838,
       "fcf_margin": 0.2501278560925052,
-      "incr_op_margin_yoy": -0.18222748479133283,
-      "rev_growth_yoy": 0.1998789711699123,
       "op_leverage_ratio": 1.3598112904572544,
       "fcf_margin_change": -0.011735977621069094
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.3711855414561173,
       "incr_op_margin_yoy": 0.2146338742959121,
       "rev_growth_yoy": 0.18476804814211817,
-      "rev_growth_yoy_accel": -0.015110923027794126,
       "fcf_margin_change": 0.12105768536361211
     },
     {
@@ -234,7 +214,7 @@
       "incr_op_margin_yoy": -0.9202518113790237,
       "rev_growth_yoy": 0.06321234964635923,
       "rev_growth_yoy_accel": 0.015035757806252076,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21371055213751688
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 0.8184811768146161,
       "rev_growth_yoy": 0.11489737783945658,
       "rev_growth_yoy_accel": 0.05168502819309735,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05344749784813102
     },
     {
@@ -371,7 +351,7 @@
       "incr_op_margin_yoy": 0.37797625934238843,
       "rev_growth_yoy": 0.17616905576696132,
       "rev_growth_yoy_accel": -0.0009397868345483729,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.054937260675486516
     },
     {
@@ -439,11 +419,40 @@
       "incr_op_margin_yoy": 0.42717725681552987,
       "rev_growth_yoy": 0.16789462728732943,
       "rev_growth_yoy_accel": -0.0014276011823547707,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10645554058197784
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1319347000,
+      "gross_profit": 1092430000,
+      "operating_income": 301174000,
+      "net_income": 277070000,
+      "opex": 1018173000,
+      "cogs": 226917000,
+      "rd": 364905000,
+      "sga": null,
+      "fcf": 380368000,
+      "ocf": 391213000,
+      "capex": -10845000,
+      "gross_margin": 0.828008097945423,
+      "op_margin": 0.22827504818671662,
+      "fcf_margin": 0.2883001969913904,
+      "incr_op_margin_yoy": 0.2395879358661639,
+      "rev_growth_yoy": 0.1431528510653046,
+      "rev_growth_yoy_accel": -0.024741776222024836,
+      "op_leverage_ratio": 9.280880062705801,
+      "fcf_margin_change": -0.01518768192645692
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +25.7% vs OpEx growth +2.8% (leverage: 9.3x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -614,21 +623,9 @@
     },
     {
       "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +81.7% -> +72.5% -> +79.2% (reversal +6.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -4.7% -> +11.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +14.3% -> +55.8% (+41.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -656,5 +653,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:24:28.755486"
+  "last_updated": "2026-02-13T11:38:01.790629"
 }

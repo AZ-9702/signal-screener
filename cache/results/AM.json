@@ -1,25 +1,9 @@
 {
   "ticker": "AM",
   "name": "ANTERO MIDSTREAM CORPORATION",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 203860000,
-      "gross_profit": null,
-      "operating_income": 114983000,
-      "net_income": null,
-      "opex": 88877000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 186540000,
-      "ocf": 206493000,
-      "capex": -19953000,
-      "gross_margin": null,
-      "op_margin": 0.5640292357500245,
-      "fcf_margin": 0.9150397331502012
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -15059000,
       "gross_margin": null,
       "op_margin": 0.5960485630529937,
-      "fcf_margin": 0.6721458497864993,
-      "op_leverage_ratio": 5.330841070892428,
-      "fcf_margin_change": -0.24289388336370188
+      "fcf_margin": 0.6721458497864993
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.6503756653077706,
       "fcf_margin": 0.6790542427197395,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.006908392933240193
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.5936532865259365,
       "fcf_margin": 0.7587509815695875,
-      "incr_op_margin_yoy": 1.0718131433095803,
-      "rev_growth_yoy": 0.061954282350632786,
       "fcf_margin_change": -0.06469966877471234
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.8451789776237922,
       "incr_op_margin_yoy": 0.7873889875666075,
       "rev_growth_yoy": -0.025120359091740624,
-      "rev_growth_yoy_accel": -0.08707464144237341,
       "fcf_margin_change": 0.0864279960542047
     },
     {
@@ -255,7 +234,7 @@
       "incr_op_margin_yoy": 0.7481481481481481,
       "rev_growth_yoy": 0.14199208774466096,
       "rev_growth_yoy_accel": 0.013643020219421459,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0487484489973925
     },
     {
@@ -437,9 +416,43 @@
       "rev_growth_yoy": 0.09245562678326602,
       "rev_growth_yoy_accel": -0.03978181275416054,
       "fcf_margin_change": -0.14619301466883894
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 297004000,
+      "gross_profit": null,
+      "operating_income": 100509000,
+      "net_income": null,
+      "opex": 196495000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 255503000,
+      "ocf": 255503000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.3384095837093103,
+      "fcf_margin": 0.8602678751801323,
+      "incr_op_margin_yoy": -8.106014485147476,
+      "rev_growth_yoy": 0.03314004250774845,
+      "rev_growth_yoy_accel": -0.05931558427551757,
+      "fcf_margin_change": 0.13835186512657438
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +72.2% -> +86.0% (+13.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +3.3% vs prior quarter YoY: +9.2% (decel: -5.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -550,32 +563,14 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -2.5% vs prior quarter YoY: +6.2% (decel: -8.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +78.7% vs year-ago OPM: +59.6%",
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +107.2% vs year-ago OPM: +56.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +67.9% -> +82.3% (+14.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +9.9% vs OpEx growth +1.9% (leverage: 5.3x)",
       "severity": "MEDIUM"
     }
   ],
@@ -606,7 +601,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:42:19.678780",
-  "sector": "Energy",
-  "industry": "Oil & Gas Midstream"
+  "last_updated": "2026-02-13T11:40:33.255009"
 }

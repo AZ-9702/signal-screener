@@ -1,25 +1,9 @@
 {
   "ticker": "BDL",
   "name": "FLANIGAN\u2019S ENTERPRISES, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 31380000,
-      "gross_profit": null,
-      "operating_income": 1270000,
-      "net_income": 780000,
-      "opex": 30110000,
-      "cogs": null,
-      "rd": null,
-      "sga": 5468000,
-      "fcf": 3770000,
-      "ocf": 3770000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.04047163798597833,
-      "fcf_margin": 0.1201402166985341
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.08129347731175597,
-      "fcf_margin": 0.09669063073027331,
-      "op_leverage_ratio": 1.9645914262144035,
-      "fcf_margin_change": -0.023449585968260786
+      "fcf_margin": 0.09669063073027331
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.02045290484720477,
       "fcf_margin": 0.11306579686121435,
-      "incr_op_margin_yoy": -0.08384525983729038,
-      "rev_growth_yoy": 0.19193753983428935,
       "op_leverage_ratio": 0.7119880042451788,
       "fcf_margin_change": 0.03894657581171233
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.07428713116786512,
       "incr_op_margin_yoy": -0.15787711367821866,
       "rev_growth_yoy": 0.1738510347236371,
-      "rev_growth_yoy_accel": -0.01808650511065224,
       "op_leverage_ratio": 1.556533304838345,
       "fcf_margin_change": -0.03877866569334923
     },
@@ -357,7 +336,7 @@
       "gross_profit": null,
       "operating_income": 858000,
       "net_income": 55000,
-      "opex": 49404000,
+      "opex": 49243000,
       "cogs": null,
       "rd": null,
       "sga": 1494000,
@@ -370,7 +349,7 @@
       "incr_op_margin_yoy": 0.012690355329949238,
       "rev_growth_yoy": 0.11346920691182986,
       "rev_growth_yoy_accel": 0.058372343443195175,
-      "op_leverage_ratio": 1.1118733174365314,
+      "op_leverage_ratio": 1.1581893857695926,
       "fcf_margin_change": 0.13035511402599717
     },
     {
@@ -393,7 +372,7 @@
       "incr_op_margin_yoy": 0.1707711666367068,
       "rev_growth_yoy": 0.11572947221702136,
       "rev_growth_yoy_accel": 0.0022602653051914945,
-      "op_leverage_ratio": 5.585956569028543,
+      "op_leverage_ratio": 4.378882507121569,
       "fcf_margin_change": -0.19369022135466005
     },
     {
@@ -438,9 +417,37 @@
       "incr_op_margin_yoy": 0.26064455422253585,
       "rev_growth_yoy": 0.09292006382653173,
       "rev_growth_yoy_accel": 0.030560078489885567
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 52568000,
+      "gross_profit": null,
+      "operating_income": 1669000,
+      "net_income": 805000,
+      "opex": 50899000,
+      "cogs": null,
+      "rd": null,
+      "sga": 1416000,
+      "fcf": 4473000,
+      "ocf": 4945000,
+      "capex": -472000,
+      "gross_margin": null,
+      "op_margin": 0.03174935321868817,
+      "fcf_margin": 0.08508978846446508,
+      "incr_op_margin_yoy": 0.35169124024284476,
+      "rev_growth_yoy": 0.04587959094345629,
+      "rev_growth_yoy_accel": -0.04704047288307544,
+      "op_leverage_ratio": 0.8238233411449616
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +35.2% vs year-ago OPM: +1.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -462,7 +469,7 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +6.7% vs OpEx growth +1.2% (leverage: 5.6x)",
+      "detail": "Rev growth +6.7% vs OpEx growth +1.5% (leverage: 4.4x)",
       "severity": "MEDIUM"
     },
     {
@@ -542,12 +549,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +7.8% vs OpEx growth +5.0% (leverage: 1.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +9.5% vs OpEx growth +4.8% (leverage: 2.0x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -577,7 +578,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:35:48.238050",
-  "sector": "Consumer Cyclical",
-  "industry": "Restaurants"
+  "last_updated": "2026-02-13T11:46:14.130087"
 }

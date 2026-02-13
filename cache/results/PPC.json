@@ -1,25 +1,9 @@
 {
   "ticker": "PPC",
   "name": "PILGRIM\u2019S PRIDE CORPORATION",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
   "quarters": [
-    {
-      "date": "2020-12-27T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3117829000,
-      "gross_profit": 227396000,
-      "operating_income": 39500000,
-      "net_income": 79000,
-      "opex": 187896000,
-      "cogs": 2890433000,
-      "rd": null,
-      "sga": 187773000,
-      "fcf": 103753000,
-      "ocf": 215912000,
-      "capex": -112159000,
-      "gross_margin": 0.07293408329962933,
-      "op_margin": 0.012669071972837509,
-      "fcf_margin": 0.03327732213665342
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -102167000,
       "gross_margin": 0.07980723554075624,
       "op_margin": 0.04840923497559895,
-      "fcf_margin": -0.07506449666633572,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10834181880298914
+      "fcf_margin": -0.07506449666633572
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.09714868404620587,
       "op_margin": 0.03155451793646406,
       "fcf_margin": 0.030167213315198223,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01846958941004175
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.08727906943922764,
       "op_margin": 0.013631381245126918,
       "fcf_margin": -0.025227241270793156,
-      "incr_op_margin_yoy": 0.01688926531587291,
-      "rev_growth_yoy": 0.2953786112067083,
       "op_leverage_ratio": 0.29869953999300985,
       "fcf_margin_change": -0.055394454585991376
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.034293503317497545,
       "incr_op_margin_yoy": 0.2518682068730157,
       "rev_growth_yoy": 0.2954000779000588,
-      "rev_growth_yoy_accel": 2.1466693350513655e-05,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0595207445882907
     },
     {
@@ -257,7 +236,7 @@
       "incr_op_margin_yoy": 1.221157824092376,
       "rev_growth_yoy": -0.02433961837730358,
       "rev_growth_yoy_accel": 0.04551823783284019,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.015423425137524899
     },
     {
@@ -280,7 +259,7 @@
       "incr_op_margin_yoy": 0.6530277824196818,
       "rev_growth_yoy": 0.09714115422309391,
       "rev_growth_yoy_accel": 0.1214807726003975,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0040020396009643605
     },
     {
@@ -392,7 +371,7 @@
       "incr_op_margin_yoy": 1.5256789512738065,
       "rev_growth_yoy": 0.02317206083356603,
       "rev_growth_yoy_accel": 0.05767461830433543,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.034106642667432914
     },
     {
@@ -439,6 +418,28 @@
       "rev_growth_yoy": 0.03802918181304647,
       "rev_growth_yoy_accel": -0.005409589896908137,
       "fcf_margin_change": -0.01330350361004487
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4517837000,
+      "gross_profit": 428591000,
+      "operating_income": 204110000,
+      "net_income": 87993000,
+      "opex": 224481000,
+      "cogs": 4089246000,
+      "rd": null,
+      "sga": 215017000,
+      "fcf": 10010000,
+      "ocf": 291210000,
+      "capex": -281200000,
+      "gross_margin": 0.0948664150565857,
+      "op_margin": 0.04517869945285764,
+      "fcf_margin": 0.0022156620524379253,
+      "incr_op_margin_yoy": -0.7034293044665336,
+      "rev_growth_yoy": 0.0333419181420949,
+      "rev_growth_yoy_accel": -0.004687263670951569,
+      "fcf_margin_change": -0.055762310532848025
     }
   ],
   "signals": [
@@ -636,5 +637,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:37:13.393085"
+  "last_updated": "2026-02-13T11:37:58.499995"
 }

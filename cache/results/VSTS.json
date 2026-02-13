@@ -1,6 +1,8 @@
 {
   "ticker": "VSTS",
   "name": "Vestis Corporation",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
     {
       "date": "2022-12-30T00:00:00",
@@ -229,7 +231,7 @@
       "incr_op_margin_yoy": 0.513804245572416,
       "rev_growth_yoy": -0.03501477984899348,
       "rev_growth_yoy_accel": 0.021861914302144646,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.023924685527373965
     },
     {
@@ -254,9 +256,43 @@
       "rev_growth_yoy_accel": 0.07553906738583872,
       "op_leverage_ratio": 2.193594328248809,
       "fcf_margin_change": 0.009503158548703497
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 663388000,
+      "gross_profit": 171171000,
+      "operating_income": 16578000,
+      "net_income": -6391000,
+      "opex": 154593000,
+      "cogs": 492217000,
+      "rd": null,
+      "sga": 120252000,
+      "fcf": 37687000,
+      "ocf": 37687000,
+      "capex": null,
+      "gross_margin": 0.2580254692578099,
+      "op_margin": 0.024989900329822064,
+      "fcf_margin": 0.05680989104415515,
+      "incr_op_margin_yoy": 0.6777657905060808,
+      "rev_growth_yoy": -0.029822457515575183,
+      "rev_growth_yoy_accel": -0.07034674505242042,
+      "fcf_margin_change": 0.013373764355101195
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.0% vs prior quarter YoY: +4.1% (decel: -7.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +67.8% vs year-ago OPM: +4.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "OPERATING LEVERAGE",
@@ -331,23 +367,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 12,
+    "n_quarters": 13,
     "coverage": {
       "revenue": [
-        12,
-        12
+        13,
+        13
       ],
       "gross_profit": [
-        12,
-        12
+        13,
+        13
       ],
       "op_income": [
-        12,
-        12
+        13,
+        13
       ],
       "fcf": [
-        12,
-        12
+        13,
+        13
       ]
     },
     "gaps": [],
@@ -355,5 +391,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:05:10.629712"
+  "last_updated": "2026-02-13T11:47:56.507164"
 }

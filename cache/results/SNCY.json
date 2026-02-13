@@ -1,25 +1,9 @@
 {
   "ticker": "SNCY",
   "name": "Sun Country Airlines Holdings, Inc.",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 107807000,
-      "gross_profit": null,
-      "operating_income": -4428000,
-      "net_income": -8042000,
-      "opex": 112235000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -5170000,
-      "ocf": -3179000,
-      "capex": -1991000,
-      "gross_margin": null,
-      "op_margin": -0.04107339968647676,
-      "fcf_margin": -0.04795606964297309
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -54399000,
       "gross_margin": null,
       "op_margin": 0.1953828431718269,
-      "fcf_margin": -0.3021683083746699,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.2542122387316968
+      "fcf_margin": -0.3021683083746699
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.33003773736669595,
       "fcf_margin": 0.4133347632868375,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7155030716615074
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.06297811674161992,
       "fcf_margin": 0.21617831146552924,
-      "incr_op_margin_yoy": 0.23623445825932504,
-      "rev_growth_yoy": 0.6005639707996698,
       "fcf_margin_change": 0.3587705734902553
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.1389250634587794,
       "incr_op_margin_yoy": -0.031340356269082235,
       "rev_growth_yoy": 0.7751212669754175,
-      "rev_growth_yoy_accel": 0.17455729617574767,
       "op_leverage_ratio": 1.175945360176356,
       "fcf_margin_change": -0.35510337492430866
     },
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": -0.13762308220746508,
       "rev_growth_yoy": 0.27661044666969936,
       "rev_growth_yoy_accel": -0.1917752922252594,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2911489754807312
     },
     {
@@ -367,7 +346,7 @@
       "incr_op_margin_yoy": 0.6013995424572736,
       "rev_growth_yoy": 0.060527076723832486,
       "rev_growth_yoy_accel": 0.058140345982419094,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2051962103362206
     },
     {
@@ -436,9 +415,38 @@
       "rev_growth_yoy": 0.02432356595983485,
       "rev_growth_yoy_accel": -0.0119999015947388,
       "fcf_margin_change": 0.07989832191460038
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 280961000,
+      "gross_profit": null,
+      "operating_income": 18163000,
+      "net_income": 8145000,
+      "opex": 262798000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 34917000,
+      "ocf": 78905000,
+      "capex": -43988000,
+      "gross_margin": null,
+      "op_margin": 0.06464598289442307,
+      "fcf_margin": 0.12427703489096352,
+      "incr_op_margin_yoy": -0.38431601478886945,
+      "rev_growth_yoy": 0.07893857644822488,
+      "rev_growth_yoy_accel": 0.054615010488390035,
+      "op_leverage_ratio": 1.4239522462471466,
+      "fcf_margin_change": -0.008826456566275717
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +7.9% vs prior quarter YoY: +2.4% (accel: +5.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -572,33 +580,15 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +77.5% vs prior quarter YoY: +60.1% (accel: +17.5%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -14.3% -> +21.6%",
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -4.1% (year-ago) -> +6.3%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -30.2% -> +41.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -4.1% -> +19.5%",
       "severity": "HIGH"
     }
   ],
@@ -629,5 +619,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:04:24.606211"
+  "last_updated": "2026-02-13T11:39:01.769287"
 }

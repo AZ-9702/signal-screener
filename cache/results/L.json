@@ -1,25 +1,9 @@
 {
   "ticker": "L",
   "name": "LOEWS CORP",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3709000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 397000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 328000000,
-      "ocf": 454000000,
-      "capex": -126000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.08843354003774602
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -87000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.012976256212037547,
-      "fcf_margin_change": -0.07545728382570847
+      "fcf_margin": 0.012976256212037547
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.21633433488118,
-      "rev_growth_yoy": -0.012941493664060394,
       "fcf_margin_change": -0.07705041741784105
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.08877131099353322,
       "rev_growth_yoy": -0.060739922694643844,
-      "rev_growth_yoy_accel": -0.04779842903058345,
       "fcf_margin_change": -0.1275630238876468
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.04590237348858039,
       "rev_growth_yoy_accel": -0.02159235348587473,
       "fcf_margin_change": -0.027875573904520057
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4734000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 402000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 426000000,
+      "ocf": 617000000,
+      "capex": -191000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.08998732572877059,
+      "rev_growth_yoy": 0.04135503739551254,
+      "rev_growth_yoy_accel": -0.004547336093067851,
+      "fcf_margin_change": -0.07357508060820221
     }
   ],
   "signals": [
@@ -509,7 +511,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:17:29.675491",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-13T11:46:48.581123"
 }

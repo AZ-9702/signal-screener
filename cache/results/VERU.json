@@ -1,6 +1,8 @@
 {
   "ticker": "VERU",
   "name": "VERU INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2020-06-30T00:00:00",
@@ -43,18 +45,18 @@
       "quarter_label": "2020-12 (Q4)",
       "revenue": 14616989,
       "gross_profit": 10836633,
-      "operating_income": 19187157,
-      "net_income": 17227701,
-      "opex": 10059634,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
       "cogs": 3780356,
-      "rd": 5677754,
+      "rd": null,
       "sga": 4381880,
-      "fcf": 652055,
-      "ocf": 659241,
-      "capex": -7186,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
       "gross_margin": 0.7413724536564952,
-      "op_margin": 1.312661383271206,
-      "fcf_margin": 0.04460939253631511
+      "op_margin": null,
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -72,8 +74,7 @@
       "capex": -4932,
       "gross_margin": 0.817683792203388,
       "op_margin": -0.11029657313110083,
-      "fcf_margin": -0.19447850741880712,
-      "fcf_margin_change": -0.23908789995512222
+      "fcf_margin": -0.19447850741880712
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -290,7 +291,7 @@
       "incr_op_margin_yoy": 16.57134746002964,
       "rev_growth_yoy": 0.4919129068608079,
       "rev_growth_yoy_accel": 1.1439523624227914,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 3.011161143768472
     },
     {
@@ -378,7 +379,7 @@
       "incr_op_margin_yoy": 5.498497768839617,
       "rev_growth_yoy": 0.7235891550828946,
       "rev_growth_yoy_accel": 0.540215591511886,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7763545652677515
     },
     {
@@ -594,11 +595,11 @@
         20
       ],
       "op_income": [
-        18,
+        17,
         20
       ],
       "fcf": [
-        18,
+        17,
         20
       ]
     },
@@ -615,5 +616,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:42:58.749723"
+  "last_updated": "2026-02-13T11:44:43.562181"
 }

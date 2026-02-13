@@ -1,25 +1,9 @@
 {
   "ticker": "CNA",
   "name": "CNA FINANCIAL CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2931000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 387000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 360000000,
-      "ocf": 367000000,
-      "capex": -7000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.12282497441146366
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.027564549895324496,
-      "fcf_margin_change": -0.09526042451613917
+      "fcf_margin": 0.027564549895324496
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.20726915520628683,
-      "rev_growth_yoy": 0.04196519959058342,
       "fcf_margin_change": -0.015103267909630708
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.2194107452339688,
       "rev_growth_yoy": 0.006629448709002094,
-      "rev_growth_yoy_accel": -0.03533575088158132,
       "fcf_margin_change": 0.012141590027681975
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.05500276395798784,
       "rev_growth_yoy_accel": -0.0012632206967436166,
       "fcf_margin_change": 0.03969765831730368
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3828000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 302000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 542000000,
+      "ocf": 570000000,
+      "capex": -28000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.14158829676071055,
+      "rev_growth_yoy": 0.03767958796421794,
+      "rev_growth_yoy_accel": -0.017323175993769896,
+      "fcf_margin_change": -0.04284974358511076
     }
   ],
   "signals": [
@@ -461,7 +463,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:31:37.953846",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-13T11:45:34.956953"
 }

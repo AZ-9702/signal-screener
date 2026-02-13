@@ -1,25 +1,9 @@
 {
   "ticker": "IRM",
   "name": "IRON MOUNTAIN INC",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1059653000,
-      "gross_profit": 610430000,
-      "operating_income": 425293000,
-      "net_income": null,
-      "opex": 634360000,
-      "cogs": 449223000,
-      "rd": null,
-      "sga": 236440000,
-      "fcf": 231338000,
-      "ocf": 360439000,
-      "capex": -129101000,
-      "gross_margin": 0.5760659385666818,
-      "op_margin": 0.40135119704280553,
-      "fcf_margin": 0.2183148634505824
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -145528000,
       "gross_margin": 0.5823546264463421,
       "op_margin": 0.15748586004214263,
-      "fcf_margin": -0.07088370115707368,
-      "op_leverage_ratio": 0.04833468248664755,
-      "fcf_margin_change": -0.2891985646076561
+      "fcf_margin": -0.07088370115707368
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.5761764170051332,
       "op_margin": 0.2732095206455692,
       "fcf_margin": 0.15210010037901114,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22298380153608482
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.5868546301398687,
       "op_margin": 0.16937237137015163,
       "fcf_margin": 0.08922055869891608,
-      "incr_op_margin_yoy": -2.290421678307683,
-      "rev_growth_yoy": 0.09430823109074386,
       "op_leverage_ratio": 1.7075112138715327,
       "fcf_margin_change": 0.13280334608605476
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.08536864827097719,
       "incr_op_margin_yoy": 0.31157909955061863,
       "rev_growth_yoy": 0.15341946693283057,
-      "rev_growth_yoy_accel": 0.059111235842086704,
       "op_leverage_ratio": 1.1712947251114723,
       "fcf_margin_change": -0.17458920696989327
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": -0.0715463723215022,
       "rev_growth_yoy": 0.1516205316158163,
       "rev_growth_yoy_accel": -0.0017989353170142774,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18016878537476816
     },
     {
@@ -372,7 +351,7 @@
       "incr_op_margin_yoy": 0.32010529575720037,
       "rev_growth_yoy": 0.11371087645061483,
       "rev_growth_yoy_accel": -0.008163526992755063,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.025715358450640047
     },
     {
@@ -440,11 +419,40 @@
       "incr_op_margin_yoy": 0.29189010598012555,
       "rev_growth_yoy": 0.12632612411532865,
       "rev_growth_yoy_accel": 0.010620989434809963,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.040010766040543905
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1843167000,
+      "gross_profit": 1020667000,
+      "operating_income": 341043000,
+      "net_income": null,
+      "opex": 1502124000,
+      "cogs": 822500000,
+      "rd": null,
+      "sga": 338461000,
+      "fcf": -16247000,
+      "ocf": 499998000,
+      "capex": -516245000,
+      "gross_margin": 0.5537572015992039,
+      "op_margin": 0.18503098200000326,
+      "fcf_margin": -0.008814719447559554,
+      "incr_op_margin_yoy": 0.2237788673020528,
+      "rev_growth_yoy": 0.16561783214726813,
+      "rev_growth_yoy_accel": 0.03929170803193949,
+      "op_leverage_ratio": 1.296426120694539,
+      "fcf_margin_change": 0.13729155883985167
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -14.6% -> -0.9% (+13.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -525,12 +533,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +15.3% vs prior quarter YoY: +9.4% (accel: +5.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +31.2% vs year-ago OPM: +15.7%",
       "severity": "MEDIUM"
@@ -579,7 +581,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:11:36.899804",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-13T11:36:00.336457"
 }

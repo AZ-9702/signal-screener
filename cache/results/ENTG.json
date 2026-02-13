@@ -1,25 +1,9 @@
 {
   "ticker": "ENTG",
-  "name": "ENTEGRIS INC",
+  "name": "Entegris, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 517594000,
-      "gross_profit": 230872000,
-      "operating_income": 113228000,
-      "net_income": 86624000,
-      "opex": 117644000,
-      "cogs": 286722000,
-      "rd": 37558000,
-      "sga": 68170000,
-      "fcf": 151826000,
-      "ocf": 204018000,
-      "capex": -52192000,
-      "gross_margin": 0.44604844723856923,
-      "op_margin": 0.21875833181992063,
-      "fcf_margin": 0.29333029362782415
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -43330000,
       "gross_margin": 0.45820171436148227,
       "op_margin": 0.22224692109101404,
-      "fcf_margin": 0.01907987614167271,
-      "fcf_margin_change": -0.2742504174861514
+      "fcf_margin": 0.01907987614167271
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.455922677236826,
       "op_margin": 0.24048090313429152,
       "fcf_margin": 0.17363281351112092,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10347641255339259
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.46455941713213394,
       "op_margin": 0.25116970296156826,
       "fcf_margin": 0.06193285936486546,
-      "incr_op_margin_yoy": 0.39381005016580223,
-      "rev_growth_yoy": 0.22722442686739028,
       "op_leverage_ratio": 1.1218316363236094,
       "fcf_margin_change": -0.11169995414625547
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.031735745313601564,
       "incr_op_margin_yoy": 0.3608719170772357,
       "rev_growth_yoy": 0.266751682772929,
-      "rev_growth_yoy_accel": 0.03952725590553871,
       "op_leverage_ratio": 0.28200716069283577,
       "fcf_margin_change": -0.09366860467846702
     },
@@ -269,16 +249,16 @@
       "cogs": 467611000,
       "rd": 67567000,
       "sga": 144680000,
-      "fcf": 29440000,
-      "ocf": 158105000,
-      "capex": -128665000,
+      "fcf": 29511000,
+      "ocf": 158129000,
+      "capex": -128618000,
       "gross_margin": 0.42433068937117363,
       "op_margin": 0.12436060475863946,
-      "fcf_margin": 0.036243169012090494,
+      "fcf_margin": 0.03633057611127047,
       "incr_op_margin_yoy": 0.3196241562577086,
       "rev_growth_yoy": -0.14140497003392985,
       "rev_growth_yoy_accel": -0.03516022748290493,
-      "fcf_margin_change": -0.10937417046523487
+      "fcf_margin_change": -0.10928676336605489
     },
     {
       "date": "2024-03-30T00:00:00",
@@ -300,7 +280,7 @@
       "incr_op_margin_yoy": -0.6878860547925296,
       "rev_growth_yoy": -0.16410630575154272,
       "rev_growth_yoy_accel": -0.022701335717612875,
-      "fcf_margin_change": 0.06829300037281921
+      "fcf_margin_change": 0.06820559327363923
     },
     {
       "date": "2024-06-29T00:00:00",
@@ -358,17 +338,17 @@
       "cogs": 462582000,
       "rd": 81447000,
       "sga": 109604000,
-      "fcf": 68615000,
-      "ocf": 176121000,
-      "capex": -107506000,
+      "fcf": 68600000,
+      "ocf": 176100000,
+      "capex": -107500000,
       "gross_margin": 0.45568150127612705,
       "op_margin": 0.1764844317204358,
-      "fcf_margin": 0.08073901230471255,
+      "fcf_margin": 0.0807213618611569,
       "incr_op_margin_yoy": 1.3041602301177222,
       "rev_growth_yoy": 0.046222351349454814,
       "rev_growth_yoy_accel": 0.13690177434259068,
       "op_leverage_ratio": 3.508939736646664,
-      "fcf_margin_change": -0.06164164175486943
+      "fcf_margin_change": -0.06165929219842507
     },
     {
       "date": "2025-03-29T00:00:00",
@@ -390,7 +370,7 @@
       "incr_op_margin_yoy": 2.1645977011494253,
       "rev_growth_yoy": 0.0028209202036250445,
       "rev_growth_yoy_accel": -0.04340143114582977,
-      "fcf_margin_change": -0.038835235791520616
+      "fcf_margin_change": -0.03881758534796497
     },
     {
       "date": "2025-06-28T00:00:00",
@@ -434,11 +414,40 @@
       "fcf_margin": 0.22648990211869657,
       "rev_growth_yoy": -0.0007354270305338407,
       "rev_growth_yoy_accel": 0.02418544931013843,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16717642407730332
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 823900000,
+      "gross_profit": 360600000,
+      "operating_income": 104900000,
+      "net_income": 49400000,
+      "opex": 192500000,
+      "cogs": 463300000,
+      "rd": 79000000,
+      "sga": 130400000,
+      "fcf": 134000000,
+      "ocf": 192000000,
+      "capex": -58000000,
+      "gross_margin": 0.4376744750576526,
+      "op_margin": 0.12732127685398714,
+      "fcf_margin": 0.16264109722053646,
+      "incr_op_margin_yoy": 1.7381732659906697,
+      "rev_growth_yoy": -0.030519970300186976,
+      "rev_growth_yoy_accel": -0.029784543269653137,
+      "op_leverage_ratio": 0.14206841114378188,
+      "fcf_margin_change": -0.06384880489816011
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +173.8% vs year-ago OPM: +17.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -584,12 +593,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +39.4% vs year-ago OPM: +21.9%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.0% -> +17.4% (+10.3%)",
@@ -633,7 +636,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:40.500263",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-13T11:41:33.689212"
 }

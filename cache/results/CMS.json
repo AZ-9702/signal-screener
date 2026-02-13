@@ -1,25 +1,9 @@
 {
   "ticker": "CMS",
   "name": "CMS ENERGY CORPORATION",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1798000000,
-      "gross_profit": null,
-      "operating_income": 352000000,
-      "net_income": 158000000,
-      "opex": 1446000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -486000000,
-      "ocf": 132000000,
-      "capex": -618000000,
-      "gross_margin": null,
-      "op_margin": 0.19577308120133483,
-      "fcf_margin": -0.27030033370411566
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -436000000,
       "gross_margin": null,
       "op_margin": 0.2328372539606337,
-      "fcf_margin": 0.19011041766682668,
-      "op_leverage_ratio": 1.5079254727474973,
-      "fcf_margin_change": 0.46041075137094234
+      "fcf_margin": 0.19011041766682668
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.10034431874077718,
       "fcf_margin": -0.14658140678799803,
-      "incr_op_margin_yoy": -0.6297872340425532,
-      "rev_growth_yoy": 0.13070077864293658,
       "op_leverage_ratio": 0.7186176142697882,
       "fcf_margin_change": 0.11312873813953822
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.07877000842459983,
       "incr_op_margin_yoy": -0.09965635738831616,
       "rev_growth_yoy": 0.13970235237638023,
-      "rev_growth_yoy_accel": 0.009001573733443652,
       "op_leverage_ratio": 3.44699536302691,
       "fcf_margin_change": 0.22535141521259786
     },
@@ -440,9 +419,38 @@
       "rev_growth_yoy_accel": 0.015749012585143662,
       "op_leverage_ratio": 7.970419792680832,
       "fcf_margin_change": -0.058488159418596586
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2233000000,
+      "gross_profit": null,
+      "operating_income": 435000000,
+      "net_income": 289000000,
+      "opex": 1798000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 478000000,
+      "ocf": 478000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.19480519480519481,
+      "fcf_margin": 0.2140618002686968,
+      "incr_op_margin_yoy": 0.040983606557377046,
+      "rev_growth_yoy": 0.12267471091000502,
+      "rev_growth_yoy_accel": -0.036820412440540004,
+      "op_leverage_ratio": 0.6261387217165499,
+      "fcf_margin_change": 0.5282626909168908
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -31.4% -> +21.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -598,18 +606,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -26.0% -> -14.7% (+11.3%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -27.0% -> +19.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +15.9% vs OpEx growth +10.5% (leverage: 1.5x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -639,7 +635,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:16:45.098660",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-13T11:45:30.467263"
 }

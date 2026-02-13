@@ -1,6 +1,8 @@
 {
   "ticker": "CTA-PB",
   "name": "EIDP, INC.",
+  "sector": "Basic Materials",
+  "industry": "Agricultural Inputs",
   "quarters": [
     {
       "date": "2013-03-31T00:00:00",
@@ -185,7 +187,7 @@
       "incr_op_margin_yoy": 0.31714876033057854,
       "rev_growth_yoy": -0.09481829758056616,
       "rev_growth_yoy_accel": -0.047186956416244485,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.9421381148498789
     },
     {
@@ -608,7 +610,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:53:09.082277",
-  "sector": "Basic Materials",
-  "industry": "Agricultural Inputs"
+  "last_updated": "2026-02-13T11:34:21.997793"
 }

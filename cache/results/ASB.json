@@ -1,6 +1,8 @@
 {
   "ticker": "ASB",
-  "name": "Associated Banc-Corp",
+  "name": "ASSOCIATED BANC-CORP",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
     {
       "date": "2019-12-31T00:00:00",
@@ -80,17 +82,17 @@
       "revenue": 273707000,
       "gross_profit": null,
       "operating_income": null,
-      "net_income": 67002000,
+      "net_income": null,
       "opex": null,
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 126960000,
-      "ocf": 126960000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.4638536829529387,
+      "fcf_margin": null,
       "rev_growth_yoy": -0.06608865959682812
     },
     {
@@ -111,8 +113,7 @@
       "op_margin": null,
       "fcf_margin": 0.5816439012700695,
       "rev_growth_yoy": -0.09959568196303378,
-      "rev_growth_yoy_accel": -0.03350702236620566,
-      "fcf_margin_change": 0.11779021831713077
+      "rev_growth_yoy_accel": -0.03350702236620566
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -493,12 +494,6 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: -43.1% vs prior quarter YoY: -10.0% (decel: -33.1%)",
       "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +46.4% -> +58.2% (+11.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -517,19 +512,18 @@
         20
       ],
       "fcf": [
-        16,
+        15,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: no data"
+      "op_income: no data",
+      "fcf: 15/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:10:00.611414",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-13T11:32:25.890780"
 }

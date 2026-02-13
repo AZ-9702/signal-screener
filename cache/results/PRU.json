@@ -1,25 +1,9 @@
 {
   "ticker": "PRU",
-  "name": "PRUDENTIAL FINANCIAL INC",
+  "name": "Prudential Financial, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Life",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 16029000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 819000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -4513000000,
-      "ocf": -4513000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.2815521866616757
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.19449032562529495,
-      "fcf_margin_change": 0.08706186103638075
+      "fcf_margin": -0.19449032562529495
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.20293472966390647,
-      "rev_growth_yoy": 0.024642834861812964,
       "fcf_margin_change": -0.047377178288591115
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 7.567158531971244e-05,
       "rev_growth_yoy": -0.22044596507786693,
-      "rev_growth_yoy_accel": -0.24508879993967989,
       "fcf_margin_change": -0.20285905807858676
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.08219599794766547,
       "rev_growth_yoy_accel": -0.004456294930800589,
       "fcf_margin_change": 0.15550414618640257
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 15690000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 905000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 3319000000,
+      "ocf": 3319000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.21153601019757806,
+      "rev_growth_yoy": 0.25289467380020764,
+      "rev_growth_yoy_accel": 0.3350906717478731,
+      "fcf_margin_change": -0.028624991591330695
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +25.3% vs prior quarter YoY: -8.2% (accel: +33.5%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -541,22 +549,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -22.0% vs prior quarter YoY: +2.5% (decel: -24.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -19.4% -> +27.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -28.2% -> -19.4% (+8.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -587,5 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:04:30.039669"
+  "last_updated": "2026-02-13T11:38:10.021371"
 }

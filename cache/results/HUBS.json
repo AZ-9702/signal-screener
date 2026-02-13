@@ -1,25 +1,9 @@
 {
   "ticker": "HUBS",
   "name": "HubSpot, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 252065000,
-      "gross_profit": 204771000,
-      "operating_income": -7641000,
-      "net_income": -15416000,
-      "opex": 212411000,
-      "cogs": 47294000,
-      "rd": 55563000,
-      "sga": null,
-      "fcf": 51404000,
-      "ocf": 60925000,
-      "capex": -9521000,
-      "gross_margin": 0.8123737924741634,
-      "op_margin": -0.03031360958482931,
-      "fcf_margin": 0.20393152559855593
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3967000,
       "gross_margin": 0.8054697634744904,
       "op_margin": -0.053425266113411404,
-      "fcf_margin": 0.20874309171361044,
-      "op_leverage_ratio": 0.8440662054037236,
-      "fcf_margin_change": 0.004811566115054511
+      "fcf_margin": 0.20874309171361044
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.8060188080983675,
       "op_margin": -0.02230652380526876,
       "fcf_margin": 0.22706459902141568,
-      "incr_op_margin_yoy": -0.005091945003582273,
-      "rev_growth_yoy": 0.46513399321603555,
       "op_leverage_ratio": 1.1807944649361912,
       "fcf_margin_change": 0.12093095907978918
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.18272543661637164,
       "incr_op_margin_yoy": 0.0339478614072868,
       "rev_growth_yoy": 0.4059993247205587,
-      "rev_growth_yoy_accel": -0.05913466849547683,
       "op_leverage_ratio": 0.7802742117505679,
       "fcf_margin_change": -0.04433916240504404
     },
@@ -168,7 +147,7 @@
       "incr_op_margin_yoy": -0.16500100226224906,
       "rev_growth_yoy": 0.3088577367001282,
       "rev_growth_yoy_accel": -0.04819272856880108,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.028487891422634207
     },
     {
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.103618869884418,
       "rev_growth_yoy": 0.2558778082611418,
       "rev_growth_yoy_accel": 0.0012679044070084688,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01616572099692394
     },
     {
@@ -446,9 +425,44 @@
       "rev_growth_yoy_accel": 0.014718164403248218,
       "op_leverage_ratio": 29.31206578015019,
       "fcf_margin_change": 0.023702867460787064
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 846746000,
+      "gross_profit": 709045000,
+      "operating_income": 48242000,
+      "net_income": 54426000,
+      "opex": 660803000,
+      "cogs": 137701000,
+      "rd": 220792000,
+      "sga": null,
+      "fcf": 233980000,
+      "ocf": 247430000,
+      "capex": -13450000,
+      "gross_margin": 0.837376261594386,
+      "op_margin": 0.05697340170487962,
+      "fcf_margin": 0.276328438516391,
+      "incr_op_margin_yoy": 0.41125459712470747,
+      "rev_growth_yoy": 0.204170210103274,
+      "rev_growth_yoy_accel": -0.00456895142816971,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.057667457537586314
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +21.9% -> +27.6% (+5.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1.5% (year-ago) -> +5.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -492,12 +506,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +40.6% vs prior quarter YoY: +46.5% (decel: -5.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.6% -> +22.7% (+12.1%)",
@@ -529,7 +537,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:48.899320",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-13T11:42:08.178458"
 }

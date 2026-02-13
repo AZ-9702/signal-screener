@@ -1,25 +1,9 @@
 {
   "ticker": "ARTW",
   "name": "ARTS WAY MANUFACTURING CO INC",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-11-30T00:00:00",
-      "quarter_label": "2020-11 (Q4)",
-      "revenue": 5472613,
-      "gross_profit": -497158,
-      "operating_income": -2002027,
-      "net_income": -440963,
-      "opex": 1504869,
-      "cogs": 5969771,
-      "rd": null,
-      "sga": null,
-      "fcf": -576346,
-      "ocf": -497375,
-      "capex": -78971,
-      "gross_margin": -0.09084472079425313,
-      "op_margin": -0.36582652564688933,
-      "fcf_margin": -0.10531459103722482
-    },
     {
       "date": "2021-02-28T00:00:00",
       "quarter_label": "2021-02 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -163927,
       "gross_margin": 0.19306806760469075,
       "op_margin": -0.06823777185083357,
-      "fcf_margin": 0.09580003747751165,
-      "fcf_margin_change": 0.20111462851473647
+      "fcf_margin": 0.09580003747751165
     },
     {
       "date": "2021-05-31T00:00:00",
@@ -96,9 +79,7 @@
       "gross_margin": 0.28824028999548085,
       "op_margin": 0.08026827831568871,
       "fcf_margin": 0.017779793012228092,
-      "incr_op_margin_yoy": 1.4442434959451795,
-      "rev_growth_yoy": 0.3270549187380873,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02934957129379456
     },
     {
@@ -119,7 +100,6 @@
       "op_margin": -0.07783197275784749,
       "fcf_margin": 0.17720849888456683,
       "rev_growth_yoy": 0.039346572918572326,
-      "rev_growth_yoy_accel": -0.287708345819515,
       "fcf_margin_change": 0.15942870587233873
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.17476027238017494,
       "rev_growth_yoy": 0.23490051092041375,
       "rev_growth_yoy_accel": -0.039190996458976335,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2287045066670504
     },
     {
@@ -209,7 +189,7 @@
       "incr_op_margin_yoy": 0.43189498794549197,
       "rev_growth_yoy": 0.40650136663278147,
       "rev_growth_yoy_accel": 0.3915606950309629,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09496186722803711
     },
     {
@@ -319,7 +299,7 @@
       "incr_op_margin_yoy": 0.10969500431593524,
       "rev_growth_yoy": -0.2528461210714093,
       "rev_growth_yoy_accel": 0.02219506117737896,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21736138558520884
     },
     {
@@ -428,11 +408,39 @@
       "fcf_margin": -0.23765915001424065,
       "rev_growth_yoy": 0.09472845788586892,
       "rev_growth_yoy_accel": 0.15320725843289024,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4307358193794771
+    },
+    {
+      "date": "2025-11-30T00:00:00",
+      "quarter_label": "2025-11 (Q4)",
+      "revenue": 5065467,
+      "gross_profit": 944250,
+      "operating_income": -568413,
+      "net_income": -645524,
+      "opex": 1512663,
+      "cogs": 4121217,
+      "rd": null,
+      "sga": null,
+      "fcf": -1041996,
+      "ocf": -889151,
+      "capex": -152845,
+      "gross_margin": 0.18640926887886153,
+      "op_margin": -0.11221334577838529,
+      "fcf_margin": -0.20570581152734782,
+      "incr_op_margin_yoy": 0.9838729390760506,
+      "rev_growth_yoy": -0.17901775816173982,
+      "rev_growth_yoy_accel": -0.27374621604760874,
+      "fcf_margin_change": 0.03195333848689283
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-11 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -17.9% vs prior quarter YoY: +9.5% (decel: -27.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-08 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -608,12 +616,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-02 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.9% vs prior quarter YoY: +32.7% (decel: -28.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-11 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.2% -> +1.8%",
@@ -624,12 +626,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +30.2% -> +26.4% -> +28.8% (reversal +2.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-11 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -36.6% (year-ago) -> +8.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-08 (Q3)",
@@ -647,12 +643,6 @@
       "quarter": "2021-05 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -6.8% -> +2.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-02 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -10.5% -> +9.6%",
       "severity": "HIGH"
     }
   ],
@@ -681,7 +671,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:06:29.070424",
-  "sector": "Industrials",
-  "industry": "Farm & Heavy Construction Machinery"
+  "last_updated": "2026-02-13T11:32:20.925863"
 }

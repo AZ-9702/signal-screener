@@ -1,25 +1,9 @@
 {
   "ticker": "KMB",
-  "name": "KIMBERLY CLARK CORP",
+  "name": "KIMBERLY-CLARK CORPORATION",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4836000000,
-      "gross_profit": 1664000000,
-      "operating_income": 749000000,
-      "net_income": 539000000,
-      "opex": 915000000,
-      "cogs": 3172000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 887000000,
-      "ocf": 887000000,
-      "capex": null,
-      "gross_margin": 0.34408602150537637,
-      "op_margin": 0.15488006617038874,
-      "fcf_margin": 0.18341604631927214
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.33502002951718324,
       "op_margin": 0.16234450769555134,
-      "fcf_margin": 0.06767868437697659,
-      "fcf_margin_change": -0.11573736194229554
+      "fcf_margin": 0.06767868437697659
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -75,7 +58,7 @@
       "gross_margin": 0.2960079840319361,
       "op_margin": 0.1311377245508982,
       "fcf_margin": 0.1560878243512974,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.036435134812966175
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.2892245720040282,
       "op_margin": 0.10493454179254784,
       "fcf_margin": 0.21389728096676738,
-      "incr_op_margin_yoy": -1.7674418604651163,
-      "rev_growth_yoy": 0.026674937965260544,
       "fcf_margin_change": 0.05780945661546999
     },
     {
@@ -118,8 +99,7 @@
       "fcf_margin": 0.04003925417075564,
       "incr_op_margin_yoy": -0.21875,
       "rev_growth_yoy": 0.0742146320893949,
-      "rev_growth_yoy_accel": 0.04753969412413435,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17385802679601176
     },
     {
@@ -296,7 +276,7 @@
       "incr_op_margin_yoy": -1.434782608695652,
       "rev_growth_yoy": -0.008854667949951878,
       "rev_growth_yoy_accel": -0.010063370609097727,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1594017396279014
     },
     {
@@ -346,24 +326,24 @@
     {
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
-      "revenue": 4928000000,
-      "gross_profit": 1675000000,
+      "revenue": 4104000000,
+      "gross_profit": 1445000000,
       "operating_income": 548000000,
       "net_income": 447000000,
-      "opex": 1127000000,
+      "opex": 897000000,
       "cogs": 3253000000,
       "rd": null,
       "sga": null,
       "fcf": 817000000,
       "ocf": 817000000,
       "capex": null,
-      "gross_margin": 0.3398944805194805,
-      "op_margin": 0.1112012987012987,
-      "fcf_margin": 0.16578733766233766,
-      "incr_op_margin_yoy": 2.9047619047619047,
-      "rev_growth_yoy": -0.008450704225352112,
-      "rev_growth_yoy_accel": 0.02662334098119504,
-      "fcf_margin_change": -0.02766985135220193
+      "gross_margin": 0.3520955165692008,
+      "op_margin": 0.13352826510721247,
+      "fcf_margin": 0.19907407407407407,
+      "incr_op_margin_yoy": 0.14087759815242495,
+      "rev_growth_yoy": -0.17424547283702213,
+      "rev_growth_yoy_accel": -0.13917142763047496,
+      "fcf_margin_change": 0.005616885059534477
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -384,8 +364,9 @@
       "fcf_margin": 0.06756198347107438,
       "incr_op_margin_yoy": 0.27184466019417475,
       "rev_growth_yoy": -0.06001165274810643,
-      "rev_growth_yoy_accel": -0.05156094852275432,
-      "fcf_margin_change": -0.09822535419126328
+      "rev_growth_yoy_accel": 0.1142338200889157,
+      "op_leverage_ratio": 2.4009775682988566,
+      "fcf_margin_change": -0.13151209060299968
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -430,9 +411,49 @@
       "rev_growth_yoy": -0.16195476575121162,
       "rev_growth_yoy_accel": 0.010246467098261436,
       "fcf_margin_change": -0.014360357596612722
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4080000000,
+      "gross_profit": 1465000000,
+      "operating_income": 507000000,
+      "net_income": 499000000,
+      "opex": 958000000,
+      "cogs": 2615000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 972000000,
+      "ocf": 972000000,
+      "capex": null,
+      "gross_margin": 0.3590686274509804,
+      "op_margin": 0.12426470588235294,
+      "fcf_margin": 0.23823529411764705,
+      "incr_op_margin_yoy": 1.7083333333333333,
+      "rev_growth_yoy": -0.005847953216374269,
+      "rev_growth_yoy_accel": 0.15610681253483735,
+      "fcf_margin_change": 0.06763288447909283
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +17.1% -> +23.8% (+6.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -0.6% vs prior quarter YoY: -16.2% (accel: +15.6%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +170.8% vs year-ago OPM: +13.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -453,9 +474,15 @@
     },
     {
       "quarter": "2025-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -6.0% vs prior quarter YoY: -0.8% (decel: -5.2%)",
-      "severity": "WARNING"
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +17.9% vs OpEx growth +7.5% (leverage: 2.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -6.0% vs prior quarter YoY: -17.4% (accel: +11.4%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2025-03 (Q1)",
@@ -465,9 +492,9 @@
     },
     {
       "quarter": "2024-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +290.5% vs year-ago OPM: +13.5%",
-      "severity": "HIGH"
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -17.4% vs prior quarter YoY: -3.5% (decel: -13.9%)",
+      "severity": "WARNING"
     },
     {
       "quarter": "2024-06 (Q2)",
@@ -555,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:43.038663",
-  "sector": "Consumer Defensive",
-  "industry": "Household & Personal Products"
+  "last_updated": "2026-02-13T11:36:18.038849"
 }

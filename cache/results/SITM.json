@@ -1,25 +1,9 @@
 {
   "ticker": "SITM",
   "name": "SiTime Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 40274000,
-      "gross_profit": 21071000,
-      "operating_income": 2074000,
-      "net_income": 1991000,
-      "opex": 18997000,
-      "cogs": 19203000,
-      "rd": 8746000,
-      "sga": 10251000,
-      "fcf": 4576000,
-      "ocf": 6762000,
-      "capex": -2186000,
-      "gross_margin": 0.5231911406862989,
-      "op_margin": 0.05149724387942593,
-      "fcf_margin": 0.11362169141381537
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3866000,
       "gross_margin": 0.5294299701761297,
       "op_margin": -0.09808114343593495,
-      "fcf_margin": 0.06215182038152046,
-      "fcf_margin_change": -0.05146987103229491
+      "fcf_margin": 0.06215182038152046
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.6881609696201529,
       "op_margin": 0.26643429582392625,
       "fcf_margin": 0.18291282132530598,
-      "incr_op_margin_yoy": 0.5105027208390899,
-      "rev_growth_yoy": 0.8806425982023142,
       "op_leverage_ratio": 1.2892246450481908,
       "fcf_margin_change": -0.060530672939238916
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.1790101490327815,
       "incr_op_margin_yoy": 0.27501368442280544,
       "rev_growth_yoy": 0.976619211074222,
-      "rev_growth_yoy_accel": 0.09597661287190784,
       "fcf_margin_change": -0.003902672292524473
     },
     {
@@ -254,7 +234,7 @@
       "incr_op_margin_yoy": 0.7640452428476381,
       "rev_growth_yoy": -0.5140570490457623,
       "rev_growth_yoy_accel": 0.13680295750187166,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08574162195952442
     },
     {
@@ -438,9 +418,56 @@
       "rev_growth_yoy_accel": -0.135882040319246,
       "op_leverage_ratio": 163.79551213054364,
       "fcf_margin_change": 0.3564427568024978
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 113285000,
+      "gross_profit": 63881000,
+      "operating_income": 1764000,
+      "net_income": 9167000,
+      "opex": 62117000,
+      "cogs": 49404000,
+      "rd": 28295000,
+      "sga": 30815000,
+      "fcf": 12987000,
+      "ocf": 25376000,
+      "capex": -12389000,
+      "gross_margin": 0.5638963675685219,
+      "op_margin": 0.015571346603698636,
+      "fcf_margin": 0.11464006708743435,
+      "incr_op_margin_yoy": 0.5486120334705804,
+      "rev_growth_yoy": 0.6632408862004668,
+      "rev_growth_yoy_accel": 0.21488912357437928,
+      "op_leverage_ratio": 15.663217833930426,
+      "fcf_margin_change": -0.20017319652140647
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +35.6% vs OpEx growth +2.3% (leverage: 15.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +66.3% vs prior quarter YoY: +44.8% (accel: +21.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -33.8% (year-ago) -> +1.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -19.2% -> +1.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -593,20 +620,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +97.7% vs prior quarter YoY: +88.1% (accel: +9.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -9.8% (year-ago) -> +8.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +51.1% vs year-ago OPM: +5.1%",
       "severity": "HIGH"
     },
     {
@@ -659,5 +674,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:40:34.245201"
+  "last_updated": "2026-02-13T11:44:13.304613"
 }

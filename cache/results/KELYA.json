@@ -1,25 +1,9 @@
 {
   "ticker": "KELYA",
-  "name": "KELLY SERVICES INC",
+  "name": "KELLY SERVICES, INC.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2021-01-03T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 1241400000,
-      "gross_profit": 224100000,
-      "operating_income": 9500000,
-      "net_income": 23400000,
-      "opex": 214600000,
-      "cogs": 1017300000,
-      "rd": null,
-      "sga": 214600000,
-      "fcf": -30500000,
-      "ocf": -30500000,
-      "capex": null,
-      "gross_margin": 0.18052199130014498,
-      "op_margin": 0.007652650233607217,
-      "fcf_margin": -0.024569034960528435
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.17688033833651215,
       "op_margin": 0.008790115266605855,
-      "fcf_margin": 0.008707189650883157,
-      "fcf_margin_change": 0.033276224611411595
+      "fcf_margin": 0.008707189650883157
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.1967527793329601,
       "op_margin": 0.012237063104854834,
       "fcf_margin": 0.04318963448772295,
-      "incr_op_margin_yoy": 0.651685393258427,
-      "rev_growth_yoy": 0.007169324955695183,
       "op_leverage_ratio": 0.935105404048854,
       "fcf_margin_change": 0.05707619965419442
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.08184202406664609,
       "incr_op_margin_yoy": 0.1414364640883978,
       "rev_growth_yoy": 0.07504768222904055,
-      "rev_growth_yoy_accel": 0.06787835727334537,
       "op_leverage_ratio": 1.8902610040257004,
       "fcf_margin_change": -0.12503165855436904
     },
@@ -187,7 +167,7 @@
       "incr_op_margin_yoy": 0.6484848484848484,
       "rev_growth_yoy": -0.013196832760137568,
       "rev_growth_yoy_accel": 0.009808019172269993,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.032459292171382284
     },
     {
@@ -210,7 +190,7 @@
       "incr_op_margin_yoy": 0.45195729537366547,
       "rev_growth_yoy": -0.0216754088244369,
       "rev_growth_yoy_accel": -0.008478576064299333,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.039336015688977655
     },
     {
@@ -435,9 +415,38 @@
       "rev_growth_yoy": -0.09931605818321934,
       "rev_growth_yoy_accel": -0.1412073111383021,
       "fcf_margin_change": -0.113644410750323
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1049200000,
+      "gross_profit": 197000000,
+      "operating_income": -700000,
+      "net_income": -128800000,
+      "opex": 197700000,
+      "cogs": 852200000,
+      "rd": null,
+      "sga": 198500000,
+      "fcf": 28600000,
+      "ocf": 28600000,
+      "capex": null,
+      "gross_margin": 0.18776210446054137,
+      "op_margin": -0.0006671749904689287,
+      "fcf_margin": 0.027258863896301944,
+      "incr_op_margin_yoy": -0.39464411557434814,
+      "rev_growth_yoy": -0.11913357400722022,
+      "rev_growth_yoy_accel": -0.019817515824000875,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.054317687425713704
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -2.7% -> +2.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -560,12 +569,6 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +7.5% vs prior quarter YoY: +0.7% (accel: +6.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +14.1% vs year-ago OPM: +0.9%",
       "severity": "MEDIUM"
@@ -574,18 +577,6 @@
       "quarter": "2022-01 (Q1)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.4% -> +4.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +65.2% vs year-ago OPM: +0.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -2.5% -> +0.9%",
       "severity": "HIGH"
     }
   ],
@@ -614,7 +605,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:39:03.898200",
-  "sector": "Industrials",
-  "industry": "Staffing & Employment Services"
+  "last_updated": "2026-02-13T11:36:14.445222"
 }

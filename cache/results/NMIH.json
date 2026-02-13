@@ -1,25 +1,9 @@
 {
   "ticker": "NMIH",
   "name": "NMI Holdings, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 109903000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 48268000,
-      "opex": 48287000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 34564000,
-      "ocf": 37621000,
-      "capex": -3057000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.3144955096767149
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2456000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.7205930864454746,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.4060975767687597
+      "fcf_margin": 0.7205930864454746
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.7741150167681033,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05352193032262875
     },
     {
@@ -77,7 +59,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.7721640425343234,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0019509742337799896
     },
     {
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3294662274529871,
-      "rev_growth_yoy": 0.13802171005341074,
       "fcf_margin_change": -0.44269781508133627
     },
     {
@@ -118,8 +99,7 @@
       "op_margin": null,
       "fcf_margin": 0.6146844422124748,
       "rev_growth_yoy": 0.10631630119624286,
-      "rev_growth_yoy_accel": -0.03170540885716788,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.28521821475948766
     },
     {
@@ -141,7 +121,7 @@
       "fcf_margin": 0.6820904553017698,
       "rev_growth_yoy": 0.09485364136960212,
       "rev_growth_yoy_accel": -0.011462659826640742,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06740601308929506
     },
     {
@@ -228,7 +208,7 @@
       "fcf_margin": 0.6929389914847391,
       "rev_growth_yoy": 0.07914838904855544,
       "rev_growth_yoy_accel": 0.005875266584042443,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04724045589082482
     },
     {
@@ -294,7 +274,7 @@
       "fcf_margin": 0.7000697586606337,
       "rev_growth_yoy": 0.14237565708186198,
       "rev_growth_yoy_accel": 0.005095123375896099,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5108505751489413
     },
     {
@@ -381,7 +361,7 @@
       "fcf_margin": 0.5740103667617146,
       "rev_growth_yoy": 0.10875311194025075,
       "rev_growth_yoy_accel": 0.008845594434635742,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.36726458287664276
     },
     {
@@ -426,6 +406,28 @@
       "rev_growth_yoy_accel": 0.0038806596004225813,
       "op_leverage_ratio": 0.29366036737074125,
       "fcf_margin_change": -0.02244668706615982
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 180736000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 94217000,
+      "opex": 59587000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 60095000,
+      "ocf": 61743000,
+      "capex": -1648000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3325015492209632,
+      "rev_growth_yoy": 0.08547542401383751,
+      "rev_growth_yoy_accel": 0.0096921231926059,
+      "op_leverage_ratio": 0.13790645318570918,
+      "fcf_margin_change": -0.37418474295662907
     }
   ],
   "signals": [
@@ -488,12 +490,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +72.1% -> +77.4% (+5.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +31.4% -> +72.1% (+40.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -524,7 +520,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:23:03.040100",
-  "sector": "Financial Services",
-  "industry": "Insurance - Specialty"
+  "last_updated": "2026-02-13T11:37:30.166875"
 }

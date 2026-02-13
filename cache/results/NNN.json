@@ -1,25 +1,9 @@
 {
   "ticker": "NNN",
   "name": "NNN REIT, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 163284000,
-      "gross_profit": null,
-      "operating_income": 93299000,
-      "net_income": 61287000,
-      "opex": 72586000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 101370000,
-      "ocf": 101370000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.5713909507361407,
-      "fcf_margin": 0.6208201660909826
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.6254213530020358,
-      "fcf_margin": 0.8964945655196965,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.27567439942871397
+      "fcf_margin": 0.8964945655196965
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.6098279940831246,
       "fcf_margin": 0.6155846652533096,
-      "incr_op_margin_yoy": 0.8715852692163323,
-      "rev_growth_yoy": 0.14684231155532693,
       "op_leverage_ratio": 0.587890970561159,
       "fcf_margin_change": -0.3402640126466333
     },
@@ -119,8 +99,7 @@
       "fcf_margin": 0.8636686129315374,
       "incr_op_margin_yoy": 0.5332825445195696,
       "rev_growth_yoy": 0.05841092903469835,
-      "rev_growth_yoy_accel": -0.08843138252062857,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24808394767822783
     },
     {
@@ -165,7 +144,7 @@
       "incr_op_margin_yoy": 0.683315540643587,
       "rev_growth_yoy": 0.07271134472185721,
       "rev_growth_yoy_accel": 0.006950022791919946,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4001812544722473
     },
     {
@@ -256,7 +235,7 @@
       "incr_op_margin_yoy": 1.9138152817082583,
       "rev_growth_yoy": 0.0602725989941645,
       "rev_growth_yoy_accel": -0.0018765442733174043,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3489951365528636
     },
     {
@@ -437,6 +416,29 @@
       "rev_growth_yoy_accel": 0.00697886201267113,
       "op_leverage_ratio": 0.613681039799526,
       "fcf_margin_change": 0.42176673530758113
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 238398000,
+      "gross_profit": null,
+      "operating_income": 148561000,
+      "net_income": 95951000,
+      "opex": 105476000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 126168000,
+      "ocf": 126168000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6231637849310816,
+      "fcf_margin": 0.5292326277905016,
+      "incr_op_margin_yoy": 0.24236794537055634,
+      "rev_growth_yoy": 0.09115625085819427,
+      "rev_growth_yoy_accel": 0.0381054282158561,
+      "op_leverage_ratio": 0.3408713616753791,
+      "fcf_margin_change": -0.4190726741963857
     }
   ],
   "signals": [
@@ -543,27 +545,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +5.8% vs prior quarter YoY: +14.7% (decel: -8.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +87.2% vs year-ago OPM: +57.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +66.8% -> +95.6% (+28.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +62.1% -> +89.6% (+27.6%)",
       "severity": "MEDIUM"
     }
   ],
@@ -594,7 +578,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:42.011716",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-13T11:43:13.737031"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "EGP",
   "name": "EASTGROUP PROPERTIES, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 92668000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 60072000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 16678000,
-      "ocf": 16678000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.17997582768593257
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.8048728186171896,
-      "op_leverage_ratio": 1.405742888084651,
-      "fcf_margin_change": 0.6248969909312571
+      "fcf_margin": 0.8048728186171896
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.1427373989494468,
-      "rev_growth_yoy": 0.15867397591401564,
       "op_leverage_ratio": 2.0284004120777643,
       "fcf_margin_change": -0.8109802028938183
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.7281675429744897,
       "rev_growth_yoy": 0.153608152678927,
-      "rev_growth_yoy_accel": -0.00506582323508864,
       "op_leverage_ratio": 0.6381945471982857,
       "fcf_margin_change": 0.5854301440250429
     },
@@ -318,7 +298,7 @@
       "fcf_margin": 0.7722735558488906,
       "rev_growth_yoy": 0.1372750863196723,
       "rev_growth_yoy_accel": -0.00491339729447321,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.014285175311490428
     },
     {
@@ -405,7 +385,7 @@
       "fcf_margin": 0.8087102196450933,
       "rev_growth_yoy": 0.1143755107172041,
       "rev_growth_yoy_accel": -0.01676490841341112,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04225125456074197
     },
     {
@@ -429,6 +409,28 @@
       "rev_growth_yoy_accel": 0.0038739551341183814,
       "op_leverage_ratio": 2.6449814990763447,
       "fcf_margin_change": -0.04606582205208587
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 187465000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 111500000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 64748000,
+      "ocf": 64748000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.34538713893260076,
+      "rev_growth_yoy": 0.1427726707468728,
+      "rev_growth_yoy_accel": 0.02452320489555032,
+      "op_leverage_ratio": 0.8873774227084885,
+      "fcf_margin_change": -0.41725725866040664
     }
   ],
   "signals": [
@@ -503,12 +505,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +5.0% vs OpEx growth +2.5% (leverage: 2.1x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +18.0% -> +80.5% (+62.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -539,7 +535,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:40:08.381868",
-  "sector": "Real Estate",
-  "industry": "REIT - Industrial"
+  "last_updated": "2026-02-13T11:41:26.675022"
 }

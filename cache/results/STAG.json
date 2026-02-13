@@ -1,25 +1,9 @@
 {
   "ticker": "STAG",
-  "name": "STAG Industrial,\u00a0Inc.",
+  "name": "STAG INDUSTRIAL, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 129951000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 96055000,
-      "opex": 94416000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 69791000,
-      "ocf": 69791000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5370562750575216
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5482294115452069,
-      "op_leverage_ratio": 0.6339096745427496,
-      "fcf_margin_change": 0.011173136487685253
+      "fcf_margin": 0.5482294115452069
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6423096650219972,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09408025347679028
     },
     {
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5523597271427894,
-      "rev_growth_yoy": 0.13598971920185302,
       "op_leverage_ratio": 0.8744198319658866,
       "fcf_margin_change": -0.09669666420500189
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.5582536163156605,
       "rev_growth_yoy": 0.18817120041792604,
-      "rev_growth_yoy_accel": 0.05218148121607302,
       "op_leverage_ratio": 1.0110908572851114,
       "fcf_margin_change": 0.005893889172871147
     },
@@ -142,7 +122,7 @@
       "fcf_margin": 0.6334922600619195,
       "rev_growth_yoy": 0.1666799107110607,
       "rev_growth_yoy_accel": -0.02149128970686534,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07523864374625899
     },
     {
@@ -427,6 +407,28 @@
       "rev_growth_yoy_accel": 0.01297945769924809,
       "op_leverage_ratio": 0.9671014620209242,
       "fcf_margin_change": 0.14088521052268466
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 220896000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 83480000,
+      "opex": 137311000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 104467000,
+      "ocf": 104467000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4729239098942489,
+      "rev_growth_yoy": 0.10822024332120908,
+      "rev_growth_yoy_accel": 0.0013621807330650715,
+      "op_leverage_ratio": 0.9402859498810128,
+      "fcf_margin_change": -0.20684266946071822
     }
   ],
   "signals": [
@@ -479,12 +481,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +18.8% vs prior quarter YoY: +13.6% (accel: +5.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +54.8% -> +64.2% (+9.4%)",
@@ -519,5 +515,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:50:39.578257"
+  "last_updated": "2026-02-13T11:44:16.924938"
 }

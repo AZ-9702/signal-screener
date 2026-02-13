@@ -1,25 +1,9 @@
 {
   "ticker": "MGY",
   "name": "Magnolia Oil & Gas Corp",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 149235000,
-      "gross_profit": null,
-      "operating_income": 42665000,
-      "net_income": 27745000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 79122000,
-      "ocf": 79122000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.2858913793681107,
-      "fcf_margin": 0.5301839380842296
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.48104862204629617,
-      "fcf_margin": 0.5689651021125574,
-      "fcf_margin_change": 0.038781164028327764
+      "fcf_margin": 0.5689651021125574
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.6005475900981917,
       "fcf_margin": 0.7745397359557409,
-      "incr_op_margin_yoy": 0.8514598072114049,
-      "rev_growth_yoy": 1.2540489831473849,
       "fcf_margin_change": -0.007972368255078632
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.6321978408793163,
       "incr_op_margin_yoy": 0.7990198382850696,
       "rev_growth_yoy": 0.8194815638799401,
-      "rev_growth_yoy_accel": -0.4345674192674448,
       "fcf_margin_change": -0.14234189507642458
     },
     {
@@ -427,9 +407,37 @@
       "rev_growth_yoy": -0.02461464571419995,
       "rev_growth_yoy_accel": 0.028081174316982763,
       "fcf_margin_change": 0.137406450570416
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 317628000,
+      "gross_profit": null,
+      "operating_income": 94081000,
+      "net_income": 68753000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 208396000,
+      "ocf": 208396000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2961986978477968,
+      "fcf_margin": 0.6561008475323334,
+      "incr_op_margin_yoy": 3.3388264113127715,
+      "rev_growth_yoy": -0.02749771133067368,
+      "rev_growth_yoy_accel": -0.0028830656164737303,
+      "fcf_margin_change": -0.10422044749590298
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +333.9% vs year-ago OPM: +38.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -576,20 +584,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +81.9% vs prior quarter YoY: +125.4% (decel: -43.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +79.9% vs year-ago OPM: +48.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +85.1% vs year-ago OPM: +28.6%",
       "severity": "HIGH"
     },
     {
@@ -626,7 +622,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:07:06.136014",
-  "sector": "Energy",
-  "industry": "Oil & Gas E&P"
+  "last_updated": "2026-02-13T11:37:03.456749"
 }

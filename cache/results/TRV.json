@@ -1,25 +1,9 @@
 {
   "ticker": "TRV",
   "name": "Travelers Companies,\u00a0Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 8397000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 1310000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 1142000000,
-      "fcf": 1901000000,
-      "ocf": 1901000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.22639037751577945
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.14314928425357873,
-      "fcf_margin_change": -0.08324109326220072
+      "fcf_margin": 0.14314928425357873
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.1877705027188991,
-      "rev_growth_yoy": 0.07312135286411814,
       "fcf_margin_change": -0.10104267161386637
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.14371665342263595,
       "rev_growth_yoy": 0.05966558402502105,
-      "rev_growth_yoy_accel": -0.01345576883909709,
       "fcf_margin_change": -0.04405384929626316
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.04754704301075269,
       "rev_growth_yoy_accel": -0.02628083964456948,
       "fcf_margin_change": 0.1463357022188346
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 12432000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 2496000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 1544000000,
+      "fcf": 2685000000,
+      "ocf": 2685000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.21597490347490347,
+      "rev_growth_yoy": 0.03530979347101932,
+      "rev_growth_yoy_accel": -0.012237249539733368,
+      "fcf_margin_change": -0.1229986330126667
     }
   ],
   "signals": [
@@ -485,5 +487,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:56:38.192864"
+  "last_updated": "2026-02-13T11:39:06.109620"
 }

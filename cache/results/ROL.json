@@ -1,25 +1,9 @@
 {
   "ticker": "ROL",
   "name": "ROLLINS, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 536292000,
-      "gross_profit": 269948000,
-      "operating_income": null,
-      "net_income": 62619000,
-      "opex": null,
-      "cogs": 266344000,
-      "rd": null,
-      "sga": 159086000,
-      "fcf": 89639000,
-      "ocf": 95178000,
-      "capex": -5539000,
-      "gross_margin": 0.5033601097909348,
-      "op_margin": null,
-      "fcf_margin": 0.16714588321287657
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7826000,
       "gross_margin": 0.5116234777445412,
       "op_margin": 0.16468554058040832,
-      "fcf_margin": 0.20849438151895047,
-      "fcf_margin_change": 0.0413484983060739
+      "fcf_margin": 0.20849438151895047
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": 0.5040685075032106,
       "op_margin": 0.15222964205462544,
       "fcf_margin": 0.15946050840935933,
-      "rev_growth_yoy": 0.11943307004393129,
       "fcf_margin_change": 0.04733483611518477
     },
     {
@@ -118,7 +100,6 @@
       "fcf_margin": 0.1346532809643123,
       "incr_op_margin_yoy": 0.0629829844356565,
       "rev_growth_yoy": 0.1029326641197713,
-      "rev_growth_yoy_accel": -0.016500405924159994,
       "fcf_margin_change": -0.024807227445047014
     },
     {
@@ -254,7 +235,7 @@
       "incr_op_margin_yoy": 0.3020239697262538,
       "rev_growth_yoy": 0.15173686864810937,
       "rev_growth_yoy_accel": 0.002305947240754974,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.027989002716897415
     },
     {
@@ -434,8 +415,30 @@
       "incr_op_margin_yoy": 0.3024964492516115,
       "rev_growth_yoy": 0.1198729632095343,
       "rev_growth_yoy_accel": -0.0007735073259397263,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.010068542347750481
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 912913000,
+      "gross_profit": 465352000,
+      "operating_income": 160066000,
+      "net_income": 116441000,
+      "opex": 752847000,
+      "cogs": 447561000,
+      "rd": null,
+      "sga": 273719000,
+      "fcf": 159018000,
+      "ocf": 164744000,
+      "capex": -5726000,
+      "gross_margin": 0.5097440829520448,
+      "op_margin": 0.17533543722129052,
+      "fcf_margin": 0.17418746364659063,
+      "incr_op_margin_yoy": 0.11690032695927871,
+      "rev_growth_yoy": 0.09702836803581964,
+      "rev_growth_yoy_accel": -0.022844595173714663,
+      "fcf_margin_change": -0.00400660207371506
     }
   ],
   "signals": [
@@ -506,7 +509,7 @@
         20
       ],
       "op_income": [
-        19,
+        20,
         20
       ],
       "fcf": [
@@ -519,5 +522,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:08:47.459132"
+  "last_updated": "2026-02-13T11:38:24.113069"
 }

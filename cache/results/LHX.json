@@ -1,25 +1,9 @@
 {
   "ticker": "LHX",
   "name": "L3HARRIS TECHNOLOGIES, INC.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 4660000000,
-      "gross_profit": 1399000000,
-      "operating_income": null,
-      "net_income": 193000000,
-      "opex": null,
-      "cogs": 3261000000,
-      "rd": null,
-      "sga": 831000000,
-      "fcf": 524000000,
-      "ocf": 698000000,
-      "capex": -174000000,
-      "gross_margin": 0.3002145922746781,
-      "op_margin": null,
-      "fcf_margin": 0.11244635193133047
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -67000000,
       "gross_margin": 0.2964747098751916,
       "op_margin": null,
-      "fcf_margin": 0.13006349901467046,
-      "fcf_margin_change": 0.017617147083339987
+      "fcf_margin": 0.13006349901467046
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.2981609195402299,
       "op_margin": null,
       "fcf_margin": 0.1579310344827586,
-      "rev_growth_yoy": -0.06652360515021459,
       "fcf_margin_change": 0.06216371360311804
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.0038995856690226664,
       "rev_growth_yoy": -0.10159842347273922,
-      "rev_growth_yoy_accel": -0.035074818322524626,
       "fcf_margin_change": -0.16183062015178126
     },
     {
@@ -310,7 +291,7 @@
       "incr_op_margin_yoy": 0.1254125412541254,
       "rev_growth_yoy": 0.12912848923929257,
       "rev_growth_yoy_accel": -0.036382582109398987,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16601214011224893
     },
     {
@@ -338,25 +319,25 @@
     {
       "date": "2025-01-03T00:00:00",
       "quarter_label": "2025-01 (Q1)",
-      "revenue": 5523000000,
-      "gross_profit": 1397000000,
-      "operating_income": 569000000,
+      "revenue": 21325000000,
+      "gross_profit": 5524000000,
+      "operating_income": 1918000000,
       "net_income": 453000000,
-      "opex": 828000000,
-      "cogs": 4126000000,
+      "opex": 3606000000,
+      "cogs": 15801000000,
       "rd": null,
       "sga": 790000000,
       "fcf": 1011000000,
       "ocf": 1129000000,
       "capex": -118000000,
-      "gross_margin": 0.2529422415353974,
-      "op_margin": 0.10302371899330075,
-      "fcf_margin": 0.1830526887561108,
-      "incr_op_margin_yoy": 2.26775956284153,
-      "rev_growth_yoy": 0.034269662921348316,
-      "rev_growth_yoy_accel": -0.04243430452524375,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.050399627531621
+      "gross_margin": 0.25903868698710436,
+      "op_margin": 0.08994138335287222,
+      "fcf_margin": 0.047409144196951934,
+      "incr_op_margin_yoy": 0.11035345636534251,
+      "rev_growth_yoy": 2.993445692883895,
+      "rev_growth_yoy_accel": 2.916741725437303,
+      "op_leverage_ratio": 1.043778038185197,
+      "fcf_margin_change": -0.08524391702753786
     },
     {
       "date": "2025-03-28T00:00:00",
@@ -377,8 +358,8 @@
       "fcf_margin": -0.019680436477007016,
       "incr_op_margin_yoy": -1.860759493670886,
       "rev_growth_yoy": -0.015160237958165419,
-      "rev_growth_yoy_accel": -0.04942990087951374,
-      "fcf_margin_change": -0.20273312523311782
+      "rev_growth_yoy_accel": -3.0086059308420605,
+      "fcf_margin_change": -0.06708958067395895
     },
     {
       "date": "2025-06-27T00:00:00",
@@ -400,7 +381,7 @@
       "incr_op_margin_yoy": 0.7480314960629921,
       "rev_growth_yoy": 0.023966786186072845,
       "rev_growth_yoy_accel": 0.039127024144238264,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12141283603469223
     },
     {
@@ -425,9 +406,38 @@
       "rev_growth_yoy_accel": 0.04538317602103223,
       "op_leverage_ratio": 0.30098371077753394,
       "fcf_margin_change": -0.026277372167686983
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 21865000000,
+      "gross_profit": 5625000000,
+      "operating_income": 2110000000,
+      "net_income": 300000000,
+      "opex": 3515000000,
+      "cogs": 16240000000,
+      "rd": null,
+      "sga": 968000000,
+      "fcf": 1804000000,
+      "ocf": 1962000000,
+      "capex": -158000000,
+      "gross_margin": 0.25726046192545166,
+      "op_margin": 0.09650125771781386,
+      "fcf_margin": 0.08250628858906929,
+      "incr_op_margin_yoy": 0.35555555555555557,
+      "rev_growth_yoy": 0.025322391559202812,
+      "rev_growth_yoy_accel": -0.04402757064790226,
+      "op_leverage_ratio": 0.9462754458240402,
+      "fcf_margin_change": 0.007051261199071054
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +35.6% vs year-ago OPM: +9.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -447,15 +457,15 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2025-01 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +13.3% -> +18.3% (+5.0%)",
-      "severity": "MEDIUM"
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -1.5% vs prior quarter YoY: +299.3% (decel: -300.9%)",
+      "severity": "WARNING"
     },
     {
       "quarter": "2025-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +226.8% vs year-ago OPM: +2.9%",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +299.3% vs prior quarter YoY: +7.7% (accel: +291.7%)",
       "severity": "HIGH"
     },
     {
@@ -507,7 +517,7 @@
         20
       ],
       "op_income": [
-        11,
+        12,
         20
       ],
       "fcf": [
@@ -517,12 +527,10 @@
     },
     "gaps": [],
     "warnings": [
-      "op_income: 11/20Q"
+      "op_income: 12/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:55:49.116038",
-  "sector": "Industrials",
-  "industry": "Aerospace & Defense"
+  "last_updated": "2026-02-13T11:36:25.228603"
 }

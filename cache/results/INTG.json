@@ -1,25 +1,9 @@
 {
   "ticker": "INTG",
   "name": "THE INTERGROUP CORPORATION",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6663000,
-      "gross_profit": null,
-      "operating_income": -2311000,
-      "net_income": -65000,
-      "opex": 7793000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -9251000,
-      "ocf": -9023000,
-      "capex": -228000,
-      "gross_margin": null,
-      "op_margin": -0.34684076241933065,
-      "fcf_margin": -1.3884136274951224
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -158000,
       "gross_margin": null,
       "op_margin": -0.21956965603895084,
-      "fcf_margin": -1.1685252081042878,
-      "fcf_margin_change": 0.2198884193908346
+      "fcf_margin": -1.1685252081042878
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.16148640899185687,
       "fcf_margin": 0.4486753068012387,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.6172005149055266
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.02467201879772861,
       "fcf_margin": -0.7941061288427649,
-      "incr_op_margin_yoy": 0.579836665727964,
-      "rev_growth_yoy": 0.5329431187152934,
       "fcf_margin_change": -1.0007721850647227
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.4504685408299866,
       "incr_op_margin_yoy": 0.31214861891957957,
       "rev_growth_yoy": 0.6425318046175593,
-      "rev_growth_yoy_accel": 0.10958868590226589,
       "op_leverage_ratio": 2.212566129085361,
       "fcf_margin_change": 0.3436375880127783
     },
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": 0.2776639344262295,
       "rev_growth_yoy": 0.3733027347485179,
       "rev_growth_yoy_accel": 0.015166842835457384,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2850085818545576
     },
     {
@@ -298,7 +278,7 @@
       "fcf_margin": 0.07599274339850837,
       "rev_growth_yoy": 0.036276284640022284,
       "rev_growth_yoy_accel": 0.003908925931833125,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2956003127023279
     },
     {
@@ -433,9 +413,43 @@
       "rev_growth_yoy_accel": -0.1475707573051076,
       "op_leverage_ratio": 5.501754385964912,
       "fcf_margin_change": -0.24539073357485153
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 17301000,
+      "gross_profit": null,
+      "operating_income": 2015000,
+      "net_income": 1515000,
+      "opex": 15286000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -481000,
+      "ocf": -23000,
+      "capex": -458000,
+      "gross_margin": null,
+      "op_margin": 0.1164672562279637,
+      "fcf_margin": -0.02780186116409456,
+      "incr_op_margin_yoy": 0.4062937062937063,
+      "rev_growth_yoy": 0.19804722664635413,
+      "rev_growth_yoy_accel": 0.13848257504337294,
+      "fcf_margin_change": 0.04309636917141597
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +19.8% vs prior quarter YoY: +6.0% (accel: +13.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +40.6% vs year-ago OPM: +5.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -647,12 +661,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +64.3% vs prior quarter YoY: +53.3% (accel: +11.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -116.9% -> +44.9%",
@@ -663,12 +671,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -22.0% -> +16.1%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -138.8% -> -116.9% (+22.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -698,7 +700,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:33:09.105699",
-  "sector": "Consumer Cyclical",
-  "industry": "Lodging"
+  "last_updated": "2026-02-13T11:35:56.602423"
 }

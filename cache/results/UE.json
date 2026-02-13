@@ -1,25 +1,9 @@
 {
   "ticker": "UE",
   "name": "URBAN EDGE PROPERTIES",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 87278000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 18959000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 37993000,
-      "ocf": 37993000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.4353101583446
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.19678865995546774,
-      "fcf_margin_change": -0.23852149838913228
+      "fcf_margin": 0.19678865995546774
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3277127924340468,
-      "rev_growth_yoy": 0.4731776621829098,
       "fcf_margin_change": -0.04248910013327417
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.2447181165856628,
       "rev_growth_yoy": 0.04745925716854309,
-      "rev_growth_yoy_accel": -0.4257184050143667,
       "fcf_margin_change": -0.08299467584838396
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.06847999146112589,
       "rev_growth_yoy_accel": -0.0022687931014104823,
       "fcf_margin_change": 0.08271710421248529
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 119560000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 12424000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 50985000,
+      "ocf": 50985000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4264386082301773,
+      "rev_growth_yoy": 0.027439050589943885,
+      "rev_growth_yoy_accel": -0.041040940871182006,
+      "fcf_margin_change": -0.03719957168091603
     }
   ],
   "signals": [
@@ -493,12 +495,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +4.7% vs prior quarter YoY: +47.3% (decel: -42.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.7% -> +37.0% (+17.3%)",
@@ -533,5 +529,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:28:19.042014"
+  "last_updated": "2026-02-13T11:44:39.925347"
 }

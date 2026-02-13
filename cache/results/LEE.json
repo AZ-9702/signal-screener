@@ -1,25 +1,9 @@
 {
   "ticker": "LEE",
   "name": "LEE ENTERPRISES, INC",
+  "sector": "Communication Services",
+  "industry": "Publishing",
   "quarters": [
-    {
-      "date": "2020-12-27T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 211817000,
-      "gross_profit": null,
-      "operating_income": 20808000,
-      "net_income": 15902000,
-      "opex": 192752000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 17178000,
-      "ocf": 18916000,
-      "capex": -1738000,
-      "gross_margin": null,
-      "op_margin": 0.09823574122945751,
-      "fcf_margin": 0.08109830655707521
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1189000,
       "gross_margin": null,
       "op_margin": 0.04374577768539209,
-      "fcf_margin": 0.10233851270591904,
-      "fcf_margin_change": 0.021240206148843824
+      "fcf_margin": 0.10233851270591904
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.07014606341289634,
       "fcf_margin": 0.005572802687159652,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09676571001875939
     },
     {
@@ -95,9 +78,7 @@
       "gross_margin": null,
       "op_margin": 0.1241534095965039,
       "fcf_margin": -0.005966917471648491,
-      "incr_op_margin_yoy": -0.4515993707393812,
-      "rev_growth_yoy": -0.04501527261740087,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03266961404175983
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.02088793457324197,
       "incr_op_margin_yoy": 4.820364238410596,
       "rev_growth_yoy": -0.0125552148833342,
-      "rev_growth_yoy_accel": 0.03246005773406667,
       "fcf_margin_change": -0.014921017101593482
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 5.054370268410186,
       "rev_growth_yoy": -0.007394778360221894,
       "rev_growth_yoy_accel": 0.005160436523112305,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02167752834262932
     },
     {
@@ -318,7 +298,7 @@
       "incr_op_margin_yoy": 0.3512926876326452,
       "rev_growth_yoy": -0.12102037242426011,
       "rev_growth_yoy_accel": 0.020390514169329327,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04490969361916363
     },
     {
@@ -408,7 +388,7 @@
       "incr_op_margin_yoy": 0.028328306764325722,
       "rev_growth_yoy": -0.0616557531644729,
       "rev_growth_yoy_accel": 0.0009167476884783116,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07429571735996711
     },
     {
@@ -432,9 +412,49 @@
       "rev_growth_yoy": -0.12276918031959842,
       "rev_growth_yoy_accel": -0.06111342715512552,
       "fcf_margin_change": -0.08955647121234897
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 130062000,
+      "gross_profit": null,
+      "operating_income": 5208000,
+      "net_income": -5611000,
+      "opex": 125934000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 3713000,
+      "ocf": 4471000,
+      "capex": -758000,
+      "gross_margin": null,
+      "op_margin": 0.04004244129722748,
+      "fcf_margin": 0.02854792329811936,
+      "incr_op_margin_yoy": -0.5903448275862069,
+      "rev_growth_yoy": -0.10030298418671574,
+      "rev_growth_yoy_accel": 0.022466196132882685,
+      "fcf_margin_change": 0.059531489786983964
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.1% -> +2.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -2.3% (year-ago) -> +4.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1.0% -> +4.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -559,7 +579,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:48:32.646075",
-  "sector": "Communication Services",
-  "industry": "Publishing"
+  "last_updated": "2026-02-13T11:42:40.136159"
 }

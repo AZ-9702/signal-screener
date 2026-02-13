@@ -1,25 +1,9 @@
 {
   "ticker": "AIG",
   "name": "American International Group, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 9676000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -53000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 2165000000,
-      "fcf": 429000000,
-      "ocf": 429000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.04433650268706077
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.044278400442784006,
-      "fcf_margin_change": -5.810224427676286e-05
+      "fcf_margin": 0.044278400442784006
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.0325832327678001,
-      "rev_growth_yoy": 0.4558701942951633,
       "fcf_margin_change": -0.19756869555319717
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.0024671052631578946,
       "rev_growth_yoy": 0.0936764909367649,
-      "rev_growth_yoy_accel": -0.3621937033583984,
       "fcf_margin_change": -0.030116127504642203
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": -0.05925048141016146,
       "rev_growth_yoy_accel": -0.14019560336138098,
       "fcf_margin_change": 0.01529861002815569
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6550000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 735000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 1479000000,
+      "fcf": 636000000,
+      "ocf": 636000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.09709923664122137,
+      "rev_growth_yoy": -0.08736240769123589,
+      "rev_growth_yoy_accel": -0.02811192628107443,
+      "fcf_margin_change": -0.11436352512857866
     }
   ],
   "signals": [
@@ -517,12 +519,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +9.4% vs prior quarter YoY: +45.6% (decel: -36.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.4% -> +20.3% (+15.9%)",
@@ -557,7 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:50.669206",
-  "sector": "Financial Services",
-  "industry": "Insurance - Diversified"
+  "last_updated": "2026-02-13T11:32:13.283561"
 }

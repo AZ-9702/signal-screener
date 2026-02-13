@@ -1,25 +1,9 @@
 {
   "ticker": "ACM",
   "name": "AECOM",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3313155000,
-      "gross_profit": 184370000,
-      "operating_income": 141173000,
-      "net_income": 26128000,
-      "opex": 43197000,
-      "cogs": 3128785000,
-      "rd": null,
-      "sga": null,
-      "fcf": -23798000,
-      "ocf": 7104000,
-      "capex": -30902000,
-      "gross_margin": 0.0556478643468235,
-      "op_margin": 0.042609838658318126,
-      "fcf_margin": -0.007182881573605823
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -56363000,
       "gross_margin": 0.05979318177851176,
       "op_margin": 0.048280347736829037,
-      "fcf_margin": 0.000853448996546701,
-      "fcf_margin_change": 0.008036330570152524
+      "fcf_margin": 0.000853448996546701
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.06128601323163691,
       "op_margin": 0.051514119990840955,
       "fcf_margin": 0.04964925019499705,
-      "incr_op_margin_yoy": -0.5837550334847865,
-      "rev_growth_yoy": -0.014016549180463939,
       "fcf_margin_change": -0.03813863220705435
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -0.005430260469533472,
       "incr_op_margin_yoy": 0.8895694885871136,
       "rev_growth_yoy": -0.01589766941360674,
-      "rev_growth_yoy_accel": -0.0018811202331428002,
       "fcf_margin_change": -0.055079510664530526
     },
     {
@@ -163,7 +143,7 @@
       "incr_op_margin_yoy": 0.18948824343015214,
       "rev_growth_yoy": 0.02155763611425845,
       "rev_growth_yoy_accel": 0.07045568288576742,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.016289473300835272
     },
     {
@@ -208,7 +188,7 @@
       "incr_op_margin_yoy": 0.310830554691625,
       "rev_growth_yoy": 0.08604338109406788,
       "rev_growth_yoy_accel": 0.05064422181606514,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.030749285145905646
     },
     {
@@ -254,7 +234,7 @@
       "incr_op_margin_yoy": -0.24891360486205363,
       "rev_growth_yoy": 0.12150404249730014,
       "rev_growth_yoy_accel": -0.008629730112399411,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.003882334369847973
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": 0.021985644315206786,
       "rev_growth_yoy": 0.15301912424922873,
       "rev_growth_yoy_accel": 0.03151508175192859,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04615383788542063
     },
     {
@@ -300,7 +280,7 @@
       "incr_op_margin_yoy": 0.00672749035072444,
       "rev_growth_yoy": 0.12998241920455497,
       "rev_growth_yoy_accel": -0.023036705044673755,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.003531987402017517
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 0.6825479493625205,
       "rev_growth_yoy": 0.13312282707287387,
       "rev_growth_yoy_accel": 0.0031404078683189007,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04697359076335901
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": 2.4502556180808415,
       "rev_growth_yoy": 0.0065495919181952625,
       "rev_growth_yoy_accel": 0.0502177695514774,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.015359121212113316
     },
     {
@@ -436,9 +416,37 @@
       "rev_growth_yoy": 0.01579445195638286,
       "rev_growth_yoy_accel": 0.009244860038187596,
       "fcf_margin_change": -0.030511845570422372
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3830834000,
+      "gross_profit": 280990000,
+      "operating_income": 222045000,
+      "net_income": 74520000,
+      "opex": 58945000,
+      "cogs": 3549844000,
+      "rd": null,
+      "sga": null,
+      "fcf": 41901000,
+      "ocf": 70219000,
+      "capex": -28318000,
+      "gross_margin": 0.07334956304554048,
+      "op_margin": 0.05796257420707867,
+      "fcf_margin": 0.01093782711545319,
+      "incr_op_margin_yoy": 0.08429614113180375,
+      "rev_growth_yoy": -0.04566792687471725,
+      "rev_growth_yoy_accel": -0.061462378831100103,
+      "fcf_margin_change": -0.021177288572393076
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.6% vs prior quarter YoY: +1.6% (decel: -6.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -534,12 +542,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.1% -> +8.7% (+8.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -0.7% -> +0.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -567,7 +569,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:31:27.781113",
-  "sector": "Industrials",
-  "industry": "Engineering & Construction"
+  "last_updated": "2026-02-13T11:45:06.231917"
 }

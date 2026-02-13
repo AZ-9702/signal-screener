@@ -1,25 +1,9 @@
 {
   "ticker": "MSI",
   "name": "MOTOROLA SOLUTIONS,\u00a0INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2273000000,
-      "gross_profit": 1146000000,
-      "operating_income": 555000000,
-      "net_income": 412000000,
-      "opex": 591000000,
-      "cogs": 1127000000,
-      "rd": 182000000,
-      "sga": 343000000,
-      "fcf": 704000000,
-      "ocf": 704000000,
-      "capex": null,
-      "gross_margin": 0.5041794984601847,
-      "op_margin": 0.24417069951605808,
-      "fcf_margin": 0.3097228332600088
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.485053581500282,
       "op_margin": 0.16807670614777215,
-      "fcf_margin": 0.2086858432036097,
-      "fcf_margin_change": -0.10103699005639913
+      "fcf_margin": 0.2086858432036097
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5099137931034483,
       "op_margin": 0.23663793103448275,
       "fcf_margin": 0.30301724137931035,
-      "incr_op_margin_yoy": -0.1276595744680851,
-      "rev_growth_yoy": 0.02067751869775627,
       "op_leverage_ratio": 1.5012102515424774,
       "fcf_margin_change": 0.12456446491988937
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.080338266384778,
       "incr_op_margin_yoy": -0.4957983193277311,
       "rev_growth_yoy": 0.06711787930062042,
-      "rev_growth_yoy_accel": 0.046440360602864154,
       "fcf_margin_change": -0.22267897499453235
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 1.453551912568306,
       "rev_growth_yoy": 0.07711757269279393,
       "rev_growth_yoy_accel": -0.04577962356888832,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24064110003340894
     },
     {
@@ -441,9 +421,44 @@
       "rev_growth_yoy_accel": 0.026363725634604998,
       "op_leverage_ratio": 1.0099256580269238,
       "fcf_margin_change": 0.16647020962429168
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3380000000,
+      "gross_profit": 1768000000,
+      "operating_income": 944000000,
+      "net_income": 649000000,
+      "opex": 824000000,
+      "cogs": 1612000000,
+      "rd": 270000000,
+      "sga": 499000000,
+      "fcf": 1256000000,
+      "ocf": 1256000000,
+      "capex": null,
+      "gross_margin": 0.5230769230769231,
+      "op_margin": 0.27928994082840236,
+      "fcf_margin": 0.3715976331360947,
+      "incr_op_margin_yoy": 0.3523035230352303,
+      "rev_growth_yoy": 0.12255064762537363,
+      "rev_growth_yoy_accel": 0.04405602396945965,
+      "op_leverage_ratio": 2.4166168162180126,
+      "fcf_margin_change": 0.10639324629661312
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +26.5% -> +37.2% (+10.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +12.3% vs OpEx growth +5.1% (leverage: 2.4x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -650,7 +665,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:55:44.957606",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-13T11:37:11.244152"
 }

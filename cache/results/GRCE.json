@@ -1,24 +1,26 @@
 {
   "ticker": "GRCE",
   "name": "GRACE THERAPEUTICS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2020-12-31T00:00:00",
       "quarter_label": "2020-12 (Q4)",
       "revenue": 81000,
       "gross_profit": 45000,
-      "operating_income": -1964000,
-      "net_income": -3220000,
-      "opex": 2009000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
       "cogs": 36000,
-      "rd": 678000,
+      "rd": null,
       "sga": null,
-      "fcf": -4214000,
-      "ocf": -4214000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": 0.5555555555555556,
-      "op_margin": -24.246913580246915,
-      "fcf_margin": -52.02469135802469
+      "op_margin": null,
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -36,9 +38,7 @@
       "capex": null,
       "gross_margin": 0.6521739130434783,
       "op_margin": -20.0,
-      "fcf_margin": -15.304347826086957,
-      "op_leverage_ratio": 2.304054509883289,
-      "fcf_margin_change": 36.72034353193773
+      "fcf_margin": -15.304347826086957
     },
     {
       "date": "2021-12-31T00:00:00",
@@ -87,18 +87,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +86856.5% vs prior quarter YoY: -100.0% (accel: +86956.5%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -5202.5% -> -1530.4% (+3672.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +42.0% vs OpEx growth +18.2% (leverage: 2.3x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -113,11 +101,11 @@
         4
       ],
       "op_income": [
-        4,
+        3,
         4
       ],
       "fcf": [
-        4,
+        3,
         4
       ]
     },
@@ -129,12 +117,12 @@
       ]
     ],
     "warnings": [
+      "op_income: 3/4Q",
+      "fcf: 3/4Q",
       "gap: 2Q missing between 2021-03 (Q1) and 2021-12 (Q4)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:36:15.729687",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-13T11:35:24.280091"
 }

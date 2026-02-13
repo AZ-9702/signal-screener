@@ -1,25 +1,9 @@
 {
   "ticker": "F",
-  "name": "FORD MOTOR CO",
+  "name": "Ford Motor Co",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 35952000000,
-      "gross_profit": 2877000000,
-      "operating_income": -2442000000,
-      "net_income": null,
-      "opex": 38394000000,
-      "cogs": 33075000000,
-      "rd": null,
-      "sga": 3530000000,
-      "fcf": 4539000000,
-      "ocf": 4539000000,
-      "capex": null,
-      "gross_margin": 0.08002336448598131,
-      "op_margin": -0.06792389853137516,
-      "fcf_margin": 0.1262516688918558
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.19131610908689411,
       "op_margin": 0.06801369106768246,
-      "fcf_margin": 0.12399249199514188,
-      "fcf_margin_change": -0.002259176896713913
+      "fcf_margin": 0.12399249199514188
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.1402675301236796,
       "op_margin": 0.019613567599129467,
       "fcf_margin": 0.09371516534847922,
-      "incr_op_margin_yoy": 1.842989571263036,
-      "rev_growth_yoy": 0.04800845571873609,
       "op_leverage_ratio": 0.7390185349710456,
       "fcf_margin_change": -0.10268087758513063
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.03144216266388212,
       "incr_op_margin_yoy": 0.6398401826484018,
       "rev_growth_yoy": -0.0483603842331898,
-      "rev_growth_yoy_accel": -0.09636883995192588,
       "fcf_margin_change": -0.12515732801236135
     },
     {
@@ -436,9 +416,37 @@
       "rev_growth_yoy": 0.09390423413282535,
       "rev_growth_yoy_accel": 0.04420543895210246,
       "fcf_margin_change": 0.020598866689441442
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 45890000000,
+      "gross_profit": -5732000000,
+      "operating_income": -11557000000,
+      "net_income": null,
+      "opex": 57447000000,
+      "cogs": 51622000000,
+      "rd": null,
+      "sga": 2972000000,
+      "fcf": 3884000000,
+      "ocf": 3884000000,
+      "capex": null,
+      "gross_margin": -0.1249073872303334,
+      "op_margin": -0.25184135977337113,
+      "fcf_margin": 0.08463717585530617,
+      "incr_op_margin_yoy": 5.509694097371822,
+      "rev_growth_yoy": -0.04814254008421315,
+      "rev_growth_yoy_accel": -0.14204677421703849,
+      "fcf_margin_change": -0.06183846430775236
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.8% vs prior quarter YoY: +9.4% (decel: -14.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -549,20 +557,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -4.8% vs prior quarter YoY: +4.8% (decel: -9.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +64.0% vs year-ago OPM: +6.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -6.8% (year-ago) -> +2.0%",
       "severity": "HIGH"
     },
     {
@@ -575,12 +571,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.1% -> +3.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -6.8% -> +6.8%",
       "severity": "HIGH"
     }
   ],
@@ -609,7 +599,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:58:23.984678",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Manufacturers"
+  "last_updated": "2026-02-13T11:41:55.867493"
 }

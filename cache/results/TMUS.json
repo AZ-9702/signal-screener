@@ -1,25 +1,9 @@
 {
   "ticker": "TMUS",
   "name": "T-MOBILE US, INC.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 20341000000,
-      "gross_profit": null,
-      "operating_income": 1712000000,
-      "net_income": 750000000,
-      "opex": 18629000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 4758000000,
-      "fcf": -333000000,
-      "ocf": 3474000000,
-      "capex": -3807000000,
-      "gross_margin": null,
-      "op_margin": 0.08416498697212527,
-      "fcf_margin": -0.016370876554741655
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3183000000,
       "gross_margin": null,
       "op_margin": 0.1082544663191457,
-      "fcf_margin": 0.024191507667392073,
-      "fcf_margin_change": 0.04056238422213373
+      "fcf_margin": 0.024191507667392073
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.051142650950204475,
       "fcf_margin": 0.0034159249458744286,
-      "incr_op_margin_yoy": -1.4617117117117118,
-      "rev_growth_yoy": 0.021827835406322205,
       "op_leverage_ratio": 0.6345344800925655,
       "fcf_margin_change": -0.02374469470353446
     },
@@ -118,7 +99,6 @@
       "fcf_margin": 0.023061630218687873,
       "incr_op_margin_yoy": -0.9224376731301939,
       "rev_growth_yoy": 0.018270155372235437,
-      "rev_growth_yoy_accel": -0.0035576800340867687,
       "fcf_margin_change": 0.019645705272813445
     },
     {
@@ -185,7 +165,7 @@
       "incr_op_margin_yoy": -3.2890625,
       "rev_growth_yoy": -0.02463314890546067,
       "rev_growth_yoy_accel": -0.01714232134736854,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.008141981022552959
     },
     {
@@ -409,7 +389,7 @@
       "incr_op_margin_yoy": 0.42867647058823527,
       "rev_growth_yoy": 0.06878413918672871,
       "rev_growth_yoy_accel": 0.002845586568580291,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.007014145582386805
     },
     {
@@ -434,6 +414,29 @@
       "rev_growth_yoy_accel": 0.02024472699718162,
       "op_leverage_ratio": 0.41212388744037104,
       "fcf_margin_change": 0.0019388212627763357
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 24334000000,
+      "gross_profit": null,
+      "operating_income": 3736000000,
+      "net_income": 2103000000,
+      "opex": 20598000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 6570000000,
+      "fcf": 4185000000,
+      "ocf": 6654000000,
+      "capex": -2469000000,
+      "gross_margin": null,
+      "op_margin": 0.15353004027286923,
+      "fcf_margin": 0.1719815895454919,
+      "incr_op_margin_yoy": -0.34524776604386676,
+      "rev_growth_yoy": 0.11256400877834674,
+      "rev_growth_yoy_accel": 0.023535142594436412,
+      "op_leverage_ratio": 0.594952877062672,
+      "fcf_margin_change": -0.04744729418179325
     }
   ],
   "signals": [
@@ -502,12 +505,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +561.0% vs year-ago OPM: +10.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.6% -> +2.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -537,5 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:11.021603"
+  "last_updated": "2026-02-13T11:44:24.480236"
 }

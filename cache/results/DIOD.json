@@ -1,25 +1,9 @@
 {
   "ticker": "DIOD",
   "name": "DIODES INCORPORATED",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 350370000,
-      "gross_profit": 122697000,
-      "operating_income": 39756000,
-      "net_income": 29735000,
-      "opex": 82941000,
-      "cogs": 227673000,
-      "rd": 24819000,
-      "sga": 52829000,
-      "fcf": 33469000,
-      "ocf": 60785000,
-      "capex": -27316000,
-      "gross_margin": 0.35019265348060624,
-      "op_margin": 0.11346861888860348,
-      "fcf_margin": 0.09552473099865856
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -17179000,
       "gross_margin": 0.33558206917585887,
       "op_margin": 0.11471215455036175,
-      "fcf_margin": 0.12349166466967305,
-      "op_leverage_ratio": 1.7886417693778163,
-      "fcf_margin_change": 0.027966933671014493
+      "fcf_margin": 0.12349166466967305
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3971314385916684,
       "op_margin": 0.1790841179496471,
       "fcf_margin": 0.04687705005091936,
-      "incr_op_margin_yoy": 0.3561991047834762,
-      "rev_growth_yoy": 0.370468362017296,
       "op_leverage_ratio": 2.6952686995809585,
       "fcf_margin_change": -0.07575617453342331
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.07005473706917115,
       "incr_op_margin_yoy": 0.6618358888148169,
       "rev_growth_yoy": 0.16702612551770546,
-      "rev_growth_yoy_accel": -0.20344223649959053,
       "fcf_margin_change": 0.023177687018251784
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.6754510607362368,
       "rev_growth_yoy": 0.1374146323743098,
       "rev_growth_yoy_accel": -0.029611493143395673,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02068686126366981
     },
     {
@@ -345,7 +324,7 @@
       "incr_op_margin_yoy": 0.5863693006890486,
       "rev_growth_yoy": -0.13485334130736173,
       "rev_growth_yoy_accel": 0.18063497941052023,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12351863608158431
     },
     {
@@ -437,6 +416,28 @@
       "rev_growth_yoy_accel": -0.02499919496507294,
       "op_leverage_ratio": 2.5189303077739487,
       "fcf_margin_change": 0.10260859020034666
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 391578000,
+      "gross_profit": 121930000,
+      "operating_income": 13205000,
+      "net_income": 10202000,
+      "opex": 108725000,
+      "cogs": 269648000,
+      "rd": 41150000,
+      "sga": 62939000,
+      "fcf": 12414000,
+      "ocf": 38116000,
+      "capex": -25702000,
+      "gross_margin": 0.31138112968552883,
+      "op_margin": 0.033722527823320005,
+      "fcf_margin": 0.03170249605442594,
+      "incr_op_margin_yoy": 0.024636572302983932,
+      "rev_growth_yoy": 0.15408284163183986,
+      "rev_growth_yoy_accel": 0.033849979906343614,
+      "fcf_margin_change": -0.12846018849564164
     }
   ],
   "signals": [
@@ -580,12 +581,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +16.7% vs prior quarter YoY: +37.0% (decel: -20.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +66.2% vs year-ago OPM: +11.5%",
       "severity": "HIGH"
@@ -597,27 +592,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +35.6% vs year-ago OPM: +11.3%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.6% vs OpEx growth +3.5% (leverage: 1.9x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +35.0% -> +33.6% -> +36.3% (reversal +2.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +17.9% vs OpEx growth +10.0% (leverage: 1.8x)",
       "severity": "MEDIUM"
     }
   ],
@@ -646,7 +623,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:26:52.055001",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-13T11:45:57.411733"
 }

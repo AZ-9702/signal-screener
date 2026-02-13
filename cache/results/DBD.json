@@ -1,25 +1,9 @@
 {
   "ticker": "DBD",
   "name": "Diebold Nixdorf, Incorporated",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-06-30T00:00:00",
-      "quarter_label": "2020-06 (Q2)",
-      "revenue": 890500000,
-      "gross_profit": 247600000,
-      "operating_income": 20500000,
-      "net_income": -23700000,
-      "opex": 227100000,
-      "cogs": 642900000,
-      "rd": 30700000,
-      "sga": 181600000,
-      "fcf": -89700000,
-      "ocf": -89700000,
-      "capex": null,
-      "gross_margin": 0.2780460415496912,
-      "op_margin": 0.023020774845592364,
-      "fcf_margin": -0.10072992700729927
-    },
     {
       "date": "2020-09-30T00:00:00",
       "quarter_label": "2020-09 (Q3)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.2854702572347267,
       "op_margin": 0.023914790996784566,
-      "fcf_margin": -0.028938906752411574,
-      "op_leverage_ratio": 0.8042513681903357,
-      "fcf_margin_change": 0.07179102025488769
+      "fcf_margin": -0.028938906752411574
     },
     {
       "date": "2020-12-31T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.26698463169051406,
       "op_margin": 0.013672496025437202,
       "fcf_margin": -0.08320084790673025,
-      "incr_op_margin_yoy": -0.14339622641509434,
-      "rev_growth_yoy": 0.05951712521055587,
       "fcf_margin_change": -0.014125734017547076
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.154351909830933,
       "incr_op_margin_yoy": -0.4027027027027027,
       "rev_growth_yoy": -0.037178456591639875,
-      "rev_growth_yoy_accel": -0.09669558180219574,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07115106192420274
     },
     {
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": -0.9416846652267818,
       "rev_growth_yoy": -0.04186635319649155,
       "rev_growth_yoy_accel": -0.004687896604851673,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5459147637380677
     },
     {
@@ -188,7 +167,7 @@
       "incr_op_margin_yoy": 1.1372549019607843,
       "rev_growth_yoy": -0.0972972972972973,
       "rev_growth_yoy_accel": 0.023584152008773257,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17819636979709078
     },
     {
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": 4.2628571428571425,
       "rev_growth_yoy": 0.01897636087616569,
       "rev_growth_yoy_accel": -0.024491766381729663,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.017731898191812864
     },
     {
@@ -429,11 +408,52 @@
       "incr_op_margin_yoy": 1.5138121546961325,
       "rev_growth_yoy": 0.019523244525941105,
       "rev_growth_yoy_accel": 0.04559539521233038,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.006679359309754988
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1104200000,
+      "gross_profit": 279800000,
+      "operating_income": 82400000,
+      "net_income": 49600000,
+      "opex": 197400000,
+      "cogs": 824400000,
+      "rd": 21400000,
+      "sga": 175600000,
+      "fcf": 217500000,
+      "ocf": 217500000,
+      "capex": null,
+      "gross_margin": 0.2533961238905995,
+      "op_margin": 0.07462416228944031,
+      "fcf_margin": 0.19697518565477268,
+      "incr_op_margin_yoy": 0.35732870771899394,
+      "rev_growth_yoy": 0.11659419557083628,
+      "rev_growth_yoy_accel": 0.09707095104489517,
+      "op_leverage_ratio": 1.104053876574197,
+      "fcf_margin_change": 0.15740684033103167
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +4.0% -> +19.7% (+15.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +11.7% vs prior quarter YoY: +2.0% (accel: +9.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +35.7% vs year-ago OPM: +4.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -555,12 +575,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-09 (Q3)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.7% vs prior quarter YoY: +6.0% (decel: -9.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-03 (Q1)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +28.5% -> +25.0% -> +28.9% (reversal +3.9%)",
@@ -576,12 +590,6 @@
       "quarter": "2020-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +11.1% vs OpEx growth +4.0% (leverage: 2.8x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2020-09 (Q3)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -10.1% -> -2.9% (+7.2%)",
       "severity": "MEDIUM"
     }
   ],
@@ -618,7 +626,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:29:24.717636",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-13T11:34:18.533596"
 }

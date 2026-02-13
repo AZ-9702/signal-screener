@@ -1,25 +1,9 @@
 {
   "ticker": "HCA",
   "name": "HCA Healthcare, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 14293000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 1426000000,
-      "opex": 12221000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -4331000000,
-      "ocf": -3583000000,
-      "capex": -748000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.3030154621143217
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -654000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.09544251269943478,
-      "fcf_margin_change": 0.39845797481375644
+      "fcf_margin": 0.09544251269943478
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.09086148206336737,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.006748493690009835
     },
     {
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.08304567180031865,
-      "rev_growth_yoy": 0.053942489330441476,
       "fcf_margin_change": -0.007815810263048728
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.03238541318166611,
       "rev_growth_yoy": 0.06925663590183874,
-      "rev_growth_yoy_accel": 0.015314146571397264,
       "fcf_margin_change": -0.05066025861865254
     },
     {
@@ -182,7 +163,7 @@
       "fcf_margin": 0.07769245660450409,
       "rev_growth_yoy": 0.028744025491237387,
       "rev_growth_yoy_accel": 0.04870998516654506,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.048484819462558906
     },
     {
@@ -421,9 +402,37 @@
       "rev_growth_yoy_accel": 0.03209916769245236,
       "op_leverage_ratio": 0.8749169587789939,
       "fcf_margin_change": 0.00017382235014151703
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19513000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1878000000,
+      "opex": 16841000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 870000000,
+      "ocf": 2359000000,
+      "capex": -1489000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.044585660841490286,
+      "rev_growth_yoy": 0.06715887339349193,
+      "rev_growth_yoy_accel": -0.02856938188185547,
+      "op_leverage_ratio": 3.138569096027326,
+      "fcf_margin_change": -0.11866260386285707
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +1.8% vs OpEx growth +0.6% (leverage: 3.1x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -447,12 +456,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +3.7% -> +12.6% (+8.9%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -30.3% -> +9.5%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -483,7 +486,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:49:02.308891",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-13T11:46:29.692667"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "MEDP",
   "name": "Medpace Holdings, Inc.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 259678000,
-      "gross_profit": null,
-      "operating_income": 54988000,
-      "net_income": 50866000,
-      "opex": 204690000,
-      "cogs": null,
-      "rd": null,
-      "sga": 22381000,
-      "fcf": 97712000,
-      "ocf": 105498000,
-      "capex": -7786000,
-      "gross_margin": null,
-      "op_margin": 0.21175455756744893,
-      "fcf_margin": 0.3762813946502977
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -6507000,
       "gross_margin": null,
       "op_margin": 0.18309772469370877,
-      "fcf_margin": 0.19545708076087165,
-      "fcf_margin_change": -0.18082431388942605
+      "fcf_margin": 0.19545708076087165
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.17778202701651585,
       "fcf_margin": 0.20021908786849543,
-      "incr_op_margin_yoy": -0.0027212832999140646,
-      "rev_growth_yoy": 0.1882100139403415,
       "op_leverage_ratio": 0.897175810492041,
       "fcf_margin_change": -0.02210952121167928
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.11179735728077306,
       "incr_op_margin_yoy": 0.2339184582006706,
       "rev_growth_yoy": 0.2730444482911161,
-      "rev_growth_yoy_accel": 0.08483443435077462,
       "op_leverage_ratio": 1.4113260906695122,
       "fcf_margin_change": -0.08842173058772237
     },
@@ -305,7 +285,7 @@
       "incr_op_margin_yoy": 0.23210341691568143,
       "rev_growth_yoy": 0.17731999612969218,
       "rev_growth_yoy_accel": -0.08734260048333303,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.005758751236495385
     },
     {
@@ -443,9 +423,38 @@
       "rev_growth_yoy_accel": 0.09494656937422669,
       "op_leverage_ratio": 1.0880974228690152,
       "fcf_margin_change": 0.12081218523023052
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 708450000,
+      "gross_profit": null,
+      "operating_income": 153269000,
+      "net_income": 135133000,
+      "opex": 555181000,
+      "cogs": null,
+      "rd": null,
+      "sga": 44916000,
+      "fcf": 188116000,
+      "ocf": 192652000,
+      "capex": -4536000,
+      "gross_margin": null,
+      "op_margin": 0.21634413155480273,
+      "fcf_margin": 0.2655317947632155,
+      "incr_op_margin_yoy": 0.16228812819662403,
+      "rev_growth_yoy": 0.32028423989310256,
+      "rev_growth_yoy_accel": 0.08292822086501983,
+      "op_leverage_ratio": 1.0277363133030994,
+      "fcf_margin_change": -0.09133277472654289
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +32.0% vs prior quarter YoY: +23.7% (accel: +8.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -531,12 +540,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +27.3% vs prior quarter YoY: +18.8% (accel: +8.5%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.2% vs OpEx growth +2.5% (leverage: 2.4x)",
@@ -570,7 +573,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:39.367133",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-13T11:47:07.396996"
 }

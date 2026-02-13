@@ -1,25 +1,9 @@
 {
   "ticker": "ESP",
   "name": "ESPEY MFG. & ELECTRONICS CORP.",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6962065,
-      "gross_profit": 713461,
-      "operating_income": -232017,
-      "net_income": -181006,
-      "opex": 945478,
-      "cogs": 6248604,
-      "rd": null,
-      "sga": 945478,
-      "fcf": 1541962,
-      "ocf": 1551328,
-      "capex": -9366,
-      "gross_margin": 0.10247835950971443,
-      "op_margin": -0.03332588822425531,
-      "fcf_margin": 0.22148055210630754
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -5164,
       "gross_margin": -0.04450677135304352,
       "op_margin": -0.28001092966867597,
-      "fcf_margin": -0.1773819115410262,
-      "fcf_margin_change": -0.39886246364733374
+      "fcf_margin": -0.1773819115410262
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.18339444955090062,
       "op_margin": 0.08284230725815554,
       "fcf_margin": -0.17227796322276512,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.005103948318261081
     },
     {
@@ -95,7 +78,6 @@
       "gross_margin": 0.16181401304630566,
       "op_margin": 0.0027686861847265706,
       "fcf_margin": -0.18254530339700056,
-      "rev_growth_yoy": 0.07124107574405007,
       "fcf_margin_change": -0.38690762486514185
     },
     {
@@ -117,8 +99,7 @@
       "fcf_margin": 0.04802849728580429,
       "incr_op_margin_yoy": 0.44816047905981926,
       "rev_growth_yoy": 1.049919050060546,
-      "rev_growth_yoy_accel": 0.978677974316496,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23057380068280486
     },
     {
@@ -432,6 +413,29 @@
       "rev_growth_yoy": -0.12930324733238358,
       "rev_growth_yoy_accel": 0.044216039827771225,
       "fcf_margin_change": 0.3917618060714382
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 12136903,
+      "gross_profit": 4212581,
+      "operating_income": 3071141,
+      "net_income": 2805109,
+      "opex": 1141440,
+      "cogs": 7924322,
+      "rd": null,
+      "sga": 1141440,
+      "fcf": -4133110,
+      "ocf": -2811403,
+      "capex": -1321707,
+      "gross_margin": 0.34708862713988897,
+      "op_margin": 0.2530415708191785,
+      "fcf_margin": -0.3405407458558415,
+      "incr_op_margin_yoy": -0.7111548357596663,
+      "rev_growth_yoy": -0.10815380409942434,
+      "rev_growth_yoy_accel": 0.02114944323295924,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.8276826578317664
     }
   ],
   "signals": [
@@ -641,32 +645,14 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +105.0% vs prior quarter YoY: +7.1% (accel: +97.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -28.0% (year-ago) -> +9.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -3.3% (year-ago) -> +0.3%",
       "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -17.2% -> +20.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +10.2% -> -4.5% -> +18.3% (reversal +22.8%)",
       "severity": "HIGH"
     },
     {
@@ -701,7 +687,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:08:26.559904",
-  "sector": "Industrials",
-  "industry": "Electrical Equipment & Parts"
+  "last_updated": "2026-02-13T11:46:01.043206"
 }

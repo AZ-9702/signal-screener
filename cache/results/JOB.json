@@ -1,25 +1,9 @@
 {
   "ticker": "JOB",
   "name": "GEE GROUP INC.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 34643000,
-      "gross_profit": 12580000,
-      "operating_income": 1976000,
-      "net_income": -315000,
-      "opex": 10604000,
-      "cogs": 22063000,
-      "rd": null,
-      "sga": 9487000,
-      "fcf": 45000,
-      "ocf": 47000,
-      "capex": -2000,
-      "gross_margin": 0.36313252316485295,
-      "op_margin": 0.05703894004560806,
-      "fcf_margin": 0.0012989637156135439
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -10000,
       "gross_margin": 0.3141886053344087,
       "op_margin": 0.018347831096261306,
-      "fcf_margin": 0.004003686848320756,
-      "fcf_margin_change": 0.002704723132707212
+      "fcf_margin": 0.004003686848320756
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.3636660676360072,
       "op_margin": -0.0006301491352953532,
       "fcf_margin": 0.050878707960884076,
-      "incr_op_margin_yoy": -0.24414919551438322,
-      "rev_growth_yoy": 0.23681551828652253,
       "op_leverage_ratio": 0.16552019596744613,
       "fcf_margin_change": -0.011556456450107215
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.05352141108783971,
       "incr_op_margin_yoy": 0.10995723885155773,
       "rev_growth_yoy": 0.14145400080649806,
-      "rev_growth_yoy_accel": -0.09536151748002447,
       "fcf_margin_change": 0.0026427031269556367
     },
     {
@@ -430,6 +410,28 @@
       "rev_growth_yoy": -0.17233472094828195,
       "rev_growth_yoy_accel": -0.004864596016179834,
       "fcf_margin_change": 0.13449144348740266
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 20516000,
+      "gross_profit": 7405000,
+      "operating_income": -409000,
+      "net_income": -150000,
+      "opex": 7814000,
+      "cogs": 13111000,
+      "rd": null,
+      "sga": 7708000,
+      "fcf": -1198000,
+      "ocf": -1194000,
+      "capex": -4000,
+      "gross_margin": 0.36093780464028075,
+      "op_margin": -0.01993565997270423,
+      "fcf_margin": -0.05839344901540261,
+      "incr_op_margin_yoy": -0.06751361161524501,
+      "rev_growth_yoy": -0.2117113655575194,
+      "rev_growth_yoy_accel": -0.039376644609237454,
+      "fcf_margin_change": -0.16209746845191425
     }
   ],
   "signals": [
@@ -531,12 +533,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +14.1% vs prior quarter YoY: +23.7% (decel: -9.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.1% -> +3.0%",
       "severity": "HIGH"
@@ -546,12 +542,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -6.6% -> +6.2%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +36.3% -> +31.4% -> +36.3% (reversal +4.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -579,7 +569,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:53:15.056568",
-  "sector": "Industrials",
-  "industry": "Staffing & Employment Services"
+  "last_updated": "2026-02-13T11:35:03.426569"
 }

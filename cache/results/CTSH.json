@@ -1,25 +1,9 @@
 {
   "ticker": "CTSH",
   "name": "COGNIZANT TECHNOLOGY SOLUTIONS CORPORATION",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4184000000,
-      "gross_profit": 1522000000,
-      "operating_income": 465000000,
-      "net_income": 316000000,
-      "opex": 1057000000,
-      "cogs": 2662000000,
-      "rd": null,
-      "sga": 874000000,
-      "fcf": 809000000,
-      "ocf": 898000000,
-      "capex": -89000000,
-      "gross_margin": 0.3637667304015296,
-      "op_margin": 0.1111376673040153,
-      "fcf_margin": 0.19335564053537285
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -88000000,
       "gross_margin": 0.3719609179731879,
       "op_margin": 0.1520109066121336,
-      "fcf_margin": 0.021131561008861623,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.17222407952651123
+      "fcf_margin": 0.021131561008861623
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.36571069709022397,
       "op_margin": 0.15323424743562905,
       "fcf_margin": 0.15909566673644546,
-      "incr_op_margin_yoy": 0.4502529510961214,
-      "rev_growth_yoy": 0.1417304015296367,
       "fcf_margin_change": -0.029985277614313383
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.038541234977206795,
       "incr_op_margin_yoy": 0.12941176470588237,
       "rev_growth_yoy": 0.09656896159963645,
-      "rev_growth_yoy_accel": -0.045161439930000255,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12055443175923866
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy_accel": -0.00789056304520222,
       "op_leverage_ratio": 1.618885153780543,
       "fcf_margin_change": 0.1511120382864743
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5333000000,
+      "gross_profit": 1799000000,
+      "operating_income": 853000000,
+      "net_income": 648000000,
+      "opex": 946000000,
+      "cogs": 3534000000,
+      "rd": null,
+      "sga": 806000000,
+      "fcf": 781000000,
+      "ocf": 858000000,
+      "capex": -77000000,
+      "gross_margin": 0.3373335833489593,
+      "op_margin": 0.1599474967185449,
+      "fcf_margin": 0.14644665291580725,
+      "incr_op_margin_yoy": 0.4063745019920319,
+      "rev_growth_yoy": 0.04939000393545848,
+      "rev_growth_yoy_accel": -0.024162731988411464,
+      "fcf_margin_change": -0.06777310701032388
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +40.6% vs year-ago OPM: +14.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -519,12 +526,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +45.0% vs year-ago OPM: +11.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.2% -> +18.9% (+8.7%)",
@@ -562,7 +563,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:38.469310",
-  "sector": "Technology",
-  "industry": "Information Technology Services"
+  "last_updated": "2026-02-13T11:33:27.791485"
 }

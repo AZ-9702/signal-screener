@@ -1,25 +1,9 @@
 {
   "ticker": "CFLT",
   "name": "CONFLUENT, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 70324000,
-      "gross_profit": 49407000,
-      "operating_income": -32301000,
-      "net_income": -31756000,
-      "opex": 81708000,
-      "cogs": 20917000,
-      "rd": 21861000,
-      "sga": null,
-      "fcf": -20742000,
-      "ocf": -20395000,
-      "capex": -347000,
-      "gross_margin": 0.7025624253455435,
-      "op_margin": -0.4593168761731415,
-      "fcf_margin": -0.2949490927706046
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -643000,
       "gross_margin": 0.6905281196448045,
       "op_margin": -0.5860725969777224,
-      "fcf_margin": -0.2678506517110661,
-      "op_leverage_ratio": 0.4684974640551704,
-      "fcf_margin_change": 0.027098441059538514
+      "fcf_margin": -0.2678506517110661
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6152191314788873,
       "op_margin": -0.9479020745780802,
       "fcf_margin": -0.2104596090987926,
-      "incr_op_margin_yoy": -1.6405733408596082,
-      "rev_growth_yoy": 0.7053637449519368,
       "op_leverage_ratio": 0.986904014352994,
       "fcf_margin_change": -0.029198031639496524
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.44330460840818464,
       "incr_op_margin_yoy": -1.3507768117122436,
       "rev_growth_yoy": 0.6375733499506673,
-      "rev_growth_yoy_accel": -0.06779039500126949,
       "op_leverage_ratio": 2.2155513032450536,
       "fcf_margin_change": -0.23284499930939204
     },
@@ -237,7 +216,7 @@
       "incr_op_margin_yoy": -0.04132082280765067,
       "rev_growth_yoy": 0.35778691170457727,
       "rev_growth_yoy_accel": -0.02403790060565192,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2915245017616076
     },
     {
@@ -283,7 +262,7 @@
       "incr_op_margin_yoy": 0.6807358821150995,
       "rev_growth_yoy": 0.2639417547104929,
       "rev_growth_yoy_accel": -0.05536465395742157,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0992292217540649
     },
     {
@@ -446,6 +425,29 @@
       "rev_growth_yoy_accel": -0.008138076251976822,
       "op_leverage_ratio": 54.074106514364594,
       "fcf_margin_change": 0.03955717553072205
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 314819000,
+      "gross_profit": 235157000,
+      "operating_income": -99174000,
+      "net_income": -79247000,
+      "opex": 334331000,
+      "cogs": 79662000,
+      "rd": 121926000,
+      "sga": null,
+      "fcf": 41670000,
+      "ocf": 42112000,
+      "capex": -442000,
+      "gross_margin": 0.7469593639519851,
+      "op_margin": -0.31501910621658796,
+      "fcf_margin": 0.1323617697788253,
+      "incr_op_margin_yoy": 0.12332319632828971,
+      "rev_growth_yoy": 0.20518719852997475,
+      "rev_growth_yoy_accel": 0.012040942949416877,
+      "op_leverage_ratio": 0.5650091648211206,
+      "fcf_margin_change": 0.03188743605691349
     }
   ],
   "signals": [
@@ -588,12 +590,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +63.8% vs prior quarter YoY: +70.5% (decel: -6.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -50.0% -> -18.1% (+31.9%)",
@@ -625,7 +621,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:35:45.789315",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-13T11:41:12.732466"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "PECO",
-  "name": "PHILLIPS EDISON & COMPANY, INC.",
+  "name": "Phillips Edison & Company, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 120759000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -11193000,
-      "opex": 111085000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 53331000,
-      "ocf": 53331000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.44163167962636324
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.37391184298325675,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.06771983664310649
+      "fcf_margin": 0.37391184298325675
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6097993537236042,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23588751074034742
     },
     {
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.47124273133860106,
-      "rev_growth_yoy": 0.13499614935532755,
       "op_leverage_ratio": 0.3700535566261195,
       "fcf_margin_change": -0.04575214526151683
     },
@@ -118,8 +99,7 @@
       "op_margin": null,
       "fcf_margin": 0.42360529814368014,
       "rev_growth_yoy": 0.09036592755079344,
-      "rev_growth_yoy_accel": -0.04463022180453412,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04763743319492092
     },
     {
@@ -356,7 +336,7 @@
       "fcf_margin": 0.4854317877120799,
       "rev_growth_yoy": 0.12042162785126481,
       "rev_growth_yoy_accel": 0.034813589759524574,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17372351625645693
     },
     {
@@ -421,8 +401,30 @@
       "fcf_margin": 0.5223820133684424,
       "rev_growth_yoy": 0.10356014426649429,
       "rev_growth_yoy_accel": 0.0030245902931791135,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01836835371396972
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 187861000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 47525000,
+      "opex": 133869000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 96064000,
+      "ocf": 96064000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5113568010390661,
+      "rev_growth_yoy": 0.08560052702140447,
+      "rev_growth_yoy_accel": -0.01795961724508982,
+      "op_leverage_ratio": 1.2025565795465103,
+      "fcf_margin_change": -0.011025212329376255
     }
   ],
   "signals": [
@@ -509,5 +511,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:04:49.720129"
+  "last_updated": "2026-02-13T11:47:24.221185"
 }

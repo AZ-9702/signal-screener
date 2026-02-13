@@ -1,25 +1,9 @@
 {
   "ticker": "LEU",
   "name": "Centrus Energy Corp.",
+  "sector": "Energy",
+  "industry": "Uranium",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 92900000,
-      "gross_profit": 35000000,
-      "operating_income": 20600000,
-      "net_income": 16400000,
-      "opex": 14400000,
-      "cogs": 57900000,
-      "rd": 1000000,
-      "sga": 10400000,
-      "fcf": 61400000,
-      "ocf": 61900000,
-      "capex": -500000,
-      "gross_margin": 0.3767491926803014,
-      "op_margin": 0.2217438105489774,
-      "fcf_margin": 0.6609257265877287
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -400000,
       "gross_margin": 0.210431654676259,
       "op_margin": 0.01618705035971223,
-      "fcf_margin": -0.16007194244604317,
-      "fcf_margin_change": -0.8209976690337719
+      "fcf_margin": -0.16007194244604317
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.27403846153846156,
       "op_margin": 0.1201923076923077,
       "fcf_margin": 0.1778846153846154,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3379565578306586
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.4067415730337079,
       "op_margin": 0.24382022471910111,
       "fcf_margin": 0.547191011235955,
-      "incr_op_margin_yoy": -0.28205128205128205,
-      "rev_growth_yoy": -0.04198062432723358,
       "fcf_margin_change": 0.570192106526207
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.3597733711048159,
       "incr_op_margin_yoy": 0.21182266009852216,
       "rev_growth_yoy": -0.36510791366906475,
-      "rev_growth_yoy_accel": -0.32312728934183116,
       "fcf_margin_change": -0.9069643823407709
     },
     {
@@ -231,7 +211,7 @@
       "fcf_margin": 0.24898373983739838,
       "rev_growth_yoy": -0.007063572149344097,
       "rev_growth_yoy_accel": -0.9022477081266812,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3984605709285792
     },
     {
@@ -435,9 +415,56 @@
       "rev_growth_yoy": 0.29809358752166376,
       "rev_growth_yoy_accel": 0.48063327006134626,
       "fcf_margin_change": -0.24234513331691446
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 146200000,
+      "gross_profit": 35000000,
+      "operating_income": 12800000,
+      "net_income": 17800000,
+      "opex": 22200000,
+      "cogs": 111200000,
+      "rd": 8900000,
+      "sga": 10300000,
+      "fcf": -58000000,
+      "ocf": -48400000,
+      "capex": -9600000,
+      "gross_margin": 0.2393980848153215,
+      "op_margin": 0.08755129958960328,
+      "fcf_margin": -0.3967168262653899,
+      "incr_op_margin_yoy": 5.981481481481482,
+      "rev_growth_yoy": -0.03562005277044855,
+      "rev_growth_yoy_accel": -0.3337136402921123,
+      "op_leverage_ratio": 1.1827082574746126,
+      "fcf_margin_change": -0.472818294890223
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +34.9% -> -5.7% -> +23.9% (reversal +29.7%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.6% vs prior quarter YoY: +29.8% (decel: -33.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +598.1% vs year-ago OPM: +29.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -22.2% -> +8.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -667,12 +694,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -36.5% vs prior quarter YoY: -4.2% (decel: -32.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.3% -> +54.7%",
@@ -688,12 +709,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -16.0% -> +17.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +37.7% -> +21.0% -> +27.4% (reversal +6.4%)",
       "severity": "HIGH"
     }
   ],
@@ -722,7 +737,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:58:50.291680",
-  "sector": "Energy",
-  "industry": "Uranium"
+  "last_updated": "2026-02-13T11:41:00.871352"
 }

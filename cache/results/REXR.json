@@ -1,25 +1,9 @@
 {
   "ticker": "REXR",
   "name": "Rexford Industrial Realty, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 88649000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 16995000,
-      "opex": 61630000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 36346000,
-      "ocf": 36346000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.40999898476012137
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.36462415925744013,
-      "op_leverage_ratio": 0.9016927471875736,
-      "fcf_margin_change": -0.04537482550268124
+      "fcf_margin": 0.36462415925744013
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3882090541925372,
-      "rev_growth_yoy": 0.49705016413044706,
       "op_leverage_ratio": 1.131514962731252,
       "fcf_margin_change": -0.2899882197084879
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.6507332045015346,
       "rev_growth_yoy": 0.410863747080581,
-      "rev_growth_yoy_accel": -0.08618641704986607,
       "op_leverage_ratio": 2.3293991882888236,
       "fcf_margin_change": 0.2625241503089974
     },
@@ -296,7 +276,7 @@
       "fcf_margin": 0.6247477766983036,
       "rev_growth_yoy": 0.14959513735260638,
       "rev_growth_yoy_accel": -0.028682116870825336,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07354426000589542
     },
     {
@@ -428,6 +408,27 @@
       "rev_growth_yoy_accel": -0.00309909664103504,
       "op_leverage_ratio": 0.17035896110086288,
       "fcf_margin_change": 0.07722475434186826
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 248097000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -65423000,
+      "opex": 155305000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 111745000,
+      "ocf": 111745000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.45040850957488404,
+      "rev_growth_yoy": 0.021416661520410055,
+      "rev_growth_yoy_accel": -0.025717222859125425,
+      "fcf_margin_change": -0.14045714462149733
     }
   ],
   "signals": [
@@ -534,12 +535,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +41.1% vs prior quarter YoY: +49.7% (decel: -8.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +62.6% -> +67.8% (+5.2%)",
@@ -586,5 +581,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:39:28.180177"
+  "last_updated": "2026-02-13T11:43:53.414820"
 }

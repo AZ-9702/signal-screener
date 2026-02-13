@@ -1,25 +1,9 @@
 {
   "ticker": "LPTH",
-  "name": "LIGHTPATH TECHNOLOGIES, INC.",
+  "name": "LIGHTPATH TECHNOLOGIES INC",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 9922171,
-      "gross_profit": 3630336,
-      "operating_income": 56462,
-      "net_income": -146545,
-      "opex": 3573874,
-      "cogs": 6291835,
-      "rd": null,
-      "sga": 2763178,
-      "fcf": -64296,
-      "ocf": 879597,
-      "capex": -943893,
-      "gross_margin": 0.36588121692319153,
-      "op_margin": 0.0056904885029697636,
-      "fcf_margin": -0.006480033452356344
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -560857,
       "gross_margin": 0.36479066870179705,
       "op_margin": 0.015573438222162748,
-      "fcf_margin": 0.09095505787020382,
-      "op_leverage_ratio": 1.7194403702135752,
-      "fcf_margin_change": 0.09743509132256016
+      "fcf_margin": 0.09095505787020382
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": 0.34843628324232095,
       "op_margin": -0.04453232180749424,
       "fcf_margin": -0.3094123774090463,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.455658871181006
     },
     {
@@ -96,7 +78,6 @@
       "gross_margin": 0.30290958495425924,
       "op_margin": -0.10606562204714527,
       "fcf_margin": 0.14518194724020125,
-      "rev_growth_yoy": -0.06843230176137863,
       "op_leverage_ratio": 0.2708177535483842,
       "fcf_margin_change": 0.45459432464924754
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.04027193352960696,
       "incr_op_margin_yoy": 0.26030885452534486,
       "rev_growth_yoy": -0.22389206158991726,
-      "rev_growth_yoy_accel": -0.15545975982853863,
       "fcf_margin_change": -0.1049100137105943
     },
     {
@@ -349,7 +329,7 @@
       "net_income": -2611997,
       "opex": 4415170,
       "cogs": 5493998,
-      "rd": null,
+      "rd": 764396,
       "sga": 3356063,
       "fcf": -817838,
       "ocf": -737415,
@@ -427,11 +407,46 @@
       "incr_op_margin_yoy": -0.16956848255455925,
       "rev_growth_yoy": 0.792571194092268,
       "rev_growth_yoy_accel": 0.37844027740023684,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19184732373268976
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 16351652,
+      "gross_profit": 6020330,
+      "operating_income": -8597503,
+      "net_income": -9405409,
+      "opex": 14617833,
+      "cogs": 10331322,
+      "rd": 748829,
+      "sga": 5859461,
+      "fcf": 1955868,
+      "ocf": 2823763,
+      "capex": -867895,
+      "gross_margin": 0.3681787014547521,
+      "op_margin": -0.5257880365849273,
+      "fcf_margin": 0.1196128684734729,
+      "incr_op_margin_yoy": -0.6848084699338163,
+      "rev_growth_yoy": 1.2022934130873586,
+      "rev_growth_yoy_accel": 0.40972221899509065,
+      "op_leverage_ratio": 0.07867328054365706,
+      "fcf_margin_change": 0.2006218495118796
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -8.1% -> +12.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +120.2% vs prior quarter YoY: +79.3% (accel: +41.0%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -583,12 +598,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -22.4% vs prior quarter YoY: -6.8% (decel: -15.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -30.9% -> +14.5%",
@@ -604,18 +613,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +9.1% -> +14.6% (+5.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -0.6% -> +9.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +7.9% vs OpEx growth +4.6% (leverage: 1.7x)",
       "severity": "MEDIUM"
     }
   ],
@@ -644,7 +641,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:19:00.141855",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-13T11:42:43.731420"
 }

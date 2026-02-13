@@ -1,25 +1,9 @@
 {
   "ticker": "RCEL",
-  "name": "AVITA Medical, Inc.",
+  "name": "AVITA MEDICAL, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-09-30T00:00:00",
-      "quarter_label": "2020-09 (Q3)",
-      "revenue": 5060000,
-      "gross_profit": 4131000,
-      "operating_income": -10214000,
-      "net_income": -10227000,
-      "opex": 14941000,
-      "cogs": 929000,
-      "rd": 3204000,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.8164031620553359,
-      "op_margin": -2.0185770750988143,
-      "fcf_margin": null
-    },
     {
       "date": "2020-12-31T00:00:00",
       "quarter_label": "2020-12 (Q4)",
@@ -31,12 +15,12 @@
       "cogs": 821000,
       "rd": 3361000,
       "sga": null,
-      "fcf": -5938000,
-      "ocf": -5675000,
-      "capex": -263000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
       "gross_margin": 0.8391142465216539,
       "op_margin": -1.1034685479129924,
-      "fcf_margin": -1.1636292377033117
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -55,8 +39,7 @@
       "gross_margin": 0.7551625784369652,
       "op_margin": -0.6835139760410724,
       "fcf_margin": -1.0116371933827724,
-      "op_leverage_ratio": 2.6387325286465733,
-      "fcf_margin_change": 0.15199204432053937
+      "op_leverage_ratio": 2.6387325286465733
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.845014245014245,
       "op_margin": -0.8474358974358974,
       "fcf_margin": -0.09102564102564102,
-      "incr_op_margin_yoy": 2.1760204081632653,
-      "rev_growth_yoy": 0.38735177865612647,
       "fcf_margin_change": 0.30600463847746456
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -1.2513595967634965,
       "incr_op_margin_yoy": 2.8515497553017943,
       "rev_growth_yoy": -0.139874500855676,
-      "rev_growth_yoy_accel": -0.5272262795118025,
       "op_leverage_ratio": 0.24309955762866953,
       "fcf_margin_change": -1.1603339557378556
     },
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.8420518029456577,
       "rev_growth_yoy": -0.19109083850931677,
       "rev_growth_yoy_accel": -0.05121633765364078,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.804928882906268
     },
     {
@@ -253,7 +233,7 @@
       "incr_op_margin_yoy": -0.781462771798814,
       "rev_growth_yoy": 0.5007699076110866,
       "rev_growth_yoy_accel": 0.09069192320796726,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10532895914835771
     },
     {
@@ -433,9 +413,43 @@
       "rev_growth_yoy": -0.12708482553975237,
       "rev_growth_yoy_accel": -0.3391940720024046,
       "fcf_margin_change": 0.22320508244834308
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 17615000,
+      "gross_profit": 14311000,
+      "operating_income": -10408000,
+      "net_income": -11621000,
+      "opex": 24719000,
+      "cogs": 3304000,
+      "rd": 5691000,
+      "sga": null,
+      "fcf": -4764000,
+      "ocf": -5438000,
+      "capex": 674000,
+      "gross_margin": 0.8124325858643202,
+      "op_margin": -0.5908600624467784,
+      "fcf_margin": -0.27045131989781435,
+      "rev_growth_yoy": -0.04297511680973595,
+      "rev_growth_yoy_accel": 0.08410970873001641,
+      "op_leverage_ratio": 0.4413750775427094,
+      "fcf_margin_change": 0.09017463251104746
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -36.1% -> -27.0% (+9.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -4.3% vs prior quarter YoY: -12.7% (accel: +8.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -581,12 +595,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -14.0% vs prior quarter YoY: +38.7% (decel: -52.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -39.7% -> -9.1% (+30.6%)",
@@ -608,12 +616,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +83.9% -> +75.5% -> +80.1% (reversal +4.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -116.4% -> -101.2% (+15.2%)",
       "severity": "MEDIUM"
     },
     {
@@ -656,5 +658,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:11:48.577722"
+  "last_updated": "2026-02-13T11:32:36.002107"
 }

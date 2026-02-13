@@ -1,25 +1,9 @@
 {
   "ticker": "CGNX",
   "name": "COGNEX CORP",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 223615000,
-      "gross_profit": 168455000,
-      "operating_income": 59085000,
-      "net_income": 69345000,
-      "opex": 109370000,
-      "cogs": 55160000,
-      "rd": 34399000,
-      "sga": 74096000,
-      "fcf": 79476000,
-      "ocf": 82950000,
-      "capex": -3474000,
-      "gross_margin": 0.7533260291125372,
-      "op_margin": 0.26422646065782707,
-      "fcf_margin": 0.3554144399973168
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -2436000,
       "gross_margin": 0.7738958360352596,
       "op_margin": 0.32821815108753405,
-      "fcf_margin": 0.4024775443778318,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.047063104380514975
+      "fcf_margin": 0.4024775443778318
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.716952451191281,
       "op_margin": 0.2315776534939463,
       "fcf_margin": 0.20667854874725994,
-      "incr_op_margin_yoy": -0.1254278728606357,
-      "rev_growth_yoy": 0.09145182568253471,
       "fcf_margin_change": -0.003932022504776228
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.15910370493649237,
       "incr_op_margin_yoy": 0.19075610880590133,
       "rev_growth_yoy": 0.1814857735736967,
-      "rev_growth_yoy_accel": 0.09003394789116198,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04757484381076757
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": -0.0010586623489849296,
       "rev_growth_yoy": -0.11694364740667376,
       "rev_growth_yoy_accel": 0.17087853830402036,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.005911884646171997
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy_accel": 0.1386005077410307,
       "op_leverage_ratio": 2.7327723943506004,
       "fcf_margin_change": 0.14839671964662365
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 252338000,
+      "gross_profit": 165904000,
+      "operating_income": 35276000,
+      "net_income": 32664000,
+      "opex": 130628000,
+      "cogs": 86434000,
+      "rd": 36060000,
+      "sga": 94568000,
+      "fcf": 72306000,
+      "ocf": 74902000,
+      "capex": -2596000,
+      "gross_margin": 0.6574673652006435,
+      "op_margin": 0.13979662199113888,
+      "fcf_margin": 0.28654423828357206,
+      "incr_op_margin_yoy": 0.1958153085547806,
+      "rev_growth_yoy": 0.098631162814998,
+      "rev_growth_yoy_accel": -0.08092767199087399,
+      "fcf_margin_change": -0.02416535245938911
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +9.9% vs prior quarter YoY: +18.0% (decel: -8.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -639,12 +646,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +18.1% vs prior quarter YoY: +9.1% (accel: +9.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +5.8% vs OpEx growth +3.2% (leverage: 1.8x)",
@@ -682,7 +683,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:00.948590",
-  "sector": "Technology",
-  "industry": "Scientific & Technical Instruments"
+  "last_updated": "2026-02-13T11:33:24.059015"
 }

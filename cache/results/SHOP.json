@@ -1,6 +1,8 @@
 {
   "ticker": "SHOP",
   "name": "Shopify Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
     {
       "date": "2024-03-31T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.511002444987775,
       "op_margin": 0.1178484107579462,
       "fcf_margin": 0.16283618581907092,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.038172026764799014
     },
     {
@@ -146,9 +148,38 @@
       "rev_growth_yoy_accel": 0.004935211216635871,
       "op_leverage_ratio": 1.6720855183541752,
       "fcf_margin_change": 0.020807355626928647
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3672000000,
+      "gross_profit": 1693000000,
+      "operating_income": 631000000,
+      "net_income": 743000000,
+      "opex": 1062000000,
+      "cogs": 1979000000,
+      "rd": 390000000,
+      "sga": null,
+      "fcf": 715000000,
+      "ocf": 725000000,
+      "capex": -10000000,
+      "gross_margin": 0.4610566448801743,
+      "op_margin": 0.17184095860566448,
+      "fcf_margin": 0.19471677559912853,
+      "incr_op_margin_yoy": 0.1930232558139535,
+      "rev_growth_yoy": 0.3058321479374111,
+      "rev_growth_yoy_accel": -0.009616510711987603,
+      "op_leverage_ratio": 21.793851717902353,
+      "fcf_margin_change": 0.01644673340503572
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +29.1% vs OpEx growth +1.3% (leverage: 21.8x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -175,23 +206,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 7,
+    "n_quarters": 8,
     "coverage": {
       "revenue": [
-        7,
-        7
+        8,
+        8
       ],
       "gross_profit": [
-        7,
-        7
+        8,
+        8
       ],
       "op_income": [
-        7,
-        7
+        8,
+        8
       ],
       "fcf": [
-        7,
-        7
+        8,
+        8
       ]
     },
     "gaps": [],
@@ -199,5 +230,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:12.475570"
+  "last_updated": "2026-02-13T11:44:06.201226"
 }

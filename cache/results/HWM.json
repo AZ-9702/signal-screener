@@ -1,25 +1,9 @@
 {
   "ticker": "HWM",
   "name": "HOWMET AEROSPACE INC.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1238000000,
-      "gross_profit": 366000000,
-      "operating_income": 221000000,
-      "net_income": 106000000,
-      "opex": 145000000,
-      "cogs": 872000000,
-      "rd": 4000000,
-      "sga": 58000000,
-      "fcf": 104000000,
-      "ocf": 151000000,
-      "capex": -47000000,
-      "gross_margin": 0.2956381260096931,
-      "op_margin": 0.17851373182552505,
-      "fcf_margin": 0.0840064620355412
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -55000000,
       "gross_margin": 0.27791563275434245,
       "op_margin": 0.15632754342431762,
-      "fcf_margin": -0.050454921422663356,
-      "fcf_margin_change": -0.13446138345820455
+      "fcf_margin": -0.050454921422663356
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.27003891050583656,
       "op_margin": 0.11439688715953307,
       "fcf_margin": 0.18832684824902723,
-      "incr_op_margin_yoy": -1.574468085106383,
-      "rev_growth_yoy": 0.03796445880452343,
       "fcf_margin_change": 0.17273838371278405
     },
     {
@@ -118,8 +99,7 @@
       "fcf_margin": -0.005287009063444109,
       "incr_op_margin_yoy": 0.3565217391304348,
       "rev_growth_yoy": 0.09511993382961124,
-      "rev_growth_yoy_accel": 0.05715547502508782,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19361385731247135
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.15333333333333332,
       "rev_growth_yoy": 0.11691348402182385,
       "rev_growth_yoy_accel": -0.048776892547213804,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06578751598687285
     },
     {
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": 0.1971326164874552,
       "rev_growth_yoy": 0.2107250755287009,
       "rev_growth_yoy_accel": 0.0332931689139149,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.29656184145803943
     },
     {
@@ -302,7 +282,7 @@
       "incr_op_margin_yoy": 0.38009049773755654,
       "rev_growth_yoy": 0.13786650031191516,
       "rev_growth_yoy_accel": -0.006218099820272549,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1807300693240901
     },
     {
@@ -370,7 +350,7 @@
       "incr_op_margin_yoy": 0.74375,
       "rev_growth_yoy": 0.09243212016175621,
       "rev_growth_yoy_accel": -0.014323006496868643,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11161085710745147
     },
     {
@@ -441,6 +421,29 @@
       "rev_growth_yoy_accel": 0.04639834193286567,
       "op_leverage_ratio": 0.19522649780808574,
       "fcf_margin_change": 0.034929560518915104
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2168000000,
+      "gross_profit": 756000000,
+      "operating_income": 489000000,
+      "net_income": 372000000,
+      "opex": 267000000,
+      "cogs": 1412000000,
+      "rd": 10000000,
+      "sga": 96000000,
+      "fcf": 530000000,
+      "ocf": 654000000,
+      "capex": -124000000,
+      "gross_margin": 0.34870848708487084,
+      "op_margin": 0.22555350553505535,
+      "fcf_margin": 0.2444649446494465,
+      "incr_op_margin_yoy": 0.1588447653429603,
+      "rev_growth_yoy": 0.14648334214701217,
+      "rev_growth_yoy_accel": 0.008063723618401825,
+      "op_leverage_ratio": 0.08097316475656802,
+      "fcf_margin_change": 0.041975715353132464
     }
   ],
   "signals": [
@@ -566,12 +569,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +9.5% vs prior quarter YoY: +3.8% (accel: +5.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +35.7% vs year-ago OPM: +15.6%",
       "severity": "HIGH"
@@ -614,7 +611,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:05.169933",
-  "sector": "Industrials",
-  "industry": "Aerospace & Defense"
+  "last_updated": "2026-02-13T11:35:37.984953"
 }

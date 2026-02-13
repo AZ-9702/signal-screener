@@ -1,25 +1,9 @@
 {
   "ticker": "MOH",
   "name": "MOLINA HEALTHCARE, INC.",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5235000000,
-      "gross_profit": 827000000,
-      "operating_income": 91000000,
-      "net_income": 34000000,
-      "opex": 5144000000,
-      "cogs": 4408000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 1289000000,
-      "ocf": 1299000000,
-      "capex": -10000000,
-      "gross_margin": 0.15797516714422158,
-      "op_margin": 0.01738299904489016,
-      "fcf_margin": 0.24622731614135626
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -16000000,
       "gross_margin": 0.16068690585709905,
       "op_margin": 0.05136461208218338,
-      "fcf_margin": 0.08463661453541858,
-      "op_leverage_ratio": 1.2124909685802745,
-      "fcf_margin_change": -0.1615907016059377
+      "fcf_margin": 0.08463661453541858
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.1413146173572682,
       "op_margin": 0.02577945741665542,
       "fcf_margin": 0.07774328519368336,
-      "incr_op_margin_yoy": 0.045998160073597055,
-      "rev_growth_yoy": 0.4152817574021012,
       "op_leverage_ratio": 0.8957802887901571,
       "fcf_margin_change": 0.016095557920956086
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.043758043758043756,
       "incr_op_margin_yoy": 0.029647435897435896,
       "rev_growth_yoy": 0.19135234590616376,
-      "rev_growth_yoy_accel": -0.22392941149593745,
       "op_leverage_ratio": 1.9538534215143744,
       "fcf_margin_change": -0.0339852414356396
     },
@@ -442,6 +421,28 @@
       "rev_growth_yoy": 0.10996131528046421,
       "rev_growth_yoy_accel": -0.04661763208795683,
       "fcf_margin_change": 0.015901821640320453
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11375000000,
+      "gross_profit": 1239000000,
+      "operating_income": -162000000,
+      "net_income": -160000000,
+      "opex": 11537000000,
+      "cogs": 10136000000,
+      "rd": null,
+      "sga": null,
+      "fcf": -297000000,
+      "ocf": -298000000,
+      "capex": 1000000,
+      "gross_margin": 0.10892307692307693,
+      "op_margin": -0.014241758241758242,
+      "fcf_margin": -0.02610989010989011,
+      "incr_op_margin_yoy": -0.6187214611872146,
+      "rev_growth_yoy": 0.08343651776359653,
+      "rev_growth_yoy_accel": -0.026524797516867676,
+      "fcf_margin_change": -0.011907572431054178
     }
   ],
   "signals": [
@@ -522,12 +523,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.9% vs OpEx growth +2.5% (leverage: 2.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +19.1% vs prior quarter YoY: +41.5% (decel: -22.4%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -555,7 +550,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:38:13.263236",
-  "sector": "Healthcare",
-  "industry": "Healthcare Plans"
+  "last_updated": "2026-02-13T11:47:04.274298"
 }

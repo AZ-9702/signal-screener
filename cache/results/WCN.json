@@ -1,25 +1,9 @@
 {
   "ticker": "WCN",
-  "name": "WASTE CONNECTIONS, INC.",
+  "name": "WASTE CONNECTIONS,\u00a0INC.",
+  "sector": "Industrials",
+  "industry": "Waste Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1398251000,
-      "gross_profit": 551400000,
-      "operating_income": 197144000,
-      "net_income": 130664000,
-      "opex": 354256000,
-      "cogs": 846851000,
-      "rd": null,
-      "sga": 133419000,
-      "fcf": 46589000,
-      "ocf": 222948000,
-      "capex": -176359000,
-      "gross_margin": 0.39434979842674883,
-      "op_margin": 0.1409932837523449,
-      "fcf_margin": 0.033319482696597395
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -96793000,
       "gross_margin": 0.4083421804057762,
       "op_margin": 0.17076067630317018,
-      "fcf_margin": 0.21748969513059999,
-      "fcf_margin_change": 0.18417021243400258
+      "fcf_margin": 0.21748969513059999
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.40764027328371216,
       "op_margin": 0.1785309998697695,
       "fcf_margin": 0.13360836180038668,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04468062251507471
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.39613770447799973,
       "op_margin": 0.1534926329126237,
       "fcf_margin": 0.10061631982387696,
-      "incr_op_margin_yoy": 0.23080223649521384,
-      "rev_growth_yoy": 0.16167912627990252,
       "op_leverage_ratio": 0.22053199143694677,
       "fcf_margin_change": -0.03299204197650972
     },
@@ -120,8 +101,7 @@
       "fcf_margin": 0.17529422841540346,
       "incr_op_margin_yoy": 0.14177449832809322,
       "rev_growth_yoy": 0.17931475663028978,
-      "rev_growth_yoy_accel": 0.01763563035038726,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0746779085915265
     },
     {
@@ -303,7 +283,7 @@
       "incr_op_margin_yoy": 0.3027069416206796,
       "rev_growth_yoy": 0.09058128295509137,
       "rev_growth_yoy_accel": 0.00161326763813599,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03789397813234778
     },
     {
@@ -349,7 +329,7 @@
       "incr_op_margin_yoy": 0.4470088842129873,
       "rev_growth_yoy": 0.13258011646964465,
       "rev_growth_yoy_accel": 0.020229633192015442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05294689404786518
     },
     {
@@ -441,9 +421,37 @@
       "rev_growth_yoy_accel": -0.019406771403050957,
       "op_leverage_ratio": 0.20646401930265068,
       "fcf_margin_change": 0.008078769828462756
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2373306000,
+      "gross_profit": 1009077000,
+      "operating_income": 420828000,
+      "net_income": 258500000,
+      "opex": 588249000,
+      "cogs": 1364229000,
+      "rd": null,
+      "sga": 229968000,
+      "fcf": 172588000,
+      "ocf": 556879000,
+      "capex": -384291000,
+      "gross_margin": 0.4251777899689294,
+      "op_margin": 0.17731721067574094,
+      "fcf_margin": 0.0727205004327297,
+      "incr_op_margin_yoy": 5.485768383426382,
+      "rev_growth_yoy": 0.05000391543890743,
+      "rev_growth_yoy_accel": -0.001264254421275736,
+      "fcf_margin_change": -0.08196563815132857
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -8.8% (year-ago) -> +17.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -497,12 +505,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.1% -> +17.5% (+7.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +3.3% -> +21.7% (+18.4%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -530,5 +532,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:01:47.019642"
+  "last_updated": "2026-02-13T11:39:43.157548"
 }

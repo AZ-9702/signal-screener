@@ -1,25 +1,9 @@
 {
   "ticker": "FCPT",
-  "name": "Four Corners Property Trust, Inc.",
+  "name": "FOUR CORNERS PROPERTY TRUST, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 44618000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 20252000,
-      "opex": 16759000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 26062000,
-      "ocf": 26062000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.584114034694518
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6813203268728876,
-      "op_leverage_ratio": 0.3804377224406565,
-      "fcf_margin_change": 0.09720629217836962
+      "fcf_margin": 0.6813203268728876
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5387814790899077,
-      "rev_growth_yoy": 0.18010668340131786,
       "op_leverage_ratio": 2.0723857898846796,
       "fcf_margin_change": -0.15480507871390248
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.6398882291302829,
       "rev_growth_yoy": 0.16367175801138065,
-      "rev_growth_yoy_accel": -0.01643492538993721,
       "op_leverage_ratio": 0.3200493075098523,
       "fcf_margin_change": 0.10110675004037517
     },
@@ -230,7 +210,7 @@
       "fcf_margin": 0.7850481149485895,
       "rev_growth_yoy": 0.09495714930085701,
       "rev_growth_yoy_accel": -0.0071624528830869505,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1523586300273192
     },
     {
@@ -403,7 +383,7 @@
       "fcf_margin": 0.6007385848823481,
       "rev_growth_yoy": 0.0957144361377277,
       "rev_growth_yoy_accel": 0.020353730825317037,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12062243140283857
     },
     {
@@ -427,6 +407,28 @@
       "rev_growth_yoy_accel": 0.014450106989340308,
       "op_leverage_ratio": 0.8543581613029397,
       "fcf_margin_change": 0.059108479811713854
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 75665000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 29439000,
+      "opex": 33098000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 48035000,
+      "ocf": 48035000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.6348377717570871,
+      "rev_growth_yoy": 0.10724947319129009,
+      "rev_growth_yoy_accel": -0.0029150699357779197,
+      "op_leverage_ratio": 1.0657492017450352,
+      "fcf_margin_change": -0.025009292936974847
     }
   ],
   "signals": [
@@ -507,12 +509,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +54.9% -> +69.4% (+14.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +58.4% -> +68.1% (+9.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -543,7 +539,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:28:27.543892",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-13T11:34:56.526231"
 }

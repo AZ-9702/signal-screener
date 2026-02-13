@@ -1,25 +1,9 @@
 {
   "ticker": "HLT",
   "name": "Hilton Worldwide Holdings Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 890000000,
-      "gross_profit": null,
-      "operating_income": -195000000,
-      "net_income": -224000000,
-      "opex": 1085000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -146000000,
-      "ocf": -138000000,
-      "capex": -8000000,
-      "gross_margin": null,
-      "op_margin": -0.21910112359550563,
-      "fcf_margin": -0.16404494382022472
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3000000,
       "gross_margin": null,
       "op_margin": 0.02402745995423341,
-      "fcf_margin": -0.19908466819221968,
-      "fcf_margin_change": -0.03503972437199496
+      "fcf_margin": -0.19908466819221968
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.18137254901960784,
       "fcf_margin": 0.061546840958605666,
-      "incr_op_margin_yoy": 0.5581395348837209,
-      "rev_growth_yoy": 1.0629213483146067,
       "op_leverage_ratio": 0.3339138848572811,
       "fcf_margin_change": -0.09282708700022796
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.11098198721673445,
       "incr_op_margin_yoy": 0.41086186540731995,
       "rev_growth_yoy": 0.9691075514874142,
-      "rev_growth_yoy_accel": -0.09381379682719249,
       "fcf_margin_change": 0.04943514625812879
     },
     {
@@ -436,9 +416,37 @@
       "rev_growth_yoy": 0.08824555284269271,
       "rev_growth_yoy_accel": 0.02521607131100853,
       "fcf_margin_change": 0.04982089289947114
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3087000000,
+      "gross_profit": null,
+      "operating_income": 602000000,
+      "net_income": 297000000,
+      "opex": 2485000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 173000000,
+      "ocf": 203000000,
+      "capex": -30000000,
+      "gross_margin": null,
+      "op_margin": 0.19501133786848074,
+      "fcf_margin": 0.05604146420472951,
+      "incr_op_margin_yoy": 0.3717105263157895,
+      "rev_growth_yoy": 0.10923463887890765,
+      "rev_growth_yoy_accel": 0.020989086036214938,
+      "fcf_margin_change": -0.19620212553886024
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +37.2% vs year-ago OPM: +17.6%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -531,20 +539,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +96.9% vs prior quarter YoY: +106.3% (decel: -9.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +41.1% vs year-ago OPM: +2.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -21.9% (year-ago) -> +18.1%",
       "severity": "HIGH"
     },
     {
@@ -570,12 +566,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +52.1% vs OpEx growth +29.5% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -21.9% -> +2.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -605,7 +595,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:55:12.640849",
-  "sector": "Consumer Cyclical",
-  "industry": "Lodging"
+  "last_updated": "2026-02-13T11:42:11.761810"
 }

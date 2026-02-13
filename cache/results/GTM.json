@@ -1,25 +1,9 @@
 {
   "ticker": "GTM",
   "name": "ZoomInfo Technologies Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 139700000,
-      "gross_profit": 113100000,
-      "operating_income": 29600000,
-      "net_income": 25500000,
-      "opex": 83500000,
-      "cogs": null,
-      "rd": 14500000,
-      "sga": null,
-      "fcf": 66900000,
-      "ocf": 66900000,
-      "capex": null,
-      "gross_margin": 0.8095919828203293,
-      "op_margin": 0.21188260558339297,
-      "fcf_margin": 0.47888332140300643
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.8166992824527071,
       "op_margin": 0.182648401826484,
-      "fcf_margin": 0.6066536203522505,
-      "op_leverage_ratio": 0.5933465350673236,
-      "fcf_margin_change": 0.12777029894924402
+      "fcf_margin": 0.6066536203522505
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.8182636077372919,
       "op_margin": 0.10886189833558255,
       "fcf_margin": 0.32073774179037334,
-      "incr_op_margin_yoy": -0.06537530266343826,
-      "rev_growth_yoy": 0.5912670007158196,
       "op_leverage_ratio": 0.9581043956043956,
       "fcf_margin_change": 0.08541385515069724
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.43442283822920974,
       "incr_op_margin_yoy": 0.049773755656108594,
       "rev_growth_yoy": 0.5766470971950424,
-      "rev_growth_yoy_accel": -0.014619903520777244,
       "op_leverage_ratio": 1.8108412055780476,
       "fcf_margin_change": 0.1136850964388364
     },
@@ -259,7 +238,7 @@
       "incr_op_margin_yoy": 0.4312977099236641,
       "rev_growth_yoy": 0.09109874826147427,
       "rev_growth_yoy_accel": -0.06427377139408544,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12002786489861283
     },
     {
@@ -348,7 +327,7 @@
       "incr_op_margin_yoy": 1.9215686274509804,
       "rev_growth_yoy": -0.032504780114722756,
       "rev_growth_yoy_accel": 0.022906755854169014,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.37332885872672583
     },
     {
@@ -438,11 +417,45 @@
       "incr_op_margin_yoy": 1.6666666666666667,
       "rev_growth_yoy": 0.04743083003952569,
       "rev_growth_yoy_accel": -0.004713252293235888,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06010154761685049
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 319100000,
+      "gross_profit": 268000000,
+      "operating_income": 54200000,
+      "net_income": 34700000,
+      "opex": 213800000,
+      "cogs": null,
+      "rd": 42200000,
+      "sga": null,
+      "fcf": 143500000,
+      "ocf": 143500000,
+      "capex": null,
+      "gross_margin": 0.8398621121905359,
+      "op_margin": 0.1698527107489815,
+      "fcf_margin": 0.4497022876841116,
+      "incr_op_margin_yoy": 2.33,
+      "rev_growth_yoy": 0.03235198964736331,
+      "rev_growth_yoy_accel": -0.015078840392162375,
+      "fcf_margin_change": 0.1547337342249921
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +29.5% -> +45.0% (+15.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +233.0% vs year-ago OPM: +10.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -610,12 +623,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +13.5% vs OpEx growth +5.8% (leverage: 2.3x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +47.9% -> +60.7% (+12.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -643,7 +650,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:25:37.700219",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-13T11:39:54.149374"
 }

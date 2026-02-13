@@ -1,25 +1,9 @@
 {
   "ticker": "R",
   "name": "RYDER SYSTEM, INC.",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2212928000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 25628000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 277707000,
-      "fcf": 484411000,
-      "ocf": 484411000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.21890047936489573
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.2096265701365939,
-      "fcf_margin_change": -0.009273909228301846
+      "fcf_margin": 0.2096265701365939
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.1885001990350167,
-      "rev_growth_yoy": 0.17493429519622872,
       "fcf_margin_change": -0.03665106879250524
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.16328750303974054,
       "rev_growth_yoy": 0.2845848663724072,
-      "rev_growth_yoy_accel": 0.10965057117617849,
       "fcf_margin_change": -0.025212695995276146
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.000946969696969697,
       "rev_growth_yoy_accel": -0.0012529045959278518,
       "fcf_margin_change": -0.09642239332046387
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3175000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 132000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 347000000,
+      "fcf": 749000000,
+      "ocf": 749000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.23590551181102362,
+      "rev_growth_yoy": -0.004390090937597993,
+      "rev_growth_yoy_accel": -0.00533706063456769,
+      "fcf_margin_change": 0.09651730619765245
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +13.9% -> +23.6% (+9.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2024-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -443,12 +451,6 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: +3.4% vs prior quarter YoY: +18.8% (decel: -15.3%)",
       "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +28.5% vs prior quarter YoY: +17.5% (accel: +11.0%)",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-06 (Q2)",
@@ -485,5 +487,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:47:17.702465"
+  "last_updated": "2026-02-13T11:43:49.826726"
 }

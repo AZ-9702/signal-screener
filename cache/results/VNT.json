@@ -1,25 +1,9 @@
 {
   "ticker": "VNT",
-  "name": "Vontier Corporation",
+  "name": "VONTIER CORPORATION",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 815000000,
-      "gross_profit": 362700000,
-      "operating_income": 177800000,
-      "net_income": null,
-      "opex": 184900000,
-      "cogs": 452300000,
-      "rd": 32500000,
-      "sga": 152400000,
-      "fcf": 202300000,
-      "ocf": 210700000,
-      "capex": -8400000,
-      "gross_margin": 0.4450306748466258,
-      "op_margin": 0.218159509202454,
-      "fcf_margin": 0.24822085889570553
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -11000000,
       "gross_margin": 0.44076901328809726,
       "op_margin": 0.1878710771840543,
-      "fcf_margin": 0.2152954481198756,
-      "fcf_margin_change": -0.032925410775829916
+      "fcf_margin": 0.2152954481198756
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.45074821080026023,
       "op_margin": 0.21782693558880936,
       "fcf_margin": 0.14860117111255694,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08994812115395909
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.4510250569476082,
       "op_margin": 0.20361933687674005,
       "fcf_margin": 0.15730194887370286,
-      "incr_op_margin_yoy": 0.6814516129032258,
-      "rev_growth_yoy": -0.030429447852760735,
       "op_leverage_ratio": 0.3063267680053627,
       "fcf_margin_change": 0.008700777761145917
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.037962839192621306,
       "incr_op_margin_yoy": 0.04668304668304668,
       "rev_growth_yoy": 0.057534633870511734,
-      "rev_growth_yoy_accel": 0.08796408172327247,
       "fcf_margin_change": -0.11933910968108155
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": -0.882051282051282,
       "rev_growth_yoy": 0.025374105400130124,
       "rev_growth_yoy_accel": -0.04611361196117266,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10316703148986472
     },
     {
@@ -435,9 +415,37 @@
       "rev_growth_yoy": 0.0033333333333333335,
       "rev_growth_yoy_accel": -0.1073789010147425,
       "fcf_margin_change": 0.012307692307692297
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 808500000,
+      "gross_profit": null,
+      "operating_income": 152700000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": 43600000,
+      "sga": 160800000,
+      "fcf": 174800000,
+      "ocf": 190100000,
+      "capex": -15300000,
+      "gross_margin": null,
+      "op_margin": 0.1888682745825603,
+      "fcf_margin": 0.21620284477427335,
+      "incr_op_margin_yoy": 0.10725552050473186,
+      "rev_growth_yoy": 0.04080844490216272,
+      "rev_growth_yoy_accel": 0.037475111568829385,
+      "fcf_margin_change": 0.09620284477427335
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +12.0% -> +21.6% (+9.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -571,18 +579,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +5.8% vs prior quarter YoY: -3.0% (accel: +8.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +68.1% vs year-ago OPM: +21.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.9% -> +14.9% (+9.0%)",
@@ -597,7 +593,7 @@
         20
       ],
       "gross_profit": [
-        18,
+        17,
         20
       ],
       "op_income": [
@@ -614,5 +610,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:00:34.677280"
+  "last_updated": "2026-02-13T11:39:31.958330"
 }

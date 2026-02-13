@@ -1,25 +1,9 @@
 {
   "ticker": "NSIT",
   "name": "INSIGHT ENTERPRISES, INC.",
+  "sector": "Technology",
+  "industry": "Electronics & Computer Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2291315000,
-      "gross_profit": 342654000,
-      "operating_income": 83042000,
-      "net_income": 53388000,
-      "opex": 259612000,
-      "cogs": 1948661000,
-      "rd": null,
-      "sga": 257167000,
-      "fcf": -110008000,
-      "ocf": -106512000,
-      "capex": -3496000,
-      "gross_margin": 0.1495446937675527,
-      "op_margin": 0.03624207060137956,
-      "fcf_margin": -0.04801085839354257
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7847000,
       "gross_margin": 0.15114624808715463,
       "op_margin": 0.030561751847183946,
-      "fcf_margin": 0.01589508396456471,
-      "fcf_margin_change": 0.06390594235810729
+      "fcf_margin": 0.01589508396456471
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.14998111864157102,
       "op_margin": 0.03640536347491819,
       "fcf_margin": 0.10032295111930017,
-      "incr_op_margin_yoy": 0.03776737481252821,
-      "rev_growth_yoy": 0.11989097963396565,
       "op_leverage_ratio": 1.3564612203861153,
       "fcf_margin_change": 0.15513310392289206
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.11693758605730238,
       "incr_op_margin_yoy": 0.02801551830347196,
       "rev_growth_yoy": 0.20874044945254774,
-      "rev_growth_yoy_accel": 0.08884946981858209,
       "op_leverage_ratio": 1.272021466004972,
       "fcf_margin_change": -0.21726053717660254
     },
@@ -389,7 +369,7 @@
       "incr_op_margin_yoy": 0.14454080578699594,
       "rev_growth_yoy": -0.11596164716314665,
       "rev_growth_yoy_accel": -0.042909233735842406,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06311896502557572
     },
     {
@@ -435,6 +415,29 @@
       "rev_growth_yoy": -0.040251718724106586,
       "rev_growth_yoy_accel": -0.007785958582141747,
       "fcf_margin_change": 0.20848024290625256
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2048297000,
+      "gross_profit": 478428000,
+      "operating_income": 95221000,
+      "net_income": 51954000,
+      "opex": 383207000,
+      "cogs": 1569869000,
+      "rd": null,
+      "sga": 361412000,
+      "fcf": 146801000,
+      "ocf": 153770000,
+      "capex": -6969000,
+      "gross_margin": 0.2335735491483901,
+      "op_margin": 0.04648788725463153,
+      "fcf_margin": 0.07166978226302143,
+      "incr_op_margin_yoy": -1.2535702560735391,
+      "rev_growth_yoy": -0.01175684444905472,
+      "rev_growth_yoy_accel": 0.028494874275051867,
+      "op_leverage_ratio": 0.17983703684167057,
+      "fcf_margin_change": -0.04983911687837923
     }
   ],
   "signals": [
@@ -535,12 +538,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +20.9% vs prior quarter YoY: +12.0% (accel: +8.9%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -5.5% -> +10.0%",
@@ -551,12 +548,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.8% vs OpEx growth +1.1% (leverage: 8.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -4.8% -> +1.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -584,7 +575,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:27:40.144763",
-  "sector": "Technology",
-  "industry": "Electronics & Computer Distribution"
+  "last_updated": "2026-02-13T11:35:50.070072"
 }

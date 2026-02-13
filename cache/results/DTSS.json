@@ -1,25 +1,9 @@
 {
   "ticker": "DTSS",
   "name": "DATASEA INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 126184,
-      "gross_profit": 86070,
-      "operating_income": -980946,
-      "net_income": -964037,
-      "opex": 1067016,
-      "cogs": 40114,
-      "rd": 134509,
-      "sga": null,
-      "fcf": -936762,
-      "ocf": -936762,
-      "capex": null,
-      "gross_margin": 0.6820991567869144,
-      "op_margin": -7.773933303746909,
-      "fcf_margin": -7.423777975020605
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.4395567115232387,
       "op_margin": -71.61036978400995,
-      "fcf_margin": -68.73589279656225,
-      "fcf_margin_change": -61.31211482154165
+      "fcf_margin": -68.73589279656225
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.0949179104477612,
       "op_margin": -2.3490910447761193,
       "fcf_margin": -2.0895059701492538,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 37.81478431031714
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.027519441340782123,
       "op_margin": -0.20570469273743017,
       "fcf_margin": -0.27091094972067037,
-      "incr_op_margin_yoy": -0.09747608064356736,
-      "rev_growth_yoy": 69.9281683890192,
       "op_leverage_ratio": 44.98275979561591,
       "fcf_margin_change": 1.8185950204285835
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.07073393501805054,
       "incr_op_margin_yoy": 0.001503355296348596,
       "rev_growth_yoy": 312.24211240529235,
-      "rev_growth_yoy_accel": 242.31394401627313,
       "fcf_margin_change": 0.20017701470261984
     },
     {
@@ -208,7 +188,7 @@
       "incr_op_margin_yoy": -0.1027230331717179,
       "rev_growth_yoy": -0.6773146209386282,
       "rev_growth_yoy_accel": 0.27687532319545005,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 2.158359074525617
     },
     {
@@ -254,7 +234,7 @@
       "incr_op_margin_yoy": 0.10476244122651203,
       "rev_growth_yoy": 4.90974272205307,
       "rev_growth_yoy_accel": 4.010318564233264,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.7600068009584149
     },
     {
@@ -343,7 +323,7 @@
       "incr_op_margin_yoy": -0.08258767688207144,
       "rev_growth_yoy": 2.063781629396709,
       "rev_growth_yoy_accel": 1.874003192759752,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06771443651434604
     },
     {
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": 0.34208799018285163,
       "rev_growth_yoy": 3.520373292657942,
       "rev_growth_yoy_accel": -2.966227946242102,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.010805609215322119
     },
     {
@@ -434,6 +414,28 @@
       "rev_growth_yoy": -0.34474221309387454,
       "rev_growth_yoy_accel": -3.8651155057518167,
       "fcf_margin_change": 0.09357114611149865
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 12995014,
+      "gross_profit": 1192958,
+      "operating_income": -516576,
+      "net_income": -538759,
+      "opex": 1709534,
+      "cogs": 11802056,
+      "rd": 733243,
+      "sga": null,
+      "fcf": 661695,
+      "ocf": 661695,
+      "capex": null,
+      "gross_margin": 0.09180120929458022,
+      "op_margin": -0.03975186175251524,
+      "fcf_margin": 0.05091914483508829,
+      "incr_op_margin_yoy": -0.09673479070253665,
+      "rev_growth_yoy": -0.36474592504137093,
+      "rev_growth_yoy_accel": -0.020003711947496394,
+      "fcf_margin_change": -0.01273566774713622
     }
   ],
   "signals": [
@@ -588,12 +590,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31224.2% vs prior quarter YoY: +6992.8% (accel: +24231.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -209.0% -> -27.1% (+181.9%)",
@@ -643,7 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:10:25.439728",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-13T11:34:07.523216"
 }

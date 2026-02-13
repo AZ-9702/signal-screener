@@ -1,25 +1,9 @@
 {
   "ticker": "JNJ",
   "name": "Johnson & Johnson",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
   "quarters": [
-    {
-      "date": "2021-01-03T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 22475000000,
-      "gross_profit": 14661000000,
-      "operating_income": null,
-      "net_income": 1738000000,
-      "opex": null,
-      "cogs": 7814000000,
-      "rd": null,
-      "sga": 6457000000,
-      "fcf": 7020000000,
-      "ocf": 8343000000,
-      "capex": -1323000000,
-      "gross_margin": 0.6523248053392658,
-      "op_margin": null,
-      "fcf_margin": 0.31234705228031145
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -677000000,
       "gross_margin": 0.6835715245732719,
       "op_margin": null,
-      "fcf_margin": 0.15218852201962277,
-      "fcf_margin_change": -0.1601585302606887
+      "fcf_margin": 0.15218852201962277
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.6792855990969199,
       "op_margin": null,
       "fcf_margin": 0.17404450895016932,
-      "rev_growth_yoy": 0.10362625139043381,
       "fcf_margin_change": -0.14916227826381645
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.1439426278493981,
       "rev_growth_yoy": 0.04950495049504951,
-      "rev_growth_yoy_accel": -0.054121300895384306,
       "fcf_margin_change": -0.03010188110077122
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.06773174313559699,
       "rev_growth_yoy_accel": 0.009995742779201927,
       "fcf_margin_change": 0.21452711609952205
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 24564000000,
+      "gross_profit": 16596000000,
+      "operating_income": null,
+      "net_income": 5116000000,
+      "opex": null,
+      "cogs": 7968000000,
+      "rd": null,
+      "sga": 6753000000,
+      "fcf": 5472000000,
+      "ocf": 7309000000,
+      "capex": -1837000000,
+      "gross_margin": 0.6756228627259404,
+      "op_margin": null,
+      "fcf_margin": 0.22276502198339032,
+      "rev_growth_yoy": 0.09076376554174068,
+      "rev_growth_yoy_accel": 0.023032022406143687,
+      "fcf_margin_change": -0.11116570781280022
     }
   ],
   "signals": [
@@ -481,12 +483,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +5.0% vs prior quarter YoY: +10.4% (decel: -5.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.3% -> +32.3% (+13.0%)",
@@ -520,7 +516,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:04.667558",
-  "sector": "Healthcare",
-  "industry": "Drug Manufacturers - General"
+  "last_updated": "2026-02-13T11:42:28.917770"
 }

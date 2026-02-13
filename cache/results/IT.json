@@ -1,25 +1,9 @@
 {
   "ticker": "IT",
   "name": "GARTNER, INC.",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1112759000,
-      "gross_profit": 761331000,
-      "operating_income": 178130000,
-      "net_income": 119607000,
-      "opex": 934629000,
-      "cogs": 351428000,
-      "rd": null,
-      "sga": 525976000,
-      "fcf": 260448000,
-      "ocf": 260448000,
-      "capex": null,
-      "gross_margin": 0.6841831879140048,
-      "op_margin": 0.16007958596605373,
-      "fcf_margin": 0.23405607144044668
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.6970511884554699,
       "op_margin": 0.20417050862379738,
-      "fcf_margin": 0.1424751684271737,
-      "fcf_margin_change": -0.09158090301327299
+      "fcf_margin": 0.1424751684271737
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.6941131710916826,
       "op_margin": 0.1419281448768796,
       "fcf_margin": 0.17973043420348567,
-      "incr_op_margin_yoy": 0.03757930193631047,
-      "rev_growth_yoy": 0.17394961532551073,
       "op_leverage_ratio": 0.6166908988007508,
       "fcf_margin_change": -0.11867341537646109
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.13287375073253402,
       "incr_op_margin_yoy": -0.051448626986427395,
       "rev_growth_yoy": 0.14374686378548565,
-      "rev_growth_yoy_accel": -0.03020275154002508,
       "fcf_margin_change": -0.04685668347095165
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy": 0.026790971672956923,
       "rev_growth_yoy_accel": -0.030507186390062647,
       "fcf_margin_change": -0.03142177003778793
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1752570000,
+      "gross_profit": 1188375000,
+      "operating_income": 334239000,
+      "net_income": 242152000,
+      "opex": 1418331000,
+      "cogs": 572596000,
+      "rd": null,
+      "sga": 797878000,
+      "fcf": 294544000,
+      "ocf": 294544000,
+      "capex": null,
+      "gross_margin": 0.6780756260805559,
+      "op_margin": 0.19071363768636915,
+      "fcf_margin": 0.1680640430910035,
+      "incr_op_margin_yoy": 0.43908039838722596,
+      "rev_growth_yoy": 0.02183580264693004,
+      "rev_growth_yoy_accel": -0.004955169026026884,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.027952942983145213
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +43.9% vs year-ago OPM: +18.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -537,7 +546,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:21:41.073050",
-  "sector": "Technology",
-  "industry": "Information Technology Services"
+  "last_updated": "2026-02-13T11:35:00.175545"
 }

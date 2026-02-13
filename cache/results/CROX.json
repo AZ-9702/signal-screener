@@ -1,25 +1,9 @@
 {
   "ticker": "CROX",
   "name": "CROCS,\u00a0INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Footwear & Accessories",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 411506000,
-      "gross_profit": 229084000,
-      "operating_income": 64631000,
-      "net_income": 183330000,
-      "opex": 164453000,
-      "cogs": 182422000,
-      "rd": null,
-      "sga": 143382000,
-      "fcf": 99422000,
-      "ocf": 108262000,
-      "capex": -8840000,
-      "gross_margin": 0.5566966216774482,
-      "op_margin": 0.157059678352199,
-      "fcf_margin": 0.24160522568322212
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -7983000,
       "gross_margin": 0.5503588365956817,
       "op_margin": 0.2709987872148977,
-      "fcf_margin": 0.048178866241539844,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.1934263594416823
+      "fcf_margin": 0.048178866241539844
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6341757780937087,
       "op_margin": 0.2727257230330739,
       "fcf_margin": 0.3270260779440393,
-      "incr_op_margin_yoy": 0.544523755139333,
-      "rev_growth_yoy": 0.42555880108673994,
       "fcf_margin_change": 0.16986516734698123
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.1644343389664136,
       "incr_op_margin_yoy": -0.030037490627343164,
       "rev_growth_yoy": 0.4347986733261175,
-      "rev_growth_yoy_accel": 0.009239872239377556,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.49146041691045295
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": -0.06204010544153643,
       "rev_growth_yoy_accel": -0.09611201894236684,
       "fcf_margin_change": -0.007238206360991706
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 957640000,
+      "gross_profit": 523662000,
+      "operating_income": 146397000,
+      "net_income": 105165000,
+      "opex": 377265000,
+      "cogs": 433978000,
+      "rd": null,
+      "sga": 377265000,
+      "fcf": 246419000,
+      "ocf": 252530000,
+      "capex": -6111000,
+      "gross_margin": 0.5468255294265069,
+      "op_margin": 0.15287268702226306,
+      "fcf_margin": 0.2573190342926361,
+      "incr_op_margin_yoy": 1.6655152024398594,
+      "rev_growth_yoy": -0.0324650197570554,
+      "rev_growth_yoy_accel": 0.02957508568448103,
+      "fcf_margin_change": 0.030317355081233094
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +166.6% vs year-ago OPM: +20.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -565,22 +572,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +54.5% vs year-ago OPM: +15.7%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.8% -> +31.0% (+26.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +55.7% -> +55.0% -> +61.7% (reversal +6.6%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -608,7 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:08:23.660106",
-  "sector": "Consumer Cyclical",
-  "industry": "Footwear & Accessories"
+  "last_updated": "2026-02-13T11:34:03.454673"
 }

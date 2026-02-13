@@ -1,25 +1,9 @@
 {
   "ticker": "VREX",
   "name": "VAREX IMAGING CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 177100000,
-      "gross_profit": 57200000,
-      "operating_income": 6100000,
-      "net_income": -6400000,
-      "opex": 51100000,
-      "cogs": 119900000,
-      "rd": 16700000,
-      "sga": 34400000,
-      "fcf": 2700000,
-      "ocf": 7100000,
-      "capex": -4400000,
-      "gross_margin": 0.32298136645962733,
-      "op_margin": 0.034443817052512704,
-      "fcf_margin": 0.015245623941276116
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -3400000,
       "gross_margin": 0.3174447174447175,
       "op_margin": 0.07764127764127764,
-      "fcf_margin": 0.046191646191646195,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.03094602225037008
+      "fcf_margin": 0.046191646191646195
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.3508522727272727,
       "op_margin": 0.12168560606060606,
       "fcf_margin": 0.08238636363636363,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03619471744471744
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.32595573440643866,
       "op_margin": 0.07042253521126761,
       "fcf_margin": 0.03370221327967807,
-      "incr_op_margin_yoy": 0.3640552995391705,
-      "rev_growth_yoy": 0.1225296442687747,
       "fcf_margin_change": -0.17840560819623885
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": -0.05449464368886819,
       "incr_op_margin_yoy": 0.9642857142857143,
       "rev_growth_yoy": 0.055036855036855035,
-      "rev_growth_yoy_accel": -0.06749278923191968,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08819685696854626
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": -0.37254901960784315,
       "rev_growth_yoy": 0.022536456031816175,
       "rev_growth_yoy_accel": 0.0069114560318161745,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06278253581624368
     },
     {
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": 0.06779661016949153,
       "rev_growth_yoy": 0.08251748251748252,
       "rev_growth_yoy_accel": 0.019639047491865375,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04918015461602279
     },
     {
@@ -324,7 +303,7 @@
       "incr_op_margin_yoy": 0.645021645021645,
       "rev_growth_yoy": -0.09948320413436693,
       "rev_growth_yoy_accel": -0.0030765433105281875,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02887600593926861
     },
     {
@@ -391,7 +370,7 @@
       "incr_op_margin_yoy": 2.1492537313432836,
       "rev_growth_yoy": 0.03249272550921436,
       "rev_growth_yoy_accel": -0.019086221859206692,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.019504473943177558
     },
     {
@@ -436,11 +415,45 @@
       "incr_op_margin_yoy": 0.375,
       "rev_growth_yoy": 0.11278561011181332,
       "rev_growth_yoy_accel": 0.14195825477943647,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0031515041954776214
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 209600000,
+      "gross_profit": 69800000,
+      "operating_income": 15400000,
+      "net_income": 2300000,
+      "opex": 54400000,
+      "cogs": 139800000,
+      "rd": 21700000,
+      "sga": 32700000,
+      "fcf": -26800000,
+      "ocf": -16100000,
+      "capex": -10700000,
+      "gross_margin": 0.3330152671755725,
+      "op_margin": 0.07347328244274809,
+      "fcf_margin": -0.12786259541984732,
+      "incr_op_margin_yoy": 0.42857142857142855,
+      "rev_growth_yoy": 0.04904904904904905,
+      "rev_growth_yoy_accel": -0.06373656106276426,
+      "fcf_margin_change": -0.13791065133946287
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.9% vs prior quarter YoY: +11.3% (decel: -6.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +42.9% vs year-ago OPM: +5.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -545,20 +558,8 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +5.5% vs prior quarter YoY: +12.3% (decel: -6.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +96.4% vs year-ago OPM: +7.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +36.4% vs year-ago OPM: +3.4%",
       "severity": "HIGH"
     },
     {
@@ -571,12 +572,6 @@
       "quarter": "2021-10 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +7.1% vs OpEx growth +1.4% (leverage: 4.9x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-07 (Q3)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +32.3% -> +31.7% -> +35.1% (reversal +3.3%)",
       "severity": "MEDIUM"
     }
   ],
@@ -605,5 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:19:32.009335"
+  "last_updated": "2026-02-13T11:47:53.378858"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "AMTM",
   "name": "Amentum Holdings, Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
     {
       "date": "2023-12-29T00:00:00",
@@ -170,9 +172,37 @@
       "rev_growth_yoy_accel": 0.11194731056979756,
       "op_leverage_ratio": 1.5934056857789451,
       "fcf_margin_change": 0.038414815848264186
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 3237000000,
+      "gross_profit": 326000000,
+      "operating_income": 138000000,
+      "net_income": 44000000,
+      "opex": 188000000,
+      "cogs": 2911000000,
+      "rd": null,
+      "sga": 115000000,
+      "fcf": -142000000,
+      "ocf": -136000000,
+      "capex": -6000000,
+      "gross_margin": 0.1007105344454742,
+      "op_margin": 0.042632066728452274,
+      "fcf_margin": -0.043867778807537845,
+      "incr_op_margin_yoy": -0.0335195530726257,
+      "rev_growth_yoy": -0.052400468384074944,
+      "rev_growth_yoy_accel": -0.8268127649482703,
+      "fcf_margin_change": -0.11036459409416205
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -5.2% vs prior quarter YoY: +77.4% (decel: -82.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "OPERATING LEVERAGE",
@@ -211,23 +241,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 8,
+    "n_quarters": 9,
     "coverage": {
       "revenue": [
-        8,
-        8
+        9,
+        9
       ],
       "gross_profit": [
-        8,
-        8
+        9,
+        9
       ],
       "op_income": [
-        8,
-        8
+        9,
+        9
       ],
       "fcf": [
-        8,
-        8
+        9,
+        9
       ]
     },
     "gaps": [],
@@ -235,7 +265,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:43:16.966643",
-  "sector": "Industrials",
-  "industry": "Specialty Business Services"
+  "last_updated": "2026-02-13T11:45:16.561031"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ZTS",
   "name": "Zoetis Inc.",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1807000000,
-      "gross_profit": 1206000000,
-      "operating_income": null,
-      "net_income": 359000000,
-      "opex": null,
-      "cogs": 601000000,
-      "rd": null,
-      "sga": 520000000,
-      "fcf": 566000000,
-      "ocf": 718000000,
-      "capex": -152000000,
-      "gross_margin": 0.667404537908135,
-      "op_margin": null,
-      "fcf_margin": 0.31322634200332045
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -77000000,
       "gross_margin": 0.706574024585783,
       "op_margin": null,
-      "fcf_margin": 0.1726349545697488,
-      "fcf_margin_change": -0.14059138743357164
+      "fcf_margin": 0.1726349545697488
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.6949669547534316,
       "op_margin": null,
       "fcf_margin": 0.2597864768683274,
-      "rev_growth_yoy": 0.08854454897620365,
       "fcf_margin_change": -0.008555231674386155
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.09768378650553877,
       "rev_growth_yoy": 0.06146445750935329,
-      "rev_growth_yoy_accel": -0.027080091466850358,
       "fcf_margin_change": -0.16210269036278863
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.005025125628140704,
       "rev_growth_yoy_accel": -0.036906259378212534,
       "fcf_margin_change": 0.2102134146341463
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2387000000,
+      "gross_profit": 1675000000,
+      "operating_income": null,
+      "net_income": 603000000,
+      "opex": null,
+      "cogs": 712000000,
+      "rd": null,
+      "sga": 619000000,
+      "fcf": 732000000,
+      "ocf": 893000000,
+      "capex": -161000000,
+      "gross_margin": 0.7017176372015081,
+      "op_margin": null,
+      "fcf_margin": 0.30666108085462923,
+      "rev_growth_yoy": 0.030211480362537766,
+      "rev_growth_yoy_accel": 0.02518635473439706,
+      "fcf_margin_change": -0.02875558581203741
     }
   ],
   "signals": [
@@ -508,5 +510,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:58:29.305160"
+  "last_updated": "2026-02-13T11:39:50.947641"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "DAL",
   "name": "DELTA AIR LINES, INC.",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3973000000,
-      "gross_profit": null,
-      "operating_income": -858000000,
-      "net_income": -755000000,
-      "opex": 4831000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -1286000000,
-      "ocf": -1286000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.21595771457337026,
-      "fcf_margin": -0.32368487289202114
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.3368674698795181,
-      "fcf_margin": 0.16650602409638554,
-      "op_leverage_ratio": 0.3001736617566061,
-      "fcf_margin_change": 0.4901908969884067
+      "fcf_margin": 0.16650602409638554
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.027771911298838436,
       "fcf_margin": 0.058711721224920806,
-      "incr_op_margin_yoy": 0.20392941604511552,
-      "rev_growth_yoy": 1.383589227284168,
       "op_leverage_ratio": 0.10623669431224361,
       "fcf_margin_change": 0.04221620014124154
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.1894522892597347,
       "incr_op_margin_yoy": 0.11831473643709119,
       "rev_growth_yoy": 1.2525301204819277,
-      "rev_growth_yoy_accel": -0.13105910680224042,
       "fcf_margin_change": 0.1307405680348139
     },
     {
@@ -436,6 +415,28 @@
       "rev_growth_yoy": 0.0635325636282452,
       "rev_growth_yoy_accel": 0.06413287579056962,
       "fcf_margin_change": -0.0007670259256312012
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 16003000000,
+      "gross_profit": null,
+      "operating_income": 1467000000,
+      "net_income": 1219000000,
+      "opex": 14536000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2260000000,
+      "ocf": 2260000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.0916703118165344,
+      "fcf_margin": 0.1412235205898894,
+      "incr_op_margin_yoy": -0.5630630630630631,
+      "rev_growth_yoy": 0.028536538337939458,
+      "rev_growth_yoy_accel": -0.03499602529030575,
+      "fcf_margin_change": 0.03044561619356001
     }
   ],
   "signals": [
@@ -590,18 +591,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +125.3% vs prior quarter YoY: +138.4% (decel: -13.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -21.6% (year-ago) -> +2.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +28.5% vs OpEx growth +10.1% (leverage: 2.8x)",
@@ -623,12 +612,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -33.7% -> +11.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -32.4% -> +16.7%",
       "severity": "HIGH"
     }
   ],
@@ -659,7 +642,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:03.377719",
-  "sector": "Industrials",
-  "industry": "Airlines"
+  "last_updated": "2026-02-13T11:41:23.119180"
 }

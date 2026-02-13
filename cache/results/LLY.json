@@ -1,25 +1,9 @@
 {
   "ticker": "LLY",
   "name": "ELI LILLY AND COMPANY",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 7440000000,
-      "gross_profit": 5720200000,
-      "operating_income": null,
-      "net_income": 2116800000,
-      "opex": null,
-      "cogs": 1719800000,
-      "rd": 1838000000,
-      "sga": 1553900000,
-      "fcf": 1815200000,
-      "ocf": 1815200000,
-      "capex": null,
-      "gross_margin": 0.7688440860215053,
-      "op_margin": null,
-      "fcf_margin": 0.24397849462365592
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.7239626190196309,
       "op_margin": null,
-      "fcf_margin": 0.24941224873633477,
-      "fcf_margin_change": 0.005433754112678851
+      "fcf_margin": 0.24941224873633477
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.7437217965224565,
       "op_margin": null,
       "fcf_margin": 0.2827160339504244,
-      "rev_growth_yoy": 0.07525537634408602,
       "fcf_margin_change": 0.04185553312358761
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.3230473751600512,
       "rev_growth_yoy": 0.14758434230633596,
-      "rev_growth_yoy_accel": 0.07232896596224994,
       "fcf_margin_change": 0.040331341209626836
     },
     {
@@ -255,15 +236,15 @@
       "cogs": 1788000000,
       "rd": null,
       "sga": 1924600000,
-      "fcf": -311900000,
-      "ocf": -311900000,
+      "fcf": -312000000,
+      "ocf": -312000000,
       "capex": null,
       "gross_margin": 0.8088395663608955,
       "op_margin": null,
-      "fcf_margin": -0.03334616289263797,
+      "fcf_margin": -0.0333568541920585,
       "rev_growth_yoy": 0.2809718151688625,
       "rev_growth_yoy_accel": -0.08738706462830242,
-      "fcf_margin_change": -0.26385381665213936
+      "fcf_margin_change": -0.2638645079515599
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -284,7 +265,7 @@
       "fcf_margin": 0.13298357664233576,
       "rev_growth_yoy": 0.2597701149425287,
       "rev_growth_yoy_accel": -0.021201700226333775,
-      "fcf_margin_change": 0.16632973953497374
+      "fcf_margin_change": 0.16634043083439426
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -339,15 +320,15 @@
       "cogs": 2403800000,
       "rd": null,
       "sga": 2424500000,
-      "fcf": 2473800000,
-      "ocf": 2473800000,
+      "fcf": 2473900000,
+      "ocf": 2473900000,
       "capex": null,
       "gross_margin": 0.8223723102388272,
       "op_margin": null,
-      "fcf_margin": 0.1828003074012769,
+      "fcf_margin": 0.18280769685504847,
       "rev_growth_yoy": 0.4468321679816965,
       "rev_growth_yoy_accel": 0.24253890371117243,
-      "fcf_margin_change": -0.14169200405679233
+      "fcf_margin_change": -0.14168461460302076
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -368,7 +349,7 @@
       "fcf_margin": 0.13085595317594376,
       "rev_growth_yoy": 0.4516993613138686,
       "rev_growth_yoy_accel": 0.004867193332172115,
-      "fcf_margin_change": -0.05194435422533314
+      "fcf_margin_change": -0.05195174367910471
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.5386525163692948,
       "rev_growth_yoy_accel": 0.16220597215016325,
       "fcf_margin_change": 0.3036007354392133
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19292000000,
+      "gross_profit": 15920300000,
+      "operating_income": null,
+      "net_income": 6637700000,
+      "opex": null,
+      "cogs": 3371700000,
+      "rd": null,
+      "sga": 3131400000,
+      "fcf": 3224600000,
+      "ocf": 3224600000,
+      "capex": null,
+      "gross_margin": 0.8252280738129795,
+      "op_margin": null,
+      "fcf_margin": 0.16714700393945678,
+      "rev_growth_yoy": 0.4255734216126744,
+      "rev_growth_yoy_accel": -0.11307909475662037,
+      "fcf_margin_change": -0.33486994983537166
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +42.6% vs prior quarter YoY: +53.9% (decel: -11.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -523,12 +531,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +14.8% vs prior quarter YoY: +7.5% (accel: +7.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +72.4% -> +71.0% -> +78.9% (reversal +7.9%)",
@@ -562,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:02.409529",
-  "sector": "Healthcare",
-  "industry": "Drug Manufacturers - General"
+  "last_updated": "2026-02-13T11:34:28.342241"
 }

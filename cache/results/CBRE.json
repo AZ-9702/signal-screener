@@ -1,25 +1,9 @@
 {
   "ticker": "CBRE",
   "name": "CBRE GROUP, INC.",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6910501000,
-      "gross_profit": 1539671000,
-      "operating_income": 443896000,
-      "net_income": 313765000,
-      "opex": 1095775000,
-      "cogs": 5370830000,
-      "rd": null,
-      "sga": null,
-      "fcf": 864392000,
-      "ocf": 940421000,
-      "capex": -76029000,
-      "gross_margin": 0.2228016463639901,
-      "op_margin": 0.06423499540771356,
-      "fcf_margin": 0.12508383979685408
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -29597000,
       "gross_margin": 0.2053136627299529,
       "op_margin": 0.045308887417979046,
-      "fcf_margin": -0.037556751029950264,
-      "fcf_margin_change": -0.16264059082680435
+      "fcf_margin": -0.037556751029950264
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.2299312403416194,
       "op_margin": 0.06926561045175812,
       "fcf_margin": 0.12577891297963548,
-      "incr_op_margin_yoy": 0.0904668857289921,
-      "rev_growth_yoy": 0.2372788890414747,
       "op_leverage_ratio": 1.193065462661536,
       "fcf_margin_change": -0.010657301400755465
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.05939819714703516,
       "incr_op_margin_yoy": 0.07737720346557594,
       "rev_growth_yoy": 0.23473352462644886,
-      "rev_growth_yoy_accel": -0.0025453644150258414,
       "fcf_margin_change": -0.18517711012667065
     },
     {
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.11461797183592158,
       "rev_growth_yoy": 0.20324255378050984,
       "rev_growth_yoy_accel": -0.03149097084593902,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1108385136561087
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 4.094291549158806,
       "rev_growth_yoy": -0.006616028920854459,
       "rev_growth_yoy_accel": -0.01727765640333657,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09755410785838134
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": -0.30994091580502214,
       "rev_growth_yoy": 0.04495622976471623,
       "rev_growth_yoy_accel": 0.051572258685570686,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05978276582406267
     },
     {
@@ -440,9 +420,38 @@
       "rev_growth_yoy_accel": -0.027199112816599952,
       "op_leverage_ratio": 2.122944433053106,
       "fcf_margin_change": 0.07477624749176795
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11629000000,
+      "gross_profit": 2156000000,
+      "operating_income": 622000000,
+      "net_income": 416000000,
+      "opex": 1534000000,
+      "cogs": 9473000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 1221000000,
+      "ocf": 1221000000,
+      "capex": null,
+      "gross_margin": 0.1853985725341818,
+      "op_margin": 0.053486972224610886,
+      "fcf_margin": 0.1049961303637458,
+      "incr_op_margin_yoy": 0.022857142857142857,
+      "rev_growth_yoy": 0.11774317570165321,
+      "rev_growth_yoy_accel": -0.017493654754300758,
+      "op_leverage_ratio": 3.227361931031838,
+      "fcf_margin_change": 0.02437612646435021
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +13.4% vs OpEx growth +4.1% (leverage: 3.2x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -607,7 +616,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:48.540691",
-  "sector": "Real Estate",
-  "industry": "Real Estate Services"
+  "last_updated": "2026-02-13T11:33:12.225403"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "NWE",
-  "name": "NORTHWESTERN ENERGY GROUP, INC.",
+  "name": "NorthWestern Energy Group, Inc.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
     {
       "date": "2022-09-30T00:00:00",
@@ -120,7 +122,7 @@
       "incr_op_margin_yoy": -0.28777030343274534,
       "rev_growth_yoy": -0.1628891820270267,
       "rev_growth_yoy_accel": -0.12117227680181869,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2395109757790186
     },
     {
@@ -281,6 +283,29 @@
       "rev_growth_yoy_accel": 0.049861029806439416,
       "op_leverage_ratio": 1.470758902181675,
       "fcf_margin_change": 0.1366634302029415
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 414265000,
+      "gross_profit": null,
+      "operating_income": 60024000,
+      "net_income": 44691000,
+      "opex": 354240000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -93742000,
+      "ocf": 56181000,
+      "capex": -149923000,
+      "gross_margin": null,
+      "op_margin": 0.14489276187947328,
+      "fcf_margin": -0.2262851073588162,
+      "incr_op_margin_yoy": -0.7762935366062894,
+      "rev_growth_yoy": 0.10924421500216887,
+      "rev_growth_yoy_accel": -0.011832615810118727,
+      "op_leverage_ratio": 0.45505196768260053,
+      "fcf_margin_change": -0.1568139584824698
     }
   ],
   "signals": [
@@ -370,23 +395,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 13,
+    "n_quarters": 14,
     "coverage": {
       "revenue": [
-        13,
-        13
+        14,
+        14
       ],
       "gross_profit": [
         0,
-        13
+        14
       ],
       "op_income": [
-        13,
-        13
+        14,
+        14
       ],
       "fcf": [
-        12,
-        13
+        13,
+        14
       ]
     },
     "gaps": [],
@@ -396,7 +421,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:12:02.273956",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-13T11:37:39.756907"
 }

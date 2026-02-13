@@ -1,25 +1,9 @@
 {
   "ticker": "ARKR",
   "name": "ARK RESTAURANTS CORP.",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 20299000,
-      "gross_profit": null,
-      "operating_income": -3307000,
-      "net_income": -763000,
-      "opex": 23606000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -3579000,
-      "ocf": -2985000,
-      "capex": -594000,
-      "gross_margin": null,
-      "op_margin": -0.16291442928223066,
-      "fcf_margin": -0.17631410414306123
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -509000,
       "gross_margin": null,
       "op_margin": -0.058097566655023865,
-      "fcf_margin": 0.032289362362711994,
-      "op_leverage_ratio": 1.7383313557450077,
-      "fcf_margin_change": 0.20860346650577322
+      "fcf_margin": 0.032289362362711994
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.0634520074569181,
       "fcf_margin": 0.07736552539444369,
-      "incr_op_margin_yoy": 0.2574407903069194,
-      "rev_growth_yoy": 1.1669047736341691,
       "op_leverage_ratio": 0.232506584032343,
       "fcf_margin_change": 0.026990866788967373
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.010458242813115748,
       "incr_op_margin_yoy": 0.12475577103987263,
       "rev_growth_yoy": 0.5363061279931696,
-      "rev_growth_yoy_accel": -0.6305986456409995,
       "fcf_margin_change": -0.06690728258132794
     },
     {
@@ -188,7 +167,7 @@
       "incr_op_margin_yoy": -0.16999132697311362,
       "rev_growth_yoy": 0.07863865775474015,
       "rev_growth_yoy_accel": -0.015807991326704338,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1125079377452626
     },
     {
@@ -277,7 +256,7 @@
       "fcf_margin": 0.005938467370017057,
       "rev_growth_yoy": 0.0008852355358836548,
       "rev_growth_yoy_accel": 0.05388726177028698,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.011493965062415373
     },
     {
@@ -364,7 +343,7 @@
       "incr_op_margin_yoy": -1.6350540216086435,
       "rev_growth_yoy": -0.05262492892791711,
       "rev_growth_yoy_accel": -0.030237541540529725,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0328405964086545
     },
     {
@@ -433,9 +412,50 @@
       "rev_growth_yoy": -0.14014191586416624,
       "rev_growth_yoy_accel": -0.007571870622480409,
       "fcf_margin_change": -0.05351430424178277
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 40749000,
+      "gross_profit": null,
+      "operating_income": 1093000,
+      "net_income": 896000,
+      "opex": 39656000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1797000,
+      "ocf": -550000,
+      "capex": -1247000,
+      "gross_margin": null,
+      "op_margin": 0.026822744116420036,
+      "fcf_margin": -0.0440992416991828,
+      "incr_op_margin_yoy": 1.084217975937721,
+      "rev_growth_yoy": -0.09422512670045345,
+      "rev_growth_yoy_accel": 0.04591678916371279,
+      "op_leverage_ratio": 5.865905075228401,
+      "fcf_margin_change": -0.017600835890432164
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +9.2% vs OpEx growth +1.6% (leverage: 5.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +108.4% vs year-ago OPM: +12.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -4.6% -> +2.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -534,20 +554,8 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +53.6% vs prior quarter YoY: +116.7% (decel: -63.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -5.8% (year-ago) -> +0.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-01 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -16.3% (year-ago) -> +6.3%",
       "severity": "HIGH"
     },
     {
@@ -567,18 +575,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -5.8% -> +11.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -17.6% -> +3.2%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +26.9% vs OpEx growth +15.5% (leverage: 1.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -608,7 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:56:04.843790",
-  "sector": "Consumer Cyclical",
-  "industry": "Restaurants"
+  "last_updated": "2026-02-13T11:45:13.569220"
 }

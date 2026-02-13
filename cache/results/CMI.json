@@ -1,25 +1,9 @@
 {
   "ticker": "CMI",
   "name": "CUMMINS INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5830000000,
-      "gross_profit": 1361000000,
-      "operating_income": 629000000,
-      "net_income": null,
-      "opex": 732000000,
-      "cogs": 4469000000,
-      "rd": 255000000,
-      "sga": 576000000,
-      "fcf": 882000000,
-      "ocf": 1142000000,
-      "capex": -260000000,
-      "gross_margin": 0.23344768439108063,
-      "op_margin": 0.1078902229845626,
-      "fcf_margin": 0.15128644939965694
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -87000000,
       "gross_margin": 0.24392646093237033,
       "op_margin": 0.1329612606697308,
-      "fcf_margin": 0.04136572554169402,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10992072385796292
+      "fcf_margin": 0.04136572554169402
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.22512820512820514,
       "op_margin": 0.08461538461538462,
       "fcf_margin": 0.06153846153846154,
-      "incr_op_margin_yoy": -6.7,
-      "rev_growth_yoy": 0.003430531732418525,
       "fcf_margin_change": -0.008669313260466077
     },
     {
@@ -118,7 +98,6 @@
       "fcf_margin": 0.009397024275646046,
       "incr_op_margin_yoy": -0.7030716723549488,
       "rev_growth_yoy": 0.04809586342744583,
-      "rev_growth_yoy_accel": 0.04466533169502731,
       "op_leverage_ratio": 0.7091920657958393,
       "fcf_margin_change": -0.0521414372628155
     },
@@ -142,7 +121,7 @@
       "incr_op_margin_yoy": 0.3410526315789474,
       "rev_growth_yoy": 0.07772868597610866,
       "rev_growth_yoy_accel": 0.029632822548662827,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.059233403905343936
     },
     {
@@ -188,7 +167,7 @@
       "incr_op_margin_yoy": 0.15989583333333332,
       "rev_growth_yoy": 0.3282051282051282,
       "rev_growth_yoy_accel": 0.09948528906303705,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.021013275261195622
     },
     {
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.20406189555125726,
       "rev_growth_yoy": 0.32388410336726703,
       "rev_growth_yoy_accel": -0.004321024837861176,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.009832884717541054
     },
     {
@@ -437,9 +416,38 @@
       "rev_growth_yoy": -0.01643803216650899,
       "rev_growth_yoy_accel": 0.0009562379562740933,
       "fcf_margin_change": 0.05697919744984098
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8536000000,
+      "gross_profit": 1951000000,
+      "operating_income": 813000000,
+      "net_income": null,
+      "opex": 1138000000,
+      "cogs": 6585000000,
+      "rd": 350000000,
+      "sga": 786000000,
+      "fcf": 990000000,
+      "ocf": 1534000000,
+      "capex": -544000000,
+      "gross_margin": 0.2285613870665417,
+      "op_margin": 0.09524367385192127,
+      "fcf_margin": 0.11597938144329897,
+      "incr_op_margin_yoy": 0.9101123595505618,
+      "rev_growth_yoy": 0.010536285071623061,
+      "rev_growth_yoy_accel": 0.02697431723813205,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.005097930087301
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +91.0% vs year-ago OPM: +8.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -610,7 +618,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:53:25.692271",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-13T11:45:44.847050"
 }

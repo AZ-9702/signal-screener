@@ -1,25 +1,9 @@
 {
   "ticker": "MSA",
-  "name": "MSA SAFETY INC",
+  "name": "MSA SAFETY INCORPORATED",
+  "sector": "Industrials",
+  "industry": "Security & Protection Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 388248000,
-      "gross_profit": 159272000,
-      "operating_income": 18638000,
-      "net_income": 14778000,
-      "opex": 140634000,
-      "cogs": 228976000,
-      "rd": 16545000,
-      "sga": 76268000,
-      "fcf": 80193000,
-      "ocf": 96400000,
-      "capex": -16207000,
-      "gross_margin": 0.4102326348107395,
-      "op_margin": 0.048005398611196966,
-      "fcf_margin": 0.20655096742288434
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -9582000,
       "gross_margin": 0.4368604666243013,
       "op_margin": 0.14278210797982024,
-      "fcf_margin": 0.11683115670431997,
-      "fcf_margin_change": -0.08971981071856437
+      "fcf_margin": 0.11683115670431997
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.4341649848391783,
       "op_margin": -0.2078373160958203,
       "fcf_margin": 0.13680813517018145,
-      "incr_op_margin_yoy": -4.718755676657584,
-      "rev_growth_yoy": 0.05671632564752426,
       "op_leverage_ratio": 0.1647101965889419,
       "fcf_margin_change": 0.03229810127805424
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.05003749712723622,
       "incr_op_margin_yoy": -0.06153431548688466,
       "rev_growth_yoy": 0.07218540469736859,
-      "rev_growth_yoy_accel": 0.015469079049844327,
       "fcf_margin_change": -0.08677063804294523
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 0.44637665697596884,
       "rev_growth_yoy": 0.20140580640482605,
       "rev_growth_yoy_accel": -0.002923297413832987,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.9293487675967442
     },
     {
@@ -437,9 +417,44 @@
       "rev_growth_yoy": 0.08266174230780787,
       "rev_growth_yoy_accel": 0.05746405081681292,
       "fcf_margin_change": 0.13458386448037776
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 510913000,
+      "gross_profit": 239392000,
+      "operating_income": 113885000,
+      "net_income": 86933000,
+      "opex": 125507000,
+      "cogs": 271522000,
+      "rd": 16157000,
+      "sga": 105359000,
+      "fcf": 106020000,
+      "ocf": 122354000,
+      "capex": -16334000,
+      "gross_margin": 0.46855726904580625,
+      "op_margin": 0.222904878129936,
+      "fcf_margin": 0.20751086779941008,
+      "incr_op_margin_yoy": -0.33511634126771866,
+      "rev_growth_yoy": 0.022447648170087414,
+      "rev_growth_yoy_accel": -0.060214094137720456,
+      "op_leverage_ratio": 5.078873172514384,
+      "fcf_margin_change": -0.006977492627107451
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +9.1% vs OpEx growth +1.8% (leverage: 5.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +2.2% vs prior quarter YoY: +8.3% (decel: -6.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -610,7 +625,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:50:50.758087",
-  "sector": "Industrials",
-  "industry": "Security & Protection Services"
+  "last_updated": "2026-02-13T11:37:00.433371"
 }

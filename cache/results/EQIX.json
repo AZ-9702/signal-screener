@@ -1,25 +1,9 @@
 {
   "ticker": "EQIX",
   "name": "EQUINIX, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1564115000,
-      "gross_profit": 733380000,
-      "operating_income": 228606000,
-      "net_income": 50994000,
-      "opex": 1335509000,
-      "cogs": 830735000,
-      "rd": null,
-      "sga": null,
-      "fcf": 686148000,
-      "ocf": 686148000,
-      "capex": null,
-      "gross_margin": 0.468878567113032,
-      "op_margin": 0.14615677236008862,
-      "fcf_margin": 0.43868129900934394
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.49173905307055354,
       "op_margin": 0.18649753393347634,
-      "fcf_margin": 0.24507663853078573,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.1936046604785582
+      "fcf_margin": 0.24507663853078573
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.46645174750260493,
       "op_margin": 0.1463479955789397,
       "fcf_margin": 0.5228062012051257,
-      "incr_op_margin_yoy": 0.14845040523537392,
-      "rev_growth_yoy": 0.09095430962557101,
       "op_leverage_ratio": 0.40798744169073436,
       "fcf_margin_change": 0.12598461350329615
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.33504800089019726,
       "incr_op_margin_yoy": -0.2192899416835883,
       "rev_growth_yoy": 0.08670266355233876,
-      "rev_growth_yoy_accel": -0.004251646073232251,
       "op_leverage_ratio": 2.286806462311008,
       "fcf_margin_change": -0.1877582003149284
     },
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.21414795957725835,
       "rev_growth_yoy": 0.1197239684265255,
       "rev_growth_yoy_accel": 0.008971660146654889,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.013756504254889668
     },
     {
@@ -328,7 +307,7 @@
       "incr_op_margin_yoy": 0.7369836121543188,
       "rev_growth_yoy": 0.06965489633414057,
       "rev_growth_yoy_accel": 0.005201678477549987,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14127063039380094
     },
     {
@@ -419,7 +398,7 @@
       "incr_op_margin_yoy": 0.5979381443298969,
       "rev_growth_yoy": 0.04492820750347383,
       "rev_growth_yoy_accel": -0.0011460755242647669,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05484421069407919
     },
     {
@@ -444,9 +423,38 @@
       "rev_growth_yoy_accel": 0.007320770233918264,
       "op_leverage_ratio": 0.5857712765957447,
       "fcf_margin_change": 0.019384117884834462
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2420000000,
+      "gross_profit": 1222000000,
+      "operating_income": 422000000,
+      "net_income": 265000000,
+      "opex": 1998000000,
+      "cogs": 1198000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 1144000000,
+      "ocf": 1144000000,
+      "capex": null,
+      "gross_margin": 0.5049586776859504,
+      "op_margin": 0.1743801652892562,
+      "fcf_margin": 0.4727272727272727,
+      "incr_op_margin_yoy": 2.006289308176101,
+      "rev_growth_yoy": 0.07032286598850067,
+      "rev_growth_yoy_accel": 0.018073888251108575,
+      "op_leverage_ratio": 0.530224525043178,
+      "fcf_margin_change": 0.034903438530381525
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +200.6% vs year-ago OPM: +4.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -605,7 +613,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:53:33.447164",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-13T11:41:38.722308"
 }

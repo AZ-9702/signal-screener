@@ -1,25 +1,9 @@
 {
   "ticker": "GEOS",
   "name": "GEOSPACE TECHNOLOGIES CORP",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 28460000,
-      "gross_profit": 6725000,
-      "operating_income": -1459000,
-      "net_income": -1050000,
-      "opex": 8184000,
-      "cogs": 21735000,
-      "rd": 3520000,
-      "sga": 5354000,
-      "fcf": 1713000,
-      "ocf": 2310000,
-      "capex": -597000,
-      "gross_margin": 0.23629655657062543,
-      "op_margin": -0.051264933239634575,
-      "fcf_margin": 0.060189739985945186
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1076000,
       "gross_margin": 0.035451197053407,
       "op_margin": -0.34220659635024275,
-      "fcf_margin": -0.3063368491545287,
-      "fcf_margin_change": -0.36652658914047387
+      "fcf_margin": -0.3063368491545287
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.09460285698404758,
       "op_margin": -0.3827469290200656,
       "fcf_margin": -0.41526318714913013,
-      "incr_op_margin_yoy": 0.518387620594135,
-      "rev_growth_yoy": -0.36784961349262124,
       "fcf_margin_change": -0.39498422271452205
     },
     {
@@ -116,8 +97,7 @@
       "op_margin": -0.06676113360323886,
       "fcf_margin": -0.13643724696356274,
       "rev_growth_yoy": 0.03381885149840951,
-      "rev_growth_yoy_accel": 0.40166846499103076,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2788259401855674
     },
     {
@@ -185,7 +165,7 @@
       "incr_op_margin_yoy": 0.5036590943741424,
       "rev_growth_yoy": 0.7291423489522539,
       "rev_growth_yoy_accel": 0.3975761335011242,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2819528034173077
     },
     {
@@ -275,7 +255,7 @@
       "incr_op_margin_yoy": 0.6931247687998732,
       "rev_growth_yoy": 0.6082805618952715,
       "rev_growth_yoy_accel": 0.4751585333691225,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.31487506259681336
     },
     {
@@ -366,7 +346,7 @@
       "incr_op_margin_yoy": 0.39050667499414476,
       "rev_growth_yoy": -0.2560161496642149,
       "rev_growth_yoy_accel": -0.4648853292651018,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3433232491957672
     },
     {
@@ -411,7 +391,7 @@
       "incr_op_margin_yoy": -2.721182266009852,
       "rev_growth_yoy": -0.039252842447211694,
       "rev_growth_yoy_accel": 0.2181431196459074,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07472537478213986
     },
     {
@@ -436,9 +416,37 @@
       "rev_growth_yoy_accel": -0.09405039136959512,
       "op_leverage_ratio": 3.157954676456583,
       "fcf_margin_change": 0.04426150984974073
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 25586000,
+      "gross_profit": 2696000,
+      "operating_income": -10247000,
+      "net_income": -9765000,
+      "opex": 12943000,
+      "cogs": 22890000,
+      "rd": 4489000,
+      "sga": 8279000,
+      "fcf": -17551000,
+      "ocf": -15071000,
+      "capex": -2480000,
+      "gross_margin": 0.1053701242867193,
+      "op_margin": -0.40049245681231926,
+      "fcf_margin": -0.6859610724615024,
+      "incr_op_margin_yoy": 1.5538368995445562,
+      "rev_growth_yoy": -0.3126292883432287,
+      "rev_growth_yoy_accel": -0.17932605452642186,
+      "fcf_margin_change": -0.4828289503022265
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -31.3% vs prior quarter YoY: -13.3% (decel: -17.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -638,12 +646,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +3.4% vs prior quarter YoY: -36.8% (accel: +40.2%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -18.9% -> -2.0% (+16.9%)",
@@ -654,12 +656,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -30.6% -> -18.9% (+11.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +23.6% -> +3.5% -> +24.4% (reversal +20.8%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -687,7 +683,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:57:14.266396",
-  "sector": "Energy",
-  "industry": "Oil & Gas Equipment & Services"
+  "last_updated": "2026-02-13T11:35:08.072905"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "HXL",
   "name": "Hexcel Corporation",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 295800000,
-      "gross_profit": 30400000,
-      "operating_income": -20400000,
-      "net_income": -19400000,
-      "opex": 50800000,
-      "cogs": 265400000,
-      "rd": 10600000,
-      "sga": 25900000,
-      "fcf": 104500000,
-      "ocf": 107300000,
-      "capex": -2800000,
-      "gross_margin": 0.10277214334009466,
-      "op_margin": -0.06896551724137931,
-      "fcf_margin": 0.3532792427315754
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -4900000,
       "gross_margin": 0.17112471801482437,
       "op_margin": -0.03287141475990976,
-      "fcf_margin": -0.019658395101514663,
-      "op_leverage_ratio": 0.1992156862745098,
-      "fcf_margin_change": -0.3729376378330901
+      "fcf_margin": -0.019658395101514663
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.19325632219793942,
       "op_margin": 0.050577583515454265,
       "fcf_margin": 0.1117702154230409,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13142861052455557
     },
     {
@@ -77,7 +59,7 @@
       "gross_margin": 0.19772318753744758,
       "op_margin": 0.0683043738765728,
       "fcf_margin": 0.058418214499700416,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.053352000923340484
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.19178462392450735,
       "op_margin": 0.06383569247849015,
       "fcf_margin": 0.2070496808215376,
-      "incr_op_margin_yoy": 0.6728682170542636,
-      "rev_growth_yoy": 0.21805273833671399,
       "op_leverage_ratio": 1.1826201937976488,
       "fcf_margin_change": 0.14863146632183719
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.10215053763440861,
       "incr_op_margin_yoy": 0.50186799501868,
       "rev_growth_yoy": 0.2587818240412504,
-      "rev_growth_yoy_accel": 0.0407290857045364,
       "op_leverage_ratio": 0.3692240593156496,
       "fcf_margin_change": -0.3092002184559462
     },
@@ -325,7 +304,7 @@
       "incr_op_margin_yoy": 0.227765726681128,
       "rev_growth_yoy": 0.10147479639005062,
       "rev_growth_yoy_accel": 0.06957617283750528,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11815349752804151
     },
     {
@@ -438,9 +417,44 @@
       "rev_growth_yoy": -0.0006571741511500548,
       "rev_growth_yoy_accel": 0.020326039278106542,
       "fcf_margin_change": 0.19520016745089921
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 491300000,
+      "gross_profit": 121000000,
+      "operating_income": 61400000,
+      "net_income": null,
+      "opex": 59600000,
+      "cogs": 370300000,
+      "rd": 14300000,
+      "sga": 41600000,
+      "fcf": 107300000,
+      "ocf": 125500000,
+      "capex": -18200000,
+      "gross_margin": 0.24628536535721554,
+      "op_margin": 0.12497455729696723,
+      "fcf_margin": 0.2184001628332994,
+      "incr_op_margin_yoy": 3.0,
+      "rev_growth_yoy": 0.036935415787252006,
+      "rev_growth_yoy_accel": 0.03759258993840206,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.006870132145004815
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +22.8% -> +21.9% -> +24.6% (reversal +2.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +300.0% vs year-ago OPM: +1.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -604,12 +618,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -6.9% (year-ago) -> +6.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.0% -> +11.2%",
@@ -647,7 +655,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:45.773337",
-  "sector": "Industrials",
-  "industry": "Aerospace & Defense"
+  "last_updated": "2026-02-13T11:42:04.588475"
 }

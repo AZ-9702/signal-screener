@@ -1,25 +1,9 @@
 {
   "ticker": "AVTR",
   "name": "Avantor, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1790900000,
-      "gross_profit": 581600000,
-      "operating_income": 204600000,
-      "net_income": 51600000,
-      "opex": 377000000,
-      "cogs": 1209300000,
-      "rd": null,
-      "sga": 377000000,
-      "fcf": 285800000,
-      "ocf": 306000000,
-      "capex": -20200000,
-      "gross_margin": 0.32475291752750013,
-      "op_margin": 0.11424423474230834,
-      "fcf_margin": 0.1595845664191189
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -15100000,
       "gross_margin": 0.3431899641577061,
       "op_margin": 0.1491375448028674,
-      "fcf_margin": 0.06261200716845879,
-      "fcf_margin_change": -0.0969725592506601
+      "fcf_margin": 0.06261200716845879
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.3394317466974208,
       "op_margin": 0.11218284755713986,
       "fcf_margin": 0.13682113650660516,
-      "incr_op_margin_yoy": 0.0805484147386461,
-      "rev_growth_yoy": 0.065162767323692,
       "op_leverage_ratio": 0.2761521032108751,
       "fcf_margin_change": 0.011814321917933718
     },
@@ -119,8 +100,7 @@
       "fcf_margin": 0.06547374897456931,
       "incr_op_margin_yoy": 0.24696601941747573,
       "rev_growth_yoy": 0.09229390681003584,
-      "rev_growth_yoy_accel": 0.02713113948634384,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07134738753203584
     },
     {
@@ -319,7 +299,7 @@
       "incr_op_margin_yoy": -2.5328467153284673,
       "rev_growth_yoy": -0.0235678651298813,
       "rev_growth_yoy_accel": 0.03288329478698664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07454563885769705
     },
     {
@@ -432,9 +412,44 @@
       "rev_growth_yoy": -0.052846476901539895,
       "rev_growth_yoy_accel": -0.041453477136447106,
       "fcf_margin_change": 0.03160394531135506
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1663600000,
+      "gross_profit": 523900000,
+      "operating_income": 126400000,
+      "net_income": 52400000,
+      "opex": 397500000,
+      "cogs": 1139700000,
+      "rd": null,
+      "sga": 392400000,
+      "fcf": 117200000,
+      "ocf": 152700000,
+      "capex": -35500000,
+      "gross_margin": 0.314919451791296,
+      "op_margin": 0.07597980283722049,
+      "fcf_margin": 0.07044962731425823,
+      "incr_op_margin_yoy": 22.247826086956522,
+      "rev_growth_yoy": -0.013636902644373295,
+      "rev_growth_yoy_accel": 0.0392095742571666,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.03528999579203565
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +2224.8% vs year-ago OPM: +37.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -40.0% -> +7.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -539,7 +554,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:52.536762",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-13T11:40:40.527532"
 }

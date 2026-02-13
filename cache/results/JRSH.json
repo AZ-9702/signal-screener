@@ -1,25 +1,9 @@
 {
   "ticker": "JRSH",
   "name": "Jerash Holdings (US), Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Manufacturing",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 20663925,
-      "gross_profit": 2410855,
-      "operating_income": 48252,
-      "net_income": 94336,
-      "opex": 2362603,
-      "cogs": 18253070,
-      "rd": null,
-      "sga": 2362603,
-      "fcf": 1867112,
-      "ocf": 1992140,
-      "capex": -125028,
-      "gross_margin": 0.1166697517533576,
-      "op_margin": 0.0023350839688006998,
-      "fcf_margin": 0.09035611579116745
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -337154,
       "gross_margin": 0.1959135327238433,
       "op_margin": 0.0484016008679443,
-      "fcf_margin": -0.2332354914765362,
-      "op_leverage_ratio": 0.3096778887161567,
-      "fcf_margin_change": -0.32359160726770364
+      "fcf_margin": -0.2332354914765362
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.18839707003571785,
       "op_margin": 0.07749399003475964,
       "fcf_margin": -0.4042938379504864,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1710583464739502
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.18771510749837098,
       "op_margin": 0.06333933296741387,
       "fcf_margin": 0.09886537351884854,
-      "incr_op_margin_yoy": 0.14138896315284571,
-      "rev_growth_yoy": 0.7816084311184831,
       "fcf_margin_change": -0.3539917030212686
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.20194960436516834,
       "incr_op_margin_yoy": -0.12179491284245436,
       "rev_growth_yoy": 0.3023887957933628,
-      "rev_growth_yoy_accel": -0.4792196353251203,
       "fcf_margin_change": -0.3008149778840169
     },
     {
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": -0.02682990831961383,
       "rev_growth_yoy": 0.11870271874058591,
       "rev_growth_yoy_accel": -0.1836860770527769,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.183287427952947
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.3748550974317197,
       "rev_growth_yoy": -0.17250645061208897,
       "rev_growth_yoy_accel": -0.2912091693526749,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.27991728355565915
     },
     {
@@ -437,9 +416,43 @@
       "rev_growth_yoy_accel": 0.07486597191974494,
       "op_leverage_ratio": 4.300720611134565,
       "fcf_margin_change": 0.3281158228914838
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 41769186,
+      "gross_profit": 7049161,
+      "operating_income": 1942835,
+      "net_income": 1170575,
+      "opex": 5106326,
+      "cogs": 34720025,
+      "rd": null,
+      "sga": 4877501,
+      "fcf": -3901816,
+      "ocf": -3809773,
+      "capex": -92043,
+      "gross_margin": 0.16876462471641177,
+      "op_margin": 0.04651359497405576,
+      "fcf_margin": -0.09341374284861573,
+      "incr_op_margin_yoy": 0.1934556921043617,
+      "rev_growth_yoy": 0.18042946030657228,
+      "rev_growth_yoy_accel": 0.13747713562827293,
+      "fcf_margin_change": -0.24632072787697054
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +18.0% vs prior quarter YoY: +4.3% (accel: +13.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +19.3% vs year-ago OPM: +2.0%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -651,18 +664,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +30.2% vs prior quarter YoY: +78.2% (decel: -47.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +14.1% vs year-ago OPM: +0.2%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -40.4% -> +45.3%",
@@ -700,7 +701,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:45:20.430379",
-  "sector": "Consumer Cyclical",
-  "industry": "Apparel Manufacturing"
+  "last_updated": "2026-02-13T11:46:40.892494"
 }

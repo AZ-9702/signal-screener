@@ -1,25 +1,9 @@
 {
   "ticker": "CNX",
   "name": "CNX Resources Corporation",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 626703000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 195758000,
-      "opex": 312446000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 68669000,
-      "ocf": 160724000,
-      "capex": -92055000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.10957183865403548
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -123429000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.2033914427583058,
-      "fcf_margin_change": 0.09381960410427033
+      "fcf_margin": 0.2033914427583058
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.10560869770622627,
-      "rev_growth_yoy": 1.0602917171291664,
       "fcf_margin_change": 0.23925883101895964
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": -0.23445347596862548,
       "rev_growth_yoy": -2.930141859712983,
-      "rev_growth_yoy_accel": -3.9904335768421495,
       "fcf_margin_change": -0.34006217367485175
     },
     {
@@ -257,7 +238,7 @@
       "fcf_margin": 0.05510303303064617,
       "rev_growth_yoy": -0.4081444010679179,
       "rev_growth_yoy_accel": -2.402361091511362,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05410732967606736
     },
     {
@@ -408,9 +389,43 @@
       "rev_growth_yoy": 0.37628974123848163,
       "rev_growth_yoy_accel": -1.6177776361814653,
       "fcf_margin_change": 0.09547200884685772
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 610484000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 196252000,
+      "opex": 341382000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 122635000,
+      "ocf": 297049000,
+      "capex": -174414000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.20088159558645272,
+      "rev_growth_yoy": 3.469856052951427,
+      "rev_growth_yoy_accel": 3.0935663117129453,
+      "op_leverage_ratio": 31.748726405333304,
+      "fcf_margin_change": -0.0701121698287295
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +4.6% vs OpEx growth +0.1% (leverage: 31.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +347.0% vs prior quarter YoY: +37.6% (accel: +309.4%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -520,12 +535,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -293.0% vs prior quarter YoY: +106.0% (decel: -399.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -13.4% -> +10.6%",
@@ -541,12 +550,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +592.0% vs OpEx growth +8.6% (leverage: 68.8x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.0% -> +20.3% (+9.4%)",
       "severity": "MEDIUM"
     }
   ],
@@ -578,7 +581,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:01:11.453003",
-  "sector": "Energy",
-  "industry": "Oil & Gas E&P"
+  "last_updated": "2026-02-13T11:45:38.860394"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "BAX",
-  "name": "BAXTER INTERNATIONAL INC.",
+  "name": "Baxter International Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3181000000,
-      "gross_profit": 1191000000,
-      "operating_income": 406000000,
-      "net_income": 168000000,
-      "opex": 785000000,
-      "cogs": 1990000000,
-      "rd": 135000000,
-      "sga": 650000000,
-      "fcf": 712000000,
-      "ocf": 712000000,
-      "capex": null,
-      "gross_margin": 0.374410562716127,
-      "op_margin": 0.12763281986796604,
-      "fcf_margin": 0.22382898459603898
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.38866259334691106,
       "op_margin": 0.13238289205702647,
-      "fcf_margin": 0.12797012898845891,
-      "fcf_margin_change": -0.09585885560758006
+      "fcf_margin": 0.12797012898845891
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.40948543087414757,
       "op_margin": 0.15902045877247364,
       "fcf_margin": 0.2092374457532548,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.055267142331692526
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.40011383039271486,
       "op_margin": 0.10899260102447353,
       "fcf_margin": 0.19721115537848605,
-      "incr_op_margin_yoy": -0.06906906906906907,
-      "rev_growth_yoy": 0.10468406161584408,
       "op_leverage_ratio": 0.33550656728038175,
       "fcf_margin_change": -0.012026290374768767
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.05611006204478015,
       "incr_op_margin_yoy": -0.2982917214191853,
       "rev_growth_yoy": 0.25831636116768497,
-      "rev_growth_yoy_accel": 0.15363229955184088,
       "op_leverage_ratio": 0.3468296127658677,
       "fcf_margin_change": -0.1411010933337059
     },
@@ -144,7 +124,7 @@
       "incr_op_margin_yoy": -0.12962962962962962,
       "rev_growth_yoy": 0.2091672046481601,
       "rev_growth_yoy_accel": -0.04914915651952487,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.017034625622064488
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 9.153846153846153,
       "rev_growth_yoy": -0.010411105178857448,
       "rev_growth_yoy_accel": 0.005234969814398553,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.036583111077728936
     },
     {
@@ -278,7 +258,7 @@
       "incr_op_margin_yoy": -0.17142857142857143,
       "rev_growth_yoy": 0.037383177570093455,
       "rev_growth_yoy_accel": 0.05461084785898823,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.038243722224304735
     },
     {
@@ -413,7 +393,7 @@
       "incr_op_margin_yoy": -0.38223552894211577,
       "rev_growth_yoy": -0.26285414480587616,
       "rev_growth_yoy_accel": 0.006355209314391097,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15074800881206574
     },
     {
@@ -437,9 +417,38 @@
       "rev_growth_yoy": 0.05038903297517599,
       "rev_growth_yoy_accel": 0.31324317778105215,
       "fcf_margin_change": 0.00637368430962737
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2974000000,
+      "gross_profit": 577000000,
+      "operating_income": -729000000,
+      "net_income": -1128000000,
+      "opex": 1306000000,
+      "cogs": 2397000000,
+      "rd": 126000000,
+      "sga": 761000000,
+      "fcf": 584000000,
+      "ocf": 584000000,
+      "capex": null,
+      "gross_margin": 0.19401479488903833,
+      "op_margin": -0.24512441156691325,
+      "fcf_margin": 0.19636852723604573,
+      "incr_op_margin_yoy": -1.330316742081448,
+      "rev_growth_yoy": 0.08027606247729749,
+      "rev_growth_yoy_accel": 0.0298870295021215,
+      "op_leverage_ratio": 0.07224493613382502,
+      "fcf_margin_change": 0.11277064363816212
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +8.4% -> +19.6% (+11.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -549,12 +558,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +25.8% vs prior quarter YoY: +10.5% (accel: +15.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +15.4% -> +20.9% (+5.5%)",
@@ -586,7 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:37:52.920275",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-13T11:32:52.075191"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "GLIBA",
   "name": "GCI LIBERTY, INC.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
     {
       "date": "2024-06-30T00:00:00",
@@ -38,6 +40,25 @@
       "op_margin": 0.15648854961832062,
       "fcf_margin": 0.003816793893129771,
       "op_leverage_ratio": 2.809756097560976
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 263000000,
+      "gross_profit": null,
+      "operating_income": 32000000,
+      "net_income": 16000000,
+      "opex": 231000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -9000000,
+      "ocf": 55000000,
+      "capex": -64000000,
+      "gross_margin": null,
+      "op_margin": 0.12167300380228137,
+      "fcf_margin": -0.034220532319391636,
+      "fcf_margin_change": -0.038037326212521406
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -79,9 +100,37 @@
       "incr_op_margin_yoy": 105.8,
       "rev_growth_yoy": -0.019083969465648856,
       "rev_growth_yoy_accel": -0.08005957922174642
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 262000000,
+      "gross_profit": null,
+      "operating_income": 32000000,
+      "net_income": 16000000,
+      "opex": 230000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -6000000,
+      "ocf": 68000000,
+      "capex": -74000000,
+      "gross_margin": null,
+      "op_margin": 0.12213740458015267,
+      "fcf_margin": -0.022900763358778626,
+      "rev_growth_yoy": -0.0038022813688212928,
+      "rev_growth_yoy_accel": 0.015281688096827563,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.10461282561558796
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -189.9% -> +12.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -102,41 +151,39 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 4,
+    "n_quarters": 6,
     "coverage": {
       "revenue": [
-        4,
-        4
+        6,
+        6
       ],
       "gross_profit": [
         0,
-        4
+        6
       ],
       "op_income": [
-        4,
-        4
+        6,
+        6
       ],
       "fcf": [
-        2,
-        4
+        4,
+        6
       ]
     },
     "gaps": [
       [
-        "2024-09 (Q3)",
+        "2024-12 (Q4)",
         "2025-06 (Q2)",
-        273
+        181
       ]
     ],
     "warnings": [
       "gross_profit: no data",
-      "fcf: 2/4Q",
-      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+      "fcf: 4/6Q",
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:57:11.572458",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-13T11:41:58.451612"
 }

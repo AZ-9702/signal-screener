@@ -1,25 +1,9 @@
 {
   "ticker": "PTEN",
   "name": "Patterson-UTI Energy, Inc.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Drilling",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 220801000,
-      "gross_profit": null,
-      "operating_income": -124198000,
-      "net_income": -106527000,
-      "opex": 344999000,
-      "cogs": null,
-      "rd": null,
-      "sga": 20919000,
-      "fcf": -14865000,
-      "ocf": -4427000,
-      "capex": -10438000,
-      "gross_margin": null,
-      "op_margin": -0.5624883945271987,
-      "fcf_margin": -0.06732306466003324
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -18523000,
       "gross_margin": null,
       "op_margin": -0.48780761137098483,
-      "fcf_margin": -0.04109509440540574,
-      "op_leverage_ratio": 2.3370562833501864,
-      "fcf_margin_change": 0.026227970254627496
+      "fcf_margin": -0.04109509440540574
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.7734392584669009,
       "fcf_margin": -0.06770733965997346,
-      "incr_op_margin_yoy": -0.9630187389088778,
-      "rev_growth_yoy": 1.112730467706215,
       "op_leverage_ratio": 0.3582554485671496,
       "fcf_margin_change": 0.007353084778044347
     },
@@ -121,8 +101,7 @@
       "fcf_margin": -0.12005693251533742,
       "incr_op_margin_yoy": 0.3674705527368633,
       "rev_growth_yoy": 1.1142120707760377,
-      "rev_growth_yoy_accel": 0.0014816030698225902,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05234959285536396
     },
     {
@@ -438,9 +417,43 @@
       "rev_growth_yoy": -0.133558106190439,
       "rev_growth_yoy_accel": -0.0379680056559462,
       "fcf_margin_change": 0.06430734838520004
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1150813000,
+      "gross_profit": null,
+      "operating_income": -235000,
+      "net_income": -9094000,
+      "opex": 1151048000,
+      "cogs": null,
+      "rd": null,
+      "sga": 62058000,
+      "fcf": 259013000,
+      "ocf": 397526000,
+      "capex": -138513000,
+      "gross_margin": null,
+      "op_margin": -0.00020420346311694429,
+      "fcf_margin": 0.22506958124386847,
+      "incr_op_margin_yoy": -2.746864511570394,
+      "rev_growth_yoy": -0.009742413747111996,
+      "rev_growth_yoy_accel": 0.12381569244332702,
+      "fcf_margin_change": 0.1644175489364823
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +6.1% -> +22.5% (+16.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -1.0% vs prior quarter YoY: -13.4% (accel: +12.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -626,12 +639,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +21.1% vs OpEx growth +11.9% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +9.1% vs OpEx growth +3.9% (leverage: 2.3x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -661,5 +668,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:24:06.948402"
+  "last_updated": "2026-02-13T11:47:14.384520"
 }

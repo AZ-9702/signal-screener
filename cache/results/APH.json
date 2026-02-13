@@ -1,25 +1,9 @@
 {
   "ticker": "APH",
   "name": "AMPHENOL CORPORATION",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2426000000,
-      "gross_profit": 765600000,
-      "operating_income": 488400000,
-      "net_income": 357000000,
-      "opex": 277200000,
-      "cogs": 1660400000,
-      "rd": null,
-      "sga": 265800000,
-      "fcf": 369000000,
-      "ocf": 441000000,
-      "capex": -72000000,
-      "gross_margin": 0.31558120362737013,
-      "op_margin": 0.20131904369332235,
-      "fcf_margin": 0.15210222588623248
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -78400000,
       "gross_margin": 0.3060451811030247,
       "op_margin": 0.1955323713768878,
-      "fcf_margin": 0.1020571284338059,
-      "fcf_margin_change": -0.05004509745242658
+      "fcf_margin": 0.1020571284338059
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.3157353202057832,
       "op_margin": 0.2026609898882384,
       "fcf_margin": 0.09576015611140677,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.010800000639035967
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.31095546451698164,
       "op_margin": 0.19588344125809437,
       "fcf_margin": 0.1269988106250826,
-      "incr_op_margin_yoy": 0.1739347536617843,
-      "rev_growth_yoy": 0.24765045342126957,
       "op_leverage_ratio": 0.7957223988224521,
       "fcf_margin_change": 0.031238654513675815
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.09238117822419459,
       "incr_op_margin_yoy": 0.2174669450243563,
       "rev_growth_yoy": 0.24180724412098775,
-      "rev_growth_yoy_accel": -0.005843209300281815,
       "fcf_margin_change": -0.034617632400888
     },
     {
@@ -370,7 +350,7 @@
       "incr_op_margin_yoy": 0.2662829445622539,
       "rev_growth_yoy": 0.29761081893313296,
       "rev_growth_yoy_accel": 0.03517020878059485,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0325527156602724
     },
     {
@@ -441,9 +421,38 @@
       "rev_growth_yoy_accel": -0.03158724858991613,
       "op_leverage_ratio": 2.715540767746845,
       "fcf_margin_change": -0.0022475745517006596
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6439000000,
+      "gross_profit": 2461100000,
+      "operating_income": 1722700000,
+      "net_income": 1195500000,
+      "opex": 738400000,
+      "cogs": 3977900000,
+      "rd": null,
+      "sga": 691000000,
+      "fcf": 1468500000,
+      "ocf": 1722200000,
+      "capex": -253700000,
+      "gross_margin": 0.3822177356732412,
+      "op_margin": 0.2675415437179686,
+      "fcf_margin": 0.22806336387637832,
+      "incr_op_margin_yoy": 0.3625306430322459,
+      "rev_growth_yoy": 0.4912687016536199,
+      "rev_growth_yoy_accel": -0.04245418633291076,
+      "op_leverage_ratio": 0.3187118205521925,
+      "fcf_margin_change": 0.03214446939103671
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +36.3% vs year-ago OPM: +22.1%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -608,7 +617,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:11.381570",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-13T11:40:08.048095"
 }

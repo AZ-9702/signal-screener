@@ -1,25 +1,9 @@
 {
   "ticker": "SEB",
-  "name": "Seaboard Corporation",
+  "name": "SEABOARD CORPORATION",
+  "sector": "Industrials",
+  "industry": "Conglomerates",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1990000000,
-      "gross_profit": 230000000,
-      "operating_income": 134000000,
-      "net_income": null,
-      "opex": 96000000,
-      "cogs": 1768000000,
-      "rd": null,
-      "sga": 88000000,
-      "fcf": 158000000,
-      "ocf": 257000000,
-      "capex": -99000000,
-      "gross_margin": 0.11557788944723618,
-      "op_margin": 0.06733668341708543,
-      "fcf_margin": 0.07939698492462312
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -96000000,
       "gross_margin": 0.08644973288003885,
       "op_margin": 0.044681884409907724,
-      "fcf_margin": -0.11947547353084022,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.19887245845546334
+      "fcf_margin": -0.11947547353084022
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.07589285714285714,
       "op_margin": 0.03612012987012987,
       "fcf_margin": -0.056818181818181816,
-      "incr_op_margin_yoy": -0.0949367088607595,
-      "rev_growth_yoy": 0.23819095477386934,
       "op_leverage_ratio": 0.7268892794376098,
       "fcf_margin_change": -0.08449832241572136
     },
@@ -120,8 +100,7 @@
       "fcf_margin": -0.020302694721299374,
       "incr_op_margin_yoy": 0.08307692307692308,
       "rev_growth_yoy": 0.31568722680913064,
-      "rev_growth_yoy_accel": 0.0774962720352613,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.036515487096882446
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.049723756906077346,
       "rev_growth_yoy": 0.2234567901234568,
       "rev_growth_yoy_accel": -0.09223043668567385,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.013669723711260327
     },
     {
@@ -433,9 +412,43 @@
       "rev_growth_yoy_accel": 0.022495888407984208,
       "op_leverage_ratio": 0.6653225806451613,
       "fcf_margin_change": 0.08806832613665228
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2410000000,
+      "gross_profit": 191000000,
+      "operating_income": 65000000,
+      "net_income": null,
+      "opex": 126000000,
+      "cogs": 2219000000,
+      "rd": null,
+      "sga": 126000000,
+      "fcf": 53000000,
+      "ocf": 188000000,
+      "capex": -135000000,
+      "gross_margin": 0.07925311203319502,
+      "op_margin": 0.026970954356846474,
+      "fcf_margin": 0.02199170124481328,
+      "incr_op_margin_yoy": 0.6805555555555556,
+      "rev_growth_yoy": -0.029008863819500404,
+      "rev_growth_yoy_accel": -0.17418469790426144,
+      "fcf_margin_change": -0.037850818440226086
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -2.9% vs prior quarter YoY: +14.5% (decel: -17.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +68.1% vs year-ago OPM: +4.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -569,12 +582,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.6% vs prior quarter YoY: +23.8% (accel: +7.7%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.9% -> +2.8%",
@@ -618,5 +625,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:05:41.014353"
+  "last_updated": "2026-02-13T11:38:36.084313"
 }

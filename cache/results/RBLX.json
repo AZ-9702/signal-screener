@@ -1,25 +1,9 @@
 {
   "ticker": "RBLX",
   "name": "Roblox Corporation",
+  "sector": "Communication Services",
+  "industry": "Electronic Gaming & Multimedia",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 310009000,
-      "gross_profit": 231391000,
-      "operating_income": -68607000,
-      "net_income": -58741000,
-      "opex": 378616000,
-      "cogs": 78618000,
-      "rd": 60067000,
-      "sga": null,
-      "fcf": 127113000,
-      "ocf": 179004000,
-      "capex": -51891000,
-      "gross_margin": 0.7464009109412952,
-      "op_margin": -0.22130647819902002,
-      "fcf_margin": 0.41003003138618555
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -22133000,
       "gross_margin": 0.7469171214752336,
       "op_margin": -0.3490035557760688,
-      "fcf_margin": 0.367816091954023,
-      "op_leverage_ratio": 0.6554379965104589,
-      "fcf_margin_change": -0.04221393943216256
+      "fcf_margin": 0.367816091954023
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.7447362841032246,
       "op_margin": -0.15205286883314748,
       "fcf_margin": 0.3498731682033078,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.020124629638577196
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.7327772786491529,
       "op_margin": -0.24553025920892313,
       "fcf_margin": 0.1358741422264575,
-      "incr_op_margin_yoy": -0.27455170814654506,
-      "rev_growth_yoy": 0.834685444616124,
       "op_leverage_ratio": 0.5629040353951549,
       "fcf_margin_change": -0.21399902597685033
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.19482289335622024,
       "incr_op_margin_yoy": -0.1102505361019726,
       "rev_growth_yoy": 0.38802923178698423,
-      "rev_growth_yoy_accel": -0.4466562128291398,
       "fcf_margin_change": 0.05894875112976275
     },
     {
@@ -304,7 +283,7 @@
       "incr_op_margin_yoy": -0.08551207213132725,
       "rev_growth_yoy": 0.22271661905808246,
       "rev_growth_yoy_accel": -0.07250586645151677,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13579012221826356
     },
     {
@@ -444,6 +423,29 @@
       "rev_growth_yoy_accel": 0.2701306855785407,
       "op_leverage_ratio": 1.4314100759702981,
       "fcf_margin_change": 0.16279866665024398
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1415021000,
+      "gross_profit": 1100016000,
+      "operating_income": -358638000,
+      "net_income": -316000000,
+      "opex": 1773659000,
+      "cogs": 315005000,
+      "rd": 409845000,
+      "sga": null,
+      "fcf": 308577000,
+      "ocf": 606998000,
+      "capex": -298421000,
+      "gross_margin": 0.7773849292696009,
+      "op_margin": -0.2534506555026392,
+      "fcf_margin": 0.2180723819646493,
+      "incr_op_margin_yoy": -0.2683125682343184,
+      "rev_growth_yoy": 0.4319422617065867,
+      "rev_growth_yoy_accel": -0.047617628733947204,
+      "op_leverage_ratio": 0.5741682105316279,
+      "fcf_margin_change": -0.10819048351651273
     }
   ],
   "signals": [
@@ -584,12 +586,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +13.6% -> +19.5% (+5.9%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +38.8% vs prior quarter YoY: +83.5% (decel: -44.7%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -617,5 +613,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:41.339633"
+  "last_updated": "2026-02-13T11:43:56.418503"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "CRBG",
   "name": "Corebridge Financial, Inc.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
     {
       "date": "2021-09-30T00:00:00",
@@ -347,9 +349,42 @@
       "rev_growth_yoy": 1.070336391437309,
       "rev_growth_yoy_accel": 1.330713749927875,
       "fcf_margin_change": 0.09881906972537907
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6767000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 814000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 478000000,
+      "fcf": 1881000000,
+      "ocf": 1881000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.2779666026304123,
+      "rev_growth_yoy": 0.022359873092612177,
+      "rev_growth_yoy_accel": -1.0479765183446967,
+      "fcf_margin_change": 0.27353528800707405
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +0.4% -> +27.8% (+27.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +2.2% vs prior quarter YoY: +107.0% (decel: -104.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -454,23 +489,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 17,
+    "n_quarters": 18,
     "coverage": {
       "revenue": [
-        17,
-        17
+        18,
+        18
       ],
       "gross_profit": [
         0,
-        17
+        18
       ],
       "op_income": [
         0,
-        17
+        18
       ],
       "fcf": [
-        16,
-        17
+        17,
+        18
       ]
     },
     "gaps": [],
@@ -481,7 +516,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:25:46.295150",
-  "sector": "Financial Services",
-  "industry": "Asset Management"
+  "last_updated": "2026-02-13T11:41:16.017865"
 }

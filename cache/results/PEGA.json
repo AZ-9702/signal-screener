@@ -1,25 +1,9 @@
 {
   "ticker": "PEGA",
   "name": "PEGASYSTEMS INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 298600000,
-      "gross_profit": 221705000,
-      "operating_income": -5930000,
-      "net_income": 4006000,
-      "opex": 227635000,
-      "cogs": 76895000,
-      "rd": 59366000,
-      "sga": null,
-      "fcf": 22131000,
-      "ocf": 25694000,
-      "capex": -3563000,
-      "gross_margin": 0.7424815807099799,
-      "op_margin": -0.01985934360348292,
-      "fcf_margin": 0.0741158740790355
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1784000,
       "gross_margin": 0.7370103253917876,
       "op_margin": 0.005106874344096791,
-      "fcf_margin": 0.06336862318540092,
-      "op_leverage_ratio": 6.254469951181874,
-      "fcf_margin_change": -0.010747250893634583
+      "fcf_margin": 0.06336862318540092
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.730653670014928,
       "op_margin": -0.10180148268097057,
       "fcf_margin": 0.1298990461250411,
-      "incr_op_margin_yoy": -1.4932893539581438,
-      "rev_growth_yoy": 0.0588881446751507,
       "op_leverage_ratio": 2.149022190358729,
       "fcf_margin_change": 0.23782902567769693
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.022478986572133923,
       "incr_op_margin_yoy": 0.270968666411922,
       "rev_growth_yoy": 0.2003451366671026,
-      "rev_growth_yoy_accel": 0.14145699199195189,
       "op_leverage_ratio": 7.968428776553973,
       "fcf_margin_change": -0.10742005955290718
     },
@@ -278,7 +257,7 @@
       "incr_op_margin_yoy": 1.5563957151858854,
       "rev_growth_yoy": 0.1961384215703584,
       "rev_growth_yoy_accel": -0.039933546545594334,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09190580596262873
     },
     {
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": 1.0259241750969084,
       "rev_growth_yoy": 0.17730698566389957,
       "rev_growth_yoy_accel": 0.16294323087086054,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4332059692392542
     },
     {
@@ -436,9 +415,50 @@
       "rev_growth_yoy": 0.17320412244270111,
       "rev_growth_yoy_accel": 0.07820564599511275,
       "fcf_margin_change": -0.08289272271766221
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 504317000,
+      "gross_profit": 400852000,
+      "operating_income": 104363000,
+      "net_income": 234574000,
+      "opex": 296489000,
+      "cogs": 103465000,
+      "rd": 80855000,
+      "sga": null,
+      "fcf": 152412000,
+      "ocf": 158431000,
+      "capex": -6019000,
+      "gross_margin": 0.794841339871549,
+      "op_margin": 0.20693928620292396,
+      "fcf_margin": 0.3022146784661235,
+      "incr_op_margin_yoy": -2.8639430562764145,
+      "rev_growth_yoy": 0.027477945520852434,
+      "rev_growth_yoy_accel": -0.1457261769218487,
+      "op_leverage_ratio": 2.370526310035819,
+      "fcf_margin_change": 0.1663027865033596
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +13.6% -> +30.2% (+16.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +32.2% vs OpEx growth +13.6% (leverage: 2.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +2.7% vs prior quarter YoY: +17.3% (decel: -14.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -645,12 +665,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +20.0% vs prior quarter YoY: +5.9% (accel: +14.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +27.1% vs year-ago OPM: +0.5%",
       "severity": "HIGH"
@@ -677,18 +691,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +74.0% -> +67.1% -> +73.1% (reversal +5.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +5.0% vs OpEx growth +0.8% (leverage: 6.3x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -2.0% -> +0.5%",
       "severity": "HIGH"
     }
   ],
@@ -717,5 +719,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:43:56.661979"
+  "last_updated": "2026-02-13T11:47:18.357262"
 }

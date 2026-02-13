@@ -1,25 +1,9 @@
 {
   "ticker": "WHR",
   "name": "WHIRLPOOL CORP /DE/",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5798000000,
-      "gross_profit": 1364000000,
-      "operating_income": 716000000,
-      "net_income": 497000000,
-      "opex": 648000000,
-      "cogs": 4434000000,
-      "rd": null,
-      "sga": 523000000,
-      "fcf": 934000000,
-      "ocf": 1093000000,
-      "capex": -159000000,
-      "gross_margin": 0.2352535357019662,
-      "op_margin": 0.12349085891686788,
-      "fcf_margin": 0.161090031045188
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -73000000,
       "gross_margin": 0.21425905188503172,
       "op_margin": 0.11534154535274356,
-      "fcf_margin": 0.02034341172079134,
-      "fcf_margin_change": -0.14074661932439664
+      "fcf_margin": 0.02034341172079134
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.1826311263972485,
       "op_margin": 0.08495270851246775,
       "fcf_margin": 0.11401547721410146,
-      "incr_op_margin_yoy": -13.058823529411764,
-      "rev_growth_yoy": 0.002932045532942394,
       "op_leverage_ratio": 2.7607507288629733,
       "fcf_margin_change": 0.01816999616453878
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.08434959349593496,
       "incr_op_margin_yoy": 0.3584474885844749,
       "rev_growth_yoy": -0.08174692049272117,
-      "rev_growth_yoy_accel": -0.08467896602566356,
       "fcf_margin_change": -0.19836507071003642
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": -1.9967213114754099,
       "rev_growth_yoy": -0.05983912105159898,
       "rev_growth_yoy_accel": -0.004757820238590844,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12033077643207597
     },
     {
@@ -278,7 +258,7 @@
       "incr_op_margin_yoy": 11.175757575757576,
       "rev_growth_yoy": 0.03351614868982328,
       "rev_growth_yoy_accel": 0.0038338744423316376,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21647026942139896
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": -0.3425925925925926,
       "rev_growth_yoy": -0.0541489095011281,
       "rev_growth_yoy_accel": 0.1393922931714777,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20230268804064522
     },
     {
@@ -435,11 +415,46 @@
       "incr_op_margin_yoy": -1.475,
       "rev_growth_yoy": 0.010017530678687703,
       "rev_growth_yoy_accel": 0.0641664401798158,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0038039605536328985
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4098000000,
+      "gross_profit": 575000000,
+      "operating_income": 243000000,
+      "net_income": 108000000,
+      "opex": 332000000,
+      "cogs": 3523000000,
+      "rd": null,
+      "sga": 424000000,
+      "fcf": 989000000,
+      "ocf": 1139000000,
+      "capex": -150000000,
+      "gross_margin": 0.1403123474865788,
+      "op_margin": 0.05929721815519766,
+      "fcf_margin": 0.24133723767691556,
+      "incr_op_margin_yoy": -9.973684210526315,
+      "rev_growth_yoy": -0.00918762088974855,
+      "rev_growth_yoy_accel": -0.019205151568436253,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.2542308652494422
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.3% -> +24.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -3.3% (year-ago) -> +5.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -604,12 +619,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -8.2% vs prior quarter YoY: +0.3% (decel: -8.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +35.8% vs year-ago OPM: +11.5%",
       "severity": "HIGH"
@@ -646,5 +655,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:07:18.239431"
+  "last_updated": "2026-02-13T11:44:55.999309"
 }

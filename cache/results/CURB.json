@@ -1,6 +1,8 @@
 {
   "ticker": "CURB",
   "name": "Curbline Properties Corp.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
     {
       "date": "2023-09-30T00:00:00",
@@ -186,9 +188,37 @@
       "rev_growth_yoy_accel": 0.1640836214304935,
       "op_leverage_ratio": 1.2567640290299238,
       "fcf_margin_change": -0.01979178819322336
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 54149000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 44147000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 25869000,
+      "ocf": 25869000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.47773735433710685,
+      "rev_growth_yoy": 0.5505254416859949,
+      "rev_growth_yoy_accel": -0.08400852780530266,
+      "op_leverage_ratio": 1.0051632747661232,
+      "fcf_margin_change": -0.32784161250565835
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +55.1% vs prior quarter YoY: +63.5% (decel: -8.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -239,23 +269,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 9,
+    "n_quarters": 10,
     "coverage": {
       "revenue": [
-        9,
-        9
+        10,
+        10
       ],
       "gross_profit": [
         0,
-        9
+        10
       ],
       "op_income": [
         0,
-        9
+        10
       ],
       "fcf": [
-        8,
-        9
+        9,
+        10
       ]
     },
     "gaps": [],
@@ -266,7 +296,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:29:13.173066",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-13T11:45:53.663072"
 }

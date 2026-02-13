@@ -1,25 +1,9 @@
 {
   "ticker": "DVA",
   "name": "DAVITA INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2905322000,
-      "gross_profit": null,
-      "operating_income": 381671000,
-      "net_income": 173773000,
-      "opex": 2523651000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 260153000,
-      "ocf": 484798000,
-      "capex": -224645000,
-      "gross_margin": null,
-      "op_margin": 0.1313696037823002,
-      "fcf_margin": 0.08954360308427087
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -144913000,
       "gross_margin": null,
       "op_margin": 0.15695100817340135,
-      "fcf_margin": 0.003330140663070687,
-      "fcf_margin_change": -0.08621346242120018
+      "fcf_margin": 0.003330140663070687
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.13227559955665263,
       "fcf_margin": 0.11560319799780365,
-      "incr_op_margin_yoy": 0.20038814853150472,
-      "rev_growth_yoy": 0.013301451611903947,
       "fcf_margin_change": -0.02375573477974706
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.07065949023177898,
       "incr_op_margin_yoy": 42.63859362224039,
       "rev_growth_yoy": -0.0008673755789448302,
-      "rev_growth_yoy_accel": -0.014168827190848776,
       "fcf_margin_change": -0.044943707766024674
     },
     {
@@ -435,9 +415,38 @@
       "rev_growth_yoy_accel": -0.012506990934546415,
       "op_leverage_ratio": 0.47026538046419314,
       "fcf_margin_change": 0.13737463697902882
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3619787000,
+      "gross_profit": null,
+      "operating_income": 561070000,
+      "net_income": 234217000,
+      "opex": 3058717000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 395296000,
+      "ocf": 540726000,
+      "capex": -145430000,
+      "gross_margin": null,
+      "op_margin": 0.15500083292193712,
+      "fcf_margin": 0.10920421560716141,
+      "incr_op_margin_yoy": -0.01320192922880063,
+      "rev_growth_yoy": 0.09867535055724633,
+      "rev_growth_yoy_accel": 0.050680044774350806,
+      "op_leverage_ratio": 1.17879902256883,
+      "fcf_margin_change": -0.0882809220752205
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +9.9% vs prior quarter YoY: +4.8% (accel: +5.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -580,7 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:48:11.696409",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-13T11:41:19.708310"
 }

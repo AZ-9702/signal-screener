@@ -1,25 +1,9 @@
 {
   "ticker": "NSP",
   "name": "Insperity, Inc.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1056335000,
-      "gross_profit": 167550000,
-      "operating_income": 7709000,
-      "net_income": 4285000,
-      "opex": 159841000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 210433000,
-      "ocf": 239779000,
-      "capex": -29346000,
-      "gross_margin": 0.15861445469477012,
-      "op_margin": 0.007297874253906195,
-      "fcf_margin": 0.19921047773670283
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -12072000,
       "gross_margin": 0.19539801140006294,
       "op_margin": 0.06513966437033497,
-      "fcf_margin": -0.007849491193509658,
-      "op_leverage_ratio": 4.483094060619426,
-      "fcf_margin_change": -0.2070599689302125
+      "fcf_margin": -0.007849491193509658
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": 0.16408267665761705,
       "op_margin": 0.03273981753067885,
       "fcf_margin": 0.037162664885402784,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04020981214984573
     },
     {
@@ -96,9 +78,7 @@
       "gross_margin": 0.13214005805290435,
       "op_margin": 0.01136817746717099,
       "fcf_margin": 0.15183823871081661,
-      "incr_op_margin_yoy": 0.02967207461866914,
-      "rev_growth_yoy": 0.22237358413760785,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11467557382541382
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.03432610592855916,
       "incr_op_margin_yoy": 0.05007182081222809,
       "rev_growth_yoy": 0.22613777213084815,
-      "rev_growth_yoy_accel": 0.0037641879932402977,
       "op_leverage_ratio": 1.1011434035678491,
       "fcf_margin_change": -0.11751213278225744
     },
@@ -188,7 +167,7 @@
       "incr_op_margin_yoy": 0.18230735900200526,
       "rev_growth_yoy": 0.15371163753179123,
       "rev_growth_yoy_accel": -0.03604256789334773,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07810351270674358
     },
     {
@@ -437,9 +416,38 @@
       "rev_growth_yoy": 0.03971812940422806,
       "rev_growth_yoy_accel": 0.006696322550645506,
       "fcf_margin_change": 0.03954686365403239
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1668000000,
+      "gross_profit": 172000000,
+      "operating_income": -46000000,
+      "net_income": -33000000,
+      "opex": 218000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 246000000,
+      "ocf": 255000000,
+      "capex": -9000000,
+      "gross_margin": 0.10311750599520383,
+      "op_margin": -0.027577937649880094,
+      "fcf_margin": 0.1474820143884892,
+      "incr_op_margin_yoy": -0.5636363636363636,
+      "rev_growth_yoy": 0.034097954122752634,
+      "rev_growth_yoy_accel": -0.005620175281475424,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.15980487329175477
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.2% -> +14.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -553,12 +561,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.3% -> +3.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +21.8% vs OpEx growth +4.9% (leverage: 4.5x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -586,7 +588,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:44:02.930278",
-  "sector": "Industrials",
-  "industry": "Staffing & Employment Services"
+  "last_updated": "2026-02-13T11:42:19.144845"
 }

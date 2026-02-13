@@ -1,25 +1,9 @@
 {
   "ticker": "INBP",
-  "name": "INTEGRATED BIOPHARMA INC",
+  "name": "INTEGRATED BIOPHARMA, INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 14257000,
-      "gross_profit": 2174000,
-      "operating_income": 1244000,
-      "net_income": 1224000,
-      "opex": 930000,
-      "cogs": 12083000,
-      "rd": null,
-      "sga": 930000,
-      "fcf": -818000,
-      "ocf": -754000,
-      "capex": -64000,
-      "gross_margin": 0.1524864978607,
-      "op_margin": 0.08725538332047415,
-      "fcf_margin": -0.057375324402048115
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -33000,
       "gross_margin": 0.15586925960637302,
       "op_margin": 0.10069119025304592,
-      "fcf_margin": 0.06683458294283036,
-      "op_leverage_ratio": 15.302132285894649,
-      "fcf_margin_change": 0.12420990734487847
+      "fcf_margin": 0.06683458294283036
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": 0.11991229272303687,
       "op_margin": 0.050020556393038235,
       "fcf_margin": -0.10723585034945868,
-      "rev_growth_yoy": 0.0236375113979098,
       "op_leverage_ratio": 0.6699840679812351,
       "fcf_margin_change": -0.2617335368054229
     },
@@ -118,8 +99,7 @@
       "fcf_margin": 0.03402839964180632,
       "incr_op_margin_yoy": 0.5055632823365785,
       "rev_growth_yoy": -0.08423149015932521,
-      "rev_growth_yoy_accel": -0.10786900155723501,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.141264249991265
     },
     {
@@ -207,7 +187,7 @@
       "incr_op_margin_yoy": 0.37381703470031546,
       "rev_growth_yoy": -0.16221056671357298,
       "rev_growth_yoy_accel": -0.001870701015340842,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11721137087050121
     },
     {
@@ -292,7 +272,7 @@
       "fcf_margin": 0.09872974823153571,
       "rev_growth_yoy": 0.0037410291647579784,
       "rev_growth_yoy_accel": 0.06453750378529005,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.25956040250210655
     },
     {
@@ -335,7 +315,7 @@
       "fcf_margin": 0.0441360064625101,
       "rev_growth_yoy": 0.05435540069686411,
       "rev_growth_yoy_accel": 0.07344113257311469,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07018339387816991
     },
     {
@@ -379,7 +359,7 @@
       "fcf_margin": 0.03585000358500036,
       "rev_growth_yoy": 0.060850384118049744,
       "rev_growth_yoy_accel": -0.03516143272094582,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.022214360648580508
     },
     {
@@ -425,6 +405,28 @@
       "rev_growth_yoy": -0.06815010648454138,
       "rev_growth_yoy_accel": -0.18026371075254705,
       "fcf_margin_change": 0.04649730501623217
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11280000,
+      "gross_profit": 29000,
+      "operating_income": -914000,
+      "net_income": -762000,
+      "opex": 943000,
+      "cogs": 11251000,
+      "rd": null,
+      "sga": 943000,
+      "fcf": 593000,
+      "ocf": 617000,
+      "capex": -24000,
+      "gross_margin": 0.0025709219858156026,
+      "op_margin": -0.08102836879432625,
+      "fcf_margin": 0.0525709219858156,
+      "incr_op_margin_yoy": 0.8365817091454273,
+      "rev_growth_yoy": -0.10575550975107025,
+      "rev_growth_yoy_accel": -0.037605403266528864,
+      "fcf_margin_change": -0.0363249720956723
     }
   ],
   "signals": [
@@ -568,12 +570,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -8.4% vs prior quarter YoY: +2.4% (decel: -10.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +50.6% vs year-ago OPM: +10.1%",
       "severity": "HIGH"
@@ -582,18 +578,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +3.3% -> +15.4% (+12.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -5.7% -> +6.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +19.7% vs OpEx growth +1.3% (leverage: 15.3x)",
       "severity": "MEDIUM"
     }
   ],
@@ -622,7 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:09:46.325858",
-  "sector": "Consumer Defensive",
-  "industry": "Packaged Foods"
+  "last_updated": "2026-02-13T11:42:22.397157"
 }

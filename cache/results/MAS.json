@@ -1,25 +1,9 @@
 {
   "ticker": "MAS",
   "name": "Masco Corporation",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1860000000,
-      "gross_profit": 660000000,
-      "operating_income": 307000000,
-      "net_income": 195000000,
-      "opex": 353000000,
-      "cogs": 1200000000,
-      "rd": null,
-      "sga": 353000000,
-      "fcf": 380000000,
-      "ocf": 380000000,
-      "capex": null,
-      "gross_margin": 0.3548387096774194,
-      "op_margin": 0.1650537634408602,
-      "fcf_margin": 0.20430107526881722
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.3553299492385787,
       "op_margin": 0.18527918781725888,
-      "fcf_margin": -0.04517766497461929,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.2494787402434365
+      "fcf_margin": -0.04517766497461929
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.30613254203758655,
       "op_margin": 0.10781404549950543,
       "fcf_margin": 0.16567754698318496,
-      "incr_op_margin_yoy": -0.5493827160493827,
-      "rev_growth_yoy": 0.08709677419354839,
       "fcf_margin_change": 0.0041530460757439325
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": -0.10313493866424353,
       "incr_op_margin_yoy": -0.05194805194805195,
       "rev_growth_yoy": 0.11725888324873096,
-      "rev_growth_yoy_accel": 0.030162109055182573,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2688124856474285
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.17117117117117117,
       "rev_growth_yoy": -0.10086324398000909,
       "rev_growth_yoy_accel": -0.05190181964766488,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1497315678377514
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": -0.05660377358490566,
       "rev_growth_yoy": -0.026781202627589692,
       "rev_growth_yoy_accel": -0.0054603497934763295,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3065103847677566
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy": -0.03328290468986384,
       "rev_growth_yoy_accel": -0.014153301629127351,
       "fcf_margin_change": 0.08867616010816509
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1793000000,
+      "gross_profit": 606000000,
+      "operating_income": 247000000,
+      "net_income": 165000000,
+      "opex": 359000000,
+      "cogs": 1187000000,
+      "rd": null,
+      "sga": 354000000,
+      "fcf": 418000000,
+      "ocf": 418000000,
+      "capex": null,
+      "gross_margin": 0.3379810373675404,
+      "op_margin": 0.1377579475738985,
+      "fcf_margin": 0.2331288343558282,
+      "incr_op_margin_yoy": 1.2285714285714286,
+      "rev_growth_yoy": -0.019146608315098467,
+      "rev_growth_yoy_accel": 0.014136296374765375,
+      "fcf_margin_change": -0.0047428401355645855
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +122.9% vs year-ago OPM: +15.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -561,7 +568,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:19.570820",
-  "sector": "Industrials",
-  "industry": "Building Products & Equipment"
+  "last_updated": "2026-02-13T11:46:58.127364"
 }

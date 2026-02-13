@@ -1,25 +1,9 @@
 {
   "ticker": "AL",
   "name": "AIR LEASE CORPORATION",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 489102000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 111093000,
-      "opex": 351281000,
-      "cogs": null,
-      "rd": null,
-      "sga": 20542000,
-      "fcf": 354470000,
-      "ocf": 372597000,
-      "capex": -18127000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.7247363535622426
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -41923000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.40513071076413093,
-      "fcf_margin_change": -0.3196056427981117
+      "fcf_margin": 0.40513071076413093
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6633772958055917,
-      "rev_growth_yoy": 0.22096413427056116,
       "op_leverage_ratio": 2.8688798316735578,
       "fcf_margin_change": 0.18546938574113142
     },
@@ -118,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.33808142311966094,
       "rev_growth_yoy": 0.25658608293125706,
-      "rev_growth_yoy_accel": 0.0356219486606959,
       "fcf_margin_change": -0.32529587268593074
     },
     {
@@ -182,7 +163,7 @@
       "fcf_margin": 0.6147653795648343,
       "rev_growth_yoy": 0.007424946749367021,
       "rev_growth_yoy_accel": -0.06278357207490483,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23445347969773206
     },
     {
@@ -269,7 +250,7 @@
       "fcf_margin": 0.5088086545868641,
       "rev_growth_yoy": 0.19108392480178188,
       "rev_growth_yoy_accel": 0.016446364988907558,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.021096252939215743
     },
     {
@@ -377,7 +358,7 @@
       "fcf_margin": 0.4273096188177417,
       "rev_growth_yoy": 0.11302709140522531,
       "rev_growth_yoy_accel": 0.11815291337885517,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.031045398400782742
     },
     {
@@ -421,9 +402,37 @@
       "rev_growth_yoy": 0.051044389449464184,
       "rev_growth_yoy_accel": -0.04547765200789755,
       "fcf_margin_change": -0.015311947747790322
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 820379000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 180932000,
+      "opex": 593903000,
+      "cogs": null,
+      "rd": null,
+      "sga": 58460000,
+      "fcf": 342131000,
+      "ocf": 414076000,
+      "capex": -71945000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4170401728956982,
+      "rev_growth_yoy": 0.15077115143183778,
+      "rev_growth_yoy_accel": 0.0997267619823736,
+      "op_leverage_ratio": 1.3232640480635518,
+      "fcf_margin_change": -0.15130967332559148
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.1% vs prior quarter YoY: +5.1% (accel: +10.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -573,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:49:50.497450",
-  "sector": "Industrials",
-  "industry": "Rental & Leasing Services"
+  "last_updated": "2026-02-13T11:31:51.165368"
 }

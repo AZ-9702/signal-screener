@@ -1,25 +1,9 @@
 {
   "ticker": "INCY",
   "name": "INCYTE CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 789509000,
-      "gross_profit": 753186000,
-      "operating_income": 164229000,
-      "net_income": 149850000,
-      "opex": 625280000,
-      "cogs": 36323000,
-      "rd": 405945000,
-      "sga": 166988000,
-      "fcf": 107321000,
-      "ocf": 107321000,
-      "capex": null,
-      "gross_margin": 0.953992924716501,
-      "op_margin": 0.20801409483615765,
-      "fcf_margin": 0.13593385255899554
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.9516799566078734,
       "op_margin": 0.16337697902162662,
-      "fcf_margin": 0.34081175027037397,
-      "fcf_margin_change": 0.20487789771137843
+      "fcf_margin": 0.34081175027037397
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.9491524048708181,
       "op_margin": 0.1283347221369109,
       "fcf_margin": 0.1336855756426645,
-      "incr_op_margin_yoy": -0.729371182373473,
-      "rev_growth_yoy": 0.09289824435186933,
       "op_leverage_ratio": 0.20296954314178176,
       "fcf_margin_change": -0.18009311946562137
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.2942317265269661,
       "incr_op_margin_yoy": 0.13805955632328798,
       "rev_growth_yoy": 0.21252385409397437,
-      "rev_growth_yoy_accel": 0.11962560974210504,
       "fcf_margin_change": 0.1605461508843016
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": -1.4035359729710966,
       "rev_growth_yoy": 0.0474140248431803,
       "rev_growth_yoy_accel": -0.055469770938526786,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.45168877636988525
     },
     {
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": -0.3135538232364311,
       "rev_growth_yoy": 0.23812845134789587,
       "rev_growth_yoy_accel": 0.14474057567091783,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.8246369301719638
     },
     {
@@ -369,7 +349,7 @@
       "incr_op_margin_yoy": 0.6908869899671619,
       "rev_growth_yoy": 0.16318001541435706,
       "rev_growth_yoy_accel": -0.07494843593353881,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05021888305194949
     },
     {
@@ -414,7 +394,7 @@
       "incr_op_margin_yoy": 5.870897129882983,
       "rev_growth_yoy": 0.16456864084525258,
       "rev_growth_yoy_accel": -0.03069886731979432,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2158918491966612
     },
     {
@@ -439,9 +419,38 @@
       "rev_growth_yoy_accel": 0.03590135970841299,
       "op_leverage_ratio": 0.35748340515319427,
       "fcf_margin_change": 0.372706938085713
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1506835000,
+      "gross_profit": 1385660000,
+      "operating_income": 335859000,
+      "net_income": 299279000,
+      "opex": 1170976000,
+      "cogs": 121175000,
+      "rd": 611372000,
+      "sga": 390412000,
+      "fcf": 543301000,
+      "ocf": 543301000,
+      "capex": null,
+      "gross_margin": 0.9195830996758105,
+      "op_margin": 0.22289036291299313,
+      "fcf_margin": 0.3605577252983903,
+      "incr_op_margin_yoy": 0.104669695889217,
+      "rev_growth_yoy": 0.2783893753955636,
+      "rev_growth_yoy_accel": 0.07791937484189801,
+      "op_leverage_ratio": 0.38275912442304033,
+      "fcf_margin_change": -0.048957055298690155
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +27.8% vs prior quarter YoY: +20.0% (accel: +7.8%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -587,12 +596,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +21.3% vs prior quarter YoY: +9.3% (accel: +12.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +24.5% -> +31.4% (+6.9%)",
@@ -602,12 +605,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +15.2% vs OpEx growth +2.2% (leverage: 6.8x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +13.6% -> +34.1% (+20.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -636,7 +633,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:18:29.205984",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-13T11:46:37.440609"
 }

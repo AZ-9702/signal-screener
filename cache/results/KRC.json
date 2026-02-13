@@ -1,25 +1,9 @@
 {
   "ticker": "KRC",
   "name": "KILROY REALTY CORPORATION",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 229332000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 78642000,
-      "opex": 162285000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 91610000,
-      "ocf": 91610000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.39946453177053354
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.611731156056118,
-      "op_leverage_ratio": 1.9622542042079618,
-      "fcf_margin_change": 0.21226662428558452
+      "fcf_margin": 0.611731156056118
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.8225252446992588,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5025277227617679
     },
     {
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.4168872206369573,
-      "rev_growth_yoy": 0.13845865382938272,
       "op_leverage_ratio": 1.2055009124980656,
       "fcf_margin_change": -0.4056380240623015
     },
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.6729127197261028,
       "rev_growth_yoy": 0.12669427870619487,
-      "rev_growth_yoy_accel": -0.011764375123187842,
       "op_leverage_ratio": 0.603403071448344,
       "fcf_margin_change": 0.25602549908914546
     },
@@ -163,7 +143,7 @@
       "fcf_margin": 0.7438849390124584,
       "rev_growth_yoy": 0.18780506701789726,
       "rev_growth_yoy_accel": -0.012214403473245872,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3740622356081278
     },
     {
@@ -399,7 +379,7 @@
       "fcf_margin": 0.4958605273688132,
       "rev_growth_yoy": 0.03263266258446698,
       "rev_growth_yoy_accel": 0.06040555449023227,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.00967402388578359
     },
     {
@@ -422,6 +402,27 @@
       "rev_growth_yoy": -0.03515924094116673,
       "rev_growth_yoy_accel": -0.06779190352563372,
       "fcf_margin_change": 0.1353165488151264
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 272187000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 208920000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 109078000,
+      "ocf": 109078000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4007465455734477,
+      "rev_growth_yoy": -0.049556706322740146,
+      "rev_growth_yoy_accel": -0.014397465381573417,
+      "fcf_margin_change": -0.2304305306104919
     }
   ],
   "signals": [
@@ -538,18 +539,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +2.8% vs OpEx growth +0.1% (leverage: 41.4x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +39.9% -> +61.2% (+21.2%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +2.8% vs OpEx growth +1.4% (leverage: 2.0x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -580,7 +569,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:11:33.878235",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-13T11:42:36.545569"
 }

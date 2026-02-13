@@ -1,25 +1,9 @@
 {
   "ticker": "ARMK",
   "name": "Aramark",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 2743789000,
-      "gross_profit": 208162000,
-      "operating_income": -20467000,
-      "net_income": -81243000,
-      "opex": 2764256000,
-      "cogs": 2535627000,
-      "rd": null,
-      "sga": 90055000,
-      "fcf": -115170000,
-      "ocf": -115170000,
-      "capex": null,
-      "gross_margin": 0.07586662093914656,
-      "op_margin": -0.007459392832320561,
-      "fcf_margin": -0.041974801998258614
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.08066448392235748,
       "op_margin": 0.0018959517564329721,
-      "fcf_margin": 0.1195275937939321,
-      "op_leverage_ratio": 1.5266358613326336,
-      "fcf_margin_change": 0.16150239579219072
+      "fcf_margin": 0.1195275937939321
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.09553955413270655,
       "op_margin": 0.03552121694113356,
       "fcf_margin": -0.12749590959055382,
-      "incr_op_margin_yoy": 0.13343119095436917,
-      "rev_growth_yoy": 0.43898091289089647,
       "op_leverage_ratio": 0.9823579724712559,
       "fcf_margin_change": -0.24668896310614713
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.09716803059891534,
       "incr_op_margin_yoy": 0.13128376489306204,
       "rev_growth_yoy": 0.369131451236518,
-      "rev_growth_yoy_accel": -0.06984946165437844,
       "fcf_margin_change": 0.22466394018946917
     },
     {
@@ -437,9 +416,36 @@
       "rev_growth_yoy": 0.14297590620851913,
       "rev_growth_yoy_accel": 0.08576140627753073,
       "op_leverage_ratio": 1.0480321679872844
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 4831549000,
+      "gross_profit": 416176000,
+      "operating_income": 217549000,
+      "net_income": 96161000,
+      "opex": 4614000000,
+      "cogs": 4415373000,
+      "rd": null,
+      "sga": 72673000,
+      "fcf": -782200000,
+      "ocf": -782200000,
+      "capex": null,
+      "gross_margin": 0.08613717878055258,
+      "op_margin": 0.045026760568918994,
+      "fcf_margin": -0.16189424964954305,
+      "incr_op_margin_yoy": 0.001019812998500696,
+      "rev_growth_yoy": 0.061392293555086616,
+      "rev_growth_yoy_accel": -0.08158361265343252
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +6.1% vs prior quarter YoY: +14.3% (decel: -8.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -538,21 +544,9 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +36.9% vs prior quarter YoY: +43.9% (decel: -7.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +13.1% vs year-ago OPM: +0.2%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -0.7% (year-ago) -> +3.6%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-10 (Q4)",
@@ -565,24 +559,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +5.7% vs OpEx growth +3.3% (leverage: 1.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -4.2% -> +12.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +2.8% vs OpEx growth +1.8% (leverage: 1.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -0.7% -> +0.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -610,7 +586,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:37:31.424568",
-  "sector": "Industrials",
-  "industry": "Specialty Business Services"
+  "last_updated": "2026-02-13T11:45:23.662078"
 }

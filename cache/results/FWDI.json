@@ -1,25 +1,9 @@
 {
   "ticker": "FWDI",
-  "name": "Forward Industries, Inc.",
+  "name": "FORWARD INDUSTRIES, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Footwear & Accessories",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 9717603,
-      "gross_profit": 2262886,
-      "operating_income": -167493,
-      "net_income": 1199036,
-      "opex": 2430379,
-      "cogs": 7454717,
-      "rd": null,
-      "sga": null,
-      "fcf": -541685,
-      "ocf": -511203,
-      "capex": -30482,
-      "gross_margin": 0.23286462721311008,
-      "op_margin": -0.017236040616188993,
-      "fcf_margin": -0.05574265587923277
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7396,
       "gross_margin": 0.2076673369957449,
       "op_margin": -0.09721729060713043,
-      "fcf_margin": 0.01261277185937645,
-      "fcf_margin_change": 0.06835542773860923
+      "fcf_margin": 0.01261277185937645
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.21908032845355027,
       "op_margin": 0.026930666161942268,
       "fcf_margin": 0.003690696806688214,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.008922075052688237
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.22548875508761562,
       "op_margin": 0.01844487491153798,
       "fcf_margin": 0.09229239742818443,
-      "incr_op_margin_yoy": 0.20130760524814123,
-      "rev_growth_yoy": 0.19512404447886994,
       "op_leverage_ratio": 0.2976355771804913,
       "fcf_margin_change": 0.1102464382706167
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.08153840351743452,
       "incr_op_margin_yoy": 0.2571077082760173,
       "rev_growth_yoy": 0.22860004295220024,
-      "rev_growth_yoy_accel": 0.0334759984733303,
       "fcf_margin_change": -0.17383080094561895
     },
     {
@@ -142,7 +122,7 @@
       "fcf_margin": 0.07427096559725409,
       "rev_growth_yoy": 0.06265443552992148,
       "rev_growth_yoy_accel": -0.16594560742227876,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15580936911468862
     },
     {
@@ -429,9 +409,38 @@
       "rev_growth_yoy_accel": 0.7681489743571515,
       "op_leverage_ratio": 0.7022527257401583,
       "fcf_margin_change": 0.2097657043899857
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 21435250,
+      "gross_profit": 16849613,
+      "operating_income": -583639575,
+      "net_income": -585651086,
+      "opex": 600489188,
+      "cogs": 4585637,
+      "rd": null,
+      "sga": null,
+      "fcf": -7929151,
+      "ocf": -7929151,
+      "capex": null,
+      "gross_margin": 0.7860702814289546,
+      "op_margin": -27.22802743145053,
+      "fcf_margin": -0.36991175750224514,
+      "incr_op_margin_yoy": -39.33504032452064,
+      "rev_growth_yoy": 2.240103289085945,
+      "rev_growth_yoy_accel": 2.1556292642579136,
+      "op_leverage_ratio": 0.02283985016437138,
+      "fcf_margin_change": -0.0800885219943886
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +224.0% vs prior quarter YoY: +8.4% (accel: +215.6%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -590,12 +599,6 @@
     },
     {
       "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -1.7% (year-ago) -> +1.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.5% -> +1.8%",
       "severity": "HIGH"
@@ -610,12 +613,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -9.7% -> +2.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -5.6% -> +1.3%",
       "severity": "HIGH"
     }
   ],
@@ -644,7 +641,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:18:16.258994",
-  "sector": "Consumer Cyclical",
-  "industry": "Footwear & Accessories"
+  "last_updated": "2026-02-13T11:34:53.206214"
 }

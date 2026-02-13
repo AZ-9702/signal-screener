@@ -1,25 +1,9 @@
 {
   "ticker": "IRDM",
   "name": "Iridium Communications Inc.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 146507000,
-      "gross_profit": null,
-      "operating_income": 5100000,
-      "net_income": -7925000,
-      "opex": 141407000,
-      "cogs": null,
-      "rd": 4097000,
-      "sga": 27496000,
-      "fcf": 61208000,
-      "ocf": 70630000,
-      "capex": -9422000,
-      "gross_margin": null,
-      "op_margin": 0.034810623383183054,
-      "fcf_margin": 0.41778208549762125
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -9417000,
       "gross_margin": null,
       "op_margin": 0.06152796260279114,
-      "fcf_margin": 0.2821783191728938,
-      "fcf_margin_change": -0.13560376632472743
+      "fcf_margin": 0.2821783191728938
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.06847267572023324,
       "fcf_margin": 0.48500516399699783,
-      "incr_op_margin_yoy": 0.5942430703624734,
-      "rev_growth_yoy": 0.06402424457534452,
       "fcf_margin_change": 0.0016339049241125836
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.31032166402130557,
       "incr_op_margin_yoy": 0.47117690463014206,
       "rev_growth_yoy": 0.14797829869996929,
-      "rev_growth_yoy_accel": 0.08395405412462477,
       "op_leverage_ratio": 3.0446845913114458,
       "fcf_margin_change": -0.17468349997569227
     },
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 0.7591936198493575,
       "rev_growth_yoy": 0.07357383461914593,
       "rev_growth_yoy_accel": -0.030411438564441895,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03569247281030841
     },
     {
@@ -435,11 +415,38 @@
       "incr_op_margin_yoy": 1.0754730302174527,
       "rev_growth_yoy": 0.06656922230943127,
       "rev_growth_yoy_accel": -0.012205514469851256,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1528781322917117
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 212940000,
+      "gross_profit": null,
+      "operating_income": 55249000,
+      "net_income": 24865000,
+      "opex": 157691000,
+      "cogs": null,
+      "rd": 5118000,
+      "sga": 41824000,
+      "fcf": 75106000,
+      "ocf": 108595000,
+      "capex": -33489000,
+      "gross_margin": null,
+      "op_margin": 0.25945806330421717,
+      "fcf_margin": 0.35270968347891424,
+      "rev_growth_yoy": -0.00023944673718607828,
+      "rev_growth_yoy_accel": -0.06680866904661735,
+      "fcf_margin_change": 0.003503963779440844
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.0% vs prior quarter YoY: +6.7% (decel: -6.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -562,20 +569,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +14.8% vs prior quarter YoY: +6.4% (accel: +8.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +47.1% vs year-ago OPM: +6.2%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +59.4% vs year-ago OPM: +3.5%",
       "severity": "HIGH"
     },
     {
@@ -618,7 +613,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:32:40.303644",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-13T11:36:07.352923"
 }

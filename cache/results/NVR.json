@@ -1,25 +1,9 @@
 {
   "ticker": "NVR",
   "name": "NVR, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2344015000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 305004000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 342139000,
-      "ocf": 345929000,
-      "capex": -3790000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.1459628031390584
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3104000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.15927631688518826,
-      "fcf_margin_change": 0.013313513746129851
+      "fcf_margin": 0.15927631688518826
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.11396104900551082,
-      "rev_growth_yoy": -0.0484954234507885,
       "fcf_margin_change": -0.07636220490576132
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.1283505065781369,
       "rev_growth_yoy": 0.16506094209692543,
-      "rev_growth_yoy_accel": 0.21355636554771393,
       "fcf_margin_change": 0.01438945757262608
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": -0.04516948895168629,
       "rev_growth_yoy_accel": -0.0399472020394041,
       "fcf_margin_change": 0.15571832280185535
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2712608000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 363815000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 436028000,
+      "ocf": 439728000,
+      "capex": -3700000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.16074124974931875,
+      "rev_growth_yoy": -0.046738693453209294,
+      "rev_growth_yoy_accel": -0.0015692045015230013,
+      "fcf_margin_change": -0.00529023898130257
     }
   ],
   "signals": [
@@ -481,12 +483,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +16.5% vs prior quarter YoY: -4.8% (accel: +21.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +8.3% -> +19.0% (+10.7%)",
@@ -521,7 +517,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:17:52.168548",
-  "sector": "Consumer Cyclical",
-  "industry": "Residential Construction"
+  "last_updated": "2026-02-13T11:43:17.098298"
 }

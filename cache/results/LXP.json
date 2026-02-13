@@ -1,25 +1,9 @@
 {
   "ticker": "LXP",
   "name": "LXP INDUSTRIAL TRUST",
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 83315000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 104378000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 49369000,
-      "ocf": 49369000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5925583628398248
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6201583888846873,
-      "fcf_margin_change": 0.027600026044862558
+      "fcf_margin": 0.6201583888846873
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6121620684072986,
-      "rev_growth_yoy": 0.038012362719798354,
       "fcf_margin_change": -0.09174720668051328
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.5243030469119808,
       "rev_growth_yoy": -0.13266419611698738,
-      "rev_growth_yoy_accel": -0.17067655883678573,
       "fcf_margin_change": -0.08785902149531777
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.015566203108566086,
       "rev_growth_yoy_accel": -0.006966611103543118,
       "fcf_margin_change": 0.22575462281876124
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 86744000,
+      "gross_profit": 70699000,
+      "operating_income": null,
+      "net_income": 28771000,
+      "opex": null,
+      "cogs": 16045000,
+      "rd": null,
+      "sga": null,
+      "fcf": 41940000,
+      "ocf": 41940000,
+      "capex": null,
+      "gross_margin": 0.8150304343816287,
+      "op_margin": null,
+      "fcf_margin": 0.48349165360140184,
+      "rev_growth_yoy": -0.13987962439638674,
+      "rev_growth_yoy_accel": -0.1554458275049528,
+      "fcf_margin_change": -0.2471934859811164
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -14.0% vs prior quarter YoY: +1.6% (decel: -15.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -481,12 +489,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -13.3% vs prior quarter YoY: +3.8% (decel: -17.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +62.9% -> +70.4% (+7.5%)",
@@ -501,7 +503,7 @@
         20
       ],
       "gross_profit": [
-        13,
+        14,
         20
       ],
       "op_income": [
@@ -515,13 +517,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 13/20Q",
+      "gross_profit: 14/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:23:28.463201",
-  "sector": "Real Estate",
-  "industry": "REIT - Industrial"
+  "last_updated": "2026-02-13T11:36:33.191868"
 }

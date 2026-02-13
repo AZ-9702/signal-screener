@@ -1,25 +1,9 @@
 {
   "ticker": "CTRE",
   "name": "CareTrust REIT, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 44137000,
-      "gross_profit": 43928000,
-      "operating_income": null,
-      "net_income": 21055000,
-      "opex": 23101000,
-      "cogs": 209000,
-      "rd": null,
-      "sga": null,
-      "fcf": 37350000,
-      "ocf": 37350000,
-      "capex": null,
-      "gross_margin": 0.995264743865691,
-      "op_margin": null,
-      "fcf_margin": 0.8462287876384893
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 1.0,
       "op_margin": null,
-      "fcf_margin": 0.742038425389609,
-      "op_leverage_ratio": 0.42837546527291176,
-      "fcf_margin_change": -0.10419036224888034
+      "fcf_margin": 0.742038425389609
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": 1.0,
       "op_margin": null,
       "fcf_margin": 0.7742324627540865,
-      "rev_growth_yoy": 0.126877676325985,
       "op_leverage_ratio": 0.10509053221774617,
       "fcf_margin_change": -0.20932889924570774
     },
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.744018418108271,
       "rev_growth_yoy": 0.01584664816069594,
-      "rev_growth_yoy_accel": -0.11103102816528906,
       "fcf_margin_change": -0.030214044645815563
     },
     {
@@ -140,7 +120,7 @@
       "fcf_margin": 0.709166614093748,
       "rev_growth_yoy": -0.014608976749968918,
       "rev_growth_yoy_accel": -0.030455624910664857,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.034851804014522925
     },
     {
@@ -184,7 +164,7 @@
       "fcf_margin": 0.6512835359969118,
       "rev_growth_yoy": 0.04167923276434043,
       "rev_growth_yoy_accel": 0.006950295412216159,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19117962985121817
     },
     {
@@ -249,7 +229,7 @@
       "fcf_margin": 0.8073089106430195,
       "rev_growth_yoy": 0.11102936790408208,
       "rev_growth_yoy_accel": 0.026912698083040296,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18918775377532993
     },
     {
@@ -271,7 +251,7 @@
       "fcf_margin": 0.7143502862691264,
       "rev_growth_yoy": 0.15294344721096315,
       "rev_growth_yoy_accel": 0.04191407930688107,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09295862437389302
     },
     {
@@ -293,7 +273,7 @@
       "fcf_margin": 0.7740605676232757,
       "rev_growth_yoy": 0.2462949057424021,
       "rev_growth_yoy_accel": 0.09335145853143895,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05971028135414924
     },
     {
@@ -337,7 +317,7 @@
       "fcf_margin": 0.8690505421227434,
       "rev_growth_yoy": 0.3848452851799488,
       "rev_growth_yoy_accel": 0.04853120064558614,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10008217179860812
     },
     {
@@ -381,7 +361,7 @@
       "fcf_margin": 0.7387834942714316,
       "rev_growth_yoy": 0.5319644839067702,
       "rev_growth_yoy_accel": 0.07644501425799394,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12623306811355184
     },
     {
@@ -427,9 +407,43 @@
       "rev_growth_yoy_accel": 0.0790184607911425,
       "op_leverage_ratio": 1.0511810771188965,
       "fcf_margin_change": -0.1341026624843662
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 134859000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 111290000,
+      "opex": 61596000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 120960000,
+      "ocf": 120960000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.8969368006584655,
+      "rev_growth_yoy": 0.5511018586676482,
+      "rev_growth_yoy_accel": -0.1604810880505385,
+      "op_leverage_ratio": 0.32798935360010334,
+      "fcf_margin_change": 0.13501478078591556
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +76.2% -> +89.7% (+13.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +55.1% vs prior quarter YoY: +71.2% (decel: -16.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -503,12 +517,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +1.6% vs prior quarter YoY: +12.7% (decel: -11.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +75.9% -> +98.4% (+22.5%)",
@@ -523,7 +531,7 @@
         20
       ],
       "gross_profit": [
-        5,
+        4,
         20
       ],
       "op_income": [
@@ -537,13 +545,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 5/20Q",
+      "gross_profit: 4/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:15.095387",
-  "sector": "Real Estate",
-  "industry": "REIT - Healthcare Facilities"
+  "last_updated": "2026-02-13T11:33:53.550114"
 }

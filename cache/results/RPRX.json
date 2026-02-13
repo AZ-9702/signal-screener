@@ -1,25 +1,9 @@
 {
   "ticker": "RPRX",
   "name": "Royalty Pharma plc",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 572143000,
-      "gross_profit": null,
-      "operating_income": 314055000,
-      "net_income": 171094000,
-      "opex": 258088000,
-      "cogs": null,
-      "rd": 7779000,
-      "sga": null,
-      "fcf": 565673000,
-      "ocf": 565673000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.5489099753033769,
-      "fcf_margin": 0.9886916382792413
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.40015042921188704,
-      "fcf_margin": 0.9181068256818614,
-      "fcf_margin_change": -0.07058481259737992
+      "fcf_margin": 0.9181068256818614
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -75,7 +58,7 @@
       "gross_margin": null,
       "op_margin": 0.5173539920754285,
       "fcf_margin": 0.8019471706616726,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15617075792095358
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.26648775403856173,
       "fcf_margin": 0.8510630536737884,
-      "incr_op_margin_yoy": -45.16109080685971,
-      "rev_growth_yoy": 0.006216977224225412,
       "fcf_margin_change": 0.04911588301211578
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.818914365117632,
       "incr_op_margin_yoy": 0.8725633084350519,
       "rev_growth_yoy": -0.019157910534756652,
-      "rev_growth_yoy_accel": -0.025374887758982063,
       "fcf_margin_change": -0.03214868855615638
     },
     {
@@ -208,7 +188,7 @@
       "incr_op_margin_yoy": 2.1263922835911484,
       "rev_growth_yoy": 0.21692414718289688,
       "rev_growth_yoy_accel": 0.2342109284926068,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5041279360415114
     },
     {
@@ -275,7 +255,7 @@
       "incr_op_margin_yoy": 36.132948548812664,
       "rev_growth_yoy": 0.053592765683661274,
       "rev_growth_yoy_accel": 0.11837462606523777,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22683228264424882
     },
     {
@@ -341,7 +321,7 @@
       "incr_op_margin_yoy": 20.56707897240723,
       "rev_growth_yoy": 0.052911266368706335,
       "rev_growth_yoy_accel": 0.05464853230231491,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02091221635491336
     },
     {
@@ -364,7 +344,7 @@
       "incr_op_margin_yoy": 103.57725587144623,
       "rev_growth_yoy": -0.004071683096559453,
       "rev_growth_yoy_accel": -0.05698294946526579,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00477987197940255
     },
     {
@@ -431,11 +411,46 @@
       "incr_op_margin_yoy": -6.903836236855676,
       "rev_growth_yoy": 0.0789831589013441,
       "rev_growth_yoy_accel": 0.0019302224656426586,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5241617706196723
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 621990000,
+      "gross_profit": null,
+      "operating_income": 388382000,
+      "net_income": 214205000,
+      "opex": 233608000,
+      "cogs": null,
+      "rd": 50500000,
+      "sga": null,
+      "fcf": 827148000,
+      "ocf": 827148000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6244183990096304,
+      "fcf_margin": 1.329841315776781,
+      "incr_op_margin_yoy": 0.9477582983526756,
+      "rev_growth_yoy": 0.0477544509223588,
+      "rev_growth_yoy_accel": -0.031228707978985297,
+      "op_leverage_ratio": 0.07374943359316811,
+      "fcf_margin_change": 0.17667312520774248
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +115.3% -> +133.0% (+17.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +94.8% vs year-ago OPM: +60.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -620,5 +635,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:42.129865"
+  "last_updated": "2026-02-13T11:43:59.495704"
 }

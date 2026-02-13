@@ -1,25 +1,9 @@
 {
   "ticker": "USFD",
   "name": "US FOODS HOLDING CORP.",
+  "sector": "Consumer Defensive",
+  "industry": "Food Distribution",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 6138000000,
-      "gross_profit": 1008000000,
-      "operating_income": 30000000,
-      "net_income": -10000000,
-      "opex": 978000000,
-      "cogs": 5130000000,
-      "rd": null,
-      "sga": 978000000,
-      "fcf": -155000000,
-      "ocf": -120000000,
-      "capex": -35000000,
-      "gross_margin": 0.16422287390029325,
-      "op_margin": 0.004887585532746823,
-      "fcf_margin": -0.025252525252525252
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -46000000,
       "gross_margin": 0.15933280381254963,
       "op_margin": 0.004447974583002383,
-      "fcf_margin": 0.020651310563939634,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.045903835816464886
+      "fcf_margin": 0.020651310563939634
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.162586726011258,
       "op_margin": 0.017934284592224112,
       "fcf_margin": -0.026443251734520227,
-      "incr_op_margin_yoy": 0.07128580946035976,
-      "rev_growth_yoy": 0.24454219615509937,
       "fcf_margin_change": -0.05229876504250502
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.011028468838163632,
       "incr_op_margin_yoy": 0.003992015968063872,
       "rev_growth_yoy": 0.23876092136616361,
-      "rev_growth_yoy_accel": -0.005781274788935753,
       "op_leverage_ratio": 0.4107096104576141,
       "fcf_margin_change": 0.03747172057268386
     },
@@ -438,6 +417,28 @@
       "rev_growth_yoy_accel": 0.00917660965341436,
       "op_leverage_ratio": 0.23015064351108788,
       "fcf_margin_change": -0.002333285856876373
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 9800000000,
+      "gross_profit": 1720000000,
+      "operating_income": 321000000,
+      "net_income": 184000000,
+      "opex": 1399000000,
+      "cogs": 8080000000,
+      "rd": null,
+      "sga": 1386000000,
+      "fcf": 159000000,
+      "ocf": 293000000,
+      "capex": -134000000,
+      "gross_margin": 0.17551020408163265,
+      "op_margin": 0.032755102040816324,
+      "fcf_margin": 0.016224489795918368,
+      "incr_op_margin_yoy": 0.061488673139158574,
+      "rev_growth_yoy": 0.03255715941418186,
+      "rev_growth_yoy_accel": -0.015037412954239195,
+      "fcf_margin_change": -0.006933198360297901
     }
   ],
   "signals": [
@@ -512,12 +513,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +21.7% vs OpEx growth +7.2% (leverage: 3.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -2.5% -> +2.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -545,5 +540,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:03.206910"
+  "last_updated": "2026-02-13T11:39:13.342325"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "MITQ",
   "name": "MOVING iMAGE TECHNOLOGIES INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1609000,
-      "gross_profit": 421000,
-      "operating_income": -356000,
-      "net_income": -157000,
-      "opex": 777000,
-      "cogs": 1188000,
-      "rd": 34000,
-      "sga": null,
-      "fcf": -510000,
-      "ocf": -510000,
-      "capex": null,
-      "gross_margin": 0.26165320074580484,
-      "op_margin": -0.22125543816034804,
-      "fcf_margin": -0.31696706028589183
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.2432748538011696,
       "op_margin": -0.17076023391812867,
-      "fcf_margin": -0.30116959064327486,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.015797469642616968
+      "fcf_margin": -0.30116959064327486
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.2620649312664522,
       "op_margin": -0.18777420298332845,
       "fcf_margin": -0.6071950862825387,
-      "incr_op_margin_yoy": -0.1580110497237569,
-      "rev_growth_yoy": 1.124922311995028,
       "fcf_margin_change": -0.385836421918693
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.32784918594687235,
       "incr_op_margin_yoy": 0.03903030303030303,
       "rev_growth_yoy": 2.412280701754386,
-      "rev_growth_yoy_accel": 1.2873583897593581,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.935044272229411
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.24684608915054668,
       "rev_growth_yoy": 0.6845135290731146,
       "rev_growth_yoy_accel": -0.9055371388218647,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.43604141957240605
     },
     {
@@ -254,7 +233,7 @@
       "fcf_margin": -0.031348907309721175,
       "rev_growth_yoy": 0.1338004101161996,
       "rev_growth_yoy_accel": 0.10730209960579588,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19524357120438507
     },
     {
@@ -298,7 +277,7 @@
       "fcf_margin": 0.26735218508997427,
       "rev_growth_yoy": 0.03982892274792836,
       "rev_growth_yoy_accel": 0.36566001917576235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6250857226091167
     },
     {
@@ -385,7 +364,7 @@
       "fcf_margin": 0.014841781013721647,
       "rev_growth_yoy": -0.0820051413881748,
       "rev_growth_yoy_accel": -0.13591019498694967,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.005501142555008373
     },
     {
@@ -430,6 +409,27 @@
       "rev_growth_yoy": 0.06283320639756283,
       "rev_growth_yoy_accel": 0.13623059181258884,
       "fcf_margin_change": -0.08873112277248213
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3793000,
+      "gross_profit": 1165000,
+      "operating_income": -408000,
+      "net_income": -388000,
+      "opex": 1573000,
+      "cogs": 2628000,
+      "rd": 47000,
+      "sga": null,
+      "fcf": -1635000,
+      "ocf": -1635000,
+      "capex": null,
+      "gross_margin": 0.3071447403110994,
+      "op_margin": -0.10756656999736357,
+      "fcf_margin": -0.43105721065119956,
+      "rev_growth_yoy": 0.1022958442313281,
+      "rev_growth_yoy_accel": 0.039462637833765274,
+      "fcf_margin_change": -0.40113961839036116
     }
   ],
   "signals": [
@@ -614,12 +614,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +241.2% vs prior quarter YoY: +112.5% (accel: +128.7%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +60.0% vs OpEx growth +25.3% (leverage: 2.4x)",
@@ -663,7 +657,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:15:00.673149",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-13T11:36:56.746731"
 }

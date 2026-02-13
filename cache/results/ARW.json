@@ -1,25 +1,9 @@
 {
   "ticker": "ARW",
-  "name": "ARROW ELECTRONICS,\u00a0INC.",
+  "name": "ARROW ELECTRONICS, INC.",
+  "sector": "Technology",
+  "industry": "Electronics & Computer Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 8454192000,
-      "gross_profit": 923686000,
-      "operating_income": 321412000,
-      "net_income": 236071000,
-      "opex": 602274000,
-      "cogs": 7530506000,
-      "rd": null,
-      "sga": 547530000,
-      "fcf": 165976000,
-      "ocf": 200006000,
-      "capex": -34030000,
-      "gross_margin": 0.10925775047455748,
-      "op_margin": 0.03801806251857067,
-      "fcf_margin": 0.019632390653063003
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -20180000,
       "gross_margin": 0.11091330598351833,
       "op_margin": 0.035714988422855025,
-      "fcf_margin": -0.002947321575607873,
-      "fcf_margin_change": -0.022579712228670876
+      "fcf_margin": -0.002947321575607873
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.13269385343536885,
       "op_margin": 0.056779905495483236,
       "fcf_margin": 0.0007904768337714951,
-      "incr_op_margin_yoy": 0.33907294197211174,
-      "rev_growth_yoy": 0.06646229468173895,
       "op_leverage_ratio": 2.932135599601202,
       "fcf_margin_change": -0.01014299649939659
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.02419164382240712,
       "incr_op_margin_yoy": 0.3064097087209353,
       "rev_growth_yoy": 0.08206685516518822,
-      "rev_growth_yoy_accel": 0.01560456048344927,
       "fcf_margin_change": -0.024982120656178615
     },
     {
@@ -363,7 +343,7 @@
       "incr_op_margin_yoy": 0.21469237832874197,
       "rev_growth_yoy": -0.07214532719883167,
       "rev_growth_yoy_accel": 0.0756874680024786,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03263800905514729
     },
     {
@@ -431,11 +411,52 @@
       "incr_op_margin_yoy": 0.004211546722865606,
       "rev_growth_yoy": 0.1303210358478037,
       "rev_growth_yoy_accel": 0.030641337933959983,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.010828939025175854
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8746430000,
+      "gross_profit": 1008756000,
+      "operating_income": 294077000,
+      "net_income": 194604000,
+      "opex": 714679000,
+      "cogs": 7737674000,
+      "rd": null,
+      "sga": 639455000,
+      "fcf": 172569000,
+      "ocf": 199950000,
+      "capex": -27381000,
+      "gross_margin": 0.11533345605006842,
+      "op_margin": 0.03362251798733883,
+      "fcf_margin": 0.019730221358885854,
+      "incr_op_margin_yoy": 0.06762583931022655,
+      "rev_growth_yoy": 0.2009580829114648,
+      "rev_growth_yoy_accel": 0.07063704706366111,
+      "op_leverage_ratio": 1.5072277848787414,
+      "fcf_margin_change": 0.060178628699605344
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -4.0% -> +2.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +13.4% vs OpEx growth +8.9% (leverage: 1.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +20.1% vs prior quarter YoY: +13.0% (accel: +7.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -533,12 +554,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +33.9% vs year-ago OPM: +3.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.3% -> +3.0%",
@@ -570,7 +585,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:10.015078",
-  "sector": "Technology",
-  "industry": "Electronics & Computer Distribution"
+  "last_updated": "2026-02-13T11:40:21.833551"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "PHIN",
   "name": "PHINIA INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -55,7 +57,7 @@
       "gross_margin": 0.2339930151338766,
       "op_margin": 0.12922002328288706,
       "fcf_margin": 0.05238649592549476,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-12-31T00:00:00",
@@ -140,7 +142,7 @@
       "incr_op_margin_yoy": -1.4324324324324325,
       "rev_growth_yoy": 0.04307334109429569,
       "rev_growth_yoy_accel": -0.0712482669459053,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09858295417941697
     },
     {
@@ -295,7 +297,7 @@
       "incr_op_margin_yoy": 0.8181818181818182,
       "rev_growth_yoy": 0.02534562211981567,
       "rev_growth_yoy_accel": 0.10298177507462447,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.013793687538817677
     },
     {
@@ -320,9 +322,37 @@
       "rev_growth_yoy_accel": 0.0568951406930568,
       "op_leverage_ratio": 0.037659821774506,
       "fcf_margin_change": 0.06701232490224224
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 889000000,
+      "gross_profit": 193000000,
+      "operating_income": 69000000,
+      "net_income": 45000000,
+      "opex": 124000000,
+      "cogs": 696000000,
+      "rd": 27000000,
+      "sga": 121000000,
+      "fcf": 96000000,
+      "ocf": 96000000,
+      "capex": null,
+      "gross_margin": 0.2170978627671541,
+      "op_margin": 0.07761529808773904,
+      "fcf_margin": 0.10798650168728909,
+      "incr_op_margin_yoy": 0.32142857142857145,
+      "rev_growth_yoy": 0.06722689075630252,
+      "rev_growth_yoy_accel": -0.015013872056569955,
+      "fcf_margin_change": -0.023070767035177867
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +32.1% vs year-ago OPM: +6.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -415,23 +445,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        13,
-        15
+        14,
+        16
       ]
     },
     "gaps": [],
@@ -439,5 +469,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:26:53.818337"
+  "last_updated": "2026-02-13T11:37:54.767533"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "HIW",
   "name": "HIGHWOODS PROPERTIES, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 179904000,
-      "gross_profit": null,
-      "operating_income": 122292000,
-      "net_income": null,
-      "opex": 129145000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 82701000,
-      "ocf": 82701000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.6797625400213447,
-      "fcf_margin": 0.45969517075773747
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.6943010255433748,
-      "fcf_margin": 0.45145670683604905,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.008238463921688421
+      "fcf_margin": 0.45145670683604905
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.6877340616618686,
       "fcf_margin": 0.5183927560837578,
-      "incr_op_margin_yoy": 0.7492811467318999,
-      "rev_growth_yoy": 0.12951907684098185,
       "op_leverage_ratio": 0.9087082099209262,
       "fcf_margin_change": -0.05350422337863259
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.3589432982197715,
       "incr_op_margin_yoy": 0.7681743676073185,
       "rev_growth_yoy": 0.12280949919751911,
-      "rev_growth_yoy_accel": -0.006709577643462736,
       "op_leverage_ratio": 1.8433143444207805,
       "fcf_margin_change": -0.1594494578639863
     },
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.4986089375760737,
       "rev_growth_yoy": 0.05883526432901097,
       "rev_growth_yoy_accel": -0.04002620347187527,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05709258123881955
     },
     {
@@ -299,7 +278,7 @@
       "incr_op_margin_yoy": 4.184834123222749,
       "rev_growth_yoy": -0.006942355418515455,
       "rev_growth_yoy_accel": 0.015984909321958677,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15418468527768475
     },
     {
@@ -433,6 +412,28 @@
       "rev_growth_yoy": -0.012480239620600716,
       "rev_growth_yoy_accel": 0.0077309571284151,
       "fcf_margin_change": -0.10181942125430937
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 203356000,
+      "gross_profit": null,
+      "operating_income": 136595000,
+      "net_income": null,
+      "opex": 150269000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 99684000,
+      "ocf": 99684000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6717038100670745,
+      "fcf_margin": 0.4901945356911033,
+      "incr_op_margin_yoy": -1.1714285714285715,
+      "rev_growth_yoy": -0.010558274865467144,
+      "rev_growth_yoy_accel": 0.001921964755133572,
+      "fcf_margin_change": 0.011101693735043716
     }
   ],
   "signals": [
@@ -524,7 +525,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:23:18.855508",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-13T11:46:33.640975"
 }

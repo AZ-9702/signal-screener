@@ -1,25 +1,9 @@
 {
   "ticker": "EXC",
   "name": "EXELON CORPORATION",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 8114000000,
-      "gross_profit": null,
-      "operating_income": 269000000,
-      "net_income": null,
-      "opex": 7853000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -2429000000,
-      "ocf": 13000000,
-      "capex": -2442000000,
-      "gross_margin": null,
-      "op_margin": 0.033152575794922354,
-      "fcf_margin": -0.2993591323638156
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2140000000,
       "gross_margin": null,
       "op_margin": -0.012234580384226491,
-      "fcf_margin": -0.34388270980788677,
-      "op_leverage_ratio": 0.7711404544460814,
-      "fcf_margin_change": -0.04452357744407115
+      "fcf_margin": -0.34388270980788677
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": 0.20852974186307519,
       "fcf_margin": 0.12042648709315376,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05738163554545951
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.06426495016611296,
       "fcf_margin": -0.32599667774086377,
-      "incr_op_margin_yoy": 0.230566534914361,
-      "rev_growth_yoy": 0.1870840522553611,
       "op_leverage_ratio": 0.29574802152579927,
       "fcf_margin_change": -0.44642316483401756
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.026281208935611037,
       "incr_op_margin_yoy": -0.2237563006793776,
       "rev_growth_yoy": -0.4613751263902932,
-      "rev_growth_yoy_accel": -0.6484591786456543,
       "fcf_margin_change": 0.29971546880525274
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy_accel": 0.07722412563636664,
       "op_leverage_ratio": 1.5080689487602295,
       "fcf_margin_change": 0.11681067691618961
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5412000000,
+      "gross_profit": null,
+      "operating_income": 1185000000,
+      "net_income": null,
+      "opex": 4229000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1190000000,
+      "ocf": 1244000000,
+      "capex": -2434000000,
+      "gross_margin": null,
+      "op_margin": 0.2189578713968958,
+      "fcf_margin": -0.21988174427198817,
+      "incr_op_margin_yoy": -1.4745762711864407,
+      "rev_growth_yoy": -0.010784134527508682,
+      "rev_growth_yoy_accel": -0.10031939614596821,
+      "fcf_margin_change": -0.24419196052851316
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -1.1% vs prior quarter YoY: +9.0% (decel: -10.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -586,21 +593,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -46.1% vs prior quarter YoY: +18.7% (decel: -64.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -1.2% (year-ago) -> +16.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +23.1% vs year-ago OPM: +3.3%",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -648,7 +643,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:01:18.284018",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-13T11:34:32.004602"
 }

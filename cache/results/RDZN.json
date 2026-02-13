@@ -1,6 +1,8 @@
 {
   "ticker": "RDZN",
   "name": "ROADZEN INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
     {
       "date": "2022-09-30T00:00:00",
@@ -189,7 +191,7 @@
       "incr_op_margin_yoy": 4.449089290843305,
       "rev_growth_yoy": -0.23247239389393326,
       "rev_growth_yoy_accel": -0.8242849519281915,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16415070481854033
     },
     {
@@ -212,7 +214,7 @@
       "incr_op_margin_yoy": -7.917652254261769,
       "rev_growth_yoy": -0.22729075920818292,
       "rev_growth_yoy_accel": 0.005181634685750336,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20719348727980325
     },
     {
@@ -279,11 +281,40 @@
       "incr_op_margin_yoy": 11.192989686838185,
       "rev_growth_yoy": 0.15202577913707635,
       "rev_growth_yoy_accel": -0.06451391955016794,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17540792202751304
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 14355675,
+      "gross_profit": 9142650,
+      "operating_income": -2363493,
+      "net_income": -9148437,
+      "opex": 11506143,
+      "cogs": 5213025,
+      "rd": 293956,
+      "sga": null,
+      "fcf": -7472110,
+      "ocf": -7472110,
+      "capex": null,
+      "gross_margin": 0.6368666050185728,
+      "op_margin": -0.16463823540167913,
+      "fcf_margin": -0.5204986878011657,
+      "incr_op_margin_yoy": 0.3548620355523006,
+      "rev_growth_yoy": 0.18776562130004204,
+      "rev_growth_yoy_accel": 0.03573984216296569,
+      "op_leverage_ratio": 0.9882576913156422,
+      "fcf_margin_change": -0.07621267452282265
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +58.9% -> +55.7% -> +63.7% (reversal +8.0%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -376,23 +407,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 13,
+    "n_quarters": 14,
     "coverage": {
       "revenue": [
-        13,
-        13
+        14,
+        14
       ],
       "gross_profit": [
-        13,
-        13
+        14,
+        14
       ],
       "op_income": [
-        13,
-        13
+        14,
+        14
       ],
       "fcf": [
-        13,
-        13
+        14,
+        14
       ]
     },
     "gaps": [],
@@ -400,5 +431,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:12:08.495678"
+  "last_updated": "2026-02-13T11:38:32.310064"
 }

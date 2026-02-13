@@ -1,25 +1,9 @@
 {
   "ticker": "EXEL",
   "name": "EXELIXIS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 270052000,
-      "gross_profit": 191316000,
-      "operating_income": 24297000,
-      "net_income": 28388000,
-      "opex": 245755000,
-      "cogs": 9037000,
-      "rd": 154279000,
-      "sga": 82439000,
-      "fcf": 19003000,
-      "ocf": 33293000,
-      "capex": -14290000,
-      "gross_margin": 0.7084413372239421,
-      "op_margin": 0.08997156103269,
-      "fcf_margin": 0.07036792913957311
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -13557000,
       "gross_margin": 0.9511601228583059,
       "op_margin": -0.01704844021759242,
-      "fcf_margin": 0.09616622876808645,
-      "fcf_margin_change": 0.025798299628513335
+      "fcf_margin": 0.09616622876808645
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.9613580250118776,
       "op_margin": 0.31935447859036237,
       "fcf_margin": 0.4187425521253865,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3225763233573001
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.971368089728244,
       "op_margin": 0.2585538857117525,
       "fcf_margin": 0.2005851842000266,
-      "incr_op_margin_yoy": 0.5099564852447429,
-      "rev_growth_yoy": 0.6705671500303645,
       "op_leverage_ratio": 1.792708754960022,
       "fcf_margin_change": -0.008931201680377615
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.3992078206640822,
       "incr_op_margin_yoy": 1.0244897959183674,
       "rev_growth_yoy": 0.317322281019872,
-      "rev_growth_yoy_accel": -0.3532448690104925,
       "fcf_margin_change": 0.19862263646405562
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": 2.3300619000627973,
       "rev_growth_yoy": 0.1314762087861539,
       "rev_growth_yoy_accel": -0.01468955682207268,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.23418517602099403
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 1.1834339329468715,
       "rev_growth_yoy": 0.3561364526400027,
       "rev_growth_yoy_accel": 0.3159249004417973,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.038252132399640454
     },
     {
@@ -367,7 +347,7 @@
       "incr_op_margin_yoy": 0.9347324431994306,
       "rev_growth_yoy": 0.18159624060777396,
       "rev_growth_yoy_accel": 0.03830500480509555,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0708014948498415
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": 0.90395693370286,
       "rev_growth_yoy": -0.10815972930641045,
       "rev_growth_yoy_accel": -0.4143992348869723,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.29412486170094737
     },
     {
@@ -437,9 +417,49 @@
       "rev_growth_yoy_accel": 0.2160530907129367,
       "op_leverage_ratio": 2.8191323518103983,
       "fcf_margin_change": 0.401986522304524
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 598663000,
+      "gross_profit": 572182000,
+      "operating_income": 235216000,
+      "net_income": 244528000,
+      "opex": 363447000,
+      "cogs": 26481000,
+      "rd": 213248000,
+      "sga": 123024000,
+      "fcf": 332358000,
+      "ocf": 333515000,
+      "capex": -1157000,
+      "gross_margin": 0.9557664328679073,
+      "op_margin": 0.3929021836993434,
+      "fcf_margin": 0.5551670973485918,
+      "incr_op_margin_yoy": 2.2568008023066315,
+      "rev_growth_yoy": 0.056299459201947934,
+      "rev_growth_yoy_accel": -0.051593902204578344,
+      "fcf_margin_change": 0.07195909406965645
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +48.3% -> +55.5% (+7.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +5.6% vs prior quarter YoY: +10.8% (decel: -5.2%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +225.7% vs year-ago OPM: +28.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
@@ -622,12 +642,6 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +31.7% vs prior quarter YoY: +67.1% (decel: -35.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -1.7% (year-ago) -> +23.4%",
       "severity": "HIGH"
@@ -637,12 +651,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +37.4% vs OpEx growth +20.8% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +51.0% vs year-ago OPM: +9.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-07 (Q3)",
@@ -682,7 +690,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:33:41.836729",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-13T11:46:05.207340"
 }

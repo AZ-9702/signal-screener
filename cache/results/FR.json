@@ -1,25 +1,9 @@
 {
   "ticker": "FR",
   "name": "FIRST INDUSTRIAL REALTY TRUST, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Industrial",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 112289000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 83727000,
-      "opex": 71692000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 50291000,
-      "ocf": 50291000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.44787111827516496
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.35614447053561443,
-      "op_leverage_ratio": 1.2133484751983383,
-      "fcf_margin_change": -0.09172664773955053
+      "fcf_margin": 0.35614447053561443
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5796579213663401,
-      "rev_growth_yoy": 0.08248359144706961,
       "fcf_margin_change": -0.06414545155449047
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.4772254666847259,
       "rev_growth_yoy": 0.07959813863872904,
-      "rev_growth_yoy_accel": -0.0028854528083405717,
       "op_leverage_ratio": 0.8814097544978281,
       "fcf_margin_change": -0.10243245468161422
     },
@@ -228,7 +208,7 @@
       "fcf_margin": 0.5635876313040736,
       "rev_growth_yoy": 0.17050496351375252,
       "rev_growth_yoy_accel": -0.01999323189230104,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0929907352438955
     },
     {
@@ -316,7 +296,7 @@
       "fcf_margin": 0.6563764195545158,
       "rev_growth_yoy": 0.07826018407205218,
       "rev_growth_yoy_accel": -0.007730593786778123,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.27122679423406615
     },
     {
@@ -403,7 +383,7 @@
       "fcf_margin": 0.6996664131924979,
       "rev_growth_yoy": 0.09764463615538334,
       "rev_growth_yoy_accel": 0.0064274206160419844,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19950263985479733
     },
     {
@@ -426,6 +406,28 @@
       "rev_growth_yoy": 0.08222732559873543,
       "rev_growth_yoy_accel": -0.015417310556647912,
       "fcf_margin_change": -0.012856073116435551
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 188409000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 78849000,
+      "opex": 109304000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 122035000,
+      "ocf": 122035000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.6477132196444968,
+      "rev_growth_yoy": 0.07301751828143153,
+      "rev_growth_yoy_accel": -0.009209807317303892,
+      "op_leverage_ratio": 0.4487921656530875,
+      "fcf_margin_change": -0.039097120431565546
     }
   ],
   "signals": [
@@ -518,7 +520,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:46:37.889702",
-  "sector": "Real Estate",
-  "industry": "REIT - Industrial"
+  "last_updated": "2026-02-13T11:41:51.974287"
 }

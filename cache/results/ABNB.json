@@ -1,25 +1,9 @@
 {
   "ticker": "ABNB",
   "name": "Airbnb, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 859264000,
-      "gross_profit": 649517000,
-      "operating_income": -3100180000,
-      "net_income": -3887851000,
-      "opex": 3959444000,
-      "cogs": 209747000,
-      "rd": 2062195000,
-      "sga": null,
-      "fcf": -256889000,
-      "ocf": -249378000,
-      "capex": -7511000,
-      "gross_margin": 0.7558992346938775,
-      "op_margin": -3.607948197527186,
-      "fcf_margin": -0.29896399709518845
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -7706000,
       "gross_margin": 0.7130401742628555,
       "op_margin": -0.5039202377623639,
-      "fcf_margin": 0.674986695770608,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.9739506928657964
+      "fcf_margin": 0.674986695770608
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.860742136520797,
       "op_margin": 0.38078162822378514,
       "fcf_margin": 0.2365336689561962,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.34914963147310407
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.8072629089228793,
       "op_margin": 0.04931940822192461,
       "fcf_margin": 0.24676999548360654,
-      "incr_op_margin_yoy": 4.719268811707572,
-      "rev_growth_yoy": 0.7831492998659317,
       "fcf_margin_change": 0.010236326527410328
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.7926109572500376,
       "incr_op_margin_yoy": 0.7103107551274034,
       "rev_growth_yoy": 0.701291863223502,
-      "rev_growth_yoy_accel": -0.08185743664242973,
       "fcf_margin_change": 0.545840961766431
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.5433075004095966,
       "rev_growth_yoy": 0.28916096667965774,
       "rev_growth_yoy_accel": -0.28671778071023857,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0461774428174917
     },
     {
@@ -256,7 +235,7 @@
       "incr_op_margin_yoy": 0.5706685655202013,
       "rev_growth_yoy": 0.17771051965566614,
       "rev_growth_yoy_accel": -0.002837807972158879,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.023315542699654024
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.08656716417910448,
       "rev_growth_yoy": 0.09861642625846335,
       "rev_growth_yoy_accel": -0.007663766978251621,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09360680904440294
     },
     {
@@ -436,8 +415,30 @@
       "incr_op_margin_yoy": 0.27548209366391185,
       "rev_growth_yoy": 0.0972668810289389,
       "rev_growth_yoy_accel": -0.029370673556213922,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.016213050515376082
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2778000000,
+      "gross_profit": 2291000000,
+      "operating_income": 269000000,
+      "net_income": 341000000,
+      "opex": 2509000000,
+      "cogs": 487000000,
+      "rd": 589000000,
+      "sga": null,
+      "fcf": 526000000,
+      "ocf": 526000000,
+      "capex": null,
+      "gross_margin": 0.8246940244780417,
+      "op_margin": 0.09683225341972643,
+      "fcf_margin": 0.18934485241180707,
+      "incr_op_margin_yoy": -0.540268456375839,
+      "rev_growth_yoy": 0.12016129032258065,
+      "rev_growth_yoy_accel": 0.02289440929364174,
+      "fcf_margin_change": -0.14179067872372406
     }
   ],
   "signals": [
@@ -610,18 +611,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +70.1% vs prior quarter YoY: +78.3% (decel: -8.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -360.8% (year-ago) -> +4.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -3.8% -> +38.1%",
@@ -632,18 +621,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +50.5% vs OpEx growth +3.9% (leverage: 12.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +75.6% -> +71.3% -> +77.9% (reversal +6.6%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -29.9% -> +67.5%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -671,7 +648,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:53:05.988414",
-  "sector": "Consumer Cyclical",
-  "industry": "Travel Services"
+  "last_updated": "2026-02-13T11:32:39.466601"
 }

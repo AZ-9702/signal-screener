@@ -1,6 +1,8 @@
 {
   "ticker": "NTST",
   "name": "NETSTREIT Corp.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -57,7 +59,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.34916362238031146,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3384722668790015
     },
     {
@@ -142,7 +144,7 @@
       "fcf_margin": 0.6578978930955903,
       "rev_growth_yoy": 0.6030891495225277,
       "rev_growth_yoy_accel": -0.03729351463169761,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07046306054279361
     },
     {
@@ -230,7 +232,7 @@
       "fcf_margin": 0.5040193162745502,
       "rev_growth_yoy": 0.35773397833126774,
       "rev_growth_yoy_accel": -0.03972117762879235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11529778774062527
     },
     {
@@ -362,7 +364,7 @@
       "fcf_margin": 0.48118057068176867,
       "rev_growth_yoy": 0.21864465266902025,
       "rev_growth_yoy_accel": 0.022323137870984278,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15455639076947847
     },
     {
@@ -407,9 +409,37 @@
       "rev_growth_yoy": 0.1656210790464241,
       "rev_growth_yoy_accel": -0.05473932229813072,
       "fcf_margin_change": -0.05539368907028874
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 52502000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 37947000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 28809000,
+      "ocf": 28809000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5487219534493925,
+      "rev_growth_yoy": 0.19052154195011337,
+      "rev_growth_yoy_accel": 0.024900462903689274,
+      "op_leverage_ratio": 1.9518451682151734,
+      "fcf_margin_change": -0.030353976003286154
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +8.7% vs OpEx growth +4.4% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -508,23 +538,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
         0,
-        19
+        20
       ],
       "op_income": [
         0,
-        19
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -535,7 +565,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:42:15.751116",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-13T11:47:10.500215"
 }

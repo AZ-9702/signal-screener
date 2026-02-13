@@ -1,25 +1,9 @@
 {
   "ticker": "GTY",
-  "name": "GETTY REALTY CORP /MD/",
+  "name": "GETTY REALTY CORP.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 37076000,
-      "gross_profit": null,
-      "operating_income": 20891000,
-      "net_income": 33831000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 29223000,
-      "ocf": 29223000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.5634642356241234,
-      "fcf_margin": 0.7881918222030424
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.6435622317596567,
-      "fcf_margin": 0.5205740343347639,
-      "fcf_margin_change": -0.2676177878682785
+      "fcf_margin": 0.5205740343347639
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.5994562179193983,
       "fcf_margin": 0.7147939218376785,
-      "incr_op_margin_yoy": 1.1852502194907815,
-      "rev_growth_yoy": 0.061441363685402955,
       "fcf_margin_change": 0.2488122777834088
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.5297423768469774,
       "incr_op_margin_yoy": 0.5894169524742773,
       "rev_growth_yoy": 0.054747854077253216,
-      "rev_growth_yoy_accel": -0.006693509608149739,
       "fcf_margin_change": -0.1850515449907011
     },
     {
@@ -426,9 +406,43 @@
       "rev_growth_yoy": 0.08012901470845396,
       "rev_growth_yoy_accel": 0.013645245158821429,
       "fcf_margin_change": -0.10293517269470631
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 60549000,
+      "gross_profit": null,
+      "operating_income": 40745000,
+      "net_income": 27044000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 33499000,
+      "ocf": 33499000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6729260598853821,
+      "fcf_margin": 0.5532543890072503,
+      "incr_op_margin_yoy": 1.0738085756006903,
+      "rev_growth_yoy": 0.14208918062471707,
+      "rev_growth_yoy_accel": 0.061960165916263105,
+      "fcf_margin_change": 0.003974829366301225
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +14.2% vs prior quarter YoY: +8.0% (accel: +6.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +107.4% vs year-ago OPM: +61.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -518,12 +532,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +46.6% -> +71.5% (+24.9%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +118.5% vs year-ago OPM: +56.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -553,7 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:43:21.086956",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-13T11:35:11.584900"
 }

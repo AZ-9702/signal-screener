@@ -1,25 +1,9 @@
 {
   "ticker": "ELMD",
-  "name": "Electromed, Inc.",
+  "name": "ELECTROMED, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 9496073,
-      "gross_profit": 7525243,
-      "operating_income": 1582721,
-      "net_income": 1203427,
-      "opex": 5942522,
-      "cogs": 1970830,
-      "rd": 507497,
-      "sga": 5435025,
-      "fcf": 631000,
-      "ocf": 669000,
-      "capex": -38000,
-      "gross_margin": 0.7924584193908366,
-      "op_margin": 0.16667110709869226,
-      "fcf_margin": 0.06644852035151794
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -51000,
       "gross_margin": 0.7625894335386525,
       "op_margin": 0.02765309824590314,
-      "fcf_margin": 0.08899538999327641,
-      "fcf_margin_change": 0.022546869641758477
+      "fcf_margin": 0.08899538999327641
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.7319507691748771,
       "op_margin": 0.0687848691854064,
       "fcf_margin": 0.06030342019666096,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.028691969796615452
     },
     {
@@ -96,8 +79,7 @@
       "gross_margin": 0.7689305230288837,
       "op_margin": 0.1049960967993755,
       "fcf_margin": 0.01795472287275566,
-      "rev_growth_yoy": 0.07918294225412968,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09804671367367557
     },
     {
@@ -119,7 +101,6 @@
       "fcf_margin": -0.03056897741840055,
       "incr_op_margin_yoy": 0.4579026430768049,
       "rev_growth_yoy": 0.1540949487491254,
-      "rev_growth_yoy_accel": 0.07491200649499573,
       "fcf_margin_change": -0.04852370029115621
     },
     {
@@ -186,7 +167,7 @@
       "incr_op_margin_yoy": 0.1336934503713707,
       "rev_growth_yoy": 0.1445160031225605,
       "rev_growth_yoy_accel": 0.07882257246562618,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2598213044219154
     },
     {
@@ -277,7 +258,7 @@
       "incr_op_margin_yoy": 0.5045918367346939,
       "rev_growth_yoy": 0.1671071702617444,
       "rev_growth_yoy_accel": 0.010792664725996604,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2770179049796057
     },
     {
@@ -437,9 +418,50 @@
       "rev_growth_yoy": 0.15128170166348515,
       "rev_growth_yoy_accel": -0.021385504377507303,
       "fcf_margin_change": -0.21844920380818325
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 18897000,
+      "gross_profit": 14819000,
+      "operating_income": 3620000,
+      "net_income": 2761000,
+      "opex": 11199000,
+      "cogs": 4078000,
+      "rd": 384000,
+      "sga": 10815000,
+      "fcf": 2392000,
+      "ocf": 3026000,
+      "capex": -634000,
+      "gross_margin": 0.784198550034397,
+      "op_margin": 0.1915647986452876,
+      "fcf_margin": 0.12658093877335028,
+      "incr_op_margin_yoy": 0.4080242240726722,
+      "rev_growth_yoy": 0.162534604737004,
+      "rev_growth_yoy_accel": 0.011252903073518866,
+      "op_leverage_ratio": 1.864570908306474,
+      "fcf_margin_change": 0.13149596216412424
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.5% -> +12.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +11.9% vs OpEx growth +6.4% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +40.8% vs year-ago OPM: +15.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -562,12 +584,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +15.4% vs prior quarter YoY: +7.9% (accel: +7.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +45.8% vs year-ago OPM: +2.8%",
       "severity": "HIGH"
@@ -610,7 +626,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:55:14.832081",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-13T11:46:08.681786"
 }

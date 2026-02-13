@@ -1,6 +1,8 @@
 {
   "ticker": "AENT",
   "name": "ALLIANCE ENTERTAINMENT HOLDING CORPORATION",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -231,8 +233,8 @@
     {
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
-      "revenue": 393672000,
-      "gross_profit": 42290000,
+      "revenue": 800000,
+      "gross_profit": -350582000,
       "operating_income": 14797000,
       "net_income": 7071000,
       "opex": 27493000,
@@ -242,12 +244,12 @@
       "fcf": 25255000,
       "ocf": 25255000,
       "capex": null,
-      "gross_margin": 0.10742445487614054,
-      "op_margin": 0.03758712837082648,
-      "fcf_margin": 0.06415239082281697,
-      "incr_op_margin_yoy": 0.03866641599298114,
-      "rev_growth_yoy": -0.07498836897830286,
-      "rev_growth_yoy_accel": 0.9250116310216971
+      "gross_margin": -438.2275,
+      "op_margin": 18.49625,
+      "fcf_margin": 31.56875,
+      "incr_op_margin_yoy": 0.002904992160758594,
+      "rev_growth_yoy": -0.9981202389176336,
+      "rev_growth_yoy_accel": 0.0018797610823664268
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -268,8 +270,9 @@
       "fcf_margin": 0.011363796381046258,
       "incr_op_margin_yoy": 2.357843137254902,
       "rev_growth_yoy": 0.008692811385878442,
-      "rev_growth_yoy_accel": 0.08368118036418129,
-      "fcf_margin_change": -0.05278859444177071
+      "rev_growth_yoy_accel": 1.006813050303512,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -31.557386203618954
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -309,6 +312,26 @@
       "op_margin": 12.122988505747127,
       "fcf_margin": 2.7298850574712645,
       "fcf_margin_change": 2.7427612998077633
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 700000,
+      "gross_profit": -320916000,
+      "operating_income": 17279000,
+      "net_income": 9388000,
+      "opex": 29817000,
+      "cogs": 321616000,
+      "rd": null,
+      "sga": 16591000,
+      "fcf": -16900000,
+      "ocf": -16533000,
+      "capex": -367000,
+      "gross_margin": -458.45142857142855,
+      "op_margin": 24.684285714285714,
+      "fcf_margin": -24.142857142857142,
+      "rev_growth_yoy": -0.125,
+      "fcf_margin_change": -26.872742200328407
     }
   ],
   "signals": [
@@ -327,19 +350,13 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +0.9% vs prior quarter YoY: -7.5% (accel: +8.4%)",
-      "severity": "MEDIUM"
+      "detail": "YoY growth: +0.9% vs prior quarter YoY: -99.8% (accel: +100.7%)",
+      "severity": "HIGH"
     },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -0.4% (year-ago) -> +1.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2024-12 (Q4)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -7.5% vs prior quarter YoY: -100.0% (accel: +92.5%)",
       "severity": "HIGH"
     },
     {
@@ -416,23 +433,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        15,
-        15
+        16,
+        16
       ]
     },
     "gaps": [],
@@ -440,7 +457,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:07:37.898770",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-13T11:31:58.044159"
 }

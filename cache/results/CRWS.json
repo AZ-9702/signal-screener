@@ -1,25 +1,9 @@
 {
   "ticker": "CRWS",
   "name": "Crown Crafts, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
   "quarters": [
-    {
-      "date": "2020-12-27T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 19476000,
-      "gross_profit": 6153000,
-      "operating_income": 2733000,
-      "net_income": 2141000,
-      "opex": 3420000,
-      "cogs": 13323000,
-      "rd": null,
-      "sga": 3420000,
-      "fcf": -425000,
-      "ocf": -209000,
-      "capex": -216000,
-      "gross_margin": 0.31592729513247075,
-      "op_margin": 0.14032655576093653,
-      "fcf_margin": -0.021821729307866092
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -205000,
       "gross_margin": 0.26699963343108507,
       "op_margin": -0.0010538856304985337,
-      "fcf_margin": 0.020802785923753665,
-      "op_leverage_ratio": 0.16967511771372934,
-      "fcf_margin_change": 0.04262451523161975
+      "fcf_margin": 0.020802785923753665
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": 0.30009891196834815,
       "op_margin": 0.14362017804154303,
       "fcf_margin": -0.0990108803165183,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.36210408253969056
     },
     {
@@ -96,9 +78,7 @@
       "gross_margin": 0.27130419488171664,
       "op_margin": 0.13525635388268403,
       "fcf_margin": 0.042652361269897104,
-      "incr_op_margin_yoy": 0.10502143294549908,
-      "rev_growth_yoy": 0.16769357157527212,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1416632415864154
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.14957564431986295,
       "incr_op_margin_yoy": 0.7920766442257897,
       "rev_growth_yoy": 0.17696114369501467,
-      "rev_growth_yoy_accel": 0.009267572119742551,
       "op_leverage_ratio": 1.4102987461308172,
       "fcf_margin_change": 0.10692328304996584
     },
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.12985274431057564,
       "rev_growth_yoy": -0.07388724035608309,
       "rev_growth_yoy_accel": 0.08654456810907298,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.26852006214039265
     },
     {
@@ -257,7 +236,7 @@
       "incr_op_margin_yoy": -0.0277623542476402,
       "rev_growth_yoy": 0.28852931752643385,
       "rev_growth_yoy_accel": 0.1985866058778024,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4280943553156016
     },
     {
@@ -428,11 +407,45 @@
       "fcf_margin": -0.043004853344587465,
       "rev_growth_yoy": -0.031275551921504496,
       "rev_growth_yoy_accel": 0.013999552939092594,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3765104742258383
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 20717000,
+      "gross_profit": 4862000,
+      "operating_income": -106000,
+      "net_income": 1510000,
+      "opex": 4968000,
+      "cogs": 15855000,
+      "rd": null,
+      "sga": 4968000,
+      "fcf": 2339000,
+      "ocf": 2695000,
+      "capex": -356000,
+      "gross_margin": 0.23468648935656708,
+      "op_margin": -0.005116570932084761,
+      "fcf_margin": 0.11290244726553073,
+      "incr_op_margin_yoy": 0.6860288534548216,
+      "rev_growth_yoy": -0.11280030833797268,
+      "rev_growth_yoy_accel": -0.08152475641646818,
+      "fcf_margin_change": 0.1559073006101182
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -4.3% -> +11.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -11.3% vs prior quarter YoY: -3.1% (decel: -8.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
@@ -624,12 +637,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.1% -> +6.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -2.2% -> +2.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -657,7 +664,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:50:27.545132",
-  "sector": "Consumer Cyclical",
-  "industry": "Furnishings, Fixtures & Appliances"
+  "last_updated": "2026-02-13T11:41:04.453856"
 }

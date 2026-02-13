@@ -1,25 +1,9 @@
 {
   "ticker": "UPXI",
   "name": "UPEXI, INC.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4164894,
-      "gross_profit": 1930635,
-      "operating_income": -243295,
-      "net_income": 102520,
-      "opex": 2173930,
-      "cogs": 2234259,
-      "rd": null,
-      "sga": null,
-      "fcf": -61019,
-      "ocf": -32136,
-      "capex": -28883,
-      "gross_margin": 0.46354961254716204,
-      "op_margin": -0.05841565235513797,
-      "fcf_margin": -0.014650793033388124
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -71831,
       "gross_margin": 0.5351247748331079,
       "op_margin": 0.15995301467629688,
-      "fcf_margin": 0.10951027441609423,
-      "op_leverage_ratio": 5.490952421370257,
-      "fcf_margin_change": 0.12416106744948235
+      "fcf_margin": 0.10951027441609423
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6290954131335404,
       "op_margin": 0.011024881827047917,
       "fcf_margin": -0.42589409119771,
-      "incr_op_margin_yoy": 0.055506193817271815,
-      "rev_growth_yoy": 1.5611170416341928,
       "op_leverage_ratio": 0.7885471691290841,
       "fcf_margin_change": -0.5028771607639956
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.039903859072229146,
       "incr_op_margin_yoy": -0.27415461584057793,
       "rev_growth_yoy": 0.6182064348341729,
-      "rev_growth_yoy_accel": -0.9429106068000199,
       "fcf_margin_change": 0.46579795026993914
     },
     {
@@ -430,11 +409,45 @@
       "fcf_margin": -1.0600993858596748,
       "incr_op_margin_yoy": 14.435207843988508,
       "rev_growth_yoy": 1.1209028317359173,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.016591533652863477
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8052040,
+      "gross_profit": 6711159,
+      "operating_income": -175364827,
+      "net_income": -178924930,
+      "opex": 182075986,
+      "cogs": 1340881,
+      "rd": null,
+      "sga": null,
+      "fcf": -2699117,
+      "ocf": -2681666,
+      "capex": -17451,
+      "gross_margin": 0.833473132274554,
+      "op_margin": -21.77893142607339,
+      "fcf_margin": -0.3352090898703931,
+      "incr_op_margin_yoy": -43.071681838446004,
+      "rev_growth_yoy": 1.0102499268504344,
+      "rev_growth_yoy_accel": -0.11065290488548296,
+      "fcf_margin_change": 0.7248902959892817
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -106.0% -> -33.5% (+72.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +101.0% vs prior quarter YoY: +112.1% (decel: -11.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -586,39 +599,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +61.8% vs prior quarter YoY: +156.1% (decel: -94.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -5.8% (year-ago) -> +1.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +53.5% -> +49.3% -> +63.7% (reversal +14.3%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.5% -> +11.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +52.4% vs OpEx growth +9.5% (leverage: 5.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -5.8% -> +16.0%",
       "severity": "HIGH"
     }
   ],
@@ -647,5 +630,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:15:17.667872"
+  "last_updated": "2026-02-13T11:47:46.263567"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "SCI",
   "name": "SERVICE CORPORATION INTERNATIONAL",
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 970268000,
-      "gross_profit": 315360000,
-      "operating_income": 285446000,
-      "net_income": 201043000,
-      "opex": 29914000,
-      "cogs": 654908000,
-      "rd": null,
-      "sga": null,
-      "fcf": 244914000,
-      "ocf": 244914000,
-      "capex": null,
-      "gross_margin": 0.3250236017265333,
-      "op_margin": 0.29419294462973117,
-      "fcf_margin": 0.252418919308892
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.35019819458784524,
       "op_margin": 0.3172968725793868,
-      "fcf_margin": 0.2760772221402789,
-      "op_leverage_ratio": 0.5980303561800552,
-      "fcf_margin_change": 0.023658302831386924
+      "fcf_margin": 0.2760772221402789
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.31092590018739424,
       "op_margin": 0.28607866724818,
       "fcf_margin": 0.182358100368558,
-      "incr_op_margin_yoy": 0.1782098181868004,
-      "rev_growth_yoy": 0.0752235464840642,
       "fcf_margin_change": -0.05024487032283734
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.29860850788787874,
       "incr_op_margin_yoy": -0.1842426355237929,
       "rev_growth_yoy": 0.031931917167371225,
-      "rev_growth_yoy_accel": -0.04329162931669297,
       "op_leverage_ratio": 0.11234790186888051,
       "fcf_margin_change": 0.11625040751932073
     },
@@ -433,9 +412,44 @@
       "rev_growth_yoy": 0.04353040263995155,
       "rev_growth_yoy_accel": 0.013136288815794091,
       "fcf_margin_change": 0.08221827795404973
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1111527000,
+      "gross_profit": 311676000,
+      "operating_income": 275550000,
+      "net_income": 159396000,
+      "opex": 36126000,
+      "cogs": 799851000,
+      "rd": null,
+      "sga": null,
+      "fcf": 212938000,
+      "ocf": 212938000,
+      "capex": null,
+      "gross_margin": 0.28040344499054004,
+      "op_margin": 0.24790221020272113,
+      "fcf_margin": 0.19157249441534033,
+      "incr_op_margin_yoy": 0.7207630782533506,
+      "rev_growth_yoy": 0.016929195451513827,
+      "rev_growth_yoy_accel": -0.026601207188437725,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.04685577674342031
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +25.5% -> +25.1% -> +28.0% (reversal +2.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +72.1% vs year-ago OPM: +24.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -582,5 +596,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:34:39.400982"
+  "last_updated": "2026-02-13T11:38:40.460446"
 }

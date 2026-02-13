@@ -1,25 +1,9 @@
 {
   "ticker": "RIVN",
   "name": "Rivian Automotive, Inc. / DE",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 0,
-      "gross_profit": 0,
-      "operating_income": -353000000,
-      "net_income": -353000000,
-      "opex": 353000000,
-      "cogs": 0,
-      "rd": 255000000,
-      "sga": 98000000,
-      "fcf": -577000000,
-      "ocf": -268000000,
-      "capex": -309000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -91,7 +75,6 @@
       "gross_margin": -7.092592592592593,
       "op_margin": -45.44444444444444,
       "fcf_margin": -28.555555555555557,
-      "incr_op_margin_yoy": -38.907407407407405,
       "op_leverage_ratio": 26.711692084241104,
       "fcf_margin_change": 1123.4444444444443
     },
@@ -113,7 +96,7 @@
       "op_margin": -16.621052631578948,
       "fcf_margin": -15.284210526315789,
       "incr_op_margin_yoy": -12.305263157894737,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 13.271345029239768
     },
     {
@@ -134,7 +117,7 @@
       "op_margin": -4.6923076923076925,
       "fcf_margin": -4.293956043956044,
       "incr_op_margin_yoy": -3.098901098901099,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 10.990254482359745
     },
     {
@@ -156,7 +139,7 @@
       "fcf_margin": -3.1082089552238807,
       "incr_op_margin_yoy": -1.8654205607476635,
       "rev_growth_yoy": 535.0,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.185747088732163
     },
     {
@@ -179,7 +162,7 @@
       "incr_op_margin_yoy": 1.0821018062397372,
       "rev_growth_yoy": 11.277777777777779,
       "rev_growth_yoy_accel": -523.7222222222222,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.48377456608360925
     },
     {
@@ -224,7 +207,7 @@
       "incr_op_margin_yoy": 0.5587846763540291,
       "rev_growth_yoy": 2.07967032967033,
       "rev_growth_yoy_accel": -3.8782244071717753,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.2876281578070152
     },
     {
@@ -428,9 +411,37 @@
       "rev_growth_yoy_accel": 0.6573928061875798,
       "op_leverage_ratio": 1.7949254633828693,
       "fcf_margin_change": 0.035230735431319216
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1286000000,
+      "gross_profit": 120000000,
+      "operating_income": -833000000,
+      "net_income": -811000000,
+      "opex": 953000000,
+      "cogs": 1166000000,
+      "rd": 424000000,
+      "sga": 529000000,
+      "fcf": -1144000000,
+      "ocf": -681000000,
+      "capex": -463000000,
+      "gross_margin": 0.09331259720062209,
+      "op_margin": -0.6477449455676516,
+      "fcf_margin": -0.8895800933125972,
+      "incr_op_margin_yoy": 0.38392857142857145,
+      "rev_growth_yoy": -0.25836216839677045,
+      "rev_growth_yoy_accel": -1.0409708640489443,
+      "fcf_margin_change": -0.6193618648145227
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -25.8% vs prior quarter YoY: +78.3% (decel: -104.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -631,5 +642,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:10.017119"
+  "last_updated": "2026-02-13T11:38:29.290503"
 }

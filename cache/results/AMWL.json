@@ -1,25 +1,9 @@
 {
   "ticker": "AMWL",
   "name": "American Well Corporation",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 60432000,
-      "gross_profit": 22611000,
-      "operating_income": -49561000,
-      "net_income": -50312000,
-      "opex": 72172000,
-      "cogs": 37821000,
-      "rd": 26564000,
-      "sga": null,
-      "fcf": -24587000,
-      "ocf": -24530000,
-      "capex": -57000,
-      "gross_margin": 0.37415607625099284,
-      "op_margin": -0.8201118612655547,
-      "fcf_margin": -0.40685398464389727
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -148000,
       "gross_margin": 0.38011076581190645,
       "op_margin": -0.6725463983749718,
-      "fcf_margin": -0.7168006388999809,
-      "fcf_margin_change": -0.30994665425608364
+      "fcf_margin": -0.7168006388999809
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +79,7 @@
       "gross_margin": 0.3993676975945017,
       "op_margin": -0.6518625429553264,
       "fcf_margin": -0.6221443298969073,
-      "incr_op_margin_yoy": 0.17356713752232505,
-      "rev_growth_yoy": 0.20383240667196187,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15347518826117773
     },
     {
@@ -120,7 +101,6 @@
       "fcf_margin": -0.9692832233154813,
       "incr_op_margin_yoy": -4.785768129051712,
       "rev_growth_yoy": 0.11515824927516102,
-      "rev_growth_yoy_accel": -0.08867415739680085,
       "fcf_margin_change": -0.34713889341857407
     },
     {
@@ -188,7 +168,7 @@
       "incr_op_margin_yoy": -2.6870276106740705,
       "rev_growth_yoy": 0.08911340206185567,
       "rev_growth_yoy_accel": -0.023160194518187086,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2784366628145351
     },
     {
@@ -276,7 +256,7 @@
       "incr_op_margin_yoy": -0.9219261337073399,
       "rev_growth_yoy": -0.1079853091514899,
       "rev_growth_yoy_accel": -0.0026955347001902247,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.024886989321262987
     },
     {
@@ -320,7 +300,7 @@
       "fcf_margin": -0.3474916387959866,
       "rev_growth_yoy": 0.005492657773792176,
       "rev_growth_yoy_accel": 0.07547593928501857,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6576997190212912
     },
     {
@@ -408,7 +388,7 @@
       "incr_op_margin_yoy": 3.9463492846571286,
       "rev_growth_yoy": 0.12912884217232043,
       "rev_growth_yoy_accel": 0.006300308184887207,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3091864011652348
     },
     {
@@ -432,9 +412,37 @@
       "rev_growth_yoy": -0.07797398682960391,
       "rev_growth_yoy_accel": -0.20710282900192434,
       "fcf_margin_change": -0.2667734643803662
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 55308000,
+      "gross_profit": 28337000,
+      "operating_income": -25152000,
+      "net_income": -24922000,
+      "opex": 53489000,
+      "cogs": 26971000,
+      "rd": 13940000,
+      "sga": null,
+      "fcf": -17367000,
+      "ocf": -17355000,
+      "capex": -12000,
+      "gross_margin": 0.512349027265495,
+      "op_margin": -0.45476242134953354,
+      "fcf_margin": -0.3140052072032979,
+      "incr_op_margin_yoy": -1.1214167409861129,
+      "rev_growth_yoy": -0.22107990874010647,
+      "rev_growth_yoy_accel": -0.14310592191050256,
+      "fcf_margin_change": 0.019399191759143952
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -22.1% vs prior quarter YoY: -7.8% (decel: -14.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -532,12 +540,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.5% vs prior quarter YoY: +20.4% (decel: -8.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -71.7% -> -43.8% (+27.9%)",
@@ -569,7 +571,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:29:36.894213",
-  "sector": "Healthcare",
-  "industry": "Health Information Services"
+  "last_updated": "2026-02-13T11:32:42.581688"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "BWA",
-  "name": "BORGWARNER INC.",
+  "name": "BorgWarner Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3926000000,
-      "gross_profit": 772000000,
-      "operating_income": 223000000,
-      "net_income": 358000000,
-      "opex": 549000000,
-      "cogs": 3154000000,
-      "rd": 179000000,
-      "sga": 350000000,
-      "fcf": 376000000,
-      "ocf": 376000000,
-      "capex": null,
-      "gross_margin": 0.19663779928680591,
-      "op_margin": 0.05680081507896077,
-      "fcf_margin": 0.09577177789098319
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.20404090795709653,
       "op_margin": 0.10052382140184585,
-      "fcf_margin": 0.08530805687203792,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.010463721018945271
+      "fcf_margin": 0.08530805687203792
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.17099863201094392,
       "op_margin": 0.048700410396716826,
       "fcf_margin": 0.14829001367989056,
-      "incr_op_margin_yoy": 0.16605166051660517,
-      "rev_growth_yoy": -0.06902699949057566,
       "op_leverage_ratio": 0.5555210772833723,
       "fcf_margin_change": 0.1067209270288367
     },
@@ -119,8 +99,7 @@
       "fcf_margin": 0.029943211151264842,
       "incr_op_margin_yoy": 0.37777777777777777,
       "rev_growth_yoy": -0.03367423297580444,
-      "rev_growth_yoy_accel": 0.03535276651477121,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11834680252862571
     },
     {
@@ -164,7 +143,7 @@
       "incr_op_margin_yoy": 0.2111801242236025,
       "rev_growth_yoy": 0.1885245901639344,
       "rev_growth_yoy_accel": 0.18825849117511056,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02800588931392245
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -0.0392156862745098,
       "rev_growth_yoy": 0.07898812596799173,
       "rev_growth_yoy_accel": -0.04495168251354041,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2195212515665547
     },
     {
@@ -298,7 +277,7 @@
       "incr_op_margin_yoy": 0.07692307692307693,
       "rev_growth_yoy": -0.13995215311004786,
       "rev_growth_yoy_accel": 0.0026963376397087235,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -383,7 +362,7 @@
       "incr_op_margin_yoy": 0.725,
       "rev_growth_yoy": -0.022253129346314324,
       "rev_growth_yoy_accel": 0.0013130262470985102,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -405,7 +384,7 @@
       "incr_op_margin_yoy": -0.22857142857142856,
       "rev_growth_yoy": 0.009714127116291979,
       "rev_growth_yoy_accel": 0.0319672564626063,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -427,6 +406,27 @@
       "incr_op_margin_yoy": -0.15492957746478872,
       "rev_growth_yoy": 0.04117135401565671,
       "rev_growth_yoy_accel": 0.03145722689936473
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3572000000,
+      "gross_profit": 731000000,
+      "operating_income": -238000000,
+      "net_income": -262000000,
+      "opex": 969000000,
+      "cogs": 2841000000,
+      "rd": 157000000,
+      "sga": 331000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.20464725643896978,
+      "op_margin": -0.06662933930571109,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.5864661654135338,
+      "rev_growth_yoy": 0.03867403314917127,
+      "rev_growth_yoy_accel": -0.002497320866485443
     }
   ],
   "signals": [
@@ -525,12 +525,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.2% -> +14.8% (+10.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +16.6% vs year-ago OPM: +5.7%",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -549,18 +543,16 @@
         20
       ],
       "fcf": [
-        11,
+        10,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "fcf: 11/20Q"
+      "fcf: 10/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:36:44.337002",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-13T11:40:53.537524"
 }

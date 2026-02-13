@@ -1,25 +1,9 @@
 {
   "ticker": "KHC",
-  "name": "The Kraft Heinz Company",
+  "name": "Kraft Heinz Co",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6939000000,
-      "gross_profit": 2523000000,
-      "operating_income": 1550000000,
-      "net_income": 1032000000,
-      "opex": 973000000,
-      "cogs": 4416000000,
-      "rd": null,
-      "sga": 973000000,
-      "fcf": 1404000000,
-      "ocf": 1603000000,
-      "capex": -199000000,
-      "gross_margin": 0.36359706009511455,
-      "op_margin": 0.2233751260988615,
-      "fcf_margin": 0.20233463035019456
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -227000000,
       "gross_margin": 0.3442289646543635,
       "op_margin": 0.17031592117610259,
-      "fcf_margin": 0.09117923052862058,
-      "fcf_margin_change": -0.11115539982157398
+      "fcf_margin": 0.09117923052862058
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.34633408919123204,
       "op_margin": 0.18669690098261527,
       "fcf_margin": 0.15343915343915343,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06225992291053285
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.3222536890743777,
       "op_margin": -0.002981070204203309,
       "fcf_margin": 0.3973766582203011,
-      "incr_op_margin_yoy": 6.826086956521739,
-      "rev_growth_yoy": -0.03314598645337945,
       "op_leverage_ratio": 0.040524163371332286,
       "fcf_margin_change": 0.3665417436092954
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.04499586435070306,
       "incr_op_margin_yoy": -0.07449856733524356,
       "rev_growth_yoy": -0.05458242101970597,
-      "rev_growth_yoy_accel": -0.021436434566326525,
       "fcf_margin_change": -0.35238079386959803
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": -0.1420345489443378,
       "rev_growth_yoy": -0.07058664137650725,
       "rev_growth_yoy_accel": -0.08057895498142655,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0471184951475698
     },
     {
@@ -367,7 +347,7 @@
       "incr_op_margin_yoy": 4.71830985915493,
       "rev_growth_yoy": -0.04139941690962099,
       "rev_growth_yoy_accel": -0.012936707624993899,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04050017572528611
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy": -0.022873257089143038,
       "rev_growth_yoy_accel": -0.0037256351002610127,
       "fcf_margin_change": -0.002805381793626993
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6354000000,
+      "gross_profit": 2072000000,
+      "operating_income": 1084000000,
+      "net_income": 651000000,
+      "opex": 988000000,
+      "cogs": 4282000000,
+      "rd": null,
+      "sga": 988000000,
+      "fcf": 1171000000,
+      "ocf": 1376000000,
+      "capex": -205000000,
+      "gross_margin": 0.3260937991816179,
+      "op_margin": 0.1706011960969468,
+      "fcf_margin": 0.1842933585143217,
+      "incr_op_margin_yoy": -5.063063063063063,
+      "rev_growth_yoy": -0.03375912408759124,
+      "rev_growth_yoy_accel": -0.010885866998448204,
+      "op_leverage_ratio": 0.7870631783675263,
+      "fcf_margin_change": 0.02620453375883028
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.6% (year-ago) -> +17.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -585,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:10:42.448124",
-  "sector": "Consumer Defensive",
-  "industry": "Packaged Foods"
+  "last_updated": "2026-02-13T11:36:21.464866"
 }

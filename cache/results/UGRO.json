@@ -1,25 +1,9 @@
 {
   "ticker": "UGRO",
   "name": "URBAN-GRO, INC.",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-06-30T00:00:00",
-      "quarter_label": "2020-06 (Q2)",
-      "revenue": 4005264,
-      "gross_profit": 1193452,
-      "operating_income": -926951,
-      "net_income": -1569970,
-      "opex": 2120403,
-      "cogs": 2811812,
-      "rd": null,
-      "sga": null,
-      "fcf": -1334374,
-      "ocf": -1295840,
-      "capex": -38534,
-      "gross_margin": 0.2979708703346396,
-      "op_margin": -0.2314331839299482,
-      "fcf_margin": -0.33315506793060334
-    },
     {
       "date": "2020-09-30T00:00:00",
       "quarter_label": "2020-09 (Q3)",
@@ -36,9 +20,7 @@
       "capex": -37486,
       "gross_margin": 0.20399592220610469,
       "op_margin": -0.017769171122118253,
-      "fcf_margin": 0.011582858240677407,
-      "op_leverage_ratio": null,
-      "fcf_margin_change": 0.34473792617128074
+      "fcf_margin": 0.011582858240677407
     },
     {
       "date": "2020-12-31T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.22775437276527852,
       "op_margin": 0.017297861626926724,
       "fcf_margin": 0.07781606177458132,
-      "incr_op_margin_yoy": 0.13017229824542917,
-      "rev_growth_yoy": 2.2036083014752585,
       "op_leverage_ratio": 0.7748615621330621,
       "fcf_margin_change": 0.05301357542674291
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.06300497090657815,
       "incr_op_margin_yoy": 0.021679650142636432,
       "rev_growth_yoy": 1.1876884550151912,
-      "rev_growth_yoy_accel": -1.0159198464600674,
       "op_leverage_ratio": 0.7701937621848239,
       "fcf_margin_change": -0.14082103268115947
     },
@@ -438,9 +417,37 @@
       "rev_growth_yoy": -0.3878741488435905,
       "rev_growth_yoy_accel": 0.8532328664617314,
       "fcf_margin_change": -0.4115013847867244
+    },
+    {
+      "date": "2025-06-30T00:00:00",
+      "quarter_label": "2025-06 (Q2)",
+      "revenue": 7766102,
+      "gross_profit": 44743,
+      "operating_income": -5955974,
+      "net_income": -6204144,
+      "opex": 6000717,
+      "cogs": 7721359,
+      "rd": null,
+      "sga": null,
+      "fcf": 413949,
+      "ocf": 413949,
+      "capex": null,
+      "gross_margin": 0.005761320157783145,
+      "op_margin": -0.7669193631502651,
+      "fcf_margin": 0.05330202976988971,
+      "incr_op_margin_yoy": 0.32189730632635527,
+      "rev_growth_yoy": -0.5672335335107359,
+      "rev_growth_yoy_accel": -0.1793593846671454,
+      "fcf_margin_change": -0.17940088669860565
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -56.7% vs prior quarter YoY: -38.8% (decel: -17.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -587,12 +594,6 @@
     },
     {
       "quarter": "2021-09 (Q3)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +118.8% vs prior quarter YoY: +220.4% (decel: -101.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -1.8% (year-ago) -> +0.4%",
       "severity": "HIGH"
@@ -602,12 +603,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.5% -> +7.8% (+5.3%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -23.1% (year-ago) -> +1.7%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-03 (Q1)",
@@ -632,12 +627,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.2% vs OpEx growth +5.7% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2020-09 (Q3)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -33.3% -> +1.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -665,5 +654,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-04T13:48:10.242564"
+  "last_updated": "2026-02-13T11:48:02.701295"
 }

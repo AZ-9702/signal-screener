@@ -1,25 +1,9 @@
 {
   "ticker": "ACRE",
   "name": "ARES COMMERCIAL REAL ESTATE CORPORATION",
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 21206000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 14407000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 9018000,
-      "ocf": 9018000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.425257002735075
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.46760589926023655,
-      "fcf_margin_change": 0.04234889652516155
+      "fcf_margin": 0.46760589926023655
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6001129155458138,
-      "rev_growth_yoy": 0.41992832217296994,
       "fcf_margin_change": 0.21417702376519332
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.6749781459434708,
       "rev_growth_yoy": 0.13193233755830938,
-      "rev_growth_yoy_accel": -0.2879959846146606,
       "fcf_margin_change": 0.07486523039765702
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": -0.15300546448087432,
       "rev_growth_yoy_accel": 0.0989442884511969,
       "fcf_margin_change": -0.11634922719476587
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 13215000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -3865000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 4627000,
+      "ocf": 4627000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3501324252743095,
+      "rev_growth_yoy": -0.2452453024159004,
+      "rev_growth_yoy_accel": -0.09223983793502608,
+      "fcf_margin_change": 0.07810123066246971
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +27.2% -> +35.0% (+7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -24.5% vs prior quarter YoY: -15.3% (decel: -9.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -505,12 +519,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +13.2% vs prior quarter YoY: +42.0% (decel: -28.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +38.6% -> +60.0% (+21.4%)",
@@ -545,7 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:50:44.141992",
-  "sector": "Real Estate",
-  "industry": "REIT - Mortgage"
+  "last_updated": "2026-02-13T11:45:26.852874"
 }

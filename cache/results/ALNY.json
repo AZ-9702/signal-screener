@@ -1,25 +1,9 @@
 {
   "ticker": "ALNY",
-  "name": "Alnylam Pharmaceuticals, Inc.(Exact name of Registrant as Specified in Its Charter)",
+  "name": "ALNYLAM PHARMACEUTICALS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 163562000,
-      "gross_profit": 140538000,
-      "operating_income": -194222000,
-      "net_income": -243540000,
-      "opex": 357784000,
-      "cogs": 23024000,
-      "rd": 168469000,
-      "sga": 166291000,
-      "fcf": -144812000,
-      "ocf": -123144000,
-      "capex": -21668000,
-      "gross_margin": 0.8592338073635686,
-      "op_margin": -1.1874518531199179,
-      "fcf_margin": -0.885364571232927
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -17178000,
       "gross_margin": 0.8703411689174729,
       "op_margin": -1.0489282858204836,
-      "fcf_margin": -1.4239099827669712,
-      "op_leverage_ratio": 5.0750622516718575,
-      "fcf_margin_change": -0.5385454115340442
+      "fcf_margin": -1.4239099827669712
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.8699015607171176,
       "op_margin": -0.752551878855861,
       "fcf_margin": -0.6653915330612876,
-      "incr_op_margin_yoy": -0.0035694355237804428,
-      "rev_growth_yoy": 0.5806544307357455,
       "op_leverage_ratio": 1.665592948491694,
       "fcf_margin_change": 0.1878592277323894
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.8864901364069043,
       "incr_op_margin_yoy": 1.107275936458129,
       "rev_growth_yoy": 0.20101258123739904,
-      "rev_growth_yoy_accel": -0.37964184949834645,
       "fcf_margin_change": -0.2210986033456167
     },
     {
@@ -256,7 +235,7 @@
       "incr_op_margin_yoy": 0.9705547237487249,
       "rev_growth_yoy": 1.8396252828161297,
       "rev_growth_yoy_accel": 1.4217939703767342,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6910974824219165
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 0.6076906817182064,
       "rev_growth_yoy": 0.5482257508847755,
       "rev_growth_yoy_accel": 0.23577182816028408,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0885675760014201
     },
     {
@@ -439,9 +418,43 @@
       "rev_growth_yoy_accel": 1.320902035456323,
       "op_leverage_ratio": 5.3237230543690925,
       "fcf_margin_change": 0.07034526503487348
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1097033000,
+      "gross_profit": 829310000,
+      "operating_income": 131718000,
+      "net_income": 186419000,
+      "opex": 965315000,
+      "cogs": 267723000,
+      "rd": 372218000,
+      "sga": 325374000,
+      "fcf": 140263000,
+      "ocf": 163555000,
+      "capex": -23292000,
+      "gross_margin": 0.7559572045690512,
+      "op_margin": 0.1200674911329012,
+      "fcf_margin": 0.12785668252459134,
+      "incr_op_margin_yoy": 0.4701181065638353,
+      "rev_growth_yoy": 0.8494536099506714,
+      "rev_growth_yoy_accel": -0.6440153940200305,
+      "fcf_margin_change": -0.12271216071806332
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +84.9% vs prior quarter YoY: +149.3% (decel: -64.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -17.7% (year-ago) -> +12.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -653,12 +666,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +20.1% vs prior quarter YoY: +58.1% (decel: -38.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -85.3% -> -66.5% (+18.8%)",
@@ -680,12 +687,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +24.2% vs OpEx growth +0.8% (leverage: 30.4x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +8.6% vs OpEx growth +1.7% (leverage: 5.1x)",
       "severity": "MEDIUM"
     }
   ],
@@ -714,7 +715,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:00:55.337817",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-13T11:32:04.608498"
 }

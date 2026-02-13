@@ -1,25 +1,9 @@
 {
   "ticker": "HCC",
-  "name": "WARRIOR MET COAL, INC.",
+  "name": "Warrior Met Coal, Inc.",
+  "sector": "Basic Materials",
+  "industry": "Coking Coal",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 212253000,
-      "gross_profit": 9275000,
-      "operating_income": -37778000,
-      "net_income": -33711000,
-      "opex": 250031000,
-      "cogs": 191509000,
-      "rd": null,
-      "sga": 7774000,
-      "fcf": 15044000,
-      "ocf": 30473000,
-      "capex": -15429000,
-      "gross_margin": 0.043697851149335935,
-      "op_margin": -0.17798570573796366,
-      "fcf_margin": 0.07087767899629216
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -9479000,
       "gross_margin": 0.27794202952789054,
       "op_margin": 0.05182818435283771,
-      "fcf_margin": 0.16720776183080407,
-      "fcf_margin_change": 0.09633008283451192
+      "fcf_margin": 0.16720776183080407
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.6265290161113718,
       "op_margin": 0.443417680395625,
       "fcf_margin": 0.3633036133270765,
-      "incr_op_margin_yoy": 1.0922121873954707,
-      "rev_growth_yoy": 0.957781515455612,
       "op_leverage_ratio": 1.987814153317137,
       "fcf_margin_change": 0.10433795472592172
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.15743479500966587,
       "incr_op_margin_yoy": 1.0659963126485856,
       "rev_growth_yoy": 0.7713553264347598,
-      "rev_growth_yoy_accel": -0.18642618902085217,
       "fcf_margin_change": -0.20586881831741063
     },
     {
@@ -433,9 +413,44 @@
       "rev_growth_yoy_accel": 0.25232380484296985,
       "op_leverage_ratio": 1.6750401010753797,
       "fcf_margin_change": 0.19242158822455996
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 383988000,
+      "gross_profit": 113259000,
+      "operating_income": 34647000,
+      "net_income": 22962000,
+      "opex": 349341000,
+      "cogs": 270729000,
+      "rd": null,
+      "sga": 18115000,
+      "fcf": 76089000,
+      "ocf": 76089000,
+      "capex": null,
+      "gross_margin": 0.2949545298290572,
+      "op_margin": 0.09022938216819276,
+      "fcf_margin": 0.19815462983218227,
+      "incr_op_margin_yoy": 0.44908290281196905,
+      "rev_growth_yoy": 0.2908678331904594,
+      "rev_growth_yoy_accel": 0.2882161793396111,
+      "op_leverage_ratio": 1.2514466997110116,
+      "fcf_margin_change": -0.12046224413499254
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +29.1% vs prior quarter YoY: +0.3% (accel: +28.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1.4% (year-ago) -> +9.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -636,12 +651,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +77.1% vs prior quarter YoY: +95.8% (decel: -18.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +106.6% vs year-ago OPM: +5.2%",
       "severity": "HIGH"
@@ -659,12 +668,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -17.8% (year-ago) -> +44.3%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -1.2% -> +25.3%",
@@ -675,18 +678,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +16.7% -> +24.0% (+7.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +7.1% -> +16.7% (+9.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -17.8% -> +5.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -714,7 +705,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:05:29.738919",
-  "sector": "Basic Materials",
-  "industry": "Coking Coal"
+  "last_updated": "2026-02-13T11:39:35.616433"
 }

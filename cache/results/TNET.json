@@ -1,25 +1,9 @@
 {
   "ticker": "TNET",
-  "name": "TRINET GROUP, INC.",
+  "name": "TRINET GROUP, INC",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1063000000,
-      "gross_profit": null,
-      "operating_income": 30000000,
-      "net_income": 22000000,
-      "opex": 1033000000,
-      "cogs": null,
-      "rd": 13000000,
-      "sga": null,
-      "fcf": 577000000,
-      "ocf": 586000000,
-      "capex": -9000000,
-      "gross_margin": null,
-      "op_margin": 0.028222013170272814,
-      "fcf_margin": 0.5428033866415805
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -5000000,
       "gross_margin": null,
       "op_margin": 0.13018867924528302,
-      "fcf_margin": -0.16981132075471697,
-      "fcf_margin_change": -0.7126147073962974
+      "fcf_margin": -0.16981132075471697
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.07386363636363637,
       "fcf_margin": 0.1810064935064935,
-      "incr_op_margin_yoy": 0.3609467455621302,
-      "rev_growth_yoy": 0.1589840075258702,
       "op_leverage_ratio": 0.7787456445993031,
       "fcf_margin_change": 0.039891510928096285
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.16666666666666666,
       "incr_op_margin_yoy": 0.4177215189873418,
       "rev_growth_yoy": 0.1490566037735849,
-      "rev_growth_yoy_accel": -0.009927403752285291,
       "fcf_margin_change": -0.014339826839826847
     },
     {
@@ -254,7 +234,7 @@
       "incr_op_margin_yoy": 0.21052631578947367,
       "rev_growth_yoy": -0.015310233682514102,
       "rev_growth_yoy_accel": -0.0228102336825141,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2114284708656706
     },
     {
@@ -429,6 +409,27 @@
       "rev_growth_yoy": -0.01597444089456869,
       "rev_growth_yoy_accel": -0.011951914748148738,
       "fcf_margin_change": -0.0013991460881606285
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1248000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -1000000,
+      "opex": null,
+      "cogs": null,
+      "rd": 16000000,
+      "sga": null,
+      "fcf": 43000000,
+      "ocf": 61000000,
+      "capex": -18000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.03445512820512821,
+      "rev_growth_yoy": -0.022709475332811275,
+      "rev_growth_yoy_accel": -0.0067350344382425854,
+      "fcf_margin_change": -0.010187728937728936
     }
   ],
   "signals": [
@@ -499,12 +500,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +36.1% vs year-ago OPM: +2.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.5% -> +14.1%",
@@ -529,7 +524,7 @@
         20
       ],
       "op_income": [
-        16,
+        15,
         20
       ],
       "fcf": [
@@ -539,10 +534,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: no data"
+      "gross_profit: no data",
+      "op_income: 15/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:23:12.973619"
+  "last_updated": "2026-02-13T11:39:09.609916"
 }

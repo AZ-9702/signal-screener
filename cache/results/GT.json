@@ -1,25 +1,9 @@
 {
   "ticker": "GT",
   "name": "THE GOODYEAR TIRE & RUBBER COMPANY",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3656000000,
-      "gross_profit": 862000000,
-      "operating_income": null,
-      "net_income": 63000000,
-      "opex": null,
-      "cogs": 2794000000,
-      "rd": null,
-      "sga": 605000000,
-      "fcf": 1194000000,
-      "ocf": 1354000000,
-      "capex": -160000000,
-      "gross_margin": 0.23577680525164113,
-      "op_margin": null,
-      "fcf_margin": 0.3265864332603939
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -185000000,
       "gross_margin": 0.21646254628311024,
       "op_margin": null,
-      "fcf_margin": -0.1330105383081743,
-      "fcf_margin_change": -0.45959697156856816
+      "fcf_margin": -0.1330105383081743
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.2146814404432133,
       "op_margin": null,
       "fcf_margin": 0.1481994459833795,
-      "rev_growth_yoy": 0.3823851203501094,
       "fcf_margin_change": 0.19116661258248774
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.2011002444987775,
       "rev_growth_yoy": 0.39789233836513815,
-      "rev_growth_yoy_accel": 0.015507218015028745,
       "fcf_margin_change": -0.34929969048215703
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.037106135986733,
       "rev_growth_yoy_accel": -0.014130206008614837,
       "fcf_margin_change": 0.04770750135306662
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4917000000,
+      "gross_profit": 1027000000,
+      "operating_income": null,
+      "net_income": 105000000,
+      "opex": null,
+      "cogs": 3890000000,
+      "rd": null,
+      "sga": 701000000,
+      "fcf": 1335000000,
+      "ocf": 1512000000,
+      "capex": -177000000,
+      "gross_margin": 0.20886719544437665,
+      "op_margin": null,
+      "fcf_margin": 0.27150701647345943,
+      "rev_growth_yoy": -0.006064281382656155,
+      "rev_growth_yoy_accel": 0.031041854604076845,
+      "fcf_margin_change": 0.3104736472592506
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.9% -> +27.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -526,7 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:26:26.468197",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-13T11:46:18.758833"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "NVST",
   "name": "ENVISTA HOLDINGS CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 732300000,
-      "gross_profit": 388500000,
-      "operating_income": 96800000,
-      "net_income": 108400000,
-      "opex": 291700000,
-      "cogs": 343800000,
-      "rd": 27100000,
-      "sga": 264600000,
-      "fcf": 180300000,
-      "ocf": 193400000,
-      "capex": -13100000,
-      "gross_margin": 0.5305202785743548,
-      "op_margin": 0.13218626246074014,
-      "fcf_margin": 0.2462105694387546
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -8300000,
       "gross_margin": 0.5602086858432036,
       "op_margin": 0.1527072758037225,
-      "fcf_margin": 0.011703327693175409,
-      "fcf_margin_change": -0.2345072417455792
+      "fcf_margin": 0.011703327693175409
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5265418840135011,
       "op_margin": 0.07072721693771096,
       "fcf_margin": 0.1953053083768027,
-      "incr_op_margin_yoy": 0.6298136645962733,
-      "rev_growth_yoy": -0.10992762529018162,
       "op_leverage_ratio": 0.8942825255685457,
       "fcf_margin_change": 0.07872371772967608
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.02581564776686728,
       "incr_op_margin_yoy": 0.2159383033419023,
       "rev_growth_yoy": -0.10970107163000564,
-      "rev_growth_yoy_accel": 0.00022655366017597378,
       "fcf_margin_change": -0.22112095614367
     },
     {
@@ -187,7 +167,7 @@
       "incr_op_margin_yoy": 4.655555555555556,
       "rev_growth_yoy": 0.013807916538815588,
       "rev_growth_yoy_accel": -0.02538194020414506,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10997003387375055
     },
     {
@@ -435,9 +415,44 @@
       "rev_growth_yoy": 0.1146422628951747,
       "rev_growth_yoy_accel": 0.03724532718201723,
       "fcf_margin_change": -0.010648625388096286
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 750600000,
+      "gross_profit": 410600000,
+      "operating_income": 73300000,
+      "net_income": 32900000,
+      "opex": 337300000,
+      "cogs": 340000000,
+      "rd": 32100000,
+      "sga": 305200000,
+      "fcf": 91700000,
+      "ocf": 108000000,
+      "capex": -16300000,
+      "gross_margin": 0.5470290434319212,
+      "op_margin": 0.09765520916600054,
+      "fcf_margin": 0.1221689315214495,
+      "incr_op_margin_yoy": 0.27840327533265097,
+      "rev_growth_yoy": 0.14964006739163732,
+      "rev_growth_yoy_accel": 0.034997804496462614,
+      "op_leverage_ratio": 1.5312860674509117,
+      "fcf_margin_change": 0.020810519818210207
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +12.0% vs OpEx growth +7.9% (leverage: 1.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +27.8% vs year-ago OPM: +7.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -595,12 +610,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +63.0% vs year-ago OPM: +13.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +56.0% -> +55.7% -> +58.7% (reversal +3.0%)",
@@ -638,7 +647,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:12:44.262368",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-13T11:34:35.422090"
 }

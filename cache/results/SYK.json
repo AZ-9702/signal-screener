@@ -1,25 +1,9 @@
 {
   "ticker": "SYK",
   "name": "STRYKER CORP",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4262000000,
-      "gross_profit": 2717000000,
-      "operating_income": 749000000,
-      "net_income": 568000000,
-      "opex": 1968000000,
-      "cogs": 1545000000,
-      "rd": 255000000,
-      "sga": 1562000000,
-      "fcf": 1072000000,
-      "ocf": 1237000000,
-      "capex": -165000000,
-      "gross_margin": 0.6374941342092915,
-      "op_margin": 0.17573908962928203,
-      "fcf_margin": 0.25152510558423274
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -83000000,
       "gross_margin": 0.6347078168479636,
       "op_margin": 0.11611434353655452,
-      "fcf_margin": 0.09334682519605363,
-      "fcf_margin_change": -0.1581782803881791
+      "fcf_margin": 0.09334682519605363
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.6455519329296693,
       "op_margin": 0.17047042384722869,
       "fcf_margin": 0.17978574755472754,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08643892235867391
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.6477345245692406,
       "op_margin": 0.1742182514358647,
       "fcf_margin": 0.1689002339927675,
-      "incr_op_margin_yoy": 0.15945330296127563,
-      "rev_growth_yoy": 0.1030032848427968,
       "op_leverage_ratio": 1.7021482473222982,
       "fcf_margin_change": -0.024128612161078672
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.019649122807017545,
       "incr_op_margin_yoy": -0.037267080745341616,
       "rev_growth_yoy": 0.08145712117379206,
-      "rev_growth_yoy_accel": -0.021546163669004748,
       "fcf_margin_change": -0.14925111118574994
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.20100502512562815,
       "rev_growth_yoy": 0.04634373544480671,
       "rev_growth_yoy_accel": -0.03511338572898535,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06626229495394395
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.3836978131212724,
       "rev_growth_yoy": 0.11195192521700423,
       "rev_growth_yoy_accel": -0.005708893496446071,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04135866248461306
     },
     {
@@ -413,7 +393,7 @@
       "incr_op_margin_yoy": 0.10333333333333333,
       "rev_growth_yoy": 0.11066027296200664,
       "rev_growth_yoy_accel": -0.008164827171504699,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13245143984501426
     },
     {
@@ -437,9 +417,44 @@
       "rev_growth_yoy": 0.10247542773935202,
       "rev_growth_yoy_accel": -0.008184845222654627,
       "fcf_margin_change": 0.06927628249004106
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7171000000,
+      "gross_profit": 4628000000,
+      "operating_income": 1804000000,
+      "net_income": 849000000,
+      "opex": 2824000000,
+      "cogs": 2543000000,
+      "rd": 401000000,
+      "sga": 2227000000,
+      "fcf": 1875000000,
+      "ocf": 2143000000,
+      "capex": -268000000,
+      "gross_margin": 0.6453772137777158,
+      "op_margin": 0.25156881885371635,
+      "fcf_margin": 0.26146980895272626,
+      "incr_op_margin_yoy": 1.6639455782312924,
+      "rev_growth_yoy": 0.11420136730888751,
+      "rev_growth_yoy_accel": 0.011725939569535493,
+      "op_leverage_ratio": 4.670178475819281,
+      "fcf_margin_change": 0.03809189909636171
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +18.4% vs OpEx growth +3.9% (leverage: 4.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +166.4% vs year-ago OPM: +9.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -574,5 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:47:55.634196"
+  "last_updated": "2026-02-13T11:44:20.754881"
 }

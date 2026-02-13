@@ -1,25 +1,9 @@
 {
   "ticker": "MA",
   "name": "Mastercard Incorporated",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4120000000,
-      "gross_profit": null,
-      "operating_income": 2058000000,
-      "net_income": null,
-      "opex": 2062000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 2194000000,
-      "ocf": 2253000000,
-      "capex": -59000000,
-      "gross_margin": null,
-      "op_margin": 0.4995145631067961,
-      "fcf_margin": 0.5325242718446602
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -65000000,
       "gross_margin": null,
       "op_margin": 0.5287605294825511,
-      "fcf_margin": 0.3364620938628159,
-      "fcf_margin_change": -0.19606217798184433
+      "fcf_margin": 0.3364620938628159
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.5419861963190185,
       "fcf_margin": 0.5879984662576687,
-      "incr_op_margin_yoy": 0.7016423357664233,
-      "rev_growth_yoy": 0.26601941747572816,
       "op_leverage_ratio": 0.8685693443968269,
       "fcf_margin_change": 0.10575172603700672
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.3166247338881362,
       "incr_op_margin_yoy": 0.7440711462450593,
       "rev_growth_yoy": 0.24356197352587244,
-      "rev_growth_yoy_accel": -0.022457443949855715,
       "fcf_margin_change": -0.2713737323695325
     },
     {
@@ -189,7 +169,7 @@
       "incr_op_margin_yoy": 0.5940099833610649,
       "rev_growth_yoy": 0.11522239263803681,
       "rev_growth_yoy_accel": -0.03944159933789097,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14005297429845165
     },
     {
@@ -234,7 +214,7 @@
       "incr_op_margin_yoy": 0.8264248704663213,
       "rev_growth_yoy": 0.14044024013098053,
       "rev_growth_yoy_accel": 0.027995881702492037,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10289230134961741
     },
     {
@@ -440,9 +420,38 @@
       "rev_growth_yoy_accel": -0.0010440464796898918,
       "op_leverage_ratio": 1.0460978130472782,
       "fcf_margin_change": 0.0765948248247793
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8806000000,
+      "gross_profit": null,
+      "operating_income": 4910000000,
+      "net_income": null,
+      "opex": 3896000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 4890000000,
+      "ocf": 5002000000,
+      "capex": -112000000,
+      "gross_margin": null,
+      "op_margin": 0.5575743811037929,
+      "fcf_margin": 0.5553032023620259,
+      "incr_op_margin_yoy": 0.7380410022779044,
+      "rev_growth_yoy": 0.17585792495660302,
+      "rev_growth_yoy_accel": 0.008535357444050429,
+      "op_leverage_ratio": 0.23655291432388798,
+      "fcf_margin_change": -0.08233920638012704
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +73.8% vs year-ago OPM: +52.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -552,12 +561,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +70.2% vs year-ago OPM: +50.0%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.1% vs OpEx growth +3.7% (leverage: 2.7x)",
@@ -597,7 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:04.819531",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-13T11:42:59.399955"
 }

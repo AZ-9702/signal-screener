@@ -1,25 +1,9 @@
 {
   "ticker": "DXCM",
   "name": "DEXCOM, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 568900000,
-      "gross_profit": 399100000,
-      "operating_income": 104000000,
-      "net_income": 355200000,
-      "opex": 295100000,
-      "cogs": 169800000,
-      "rd": 119200000,
-      "sga": 175900000,
-      "fcf": 111800000,
-      "ocf": 172000000,
-      "capex": -60200000,
-      "gross_margin": 0.7015292670065038,
-      "op_margin": 0.18280892951309544,
-      "fcf_margin": 0.1965195992265776
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -99700000,
       "gross_margin": 0.680990099009901,
       "op_margin": 0.09089108910891089,
-      "fcf_margin": -0.14237623762376236,
-      "fcf_margin_change": -0.33889583685033997
+      "fcf_margin": -0.14237623762376236
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.6768834144944142,
       "op_margin": 0.0008593526210254941,
       "fcf_margin": 0.03666571183042108,
-      "incr_op_margin_yoy": -0.7996906419180201,
-      "rev_growth_yoy": 0.2272807171734927,
       "op_leverage_ratio": 0.1691658440466982,
       "fcf_margin_change": -0.17742226110098464
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.04866412213740458,
       "incr_op_margin_yoy": -0.03715670436187399,
       "rev_growth_yoy": 0.24514851485148514,
-      "rev_growth_yoy_accel": 0.01786779767799243,
       "fcf_margin_change": -0.08532983396782566
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.24455611390284757,
       "rev_growth_yoy": 0.18363580436788682,
       "rev_growth_yoy_accel": 0.013748390487866663,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12360782710538529
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 0.28237585199610515,
       "rev_growth_yoy": 0.2668918918918919,
       "rev_growth_yoy_accel": 0.015383704589392588,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0737158916679174
     },
     {
@@ -440,9 +420,44 @@
       "rev_growth_yoy_accel": 0.06420908500208308,
       "op_leverage_ratio": 1.6915517139304954,
       "fcf_margin_change": 0.29858260138065335
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1259600000,
+      "gross_profit": 792700000,
+      "operating_income": 323000000,
+      "net_income": 267300000,
+      "opex": 469700000,
+      "cogs": 466900000,
+      "rd": 148200000,
+      "sga": 321500000,
+      "fcf": 192100000,
+      "ocf": 294000000,
+      "capex": -101900000,
+      "gross_margin": 0.6293267704033026,
+      "op_margin": 0.2564306128929819,
+      "fcf_margin": 0.15250873293108924,
+      "incr_op_margin_yoy": 0.917864476386037,
+      "rev_growth_yoy": 0.13120790300853166,
+      "rev_growth_yoy_accel": -0.08514695516889742,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.32661141922304954
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +13.1% vs prior quarter YoY: +21.6% (decel: -8.5%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +91.8% vs year-ago OPM: +17.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -661,7 +676,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:50.908593",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-13T11:34:11.215081"
 }

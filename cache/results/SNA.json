@@ -1,25 +1,9 @@
 {
   "ticker": "SNA",
   "name": "Snap-on Inc",
+  "sector": "Industrials",
+  "industry": "Tools & Accessories",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 1167800000,
-      "gross_profit": null,
-      "operating_income": 284700000,
-      "net_income": 208900000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 317600000,
-      "ocf": 317600000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.2437917451618428,
-      "fcf_margin": 0.27196437746189417
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.2391304347826087,
-      "fcf_margin": 0.2868307581746317,
-      "fcf_margin_change": 0.014866380712737548
+      "fcf_margin": 0.2868307581746317
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.2505020080321285,
       "fcf_margin": 0.18632864792503348,
-      "incr_op_margin_yoy": 0.5364963503649635,
-      "rev_growth_yoy": 0.02346292173317349,
       "fcf_margin_change": 0.020639759036144595
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.1635596794601434,
       "incr_op_margin_yoy": 0.3775933609958506,
       "rev_growth_yoy": 0.06494789795185052,
-      "rev_growth_yoy_accel": 0.04148497621867703,
       "fcf_margin_change": -0.02276896846489007
     },
     {
@@ -427,6 +407,28 @@
       "rev_growth_yoy": 0.03567420234086901,
       "rev_growth_yoy_accel": 0.034736629092959014,
       "fcf_margin_change": 0.029956144790497324
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 1339900000,
+      "gross_profit": null,
+      "operating_income": 339600000,
+      "net_income": 260700000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 268100000,
+      "ocf": 268100000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2534517501306068,
+      "fcf_margin": 0.20008955892230765,
+      "incr_op_margin_yoy": 0.1891891891891892,
+      "rev_growth_yoy": 0.031326970443349755,
+      "rev_growth_yoy_accel": -0.004347231897519253,
+      "fcf_margin_change": -0.015019969678977285
     }
   ],
   "signals": [
@@ -495,12 +497,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +37.8% vs year-ago OPM: +23.9%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +53.6% vs year-ago OPM: +24.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -530,5 +526,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:19:34.605769"
+  "last_updated": "2026-02-13T11:38:54.563253"
 }

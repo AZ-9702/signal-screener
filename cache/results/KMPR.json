@@ -1,25 +1,9 @@
 {
   "ticker": "KMPR",
   "name": "Kemper Corporation",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1392100000,
-      "gross_profit": null,
-      "operating_income": 131200000,
-      "net_income": 97500000,
-      "opex": 1271500000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 196700000,
-      "ocf": 196700000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.09424610300984125,
-      "fcf_margin": 0.14129732059478486
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.05613905325443787,
-      "fcf_margin": 0.10399408284023669,
-      "fcf_margin_change": -0.03730323775454818
+      "fcf_margin": 0.10399408284023669
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": -0.1211178022870289,
       "fcf_margin": 0.029163001556262263,
-      "incr_op_margin_yoy": -3.6153846153846154,
-      "rev_growth_yoy": 0.06163350334027728,
       "fcf_margin_change": -0.018865031974038684
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.01310578238640455,
       "incr_op_margin_yoy": -4.316076294277929,
       "rev_growth_yoy": 0.027144970414201185,
-      "rev_growth_yoy_accel": -0.03448853292607609,
       "fcf_margin_change": -0.04226878394266681
     },
     {
@@ -423,9 +403,36 @@
       "rev_growth_yoy": 0.05157350072101111,
       "rev_growth_yoy_accel": -0.03312426014278214,
       "fcf_margin_change": 0.03974283342786335
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1131400000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -8000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 175000000,
+      "ocf": 175000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.154675623121796,
+      "rev_growth_yoy": -0.04668014829794405,
+      "rev_growth_yoy_accel": -0.09825364901895517,
+      "fcf_margin_change": 0.04182574008557756
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.7% vs prior quarter YoY: +5.2% (decel: -9.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2024-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -505,7 +512,7 @@
         20
       ],
       "op_income": [
-        16,
+        15,
         20
       ],
       "fcf": [
@@ -515,12 +522,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: no data"
+      "gross_profit: no data",
+      "op_income: 15/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:30:05.028891",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-13T11:42:32.765964"
 }

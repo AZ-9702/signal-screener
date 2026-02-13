@@ -1,25 +1,9 @@
 {
   "ticker": "AEP",
   "name": "AMERICAN ELECTRIC POWER CO INC.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3610600000,
-      "gross_profit": null,
-      "operating_income": 570200000,
-      "net_income": null,
-      "opex": 3040400000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 910700000,
-      "ocf": 910700000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.15792389076607766,
-      "fcf_margin": 0.2522295463357891
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -102900000,
       "gross_margin": null,
       "op_margin": 0.18927378477494103,
-      "fcf_margin": -0.05141202027516292,
-      "op_leverage_ratio": 1.3118309276053552,
-      "fcf_margin_change": -0.303641566610952
+      "fcf_margin": -0.05141202027516292
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.16834096616930122,
       "fcf_margin": 0.213448564534397,
-      "incr_op_margin_yoy": 0.2517746228926353,
-      "rev_growth_yoy": 0.12485459480418767,
       "fcf_margin_change": -0.20383458493564408
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.3532203980316161,
       "incr_op_margin_yoy": 0.5707865168539326,
       "rev_growth_yoy": 0.07276167340169583,
-      "rev_growth_yoy_accel": -0.052092921402491846,
       "op_leverage_ratio": 1.947871599518815,
       "fcf_margin_change": 0.13977183349721908
     },
@@ -269,16 +248,16 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 1336500000,
-      "ocf": 1336500000,
+      "fcf": 1336300000,
+      "ocf": 1336300000,
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.13619680153805822,
-      "fcf_margin": 0.29199073669492265,
+      "fcf_margin": 0.2919470418596522,
       "incr_op_margin_yoy": -0.20829220138203355,
       "rev_growth_yoy": -0.06226055602220811,
       "rev_growth_yoy_accel": -0.028891633997633816,
-      "fcf_margin_change": -0.04387612217023262
+      "fcf_margin_change": -0.04391981700550307
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -300,8 +279,8 @@
       "incr_op_margin_yoy": 1.397252090800478,
       "rev_growth_yoy": 0.0713722313415336,
       "rev_growth_yoy_accel": 0.1336327873637417,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.005025736794411262
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.004982041959140815
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -359,16 +338,16 @@
       "cogs": 1332800000,
       "rd": null,
       "sga": null,
-      "fcf": 1727400000,
-      "ocf": 1727400000,
+      "fcf": 1727100000,
+      "ocf": 1727100000,
       "capex": null,
       "gross_margin": 0.716202116559845,
       "op_margin": 0.23329003683751037,
-      "fcf_margin": 0.36782147648148544,
+      "fcf_margin": 0.36775759640568106,
       "incr_op_margin_yoy": 3.9647355163727958,
       "rev_growth_yoy": 0.0260202744035655,
       "rev_growth_yoy_accel": 0.0113432989088728,
-      "fcf_margin_change": -0.033038286253519455
+      "fcf_margin_change": -0.033102166329323834
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -391,7 +370,7 @@
       "rev_growth_yoy": 0.08709234534492707,
       "rev_growth_yoy_accel": 0.06107207094136158,
       "op_leverage_ratio": 1.0166693392254897,
-      "fcf_margin_change": -0.10241897986765525
+      "fcf_margin_change": -0.10235509979185087
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -437,6 +416,28 @@
       "rev_growth_yoy_accel": -0.00196146476406614,
       "op_leverage_ratio": 0.8356224877529683,
       "fcf_margin_change": 0.16919268319587077
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5315300000,
+      "gross_profit": 3658800000,
+      "operating_income": 1114300000,
+      "net_income": null,
+      "opex": 4201000000,
+      "cogs": 1656500000,
+      "rd": null,
+      "sga": null,
+      "fcf": 1813200000,
+      "ocf": 1813200000,
+      "capex": null,
+      "gross_margin": 0.6883524918631121,
+      "op_margin": 0.20964009557315674,
+      "fcf_margin": 0.3411284405395744,
+      "incr_op_margin_yoy": 0.030210016155088854,
+      "rev_growth_yoy": 0.13180588974298915,
+      "rev_growth_yoy_accel": 0.02289646002767025,
+      "fcf_margin_change": -0.06811220900122156
     }
   ],
   "signals": [
@@ -556,12 +557,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.3% vs prior quarter YoY: +12.5% (decel: -5.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +57.1% vs year-ago OPM: +18.9%",
       "severity": "HIGH"
@@ -587,7 +582,7 @@
         20
       ],
       "gross_profit": [
-        7,
+        8,
         20
       ],
       "op_income": [
@@ -601,12 +596,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 7/20Q"
+      "gross_profit: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:56:14.794047",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-13T11:32:08.735542"
 }

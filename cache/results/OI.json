@@ -1,25 +1,9 @@
 {
   "ticker": "OI",
   "name": "O-I GLASS, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Packaging & Containers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1496000000,
-      "gross_profit": 264000000,
-      "operating_income": -125000000,
-      "net_income": -29000000,
-      "opex": 389000000,
-      "cogs": 1232000000,
-      "rd": 30000000,
-      "sga": 95000000,
-      "fcf": 264000000,
-      "ocf": 329000000,
-      "capex": -65000000,
-      "gross_margin": 0.17647058823529413,
-      "op_margin": -0.08355614973262032,
-      "fcf_margin": 0.17647058823529413
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -93000000,
       "gross_margin": 0.16266666666666665,
       "op_margin": 0.11666666666666667,
-      "fcf_margin": -0.09933333333333333,
-      "fcf_margin_change": -0.27580392156862743
+      "fcf_margin": -0.09933333333333333
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.14933837429111532,
       "op_margin": 0.045368620037807186,
       "fcf_margin": 0.06364209199747953,
-      "incr_op_margin_yoy": 2.1648351648351647,
-      "rev_growth_yoy": 0.060828877005347594,
       "fcf_margin_change": -0.07308879675329735
     },
     {
@@ -118,8 +99,7 @@
       "fcf_margin": -0.09988179669030733,
       "incr_op_margin_yoy": -0.026041666666666668,
       "rev_growth_yoy": 0.128,
-      "rev_growth_yoy_accel": 0.06717112299465242,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.16352388868778686
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.8135593220338984,
       "rev_growth_yoy": 0.07108433734939759,
       "rev_growth_yoy_accel": -0.05691566265060241,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1505004693562241
     },
     {
@@ -209,7 +189,7 @@
       "incr_op_margin_yoy": 0.7194244604316546,
       "rev_growth_yoy": 0.08215130023640661,
       "rev_growth_yoy_accel": 0.015358609625190478,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.26656457679209183
     },
     {
@@ -321,7 +301,7 @@
       "incr_op_margin_yoy": 0.3105590062111801,
       "rev_growth_yoy": -0.08518518518518518,
       "rev_growth_yoy_accel": 0.044798430325464725,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.35525471653928387
     },
     {
@@ -388,7 +368,7 @@
       "incr_op_margin_yoy": 3.8076923076923075,
       "rev_growth_yoy": -0.016321406151914627,
       "rev_growth_yoy_accel": 0.051929660270998226,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.33262227022930013
     },
     {
@@ -435,9 +415,36 @@
       "rev_growth_yoy": -0.015485407980941036,
       "rev_growth_yoy_accel": -0.002182920994243524,
       "fcf_margin_change": 0.03907102720620932
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1500000000,
+      "gross_profit": 230000000,
+      "operating_income": null,
+      "net_income": -138000000,
+      "opex": null,
+      "cogs": 1270000000,
+      "rd": 9000000,
+      "sga": 116000000,
+      "fcf": 309000000,
+      "ocf": 402000000,
+      "capex": -93000000,
+      "gross_margin": 0.15333333333333332,
+      "op_margin": null,
+      "fcf_margin": 0.206,
+      "rev_growth_yoy": -0.01896664486592544,
+      "rev_growth_yoy_accel": -0.003481236884984404,
+      "fcf_margin_change": 0.13703448275862068
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +6.9% -> +20.6% (+13.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -577,18 +584,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +12.8% vs prior quarter YoY: +6.1% (accel: +6.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -8.4% (year-ago) -> +4.5%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.0% -> +13.7% (+6.6%)",
@@ -598,18 +593,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -9.9% -> +7.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +17.6% -> +16.3% -> +18.4% (reversal +2.2%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -8.4% -> +11.7%",
       "severity": "HIGH"
     }
   ],
@@ -625,7 +608,7 @@
         20
       ],
       "op_income": [
-        20,
+        19,
         20
       ],
       "fcf": [
@@ -638,7 +621,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:31:08.663770",
-  "sector": "Consumer Cyclical",
-  "industry": "Packaging & Containers"
+  "last_updated": "2026-02-13T11:37:44.724880"
 }

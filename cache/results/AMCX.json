@@ -1,25 +1,9 @@
 {
   "ticker": "AMCX",
   "name": "AMC Networks Inc.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 780275000,
-      "gross_profit": 339063000,
-      "operating_income": 81395000,
-      "net_income": 94711000,
-      "opex": 698880000,
-      "cogs": 441212000,
-      "rd": null,
-      "sga": 220239000,
-      "fcf": 93044000,
-      "ocf": 104649000,
-      "capex": -11605000,
-      "gross_margin": 0.4345429496011022,
-      "op_margin": 0.10431578610105412,
-      "fcf_margin": 0.11924513793213931
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8537000,
       "gross_margin": 0.5943973250103723,
       "op_margin": 0.2453345977757571,
-      "fcf_margin": 0.1431547356597339,
-      "fcf_margin_change": 0.0239095977275946
+      "fcf_margin": 0.1431547356597339
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.5334486152601368,
       "op_margin": 0.23228157076147743,
       "fcf_margin": -0.12124706758793535,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1384782548442201
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.4594984005404941,
       "op_margin": 0.07917293448250548,
       "fcf_margin": 0.10810753643420691,
-      "incr_op_margin_yoy": -0.7580011948450969,
-      "rev_growth_yoy": 0.03003300118547948,
       "fcf_margin_change": 0.22935460402214225
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.049263013633229755,
       "incr_op_margin_yoy": 0.24338753918495298,
       "rev_growth_yoy": 0.02951393657452717,
-      "rev_growth_yoy_accel": -0.0005190646109523092,
       "fcf_margin_change": -0.15737055006743667
     },
     {
@@ -434,9 +414,38 @@
       "rev_growth_yoy": -0.0631623010803617,
       "rev_growth_yoy_accel": -0.021768160484068794,
       "fcf_margin_change": -0.08480151855642828
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 594803000,
+      "gross_profit": 295707000,
+      "operating_income": -50862000,
+      "net_income": -55467000,
+      "opex": 645665000,
+      "cogs": 299096000,
+      "rd": null,
+      "sga": 209371000,
+      "fcf": 40445000,
+      "ocf": 49246000,
+      "capex": -8801000,
+      "gross_margin": 0.4971511576101667,
+      "op_margin": -0.08551066487559747,
+      "fcf_margin": 0.06799730330882663,
+      "incr_op_margin_yoy": -45.17036872501111,
+      "rev_growth_yoy": -0.007512034773612768,
+      "rev_growth_yoy_accel": 0.05565026630674892,
+      "op_leverage_ratio": 0.2136688775415309,
+      "fcf_margin_change": -0.0067631289900442065
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -0.8% vs prior quarter YoY: -6.3% (accel: +5.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -637,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:41:32.004371",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-13T11:40:03.752091"
 }

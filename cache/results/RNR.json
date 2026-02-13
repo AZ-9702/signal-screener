@@ -1,25 +1,9 @@
 {
   "ticker": "RNR",
-  "name": "RENAISSANCERE HOLDINGS LTD",
+  "name": "RENAISSANCERE HOLDINGS LTD.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Reinsurance",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1395323000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 197101000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 662956000,
-      "ocf": 662956000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.47512726443984654
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.2396304916336196,
-      "fcf_margin_change": -0.23549677280622694
+      "fcf_margin": 0.2396304916336196
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3106106316530339,
-      "rev_growth_yoy": -0.0010778866255340162,
       "fcf_margin_change": 0.008474233911849982
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.19195108259091573,
       "rev_growth_yoy": 0.01683950147464561,
-      "rev_growth_yoy_accel": 0.017917388100179628,
       "fcf_margin_change": -0.11865954906211815
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.19517788500858754,
       "rev_growth_yoy_accel": -0.3288446082419393,
       "fcf_margin_change": 0.03661281624462964
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2972805000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 760482000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 482975000,
+      "ocf": 482975000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1624644065116952,
+      "rev_growth_yoy": 0.29622774292456533,
+      "rev_growth_yoy_accel": 0.4914056279331529,
+      "fcf_margin_change": -0.332441136700042
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +29.6% vs prior quarter YoY: -19.5% (accel: +49.1%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -563,5 +571,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:57.698070"
+  "last_updated": "2026-02-13T11:43:40.142897"
 }

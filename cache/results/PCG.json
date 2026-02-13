@@ -1,25 +1,9 @@
 {
   "ticker": "PCG",
   "name": "PG&E CORP",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4748000000,
-      "gross_profit": null,
-      "operating_income": 420000000,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -2126000000,
-      "ocf": 89000000,
-      "capex": -2215000000,
-      "gross_margin": null,
-      "op_margin": 0.08845829823083404,
-      "fcf_margin": -0.44776748104465036
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1778000000,
       "gross_margin": null,
       "op_margin": 0.06446140797285835,
-      "fcf_margin": -0.12298558100084818,
-      "fcf_margin_change": 0.3247819000438022
+      "fcf_margin": -0.12298558100084818
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.12218833396873809,
       "fcf_margin": -0.38353030880670985,
-      "incr_op_margin_yoy": 0.44377510040160645,
-      "rev_growth_yoy": 0.10488626790227464,
       "fcf_margin_change": -0.19597312673900627
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.11193515005174198,
       "incr_op_margin_yoy": 0.2144177449168207,
       "rev_growth_yoy": 0.229431721798134,
-      "rev_growth_yoy_accel": 0.12454545389585937,
       "fcf_margin_change": 0.27159515875496787
     },
     {
@@ -427,9 +407,37 @@
       "rev_growth_yoy": 0.05201144588453122,
       "rev_growth_yoy_accel": 0.06671241481202872,
       "fcf_margin_change": 0.32765439131909124
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6804000000,
+      "gross_profit": null,
+      "operating_income": 1224000000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1196000000,
+      "ocf": 1960000000,
+      "capex": -3156000000,
+      "gross_margin": null,
+      "op_margin": 0.17989417989417988,
+      "fcf_margin": -0.17577895355673134,
+      "incr_op_margin_yoy": 1.1791907514450868,
+      "rev_growth_yoy": 0.026089579248982055,
+      "rev_growth_yoy_accel": -0.025921866635549167,
+      "fcf_margin_change": -0.16297895355673134
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +117.9% vs year-ago OPM: +15.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -588,32 +596,14 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +22.9% vs prior quarter YoY: +10.5% (accel: +12.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +21.4% vs year-ago OPM: +6.4%",
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +44.4% vs year-ago OPM: +8.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -34.7% -> -18.8% (+16.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -44.8% -> -12.3% (+32.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -644,5 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:51.516669"
+  "last_updated": "2026-02-13T11:37:51.833887"
 }

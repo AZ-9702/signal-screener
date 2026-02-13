@@ -1,25 +1,9 @@
 {
   "ticker": "ILMN",
   "name": "Illumina, Inc.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2021-01-03T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 953000000,
-      "gross_profit": 630000000,
-      "operating_income": 133000000,
-      "net_income": 257000000,
-      "opex": 497000000,
-      "cogs": 323000000,
-      "rd": 199000000,
-      "sga": 298000000,
-      "fcf": 344000000,
-      "ocf": 406000000,
-      "capex": -62000000,
-      "gross_margin": 0.6610703043022036,
-      "op_margin": 0.13955928646379853,
-      "fcf_margin": 0.36096537250786986
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -42000000,
       "gross_margin": 0.6989935956084172,
       "op_margin": 0.17657822506861848,
-      "fcf_margin": 0.21957913998170173,
-      "op_leverage_ratio": 0.9866424661807662,
-      "fcf_margin_change": -0.14138623252616814
+      "fcf_margin": 0.21957913998170173
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -96,9 +78,7 @@
       "gross_margin": 0.6814011676396997,
       "op_margin": 0.03419516263552961,
       "fcf_margin": 0.176814011676397,
-      "incr_op_margin_yoy": -0.37398373983739835,
-      "rev_growth_yoy": 0.25813221406086045,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4692327842395739
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.09076042518397383,
       "incr_op_margin_yoy": -0.06923076923076923,
       "rev_growth_yoy": 0.11893870082342177,
-      "rev_growth_yoy_accel": -0.13919351323743867,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08605358649242316
     },
     {
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": -34.924528301886795,
       "rev_growth_yoy": -0.047661870503597124,
       "rev_growth_yoy_accel": -0.01513398946270493,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.007173316134790858
     },
     {
@@ -436,9 +415,38 @@
       "rev_growth_yoy_accel": 0.051365574207300826,
       "op_leverage_ratio": 0.4542020774315392,
       "fcf_margin_change": 0.04076027304182392
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1159000000,
+      "gross_profit": 759000000,
+      "operating_income": 201000000,
+      "net_income": 334000000,
+      "opex": 558000000,
+      "cogs": 400000000,
+      "rd": 239000000,
+      "sga": 309000000,
+      "fcf": 266000000,
+      "ocf": 321000000,
+      "capex": -55000000,
+      "gross_margin": 0.6548748921484038,
+      "op_margin": 0.1734253666954271,
+      "fcf_margin": 0.22950819672131148,
+      "incr_op_margin_yoy": 0.4727272727272727,
+      "rev_growth_yoy": 0.049818840579710144,
+      "rev_growth_yoy_accel": 0.04611513687600644,
+      "op_leverage_ratio": 0.6732543286971332,
+      "fcf_margin_change": -0.003886637227028006
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +47.3% vs year-ago OPM: +15.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -518,12 +526,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.9% vs prior quarter YoY: +25.8% (decel: -13.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2022-01 (Q1)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -29.2% -> +17.7%",
@@ -561,7 +563,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:58.171070",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-13T11:35:44.801816"
 }

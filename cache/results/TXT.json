@@ -1,25 +1,9 @@
 {
   "ticker": "TXT",
-  "name": "TEXTRON INC.",
+  "name": "Textron Inc.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 3667000000,
-      "gross_profit": 543000000,
-      "operating_income": null,
-      "net_income": 236000000,
-      "opex": null,
-      "cogs": 3124000000,
-      "rd": null,
-      "sga": 285000000,
-      "fcf": 569000000,
-      "ocf": 569000000,
-      "capex": null,
-      "gross_margin": 0.14807744750477228,
-      "op_margin": null,
-      "fcf_margin": 0.15516771202617943
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.1663772143105245,
       "op_margin": null,
-      "fcf_margin": 0.06286905175408128,
-      "fcf_margin_change": -0.09229866027209815
+      "fcf_margin": 0.06286905175408128
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.12793497892835642,
-      "rev_growth_yoy": -0.09408235614944097,
       "fcf_margin_change": -0.0061787334462255206
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.08030656447850716,
       "rev_growth_yoy": 0.042375824939215004,
-      "rev_growth_yoy_accel": 0.13645818108865598,
       "fcf_margin_change": -0.04762841444984926
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 0.05106507149110009,
       "rev_growth_yoy_accel": -0.002521546030873262,
       "fcf_margin_change": -0.007253624795219016
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 4175000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 235000000,
+      "opex": null,
+      "cogs": null,
+      "rd": 134000000,
+      "sga": 315000000,
+      "fcf": 700000000,
+      "ocf": 700000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.16766467065868262,
+      "rev_growth_yoy": 0.15554940492665376,
+      "rev_growth_yoy_accel": 0.10448433343555366,
+      "fcf_margin_change": 0.07077405433441833
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.7% -> +16.8% (+7.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.6% vs prior quarter YoY: +5.1% (accel: +10.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -475,12 +489,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +4.2% vs prior quarter YoY: -9.4% (accel: +13.6%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.3% -> +18.5% (+12.2%)",
@@ -495,7 +503,7 @@
         20
       ],
       "gross_profit": [
-        4,
+        3,
         20
       ],
       "op_income": [
@@ -509,11 +517,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 4/20Q",
+      "gross_profit: 3/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:52.470063"
+  "last_updated": "2026-02-13T11:44:28.092751"
 }

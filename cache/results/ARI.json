@@ -1,25 +1,9 @@
 {
   "ticker": "ARI",
   "name": "Apollo Commercial Real Estate Finance, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 64696000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 36680000,
-      "opex": 16867000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 51018000,
-      "ocf": 51018000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.7885804377395821
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6171381990414752,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.17144223869810693
+      "fcf_margin": 0.6171381990414752
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.4870510196880954,
-      "rev_growth_yoy": 0.09519908495115617,
       "op_leverage_ratio": 0.24062781766635266,
       "fcf_margin_change": -0.17211320868612623
     },
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.7737492404294106,
       "rev_growth_yoy": -0.09796067518376411,
-      "rev_growth_yoy_accel": -0.19315976013492028,
       "fcf_margin_change": 0.28669822074131524
     },
     {
@@ -419,9 +399,37 @@
       "rev_growth_yoy": -0.13907479077305687,
       "rev_growth_yoy_accel": -0.013242567071325845,
       "fcf_margin_change": -0.37666948751192253
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 73252000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 29199000,
+      "opex": 43439000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 8241000,
+      "ocf": 8241000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.11250204772565937,
+      "rev_growth_yoy": 0.03969909871549216,
+      "rev_growth_yoy_accel": 0.17877388948854903,
+      "op_leverage_ratio": 1.1971856207871066,
+      "fcf_margin_change": -0.40256635650030986
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +4.0% vs prior quarter YoY: -13.9% (accel: +17.9%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -525,12 +533,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -9.8% vs prior quarter YoY: +9.5% (decel: -19.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +61.7% -> +101.5% (+39.8%)",
@@ -565,7 +567,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:50:44.961518",
-  "sector": "Real Estate",
-  "industry": "REIT - Mortgage"
+  "last_updated": "2026-02-13T11:45:19.970910"
 }

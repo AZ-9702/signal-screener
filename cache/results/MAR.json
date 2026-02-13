@@ -1,25 +1,9 @@
 {
   "ticker": "MAR",
   "name": "MARRIOTT INTERNATIONAL INC /MD/",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2172000000,
-      "gross_profit": null,
-      "operating_income": -128000000,
-      "net_income": -164000000,
-      "opex": 2300000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -22000000,
-      "ocf": 16000000,
-      "capex": -38000000,
-      "gross_margin": null,
-      "op_margin": -0.058931860036832415,
-      "fcf_margin": -0.010128913443830571
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -30000000,
       "gross_margin": null,
       "op_margin": 0.03626943005181347,
-      "fcf_margin": -0.0012953367875647669,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.008833576656265805
+      "fcf_margin": -0.0012953367875647669
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.14282501124606387,
       "fcf_margin": 0.0816464237516869,
-      "incr_op_margin_yoy": 0.3355321020228672,
-      "rev_growth_yoy": 1.0469613259668509,
       "op_leverage_ratio": 1.051079821492589,
       "fcf_margin_change": -0.06407075820472466
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.08311502738747321,
       "incr_op_margin_yoy": 0.25172596919808815,
       "rev_growth_yoy": 0.8130397236614854,
-      "rev_growth_yoy_accel": -0.23392160230536552,
       "fcf_margin_change": 0.0014686036357863114
     },
     {
@@ -438,6 +417,29 @@
       "rev_growth_yoy": 0.03741007194244604,
       "rev_growth_yoy_accel": -0.009957531722719355,
       "fcf_margin_change": 0.07419509281790317
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6690000000,
+      "gross_profit": null,
+      "operating_income": 777000000,
+      "net_income": 445000000,
+      "opex": 5913000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 829000000,
+      "ocf": 829000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.11614349775784753,
+      "fcf_margin": 0.12391629297458893,
+      "incr_op_margin_yoy": 0.09578544061302682,
+      "rev_growth_yoy": 0.04059729351376575,
+      "rev_growth_yoy_accel": 0.003187221571319711,
+      "op_leverage_ratio": 0.27226641315563066,
+      "fcf_margin_change": -0.022639416687916844
     }
   ],
   "signals": [
@@ -527,20 +529,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +81.3% vs prior quarter YoY: +104.7% (decel: -23.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +25.2% vs year-ago OPM: +3.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -5.9% (year-ago) -> +14.3%",
       "severity": "HIGH"
     },
     {
@@ -560,12 +550,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +36.0% vs OpEx growth +19.3% (leverage: 1.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -5.9% -> +3.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -595,7 +579,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:22.748372",
-  "sector": "Consumer Cyclical",
-  "industry": "Lodging"
+  "last_updated": "2026-02-13T11:46:54.199984"
 }

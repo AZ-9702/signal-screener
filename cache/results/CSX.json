@@ -1,25 +1,9 @@
 {
   "ticker": "CSX",
-  "name": "CSX CORP",
+  "name": "CSX CORPORATION",
+  "sector": "Industrials",
+  "industry": "Railroads",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2825000000,
-      "gross_profit": null,
-      "operating_income": 1215000000,
-      "net_income": 760000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 718000000,
-      "ocf": 1135000000,
-      "capex": -417000000,
-      "gross_margin": null,
-      "op_margin": 0.4300884955752212,
-      "fcf_margin": 0.2541592920353982
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -306000000,
       "gross_margin": null,
       "op_margin": 0.3913970849626733,
-      "fcf_margin": 0.3291859225026662,
-      "fcf_margin_change": 0.07502663046726799
+      "fcf_margin": 0.3291859225026662
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.39859935803910124,
       "fcf_margin": 0.2068864896410855,
-      "incr_op_margin_yoy": 0.25083056478405313,
-      "rev_growth_yoy": 0.21309734513274337,
       "fcf_margin_change": -0.08290694899803966
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.2836214474069733,
       "incr_op_margin_yoy": 0.3016666666666667,
       "rev_growth_yoy": 0.21329541414859582,
-      "rev_growth_yoy_accel": 0.0001980690158524534,
       "fcf_margin_change": 0.07673495776588782
     },
     {
@@ -427,6 +407,28 @@
       "rev_growth_yoy": -0.008842221608179055,
       "rev_growth_yoy_accel": 0.025472828378311087,
       "fcf_margin_change": 0.2086737860978735
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3508000000,
+      "gross_profit": null,
+      "operating_income": 1110000000,
+      "net_income": 720000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 709000000,
+      "ocf": 1386000000,
+      "capex": -677000000,
+      "gross_margin": null,
+      "op_margin": 0.3164196123147092,
+      "fcf_margin": 0.20210946408209807,
+      "incr_op_margin_yoy": -0.12903225806451613,
+      "rev_growth_yoy": -0.0087595365922577,
+      "rev_growth_yoy_accel": 8.268501592135526e-05,
+      "fcf_margin_change": 0.03288727283593135
     }
   ],
   "signals": [
@@ -567,12 +569,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +20.7% -> +28.4% (+7.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +25.4% -> +32.9% (+7.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -602,7 +598,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:55:05.902630",
-  "sector": "Industrials",
-  "industry": "Railroads"
+  "last_updated": "2026-02-13T11:33:42.172255"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "NI",
   "name": "NiSource Inc.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Gas",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1002500000,
-      "gross_profit": 1211000000,
-      "operating_income": 218100000,
-      "net_income": 84400000,
-      "opex": 992900000,
-      "cogs": 315400000,
-      "rd": null,
-      "sga": null,
-      "fcf": -220500000,
-      "ocf": 245400000,
-      "capex": -465900000,
-      "gross_margin": 1.2079800498753117,
-      "op_margin": 0.2175561097256858,
-      "fcf_margin": -0.2199501246882793
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -367000000,
       "gross_margin": 0.6915113871635611,
       "op_margin": 0.2802795031055901,
-      "fcf_margin": 0.05260093167701863,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.2725510563652979
+      "fcf_margin": 0.05260093167701863
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +77,7 @@
       "gross_margin": 0.6138837378053696,
       "op_margin": 0.22929936305732485,
       "fcf_margin": -0.21494799645247117,
-      "incr_op_margin_yoy": 0.2788057190916737,
-      "rev_growth_yoy": 0.2372069825436409,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05438700458984694
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.06923610740404633,
       "incr_op_margin_yoy": 0.5099176075678975,
       "rev_growth_yoy": 0.2120212215320911,
-      "rev_growth_yoy_accel": -0.02518576101154979,
       "op_leverage_ratio": 2.7261132051009223,
       "fcf_margin_change": 0.2841841038565175
     },
@@ -187,7 +166,7 @@
       "incr_op_margin_yoy": 0.23020153278455863,
       "rev_growth_yoy": 0.28404418285898575,
       "rev_growth_yoy_accel": 0.14843859603388673,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24511175683635947
     },
     {
@@ -277,7 +256,7 @@
       "incr_op_margin_yoy": 0.008836075563680683,
       "rev_growth_yoy": -0.20607811126459877,
       "rev_growth_yoy_accel": -0.14907948804293747,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08318676920520729
     },
     {
@@ -435,9 +414,44 @@
       "rev_growth_yoy": 0.15228096255690793,
       "rev_growth_yoy_accel": 0.0031152946302922813,
       "fcf_margin_change": -0.00856540548659615
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6522800000,
+      "gross_profit": 6041300000,
+      "operating_income": 515500000,
+      "net_income": 257800000,
+      "opex": 5525800000,
+      "cogs": 481500000,
+      "rd": null,
+      "sga": null,
+      "fcf": -133700000,
+      "ocf": 712600000,
+      "capex": -846300000,
+      "gross_margin": 0.9261820077267431,
+      "op_margin": 0.07903047770895934,
+      "fcf_margin": -0.02049733243392408,
+      "incr_op_margin_yoy": 0.0796031938059521,
+      "rev_growth_yoy": 0.23470063790721005,
+      "rev_growth_yoy_accel": 0.08241967535030212,
+      "op_leverage_ratio": 0.6679867234505295,
+      "fcf_margin_change": 0.1186737690013283
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -13.9% -> -2.0% (+11.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +23.5% vs prior quarter YoY: +15.2% (accel: +8.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -593,18 +607,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -26.9% -> -21.5% (+5.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +120.8% -> +69.2% -> +76.8% (reversal +7.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -22.0% -> +5.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -632,7 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:17:36.712162",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Gas"
+  "last_updated": "2026-02-13T11:43:09.980745"
 }

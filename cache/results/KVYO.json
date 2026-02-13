@@ -1,6 +1,8 @@
 {
   "ticker": "KVYO",
   "name": "Klaviyo, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
     {
       "date": "2022-09-30T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.7429614073742555,
       "op_margin": -0.02807174579130375,
       "fcf_margin": 0.134161875580955,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2023-03-31T00:00:00",
@@ -121,7 +123,7 @@
       "incr_op_margin_yoy": -0.5720341237607081,
       "rev_growth_yoy": 0.3882190931937894,
       "rev_growth_yoy_accel": -0.08706789660212899,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04312749743769581
     },
     {
@@ -144,7 +146,7 @@
       "incr_op_margin_yoy": -0.42612002597161674,
       "rev_growth_yoy": 0.34535005894111015,
       "rev_growth_yoy_accel": -0.04286903425267924,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.058948040894467646
     },
     {
@@ -167,7 +169,7 @@
       "incr_op_margin_yoy": -0.36588751800371355,
       "rev_growth_yoy": 0.350133061135212,
       "rev_growth_yoy_accel": 0.004783002194101826,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06191208623071265
     },
     {
@@ -282,11 +284,46 @@
       "incr_op_margin_yoy": 0.03222231018921701,
       "rev_growth_yoy": 0.3223646711528155,
       "rev_growth_yoy_accel": 0.0032834292812777832,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01425347112265471
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 350195000,
+      "gross_profit": 252751000,
+      "operating_income": -1846000,
+      "net_income": 7028000,
+      "opex": 254597000,
+      "cogs": 97444000,
+      "rd": 76733000,
+      "sga": null,
+      "fcf": 90694000,
+      "ocf": 93160000,
+      "capex": -2466000,
+      "gross_margin": 0.7217435999942889,
+      "op_margin": -0.0052713488199431745,
+      "fcf_margin": 0.2589814246348463,
+      "incr_op_margin_yoy": 0.40994114780522545,
+      "rev_growth_yoy": 0.2962311780992286,
+      "rev_growth_yoy_accel": -0.026133493053586865,
+      "op_leverage_ratio": 3.4414940722920386,
+      "fcf_margin_change": 0.09015100775373461
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +16.9% -> +25.9% (+9.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +12.6% vs OpEx growth +3.7% (leverage: 3.4x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -349,23 +386,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 13,
+    "n_quarters": 14,
     "coverage": {
       "revenue": [
-        13,
-        13
+        14,
+        14
       ],
       "gross_profit": [
-        13,
-        13
+        14,
+        14
       ],
       "op_income": [
-        13,
-        13
+        14,
+        14
       ],
       "fcf": [
-        12,
-        13
+        13,
+        14
       ]
     },
     "gaps": [],
@@ -373,7 +410,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:47:50.474433",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-13T11:46:43.842009"
 }

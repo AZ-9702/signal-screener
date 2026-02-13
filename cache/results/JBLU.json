@@ -1,25 +1,9 @@
 {
   "ticker": "JBLU",
   "name": "JETBLUE AIRWAYS CORP",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 661000000,
-      "gross_profit": null,
-      "operating_income": -454000000,
-      "net_income": -373000000,
-      "opex": 1116000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -460000000,
-      "ocf": -460000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.686838124054463,
-      "fcf_margin": -0.6959152798789713
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.40109140518417463,
-      "fcf_margin": 0.24147339699863574,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.937388676877607
+      "fcf_margin": 0.24147339699863574
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.0648854961832061,
       "fcf_margin": -0.061613958560523444,
-      "incr_op_margin_yoy": 0.2855924978687127,
-      "rev_growth_yoy": 1.7745839636913767,
       "fcf_margin_change": -0.11080259953415428
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.14228110599078342,
       "incr_op_margin_yoy": -0.07278165503489531,
       "rev_growth_yoy": 1.3683492496589358,
-      "rev_growth_yoy_accel": -0.40623471403244094,
       "fcf_margin_change": 0.20389506455130685
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": -0.07966101694915254,
       "rev_growth_yoy": 0.29918864097363085,
       "rev_growth_yoy_accel": -0.33189875062076546,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.012680852286605078
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": 2.109090909090909,
       "rev_growth_yoy": 0.06748466257668712,
       "rev_growth_yoy_accel": -0.27352916230810553,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07511849745230477
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": 0.978021978021978,
       "rev_growth_yoy": -0.06973180076628352,
       "rev_growth_yoy_accel": -0.018614962278311012,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09811554200540995
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": -0.01818181818181818,
       "rev_growth_yoy_accel": 0.011472218062003894,
       "fcf_margin_change": -0.01234263244173616
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2244000000,
+      "gross_profit": null,
+      "operating_income": -100000000,
+      "net_income": -177000000,
+      "opex": 2344000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 49000000,
+      "ocf": 49000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.044563279857397504,
+      "fcf_margin": 0.021836007130124777,
+      "incr_op_margin_yoy": 3.515151515151515,
+      "rev_growth_yoy": -0.014492753623188406,
+      "rev_growth_yoy_accel": 0.003689064558629775,
+      "fcf_margin_change": 0.08299018456337198
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -6.1% -> +2.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -565,12 +572,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +136.8% vs prior quarter YoY: +177.5% (decel: -40.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +24.1% -> +98.8% (+74.7%)",
@@ -586,12 +587,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -40.1% -> +9.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -69.6% -> +24.1%",
       "severity": "HIGH"
     }
   ],
@@ -622,7 +617,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:42:53.980398",
-  "sector": "Industrials",
-  "industry": "Airlines"
+  "last_updated": "2026-02-13T11:36:10.839270"
 }

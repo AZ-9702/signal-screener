@@ -1,25 +1,9 @@
 {
   "ticker": "PRSI",
   "name": "PORTSMOUTH SQUARE, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3109000,
-      "gross_profit": -2024000,
-      "operating_income": -2741000,
-      "net_income": -2985000,
-      "opex": 5317000,
-      "cogs": 5133000,
-      "rd": null,
-      "sga": null,
-      "fcf": -5122000,
-      "ocf": -4895000,
-      "capex": -227000,
-      "gross_margin": -0.651013187520103,
-      "op_margin": -0.8816339659054359,
-      "fcf_margin": -1.6474750723705371
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -157000,
       "gross_margin": -0.3749138525155066,
       "op_margin": -0.6175051688490696,
-      "fcf_margin": -0.8976567884217781,
-      "fcf_margin_change": 0.749818283948759
+      "fcf_margin": -0.8976567884217781
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.28230122324159024,
       "op_margin": 0.1393348623853211,
       "fcf_margin": -0.04912079510703364,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.8485359933147445
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": -0.020636420919974797,
       "op_margin": -0.14603024574669188,
       "fcf_margin": -0.7189666036546944,
-      "incr_op_margin_yoy": 0.5600493979623341,
-      "rev_growth_yoy": 1.0418140881312319,
       "fcf_margin_change": -0.6773795353225857
     },
     {
@@ -119,8 +100,7 @@
       "fcf_margin": -0.3250904704463209,
       "incr_op_margin_yoy": 0.2809651474530831,
       "rev_growth_yoy": 1.2853204686423156,
-      "rev_growth_yoy_accel": 0.24350638051108375,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.39387613320837356
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.4455949137148047,
       "rev_growth_yoy": 0.8089639970609845,
       "rev_growth_yoy_accel": -0.4366399784741837,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1450516728215596
     },
     {
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": 0.41390205371248023,
       "rev_growth_yoy": 0.5726779252110977,
       "rev_growth_yoy_accel": 0.014391850856970478,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15231516679273255
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": 1.1470829909613804,
       "rev_growth_yoy": -0.09886271324126726,
       "rev_growth_yoy_accel": 0.10149476399083761,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10874708851532308
     },
     {
@@ -299,7 +279,7 @@
       "fcf_margin": -0.06516081055958356,
       "rev_growth_yoy": 0.03144774688398849,
       "rev_growth_yoy_accel": -0.0022158196344102127,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23596388381694455
     },
     {
@@ -409,7 +389,7 @@
       "incr_op_margin_yoy": 0.39288506645817045,
       "rev_growth_yoy": 0.26075433231396533,
       "rev_growth_yoy_accel": 0.1257850071605911,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.592358314447577
     },
     {
@@ -432,9 +412,56 @@
       "rev_growth_yoy": 0.050592216582064295,
       "rev_growth_yoy_accel": -0.21016211573190102,
       "fcf_margin_change": -0.26929123354509593
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 12661000,
+      "gross_profit": 2234000,
+      "operating_income": 1004000,
+      "net_income": -2291000,
+      "opex": -9208000,
+      "cogs": 10427000,
+      "rd": null,
+      "sga": null,
+      "fcf": -1409000,
+      "ocf": -952000,
+      "capex": -457000,
+      "gross_margin": 0.17644735802859174,
+      "op_margin": 0.07929863359924176,
+      "fcf_margin": -0.11128662822841798,
+      "incr_op_margin_yoy": 0.47032640949554894,
+      "rev_growth_yoy": 0.27054691419969895,
+      "rev_growth_yoy_accel": 0.21995469761763464,
+      "op_leverage_ratio": 4.375200829637544,
+      "fcf_margin_change": 0.016833842056652087
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +2.0% vs OpEx growth +0.4% (leverage: 4.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +18.3% -> +15.6% -> +17.6% (reversal +2.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +27.1% vs prior quarter YoY: +5.1% (accel: +22.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -2.6% (year-ago) -> +7.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -634,12 +661,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +128.5% vs prior quarter YoY: +104.2% (accel: +24.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -89.8% -> -4.9% (+84.9%)",
@@ -650,12 +671,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -61.8% -> +13.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -164.7% -> -89.8% (+75.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -683,5 +698,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:19:34.316850"
+  "last_updated": "2026-02-13T11:38:04.943287"
 }

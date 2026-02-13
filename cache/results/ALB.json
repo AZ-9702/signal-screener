@@ -1,25 +1,9 @@
 {
   "ticker": "ALB",
   "name": "ALBEMARLE CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 879147000,
-      "gross_profit": 265420000,
-      "operating_income": 125136000,
-      "net_income": 84635000,
-      "opex": 140284000,
-      "cogs": 613727000,
-      "rd": 15375000,
-      "sga": 124909000,
-      "fcf": 108094000,
-      "ocf": 337200000,
-      "capex": -229106000,
-      "gross_margin": 0.3019062796096671,
-      "op_margin": 0.1423379707830431,
-      "fcf_margin": 0.1229532717509131
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -179683000,
       "gross_margin": 0.3179667933210417,
       "op_margin": 0.1879485005866457,
-      "fcf_margin": -0.02620792942405018,
-      "fcf_margin_change": -0.1491612011749633
+      "fcf_margin": -0.02620792942405018
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -75,7 +58,7 @@
       "gross_margin": 0.30012425261809417,
       "op_margin": 0.1583534601705343,
       "fcf_margin": -0.1819132976789322,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19570326428943283
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.26458615707377736,
       "op_margin": -0.03498754199265492,
       "fcf_margin": -0.5001733385223058,
-      "incr_op_margin_yoy": -10.388656438865643,
-      "rev_growth_yoy": 0.017126828619104653,
       "op_leverage_ratio": 0.060094649235847696,
       "fcf_margin_change": -0.31826004084337367
     },
@@ -119,8 +100,7 @@
       "fcf_margin": -0.022631343728274904,
       "incr_op_margin_yoy": 0.523108729815673,
       "rev_growth_yoy": 0.3598700576757736,
-      "rev_growth_yoy_accel": 0.342743229056669,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4775419947940309
     },
     {
@@ -278,7 +258,7 @@
       "incr_op_margin_yoy": 6.354956138860253,
       "rev_growth_yoy": -0.10103594917622354,
       "rev_growth_yoy_accel": -0.20563030668086665,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3696248004240174
     },
     {
@@ -436,9 +416,44 @@
       "rev_growth_yoy": -0.03459310308173371,
       "rev_growth_yoy_accel": 0.03559289579269521,
       "fcf_margin_change": 0.2675801590210046
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1428031000,
+      "gross_profit": 197934000,
+      "operating_income": -217386000,
+      "net_income": -414179000,
+      "opex": 415320000,
+      "cogs": 1230097000,
+      "rd": 12181000,
+      "sga": 155500000,
+      "fcf": 233100000,
+      "ocf": 388485000,
+      "capex": -155385000,
+      "gross_margin": 0.13860623473860162,
+      "op_margin": -0.15222778777211418,
+      "fcf_margin": 0.1632317505712411,
+      "incr_op_margin_yoy": -1.1297384855183936,
+      "rev_growth_yoy": 0.15938615570347964,
+      "rev_growth_yoy_accel": 0.19397925878521335,
+      "op_leverage_ratio": 0.38095949434937915,
+      "fcf_margin_change": -0.007614743886367653
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +14.8% -> +9.0% -> +13.9% (reversal +4.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.9% vs prior quarter YoY: -3.5% (accel: +19.4%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -645,12 +660,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +36.0% vs prior quarter YoY: +1.7% (accel: +34.3%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +52.3% vs year-ago OPM: +18.8%",
       "severity": "HIGH"
@@ -693,7 +702,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:15:55.256347",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-13T11:39:59.948396"
 }

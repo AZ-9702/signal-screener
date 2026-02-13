@@ -1,25 +1,9 @@
 {
   "ticker": "DHX",
   "name": "DHI Group, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 33211000,
-      "gross_profit": 28748000,
-      "operating_income": 1770000,
-      "net_income": 1995000,
-      "opex": 31441000,
-      "cogs": 4463000,
-      "rd": 4502000,
-      "sga": null,
-      "fcf": 671000,
-      "ocf": 4239000,
-      "capex": -3568000,
-      "gross_margin": 0.8656168137063022,
-      "op_margin": 0.053295594833037245,
-      "fcf_margin": 0.020204149227665533
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3703000,
       "gross_margin": 0.8679251064872981,
       "op_margin": 0.015260625746943278,
-      "fcf_margin": 0.0833818527257684,
-      "fcf_margin_change": 0.06317770349810287
+      "fcf_margin": 0.0833818527257684
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": 0.881415194974517,
       "op_margin": 0.004711390304610643,
       "fcf_margin": -0.019023349531824107,
-      "rev_growth_yoy": 0.016169341483243505,
       "op_leverage_ratio": 5.203443534487491,
       "fcf_margin_change": -0.09835230460042414
     },
@@ -118,7 +100,6 @@
       "fcf_margin": 0.14932719753014503,
       "incr_op_margin_yoy": 0.07642563198118754,
       "rev_growth_yoy": 0.05212514938865565,
-      "rev_growth_yoy_accel": 0.03595580790541215,
       "op_leverage_ratio": 4.984949788730753,
       "fcf_margin_change": 0.16835054706196914
     },
@@ -432,9 +413,43 @@
       "rev_growth_yoy": -0.08956154522007766,
       "rev_growth_yoy_accel": 0.0166533963142622,
       "fcf_margin_change": -0.052470527551883736
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 31375000,
+      "gross_profit": 26832000,
+      "operating_income": 3660000,
+      "net_income": 1351000,
+      "opex": 27715000,
+      "cogs": 4543000,
+      "rd": 2985000,
+      "sga": null,
+      "fcf": 5694000,
+      "ocf": 7225000,
+      "capex": -1531000,
+      "gross_margin": 0.855203187250996,
+      "op_margin": 0.11665338645418327,
+      "fcf_margin": 0.1814820717131474,
+      "incr_op_margin_yoy": -0.5671554252199413,
+      "rev_growth_yoy": -0.09803076038522351,
+      "rev_growth_yoy_accel": -0.008469215165145857,
+      "fcf_margin_change": 0.08279888521126401
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.9% -> +18.1% (+8.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -14.0% -> +11.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -554,12 +569,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +8.3% -> +34.0% (+25.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +2.0% -> +8.3% (+6.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -587,7 +596,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:25:35.557362",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-13T11:34:14.713890"
 }

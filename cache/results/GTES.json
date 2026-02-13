@@ -1,25 +1,9 @@
 {
   "ticker": "GTES",
   "name": "Gates Industrial Corporation plc",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 794200000,
-      "gross_profit": 301800000,
-      "operating_income": 85400000,
-      "net_income": 24300000,
-      "opex": 216400000,
-      "cogs": 492400000,
-      "rd": null,
-      "sga": 205200000,
-      "fcf": 162300000,
-      "ocf": 181500000,
-      "capex": -19200000,
-      "gross_margin": 0.38000503651473183,
-      "op_margin": 0.10752958952404935,
-      "fcf_margin": 0.20435658524301184
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -18100000,
       "gross_margin": 0.39203449449676614,
       "op_margin": 0.14592079881992512,
-      "fcf_margin": -0.047770339271530696,
-      "op_leverage_ratio": 47.46522286577688,
-      "fcf_margin_change": -0.25212692451454255
+      "fcf_margin": -0.047770339271530696
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.35102991662579697,
       "op_margin": 0.0930603236880824,
       "fcf_margin": 0.18097106424717999,
-      "incr_op_margin_yoy": -0.4439252336448598,
-      "rev_growth_yoy": 0.02694535381515991,
       "fcf_margin_change": 0.0817131792750093
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.1374524289232147,
       "incr_op_margin_yoy": -4.975206611570248,
       "rev_growth_yoy": 0.013729717462838988,
-      "rev_growth_yoy_accel": -0.013215636352320922,
       "op_leverage_ratio": 0.7689668325882832,
       "fcf_margin_change": -0.31842349317039464
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 4.385542168674699,
       "rev_growth_yoy": -0.009070046989400065,
       "rev_growth_yoy_accel": -0.022799764452239052,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14417938084205015
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": 0.5559322033898305,
       "rev_growth_yoy": 0.03253198059108955,
       "rev_growth_yoy_accel": 0.02771890693986949,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08154432326379883
     },
     {
@@ -389,7 +368,7 @@
       "incr_op_margin_yoy": -0.5333333333333333,
       "rev_growth_yoy": -0.017389288198469743,
       "rev_growth_yoy_accel": 0.021878637204055452,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21410776657233185
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy": 0.03009510051763573,
       "rev_growth_yoy_accel": 0.03212785037647255,
       "fcf_margin_change": -0.0005272142851201339
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 856200000,
+      "gross_profit": 325300000,
+      "operating_income": 108300000,
+      "net_income": 51300000,
+      "opex": 217000000,
+      "cogs": 530900000,
+      "rd": null,
+      "sga": 209500000,
+      "fcf": 251000000,
+      "ocf": 269800000,
+      "capex": -18800000,
+      "gross_margin": 0.3799345947208596,
+      "op_margin": 0.12648913805185705,
+      "fcf_margin": 0.2931558047185237,
+      "incr_op_margin_yoy": -0.16044776119402984,
+      "rev_growth_yoy": 0.032312515071135764,
+      "rev_growth_yoy_accel": 0.002217414553500035,
+      "fcf_margin_change": 0.1990807784242617
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.4% -> +29.3% (+19.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -570,12 +577,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +3.8% vs OpEx growth +0.3% (leverage: 11.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +11.0% vs OpEx growth +0.2% (leverage: 47.5x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -603,7 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:57:19.651255",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-13T11:35:15.100371"
 }

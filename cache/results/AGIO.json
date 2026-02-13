@@ -1,25 +1,9 @@
 {
   "ticker": "AGIO",
-  "name": "Agios Pharmaceuticals, Inc.",
+  "name": "AGIOS PHARMACEUTICALS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 44045000,
-      "gross_profit": 43086000,
-      "operating_income": -92434000,
-      "net_income": -97657000,
-      "opex": 136479000,
-      "cogs": 959000,
-      "rd": 95742000,
-      "sga": null,
-      "fcf": -49959000,
-      "ocf": -49397000,
-      "capex": -562000,
-      "gross_margin": 0.9782268134862073,
-      "op_margin": -2.0986264048132592,
-      "fcf_margin": -1.1342717675105005
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -90,9 +74,7 @@
       "capex": -4502000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": null,
-      "incr_op_margin_yoy": 0.2813713247814735,
-      "rev_growth_yoy": -1.0
+      "fcf_margin": null
     },
     {
       "date": "2022-03-31T00:00:00",
@@ -193,7 +175,7 @@
       "fcf_margin": -17.040827241932607,
       "incr_op_margin_yoy": 2.204731002721373,
       "rev_growth_yoy": 5.741586538461538,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -1.6635650609581294
     },
     {
@@ -284,7 +266,7 @@
       "incr_op_margin_yoy": -0.5655038759689922,
       "rev_growth_yoy": 0.45997504011410234,
       "rev_growth_yoy_accel": -0.18805280211327585,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -1.9742709489300783
     },
     {
@@ -330,7 +312,7 @@
       "incr_op_margin_yoy": -1.223003194888179,
       "rev_growth_yoy": 0.21151506960400054,
       "rev_growth_yoy_accel": -0.0720069804555942,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.9976534369890739
     },
     {
@@ -420,11 +402,52 @@
       "incr_op_margin_yoy": -3.5898876404494384,
       "rev_growth_yoy": 0.43685854529228024,
       "rev_growth_yoy_accel": -0.008875639269530555,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.7022866792502693
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19967000,
+      "gross_profit": 18088000,
+      "operating_income": -121578000,
+      "net_income": -108039000,
+      "opex": 141545000,
+      "cogs": 1879000,
+      "rd": 88056000,
+      "sga": 51610000,
+      "fcf": -97333000,
+      "ocf": -96213000,
+      "capex": -1120000,
+      "gross_margin": 0.9058947262983923,
+      "op_margin": -6.08894676215756,
+      "fcf_margin": -4.874693243852357,
+      "incr_op_margin_yoy": 0.3744722312439104,
+      "rev_growth_yoy": 0.8608574091332712,
+      "rev_growth_yoy_accel": 0.423998863840991,
+      "op_leverage_ratio": 6.052235591757602,
+      "fcf_margin_change": 2.090058308942674
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -696.5% -> -487.5% (+209.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +55.0% vs OpEx growth +9.1% (leverage: 6.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +86.1% vs prior quarter YoY: +43.7% (accel: +42.4%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -583,7 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:43:54.531108",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-13T11:31:47.990605"
 }

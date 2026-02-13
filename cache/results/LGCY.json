@@ -1,6 +1,8 @@
 {
   "ticker": "LGCY",
   "name": "LEGACY EDUCATION INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
     {
       "date": "2023-09-30T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.15528384804256765,
       "fcf_margin": 0.21506019591714648,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18542510805028053
     },
     {
@@ -99,7 +101,7 @@
       "fcf_margin": 0.21059756055851403,
       "incr_op_margin_yoy": 0.355051197625611,
       "rev_growth_yoy": 0.35093857065165074,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.29197293872203123
     },
     {
@@ -191,6 +193,28 @@
       "rev_growth_yoy_accel": -0.022310793036578958,
       "op_leverage_ratio": 1.7375176686406202,
       "fcf_margin_change": -0.120442232077807
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19184643,
+      "gross_profit": null,
+      "operating_income": 2556134,
+      "net_income": 2042701,
+      "opex": 16628509,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 512705,
+      "ocf": 1055571,
+      "capex": -542866,
+      "gross_margin": null,
+      "op_margin": 0.13323854918749334,
+      "fcf_margin": 0.026724761049762562,
+      "incr_op_margin_yoy": 0.16187756430343658,
+      "rev_growth_yoy": 0.4070006939425751,
+      "rev_growth_yoy_accel": 0.021717085289121862,
+      "fcf_margin_change": -0.015007986754309421
     }
   ],
   "signals": [
@@ -250,23 +274,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 9,
+    "n_quarters": 10,
     "coverage": {
       "revenue": [
-        9,
-        9
+        10,
+        10
       ],
       "gross_profit": [
         0,
-        9
+        10
       ],
       "op_income": [
-        9,
-        9
+        10,
+        10
       ],
       "fcf": [
-        9,
-        9
+        10,
+        10
       ]
     },
     "gaps": [],
@@ -276,7 +300,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:15:41.915584",
-  "sector": "Consumer Defensive",
-  "industry": "Education & Training Services"
+  "last_updated": "2026-02-13T11:36:38.579836"
 }

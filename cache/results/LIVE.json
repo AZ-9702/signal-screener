@@ -1,25 +1,9 @@
 {
   "ticker": "LIVE",
   "name": "Live Ventures Incorporated",
+  "sector": "Consumer Cyclical",
+  "industry": "Home Improvement Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 62454000,
-      "gross_profit": 22269000,
-      "operating_income": 7291000,
-      "net_income": 5413000,
-      "opex": 14978000,
-      "cogs": 40185000,
-      "rd": null,
-      "sga": null,
-      "fcf": 4410000,
-      "ocf": 7668000,
-      "capex": -3258000,
-      "gross_margin": 0.35656643289461043,
-      "op_margin": 0.11674192205463221,
-      "fcf_margin": 0.07061197041022192
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2211000,
       "gross_margin": 0.373677528565383,
       "op_margin": 0.15693327690788544,
-      "fcf_margin": 0.1556213852447454,
-      "op_leverage_ratio": 5.227802515364487,
-      "fcf_margin_change": 0.08500941483452347
+      "fcf_margin": 0.1556213852447454
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": 0.3634430552011568,
       "op_margin": 0.12959655240849424,
       "fcf_margin": -0.07619574154404468,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19613206110407072
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.36743926128955,
       "op_margin": 0.13846829346177386,
       "fcf_margin": 0.015620426301923947,
-      "incr_op_margin_yoy": 0.2452770780856423,
-      "rev_growth_yoy": 0.2034137124923944,
       "op_leverage_ratio": 1.5139347221471673,
       "fcf_margin_change": 0.09181616784596863
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.04914928413622931,
       "incr_op_margin_yoy": 2.260135135135135,
       "rev_growth_yoy": -0.01670193257158979,
-      "rev_growth_yoy_accel": -0.22011564506398418,
       "fcf_margin_change": -0.06476971043815326
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": -0.1368889438230023,
       "rev_growth_yoy": 0.3536212247038769,
       "rev_growth_yoy_accel": 0.051784127186263185,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14461193091406188
     },
     {
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": -0.6055692633063094,
       "rev_growth_yoy": -0.0916062577697412,
       "rev_growth_yoy_accel": 0.006289650378556819,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11748709198278251
     },
     {
@@ -436,6 +415,28 @@
       "rev_growth_yoy_accel": 0.10180644758196901,
       "op_leverage_ratio": 0.12961472386319284,
       "fcf_margin_change": -0.053965330484534994
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 108544000,
+      "gross_profit": 35353000,
+      "operating_income": 3451000,
+      "net_income": -64000,
+      "opex": 31902000,
+      "cogs": 73191000,
+      "rd": null,
+      "sga": null,
+      "fcf": 8511000,
+      "ocf": 9847000,
+      "capex": -1336000,
+      "gross_margin": 0.3257020194575472,
+      "op_margin": 0.03179355837264151,
+      "fcf_margin": 0.07841059846698113,
+      "incr_op_margin_yoy": -0.9072199730094467,
+      "rev_growth_yoy": -0.026581052480539512,
+      "rev_growth_yoy_accel": -0.03678124229276732,
+      "fcf_margin_change": 0.03606383439895237
     }
   ],
   "signals": [
@@ -579,12 +580,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -1.7% vs prior quarter YoY: +20.3% (decel: -22.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +226.0% vs year-ago OPM: +15.7%",
       "severity": "HIGH"
@@ -599,24 +594,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.5% vs OpEx growth +4.3% (leverage: 1.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +24.5% vs year-ago OPM: +11.7%",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +7.1% -> +15.6% (+8.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +13.5% vs OpEx growth +2.6% (leverage: 5.2x)",
       "severity": "MEDIUM"
     }
   ],
@@ -645,7 +622,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:33:06.550195",
-  "sector": "Consumer Cyclical",
-  "industry": "Home Improvement Retail"
+  "last_updated": "2026-02-13T11:36:28.989587"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "VNDA",
   "name": "VANDA PHARMACEUTICALS INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 67653000,
-      "gross_profit": 60871000,
-      "operating_income": 10451000,
-      "net_income": 8190000,
-      "opex": 57202000,
-      "cogs": 6412000,
-      "rd": 14849000,
-      "sga": 35571000,
-      "fcf": 18336000,
-      "ocf": 19302000,
-      "capex": -966000,
-      "gross_margin": 0.8997531521144665,
-      "op_margin": 0.15447947615035548,
-      "fcf_margin": 0.2710301095295109
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -130000,
       "gross_margin": 0.9037801783976128,
       "op_margin": 0.16500981346439228,
-      "fcf_margin": 0.14461695575164754,
-      "fcf_margin_change": -0.12641315377786336
+      "fcf_margin": 0.14461695575164754
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": 0.9083197341919169,
       "op_margin": 0.1269645246181214,
       "fcf_margin": 0.38920007644922744,
-      "rev_growth_yoy": 0.005409959647022305,
       "fcf_margin_change": 0.2549964955946729
     },
     {
@@ -118,7 +100,6 @@
       "fcf_margin": 0.06597222222222222,
       "incr_op_margin_yoy": 7.2708922083165115,
       "rev_growth_yoy": -0.039525124064529515,
-      "rev_growth_yoy_accel": -0.04493508371155182,
       "fcf_margin_change": -0.32322785422700523
     },
     {
@@ -141,7 +122,7 @@
       "incr_op_margin_yoy": 2.5386149900256485,
       "rev_growth_yoy": -0.05167970073196954,
       "rev_growth_yoy_accel": -0.012154576667440027,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.019320525098790356
     },
     {
@@ -411,7 +392,7 @@
       "incr_op_margin_yoy": -13.401228733459357,
       "rev_growth_yoy": 0.04192257399849427,
       "rev_growth_yoy_accel": -0.01241563340953742,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3754070849961597
     },
     {
@@ -434,11 +415,40 @@
       "incr_op_margin_yoy": -2.3566864180318348,
       "rev_growth_yoy": 0.18062580008814086,
       "rev_growth_yoy_accel": 0.13870322608964658,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.26931925849918714
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 57216000,
+      "gross_profit": 53383000,
+      "operating_income": -40353000,
+      "net_income": -141187000,
+      "opex": 97569000,
+      "cogs": 3833000,
+      "rd": 29006000,
+      "sga": 62978000,
+      "fcf": -29519000,
+      "ocf": -29417000,
+      "capex": -102000,
+      "gross_margin": 0.9330082494407159,
+      "op_margin": -0.7052747483221476,
+      "fcf_margin": -0.5159221196868009,
+      "incr_op_margin_yoy": -7.460679732076408,
+      "rev_growth_yoy": 0.07579204662968882,
+      "rev_growth_yoy_accel": -0.10483375345845204,
+      "op_leverage_ratio": 0.14867113938301385,
+      "fcf_margin_change": 0.04909974387038207
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +7.6% vs prior quarter YoY: +18.1% (decel: -10.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -615,5 +625,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:27:59.472963"
+  "last_updated": "2026-02-13T11:39:23.758446"
 }

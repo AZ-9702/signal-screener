@@ -1,25 +1,9 @@
 {
   "ticker": "PSN",
-  "name": "Parsons Corporation",
+  "name": "PARSONS CORPORATION",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 964258000,
-      "gross_profit": 229896000,
-      "operating_income": 41579000,
-      "net_income": 21611000,
-      "opex": 188317000,
-      "cogs": 734362000,
-      "rd": null,
-      "sga": 191752000,
-      "fcf": 175722000,
-      "ocf": 175722000,
-      "capex": null,
-      "gross_margin": 0.23841751896276722,
-      "op_margin": 0.04312020226951708,
-      "fcf_margin": 0.18223545980432623
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.2350699728020103,
       "op_margin": 0.02929357251711164,
-      "fcf_margin": -0.07541468645713888,
-      "fcf_margin_change": -0.2576501462614651
+      "fcf_margin": -0.07541468645713888
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.23854805252727557,
       "op_margin": 0.04930007110789466,
       "fcf_margin": 0.09452300908413873,
-      "incr_op_margin_yoy": -0.3891832229580574,
-      "rev_growth_yoy": -0.014093738397814692,
       "fcf_margin_change": 0.013720749788076803
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -0.027093920463106477,
       "incr_op_margin_yoy": 0.13536008175119668,
       "rev_growth_yoy": 0.08502601472281258,
-      "rev_growth_yoy_accel": 0.09911975312062728,
       "fcf_margin_change": -0.1216169295472452
     },
     {
@@ -255,7 +235,7 @@
       "incr_op_margin_yoy": 0.06800468682376205,
       "rev_growth_yoy": 0.2505364210971729,
       "rev_growth_yoy_accel": -0.09422194122501532,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12657273522932416
     },
     {
@@ -301,7 +281,7 @@
       "incr_op_margin_yoy": 0.14001269981502443,
       "rev_growth_yoy": 0.3086668041511216,
       "rev_growth_yoy_accel": -0.04588830901961721,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1685429160502479
     },
     {
@@ -437,8 +417,30 @@
       "incr_op_margin_yoy": 0.03733649027435658,
       "rev_growth_yoy": -0.10406404893388048,
       "rev_growth_yoy_accel": -0.05249523614081124,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0004475612344687768
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1603814000,
+      "gross_profit": 369343000,
+      "operating_income": 105225000,
+      "net_income": 55583000,
+      "opex": 264118000,
+      "cogs": 1234471000,
+      "rd": null,
+      "sga": 259764000,
+      "fcf": 167518000,
+      "ocf": 167518000,
+      "capex": null,
+      "gross_margin": 0.23029042021082244,
+      "op_margin": 0.06560922900037036,
+      "fcf_margin": 0.10444976786584978,
+      "incr_op_margin_yoy": -0.041477973686428665,
+      "rev_growth_yoy": -0.07524748935748193,
+      "rev_growth_yoy_accel": 0.028816559576398545,
+      "fcf_margin_change": 0.004033426979349539
     }
   ],
   "signals": [
@@ -582,12 +584,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +8.5% vs prior quarter YoY: -1.4% (accel: +9.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +13.5% vs year-ago OPM: +2.9%",
       "severity": "MEDIUM"
@@ -630,5 +626,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:48:06.023583"
+  "last_updated": "2026-02-13T11:43:26.693214"
 }

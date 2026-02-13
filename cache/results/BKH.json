@@ -1,25 +1,9 @@
 {
   "ticker": "BKH",
-  "name": "Black Hills Corporation",
+  "name": "BLACK HILLS CORPORATION",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Gas",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 486387000,
-      "gross_profit": null,
-      "operating_income": 125951000,
-      "net_income": 77185000,
-      "opex": 360436000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -109007000,
-      "ocf": 122404000,
-      "capex": -231411000,
-      "gross_margin": null,
-      "op_margin": 0.25895223350953045,
-      "fcf_margin": -0.2241157761206611
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -146302000,
       "gross_margin": null,
       "op_margin": 0.21835808737165158,
-      "fcf_margin": -0.8404816933782947,
-      "op_leverage_ratio": 0.8090775151921288,
-      "fcf_margin_change": -0.6163659172576336
+      "fcf_margin": -0.8404816933782947
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": 0.23614125436821776,
       "fcf_margin": -0.1917023568669697,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09169215749610984
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.20261934052493474,
       "fcf_margin": -0.1768703733991339,
-      "incr_op_margin_yoy": -0.15732846389301244,
-      "rev_growth_yoy": 0.1565029492975758,
       "op_leverage_ratio": 0.8805169012510934,
       "fcf_margin_change": 0.014831983467835819
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.1546219507752832,
       "incr_op_margin_yoy": 0.18427668325111235,
       "rev_growth_yoy": 0.3001711312342919,
-      "rev_growth_yoy_accel": 0.1436681819367161,
       "op_leverage_ratio": 1.032138343764897,
       "fcf_margin_change": 0.3314923241744171
     },
@@ -437,6 +416,29 @@
       "rev_growth_yoy": 0.07121513944223108,
       "rev_growth_yoy_accel": -0.019197180478285558,
       "fcf_margin_change": -0.1390222696653249
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 635500000,
+      "gross_profit": null,
+      "operating_income": 171400000,
+      "net_income": 105000000,
+      "opex": 464100000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -101500000,
+      "ocf": 168100000,
+      "capex": -269600000,
+      "gross_margin": null,
+      "op_margin": 0.2697088906372935,
+      "fcf_margin": -0.15971675845790717,
+      "incr_op_margin_yoy": 0.2109375,
+      "rev_growth_yoy": 0.06431083570591191,
+      "rev_growth_yoy_accel": -0.006904303736319173,
+      "op_leverage_ratio": 1.4897228601179342,
+      "fcf_margin_change": 0.048326012346369907
     }
   ],
   "signals": [
@@ -549,12 +551,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +30.0% vs prior quarter YoY: +15.7% (accel: +14.4%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -84.0% -> -10.0% (+74.0%)",
@@ -588,7 +584,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:59:22.502692",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Gas"
+  "last_updated": "2026-02-13T11:40:46.649609"
 }

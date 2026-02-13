@@ -1,6 +1,8 @@
 {
   "ticker": "MBLY",
-  "name": "Mobileye Global Inc.",
+  "name": "Mobileye Global\u00a0Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
     {
       "date": "2021-09-25T00:00:00",
@@ -76,7 +78,7 @@
       "gross_margin": 0.49782608695652175,
       "op_margin": 0.021739130434782608,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-10-01T00:00:00",
@@ -367,9 +369,37 @@
       "rev_growth_yoy": 0.037037037037037035,
       "rev_growth_yoy_accel": -0.11558255294018391,
       "fcf_margin_change": -0.10955047368090848
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 446000000,
+      "gross_profit": 202000000,
+      "operating_income": -140000000,
+      "net_income": -127000000,
+      "opex": 342000000,
+      "cogs": 244000000,
+      "rd": 290000000,
+      "sga": null,
+      "fcf": 86000000,
+      "ocf": 113000000,
+      "capex": -27000000,
+      "gross_margin": 0.452914798206278,
+      "op_margin": -0.31390134529147984,
+      "fcf_margin": 0.19282511210762332,
+      "incr_op_margin_yoy": 1.2272727272727273,
+      "rev_growth_yoy": -0.08979591836734693,
+      "rev_growth_yoy_accel": -0.12683295540438397,
+      "fcf_margin_change": -0.0909050466225354
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -9.0% vs prior quarter YoY: +3.7% (decel: -12.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -558,23 +588,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 17,
+    "n_quarters": 18,
     "coverage": {
       "revenue": [
-        17,
-        17
+        18,
+        18
       ],
       "gross_profit": [
-        17,
-        17
+        18,
+        18
       ],
       "op_income": [
-        17,
-        17
+        18,
+        18
       ],
       "fcf": [
-        15,
-        17
+        16,
+        18
       ]
     },
     "gaps": [],
@@ -582,7 +612,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:55.260197",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-13T11:37:07.402822"
 }

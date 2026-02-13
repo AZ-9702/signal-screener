@@ -1,25 +1,9 @@
 {
   "ticker": "UAL",
-  "name": "UNITED AIRLINES HOLDINGS, INC.",
+  "name": "United Airlines Holdings, Inc.",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3412000000,
-      "gross_profit": null,
-      "operating_income": -2135000000,
-      "net_income": -1897000000,
-      "opex": 5547000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -2177000000,
-      "ocf": -2177000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.6257327080890973,
-      "fcf_margin": -0.638042203985932
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.42874883576529027,
-      "fcf_margin": 0.1387767773983235,
-      "fcf_margin_change": 0.7768189813842555
+      "fcf_margin": 0.1387767773983235
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.0498046875,
       "fcf_margin": -0.0328369140625,
-      "incr_op_margin_yoy": 0.3612970711297071,
-      "rev_growth_yoy": 1.4009378663540446,
       "op_leverage_ratio": 0.20289218250508576,
       "fcf_margin_change": 0.06858244077620967
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.1950832672482157,
       "incr_op_margin_yoy": 0.0011507479861910242,
       "rev_growth_yoy": 1.3489599503259857,
-      "rev_growth_yoy_accel": -0.0519779160280589,
       "fcf_margin_change": 0.2279201813107157
     },
     {
@@ -436,6 +416,29 @@
       "rev_growth_yoy": 0.025736037189247458,
       "rev_growth_yoy_accel": 0.00905380043494344,
       "fcf_margin_change": -0.0655106327119979
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 15397000000,
+      "gross_profit": null,
+      "operating_income": 1385000000,
+      "net_income": 1044000000,
+      "opex": 14011000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1286000000,
+      "ocf": 1286000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.08995258816652595,
+      "fcf_margin": 0.08352276417483925,
+      "incr_op_margin_yoy": -0.16809116809116809,
+      "rev_growth_yoy": 0.047771350799591696,
+      "rev_growth_yoy_accel": 0.022035313610344238,
+      "op_leverage_ratio": 0.8632065971749722,
+      "fcf_margin_change": 0.003522764174839252
     }
   ],
   "signals": [
@@ -584,12 +587,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +134.9% vs prior quarter YoY: +140.1% (decel: -5.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -10.1% -> -3.3% (+6.9%)",
@@ -618,12 +615,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +69.9% vs OpEx growth +24.8% (leverage: 2.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -63.8% -> +13.9%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -653,5 +644,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:21.284416"
+  "last_updated": "2026-02-13T11:39:16.766200"
 }

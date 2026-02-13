@@ -1,6 +1,8 @@
 {
   "ticker": "PMNT",
   "name": "PERFECT MOMENT LTD.",
+  "sector": "Consumer Cyclical",
+  "industry": "Apparel Manufacturing",
   "quarters": [
     {
       "date": "2022-12-31T00:00:00",
@@ -250,9 +252,67 @@
       "rev_growth_yoy_accel": -0.2686638406017986,
       "op_leverage_ratio": 160.32243083003954,
       "fcf_margin_change": 1.1227116404531303
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11656000,
+      "gross_profit": 7508000,
+      "operating_income": 583000,
+      "net_income": 93000,
+      "opex": 6925000,
+      "cogs": 4148000,
+      "rd": null,
+      "sga": 5639000,
+      "fcf": 2221000,
+      "ocf": 2256000,
+      "capex": -35000,
+      "gross_margin": 0.6441317776252574,
+      "op_margin": 0.050017158544955385,
+      "fcf_margin": 0.19054564172958133,
+      "rev_growth_yoy": -0.00017155601303825698,
+      "rev_growth_yoy_accel": -0.24280134990815957,
+      "op_leverage_ratio": 1.9779020442523099,
+      "fcf_margin_change": 1.7118557404068855
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -152.1% -> +19.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +144.7% vs OpEx growth +73.2% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +60.4% -> +60.1% -> +64.4% (reversal +4.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.0% vs prior quarter YoY: +24.3% (decel: -24.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -11.1% (year-ago) -> +5.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -23.9% -> +5.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -381,23 +441,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 12,
+    "n_quarters": 13,
     "coverage": {
       "revenue": [
-        12,
-        12
+        13,
+        13
       ],
       "gross_profit": [
-        12,
-        12
+        13,
+        13
       ],
       "op_income": [
-        12,
-        12
+        13,
+        13
       ],
       "fcf": [
-        11,
-        12
+        12,
+        13
       ]
     },
     "gaps": [],
@@ -405,5 +465,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:05:30.350105"
+  "last_updated": "2026-02-13T11:38:12.898082"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "AIP",
   "name": "Arteris, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 14446000,
-      "gross_profit": 14073000,
-      "operating_income": 3155000,
-      "net_income": 7576000,
-      "opex": 10918000,
-      "cogs": 373000,
-      "rd": 5178000,
-      "sga": null,
-      "fcf": 2534000,
-      "ocf": 2665000,
-      "capex": -131000,
-      "gross_margin": 0.9741797037242144,
-      "op_margin": 0.21839955697078775,
-      "fcf_margin": 0.17541187872075314
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -39000,
       "gross_margin": 0.8696305196755783,
       "op_margin": -0.9683088014418745,
-      "fcf_margin": 0.07164313607689997,
-      "fcf_margin_change": -0.10376874264385318
+      "fcf_margin": 0.07164313607689997
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.9026587370998775,
       "op_margin": -0.6366975686548889,
       "fcf_margin": 0.25118068917264297,
-      "incr_op_margin_yoy": 3.4644754316069055,
-      "rev_growth_yoy": -0.20850062300982972,
       "op_leverage_ratio": 0.6946732086569737,
       "fcf_margin_change": 0.5446286186290555
     },
@@ -119,8 +100,7 @@
       "fcf_margin": -0.12360697575499788,
       "incr_op_margin_yoy": -0.03315675887777124,
       "rev_growth_yoy": 0.7655452087714029,
-      "rev_growth_yoy_accel": 0.9740458317812326,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3747876649276408
     },
     {
@@ -318,7 +298,7 @@
       "fcf_margin": 0.018113207547169812,
       "rev_growth_yoy": -0.01079136690647482,
       "rev_growth_yoy_accel": 0.0049452911443082104,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.003590662075136513
     },
     {
@@ -363,7 +343,7 @@
       "incr_op_margin_yoy": 0.7192629815745394,
       "rev_growth_yoy": 0.2387236084452975,
       "rev_growth_yoy_accel": 0.1303161954575018,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2473106578944037
     },
     {
@@ -433,9 +413,44 @@
       "rev_growth_yoy_accel": 0.05095865210157666,
       "op_leverage_ratio": 0.9370884636948961,
       "fcf_margin_change": 0.314104027943137
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 20137000,
+      "gross_profit": 18276000,
+      "operating_income": -8467000,
+      "net_income": -8504000,
+      "opex": 26743000,
+      "cogs": 1861000,
+      "rd": 13227000,
+      "sga": null,
+      "fcf": 3036000,
+      "ocf": 3170000,
+      "capex": -134000,
+      "gross_margin": 0.9075830560659482,
+      "op_margin": -0.42046978199334556,
+      "fcf_margin": 0.15076724437602423,
+      "incr_op_margin_yoy": -0.2936746987951807,
+      "rev_growth_yoy": 0.3000839305313448,
+      "rev_growth_yoy_accel": 0.11691258546235819,
+      "op_leverage_ratio": 1.5995882453054535,
+      "fcf_margin_change": 0.008763567905436004
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +15.7% vs OpEx growth +9.8% (leverage: 1.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +30.0% vs prior quarter YoY: +18.3% (accel: +11.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -569,12 +584,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +76.6% vs prior quarter YoY: -20.9% (accel: +97.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -29.3% -> +25.1%",
@@ -585,12 +594,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +62.4% vs OpEx growth +10.1% (leverage: 6.2x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +97.4% -> +87.0% -> +92.0% (reversal +5.0%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -618,7 +621,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:13:27.233444",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-13T11:32:48.154089"
 }

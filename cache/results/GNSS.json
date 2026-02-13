@@ -1,25 +1,9 @@
 {
   "ticker": "GNSS",
-  "name": "Genasys Inc.",
+  "name": "GENASYS INC.",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 8028000,
-      "gross_profit": 3704000,
-      "operating_income": -693000,
-      "net_income": -619000,
-      "opex": 4397000,
-      "cogs": 4324000,
-      "rd": 1066000,
-      "sga": 3331000,
-      "fcf": 1243000,
-      "ocf": 1272000,
-      "capex": -29000,
-      "gross_margin": 0.4613851519681116,
-      "op_margin": -0.08632286995515695,
-      "fcf_margin": 0.15483308420528152
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -119000,
       "gross_margin": 0.47225909211574196,
       "op_margin": 0.0489337226794089,
-      "fcf_margin": -0.09096540129192107,
-      "op_leverage_ratio": 4.632166293940202,
-      "fcf_margin_change": -0.2457984854972026
+      "fcf_margin": -0.09096540129192107
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.45836845555867756,
       "op_margin": -0.15069776154350473,
       "fcf_margin": -0.26795916455933316,
-      "incr_op_margin_yoy": -0.3457908644771612,
-      "rev_growth_yoy": 0.3299701046337818,
       "fcf_margin_change": -0.12234874387746966
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.03166767922235723,
       "incr_op_margin_yoy": -0.578468130690948,
       "rev_growth_yoy": 0.16520661888328467,
-      "rev_growth_yoy_accel": -0.16476348575049712,
       "op_leverage_ratio": 1.5418536044731057,
       "fcf_margin_change": 0.23629148533697594
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": -0.7534426229508197,
       "rev_growth_yoy": 0.12077294685990338,
       "rev_growth_yoy_accel": -0.04443367202338129,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20945173801263423
     },
     {
@@ -232,7 +211,7 @@
       "fcf_margin": -0.3805917823587155,
       "rev_growth_yoy": 0.007772752967778406,
       "rev_growth_yoy_accel": 0.1562387310965755,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14202939941035198
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": 0.5512332628611698,
       "rev_growth_yoy": -0.4974758098443416,
       "rev_growth_yoy_accel": -0.009292451242718491,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13150941349863188
     },
     {
@@ -367,7 +346,7 @@
       "incr_op_margin_yoy": 0.4998061264055836,
       "rev_growth_yoy": 0.5913781242834212,
       "rev_growth_yoy_accel": 0.9614369972859442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04848300241927865
     },
     {
@@ -412,7 +391,7 @@
       "incr_op_margin_yoy": -0.20966542750929368,
       "rev_growth_yoy": 0.37533137993581694,
       "rev_growth_yoy_accel": 0.16745544336150087,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3373247391536244
     },
     {
@@ -435,11 +414,45 @@
       "incr_op_margin_yoy": 0.8207446291435793,
       "rev_growth_yoy": 1.526034712950601,
       "rev_growth_yoy_accel": 1.150703333014784,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7419166610126405
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 17065000,
+      "gross_profit": 8183000,
+      "operating_income": -352000,
+      "net_income": -817000,
+      "opex": 8535000,
+      "cogs": 8882000,
+      "rd": 1895000,
+      "sga": 6640000,
+      "fcf": 7200000,
+      "ocf": 7200000,
+      "capex": null,
+      "gross_margin": 0.4795194843246411,
+      "op_margin": -0.02062701435687079,
+      "fcf_margin": 0.4219162027541752,
+      "incr_op_margin_yoy": 0.552,
+      "rev_growth_yoy": 1.4589337175792507,
+      "rev_growth_yoy_accel": -0.06710099537135017,
+      "fcf_margin_change": 0.2770371799681757
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +14.5% -> +42.2% (+27.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +145.9% vs prior quarter YoY: +152.6% (decel: -6.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -621,27 +634,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +16.5% vs prior quarter YoY: +33.0% (decel: -16.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -9.1% -> +62.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +40.8% vs OpEx growth +8.8% (leverage: 4.6x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -8.6% -> +4.9%",
       "severity": "HIGH"
     }
   ],
@@ -670,7 +665,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:23:52.252410",
-  "sector": "Technology",
-  "industry": "Scientific & Technical Instruments"
+  "last_updated": "2026-02-13T11:46:22.080037"
 }

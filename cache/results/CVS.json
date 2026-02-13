@@ -1,25 +1,9 @@
 {
   "ticker": "CVS",
   "name": "CVS HEALTH CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 69554000000,
-      "gross_profit": 27102000000,
-      "operating_income": 2524000000,
-      "net_income": 973000000,
-      "opex": 229093000000,
-      "cogs": 42452000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 2854000000,
-      "ocf": 3567000000,
-      "capex": -713000000,
-      "gross_margin": 0.38965408172067745,
-      "op_margin": 0.03628835149667884,
-      "fcf_margin": 0.041032866549731144
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -829000000,
       "gross_margin": 0.4081653327930301,
       "op_margin": 0.05176780468037686,
-      "fcf_margin": 0.02985657843321707,
-      "fcf_margin_change": -0.011176288116514072
+      "fcf_margin": 0.02985657843321707
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.4006830450589402,
       "op_margin": 0.05957364768095186,
       "fcf_margin": 0.0738267048584334,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04397012642521633
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.39457469583833743,
       "op_margin": 0.029097697248185474,
       "fcf_margin": 0.0444885384575218,
-      "incr_op_margin_yoy": -0.04184397163120567,
-      "rev_growth_yoy": 0.10136009431520833,
       "op_leverage_ratio": 0.7395497673242893,
       "fcf_margin_change": -0.022088690043440336
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.03269726394710124,
       "incr_op_margin_yoy": -0.011256307413636951,
       "rev_growth_yoy": 0.11185724416400133,
-      "rev_growth_yoy_accel": 0.010497149848793005,
       "fcf_margin_change": -0.011791274510420557
     },
     {
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.03029925187032419,
       "rev_growth_yoy": 0.11044397928831112,
       "rev_growth_yoy_accel": -0.0014132648756902122,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.029743829361098567
     },
     {
@@ -188,7 +168,7 @@
       "incr_op_margin_yoy": 0.19179784589892296,
       "rev_growth_yoy": 0.09453814422223382,
       "rev_growth_yoy_accel": -0.00526671796168357,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13674880570026876
     },
     {
@@ -440,9 +420,38 @@
       "rev_growth_yoy_accel": -0.0061941285424716025,
       "op_leverage_ratio": 0.40452372618433896,
       "fcf_margin_change": -0.012088850843287546
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 105693000000,
+      "gross_profit": 46633000000,
+      "operating_income": 2112000000,
+      "net_income": 2943000000,
+      "opex": 103581000000,
+      "cogs": 59060000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 2606000000,
+      "ocf": 3390000000,
+      "capex": -784000000,
+      "gross_margin": 0.44121181156746425,
+      "op_margin": 0.019982401861996537,
+      "fcf_margin": 0.024656315933883986,
+      "incr_op_margin_yoy": -0.0320681448077164,
+      "rev_growth_yoy": 0.0817009517961314,
+      "rev_growth_yoy_accel": 0.0037049757723228854,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.023703666499155052
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -3.1% -> +2.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -535,7 +544,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:17.616886",
-  "sector": "Healthcare",
-  "industry": "Healthcare Plans"
+  "last_updated": "2026-02-13T11:45:51.275941"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "CHD",
-  "name": "CHURCH & DWIGHT CO INC /DE/",
+  "name": "CHURCH & DWIGHT CO., INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1295300000,
-      "gross_profit": 557400000,
-      "operating_income": 190600000,
-      "net_income": 150200000,
-      "opex": 366800000,
-      "cogs": 737900000,
-      "rd": 29300000,
-      "sga": 165200000,
-      "fcf": 147800000,
-      "ocf": 192100000,
-      "capex": -44300000,
-      "gross_margin": 0.43032502123060296,
-      "op_margin": 0.14714737898556318,
-      "fcf_margin": 0.1141048405774724
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -26300000,
       "gross_margin": 0.4446686576802002,
       "op_margin": 0.24424893050286545,
-      "fcf_margin": 0.059649689240455245,
-      "fcf_margin_change": -0.05445515133701716
+      "fcf_margin": 0.059649689240455245
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.42463651640242567,
       "op_margin": 0.12888142032585664,
       "fcf_margin": 0.20859209468839043,
-      "incr_op_margin_yoy": -0.19346049046321526,
-      "rev_growth_yoy": 0.05666640932602486,
       "op_leverage_ratio": 0.09557580466388628,
       "fcf_margin_change": -0.011401804960839396
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.10576626580326857,
       "incr_op_margin_yoy": -0.37564322469982847,
       "rev_growth_yoy": 0.047057873920413266,
-      "rev_growth_yoy_accel": -0.009608535405611594,
       "fcf_margin_change": -0.10282582888512186
     },
     {
@@ -367,7 +347,7 @@
       "incr_op_margin_yoy": 0.7518518518518519,
       "rev_growth_yoy": 0.03534031413612566,
       "rev_growth_yoy_accel": -0.002230947626358032,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05853836429057668
     },
     {
@@ -434,6 +414,28 @@
       "rev_growth_yoy": 0.0496491460346882,
       "rev_growth_yoy_accel": 0.05289160236078667,
       "op_leverage_ratio": 0.27227291906431467
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1644200000,
+      "gross_profit": 753800000,
+      "operating_income": 266000000,
+      "net_income": 143500000,
+      "opex": 487800000,
+      "cogs": 890400000,
+      "rd": 40800000,
+      "sga": 275500000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -55200000,
+      "gross_margin": 0.45846004135749907,
+      "op_margin": 0.16178080525483518,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.1495176848874598,
+      "rev_growth_yoy": 0.0393173198482933,
+      "rev_growth_yoy_accel": -0.010331826186394902,
+      "op_leverage_ratio": 0.6068968934697997
     }
   ],
   "signals": [
@@ -544,7 +546,7 @@
         20
       ],
       "fcf": [
-        17,
+        16,
         20
       ]
     },
@@ -553,7 +555,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:16:11.197681",
-  "sector": "Consumer Defensive",
-  "industry": "Household & Personal Products"
+  "last_updated": "2026-02-13T11:33:16.049700"
 }

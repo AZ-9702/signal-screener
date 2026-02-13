@@ -1,25 +1,9 @@
 {
   "ticker": "CFG",
   "name": "CITIZENS FINANCIAL GROUP INC/RI",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1707000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 456000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 866000000,
-      "ocf": 866000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5073227885178676
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.4159132007233273,
-      "fcf_margin_change": -0.923235989241195
+      "fcf_margin": -0.4159132007233273
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6424418604651163,
-      "rev_growth_yoy": 0.007615700058582308,
       "fcf_margin_change": -0.12910726551438945
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.9446808510638298,
       "rev_growth_yoy": -0.008438818565400843,
-      "rev_growth_yoy_accel": -0.01605451862398315,
       "fcf_margin_change": 0.3022389905987135
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.11415044713308785,
       "rev_growth_yoy_accel": 0.07645304519727532,
       "fcf_margin_change": 0.3658020668621994
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2157000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 528000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -158000000,
+      "ocf": -158000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.07324988409828466,
+      "rev_growth_yoy": 0.08610271903323263,
+      "rev_growth_yoy_accel": -0.028047728099855215,
+      "fcf_margin_change": -0.8740053137488984
     }
   ],
   "signals": [
@@ -533,7 +535,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:11:14.847875",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-13T11:33:20.094280"
 }
