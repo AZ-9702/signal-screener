@@ -1,25 +1,9 @@
 {
   "ticker": "ROKU",
   "name": "Roku, Inc.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 649886000,
-      "gross_profit": 305458000,
-      "operating_income": 65151000,
-      "net_income": 67306000,
-      "opex": 240307000,
-      "cogs": 344428000,
-      "rd": 94731000,
-      "sga": null,
-      "fcf": 40675000,
-      "ocf": 47045000,
-      "capex": -6370000,
-      "gross_margin": 0.47001781850970786,
-      "op_margin": 0.1002498899807043,
-      "fcf_margin": 0.06258790003169787
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3717000,
       "gross_margin": 0.5691060167228915,
       "op_margin": 0.13202411078001264,
-      "fcf_margin": 0.16037047422163317,
-      "fcf_margin_change": 0.0977825741899353
+      "fcf_margin": 0.16037047422163317
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.43872792891489826,
       "op_margin": 0.024688875560624917,
       "fcf_margin": -0.043276025650359574,
-      "incr_op_margin_yoy": -0.20324169269830072,
-      "rev_growth_yoy": 0.33150891079358535,
       "op_leverage_ratio": 1.2727376948843991,
       "fcf_margin_change": -0.18244152679529163
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.11862357724352902,
       "incr_op_margin_yoy": -0.6224830111086035,
       "rev_growth_yoy": 0.27781386770419886,
-      "rev_growth_yoy_accel": -0.053695043089386496,
       "fcf_margin_change": 0.1618996028938886
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": -0.18660304421357815,
       "rev_growth_yoy": 0.10829323684010853,
       "rev_growth_yoy_accel": 0.09835591922075781,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4324851468878196
     },
     {
@@ -279,7 +259,7 @@
       "incr_op_margin_yoy": 1.2416225749559082,
       "rev_growth_yoy": 0.13536495912605415,
       "rev_growth_yoy_accel": -0.062494697047726644,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2491617357450284
     },
     {
@@ -438,11 +418,46 @@
       "incr_op_margin_yoy": 0.30470576346548994,
       "rev_growth_yoy": 0.13974259157618646,
       "rev_growth_yoy_accel": -0.007811734638284218,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00670676890720405
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1394903000,
+      "gross_profit": 606822000,
+      "operating_income": 65973000,
+      "net_income": 80477000,
+      "opex": 540849000,
+      "cogs": 788081000,
+      "rd": 184646000,
+      "sga": null,
+      "fcf": 106559000,
+      "ocf": 107650000,
+      "capex": -1091000,
+      "gross_margin": 0.4350280987280119,
+      "op_margin": 0.047295761784152734,
+      "fcf_margin": 0.07639169175204297,
+      "incr_op_margin_yoy": 0.5421446847144272,
+      "rev_growth_yoy": 0.16140584007120454,
+      "rev_growth_yoy_accel": 0.021663248495018078,
+      "op_leverage_ratio": 3.0866939333945584,
+      "fcf_margin_change": -0.028071409521830806
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +15.2% vs OpEx growth +4.9% (leverage: 3.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -3.3% (year-ago) -> +4.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -576,12 +591,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +27.8% vs prior quarter YoY: +33.2% (decel: -5.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.0% -> +13.9% (+7.9%)",
@@ -591,12 +600,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +12.4% vs OpEx growth +7.3% (leverage: 1.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.3% -> +16.0% (+9.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -625,5 +628,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:25:22.297342"
+  "last_updated": "2026-02-24T10:48:33.548094"
 }

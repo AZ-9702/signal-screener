@@ -1,25 +1,9 @@
 {
   "ticker": "LVO",
   "name": "LiveOne, Inc.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 19123000,
-      "gross_profit": null,
-      "operating_income": -7595000,
-      "net_income": -8731000,
-      "opex": 26718000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -4905000,
-      "ocf": -4186000,
-      "capex": -719000,
-      "gross_margin": null,
-      "op_margin": -0.3971657166762537,
-      "fcf_margin": -0.25649741149401245
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -980000,
       "gross_margin": null,
       "op_margin": -0.41951428164060645,
-      "fcf_margin": -0.06596644646167008,
-      "op_leverage_ratio": 0.8507186808206523,
-      "fcf_margin_change": 0.19053096503234238
+      "fcf_margin": -0.06596644646167008
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.15896032831737347,
       "op_margin": -0.3030247758017936,
       "fcf_margin": -0.12694938440492476,
-      "incr_op_margin_yoy": -0.17230612837641593,
-      "rev_growth_yoy": 0.7201798880928725,
       "op_leverage_ratio": 1.4024546123850778,
       "fcf_margin_change": 0.2722478423785089
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.01054069047923868,
       "incr_op_margin_yoy": 0.23662207357859533,
       "rev_growth_yoy": 0.11368280975238819,
-      "rev_growth_yoy_accel": -0.6064970783404843,
       "fcf_margin_change": 0.13749007488416343
     },
     {
@@ -256,7 +235,7 @@
       "incr_op_margin_yoy": -0.3058446757405925,
       "rev_growth_yoy": 0.2123066462689104,
       "rev_growth_yoy_accel": 0.016587070005022714,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0880986939309345
     },
     {
@@ -279,7 +258,7 @@
       "incr_op_margin_yoy": -0.045477642276422765,
       "rev_growth_yoy": 0.1441283093485664,
       "rev_growth_yoy_accel": -0.068178336920344,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16339386371365128
     },
     {
@@ -436,9 +415,44 @@
       "rev_growth_yoy": -0.4243725839111493,
       "rev_growth_yoy_accel": -0.005030422958250069,
       "fcf_margin_change": -0.0031034454951313073
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 20256000,
+      "gross_profit": 3806000,
+      "operating_income": -1951000,
+      "net_income": -4067000,
+      "opex": 5757000,
+      "cogs": 16450000,
+      "rd": 310000,
+      "sga": null,
+      "fcf": -2913000,
+      "ocf": -2262000,
+      "capex": -651000,
+      "gross_margin": 0.18789494470774093,
+      "op_margin": -0.09631714060031596,
+      "fcf_margin": -0.14380924170616113,
+      "incr_op_margin_yoy": -0.34410708455762323,
+      "rev_growth_yoy": -0.31207335710646966,
+      "rev_growth_yoy_accel": 0.11229922680467963,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.07103992149605612
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -21.5% -> -14.4% (+7.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -31.2% vs prior quarter YoY: -42.4% (accel: +11.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -554,12 +568,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.4% vs prior quarter YoY: +72.0% (decel: -60.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -39.9% -> -12.7% (+27.2%)",
@@ -569,12 +577,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -6.6% -> -0.5% (+6.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -25.6% -> -6.6% (+19.1%)",
       "severity": "MEDIUM"
     }
   ],
@@ -586,7 +588,7 @@
         20
       ],
       "gross_profit": [
-        18,
+        19,
         20
       ],
       "op_income": [
@@ -603,7 +605,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:38:44.118761",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-24T10:48:10.077754"
 }

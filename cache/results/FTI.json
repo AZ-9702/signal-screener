@@ -1,25 +1,9 @@
 {
   "ticker": "FTI",
   "name": "TechnipFMC plc",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3426100000,
-      "gross_profit": null,
-      "operating_income": 177200000,
-      "net_income": -39300000,
-      "opex": 3360500000,
-      "cogs": null,
-      "rd": 11000000,
-      "sga": 285400000,
-      "fcf": 526000000,
-      "ocf": 554800000,
-      "capex": -28800000,
-      "gross_margin": null,
-      "op_margin": 0.05172061527684539,
-      "fcf_margin": 0.1535273342867984
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -44200000,
       "gross_margin": null,
       "op_margin": 0.027696078431372548,
-      "fcf_margin": 0.12475490196078431,
-      "fcf_margin_change": -0.02877243232601409
+      "fcf_margin": 0.12475490196078431
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.011356922470951224,
       "fcf_margin": 0.2776866014573623,
-      "incr_op_margin_yoy": 0.08403405507672904,
-      "rev_growth_yoy": -0.5553836723971863,
       "fcf_margin_change": 0.22158934933630367
     },
     {
@@ -118,8 +99,7 @@
       "fcf_margin": -0.22927111453914384,
       "incr_op_margin_yoy": -0.16404199475065617,
       "rev_growth_yoy": -0.046691176470588236,
-      "rev_growth_yoy_accel": 0.5086924959265982,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5069577159965062
     },
     {
@@ -209,7 +189,7 @@
       "incr_op_margin_yoy": 0.19492574257425743,
       "rev_growth_yoy": 0.10386939195269315,
       "rev_growth_yoy_accel": -0.008452540693535432,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.554981408420595
     },
     {
@@ -437,9 +417,43 @@
       "rev_growth_yoy_accel": 0.037365866121614716,
       "op_leverage_ratio": 0.9803769766180395,
       "fcf_margin_change": 0.06634052095925663
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2517000000,
+      "gross_profit": null,
+      "operating_income": 316200000,
+      "net_income": 242700000,
+      "opex": 2251800000,
+      "cogs": null,
+      "rd": 27400000,
+      "sga": 174700000,
+      "fcf": 359100000,
+      "ocf": 453600000,
+      "capex": -94500000,
+      "gross_margin": null,
+      "op_margin": 0.12562574493444578,
+      "fcf_margin": 0.14266984505363528,
+      "incr_op_margin_yoy": 0.331997327989312,
+      "rev_growth_yoy": 0.0632365986566975,
+      "rev_growth_yoy_accel": -0.0640415481666716,
+      "fcf_margin_change": -0.0264836320740042
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +6.3% vs prior quarter YoY: +12.7% (decel: -6.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +33.2% vs year-ago OPM: +11.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -609,12 +623,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -4.7% vs prior quarter YoY: -55.5% (accel: +50.9%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.6% -> +27.8% (+22.2%)",
@@ -660,7 +668,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:15:36.577877",
-  "sector": "Energy",
-  "industry": "Oil & Gas Equipment & Services"
+  "last_updated": "2026-02-24T10:18:14.941337"
 }

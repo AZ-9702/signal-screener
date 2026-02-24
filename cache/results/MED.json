@@ -1,25 +1,9 @@
 {
   "ticker": "MED",
   "name": "Medifast, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Personal Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 264912000,
-      "gross_profit": 199239000,
-      "operating_income": 37968000,
-      "net_income": 27994000,
-      "opex": 161271000,
-      "cogs": 65673000,
-      "rd": null,
-      "sga": 161271000,
-      "fcf": 17794000,
-      "ocf": 19829000,
-      "capex": -2035000,
-      "gross_margin": 0.7520950353324878,
-      "op_margin": 0.14332306577278492,
-      "fcf_margin": 0.06716947514646374
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -4598000,
       "gross_margin": 0.7295850224117839,
       "op_margin": 0.15498621829400386,
-      "fcf_margin": 0.17826100995394356,
-      "op_leverage_ratio": 1.3376667951948955,
-      "fcf_margin_change": 0.11109153480747982
+      "fcf_margin": 0.17826100995394356
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.7365297988005315,
       "op_margin": 0.12396184567826082,
       "fcf_margin": -0.05050630700254609,
-      "incr_op_margin_yoy": 0.07854093976373072,
-      "rev_growth_yoy": 0.42626230597330433,
       "fcf_margin_change": -0.06359548321415968
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.09737547892720307,
       "incr_op_margin_yoy": 0.029740936683521596,
       "rev_growth_yoy": 0.22582330649398683,
-      "rev_growth_yoy_accel": -0.2004389994793175,
       "op_leverage_ratio": 1.546627125324458,
       "fcf_margin_change": 0.14788178592974915
     },
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.02296806913738578,
       "rev_growth_yoy": -0.16431273946360153,
       "rev_growth_yoy_accel": -0.05688725631491719,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05095856492706419
     },
     {
@@ -433,6 +412,28 @@
       "rev_growth_yoy": -0.36210697545001175,
       "rev_growth_yoy_accel": 0.011669410126466384,
       "fcf_margin_change": 0.16529106016693235
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 75096000,
+      "gross_profit": 52140000,
+      "operating_income": -7803000,
+      "net_income": -18119000,
+      "opex": 59943000,
+      "cogs": 22956000,
+      "rd": null,
+      "sga": 59943000,
+      "fcf": -6629000,
+      "ocf": -5278000,
+      "capex": -1351000,
+      "gross_margin": 0.6943112815596038,
+      "op_margin": -0.10390699904122723,
+      "fcf_margin": -0.08827367636092469,
+      "incr_op_margin_yoy": 0.19386430409729655,
+      "rev_growth_yoy": -0.3689570851155013,
+      "rev_growth_yoy_accel": -0.0068501096654895455,
+      "fcf_margin_change": -0.20850765728007153
     }
   ],
   "signals": [
@@ -537,18 +538,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.5% vs OpEx growth +6.8% (leverage: 1.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +22.6% vs prior quarter YoY: +42.6% (decel: -20.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.7% -> +17.8% (+11.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -576,7 +565,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:15:10.359477",
-  "sector": "Consumer Cyclical",
-  "industry": "Personal Services"
+  "last_updated": "2026-02-24T10:38:07.572035"
 }

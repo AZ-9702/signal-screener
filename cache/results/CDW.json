@@ -1,25 +1,9 @@
 {
   "ticker": "CDW",
   "name": "CDW CORP",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4956200000,
-      "gross_profit": 880900000,
-      "operating_income": 332200000,
-      "net_income": 238300000,
-      "opex": 548700000,
-      "cogs": 4075300000,
-      "rd": null,
-      "sga": 548700000,
-      "fcf": 551500000,
-      "ocf": 575900000,
-      "capex": -24400000,
-      "gross_margin": 0.1777369759089625,
-      "op_margin": 0.06702715790323231,
-      "fcf_margin": 0.11127476695855695
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -20700000,
       "gross_margin": 0.16438242894056848,
       "op_margin": 0.06685271317829457,
-      "fcf_margin": 0.06695607235142119,
-      "fcf_margin_change": -0.044318694607135764
+      "fcf_margin": 0.06695607235142119
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.17619967852047175,
       "op_margin": 0.061279777492820896,
       "fcf_margin": 0.02060719897415521,
-      "incr_op_margin_yoy": 0.012226623041157224,
-      "rev_growth_yoy": 0.11716637746660748,
       "op_leverage_ratio": 0.2191368537123254,
       "fcf_margin_change": -0.02922298970509007
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.05706745558151653,
       "incr_op_margin_yoy": 0.05712486505937388,
       "rev_growth_yoy": 0.22978811369509045,
-      "rev_growth_yoy_accel": 0.11262173622848297,
       "op_leverage_ratio": 0.5855374932459539,
       "fcf_margin_change": 0.036460256607361324
     },
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": -0.02864816472694718,
       "rev_growth_yoy": -0.019846134712080025,
       "rev_growth_yoy_accel": 0.0161823752681905,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03398017071610547
     },
     {
@@ -437,6 +417,28 @@
       "rev_growth_yoy": 0.04002465286589566,
       "rev_growth_yoy_accel": -0.06197778103165937,
       "fcf_margin_change": 0.02970666775404615
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5511000000,
+      "gross_profit": 1254400000,
+      "operating_income": 430700000,
+      "net_income": 279500000,
+      "opex": 823700000,
+      "cogs": 4256600000,
+      "rd": null,
+      "sga": 823700000,
+      "fcf": 395900000,
+      "ocf": 433800000,
+      "capex": -37900000,
+      "gross_margin": 0.22761749228815098,
+      "op_margin": 0.07815278533841408,
+      "fcf_margin": 0.07183814189802214,
+      "incr_op_margin_yoy": 0.068,
+      "rev_growth_yoy": 0.0626687234863093,
+      "rev_growth_yoy_accel": 0.022644070620413632,
+      "fcf_margin_change": 0.019811091317619864
     }
   ],
   "signals": [
@@ -495,12 +497,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +23.0% vs prior quarter YoY: +11.7% (accel: +11.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.3% -> +5.0%",
@@ -532,7 +528,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:23:35.866169",
-  "sector": "Technology",
-  "industry": "Information Technology Services"
+  "last_updated": "2026-02-24T10:17:03.659692"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "PRDO",
   "name": "PERDOCEO EDUCATION CORP",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 171159000,
-      "gross_profit": null,
-      "operating_income": 36189000,
-      "net_income": 27051000,
-      "opex": 134970000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 42203000,
-      "ocf": 42203000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.211434981508422,
-      "fcf_margin": 0.2465719009809592
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.22117971225998975,
-      "fcf_margin": 0.24345723651967457,
-      "op_leverage_ratio": 1.222270881350938,
-      "fcf_margin_change": -0.0031146644612846386
+      "fcf_margin": 0.24345723651967457
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.21629060609662265,
       "fcf_margin": 0.29344609937507427,
-      "incr_op_margin_yoy": 0.1427433628318584,
-      "rev_growth_yoy": -0.06602048387756414,
       "fcf_margin_change": -0.05978209865019041
     },
     {
@@ -117,7 +97,6 @@
       "op_margin": 0.23881306740854508,
       "fcf_margin": 0.12108723812438853,
       "rev_growth_yoy": -0.0036974918045284745,
-      "rev_growth_yoy_accel": 0.06232299207303566,
       "op_leverage_ratio": 1.2946926267015673,
       "fcf_margin_change": -0.17235886125068572
     },
@@ -208,7 +187,7 @@
       "incr_op_margin_yoy": -0.028245905530500832,
       "rev_growth_yoy": 0.06908105094584033,
       "rev_growth_yoy_accel": -0.032796228406588995,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.20681088652176527
     },
     {
@@ -297,7 +276,7 @@
       "incr_op_margin_yoy": -0.10763152118241019,
       "rev_growth_yoy": -0.13974580517183202,
       "rev_growth_yoy_accel": 0.020497176462616867,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23466429321504256
     },
     {
@@ -435,6 +414,28 @@
       "rev_growth_yoy_accel": -0.009364821749433844,
       "op_leverage_ratio": 0.6331528165215333,
       "fcf_margin_change": -0.1813082836018224
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 211639000,
+      "gross_profit": null,
+      "operating_income": 41915000,
+      "net_income": 35348000,
+      "opex": 169724000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 40110000,
+      "ocf": 40110000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.19804950883343808,
+      "fcf_margin": 0.1895208350067804,
+      "incr_op_margin_yoy": 0.13462849352419903,
+      "rev_growth_yoy": 0.199556767234783,
+      "rev_growth_yoy_accel": -0.04801136051800217,
+      "fcf_margin_change": -0.005054191424272297
     }
   ],
   "signals": [
@@ -541,12 +542,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -0.4% vs prior quarter YoY: -6.6% (accel: +6.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +21.7% -> +35.3% (+13.7%)",
@@ -580,5 +575,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:35:55.953307"
+  "last_updated": "2026-02-24T10:20:30.808125"
 }

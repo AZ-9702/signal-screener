@@ -1,25 +1,9 @@
 {
   "ticker": "FBIN",
-  "name": "FORTUNE BRANDS INNOVATIONS, INC.",
+  "name": "Fortune Brands Innovations, Inc.",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1659700000,
-      "gross_profit": 607700000,
-      "operating_income": 233200000,
-      "net_income": 163600000,
-      "opex": 374500000,
-      "cogs": 1052000000,
-      "rd": null,
-      "sga": 364200000,
-      "fcf": 234600000,
-      "ocf": 318900000,
-      "capex": -84300000,
-      "gross_margin": 0.36615050912815567,
-      "op_margin": 0.14050732060010845,
-      "fcf_margin": 0.14135084653853106
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -25400000,
       "gross_margin": 0.2533596837944664,
       "op_margin": 0.14025974025974025,
-      "fcf_margin": -0.05341614906832298,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.19476699560685404
+      "fcf_margin": -0.05341614906832298
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.40714285714285714,
       "op_margin": 0.2138752052545156,
       "fcf_margin": 0.1286535303776683,
-      "incr_op_margin_yoy": -0.061806656101426306,
-      "rev_growth_yoy": -0.26613243357233235,
       "fcf_margin_change": 0.06778659184874518
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": -0.12721013925833202,
       "incr_op_margin_yoy": 0.03417634996582365,
       "rev_growth_yoy": 0.08260869565217391,
-      "rev_growth_yoy_accel": 0.3487411292245063,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2558636696360003
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy": -0.005280013849216654,
       "rev_growth_yoy_accel": 0.024316760344331736,
       "fcf_margin_change": 0.05537479611773041
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1077500000,
+      "gross_profit": 472200000,
+      "operating_income": 121700000,
+      "net_income": null,
+      "opex": 350500000,
+      "cogs": 605300000,
+      "rd": null,
+      "sga": 325100000,
+      "fcf": 183700000,
+      "ocf": 208200000,
+      "capex": -24500000,
+      "gross_margin": 0.43823665893271463,
+      "op_margin": 0.11294663573085847,
+      "fcf_margin": 0.17048723897911833,
+      "incr_op_margin_yoy": 2.1198501872659175,
+      "rev_growth_yoy": -0.024180402101068647,
+      "rev_growth_yoy_accel": -0.018900388251851995,
+      "fcf_margin_change": 0.0164670510222788
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +212.0% vs year-ago OPM: +16.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -584,12 +591,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +8.3% vs prior quarter YoY: -26.6% (accel: +34.9%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.1% -> +12.9% (+6.8%)",
@@ -639,7 +640,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:52:49.881647",
-  "sector": "Industrials",
-  "industry": "Building Products & Equipment"
+  "last_updated": "2026-02-24T10:09:36.163097"
 }

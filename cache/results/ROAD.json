@@ -1,25 +1,9 @@
 {
   "ticker": "ROAD",
-  "name": "CONSTRUCTION PARTNERS, INC.",
+  "name": "Construction Partners, Inc.",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 190929000,
-      "gross_profit": 30594000,
-      "operating_income": 10843000,
-      "net_income": 7871000,
-      "opex": 19751000,
-      "cogs": 160335000,
-      "rd": null,
-      "sga": null,
-      "fcf": -9753000,
-      "ocf": 709000,
-      "capex": -10462000,
-      "gross_margin": 0.16023757522429805,
-      "op_margin": 0.056790744203342604,
-      "fcf_margin": -0.051081815753499994
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -16436000,
       "gross_margin": 0.10089776229398366,
       "op_margin": -0.035698334003305195,
-      "fcf_margin": -0.08233395864040377,
-      "fcf_margin_change": -0.031252142886903776
+      "fcf_margin": -0.08233395864040377
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.13994328431222675,
       "op_margin": 0.054487571467881496,
       "fcf_margin": -0.021990705353594032,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06034325328680974
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.11567776982355665,
       "op_margin": 0.02968445136929577,
       "fcf_margin": -0.05503502196768715,
-      "incr_op_margin_yoy": -0.02535226245546871,
-      "rev_growth_yoy": 0.4925129236522477,
       "op_leverage_ratio": 0.3958263847252802,
       "fcf_margin_change": -0.13538851714045683
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.06461367791770241,
       "incr_op_margin_yoy": -0.07927123364398736,
       "rev_growth_yoy": 0.3588425119478315,
-      "rev_growth_yoy_accel": -0.13367041170441618,
       "fcf_margin_change": -0.00957865595001526
     },
     {
@@ -392,7 +372,7 @@
       "incr_op_margin_yoy": 0.12091018514356493,
       "rev_growth_yoy": 0.5390642037331697,
       "rev_growth_yoy_accel": 0.12273906281439184,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00028162114621020293
     },
     {
@@ -440,9 +420,43 @@
       "rev_growth_yoy_accel": 0.16708092498735994,
       "op_leverage_ratio": 0.7775446442715628,
       "fcf_margin_change": 0.02823350526037896
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 809469000,
+      "gross_profit": 121500000,
+      "operating_income": 50409000,
+      "net_income": 17205000,
+      "opex": 71091000,
+      "cogs": 687969000,
+      "rd": null,
+      "sga": null,
+      "fcf": 47097000,
+      "ocf": 82567000,
+      "capex": -35470000,
+      "gross_margin": 0.15009839783858306,
+      "op_margin": 0.06227415750325213,
+      "fcf_margin": 0.05818258636217075,
+      "incr_op_margin_yoy": 0.14765076304313624,
+      "rev_growth_yoy": 0.4414135118772036,
+      "rev_growth_yoy_accel": -0.23066167723836178,
+      "fcf_margin_change": -0.029543243193676953
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +44.1% vs prior quarter YoY: +67.2% (decel: -23.1%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +14.8% vs year-ago OPM: +2.5%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -630,12 +644,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +35.9% vs prior quarter YoY: +49.3% (decel: -13.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.2% -> +8.0%",
@@ -651,12 +659,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -8.2% -> -2.2% (+6.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +16.0% -> +10.1% -> +14.0% (reversal +3.9%)",
       "severity": "MEDIUM"
     },
     {
@@ -691,5 +693,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:54:57.272665"
+  "last_updated": "2026-02-24T11:08:35.464652"
 }

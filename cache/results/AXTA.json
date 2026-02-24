@@ -1,25 +1,9 @@
 {
   "ticker": "AXTA",
   "name": "AXALTA COATING SYSTEMS LTD.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1074500000,
-      "gross_profit": 396700000,
-      "operating_income": 163200000,
-      "net_income": 69700000,
-      "opex": 233500000,
-      "cogs": 677800000,
-      "rd": 14000000,
-      "sga": 178900000,
-      "fcf": 252500000,
-      "ocf": 278400000,
-      "capex": -25900000,
-      "gross_margin": 0.3691949744067008,
-      "op_margin": 0.15188459748720334,
-      "fcf_margin": 0.23499302000930666
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -31800000,
       "gross_margin": 0.35643098909364423,
       "op_margin": 0.04945468221135765,
-      "fcf_margin": 0.007333584054155698,
-      "fcf_margin_change": -0.22765943595515098
+      "fcf_margin": 0.007333584054155698
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.3319133830315939,
       "op_margin": 0.16897408590699325,
       "fcf_margin": 0.0701100461483848,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0627764620942291
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.29238480478367923,
       "op_margin": 0.08327470981357721,
       "fcf_margin": 0.21605698206120297,
-      "incr_op_margin_yoy": -1.0925039872408293,
-      "rev_growth_yoy": 0.0583527221963704,
       "op_leverage_ratio": 0.5082962061363219,
       "fcf_margin_change": 0.1200621262831394
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.07358828038497572,
       "incr_op_margin_yoy": 0.3049773755656109,
       "rev_growth_yoy": 0.10389244076720572,
-      "rev_growth_yoy_accel": 0.045539718570835316,
       "op_leverage_ratio": 0.6123938495552987,
       "fcf_margin_change": -0.2896452624461787
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": -0.8029602220166513,
       "rev_growth_yoy": 0.09593539226127086,
       "rev_growth_yoy_accel": -0.007957048505934858,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05957904886825372
     },
     {
@@ -210,7 +190,7 @@
       "incr_op_margin_yoy": 0.3551912568306011,
       "rev_growth_yoy": 0.09351843965590666,
       "rev_growth_yoy_accel": 0.006022836419888364,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2367949212820138
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 1.180385288966725,
       "rev_growth_yoy": 0.04413014916144988,
       "rev_growth_yoy_accel": 0.03626349287980801,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05808394262879292
     },
     {
@@ -435,9 +415,43 @@
       "rev_growth_yoy": -0.024242424242424242,
       "rev_growth_yoy_accel": 0.009806428459278201,
       "fcf_margin_change": -0.006782918064777127
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1262000000,
+      "gross_profit": 422000000,
+      "operating_income": 162000000,
+      "net_income": 60000000,
+      "opex": 260000000,
+      "cogs": 840000000,
+      "rd": 16000000,
+      "sga": 198000000,
+      "fcf": 286000000,
+      "ocf": 344000000,
+      "capex": -58000000,
+      "gross_margin": 0.33438985736925514,
+      "op_margin": 0.12836767036450078,
+      "fcf_margin": 0.2266244057052298,
+      "incr_op_margin_yoy": 0.5102040816326531,
+      "rev_growth_yoy": -0.03737604881769641,
+      "rev_growth_yoy_accel": -0.01313362457527217,
+      "fcf_margin_change": 0.1590778218542981
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +6.8% -> +22.7% (+15.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +51.0% vs year-ago OPM: +14.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -590,7 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:50:00.354236",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:45:57.535948"
 }

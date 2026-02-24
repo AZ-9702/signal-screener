@@ -1,6 +1,8 @@
 {
   "ticker": "LVWR",
   "name": "LiveWire Group, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Manufacturers",
   "quarters": [
     {
       "date": "2022-03-27T00:00:00",
@@ -57,7 +59,7 @@
       "gross_margin": 0.06561055208050041,
       "op_margin": -1.429358172423171,
       "fcf_margin": -2.022776720152298,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.27593520408001293
     },
     {
@@ -142,7 +144,7 @@
       "incr_op_margin_yoy": 0.6581352833638026,
       "rev_growth_yoy": -0.44628773456622245,
       "rev_growth_yoy_accel": -0.008098065607322735,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7251761210256373
     },
     {
@@ -165,7 +167,7 @@
       "incr_op_margin_yoy": 7.758760939894432,
       "rev_growth_yoy": 0.6371230201779128,
       "rev_growth_yoy_accel": 1.0834107547441352,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1527657880111477
     },
     {
@@ -209,7 +211,7 @@
       "fcf_margin": -4.310900914870523,
       "rev_growth_yoy": -0.08212354113293481,
       "rev_growth_yoy_accel": 0.2765469046284669,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.9452260437473958
     },
     {
@@ -322,9 +324,55 @@
       "rev_growth_yoy": 0.28256467941507313,
       "rev_growth_yoy_accel": 0.3718808524651584,
       "fcf_margin_change": 0.3180887518187774
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11355000,
+      "gross_profit": 87000,
+      "operating_income": -17742000,
+      "net_income": -17622000,
+      "opex": 29097000,
+      "cogs": 11268000,
+      "rd": null,
+      "sga": 17829000,
+      "fcf": -8933000,
+      "ocf": -7900000,
+      "capex": -1033000,
+      "gross_margin": 0.007661822985468956,
+      "op_margin": -1.5624834874504623,
+      "fcf_margin": -0.7867018934390136,
+      "rev_growth_yoy": 0.055199330917201,
+      "rev_growth_yoy_accel": -0.22736534849787213,
+      "op_leverage_ratio": 5.303427294375654,
+      "fcf_margin_change": 1.6718141563768079
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -245.9% -> -78.7% (+167.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +99.2% vs OpEx growth +18.7% (leverage: 5.3x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +9.3% -> -50.9% -> +0.8% (reversal +51.7%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +5.5% vs prior quarter YoY: +28.3% (decel: -22.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -465,23 +513,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        15,
-        15
+        16,
+        16
       ]
     },
     "gaps": [],
@@ -489,7 +537,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:24:17.629776",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Manufacturers"
+  "last_updated": "2026-02-24T10:11:14.265847"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "NXDR",
-  "name": "Nextdoor Holdings, Inc",
+  "name": "Nextdoor Holdings, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -322,7 +324,7 @@
       "incr_op_margin_yoy": 2.479407438537508,
       "rev_growth_yoy": 0.16968551665121587,
       "rev_growth_yoy_accel": 0.057133002105345845,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11437276134190744
     },
     {
@@ -414,9 +416,37 @@
       "rev_growth_yoy_accel": 0.021658898836323794,
       "op_leverage_ratio": 6.5834169597085905,
       "fcf_margin_change": -0.1345633454761386
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 69479000,
+      "gross_profit": 59019000,
+      "operating_income": -7424000,
+      "net_income": -4033000,
+      "opex": 76903000,
+      "cogs": 10460000,
+      "rd": 31415000,
+      "sga": null,
+      "fcf": 9394000,
+      "ocf": 9472000,
+      "capex": -78000,
+      "gross_margin": 0.849450913225579,
+      "op_margin": -0.1068524302307172,
+      "fcf_margin": 0.13520632133450394,
+      "incr_op_margin_yoy": 2.275464596565514,
+      "rev_growth_yoy": 0.06517139878579752,
+      "rev_growth_yoy_accel": 0.01505708694309061,
+      "fcf_margin_change": 0.22925839831787065
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -9.4% -> +13.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -533,23 +563,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
-        19,
-        19
+        20,
+        20
       ],
       "op_income": [
-        19,
-        19
+        20,
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -557,7 +587,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:09:03.172108",
-  "sector": "Communication Services",
-  "industry": "Internet Content & Information"
+  "last_updated": "2026-02-24T10:27:14.583406"
 }

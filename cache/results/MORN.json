@@ -1,25 +1,9 @@
 {
   "ticker": "MORN",
   "name": "MORNINGSTAR,\u00a0INC.",
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 380400000,
-      "gross_profit": 230800000,
-      "operating_income": 65100000,
-      "net_income": null,
-      "opex": 315300000,
-      "cogs": 149600000,
-      "rd": null,
-      "sga": null,
-      "fcf": 92600000,
-      "ocf": 114600000,
-      "capex": -22000000,
-      "gross_margin": 0.6067297581493165,
-      "op_margin": 0.17113564668769715,
-      "fcf_margin": 0.2434279705573081
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -22700000,
       "gross_margin": 0.5995417515274949,
       "op_margin": 0.1710794297352342,
-      "fcf_margin": 0.10565173116089613,
-      "op_leverage_ratio": 0.9978561146672382,
-      "fcf_margin_change": -0.13777623939641198
+      "fcf_margin": 0.10565173116089613
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.5730939612963395,
       "op_margin": 0.15807880624854279,
       "fcf_margin": 0.21543483329447424,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045759196556272
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.5897879705755085,
       "op_margin": 0.16183470359151883,
       "fcf_margin": 0.22868887927304196,
-      "incr_op_margin_yoy": 0.11858190709046455,
-      "rev_growth_yoy": 0.21503680336487907,
       "op_leverage_ratio": 1.0660066825826435,
       "fcf_margin_change": 0.013254045978567719
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.009846827133479213,
       "incr_op_margin_yoy": -0.16822429906542055,
       "rev_growth_yoy": 0.1634419551934827,
-      "rev_growth_yoy_accel": -0.05159484817139637,
       "fcf_margin_change": -0.23853570640652116
     },
     {
@@ -189,7 +168,7 @@
       "incr_op_margin_yoy": -3.0703125,
       "rev_growth_yoy": 0.027693639117265252,
       "rev_growth_yoy_accel": -0.06393611140733255,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.004196677083567524
     },
     {
@@ -257,7 +236,7 @@
       "incr_op_margin_yoy": 1.014799154334038,
       "rev_growth_yoy": 0.10102520290474157,
       "rev_growth_yoy_accel": 0.028108536238074897,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20819420627479
     },
     {
@@ -280,7 +259,7 @@
       "incr_op_margin_yoy": 0.9246467817896389,
       "rev_growth_yoy": 0.13410526315789473,
       "rev_growth_yoy_accel": 0.03308006025315316,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0034091484024928453
     },
     {
@@ -440,6 +419,29 @@
       "rev_growth_yoy_accel": 0.026247155369738824,
       "op_leverage_ratio": 1.0508953465436264,
       "fcf_margin_change": 0.15618979843985661
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 641100000,
+      "gross_profit": 391900000,
+      "operating_income": 159600000,
+      "net_income": null,
+      "opex": 505100000,
+      "cogs": 249200000,
+      "rd": null,
+      "sga": null,
+      "fcf": 161300000,
+      "ocf": 204000000,
+      "capex": -42700000,
+      "gross_margin": 0.6112930900015598,
+      "op_margin": 0.24894712213383247,
+      "fcf_margin": 0.25159881453751365,
+      "incr_op_margin_yoy": -0.17165668662674652,
+      "rev_growth_yoy": 0.08477157360406092,
+      "rev_growth_yoy_accel": 0.0004723112226067555,
+      "op_leverage_ratio": 1.254224165856819,
+      "fcf_margin_change": -0.007714434571653828
     }
   ],
   "signals": [
@@ -552,12 +554,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +16.3% vs prior quarter YoY: +21.5% (decel: -5.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.6% -> +26.1% (+15.6%)",
@@ -589,7 +585,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:43:45.899143",
-  "sector": "Financial Services",
-  "industry": "Financial Data & Stock Exchanges"
+  "last_updated": "2026-02-24T10:47:58.414787"
 }

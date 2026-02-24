@@ -1,25 +1,9 @@
 {
   "ticker": "LAUR",
   "name": "Laureate Education, Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 285219000,
-      "gross_profit": 96886000,
-      "operating_income": 36876000,
-      "net_income": 379319000,
-      "opex": 60010000,
-      "cogs": 188333000,
-      "rd": null,
-      "sga": null,
-      "fcf": 37801000,
-      "ocf": 37801000,
-      "capex": null,
-      "gross_margin": 0.33968985235906446,
-      "op_margin": 0.12929012443070062,
-      "fcf_margin": 0.13253324638260425
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.06601404204395457,
       "op_margin": -0.4437111262910822,
-      "fcf_margin": 0.05795039573499879,
-      "fcf_margin_change": -0.07458285064760545
+      "fcf_margin": 0.05795039573499879
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.34881356863535207,
       "op_margin": 0.17609187402122847,
       "fcf_margin": 0.020053178012021527,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.037897217722977265
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.20011795234725172,
       "op_margin": -0.03722576079263978,
       "fcf_margin": -0.7081252316921107,
-      "incr_op_margin_yoy": -4.163148292937191,
-      "rev_growth_yoy": 0.04035846139282446,
       "op_leverage_ratio": 0.2769840935665311,
       "fcf_margin_change": -0.8433109495533762
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.25709213935666125,
       "incr_op_margin_yoy": 6.420737451217871,
       "rev_growth_yoy": 0.07633242767114704,
-      "rev_growth_yoy_accel": 0.035973966278322576,
       "fcf_margin_change": 0.9652173710487719
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 1.192986401854607,
       "rev_growth_yoy": 0.1764520924723502,
       "rev_growth_yoy_accel": 0.10011966480120316,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2784709826312389
     },
     {
@@ -436,9 +416,56 @@
       "rev_growth_yoy": 0.08570358976863042,
       "rev_growth_yoy_accel": 0.035806244777694105,
       "fcf_margin_change": 0.21096787354725094
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 541388000,
+      "gross_profit": 193886000,
+      "operating_income": 179488000,
+      "net_income": 171556000,
+      "opex": 14398000,
+      "cogs": 347502000,
+      "rd": null,
+      "sga": null,
+      "fcf": 93382000,
+      "ocf": 93382000,
+      "capex": null,
+      "gross_margin": 0.35812762750559674,
+      "op_margin": 0.33153302252728173,
+      "fcf_margin": 0.17248627601646138,
+      "incr_op_margin_yoy": 0.46840517314439717,
+      "rev_growth_yoy": 0.27868604656655505,
+      "rev_growth_yoy_accel": 0.19298245679792464,
+      "op_leverage_ratio": 1.9768078408201502,
+      "fcf_margin_change": -0.17976396384921384
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +35.3% vs OpEx growth +17.8% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +39.5% -> +20.9% -> +35.8% (reversal +14.9%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +27.9% vs prior quarter YoY: +8.6% (accel: +19.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +46.8% vs year-ago OPM: +29.3%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -657,12 +684,6 @@
     },
     {
       "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +34.0% -> +6.6% -> +34.9% (reversal +28.3%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -44.4% -> +17.6%",
       "severity": "HIGH"
@@ -693,7 +714,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:03:22.760467",
-  "sector": "Consumer Defensive",
-  "industry": "Education & Training Services"
+  "last_updated": "2026-02-24T10:24:07.465955"
 }

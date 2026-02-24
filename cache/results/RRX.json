@@ -1,25 +1,9 @@
 {
   "ticker": "RRX",
-  "name": "REGAL REXNORD CORP",
+  "name": "REGAL REXNORD CORPORATION",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 780500000,
-      "gross_profit": 213500000,
-      "operating_income": 74200000,
-      "net_income": 50400000,
-      "opex": 123600000,
-      "cogs": 567000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 107700000,
-      "ocf": 125500000,
-      "capex": -17800000,
-      "gross_margin": 0.273542600896861,
-      "op_margin": 0.09506726457399103,
-      "fcf_margin": 0.13798846893017297
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -10700000,
       "gross_margin": 0.30143716988085,
       "op_margin": 0.1192728166072964,
-      "fcf_margin": 0.04765999262989805,
-      "op_leverage_ratio": 0.21542092554601405,
-      "fcf_margin_change": -0.09032847630027492
+      "fcf_margin": 0.04765999262989805
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.28357199233284475,
       "op_margin": 0.12289998872477167,
       "fcf_margin": 0.08287292817679558,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03521293554689753
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.27469998356074304,
       "op_margin": 0.015535097813578827,
       "fcf_margin": 0.06789413118527042,
-      "incr_op_margin_yoy": -0.12680577849117175,
-      "rev_growth_yoy": 0.5587443946188341,
       "op_leverage_ratio": 0.4124235487067346,
       "fcf_margin_change": -0.053423220668655874
     },
@@ -120,8 +100,7 @@
       "fcf_margin": -0.014863303812090873,
       "incr_op_margin_yoy": 0.15028901734104047,
       "rev_growth_yoy": 0.5950128976784179,
-      "rev_growth_yoy_accel": 0.036268503059583845,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0827574349973613
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.18572972972972973,
       "rev_growth_yoy": 0.5214793099560266,
       "rev_growth_yoy_accel": -0.07353358772239127,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08274532545133795
     },
     {
@@ -434,9 +413,38 @@
       "rev_growth_yoy": 0.01326654934344118,
       "rev_growth_yoy_accel": 0.046543881987535264,
       "fcf_margin_change": -0.21329096264851072
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1523300000,
+      "gross_profit": 571300000,
+      "operating_income": 164500000,
+      "net_income": 63600000,
+      "opex": 406800000,
+      "cogs": 952000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 140600000,
+      "ocf": 167800000,
+      "capex": -27200000,
+      "gross_margin": 0.375041029344187,
+      "op_margin": 0.10798923390008534,
+      "fcf_margin": 0.09229961268299088,
+      "incr_op_margin_yoy": 0.5852090032154341,
+      "rev_growth_yoy": 0.04257066593662309,
+      "rev_growth_yoy_accel": 0.02930411659318191,
+      "op_leverage_ratio": 0.2471298151859274,
+      "fcf_margin_change": -0.02393285224686885
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +58.5% vs year-ago OPM: +8.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -577,5 +585,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:37:21.092210"
+  "last_updated": "2026-02-24T10:15:08.568093"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "RGCO",
   "name": "RGC RESOURCES, INC.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Gas",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 19517017,
-      "gross_profit": null,
-      "operating_income": 5581387,
-      "net_income": 4723263,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -5180087,
-      "ocf": 152910,
-      "capex": -5332997,
-      "gross_margin": null,
-      "op_margin": 0.2859754131484335,
-      "fcf_margin": -0.26541386934284067
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3645825,
       "gross_margin": null,
       "op_margin": 0.2512745427477684,
-      "fcf_margin": 0.20573145527117864,
-      "fcf_margin_change": 0.4711453246140193
+      "fcf_margin": 0.20573145527117864
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.23119995288672007,
       "fcf_margin": -0.39900125004943454,
-      "incr_op_margin_yoy": -0.05418061575579482,
-      "rev_growth_yoy": 0.19193829671819213,
       "op_leverage_ratio": 1.8676065437081775,
       "fcf_margin_change": 0.18902403198563567
     },
@@ -118,7 +99,6 @@
       "fcf_margin": 0.38998728838369173,
       "incr_op_margin_yoy": 0.26955825962111907,
       "rev_growth_yoy": 0.045163030548040106,
-      "rev_growth_yoy_accel": -0.14677526617015202,
       "op_leverage_ratio": 1.1466396395025515,
       "fcf_margin_change": 0.7889885384331263
     },
@@ -432,9 +412,50 @@
       "rev_growth_yoy": 0.09261935507896567,
       "rev_growth_yoy_accel": -0.10148590088578015,
       "fcf_margin_change": -0.38200928918446864
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 30260468,
+      "gross_profit": null,
+      "operating_income": 6550337,
+      "net_income": 4882865,
+      "opex": 23710131,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -4563692,
+      "ocf": 1079860,
+      "capex": -5643552,
+      "gross_margin": null,
+      "op_margin": 0.21646515843707373,
+      "fcf_margin": -0.15081366223417297,
+      "incr_op_margin_yoy": -0.26175991641820784,
+      "rev_growth_yoy": 0.10886910805135722,
+      "rev_growth_yoy_accel": 0.01624975297239155,
+      "op_leverage_ratio": 1.847831816550877,
+      "fcf_margin_change": 0.15061340719039945
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -30.1% -> -15.1% (+15.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +111.3% vs OpEx growth +60.3% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -3.3% -> +21.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -574,12 +595,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +4.5% vs prior quarter YoY: +19.2% (decel: -14.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -58.8% -> -39.9% (+18.9%)",
@@ -590,12 +605,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +74.2% vs OpEx growth +39.7% (leverage: 1.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -26.5% -> +20.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -625,5 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:58:15.579270"
+  "last_updated": "2026-02-24T11:08:39.206678"
 }

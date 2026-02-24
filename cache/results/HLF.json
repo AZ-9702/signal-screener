@@ -1,25 +1,9 @@
 {
   "ticker": "HLF",
-  "name": "HERBALIFE LTD.",
+  "name": "Herbalife Ltd.",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1410700000,
-      "gross_profit": 1101300000,
-      "operating_income": 148400000,
-      "net_income": 73800000,
-      "opex": 952900000,
-      "cogs": 309400000,
-      "rd": null,
-      "sga": 515500000,
-      "fcf": 76100000,
-      "ocf": 112500000,
-      "capex": -36400000,
-      "gross_margin": 0.7806762600127596,
-      "op_margin": 0.10519600198483023,
-      "fcf_margin": 0.05394485007443113
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -33400000,
       "gross_margin": 0.7906899307405434,
       "op_margin": 0.14817527970165156,
-      "fcf_margin": 0.051078849227490675,
-      "op_leverage_ratio": 5.159760962583092,
-      "fcf_margin_change": -0.0028660008469404558
+      "fcf_margin": 0.051078849227490675
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.7749620637329286,
       "op_margin": 0.06396054628224583,
       "fcf_margin": 0.02921092564491654,
-      "incr_op_margin_yoy": 0.6914778856526429,
-      "rev_growth_yoy": -0.06571205784362373,
       "fcf_margin_change": -0.007059952823180466
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.06677646354244647,
       "incr_op_margin_yoy": 0.41857659831121835,
       "rev_growth_yoy": -0.1104155567394779,
-      "rev_growth_yoy_accel": -0.04470349889585416,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.037565537897529935
     },
     {
@@ -390,7 +369,7 @@
       "incr_op_margin_yoy": -1.1948356807511737,
       "rev_growth_yoy": -0.03369453452503361,
       "rev_growth_yoy_accel": -0.0274393904921118,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05117453990208454
     },
     {
@@ -438,6 +417,28 @@
       "rev_growth_yoy_accel": 0.0441017109725651,
       "op_leverage_ratio": 0.6986956235203463,
       "fcf_margin_change": 0.0345067152707936
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1283000000,
+      "gross_profit": 994700000,
+      "operating_income": 99800000,
+      "net_income": 85400000,
+      "opex": 894900000,
+      "cogs": 288300000,
+      "rd": null,
+      "sga": null,
+      "fcf": 79800000,
+      "ocf": 98300000,
+      "capex": -18500000,
+      "gross_margin": 0.7752922837100545,
+      "op_margin": 0.07778643803585347,
+      "fcf_margin": 0.06219797349961029,
+      "incr_op_margin_yoy": -0.08862433862433862,
+      "rev_growth_yoy": 0.06261388106675501,
+      "rev_growth_yoy_accel": 0.03568491226888353,
+      "fcf_margin_change": -0.030445506126675334
     }
   ],
   "signals": [
@@ -518,18 +519,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +41.9% vs year-ago OPM: +14.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +69.1% vs year-ago OPM: +10.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +6.4% vs OpEx growth +1.2% (leverage: 5.2x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -557,7 +546,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:42:08.942681",
-  "sector": "Consumer Defensive",
-  "industry": "Packaged Foods"
+  "last_updated": "2026-02-24T10:27:28.731925"
 }

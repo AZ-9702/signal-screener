@@ -1,25 +1,9 @@
 {
   "ticker": "POWW",
   "name": "Outdoor Holding Company",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 16620244,
-      "gross_profit": 3341906,
-      "operating_income": -428807,
-      "net_income": -1906437,
-      "opex": 3770713,
-      "cogs": 13278338,
-      "rd": null,
-      "sga": null,
-      "fcf": -3717039,
-      "ocf": -1499454,
-      "capex": -2217585,
-      "gross_margin": 0.2010744246594695,
-      "op_margin": -0.025800283076469876,
-      "fcf_margin": -0.22364527259647932
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2944214,
       "gross_margin": 0.23496864970232223,
       "op_margin": -0.01906008306832574,
-      "fcf_margin": -0.5006176298854151,
-      "op_leverage_ratio": 0.7233270836137929,
-      "fcf_margin_change": -0.2769723572889358
+      "fcf_margin": -0.5006176298854151
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,9 +79,7 @@
       "gross_margin": 0.34817049637941033,
       "op_margin": 0.1640122817436596,
       "fcf_margin": 0.05526809380473577,
-      "incr_op_margin_yoy": 0.229641584372712,
-      "rev_growth_yoy": 2.8921923167914985,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.1160887362467113
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": 0.5224548416987507,
       "incr_op_margin_yoy": 0.06734048872591254,
       "rev_growth_yoy": 1.898046875710543,
-      "rev_growth_yoy_accel": -0.9941454410809554,
       "op_leverage_ratio": 0.15310980987276826,
       "fcf_margin_change": 0.46718674789401493
     },
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.23149435262328968,
       "rev_growth_yoy": -0.37685095552006453,
       "rev_growth_yoy_accel": 0.024726087047761247,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6308738434837904
     },
     {
@@ -278,7 +257,7 @@
       "incr_op_margin_yoy": -0.8918651549151027,
       "rev_growth_yoy": -0.06987666247135799,
       "rev_growth_yoy_accel": 0.2183111254475153,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0886042446736493
     },
     {
@@ -360,16 +339,16 @@
       "cogs": 21390009,
       "rd": null,
       "sga": 30505805,
-      "fcf": -748639,
+      "fcf": 720276,
       "ocf": 1265684,
-      "capex": -2014323,
+      "capex": -545408,
       "gross_margin": 0.26715177612664487,
       "op_margin": -0.8948717159830945,
-      "fcf_margin": -0.025649300169641103,
+      "fcf_margin": 0.024677548630232214,
       "incr_op_margin_yoy": 3.548680429660702,
       "rev_growth_yoy": -0.18938160659152756,
       "rev_growth_yoy_accel": -0.10347540851729436,
-      "fcf_margin_change": 0.31112796789421143
+      "fcf_margin_change": 0.36145481669408475
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -384,7 +363,7 @@
       "sga": null,
       "fcf": null,
       "ocf": null,
-      "capex": 652570,
+      "capex": -816345,
       "gross_margin": -0.43026220442613916,
       "op_margin": 0.2543199106052811,
       "fcf_margin": null,
@@ -433,10 +412,44 @@
       "incr_op_margin_yoy": -0.6776927370860947,
       "rev_growth_yoy": -0.618571855739024,
       "rev_growth_yoy_accel": -0.0016418428648947714,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 13394465,
+      "gross_profit": 11663710,
+      "operating_income": 1965783,
+      "net_income": 2230250,
+      "opex": 9697927,
+      "cogs": 1730755,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": -645207,
+      "gross_margin": 0.8707858059280457,
+      "op_margin": 0.14676084487137037,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -1.77830603448849,
+      "rev_growth_yoy": -0.5410890250217371,
+      "rev_growth_yoy_accel": 0.0774828307172869,
+      "op_leverage_ratio": null
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -54.1% vs prior quarter YoY: -61.9% (accel: +7.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -89.5% (year-ago) -> +14.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -481,9 +494,9 @@
     },
     {
       "quarter": "2024-12 (Q4)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -33.7% -> -2.6% (+31.1%)",
-      "severity": "MEDIUM"
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -33.7% -> +2.5%",
+      "severity": "HIGH"
     },
     {
       "quarter": "2024-12 (Q4)",
@@ -583,12 +596,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +189.8% vs prior quarter YoY: +289.2% (decel: -99.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -1.9% (year-ago) -> +3.8%",
       "severity": "HIGH"
@@ -597,12 +604,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -106.1% -> +5.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -2.6% (year-ago) -> +16.4%",
       "severity": "HIGH"
     },
     {
@@ -640,7 +641,7 @@
         20
       ],
       "fcf": [
-        17,
+        16,
         20
       ]
     },
@@ -649,5 +650,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:02:03.833186"
+  "last_updated": "2026-02-24T11:09:22.986864"
 }

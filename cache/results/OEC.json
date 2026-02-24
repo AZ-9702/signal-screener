@@ -1,25 +1,9 @@
 {
   "ticker": "OEC",
   "name": "ORION S.A.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 315692000,
-      "gross_profit": 89030000,
-      "operating_income": 25571000,
-      "net_income": 8906000,
-      "opex": 63459000,
-      "cogs": 226662000,
-      "rd": 3444000,
-      "sga": 49919000,
-      "fcf": 32948000,
-      "ocf": 32948000,
-      "capex": null,
-      "gross_margin": 0.2820153820812691,
-      "op_margin": 0.08099983528249052,
-      "fcf_margin": 0.10436754811651863
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.28471688000066653,
       "op_margin": 0.11901065605412176,
-      "fcf_margin": 0.004998930784248925,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.0993686173322697
+      "fcf_margin": 0.004998930784248925
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.2745226646981365,
       "op_margin": 0.330383863373369,
       "fcf_margin": 0.20774310681936076,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20274417603511183
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.19171286616872218,
       "op_margin": 0.032840906486435555,
       "fcf_margin": 0.060863652685003856,
-      "incr_op_margin_yoy": -0.16463390874020964,
-      "rev_growth_yoy": 0.24387377570543442,
       "fcf_margin_change": -0.031232840015967482
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.05737874097007224,
       "incr_op_margin_yoy": 0.0944118048913786,
       "rev_growth_yoy": 0.34554553609366884,
-      "rev_growth_yoy_accel": 0.10167176038823442,
       "op_leverage_ratio": 15.96002676812678,
       "fcf_margin_change": -0.1182423936550761
     },
@@ -435,9 +414,49 @@
       "rev_growth_yoy": -0.026974536037980147,
       "rev_growth_yoy_accel": -0.004752313815757924,
       "fcf_margin_change": 0.03744650017670015
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 411700000,
+      "gross_profit": 77700000,
+      "operating_income": 17900000,
+      "net_income": -21100000,
+      "opex": 59800000,
+      "cogs": 334000000,
+      "rd": 7500000,
+      "sga": 57100000,
+      "fcf": 92900000,
+      "ocf": 92900000,
+      "capex": null,
+      "gross_margin": 0.18872965751760992,
+      "op_margin": 0.043478260869565216,
+      "fcf_margin": 0.22564974495992227,
+      "incr_op_margin_yoy": 0.25333333333333335,
+      "rev_growth_yoy": -0.051819438046982955,
+      "rev_growth_yoy_accel": -0.024844902009002807,
+      "fcf_margin_change": 0.07306602351392538
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +15.3% -> +22.6% (+7.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +25.3% vs year-ago OPM: +5.4%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -11.9% -> +4.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -565,12 +584,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +34.6% vs prior quarter YoY: +24.4% (accel: +10.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.5% -> +20.8% (+20.3%)",
@@ -602,7 +615,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:38:28.459030",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:36:57.795351"
 }

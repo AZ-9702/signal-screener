@@ -1,25 +1,9 @@
 {
   "ticker": "UDMY",
   "name": "Udemy, Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 110095000,
-      "gross_profit": 54438000,
-      "operating_income": -26096000,
-      "net_income": -27035000,
-      "opex": 80534000,
-      "cogs": 55657000,
-      "rd": 14403000,
-      "sga": null,
-      "fcf": 18032000,
-      "ocf": 19267000,
-      "capex": -1235000,
-      "gross_margin": 0.49446387211045006,
-      "op_margin": -0.23703165448022162,
-      "fcf_margin": 0.1637858213361188
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -933000,
       "gross_margin": 0.5349417904456042,
       "op_margin": -0.13197912484945806,
-      "fcf_margin": -0.11795262946607787,
-      "op_leverage_ratio": 4.177703609983468,
-      "fcf_margin_change": -0.28173845080219667
+      "fcf_margin": -0.11795262946607787
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.5559388705162063,
       "op_margin": -0.08703100092788656,
       "fcf_margin": 0.04832940765942598,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16628203712550385
     },
     {
@@ -77,7 +59,7 @@
       "gross_margin": 0.5524493875566326,
       "op_margin": -0.07370931515942052,
       "fcf_margin": -0.04150876407616372,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0898381717355897
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.5266037164731158,
       "op_margin": -0.30228643568522934,
       "fcf_margin": 0.011339894131457131,
-      "incr_op_margin_yoy": -0.5856207603722985,
-      "rev_growth_yoy": 0.23031018665697806,
       "op_leverage_ratio": 0.11836846057700968,
       "fcf_margin_change": 0.05284865820762085
     },
@@ -121,8 +101,7 @@
       "fcf_margin": -0.09283091254278263,
       "incr_op_margin_yoy": -0.3208181259711632,
       "rev_growth_yoy": 0.22218386190285025,
-      "rev_growth_yoy_accel": -0.008126324754127806,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10417080667423975
     },
     {
@@ -236,7 +215,7 @@
       "incr_op_margin_yoy": 0.042382999044890166,
       "rev_growth_yoy": 0.16411515753174147,
       "rev_growth_yoy_accel": 0.005091882468183401,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18821885788668558
     },
     {
@@ -259,7 +238,7 @@
       "incr_op_margin_yoy": 0.8275009509319132,
       "rev_growth_yoy": 0.16593869925267624,
       "rev_growth_yoy_accel": 0.0018235417209347682,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.012767416258313694
     },
     {
@@ -372,7 +351,7 @@
       "incr_op_margin_yoy": 1.3528902568048475,
       "rev_growth_yoy": 0.054852409718008914,
       "rev_growth_yoy_accel": -0.0030454042943989235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07609338047681863
     },
     {
@@ -439,6 +418,28 @@
       "rev_growth_yoy": 0.0013458399218082358,
       "rev_growth_yoy_accel": -0.02704992052272768,
       "fcf_margin_change": -0.13251887667488543
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 193985000,
+      "gross_profit": 128046000,
+      "operating_income": -3430000,
+      "net_income": -2329000,
+      "opex": 131476000,
+      "cogs": 65939000,
+      "rd": 24613000,
+      "sga": null,
+      "fcf": 14993000,
+      "ocf": 15515000,
+      "capex": -522000,
+      "gross_margin": 0.6600819651003944,
+      "op_margin": -0.017681779519034976,
+      "fcf_margin": 0.0772894811454494,
+      "incr_op_margin_yoy": -1.3704885009232834,
+      "rev_growth_yoy": -0.029793640155645135,
+      "rev_growth_yoy_accel": -0.03113948007745337,
+      "fcf_margin_change": 6.646397455814523e-05
     }
   ],
   "signals": [
@@ -531,12 +532,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -11.8% -> +4.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +13.1% vs OpEx growth +3.1% (leverage: 4.2x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -564,5 +559,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:12:44.270203"
+  "last_updated": "2026-02-24T10:20:15.495657"
 }

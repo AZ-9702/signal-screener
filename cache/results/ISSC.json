@@ -1,25 +1,9 @@
 {
   "ticker": "ISSC",
   "name": "INNOVATIVE SOLUTIONS AND SUPPORT,\u00a0INC.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4869652,
-      "gross_profit": 2565823,
-      "operating_income": 232371,
-      "net_income": null,
-      "opex": 2333452,
-      "cogs": 2303829,
-      "rd": 600298,
-      "sga": 1733154,
-      "fcf": 1611480,
-      "ocf": 1684326,
-      "capex": -72846,
-      "gross_margin": 0.5269006902341277,
-      "op_margin": 0.047718194236467,
-      "fcf_margin": 0.33092303105026805
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -226182,
       "gross_margin": 0.5667861873992672,
       "op_margin": 0.11933570812861381,
-      "fcf_margin": 0.07603431966410541,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.25488871138616265
+      "fcf_margin": 0.07603431966410541
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.5427836036570438,
       "op_margin": 0.19345203855613985,
       "fcf_margin": 0.23755963213387046,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16152531246976504
     },
     {
@@ -77,7 +59,7 @@
       "gross_margin": 0.5759125846268272,
       "op_margin": 0.2708844139979596,
       "fcf_margin": 0.11388473583160826,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12367489630226221
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.5925705720828857,
       "op_margin": 0.2127032885498892,
       "fcf_margin": 0.21511869121108854,
-      "incr_op_margin_yoy": 0.6526619740368408,
-      "rev_growth_yoy": 0.3750013347976406,
       "fcf_margin_change": 0.10123395537948028
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.2794182435413143,
       "incr_op_margin_yoy": 0.6940703896518221,
       "rev_growth_yoy": 0.33659257552698296,
-      "rev_growth_yoy_accel": -0.03840875927065762,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06429955233022575
     },
     {
@@ -143,7 +122,7 @@
       "fcf_margin": 0.41908235621236645,
       "rev_growth_yoy": 0.1219693656320533,
       "rev_growth_yoy_accel": -0.21462320989492967,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13966411267105217
     },
     {
@@ -165,7 +144,7 @@
       "fcf_margin": -0.04487478592191979,
       "rev_growth_yoy": 0.05674354979604593,
       "rev_growth_yoy_accel": -0.06522581583600737,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.46395714213428624
     },
     {
@@ -231,7 +210,7 @@
       "incr_op_margin_yoy": -0.1933845217472728,
       "rev_growth_yoy": 0.1478562948588227,
       "rev_growth_yoy_accel": 0.0756028613767855,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21818400776546265
     },
     {
@@ -345,7 +324,7 @@
       "incr_op_margin_yoy": 0.2982886117857546,
       "rev_growth_yoy": 0.18412101784739554,
       "rev_growth_yoy_accel": -0.294120912756755,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.042645620973151485
     },
     {
@@ -391,7 +370,7 @@
       "incr_op_margin_yoy": 0.4770397486830492,
       "rev_growth_yoy": 1.0425700748525353,
       "rev_growth_yoy_accel": 0.326989830069061,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11115488094572727
     },
     {
@@ -438,9 +417,49 @@
       "rev_growth_yoy": 0.44604449350872544,
       "rev_growth_yoy_accel": -0.6061041580515175,
       "fcf_margin_change": -0.057643667459196135
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 21807083,
+      "gross_profit": 11884270,
+      "operating_income": 6292406,
+      "net_income": 4059063,
+      "opex": 5591864,
+      "cogs": 9922813,
+      "rd": 1327615,
+      "sga": 4264249,
+      "fcf": 7049702,
+      "ocf": 8159592,
+      "capex": -1109890,
+      "gross_margin": 0.5449729337940338,
+      "op_margin": 0.28854872520089,
+      "fcf_margin": 0.32327579071442064,
+      "incr_op_margin_yoy": 0.8475998543425082,
+      "rev_growth_yoy": 0.3656116901977609,
+      "rev_growth_yoy_accel": -0.08043280331096453,
+      "fcf_margin_change": 0.2351771726195073
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +8.8% -> +32.3% (+23.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +36.6% vs prior quarter YoY: +44.6% (decel: -8.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +84.8% vs year-ago OPM: +8.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -628,12 +647,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +65.3% vs year-ago OPM: +4.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +56.7% -> +54.3% -> +57.6% (reversal +3.3%)",
@@ -671,7 +684,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:37:03.505018",
-  "sector": "Industrials",
-  "industry": "Aerospace & Defense"
+  "last_updated": "2026-02-24T10:44:15.889905"
 }

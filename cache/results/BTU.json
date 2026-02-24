@@ -1,25 +1,9 @@
 {
   "ticker": "BTU",
-  "name": "PEABODY ENERGY CORP",
+  "name": "PEABODY ENERGY CORPORATION",
+  "sector": "Energy",
+  "industry": "Thermal Coal",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 737200000,
-      "gross_profit": null,
-      "operating_income": -108100000,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 22200000,
-      "fcf": 22400000,
-      "ocf": 22400000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.1466359196961476,
-      "fcf_margin": 0.030385241454150842
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.06264394288346384,
-      "fcf_margin": 0.10901274374328267,
-      "fcf_margin_change": 0.07862750228913182
+      "fcf_margin": 0.10901274374328267
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.4119879803890558,
       "fcf_margin": 0.3466708840740155,
-      "incr_op_margin_yoy": 1.1928327645051195,
-      "rev_growth_yoy": 0.7154096581660336,
       "fcf_margin_change": 0.3401907662536915
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.3958634654324559,
       "incr_op_margin_yoy": -0.743142144638404,
       "rev_growth_yoy": 0.06156916935360049,
-      "rev_growth_yoy_accel": -0.6538404888124332,
       "fcf_margin_change": -0.7425343495064713
     },
     {
@@ -427,9 +407,43 @@
       "rev_growth_yoy": -0.06976102941176471,
       "rev_growth_yoy_accel": 0.07601632183583606,
       "fcf_margin_change": 0.09447696133719417
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1022300000,
+      "gross_profit": null,
+      "operating_income": 7800000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 30500000,
+      "fcf": 68600000,
+      "ocf": 68600000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.007629854250220092,
+      "fcf_margin": 0.06710358994424337,
+      "incr_op_margin_yoy": 0.32043650793650796,
+      "rev_growth_yoy": -0.08975158044697712,
+      "rev_growth_yoy_accel": -0.01999055103521241,
+      "fcf_margin_change": -0.053437858529227625
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +32.0% vs year-ago OPM: +3.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -8.0% -> +0.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -587,22 +601,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +6.2% vs prior quarter YoY: +71.5% (decel: -65.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.6% -> +34.7% (+34.0%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -14.7% (year-ago) -> +41.2%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-12 (Q4)",
@@ -615,12 +617,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -13.0% -> +0.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +3.0% -> +10.9% (+7.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -650,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:10:14.455551",
-  "sector": "Energy",
-  "industry": "Thermal Coal"
+  "last_updated": "2026-02-24T10:20:19.631494"
 }

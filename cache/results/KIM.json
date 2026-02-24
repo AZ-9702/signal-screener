@@ -1,25 +1,9 @@
 {
   "ticker": "KIM",
   "name": "KIMCO REALTY CORPORATION",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 269441000,
-      "gross_profit": null,
-      "operating_income": 80302000,
-      "net_income": 201234000,
-      "opex": 189926000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 123971000,
-      "ocf": 123971000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.2980318511288186,
-      "fcf_margin": 0.4601044384484915
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.37004973291582244,
-      "fcf_margin": 0.5255642773141391,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.0654598388656476
+      "fcf_margin": 0.5255642773141391
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.2962223363020247,
       "fcf_margin": 0.47475120921974123,
-      "incr_op_margin_yoy": 0.29308112078240867,
-      "rev_growth_yoy": 0.5760556114325586,
       "op_leverage_ratio": 9.863866058000626,
       "fcf_margin_change": 0.1394374468657979
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.45535741452876427,
       "incr_op_margin_yoy": 0.26797110548430053,
       "rev_growth_yoy": 0.513414426796265,
-      "rev_growth_yoy_accel": -0.06264118463629353,
       "fcf_margin_change": -0.019393794690976962
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 1.0504660781529724,
       "rev_growth_yoy": 0.17578613536910584,
       "rev_growth_yoy_accel": -0.30232580307028856,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.027784754609114226
     },
     {
@@ -278,7 +257,7 @@
       "incr_op_margin_yoy": 2.034752315404877,
       "rev_growth_yoy": 0.026757822269310696,
       "rev_growth_yoy_accel": -0.0024574808088867334,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.20908252133164884
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.4996995143502201,
       "rev_growth_yoy": 0.13802248551220114,
       "rev_growth_yoy_accel": 0.008424888185853019,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.004884741933312897
     },
     {
@@ -392,7 +371,7 @@
       "incr_op_margin_yoy": 1.5147246729540615,
       "rev_growth_yoy": 0.06525010223243885,
       "rev_growth_yoy_accel": -0.09815448099663623,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07313623053027418
     },
     {
@@ -437,11 +416,40 @@
       "incr_op_margin_yoy": 0.5645966913457792,
       "rev_growth_yoy": 0.05560918145428184,
       "rev_growth_yoy_accel": 0.00574421906690481,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03883621214489319
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 542456000,
+      "gross_profit": null,
+      "operating_income": 197298000,
+      "net_income": 151163000,
+      "opex": 364307000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 258371000,
+      "ocf": 258371000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.36371244856725704,
+      "fcf_margin": 0.476298538498975,
+      "incr_op_margin_yoy": 1.8117122926314555,
+      "rev_growth_yoy": 0.032468780750556245,
+      "rev_growth_yoy_accel": -0.023140400703725597,
+      "op_leverage_ratio": 0.36226531236278947,
+      "fcf_margin_change": -0.14406383159326902
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +181.2% vs year-ago OPM: +31.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -557,12 +565,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +51.3% vs prior quarter YoY: +57.6% (decel: -6.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +33.5% -> +47.5% (+13.9%)",
@@ -578,12 +580,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +2.4% vs OpEx growth +1.2% (leverage: 2.0x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +46.0% -> +52.6% (+6.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -614,7 +610,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:56.474509",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-24T10:16:56.411092"
 }

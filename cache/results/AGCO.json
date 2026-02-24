@@ -1,25 +1,9 @@
 {
   "ticker": "AGCO",
   "name": "AGCO CORP /DE",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2717100000,
-      "gross_profit": 595600000,
-      "operating_income": 178000000,
-      "net_income": 135400000,
-      "opex": 417600000,
-      "cogs": 2121500000,
-      "rd": 99900000,
-      "sga": 283100000,
-      "fcf": 585600000,
-      "ocf": 672400000,
-      "capex": -86800000,
-      "gross_margin": 0.21920429870082073,
-      "op_margin": 0.0655110227816422,
-      "fcf_margin": 0.21552390416252623
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -63500000,
       "gross_margin": 0.2398368856938664,
       "op_margin": 0.08206163030226594,
-      "fcf_margin": -0.15924664732837265,
-      "fcf_margin_change": -0.3747705514908989
+      "fcf_margin": -0.15924664732837265
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.21637297160243407,
       "op_margin": 0.08367139959432049,
       "fcf_margin": 0.1735547667342799,
-      "incr_op_margin_yoy": 0.19630221410636842,
-      "rev_growth_yoy": 0.16123808472268228,
       "op_leverage_ratio": 1.3474791713146053,
       "fcf_margin_change": 0.14115228609136773
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.23934169862605653,
       "incr_op_margin_yoy": 0.028664495114006514,
       "rev_growth_yoy": 0.1290620927397318,
-      "rev_growth_yoy_accel": -0.032175991982950486,
       "fcf_margin_change": -0.4128964653603364
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": -0.40667678300455234,
       "rev_growth_yoy": 0.022887507380266035,
       "rev_growth_yoy_accel": -0.10617458535946575,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.218086775361083
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.20226986128625474,
       "rev_growth_yoy": 0.14549924773402811,
       "rev_growth_yoy_accel": 0.12261174035376207,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06603964904662396
     },
     {
@@ -437,9 +417,56 @@
       "rev_growth_yoy": -0.047320432424114184,
       "rev_growth_yoy_accel": 0.14106125919173007,
       "fcf_margin_change": -0.12192235906833211
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2920200000,
+      "gross_profit": 741100000,
+      "operating_income": 230700000,
+      "net_income": 95500000,
+      "opex": 510400000,
+      "cogs": 2179100000,
+      "rd": null,
+      "sga": 316300000,
+      "fcf": 675000000,
+      "ocf": 763600000,
+      "capex": -88600000,
+      "gross_margin": 0.2537839873981234,
+      "op_margin": 0.07900143825765359,
+      "fcf_margin": 0.23114855146907745,
+      "incr_op_margin_yoy": 15.182370820668693,
+      "rev_growth_yoy": 0.011394728639213106,
+      "rev_growth_yoy_accel": 0.05871516106332729,
+      "op_leverage_ratio": 5.723578491844622,
+      "fcf_margin_change": 0.23030051205543614
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +0.1% -> +23.1% (+23.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +17.9% vs OpEx growth +3.1% (leverage: 5.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +1.1% vs prior quarter YoY: -4.7% (accel: +5.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -9.3% (year-ago) -> +7.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -651,12 +678,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +19.6% vs year-ago OPM: +6.6%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -15.9% -> +4.6%",
@@ -694,7 +715,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:10.644023",
-  "sector": "Industrials",
-  "industry": "Farm & Heavy Construction Machinery"
+  "last_updated": "2026-02-24T10:42:26.742271"
 }

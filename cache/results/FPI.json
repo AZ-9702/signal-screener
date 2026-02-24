@@ -1,25 +1,9 @@
 {
   "ticker": "FPI",
   "name": "Farmland Partners Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 17917000,
-      "gross_profit": null,
-      "operating_income": 9701000,
-      "net_income": 6036000,
-      "opex": 8216000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 9565000,
-      "ocf": 9565000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.5414410894681029,
-      "fcf_margin": 0.5338505330133393
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.26764578833693303,
-      "fcf_margin": 0.9853995680345572,
-      "fcf_margin_change": 0.4515490350212179
+      "fcf_margin": 0.9853995680345572
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.5648508430609598,
       "fcf_margin": 0.3301406764441784,
-      "incr_op_margin_yoy": 0.7618600281822452,
-      "rev_growth_yoy": 0.11882569626611598,
       "op_leverage_ratio": 174.087208797423,
       "fcf_margin_change": 1.020788870407563
     },
@@ -118,7 +99,6 @@
       "fcf_margin": 0.7421886249100071,
       "incr_op_margin_yoy": 0.5278617710583153,
       "rev_growth_yoy": 0.2,
-      "rev_growth_yoy_accel": 0.08117430373388403,
       "fcf_margin_change": 0.41204794846582876
     },
     {
@@ -163,7 +143,7 @@
       "incr_op_margin_yoy": 1.084349258649094,
       "rev_growth_yoy": 0.30034636318654134,
       "rev_growth_yoy_accel": 0.06625068756484953,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17561306829582476
     },
     {
@@ -273,7 +253,7 @@
       "fcf_margin": 0.33137273064097816,
       "rev_growth_yoy": -0.010585162443293772,
       "rev_growth_yoy_accel": 0.10532046921576255,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6466004142081642
     },
     {
@@ -337,7 +317,7 @@
       "fcf_margin": -0.321393707291432,
       "rev_growth_yoy": 0.14633726435396402,
       "rev_growth_yoy_accel": 0.15833657374622923,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2106290100523862
     },
     {
@@ -423,11 +403,45 @@
       "fcf_margin": -0.1735845702604213,
       "rev_growth_yoy": -0.15514004655703237,
       "rev_growth_yoy_accel": -0.02538906359504023,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.045692538173313646
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 20715000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 21421000,
+      "opex": 8209000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 15193000,
+      "ocf": 15193000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.7334298817282162,
+      "rev_growth_yoy": -0.035345068454875665,
+      "rev_growth_yoy_accel": 0.1197949781021567,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.9070144519886375
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -17.4% -> +73.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -3.5% vs prior quarter YoY: -15.5% (accel: +12.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -562,12 +576,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +20.0% vs prior quarter YoY: +11.9% (accel: +8.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +52.8% vs year-ago OPM: +26.8%",
       "severity": "HIGH"
@@ -583,18 +591,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +98.4% vs OpEx growth +0.6% (leverage: 174.1x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +76.2% vs year-ago OPM: +54.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +53.4% -> +98.5% (+45.2%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -609,7 +605,7 @@
         20
       ],
       "op_income": [
-        12,
+        11,
         20
       ],
       "fcf": [
@@ -620,12 +616,10 @@
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 12/20Q"
+      "op_income: 11/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:26:12.439278",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-24T10:25:21.094217"
 }

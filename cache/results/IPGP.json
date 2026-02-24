@@ -1,25 +1,9 @@
 {
   "ticker": "IPGP",
   "name": "IPG PHOTONICS CORP",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 336630000,
-      "gross_profit": 146879000,
-      "operating_income": 65241000,
-      "net_income": 49339000,
-      "opex": 81638000,
-      "cogs": 189751000,
-      "rd": 31766000,
-      "sga": null,
-      "fcf": 59493000,
-      "ocf": 85318000,
-      "capex": -25825000,
-      "gross_margin": 0.4363217776193447,
-      "op_margin": 0.1938062561269049,
-      "fcf_margin": 0.17673112913287586
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -27421000,
       "gross_margin": 0.4745315913595787,
       "op_margin": 0.257077130083771,
-      "fcf_margin": 0.17397167122415613,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.0027594579087197313
+      "fcf_margin": 0.17397167122415613
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.490238691810629,
       "op_margin": 0.2689858894896479,
       "fcf_margin": 0.16471844916260056,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07400640002670789
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.4554733350344476,
       "op_margin": 0.2326767581152752,
       "fcf_margin": 0.1517092082410753,
-      "incr_op_margin_yoy": 0.702733771598951,
-      "rev_growth_yoy": 0.08269316460208538,
       "fcf_margin_change": -0.01300924092152525
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": -0.023660802369864235,
       "incr_op_margin_yoy": 0.17631384766745922,
       "rev_growth_yoy": 0.07058755443667983,
-      "rev_growth_yoy_accel": -0.012105610165405553,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17537001061093954
     },
     {
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.7768910326682745,
       "rev_growth_yoy": -0.06163863354406601,
       "rev_growth_yoy_accel": 0.02321952919769113,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03690790885050073
     },
     {
@@ -435,9 +414,44 @@
       "rev_growth_yoy": 0.07570032126205806,
       "rev_growth_yoy_accel": 0.10257450861287022,
       "fcf_margin_change": 0.12820973820258635
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 274471000,
+      "gross_profit": 99073000,
+      "operating_income": 3318000,
+      "net_income": 13270000,
+      "opex": 95755000,
+      "cogs": 175398000,
+      "rd": 28771000,
+      "sga": null,
+      "fcf": 10918000,
+      "ocf": 28809000,
+      "capex": -17891000,
+      "gross_margin": 0.3609598099617082,
+      "op_margin": 0.012088708825340381,
+      "fcf_margin": 0.03977833723781383,
+      "incr_op_margin_yoy": -0.2649623760402651,
+      "rev_growth_yoy": 0.17126616795469773,
+      "rev_growth_yoy_accel": 0.09556584669263968,
+      "op_leverage_ratio": 1.8688597779563332,
+      "fcf_margin_change": -0.01833755162626477
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +9.4% vs OpEx growth +5.1% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +17.1% vs prior quarter YoY: +7.6% (accel: +9.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -601,12 +615,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +70.3% vs year-ago OPM: +19.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +17.4% -> +23.9% (+6.5%)",
@@ -638,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:14:35.955263",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-24T10:06:52.571062"
 }

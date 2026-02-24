@@ -1,25 +1,9 @@
 {
   "ticker": "RITM",
   "name": "Rithm Capital Corp.",
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 552664000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 403621000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -12162000,
-      "ocf": -12162000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.022006137544692616
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.42311506538300886,
-      "op_leverage_ratio": 4.515971093300217,
-      "fcf_margin_change": -0.40110892783831625
+      "fcf_margin": -0.42311506538300886
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 4.022857650436176,
-      "rev_growth_yoy": 0.8536959165062317,
       "op_leverage_ratio": 0.47089283843473073,
       "fcf_margin_change": 3.6814784980688686
     },
@@ -118,8 +99,7 @@
       "op_margin": null,
       "fcf_margin": 1.8619420981470065,
       "rev_growth_yoy": 0.47704526371445877,
-      "rev_growth_yoy_accel": -0.3766506527917729,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -2.1609155522891696
     },
     {
@@ -204,7 +184,7 @@
       "fcf_margin": 1.5935855361831566,
       "rev_growth_yoy": -0.546948823792709,
       "rev_growth_yoy_accel": -0.28284959599611936,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.6047460343334639
     },
     {
@@ -342,7 +322,7 @@
       "revenue": 2096297000,
       "gross_profit": null,
       "operating_income": null,
-      "net_income": null,
+      "net_income": 290170000,
       "opex": 1068376000,
       "cogs": null,
       "rd": null,
@@ -421,9 +401,43 @@
       "rev_growth_yoy": 0.7845004309829964,
       "rev_growth_yoy_accel": 0.794560565665815,
       "fcf_margin_change": -1.3890454136788708
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1290749000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 84991000,
+      "opex": 1174104000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -114581000,
+      "ocf": -114581000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.08877093842412428,
+      "rev_growth_yoy": -0.3842718851384131,
+      "rev_growth_yoy_accel": -1.1687723161214094,
+      "op_leverage_ratio": 0.6686593214964124,
+      "fcf_margin_change": 1.7580083687454235
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -184.7% -> -8.9% (+175.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -38.4% vs prior quarter YoY: +78.5% (decel: -116.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -575,12 +589,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +47.7% vs prior quarter YoY: +85.4% (decel: -37.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +34.1% -> +402.3% (+368.1%)",
@@ -596,12 +604,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +111.5% vs OpEx growth +45.4% (leverage: 2.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +111.8% vs OpEx growth +24.8% (leverage: 4.5x)",
       "severity": "MEDIUM"
     }
   ],
@@ -633,5 +635,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:52:39.876799"
+  "last_updated": "2026-02-24T10:18:34.787417"
 }

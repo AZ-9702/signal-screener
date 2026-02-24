@@ -1,25 +1,9 @@
 {
   "ticker": "ETST",
   "name": "EARTH SCIENCE TECH, INC.",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
   "quarters": [
-    {
-      "date": "2020-06-30T00:00:00",
-      "quarter_label": "2020-06 (Q2)",
-      "revenue": 72080,
-      "gross_profit": 23955,
-      "operating_income": -3874894,
-      "net_income": null,
-      "opex": 3898849,
-      "cogs": 48125,
-      "rd": 9000,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.3323390677025527,
-      "op_margin": -53.75824084350722,
-      "fcf_margin": null
-    },
     {
       "date": "2020-09-30T00:00:00",
       "quarter_label": "2020-09 (Q3)",
@@ -44,17 +28,17 @@
       "revenue": 23929,
       "gross_profit": 7916,
       "operating_income": -81450,
-      "net_income": -110793,
+      "net_income": null,
       "opex": 89366,
       "cogs": 16013,
       "rd": null,
       "sga": null,
-      "fcf": -64139,
-      "ocf": -64139,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": 0.3308119854569769,
       "op_margin": -3.4038196330811985,
-      "fcf_margin": -2.6803878139496007
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -72,8 +56,7 @@
       "capex": null,
       "gross_margin": -0.29287972958237923,
       "op_margin": -10.373841456765893,
-      "fcf_margin": -2.227674190382728,
-      "fcf_margin_change": 0.4527136235668725
+      "fcf_margin": -2.227674190382728
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -92,7 +75,6 @@
       "gross_margin": 0.5,
       "op_margin": -1.5409879839786382,
       "fcf_margin": -4.830307076101469,
-      "rev_growth_yoy": -0.896087680355161,
       "fcf_margin_change": -2.6026328857187404
     },
     {
@@ -113,7 +95,6 @@
       "op_margin": -18.814663951120163,
       "fcf_margin": 6.251731160896131,
       "rev_growth_yoy": -0.9075364393054876,
-      "rev_growth_yoy_accel": -0.011448758950326599,
       "fcf_margin_change": 11.0820382369976
     },
     {
@@ -178,7 +159,7 @@
       "fcf_margin": -115.87722068693249,
       "rev_growth_yoy": -0.36627470602952217,
       "rev_growth_yoy_accel": 0.6238572315999621,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 589.3382489263272
     },
     {
@@ -338,21 +319,22 @@
       "quarter_label": "2024-12 (Q4)",
       "revenue": 7352635,
       "gross_profit": 5086873,
-      "operating_income": null,
+      "operating_income": 226226,
       "net_income": 206411,
       "opex": 4860647,
       "cogs": 2265762,
       "rd": null,
-      "sga": null,
-      "fcf": 500430,
+      "sga": 809850,
+      "fcf": 151995,
       "ocf": 500430,
-      "capex": null,
+      "capex": -348435,
       "gross_margin": 0.6918435363648542,
-      "op_margin": null,
-      "fcf_margin": 0.06806131407311801,
+      "op_margin": 0.030768017180235384,
+      "fcf_margin": 0.02067218078960808,
+      "incr_op_margin_yoy": -0.0013487632220198999,
       "rev_growth_yoy": 0.9399519064344273,
       "rev_growth_yoy_accel": -2.4792827334510332,
-      "fcf_margin_change": -0.03880063891293782
+      "fcf_margin_change": -0.08618977219644774
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -364,7 +346,7 @@
       "opex": 5208994,
       "cogs": 2140876,
       "rd": null,
-      "sga": null,
+      "sga": 699364,
       "fcf": 1994043,
       "ocf": 1994043,
       "capex": null,
@@ -374,7 +356,7 @@
       "rev_growth_yoy": 0.4423558757679065,
       "rev_growth_yoy_accel": -0.49759603066652075,
       "op_leverage_ratio": 2.513359224501426,
-      "fcf_margin_change": 0.16174593320428954
+      "fcf_margin_change": 0.20913506648779948
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -418,9 +400,43 @@
       "rev_growth_yoy_accel": 0.04007727633692265,
       "op_leverage_ratio": 0.6636152012835052,
       "fcf_margin_change": 0.05427163850306728
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8386779,
+      "gross_profit": 6399010,
+      "operating_income": 1342022,
+      "net_income": 910376,
+      "opex": 5056988,
+      "cogs": 1987769,
+      "rd": null,
+      "sga": 914029,
+      "fcf": -126118,
+      "ocf": -126118,
+      "capex": null,
+      "gross_margin": 0.7629877930490359,
+      "op_margin": 0.1600163781590048,
+      "fcf_margin": -0.015037715909767027,
+      "incr_op_margin_yoy": 1.078956122164805,
+      "rev_growth_yoy": 0.14064944064270837,
+      "rev_growth_yoy_accel": 0.07825055964111277,
+      "fcf_margin_change": -0.10805006665766005
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +14.1% vs prior quarter YoY: +6.2% (accel: +7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +107.9% vs year-ago OPM: +3.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -442,7 +458,7 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.8% -> +23.0% (+16.2%)",
+      "detail": "FCF margin: +2.1% -> +23.0% (+20.9%)",
       "severity": "MEDIUM"
     },
     {
@@ -606,12 +622,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +33.1% -> -29.3% -> +50.0% (reversal +79.3%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -268.0% -> -222.8% (+45.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -626,7 +636,7 @@
         20
       ],
       "op_income": [
-        16,
+        17,
         20
       ],
       "fcf": [
@@ -647,7 +657,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:42:46.029702",
-  "sector": "Healthcare",
-  "industry": "Drug Manufacturers - Specialty & Generic"
+  "last_updated": "2026-02-24T10:42:17.692926"
 }

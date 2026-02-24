@@ -1,25 +1,9 @@
 {
   "ticker": "VRSK",
-  "name": "Verisk Analytics, Inc.",
+  "name": "VERISK ANALYTICS, INC.",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
   "quarters": [
-    {
-      "date": "2021-03-31T00:00:00",
-      "quarter_label": "2021-03 (Q1)",
-      "revenue": 726100000,
-      "gross_profit": 463700000,
-      "operating_income": 250400000,
-      "net_income": 168600000,
-      "opex": 475700000,
-      "cogs": 262400000,
-      "rd": null,
-      "sga": 119800000,
-      "fcf": 389500000,
-      "ocf": 448700000,
-      "capex": -59200000,
-      "gross_margin": 0.6386172703484368,
-      "op_margin": 0.3448560804296929,
-      "fcf_margin": 0.536427489326539
-    },
     {
       "date": "2021-06-20T00:00:00",
       "quarter_label": "2021-06 (Q2)",
@@ -73,7 +57,7 @@
       "gross_margin": 0.6504611330698287,
       "op_margin": 0.3806324110671937,
       "fcf_margin": 0.2948616600790514,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06650045606567348
     },
     {
@@ -112,9 +96,7 @@
       "gross_margin": 0.6382978723404256,
       "op_margin": 0.8286266924564797,
       "fcf_margin": 0.4379110251450677,
-      "incr_op_margin_yoy": 7.939271255060729,
-      "rev_growth_yoy": 0.06803470596336593,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.30305462827822693
     },
     {
@@ -136,7 +118,6 @@
       "fcf_margin": 0.08173656706418331,
       "incr_op_margin_yoy": -1.4166666666666667,
       "rev_growth_yoy": -0.001605351170568562,
-      "rev_growth_yoy_accel": -0.0696400571339345,
       "fcf_margin_change": -0.3561744580808844
     },
     {
@@ -293,7 +274,7 @@
       "incr_op_margin_yoy": 0.2538167938931298,
       "rev_growth_yoy": 0.08041743400859423,
       "rev_growth_yoy_accel": -1.8652111001366865,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16070937147613162
     },
     {
@@ -408,7 +389,7 @@
       "incr_op_margin_yoy": 0.6379928315412187,
       "rev_growth_yoy": 0.07784598214285714,
       "rev_growth_yoy_accel": 0.008243709415584416,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.27501608029870334
     },
     {
@@ -432,6 +413,29 @@
       "rev_growth_yoy": 0.059285812767130845,
       "rev_growth_yoy_accel": -0.01856016937572629,
       "fcf_margin_change": 0.19321909798197262
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 778800000,
+      "gross_profit": 543100000,
+      "operating_income": 313600000,
+      "net_income": 197200000,
+      "opex": 465200000,
+      "cogs": 235700000,
+      "rd": null,
+      "sga": 132200000,
+      "fcf": 276100000,
+      "ocf": 343300000,
+      "capex": -67200000,
+      "gross_margin": 0.6973549049820236,
+      "op_margin": 0.4026707755521315,
+      "fcf_margin": 0.3545197740112994,
+      "incr_op_margin_yoy": -0.0625,
+      "rev_growth_yoy": 0.05872756933115824,
+      "rev_growth_yoy_accel": -0.0005582434359726052,
+      "op_leverage_ratio": 0.1348772201279436,
+      "fcf_margin_change": -0.08293955177289947
     }
   ],
   "signals": [
@@ -568,22 +572,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-06 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -0.2% vs prior quarter YoY: +6.8% (decel: -7.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2022-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +13.5% -> +43.8% (+30.3%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +793.9% vs year-ago OPM: +34.5%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -617,5 +609,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:08:58.758789"
+  "last_updated": "2026-02-24T10:30:08.869879"
 }

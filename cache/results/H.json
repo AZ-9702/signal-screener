@@ -1,25 +1,9 @@
 {
   "ticker": "H",
   "name": "HYATT HOTELS CORPORATION",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 424000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -203000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 104000000,
-      "fcf": -166000000,
-      "ocf": -148000000,
-      "capex": -18000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.3915094339622642
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -19000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.2511415525114155,
-      "fcf_margin_change": 0.14036788145084866
+      "fcf_margin": -0.2511415525114155
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.055762081784386616,
-      "rev_growth_yoy": 1.5377358490566038,
       "fcf_margin_change": -0.22508398167037247
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.10711493354182955,
       "rev_growth_yoy": 1.9200913242009132,
-      "rev_growth_yoy_accel": 0.38235547514430945,
       "fcf_margin_change": 0.05135285175744293
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.09637814610190301,
       "rev_growth_yoy_accel": 0.03472224475134517,
       "fcf_margin_change": 0.011561778434034622
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1789000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -20000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 236000000,
+      "ocf": 313000000,
+      "capex": -77000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.13191727221911684,
+      "rev_growth_yoy": 0.11672908863920099,
+      "rev_growth_yoy_accel": 0.02035094253729798,
+      "fcf_margin_change": 0.18174929909481674
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -5.0% -> +13.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -481,12 +489,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +192.0% vs prior quarter YoY: +153.8% (accel: +38.2%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.3% -> +28.1% (+25.8%)",
@@ -497,12 +499,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -25.1% -> +2.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -39.2% -> -25.1% (+14.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -533,7 +529,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:26:17.199751",
-  "sector": "Consumer Cyclical",
-  "industry": "Lodging"
+  "last_updated": "2026-02-24T10:40:51.073401"
 }

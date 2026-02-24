@@ -1,25 +1,9 @@
 {
   "ticker": "ALLE",
   "name": "Allegion plc",
+  "sector": "Industrials",
+  "industry": "Security & Protection Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 727300000,
-      "gross_profit": 319900000,
-      "operating_income": 117700000,
-      "net_income": 93300000,
-      "opex": 202200000,
-      "cogs": 407400000,
-      "rd": null,
-      "sga": 161500000,
-      "fcf": 200900000,
-      "ocf": 200900000,
-      "capex": null,
-      "gross_margin": 0.43984600577478344,
-      "op_margin": 0.16183143132132546,
-      "fcf_margin": 0.2762271414821944
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.42834509577992225,
       "op_margin": 0.1891113351577128,
-      "fcf_margin": 0.16102549330260693,
-      "fcf_margin_change": -0.11520164817958747
+      "fcf_margin": 0.16102549330260693
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.4039763113367174,
       "op_margin": 0.1622955442752397,
       "fcf_margin": 0.18640721940214325,
-      "incr_op_margin_yoy": 0.143646408839779,
-      "rev_growth_yoy": -0.024886566753746734,
       "fcf_margin_change": 0.062418377003259015
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.028330569375345494,
       "incr_op_margin_yoy": -0.4880546075085324,
       "rev_growth_yoy": 0.04220077776177445,
-      "rev_growth_yoy_accel": 0.06708734451552119,
       "op_leverage_ratio": 11.60067681895093,
       "fcf_margin_change": -0.15807665002679774
     },
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.0648854961832061,
       "rev_growth_yoy": 0.035078323738117555,
       "rev_growth_yoy_accel": -0.007122454023656896,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08627297479746528
     },
     {
@@ -321,7 +301,7 @@
       "incr_op_margin_yoy": 0.4595103578154426,
       "rev_growth_yoy": 0.05819178082191781,
       "rev_growth_yoy_accel": 0.08971940812419299,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12199798357142716
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy_accel": 0.04819810369268228,
       "op_leverage_ratio": 1.2651833574406535,
       "fcf_margin_change": 0.009259987982567025
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1033200000,
+      "gross_profit": 459500000,
+      "operating_income": 209600000,
+      "net_income": null,
+      "opex": 249900000,
+      "cogs": 573700000,
+      "rd": null,
+      "sga": 249900000,
+      "fcf": 240100000,
+      "ocf": 240100000,
+      "capex": null,
+      "gross_margin": 0.444734804490902,
+      "op_margin": 0.20286488579171505,
+      "fcf_margin": 0.23238482384823847,
+      "incr_op_margin_yoy": 0.2853881278538813,
+      "rev_growth_yoy": 0.09263959390862944,
+      "rev_growth_yoy_accel": -0.013967788988692442,
+      "fcf_margin_change": 0.017938925885240903
     }
   ],
   "signals": [
@@ -577,12 +579,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +4.2% vs prior quarter YoY: -2.5% (accel: +6.7%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.4% -> +18.6% (+6.2%)",
@@ -614,7 +610,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:36.400261",
-  "sector": "Industrials",
-  "industry": "Security & Protection Services"
+  "last_updated": "2026-02-24T10:39:07.455830"
 }

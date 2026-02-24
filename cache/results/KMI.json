@@ -1,25 +1,9 @@
 {
   "ticker": "KMI",
   "name": "KINDER MORGAN, INC.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3115000000,
-      "gross_profit": 2329000000,
-      "operating_income": 980000000,
-      "net_income": 607000000,
-      "opex": 2135000000,
-      "cogs": 786000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 912000000,
-      "ocf": 1268000000,
-      "capex": -356000000,
-      "gross_margin": 0.7476725521669342,
-      "op_margin": 0.3146067415730337,
-      "fcf_margin": 0.292776886035313
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -267000000,
       "gross_margin": 0.6144693916714642,
       "op_margin": 0.3619266935329111,
-      "fcf_margin": 0.30819420456726154,
-      "op_leverage_ratio": 1.2072136719856483,
-      "fcf_margin_change": 0.015417318531948554
+      "fcf_margin": 0.30819420456726154
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": 0.5923117154811716,
       "op_margin": 0.22071129707112971,
       "fcf_margin": 0.20397489539748953,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.16427907285647875
     },
     {
@@ -96,9 +78,7 @@
       "gross_margin": 0.5505084745762712,
       "op_margin": 0.21468926553672316,
       "fcf_margin": 0.1990960451977401,
-      "incr_op_margin_yoy": -0.022900763358778626,
-      "rev_growth_yoy": 0.420545746388443,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.004878850199749429
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.15769857908222687,
       "incr_op_margin_yoy": 0.9389978213507625,
       "rev_growth_yoy": -0.17616580310880828,
-      "rev_growth_yoy_accel": -0.5967115494972512,
       "fcf_margin_change": -0.04139746611551323
     },
     {
@@ -254,7 +233,7 @@
       "incr_op_margin_yoy": -0.005511811023622047,
       "rev_growth_yoy": -0.24531581997295732,
       "rev_growth_yoy_accel": 0.07501033028912774,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1263645686226474
     },
     {
@@ -344,7 +323,7 @@
       "incr_op_margin_yoy": -0.3701923076923077,
       "rev_growth_yoy": -0.05323777834655746,
       "rev_growth_yoy_accel": -0.07351769836940808,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14958720419277385
     },
     {
@@ -435,11 +414,40 @@
       "incr_op_margin_yoy": 0.10738255033557047,
       "rev_growth_yoy": 0.12084347120843471,
       "rev_growth_yoy_accel": -0.010735476159986337,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09811415735357615
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4508000000,
+      "gross_profit": 3061000000,
+      "operating_income": 1364000000,
+      "net_income": 996000000,
+      "opex": 182000000,
+      "cogs": 1447000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 872000000,
+      "ocf": 1692000000,
+      "capex": -820000000,
+      "gross_margin": 0.6790150842945873,
+      "op_margin": 0.3025732031943212,
+      "fcf_margin": 0.19343389529724933,
+      "incr_op_margin_yoy": 0.491362763915547,
+      "rev_growth_yoy": 0.1306746927514422,
+      "rev_growth_yoy_accel": 0.009831221543007487,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.043650971997683474
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +49.1% vs year-ago OPM: +27.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -574,12 +582,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -17.6% vs prior quarter YoY: +42.1% (decel: -59.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +93.9% vs year-ago OPM: +36.2%",
       "severity": "HIGH"
@@ -595,12 +597,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +30.8% -> +36.8% (+6.0%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +74.8% -> +61.4% -> +70.3% (reversal +8.8%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -628,7 +624,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:56:00.190793",
-  "sector": "Energy",
-  "industry": "Oil & Gas Midstream"
+  "last_updated": "2026-02-24T10:46:16.412522"
 }

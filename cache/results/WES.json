@@ -1,25 +1,9 @@
 {
   "ticker": "WES",
   "name": "WESTERN MIDSTREAM PARTNERS, LP",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 647480000,
-      "gross_profit": 613003000,
-      "operating_income": 372954000,
-      "net_income": 263891000,
-      "opex": 336773000,
-      "cogs": 34477000,
-      "rd": null,
-      "sga": null,
-      "fcf": 505525000,
-      "ocf": 505525000,
-      "capex": null,
-      "gross_margin": 0.9467520232285167,
-      "op_margin": 0.5760085253598567,
-      "fcf_margin": 0.7807577068017545
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.8681889969095106,
       "op_margin": 0.4331070530124123,
-      "fcf_margin": 0.38749640726902074,
-      "op_leverage_ratio": 0.14675076114719887,
-      "fcf_margin_change": -0.39326129953273375
+      "fcf_margin": 0.38749640726902074
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.891034771679933,
       "op_margin": 0.5017621491411814,
       "fcf_margin": 0.5123232614160034,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11636747782343981
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.8998345406765756,
       "op_margin": 0.45288719567303015,
       "fcf_margin": 0.9202569485963766,
-      "incr_op_margin_yoy": -0.6584832008922348,
-      "rev_growth_yoy": 0.1107833446592945,
       "fcf_margin_change": 0.40793368718037326
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.3645774676676817,
       "incr_op_margin_yoy": 1.3500234029019598,
       "rev_growth_yoy": 0.12344623644762613,
-      "rev_growth_yoy_accel": 0.012662891788331632,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5556794809286949
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 2.5311843483124874,
       "rev_growth_yoy": 0.2094697145161598,
       "rev_growth_yoy_accel": 0.10840830737228545,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1012389733915457
     },
     {
@@ -439,6 +418,29 @@
       "rev_growth_yoy_accel": 0.037732190129236,
       "op_leverage_ratio": 4.553958735576701,
       "fcf_margin_change": 0.00015860875366591198
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1031481000,
+      "gross_profit": 959863000,
+      "operating_income": 305560000,
+      "net_income": 190681000,
+      "opex": 744234000,
+      "cogs": 71618000,
+      "rd": null,
+      "sga": null,
+      "fcf": 557645000,
+      "ocf": 557645000,
+      "capex": null,
+      "gross_margin": 0.9305677952381091,
+      "op_margin": 0.2962342495886982,
+      "fcf_margin": 0.5406255665397618,
+      "incr_op_margin_yoy": -1.1670745207714268,
+      "rev_growth_yoy": 0.11090755764924831,
+      "rev_growth_yoy_accel": 0.032658776288945285,
+      "op_leverage_ratio": 0.19899854870969458,
+      "fcf_margin_change": -0.05803015891074448
     }
   ],
   "signals": [
@@ -609,12 +611,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.5% vs OpEx growth +2.3% (leverage: 2.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +94.7% -> +86.8% -> +89.1% (reversal +2.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -642,5 +638,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:23:00.454413"
+  "last_updated": "2026-02-24T10:27:21.982646"
 }

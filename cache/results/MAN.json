@@ -1,25 +1,9 @@
 {
   "ticker": "MAN",
   "name": "MANPOWERGROUP INC.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5054900000,
-      "gross_profit": 798900000,
-      "operating_income": 138300000,
-      "net_income": null,
-      "opex": 660600000,
-      "cogs": 4256000000,
-      "rd": null,
-      "sga": 660600000,
-      "fcf": 220700000,
-      "ocf": 220700000,
-      "capex": null,
-      "gross_margin": 0.15804466952857624,
-      "op_margin": 0.027359591683317176,
-      "fcf_margin": 0.043660606540188725
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.1559783933067988,
       "op_margin": 0.019982129802615548,
-      "fcf_margin": 0.028612622857607017,
-      "fcf_margin_change": -0.015047983682581707
+      "fcf_margin": 0.028612622857607017
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.1721011463500734,
       "op_margin": 0.030953309923267006,
       "fcf_margin": 0.04865949501142634,
-      "incr_op_margin_yoy": 0.08643860720830789,
-      "rev_growth_yoy": 0.06476883815703574,
       "op_leverage_ratio": 0.5774483414496253,
       "fcf_margin_change": 0.012185153494871856
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.01372659576536465,
       "incr_op_margin_yoy": 0.18410232983097305,
       "rev_growth_yoy": 0.04445211599382666,
-      "rev_growth_yoy_accel": -0.02031672216320908,
       "fcf_margin_change": -0.034932899246061695
     },
     {
@@ -319,7 +299,7 @@
       "incr_op_margin_yoy": 0.01937984496124031,
       "rev_growth_yoy": -0.06906777043306357,
       "rev_growth_yoy_accel": 0.004370354264451315,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.056848003922090155
     },
     {
@@ -431,8 +411,31 @@
       "incr_op_margin_yoy": -0.04030710172744722,
       "rev_growth_yoy": 0.023001192000353186,
       "rev_growth_yoy_accel": 0.023310878553320646,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0548569040920528
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4713100000,
+      "gross_profit": 766700000,
+      "operating_income": 80600000,
+      "net_income": null,
+      "opex": 686100000,
+      "cogs": 3946400000,
+      "rd": null,
+      "sga": 686100000,
+      "fcf": 178900000,
+      "ocf": 178900000,
+      "capex": null,
+      "gross_margin": 0.1626742483715601,
+      "op_margin": 0.01710127092571768,
+      "fcf_margin": 0.037958031868621504,
+      "incr_op_margin_yoy": 0.03956604977664327,
+      "rev_growth_yoy": 0.0712321294633725,
+      "rev_growth_yoy_accel": 0.04823093746301931,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.025054527639379313
     }
   ],
   "signals": [
@@ -558,7 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:51:13.331839",
-  "sector": "Industrials",
-  "industry": "Staffing & Employment Services"
+  "last_updated": "2026-02-24T10:08:45.766542"
 }

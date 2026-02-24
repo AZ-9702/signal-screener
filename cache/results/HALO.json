@@ -1,25 +1,9 @@
 {
   "ticker": "HALO",
   "name": "HALOZYME THERAPEUTICS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 121703000,
-      "gross_profit": 6183000,
-      "operating_income": 77624000,
-      "net_income": 73164000,
-      "opex": 44079000,
-      "cogs": 26272000,
-      "rd": 7380000,
-      "sga": 10427000,
-      "fcf": 49221000,
-      "ocf": 50920000,
-      "capex": -1699000,
-      "gross_margin": 0.050804006474778764,
-      "op_margin": 0.6378150086686442,
-      "fcf_margin": 0.4044353877883043
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -270000,
       "gross_margin": 0.7953427242704051,
       "op_margin": 0.5699153018355013,
-      "fcf_margin": 0.6518164049336119,
-      "fcf_margin_change": 0.24738101714530764
+      "fcf_margin": 0.6518164049336119
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.7883689695401116,
       "op_margin": 0.5542386008254659,
       "fcf_margin": 0.8074076252659236,
-      "incr_op_margin_yoy": 1.0705583756345178,
-      "rev_growth_yoy": -0.16186946911744163,
       "fcf_margin_change": -0.23932465479968978
     },
     {
@@ -118,8 +99,7 @@
       "fcf_margin": 0.40337144757373444,
       "incr_op_margin_yoy": 0.8824362104965141,
       "rev_growth_yoy": 0.3174159196603087,
-      "rev_growth_yoy_accel": 0.4792853887777503,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.40403617769218914
     },
     {
@@ -368,7 +348,7 @@
       "incr_op_margin_yoy": 1.0955876943900895,
       "rev_growth_yoy": 0.2954672903290312,
       "rev_growth_yoy_accel": -0.04730904476792158,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19612158688453862
     },
     {
@@ -413,7 +393,7 @@
       "incr_op_margin_yoy": 0.9029311404531293,
       "rev_growth_yoy": 0.4078875138857071,
       "rev_growth_yoy_accel": 0.05572112545203123,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.27735745092962405
     },
     {
@@ -438,9 +418,38 @@
       "rev_growth_yoy_accel": -0.1866412541816214,
       "op_leverage_ratio": 0.8269192850821747,
       "fcf_margin_change": 0.194255172901237
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 451767000,
+      "gross_profit": 372997000,
+      "operating_income": -92891000,
+      "net_income": -141591000,
+      "opex": 544658000,
+      "cogs": 78770000,
+      "rd": null,
+      "sga": 77028000,
+      "fcf": 217602000,
+      "ocf": 219029000,
+      "capex": -1427000,
+      "gross_margin": 0.8256402083374837,
+      "op_margin": -0.20561705480922687,
+      "fcf_margin": 0.481668647776398,
+      "incr_op_margin_yoy": -1.7455368466236123,
+      "rev_growth_yoy": 0.5159559474913425,
+      "rev_growth_yoy_accel": 0.2947096877872568,
+      "op_leverage_ratio": 0.0919027416606823,
+      "fcf_margin_change": -0.013913742757215353
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +51.6% vs prior quarter YoY: +22.1% (accel: +29.5%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -659,20 +668,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.7% vs prior quarter YoY: -16.2% (accel: +47.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +88.2% vs year-ago OPM: +57.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +107.1% vs year-ago OPM: +63.8%",
       "severity": "HIGH"
     },
     {
@@ -685,12 +682,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +53.3% vs OpEx growth +13.4% (leverage: 4.0x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +40.4% -> +65.2% (+24.7%)",
       "severity": "MEDIUM"
     }
   ],
@@ -719,7 +710,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:34.447972",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:35:10.769775"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "CHRW",
   "name": "C.H. ROBINSON WORLDWIDE, INC.",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4549452000,
-      "gross_profit": null,
-      "operating_income": 206802000,
-      "net_income": 147807000,
-      "opex": 4342650000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 156455000,
-      "ocf": 162142000,
-      "capex": -5687000,
-      "gross_margin": null,
-      "op_margin": 0.045456463767504306,
-      "fcf_margin": 0.03438985618487677
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -5435000,
       "gross_margin": null,
       "op_margin": 0.04648940260444238,
-      "fcf_margin": -0.012932700704369748,
-      "op_leverage_ratio": 1.0208588122983853,
-      "fcf_margin_change": -0.04732255688924652
+      "fcf_margin": -0.012932700704369748
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.04420374022893184,
       "fcf_margin": 0.010483327201743258,
-      "incr_op_margin_yoy": 0.04128465741581114,
-      "rev_growth_yoy": 0.42914970858028617,
       "op_leverage_ratio": 0.8654812693549772,
       "fcf_margin_change": 0.024396041661818343
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.0035173364605066964,
       "incr_op_margin_yoy": 0.060705716063544066,
       "rev_growth_yoy": 0.4188465588882628,
-      "rev_growth_yoy_accel": -0.010303149692023394,
       "op_leverage_ratio": 1.1725664031971605,
       "fcf_margin_change": -0.014000663662249955
     },
@@ -436,6 +415,28 @@
       "rev_growth_yoy": -0.10932922479907489,
       "rev_growth_yoy_accel": -0.03197520276018788,
       "fcf_margin_change": 0.011994378593575598
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3912634000,
+      "gross_profit": null,
+      "operating_income": 181353000,
+      "net_income": 136321000,
+      "opex": 3731281000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 302401000,
+      "ocf": 305414000,
+      "capex": -3013000,
+      "gross_margin": null,
+      "op_margin": 0.04635061700123242,
+      "fcf_margin": 0.07728834335130759,
+      "incr_op_margin_yoy": 0.008991919771194977,
+      "rev_growth_yoy": -0.06500462642568469,
+      "rev_growth_yoy_accel": 0.0443245983733902,
+      "fcf_margin_change": 0.0121491044238735
     }
   ],
   "signals": [
@@ -599,7 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:17:25.991249",
-  "sector": "Industrials",
-  "industry": "Integrated Freight & Logistics"
+  "last_updated": "2026-02-24T10:46:43.657481"
 }

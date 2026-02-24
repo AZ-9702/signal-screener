@@ -1,25 +1,9 @@
 {
   "ticker": "DDOG",
   "name": "Datadog, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 177531000,
-      "gross_profit": 136674000,
-      "operating_income": -8938000,
-      "net_income": -16160000,
-      "opex": 145612000,
-      "cogs": 40857000,
-      "rd": 67698000,
-      "sga": null,
-      "fcf": 22749000,
-      "ocf": 23828000,
-      "capex": -1079000,
-      "gross_margin": 0.7698599117900535,
-      "op_margin": -0.05034613673104979,
-      "fcf_margin": 0.12814100072663365
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -998000,
       "gross_margin": 0.7649648197674126,
       "op_margin": -0.06461880946265154,
-      "fcf_margin": 0.2551108290648656,
-      "op_leverage_ratio": 0.9025229426635543,
-      "fcf_margin_change": 0.12696982833823195
+      "fcf_margin": 0.2551108290648656
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.7941464999785406,
       "op_margin": 0.025919840097118927,
       "fcf_margin": 0.34760482896890843,
-      "incr_op_margin_yoy": 0.11699301122643223,
-      "rev_growth_yoy": 0.8374143107400961,
       "op_leverage_ratio": 1.1331305943799563,
       "fcf_margin_change": 0.11079210529909683
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.3797867944797951,
       "incr_op_margin_yoy": 0.14131723420942235,
       "rev_growth_yoy": 0.828415151927232,
-      "rev_growth_yoy_accel": -0.008999158812864061,
       "op_leverage_ratio": 1.0266808540185968,
       "fcf_margin_change": 0.032181965510886645
     },
@@ -446,9 +425,44 @@
       "rev_growth_yoy_accel": 0.002278174085564466,
       "op_leverage_ratio": 2.649266190859916,
       "fcf_margin_change": 0.04133700671825183
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 953194000,
+      "gross_profit": 766300000,
+      "operating_income": 9356000,
+      "net_income": 46567000,
+      "opex": 756944000,
+      "cogs": 186894000,
+      "rd": 417926000,
+      "sga": null,
+      "fcf": 318177000,
+      "ocf": 327069000,
+      "capex": -8892000,
+      "gross_margin": 0.8039286860806929,
+      "op_margin": 0.009815420575454734,
+      "fcf_margin": 0.3338008841851711,
+      "incr_op_margin_yoy": -0.00016707894944469455,
+      "rev_growth_yoy": 0.2920687462977497,
+      "rev_growth_yoy_accel": 0.0085463352232239,
+      "op_leverage_ratio": 1.300130096895264,
+      "fcf_margin_change": 0.06881614414648773
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +26.5% -> +33.4% (+6.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -0.7% -> +1.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -571,21 +585,9 @@
     },
     {
       "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -5.0% (year-ago) -> +2.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -1.8% -> +2.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +12.8% -> +25.5% (+12.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -613,7 +615,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:00:32.389917",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:31:16.929628"
 }

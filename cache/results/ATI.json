@@ -1,25 +1,9 @@
 {
   "ticker": "ATI",
   "name": "ATI Inc.",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
   "quarters": [
-    {
-      "date": "2022-06-30T00:00:00",
-      "quarter_label": "2022-06 (Q2)",
-      "revenue": 959500000,
-      "gross_profit": 175300000,
-      "operating_income": -11600000,
-      "net_income": -38000000,
-      "opex": 186900000,
-      "cogs": 784200000,
-      "rd": null,
-      "sga": 72300000,
-      "fcf": -5200000,
-      "ocf": -5200000,
-      "capex": null,
-      "gross_margin": 0.18269932256383534,
-      "op_margin": -0.012089630015633143,
-      "fcf_margin": -0.005419489317352788
-    },
     {
       "date": "2022-07-03T00:00:00",
       "quarter_label": "2022-07 (Q3)",
@@ -165,7 +149,7 @@
       "gross_margin": 0.19990439770554494,
       "op_margin": 0.1150095602294455,
       "fcf_margin": 0.06510516252390057,
-      "incr_op_margin_yoy": 1.5248554913294798,
+      "incr_op_margin_yoy": 1.191907514450867,
       "rev_growth_yoy": 0.09015112037519542,
       "fcf_margin_change": 0.339837847236356
     },
@@ -345,7 +329,7 @@
       "incr_op_margin_yoy": 0.9254829806807727,
       "rev_growth_yoy": 0.10216165413533834,
       "rev_growth_yoy_accel": 0.07720065569540074,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.30197495301207494
     },
     {
@@ -413,9 +397,44 @@
       "rev_growth_yoy": 0.07068112633181127,
       "rev_growth_yoy_accel": 0.029505192797619727,
       "fcf_margin_change": 0.06229239711225426
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1177100000,
+      "gross_profit": 273400000,
+      "operating_income": 170600000,
+      "net_income": 96600000,
+      "opex": 102800000,
+      "cogs": 903700000,
+      "rd": null,
+      "sga": 102700000,
+      "fcf": 315800000,
+      "ocf": 315800000,
+      "capex": null,
+      "gross_margin": 0.2322657378302608,
+      "op_margin": 0.1449324611332937,
+      "fcf_margin": 0.26828646674029394,
+      "incr_op_margin_yoy": -8.704545454545455,
+      "rev_growth_yoy": 0.0037520252408970753,
+      "rev_growth_yoy_accel": -0.0669291010909142,
+      "op_leverage_ratio": 0.4302141809027638,
+      "fcf_margin_change": 0.06437709312856582
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.4% -> +26.8% (+6.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +0.4% vs prior quarter YoY: +7.1% (decel: -6.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -532,14 +551,8 @@
     },
     {
       "quarter": "2023-06 (Q2)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -1.2% (year-ago) -> +11.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-07 (Q3)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -1.2% -> +1.8%",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +119.2% vs year-ago OPM: +1.8%",
       "severity": "HIGH"
     }
   ],
@@ -568,7 +581,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:17.928434",
-  "sector": "Industrials",
-  "industry": "Metal Fabrication"
+  "last_updated": "2026-02-24T10:16:14.785854"
 }

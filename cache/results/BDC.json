@@ -1,25 +1,9 @@
 {
   "ticker": "BDC",
-  "name": "Belden Inc.",
+  "name": "BELDEN INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 498540000,
-      "gross_profit": 175256000,
-      "operating_income": 42445000,
-      "net_income": 6936000,
-      "opex": 132811000,
-      "cogs": 323284000,
-      "rd": 25663000,
-      "sga": 91059000,
-      "fcf": 101269000,
-      "ocf": 134675000,
-      "capex": -33406000,
-      "gross_margin": 0.3515384923978016,
-      "op_margin": 0.08513860472579933,
-      "fcf_margin": 0.20313114293737713
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -11223000,
       "gross_margin": 0.35673150242085383,
       "op_margin": 0.09591689489374157,
-      "fcf_margin": -0.09828461485399372,
-      "op_leverage_ratio": 1.4228423640643948,
-      "fcf_margin_change": -0.30141575779137086
+      "fcf_margin": -0.09828461485399372
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3571817626895807,
       "op_margin": -0.10018781988073437,
       "fcf_margin": 0.21086381493481085,
-      "incr_op_margin_yoy": -0.7583956685901546,
-      "rev_growth_yoy": 0.2815621615116139,
       "op_leverage_ratio": 0.013897016808146548,
       "fcf_margin_change": 0.13071290384078468
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.11291165537025842,
       "incr_op_margin_yoy": 0.29832409785106095,
       "rev_growth_yoy": 0.13794299201500426,
-      "rev_growth_yoy_accel": -0.14361916949660963,
       "fcf_margin_change": -0.32377547030506926
     },
     {
@@ -438,9 +417,44 @@
       "rev_growth_yoy_accel": -0.045844262488598755,
       "op_leverage_ratio": 0.9236784710996965,
       "fcf_margin_change": 0.008918314020034554
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 720120000,
+      "gross_profit": 263566000,
+      "operating_income": 87542000,
+      "net_income": 67889000,
+      "opex": 176024000,
+      "cogs": 456554000,
+      "rd": 32542000,
+      "sga": 130507000,
+      "fcf": 121250000,
+      "ocf": 160388000,
+      "capex": -39138000,
+      "gross_margin": 0.3660028884074876,
+      "op_margin": 0.12156585013608844,
+      "fcf_margin": 0.16837471532522358,
+      "incr_op_margin_yoy": 0.33956507267280595,
+      "rev_growth_yoy": 0.08119307791400543,
+      "rev_growth_yoy_accel": 0.015086372728992159,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.0748155127231821
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.4% -> +16.8% (+7.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +34.0% vs year-ago OPM: +10.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -617,12 +631,6 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +13.8% vs prior quarter YoY: +28.2% (decel: -14.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +29.8% vs year-ago OPM: +9.6%",
       "severity": "HIGH"
@@ -677,7 +685,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:07:30.083919",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-24T10:39:15.165947"
 }

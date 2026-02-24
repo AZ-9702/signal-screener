@@ -1,25 +1,9 @@
 {
   "ticker": "ZWS",
   "name": "ZURN ELKAY WATER SOLUTIONS CORPORATION",
+  "sector": "Industrials",
+  "industry": "Pollution & Treatment Controls",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 490400000,
-      "gross_profit": 181700000,
-      "operating_income": -118700000,
-      "net_income": 37200000,
-      "opex": 300400000,
-      "cogs": -495300000,
-      "rd": null,
-      "sga": -112000000,
-      "fcf": 69500000,
-      "ocf": 82500000,
-      "capex": -13000000,
-      "gross_margin": 0.3705138662316476,
-      "op_margin": -0.242047308319739,
-      "fcf_margin": 0.141721044045677
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -9200000,
       "gross_margin": 0.39517202052841666,
       "op_margin": 0.14940125451435088,
-      "fcf_margin": 0.11803839574225432,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.02368264830342269
+      "fcf_margin": 0.11803839574225432
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.36676711149375807,
       "op_margin": -0.7107188979767542,
       "fcf_margin": -0.09556607834696514,
-      "incr_op_margin_yoy": 0.1797752808988764,
-      "rev_growth_yoy": -0.526305057096248,
       "fcf_margin_change": -0.2628309742550771
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.22829716193656094,
       "incr_op_margin_yoy": 0.12111692844677138,
       "rev_growth_yoy": -0.5445732750427675,
-      "rev_growth_yoy_accel": -0.01826821794651956,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1327310835895958
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 5.588235294117647,
       "rev_growth_yoy": 0.004568664337543671,
       "rev_growth_yoy_accel": -0.04391796510706403,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.018921835373944013
     },
     {
@@ -324,7 +303,7 @@
       "incr_op_margin_yoy": 1.9431818181818181,
       "rev_growth_yoy": 0.021825396825396824,
       "rev_growth_yoy_accel": 0.017256732487853154,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06235864150394532
     },
     {
@@ -437,11 +416,39 @@
       "incr_op_margin_yoy": 0.16079295154185022,
       "rev_growth_yoy": 0.11073170731707317,
       "rev_growth_yoy_accel": 0.0318482121714421,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.026377088239464136
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 407200000,
+      "gross_profit": 180800000,
+      "operating_income": 60400000,
+      "net_income": 42100000,
+      "opex": 120400000,
+      "cogs": 226400000,
+      "rd": null,
+      "sga": 101500000,
+      "fcf": 91700000,
+      "ocf": 91700000,
+      "capex": null,
+      "gross_margin": 0.444007858546169,
+      "op_margin": 0.14833005893909626,
+      "fcf_margin": 0.22519646365422397,
+      "incr_op_margin_yoy": 0.3041095890410959,
+      "rev_growth_yoy": 0.09846236849204208,
+      "rev_growth_yoy_accel": -0.01226933882503109,
+      "fcf_margin_change": 0.00275465425589283
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +30.4% vs year-ago OPM: +13.3%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -603,12 +610,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +8.0% vs OpEx growth +2.2% (leverage: 3.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -24.2% -> +14.9%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -636,5 +637,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:46:30.515746"
+  "last_updated": "2026-02-24T11:06:40.799752"
 }

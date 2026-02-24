@@ -1,25 +1,9 @@
 {
   "ticker": "CTBB",
   "name": "QWEST CORPORATION",
+  "sector": "",
+  "industry": "",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1795000000,
-      "gross_profit": 1291000000,
-      "operating_income": 636000000,
-      "net_income": null,
-      "opex": 1159000000,
-      "cogs": 504000000,
-      "rd": null,
-      "sga": 154000000,
-      "fcf": 820000000,
-      "ocf": 820000000,
-      "capex": null,
-      "gross_margin": 0.7192200557103064,
-      "op_margin": 0.3543175487465181,
-      "fcf_margin": 0.4568245125348189
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.7550223214285714,
       "op_margin": 0.41015625,
-      "fcf_margin": 0.45424107142857145,
-      "fcf_margin_change": -0.002583441106247475
+      "fcf_margin": 0.45424107142857145
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.7554252199413489,
       "op_margin": 0.4439882697947214,
       "fcf_margin": 0.43049853372434016,
-      "incr_op_margin_yoy": -1.3444444444444446,
-      "rev_growth_yoy": -0.05013927576601671,
       "fcf_margin_change": -0.002449443154272535
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.4148550724637681,
       "incr_op_margin_yoy": -0.1323529411764706,
       "rev_growth_yoy": -0.07589285714285714,
-      "rev_growth_yoy_accel": -0.025753581376840425,
       "fcf_margin_change": -0.015643461260572034
     },
     {
@@ -258,7 +238,7 @@
       "revenue": 1457000000,
       "gross_profit": 1056000000,
       "operating_income": -1877000000,
-      "net_income": null,
+      "net_income": -2024000000,
       "opex": 3334000000,
       "cogs": 401000000,
       "rd": null,
@@ -346,7 +326,7 @@
       "revenue": 1364000000,
       "gross_profit": 991000000,
       "operating_income": 528000000,
-      "net_income": null,
+      "net_income": 391000000,
       "opex": 836000000,
       "cogs": 373000000,
       "rd": null,
@@ -427,9 +407,37 @@
       "rev_growth_yoy": -0.14820249449743214,
       "rev_growth_yoy_accel": -0.0164530344542356,
       "fcf_margin_change": -0.03022355920655123
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1159000000,
+      "gross_profit": 806000000,
+      "operating_income": -2017000000,
+      "net_income": -2064000000,
+      "opex": 3176000000,
+      "cogs": 353000000,
+      "rd": null,
+      "sga": 100000000,
+      "fcf": 402000000,
+      "ocf": 402000000,
+      "capex": null,
+      "gross_margin": 0.6954270923209663,
+      "op_margin": -1.7402933563416738,
+      "fcf_margin": 0.3468507333908542,
+      "incr_op_margin_yoy": 12.414634146341463,
+      "rev_growth_yoy": -0.15029325513196481,
+      "rev_growth_yoy_accel": -0.0020907606345326735,
+      "fcf_margin_change": -0.020935657651350803
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +69.9% -> +67.4% -> +69.5% (reversal +2.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -546,5 +554,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:38:22.902423"
+  "last_updated": "2026-02-24T10:11:25.778847"
 }

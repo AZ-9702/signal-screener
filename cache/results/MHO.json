@@ -1,25 +1,9 @@
 {
   "ticker": "MHO",
   "name": "M/I HOMES, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 906427000,
-      "gross_profit": 217182000,
-      "operating_income": 102922000,
-      "net_income": 80083000,
-      "opex": 804576000,
-      "cogs": 689245000,
-      "rd": null,
-      "sga": null,
-      "fcf": -32104000,
-      "ocf": -28892000,
-      "capex": -3212000,
-      "gross_margin": 0.2396023066391447,
-      "op_margin": 0.11354692655889553,
-      "fcf_margin": -0.03541818591017258
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -158000,
       "gross_margin": 0.24396338697066516,
       "op_margin": 0.134290809579428,
-      "fcf_margin": 0.09050696448738862,
-      "fcf_margin_change": 0.1259251503975612
+      "fcf_margin": 0.09050696448738862
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.2316154378598757,
       "op_margin": 0.13317302938335274,
       "fcf_margin": -0.004966950383740653,
-      "incr_op_margin_yoy": 0.2555857560639945,
-      "rev_growth_yoy": 0.16032730710801862,
       "op_leverage_ratio": 1.051146817946448,
       "fcf_margin_change": 0.22688154555629822
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.07913583818050653,
       "incr_op_margin_yoy": 0.362353675667239,
       "rev_growth_yoy": 0.038653387646360414,
-      "rev_growth_yoy_accel": -0.1216739194616582,
       "fcf_margin_change": 0.08410278856424717
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 1.208888555234413,
       "rev_growth_yoy": -0.025600247536645224,
       "rev_growth_yoy_accel": -0.18791113808056253,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08543692087904278
     },
     {
@@ -438,9 +418,38 @@
       "rev_growth_yoy": -0.009727808600684744,
       "rev_growth_yoy_accel": -0.057314674838257744,
       "fcf_margin_change": 0.006887434682003871
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1147305000,
+      "gross_profit": 200128000,
+      "operating_income": 74641000,
+      "net_income": 63971000,
+      "opex": 1066751000,
+      "cogs": 947177000,
+      "rd": null,
+      "sga": null,
+      "fcf": -12964000,
+      "ocf": -8707000,
+      "capex": -4257000,
+      "gross_margin": 0.17443312806969377,
+      "op_margin": 0.06505767864691603,
+      "fcf_margin": -0.011299523666331098,
+      "incr_op_margin_yoy": 1.5412612985579246,
+      "rev_growth_yoy": -0.04809848690384036,
+      "rev_growth_yoy_accel": -0.03837067830315562,
+      "op_leverage_ratio": 0.18183492908857324,
+      "fcf_margin_change": -0.04841768417476419
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +154.1% vs year-ago OPM: +13.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -581,12 +590,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.9% vs prior quarter YoY: +16.0% (decel: -12.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +36.2% vs year-ago OPM: +13.4%",
       "severity": "HIGH"
@@ -596,18 +599,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -23.2% -> -0.5% (+22.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +25.6% vs year-ago OPM: +11.4%",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -3.5% -> +9.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -635,7 +626,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:18:21.746043",
-  "sector": "Consumer Cyclical",
-  "industry": "Residential Construction"
+  "last_updated": "2026-02-24T10:47:39.354348"
 }

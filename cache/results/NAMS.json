@@ -1,6 +1,8 @@
 {
   "ticker": "NAMS",
   "name": "NewAmsterdam Pharma Company N.V.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -119,7 +121,7 @@
       "fcf_margin": -23.685388328214128,
       "rev_growth_yoy": 0.32731508444962143,
       "rev_growth_yoy_accel": 1.164955598993601,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 15.288201964433984
     },
     {
@@ -142,7 +144,7 @@
       "incr_op_margin_yoy": 0.938288116163546,
       "rev_growth_yoy": 8.898333900034002,
       "rev_growth_yoy_accel": 8.571018815584381,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 23.255928673787967
     },
     {
@@ -209,7 +211,7 @@
       "incr_op_margin_yoy": 1.0043875251986245,
       "rev_growth_yoy": 7.400614304519526,
       "rev_growth_yoy_accel": 6.274989750629448,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 10.278134753667576
     },
     {
@@ -233,6 +235,28 @@
       "rev_growth_yoy": -0.9880457558998317,
       "rev_growth_yoy_accel": -8.388660060419358,
       "fcf_margin_change": -92.1961253050675
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 32000,
+      "gross_profit": null,
+      "operating_income": -65980000,
+      "net_income": -74923000,
+      "opex": 66012000,
+      "cogs": null,
+      "rd": 38594000,
+      "sga": 27418000,
+      "fcf": -40875000,
+      "ocf": -40875000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -2061.875,
+      "fcf_margin": -1277.34375,
+      "incr_op_margin_yoy": 1.7857927786499215,
+      "rev_growth_yoy": -0.9974945192608832,
+      "rev_growth_yoy_accel": -0.009448763361051493,
+      "fcf_margin_change": -1183.1799568965516
     }
   ],
   "signals": [
@@ -316,23 +340,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
         0,
-        11
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [],
@@ -342,7 +366,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:15:39.567934",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:26:32.681729"
 }

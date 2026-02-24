@@ -1,25 +1,9 @@
 {
   "ticker": "CSCO",
   "name": "CISCO SYSTEMS, INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2021-01-23T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 11960000000,
-      "gross_profit": 7784000000,
-      "operating_income": 3223000000,
-      "net_income": 2545000000,
-      "opex": 4561000000,
-      "cogs": 4176000000,
-      "rd": 1527000000,
-      "sga": null,
-      "fcf": 2787000000,
-      "ocf": 2974000000,
-      "capex": -187000000,
-      "gross_margin": 0.6508361204013378,
-      "op_margin": 0.26948160535117055,
-      "fcf_margin": 0.2330267558528428
-    },
     {
       "date": "2021-05-01T00:00:00",
       "quarter_label": "2021-05 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -172000000,
       "gross_margin": 0.6393032882918066,
       "op_margin": 0.2706396938217605,
-      "fcf_margin": 0.2896196204014684,
-      "op_leverage_ratio": 2.0218984665867357,
-      "fcf_margin_change": 0.05659286454862558
+      "fcf_margin": 0.2896196204014684
     },
     {
       "date": "2021-07-31T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6327830188679245,
       "op_margin": 0.27413522012578617,
       "fcf_margin": 0.18482704402515723,
-      "incr_op_margin_yoy": 0.3473684210526316,
-      "rev_growth_yoy": 0.06354515050167224,
       "fcf_margin_change": -0.07137450636243967
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.2769770159719517,
       "incr_op_margin_yoy": 4.53125,
       "rev_growth_yoy": 0.0024994141997969226,
-      "rev_growth_yoy_accel": -0.06104573630187532,
       "fcf_margin_change": 0.09214997194679445
     },
     {
@@ -368,7 +347,7 @@
       "incr_op_margin_yoy": 0.014166666666666666,
       "rev_growth_yoy": 0.09381596434993354,
       "rev_growth_yoy_accel": 0.15019720241919998,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10366120311502491
     },
     {
@@ -439,9 +418,38 @@
       "rev_growth_yoy_accel": -0.00029185104658102645,
       "op_leverage_ratio": 0.4689641594160098,
       "fcf_margin_change": -0.0796540556722728
+    },
+    {
+      "date": "2026-01-24T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 15349000000,
+      "gross_profit": 9972000000,
+      "operating_income": 3781000000,
+      "net_income": 3175000000,
+      "opex": 6191000000,
+      "cogs": 5377000000,
+      "rd": 2355000000,
+      "sga": null,
+      "fcf": 1539000000,
+      "ocf": 1822000000,
+      "capex": -283000000,
+      "gross_margin": 0.6496840185028341,
+      "op_margin": 0.2463352661411167,
+      "fcf_margin": 0.10026711837904749,
+      "incr_op_margin_yoy": 0.49189985272459497,
+      "rev_growth_yoy": 0.09706239725537846,
+      "rev_growth_yoy_accel": 0.02177881947920622,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.09384697152218209
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +49.2% vs year-ago OPM: +22.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -582,12 +590,6 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +0.2% vs prior quarter YoY: +6.4% (decel: -6.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +453.1% vs year-ago OPM: +27.1%",
       "severity": "HIGH"
@@ -596,18 +598,6 @@
       "quarter": "2021-07 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +2.5% vs OpEx growth +1.0% (leverage: 2.4x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-05 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +23.3% -> +29.0% (+5.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-05 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +7.0% vs OpEx growth +3.5% (leverage: 2.0x)",
       "severity": "MEDIUM"
     }
   ],
@@ -636,7 +626,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:05.987557",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-24T10:38:24.458644"
 }

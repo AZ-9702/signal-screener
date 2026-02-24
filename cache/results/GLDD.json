@@ -1,25 +1,9 @@
 {
   "ticker": "GLDD",
   "name": "Great Lakes Dredge & Dock Corporation",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 172145000,
-      "gross_profit": 33387000,
-      "operating_income": 17280000,
-      "net_income": 10609000,
-      "opex": 16107000,
-      "cogs": 138758000,
-      "rd": null,
-      "sga": null,
-      "fcf": -14546000,
-      "ocf": 2951000,
-      "capex": -17497000,
-      "gross_margin": 0.19394696331580935,
-      "op_margin": 0.10038049318888147,
-      "fcf_margin": -0.0844985332132795
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -27038000,
       "gross_margin": 0.18620413999650967,
       "op_margin": 0.09372132430347965,
-      "fcf_margin": -0.2042300698631448,
-      "op_leverage_ratio": 1.599666006406792,
-      "fcf_margin_change": -0.11973153664986529
+      "fcf_margin": -0.2042300698631448
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.2523813606142005,
       "op_margin": 0.1740345964070031,
       "fcf_margin": -0.13649006496351757,
-      "incr_op_margin_yoy": 0.5092942700758878,
-      "rev_growth_yoy": 0.21969270092073542,
       "op_leverage_ratio": 2.3160576749038295,
       "fcf_margin_change": -0.07857903660691941
     },
@@ -119,7 +99,6 @@
       "fcf_margin": -0.013115580733628679,
       "incr_op_margin_yoy": 0.12706389088298636,
       "rev_growth_yoy": 0.09410413605580044,
-      "rev_growth_yoy_accel": -0.12558856486493497,
       "fcf_margin_change": 0.12337448422988889
     },
     {
@@ -209,7 +188,7 @@
       "incr_op_margin_yoy": 0.5408621402010743,
       "rev_growth_yoy": -0.18680312221827744,
       "rev_growth_yoy_accel": 0.11470570786688,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06529680508959029
     },
     {
@@ -276,7 +255,7 @@
       "incr_op_margin_yoy": 1.9172250577400132,
       "rev_growth_yoy": 0.2391345852254906,
       "rev_growth_yoy_accel": 0.49907800027860216,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.063150120848318
     },
     {
@@ -367,7 +346,7 @@
       "incr_op_margin_yoy": -0.022760750772154906,
       "rev_growth_yoy": 0.11580430201013597,
       "rev_growth_yoy_accel": -0.5155734340482332,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11804927955131875
     },
     {
@@ -436,9 +415,44 @@
       "rev_growth_yoy": 0.021090844418406366,
       "rev_growth_yoy_accel": -0.11806816925702843,
       "fcf_margin_change": 0.08680863740698538
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 256452000,
+      "gross_profit": 53636000,
+      "operating_income": 32613000,
+      "net_income": 12634000,
+      "opex": 21023000,
+      "cogs": 202816000,
+      "rd": null,
+      "sga": null,
+      "fcf": 50282000,
+      "ocf": 79748000,
+      "capex": -29466000,
+      "gross_margin": 0.20914635097406142,
+      "op_margin": 0.12716999672453325,
+      "fcf_margin": 0.19606788014911172,
+      "incr_op_margin_yoy": 0.047803569432542194,
+      "rev_growth_yoy": 0.2647183563967767,
+      "rev_growth_yoy_accel": 0.24362751197837035,
+      "op_leverage_ratio": 0.9063907240842067,
+      "fcf_margin_change": 0.12821101172873314
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +6.8% -> +19.6% (+12.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +26.5% vs prior quarter YoY: +2.1% (accel: +24.4%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -638,22 +652,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +9.4% vs prior quarter YoY: +22.0% (decel: -12.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +24.5% vs OpEx growth +10.6% (leverage: 2.3x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +50.9% vs year-ago OPM: +10.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -666,12 +668,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -20.4% -> +4.1%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +3.2% vs OpEx growth +2.0% (leverage: 1.6x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -699,7 +695,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:00:16.104438",
-  "sector": "Industrials",
-  "industry": "Engineering & Construction"
+  "last_updated": "2026-02-24T10:07:19.996137"
 }

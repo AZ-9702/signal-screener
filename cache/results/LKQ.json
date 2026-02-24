@@ -1,25 +1,9 @@
 {
   "ticker": "LKQ",
   "name": "LKQ CORPORATION",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2953888000,
-      "gross_profit": 1169849000,
-      "operating_income": 267273000,
-      "net_income": 181012000,
-      "opex": 902576000,
-      "cogs": 1784039000,
-      "rd": null,
-      "sga": 814992000,
-      "fcf": 309359000,
-      "ocf": 309359000,
-      "capex": null,
-      "gross_margin": 0.3960370196838878,
-      "op_margin": 0.09048176504999512,
-      "fcf_margin": 0.10472942779143962
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.40801050591241417,
       "op_margin": 0.11714697869865705,
-      "fcf_margin": 0.16494332950883472,
-      "op_leverage_ratio": 3.365887436240836,
-      "fcf_margin_change": 0.0602139017173951
+      "fcf_margin": 0.16494332950883472
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.39850056167731696,
       "op_margin": 0.08791481964963514,
       "fcf_margin": 0.001569369424226607,
-      "incr_op_margin_yoy": 0.055246547898580384,
-      "rev_growth_yoy": 0.07857610038024461,
       "fcf_margin_change": -0.1285642738840072
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.12216248506571087,
       "incr_op_margin_yoy": -0.002528016973828253,
       "rev_growth_yoy": 0.05588961222863984,
-      "rev_growth_yoy_accel": -0.022686488151604768,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12059311564148426
     },
     {
@@ -231,7 +210,7 @@
       "incr_op_margin_yoy": -1.4205607476635513,
       "rev_growth_yoy": 0.032026339419335526,
       "rev_growth_yoy_accel": 0.03172765363677878,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07262409598321762
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": -0.023716517857142856,
       "rev_growth_yoy_accel": -0.0051231467981291134,
       "fcf_margin_change": 0.044476189086110576
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3312000000,
+      "gross_profit": 1255000000,
+      "operating_income": 153000000,
+      "net_income": 66000000,
+      "opex": 1102000000,
+      "cogs": 2057000000,
+      "rd": null,
+      "sga": 948000000,
+      "fcf": 330000000,
+      "ocf": 330000000,
+      "capex": null,
+      "gross_margin": 0.3789251207729469,
+      "op_margin": 0.04619565217391304,
+      "fcf_margin": 0.09963768115942029,
+      "incr_op_margin_yoy": 2.6222222222222222,
+      "rev_growth_yoy": -0.013404825737265416,
+      "rev_growth_yoy_accel": 0.01031169211987744,
+      "fcf_margin_change": -0.02611253318753598
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +262.2% vs year-ago OPM: +8.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -521,18 +528,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +8.3% vs OpEx growth +5.3% (leverage: 1.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +10.5% -> +16.5% (+6.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +7.3% vs OpEx growth +2.2% (leverage: 3.4x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -560,7 +555,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:43:49.600528",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:25:17.394676"
 }

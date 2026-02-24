@@ -1,25 +1,9 @@
 {
   "ticker": "INVH",
   "name": "Invitation Homes Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 464100000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 70699000,
-      "opex": 433693000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 71040000,
-      "ocf": 71040000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.1530704589528119
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5062612446735757,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.3531907857207638
+      "fcf_margin": 0.5062612446735757
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.2409457446297275,
-      "rev_growth_yoy": 0.1209329885800474,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3717988916247178
     },
     {
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.44153594709849525,
       "rev_growth_yoy": 0.12012204745120732,
-      "rev_growth_yoy_accel": -0.000810941128840087,
       "op_leverage_ratio": 10.243828231999975,
       "fcf_margin_change": 0.20059020246876774
     },
@@ -186,7 +166,7 @@
       "fcf_margin": 0.20633592946971213,
       "rev_growth_yoy": 0.1145869575664376,
       "rev_growth_yoy_accel": -0.0014862233132716257,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.41245160295214567
     },
     {
@@ -208,7 +188,7 @@
       "fcf_margin": 0.5387292546067911,
       "rev_growth_yoy": 0.10817005128590483,
       "rev_growth_yoy_accel": -0.006416906280532764,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.332393325137079
     },
     {
@@ -383,7 +363,7 @@
       "fcf_margin": 0.44555278963466616,
       "rev_growth_yoy": 0.04402211012028685,
       "rev_growth_yoy_accel": -0.011732862081513182,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24406294696326597
     },
     {
@@ -428,6 +408,27 @@
       "rev_growth_yoy": 0.04216730625361566,
       "rev_growth_yoy_accel": -0.0006056025031235604,
       "fcf_margin_change": 0.012123366615282016
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 685250000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 144554000,
+      "opex": 589069000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 128650000,
+      "ocf": 128650000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1877417001094491,
+      "rev_growth_yoy": 0.039627994477568915,
+      "rev_growth_yoy_accel": -0.002539311776046743,
+      "fcf_margin_change": -0.38566936640647875
     }
   ],
   "signals": [
@@ -508,12 +509,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +46.7% -> +61.3% (+14.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +15.3% -> +50.6% (+35.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -544,7 +539,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:23:39.140916",
-  "sector": "Real Estate",
-  "industry": "REIT - Residential"
+  "last_updated": "2026-02-24T10:21:55.983965"
 }

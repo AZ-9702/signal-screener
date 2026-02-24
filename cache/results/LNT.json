@@ -1,25 +1,9 @@
 {
   "ticker": "LNT",
   "name": "ALLIANT ENERGY CORP",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 817000000,
-      "gross_profit": 694000000,
-      "operating_income": 112000000,
-      "net_income": 66000000,
-      "opex": 705000000,
-      "cogs": 123000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -366000000,
-      "ocf": 65000000,
-      "capex": -431000000,
-      "gross_margin": 0.8494492044063647,
-      "op_margin": 0.13708690330477355,
-      "fcf_margin": -0.4479804161566707
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -214000000,
       "gross_margin": 0.8512763596004439,
       "op_margin": 0.21975582685904552,
-      "fcf_margin": -0.07658157602663707,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.37139884013003366
+      "fcf_margin": -0.07658157602663707
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.8554476806903991,
       "op_margin": 0.1423948220064725,
       "fcf_margin": -0.3149946062567422,
-      "incr_op_margin_yoy": 0.18181818181818182,
-      "rev_growth_yoy": 0.1346389228886169,
       "fcf_margin_change": -0.2407758562567422
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.052434456928838954,
       "incr_op_margin_yoy": 0.2994011976047904,
       "rev_growth_yoy": 0.1853496115427303,
-      "rev_growth_yoy_accel": 0.050710688654113406,
       "op_leverage_ratio": 4.836893203883495,
       "fcf_margin_change": 0.2625601493279032
     },
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -2.888888888888889,
       "rev_growth_yoy": 0.008426966292134831,
       "rev_growth_yoy_accel": -0.1328891070627735,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3639318768616176
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy_accel": 0.044389878457886583,
       "op_leverage_ratio": 1.554630593132154,
       "fcf_margin_change": 0.10114034107033824
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1064000000,
+      "gross_profit": 913000000,
+      "operating_income": 197000000,
+      "net_income": 142000000,
+      "opex": 867000000,
+      "cogs": 151000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 269000000,
+      "ocf": 269000000,
+      "capex": null,
+      "gross_margin": 0.8580827067669173,
+      "op_margin": 0.18515037593984962,
+      "fcf_margin": 0.25281954887218044,
+      "incr_op_margin_yoy": -0.2727272727272727,
+      "rev_growth_yoy": 0.09016393442622951,
+      "rev_growth_yoy_accel": -0.029170015620023956,
+      "fcf_margin_change": 0.3379435158143292
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -8.5% -> +25.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -567,12 +574,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +18.5% vs prior quarter YoY: +13.5% (accel: +5.1%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -18.4% -> -7.4% (+10.9%)",
@@ -582,12 +583,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +25.3% vs OpEx growth +14.7% (leverage: 1.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -44.8% -> -7.7% (+37.1%)",
       "severity": "MEDIUM"
     }
   ],
@@ -616,7 +611,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:10.451375",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:16:52.512355"
 }

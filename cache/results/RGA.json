@@ -1,25 +1,9 @@
 {
   "ticker": "RGA",
   "name": "REINSURANCE GROUP OF AMERICA, INCORPORATED",
+  "sector": "Financial Services",
+  "industry": "Insurance - Reinsurance",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4143000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 132000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 532000000,
-      "ocf": 543000000,
-      "capex": -11000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.12840936519430365
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -4000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5734401553775188,
-      "fcf_margin_change": 0.4450307901832151
+      "fcf_margin": 0.5734401553775188
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.08189951823812801,
-      "rev_growth_yoy": 0.05213613323678494,
       "fcf_margin_change": -0.2856493316258344
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.04300254452926209,
       "rev_growth_yoy": -0.045884923525127456,
-      "rev_growth_yoy_accel": -0.09802105676191239,
       "fcf_margin_change": -0.1249020627673901
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 0.09785878605556539,
       "rev_growth_yoy_accel": -0.049947692009215255,
       "fcf_margin_change": -0.013119744027238922
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6635000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 463000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 7330000000,
+      "ocf": 7330000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.1047475508666165,
+      "rev_growth_yoy": 0.2659797748521275,
+      "rev_growth_yoy_accel": 0.1681209887965621,
+      "fcf_margin_change": 1.2643220189517228
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -16.0% -> +110.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +26.6% vs prior quarter YoY: +9.8% (accel: +16.8%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -505,22 +519,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -4.6% vs prior quarter YoY: +5.2% (decel: -9.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.0% -> +36.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +12.8% -> +57.3% (+44.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -551,5 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:40.589621"
+  "last_updated": "2026-02-24T10:13:24.317505"
 }

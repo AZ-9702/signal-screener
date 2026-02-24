@@ -1,25 +1,9 @@
 {
   "ticker": "D",
-  "name": "DOMINION ENERGY, INC",
+  "name": "DOMINION ENERGY, INC.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3521000000,
-      "gross_profit": null,
-      "operating_income": 856000000,
-      "net_income": 682000000,
-      "opex": 2665000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 417000000,
-      "ocf": 417000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.24311275205907412,
-      "fcf_margin": 0.11843226356148821
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.2268733850129199,
-      "fcf_margin": 0.3751937984496124,
-      "op_leverage_ratio": 0.8078093257840463,
-      "fcf_margin_change": 0.2567615348881242
+      "fcf_margin": 0.3751937984496124
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": 0.2647984886649874,
       "fcf_margin": 0.4077455919395466,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1483644201159785
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.306109114668409,
       "fcf_margin": 0.16399869323750407,
-      "incr_op_margin_yoy": -0.17608695652173914,
-      "rev_growth_yoy": -0.13064470320931554,
       "fcf_margin_change": -0.24374689870204255
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.2629118953026408,
       "incr_op_margin_yoy": 0.2396088019559902,
       "rev_growth_yoy": 0.10568475452196383,
-      "rev_growth_yoy_accel": 0.23632945773127936,
       "op_leverage_ratio": 3.252907546553414,
       "fcf_margin_change": 0.09891320206513673
     },
@@ -165,7 +144,7 @@
       "incr_op_margin_yoy": 0.19090909090909092,
       "rev_growth_yoy": 0.3809823677581864,
       "rev_growth_yoy_accel": 0.19730889837043128,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23304913449457698
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.48201438848920863,
       "rev_growth_yoy": 0.2273895770039729,
       "rev_growth_yoy_accel": -0.017301700356366884,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12919772595066897
     },
     {
@@ -299,7 +278,7 @@
       "incr_op_margin_yoy": 0.37777777777777777,
       "rev_growth_yoy": -0.30845392231530844,
       "rev_growth_yoy_accel": -0.23601297743341867,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1535146930136198
     },
     {
@@ -389,7 +368,7 @@
       "incr_op_margin_yoy": 0.8783783783783784,
       "rev_growth_yoy": 0.1222466960352423,
       "rev_growth_yoy_accel": 0.1601640701156045,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10170611325982798
     },
     {
@@ -436,9 +415,43 @@
       "rev_growth_yoy_accel": 0.05575002369284293,
       "op_leverage_ratio": 1.0775208478687,
       "fcf_margin_change": 0.10261023535079988
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4093000000,
+      "gross_profit": null,
+      "operating_income": 756000000,
+      "net_income": 567000000,
+      "opex": 3337000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 987000000,
+      "ocf": 987000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.18470559491815294,
+      "fcf_margin": 0.24114341558758856,
+      "incr_op_margin_yoy": 0.5266955266955267,
+      "rev_growth_yoy": 0.2038235294117647,
+      "rev_growth_yoy_accel": 0.05513030434198546,
+      "fcf_margin_change": -0.18850094049811944
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +20.4% vs prior quarter YoY: +14.9% (accel: +5.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +52.7% vs year-ago OPM: +11.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -620,21 +633,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +10.6% vs prior quarter YoY: -13.1% (accel: +23.6%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +25.9% -> +40.8% (+14.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.8% -> +37.5% (+25.7%)",
       "severity": "MEDIUM"
     }
   ],
@@ -665,7 +666,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:07.333507",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:07:14.199303"
 }

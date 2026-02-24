@@ -1,25 +1,9 @@
 {
   "ticker": "HRI",
   "name": "HERC HOLDINGS INC.",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 520400000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 35500000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 69800000,
-      "fcf": 177500000,
-      "ocf": 186900000,
-      "capex": -9400000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.3410837817063797
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -13400000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.2672983693256941,
-      "fcf_margin_change": -0.07378541238068559
+      "fcf_margin": 0.2672983693256941
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.38743727288458213,
-      "rev_growth_yoy": 0.11049192928516526,
       "fcf_margin_change": 0.08747361009388444
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.22915564956812973,
       "rev_growth_yoy": 0.250110180696342,
-      "rev_growth_yoy_accel": 0.13961825141117673,
       "fcf_margin_change": -0.1582816233164524
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.35129533678756475,
       "rev_growth_yoy_accel": 0.1696915632026591,
       "fcf_margin_change": 0.04795164272681629
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1209000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 24000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 153000000,
+      "fcf": 281000000,
+      "ocf": 315000000,
+      "capex": -34000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.23242349048800662,
+      "rev_growth_yoy": 0.27129337539432175,
+      "rev_growth_yoy_accel": -0.080001961393243,
+      "fcf_margin_change": -0.009140926689907486
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +27.1% vs prior quarter YoY: +35.1% (decel: -8.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -481,12 +489,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +25.0% vs prior quarter YoY: +11.0% (accel: +14.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +30.0% -> +38.7% (+8.7%)",
@@ -527,7 +529,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:01:58.915558",
-  "sector": "Industrials",
-  "industry": "Rental & Leasing Services"
+  "last_updated": "2026-02-24T10:32:41.006915"
 }

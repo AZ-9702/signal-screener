@@ -1,25 +1,9 @@
 {
   "ticker": "CLFD",
   "name": "CLEARFIELD, INC.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 27092147,
-      "gross_profit": 11369245,
-      "operating_income": 3713708,
-      "net_income": 3163439,
-      "opex": 7655537,
-      "cogs": 15722902,
-      "rd": null,
-      "sga": 7655537,
-      "fcf": 2337117,
-      "ocf": 2716000,
-      "capex": -378883,
-      "gross_margin": 0.4196509416547902,
-      "op_margin": 0.13707691752890608,
-      "fcf_margin": 0.08626547759393155
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -303126,
       "gross_margin": 0.435861806778905,
       "op_margin": 0.14992152414187637,
-      "fcf_margin": 0.12393514009562327,
-      "op_leverage_ratio": 0.8802387233626374,
-      "fcf_margin_change": 0.03766966250169172
+      "fcf_margin": 0.12393514009562327
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,9 +79,7 @@
       "gross_margin": 0.44947073900878515,
       "op_margin": 0.2553170674440901,
       "fcf_margin": -0.0006652448688097987,
-      "incr_op_margin_yoy": 0.38869755333889916,
-      "rev_growth_yoy": 0.8864876231477704,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06225341226536035
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": -0.21026264136835218,
       "incr_op_margin_yoy": 0.314225906864267,
       "rev_growth_yoy": 0.801667752595705,
-      "rev_growth_yoy_accel": -0.08481987055206541,
       "op_leverage_ratio": 0.3536264582850095,
       "fcf_margin_change": -0.20959739649954237
     },
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 0.6245451159058999,
       "rev_growth_yoy": -0.48599757690540185,
       "rev_growth_yoy_accel": 0.11571055183258422,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4547934656889784
     },
     {
@@ -414,7 +393,7 @@
       "incr_op_margin_yoy": 3.4252252252252253,
       "rev_growth_yoy": 0.022749164839218742,
       "rev_growth_yoy_accel": -0.25517009823311937,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13664666083817262
     },
     {
@@ -437,9 +416,43 @@
       "incr_op_margin_yoy": -0.25173890697275997,
       "rev_growth_yoy": -0.6239844351321303,
       "rev_growth_yoy_accel": -0.646733599971349
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 34341000,
+      "gross_profit": 11388000,
+      "operating_income": -1824000,
+      "net_income": -614000,
+      "opex": 13212000,
+      "cogs": 22953000,
+      "rd": null,
+      "sga": 13212000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3316152703765179,
+      "op_margin": -0.05311435310561719,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -1.896035242290749,
+      "rev_growth_yoy": -0.031993460367572446,
+      "rev_growth_yoy_accel": 0.5919909747645579,
+      "op_leverage_ratio": 1.7740152718365019
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +95.3% vs OpEx growth +53.7% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -3.2% vs prior quarter YoY: -62.4% (accel: +59.2%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -628,21 +641,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +80.2% vs prior quarter YoY: +88.6% (decel: -8.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +31.4% vs year-ago OPM: +15.0%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +38.9% vs year-ago OPM: +13.7%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -673,7 +674,7 @@
         20
       ],
       "fcf": [
-        19,
+        18,
         20
       ]
     },
@@ -682,7 +683,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:31:21.501692",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-24T11:07:05.235966"
 }

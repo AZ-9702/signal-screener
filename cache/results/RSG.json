@@ -1,25 +1,9 @@
 {
   "ticker": "RSG",
   "name": "REPUBLIC SERVICES, INC.",
+  "sector": "Industrials",
+  "industry": "Waste Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2573300000,
-      "gross_profit": 1026100000,
-      "operating_income": 432700000,
-      "net_income": 235500000,
-      "opex": 593400000,
-      "cogs": 1547200000,
-      "rd": null,
-      "sga": 257700000,
-      "fcf": 257000000,
-      "ocf": 562600000,
-      "capex": -305600000,
-      "gross_margin": 0.39874868845451367,
-      "op_margin": 0.16814984650060233,
-      "fcf_margin": 0.09987175999689116
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -331000000,
       "gross_margin": 0.4982012035583464,
       "op_margin": 0.16104133961276818,
-      "fcf_margin": 0.10792778649921507,
-      "op_leverage_ratio": 0.2552663295046383,
-      "fcf_margin_change": 0.008056026502323912
+      "fcf_margin": 0.10792778649921507
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.4961430676335481,
       "op_margin": 0.1630023401612111,
       "fcf_margin": 0.10383381966313235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05939353486596183
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.47845759243782243,
       "op_margin": 0.1445862993169832,
       "fcf_margin": 0.06824404161503213,
-      "incr_op_margin_yoy": 0.07695739460182913,
-      "rev_growth_yoy": 0.34842420238604127,
       "fcf_margin_change": -0.03558977804810022
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.10717479733433344,
       "incr_op_margin_yoy": 0.1668705652067531,
       "rev_growth_yoy": 0.13366692830978547,
-      "rev_growth_yoy_accel": -0.2147572740762558,
       "fcf_margin_change": 0.03893075571930131
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.14467408585055644,
       "rev_growth_yoy": 0.19989599283506196,
       "rev_growth_yoy_accel": 0.012943383356957577,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.007716863577633737
     },
     {
@@ -437,6 +416,28 @@
       "rev_growth_yoy": 0.031366180932438786,
       "rev_growth_yoy_accel": -0.015554388633524499,
       "fcf_margin_change": 0.008889298528767603
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4727000000,
+      "gross_profit": 2323000000,
+      "operating_income": 800000000,
+      "net_income": 544676000,
+      "opex": 1523000000,
+      "cogs": 2404000000,
+      "rd": null,
+      "sga": 436000000,
+      "fcf": 404000000,
+      "ocf": 981000000,
+      "capex": -577000000,
+      "gross_margin": 0.49143219801142374,
+      "op_margin": 0.16924053310767928,
+      "fcf_margin": 0.08546646921937805,
+      "incr_op_margin_yoy": -0.03707742639040349,
+      "rev_growth_yoy": 0.01978296981856622,
+      "rev_growth_yoy_accel": -0.011583211113872567,
+      "fcf_margin_change": -0.06721635655232279
     }
   ],
   "signals": [
@@ -519,12 +520,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +13.4% vs prior quarter YoY: +34.8% (decel: -21.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.8% -> +16.3% (+5.5%)",
@@ -556,5 +551,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:55:40.724179"
+  "last_updated": "2026-02-24T10:31:20.913674"
 }

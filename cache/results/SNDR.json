@@ -1,25 +1,9 @@
 {
   "ticker": "SNDR",
   "name": "Schneider National, Inc.",
+  "sector": "Industrials",
+  "industry": "Trucking",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1265200000,
-      "gross_profit": null,
-      "operating_income": 105100000,
-      "net_income": 76900000,
-      "opex": 1160100000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 6000000,
-      "ocf": 149100000,
-      "capex": -143100000,
-      "gross_margin": null,
-      "op_margin": 0.0830698703762251,
-      "fcf_margin": 0.00474233322794815
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -19000000,
       "gross_margin": null,
       "op_margin": 0.06202181344619893,
-      "fcf_margin": 0.0668240273482012,
-      "fcf_margin_change": 0.06208169412025305
+      "fcf_margin": 0.0668240273482012
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.11303022606045213,
       "fcf_margin": 0.042926085852171704,
-      "incr_op_margin_yoy": 0.23546511627906977,
-      "rev_growth_yoy": 0.24470439456212456,
       "op_leverage_ratio": 1.098449159792838,
       "fcf_margin_change": 0.04451833230423124
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.04646713977167541,
       "incr_op_margin_yoy": 0.15029344220464405,
       "rev_growth_yoy": 0.31898095393130393,
-      "rev_growth_yoy_accel": 0.07427655936917937,
       "op_leverage_ratio": 0.4575002107114824,
       "fcf_margin_change": 0.0035410539195037047
     },
@@ -437,9 +417,43 @@
       "rev_growth_yoy_accel": 0.025065617881929403,
       "op_leverage_ratio": 0.5942804558936284,
       "fcf_margin_change": -0.03620862860011724
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1399600000,
+      "gross_profit": null,
+      "operating_income": 36500000,
+      "net_income": 22100000,
+      "opex": 1363100000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 145500000,
+      "ocf": 186000000,
+      "capex": -40500000,
+      "gross_margin": null,
+      "op_margin": 0.026078879679908545,
+      "fcf_margin": 0.10395827379251214,
+      "incr_op_margin_yoy": -0.09752066115702479,
+      "rev_growth_yoy": 0.045179598237622284,
+      "rev_growth_yoy_accel": -0.058719466898807,
+      "fcf_margin_change": 0.0652636992951285
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +3.9% -> +10.4% (+6.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.5% vs prior quarter YoY: +10.4% (decel: -5.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -543,33 +557,15 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.9% vs prior quarter YoY: +24.5% (accel: +7.4%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.2% -> +4.3%",
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +23.5% vs year-ago OPM: +8.3%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.8% vs OpEx growth +7.2% (leverage: 1.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +0.5% -> +6.7% (+6.2%)",
       "severity": "MEDIUM"
     }
   ],
@@ -600,5 +596,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:02:21.954687"
+  "last_updated": "2026-02-24T10:14:17.615669"
 }

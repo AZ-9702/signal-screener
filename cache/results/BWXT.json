@@ -1,25 +1,9 @@
 {
   "ticker": "BWXT",
   "name": "BWX TECHNOLOGIES, INC.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 556910000,
-      "gross_profit": 142551000,
-      "operating_income": 89081000,
-      "net_income": 65742000,
-      "opex": 475734000,
-      "cogs": 414359000,
-      "rd": 2624000,
-      "sga": 60436000,
-      "fcf": -26707000,
-      "ocf": 48348000,
-      "capex": -75055000,
-      "gross_margin": 0.25596775062397875,
-      "op_margin": 0.1599558276920867,
-      "fcf_margin": -0.04795568404230486
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -101932000,
       "gross_margin": 0.2564336999998107,
       "op_margin": 0.1560064587817284,
-      "fcf_margin": -0.006659435556994206,
-      "fcf_margin_change": 0.04129624848531065
+      "fcf_margin": -0.006659435556994206
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.2505697031124625,
       "op_margin": 0.1726677646860087,
       "fcf_margin": 0.14536424680096288,
-      "incr_op_margin_yoy": 0.3745615285897619,
-      "rev_growth_yoy": 0.06296349499919197,
       "op_leverage_ratio": 1.0491487475228554,
       "fcf_margin_change": 0.14382232105802134
     },
@@ -118,7 +99,6 @@
       "fcf_margin": -0.10889553791136117,
       "incr_op_margin_yoy": -4.397971602434077,
       "rev_growth_yoy": 0.004666147995449323,
-      "rev_growth_yoy_accel": -0.05829734700374265,
       "fcf_margin_change": -0.254259784712324
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy_accel": 0.1680291832982143,
       "op_leverage_ratio": 0.9683907293301965,
       "fcf_margin_change": -0.05578398498636844
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 885842000,
+      "gross_profit": 187275000,
+      "operating_income": 92056000,
+      "net_income": 92989000,
+      "opex": 812348000,
+      "cogs": 698567000,
+      "rd": 3810000,
+      "sga": 110526000,
+      "fcf": 56803000,
+      "ocf": 126995000,
+      "capex": -70192000,
+      "gross_margin": 0.21140903231050232,
+      "op_margin": 0.10391920906888587,
+      "fcf_margin": 0.06412317320696016,
+      "incr_op_margin_yoy": -0.001475909009493104,
+      "rev_growth_yoy": 0.18703091520863177,
+      "rev_growth_yoy_accel": -0.10216956815635045,
+      "op_leverage_ratio": 0.45755048442445606,
+      "fcf_margin_change": -0.04541686322442624
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +18.7% vs prior quarter YoY: +28.9% (decel: -10.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -530,22 +539,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +0.5% vs prior quarter YoY: +6.3% (decel: -5.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.2% -> +14.5% (+14.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +37.5% vs year-ago OPM: +16.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -579,7 +576,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:19:16.373083",
-  "sector": "Industrials",
-  "industry": "Aerospace & Defense"
+  "last_updated": "2026-02-24T10:06:59.453421"
 }

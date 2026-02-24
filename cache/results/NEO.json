@@ -1,25 +1,9 @@
 {
   "ticker": "NEO",
   "name": "NEOGENOMICS, INC.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 125997000,
-      "gross_profit": 57453000,
-      "operating_income": 5539000,
-      "net_income": 15417000,
-      "opex": 51914000,
-      "cogs": 68544000,
-      "rd": 2100000,
-      "sga": null,
-      "fcf": -5520000,
-      "ocf": 5985000,
-      "capex": -11505000,
-      "gross_margin": 0.45598704731065026,
-      "op_margin": 0.04396136415946411,
-      "fcf_margin": -0.043810566918259956
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -15831000,
       "gross_margin": 0.3598452390226169,
       "op_margin": -0.13075917703167061,
-      "fcf_margin": -0.11789705105900479,
-      "fcf_margin_change": -0.07408648414074484
+      "fcf_margin": -0.11789705105900479
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,7 @@
       "gross_margin": 0.3599481436706646,
       "op_margin": -0.3306000063627398,
       "fcf_margin": -0.2526246301657494,
-      "rev_growth_yoy": -0.0021032246799526973,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06518437963006452
     },
     {
@@ -118,7 +100,6 @@
       "fcf_margin": -0.31799366726693923,
       "incr_op_margin_yoy": -22.567848410757946,
       "rev_growth_yoy": 0.014160456319839353,
-      "rev_growth_yoy_accel": 0.01626368099979205,
       "fcf_margin_change": -0.06536903710118985
     },
     {
@@ -141,7 +122,7 @@
       "incr_op_margin_yoy": -5.177718040621267,
       "rev_growth_yoy": 0.027504847030988138,
       "rev_growth_yoy_accel": 0.013344390711148785,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09979934719530048
     },
     {
@@ -187,7 +168,7 @@
       "incr_op_margin_yoy": 1.1704308949356355,
       "rev_growth_yoy": 0.10317977921292909,
       "rev_growth_yoy_accel": 0.04184798425660801,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1280069410710173
     },
     {
@@ -232,7 +213,7 @@
       "incr_op_margin_yoy": 0.44898146028839553,
       "rev_growth_yoy": 0.17465939618779583,
       "rev_growth_yoy_accel": 0.0035305139749238212,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1032925332931642
     },
     {
@@ -255,7 +236,7 @@
       "incr_op_margin_yoy": 0.6609269808389435,
       "rev_growth_yoy": 0.17993197807146963,
       "rev_growth_yoy_accel": 0.005272581883673799,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.002757400706370039
     },
     {
@@ -278,7 +259,7 @@
       "incr_op_margin_yoy": 0.46352466314477353,
       "rev_growth_yoy": 0.12145921199668361,
       "rev_growth_yoy_accel": -0.05847276607478602,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13326321662252202
     },
     {
@@ -323,7 +304,7 @@
       "incr_op_margin_yoy": 0.4522604492465169,
       "rev_growth_yoy": 0.11969343234615464,
       "rev_growth_yoy_accel": -0.01891609979201765,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20656117133196927
     },
     {
@@ -369,7 +350,7 @@
       "incr_op_margin_yoy": 0.010517996108949417,
       "rev_growth_yoy": 0.10573955976136598,
       "rev_growth_yoy_accel": 0.0013000583333022259,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0012055603101366434
     },
     {
@@ -437,8 +418,31 @@
       "incr_op_margin_yoy": -0.29124317829069246,
       "rev_growth_yoy": 0.11901158356373344,
       "rev_growth_yoy_accel": 0.01671495495131535,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07421071300014398
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 190170000,
+      "gross_profit": 83343000,
+      "operating_income": -13414000,
+      "net_income": -9881000,
+      "opex": 96757000,
+      "cogs": 106827000,
+      "rd": 9179000,
+      "sga": null,
+      "fcf": -6528000,
+      "ocf": 1343000,
+      "capex": -7871000,
+      "gross_margin": 0.43825524530683074,
+      "op_margin": -0.07053688804753641,
+      "fcf_margin": -0.03432718094336646,
+      "incr_op_margin_yoy": 0.274463401210787,
+      "rev_growth_yoy": 0.10563953488372094,
+      "rev_growth_yoy_accel": -0.013372048680012502,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.0373623731988338
     }
   ],
   "signals": [
@@ -501,12 +505,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +36.0% -> +32.6% -> +35.1% (reversal +2.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +45.6% -> +36.0% -> +43.5% (reversal +7.5%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -534,7 +532,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:45:27.021309",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:34:13.337057"
 }

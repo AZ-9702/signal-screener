@@ -1,25 +1,9 @@
 {
   "ticker": "DLHC",
-  "name": "DLH Holdings Corp.",
+  "name": "DLH HOLDINGS CORP.",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 57852000,
-      "gross_profit": 11847000,
-      "operating_income": 3635000,
-      "net_income": null,
-      "opex": 8212000,
-      "cogs": 46005000,
-      "rd": null,
-      "sga": null,
-      "fcf": -8518000,
-      "ocf": -8518000,
-      "capex": null,
-      "gross_margin": 0.20478116573325036,
-      "op_margin": 0.06283274562677177,
-      "fcf_margin": -0.14723777916061676
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.20784964068546158,
       "op_margin": 0.0751146229636133,
-      "fcf_margin": 0.23797678275290216,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.3852145619135189
+      "fcf_margin": 0.23797678275290216
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +78,7 @@
       "gross_margin": 0.1316418086269069,
       "op_margin": 0.07342229435671233,
       "fcf_margin": -0.10572574786814222,
-      "incr_op_margin_yoy": 0.07987445892005182,
-      "rev_growth_yoy": 1.6412397151351725,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5702251495434514
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.012327620309294473,
       "incr_op_margin_yoy": 0.1193821117538618,
       "rev_growth_yoy": 0.7672909960003902,
-      "rev_growth_yoy_accel": -0.8739487191347823,
       "fcf_margin_change": 0.1180533681774367
     },
     {
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": -0.0001955252646574118,
       "rev_growth_yoy": 0.5388470800722457,
       "rev_growth_yoy_accel": 0.6242388500057318,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09074205677560089
     },
     {
@@ -435,9 +414,49 @@
       "rev_growth_yoy": -0.15796899964725167,
       "rev_growth_yoy_accel": 0.014345140222055353,
       "fcf_margin_change": 0.016753238487322172
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 68892000,
+      "gross_profit": 13497000,
+      "operating_income": 1436000,
+      "net_income": null,
+      "opex": 12061000,
+      "cogs": 55395000,
+      "rd": null,
+      "sga": null,
+      "fcf": -4770000,
+      "ocf": -4770000,
+      "capex": null,
+      "gross_margin": 0.19591534575857864,
+      "op_margin": 0.02084421993845439,
+      "fcf_margin": -0.06923880856993556,
+      "incr_op_margin_yoy": 0.19191411603471906,
+      "rev_growth_yoy": -0.24112709567976032,
+      "rev_growth_yoy_accel": -0.08315809603250865,
+      "fcf_margin_change": -0.200830725770527
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +19.1% -> +17.1% -> +19.6% (reversal +2.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -24.1% vs prior quarter YoY: -15.8% (decel: -8.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +19.2% vs year-ago OPM: +6.2%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -559,22 +578,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +76.7% vs prior quarter YoY: +164.1% (decel: -87.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +15.1% -> +46.4% (+31.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -14.7% -> +23.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -602,7 +609,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:25:30.573653",
-  "sector": "Industrials",
-  "industry": "Specialty Business Services"
+  "last_updated": "2026-02-24T11:09:14.763682"
 }

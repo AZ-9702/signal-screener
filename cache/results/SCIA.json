@@ -1,25 +1,9 @@
 {
   "ticker": "SCIA",
   "name": "SCI ENGINEERED MATERIALS,\u00a0INC.",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3356639,
-      "gross_profit": 792029,
-      "operating_income": 333545,
-      "net_income": 1341288,
-      "opex": 458484,
-      "cogs": 2564610,
-      "rd": 77222,
-      "sga": null,
-      "fcf": 456579,
-      "ocf": 486471,
-      "capex": -29892,
-      "gross_margin": 0.23595894583838178,
-      "op_margin": 0.09936874355568175,
-      "fcf_margin": 0.13602267029609083
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -319578,
       "gross_margin": 0.2657027240752934,
       "op_margin": 0.1408005796890458,
-      "fcf_margin": 0.0439451942388438,
-      "fcf_margin_change": -0.09207747605724703
+      "fcf_margin": 0.0439451942388438
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": 0.26562802140205083,
       "op_margin": 0.09168901829549053,
       "fcf_margin": 0.22781729983688476,
-      "rev_growth_yoy": -0.03400603997033938,
       "fcf_margin_change": 0.1366715319679095
     },
     {
@@ -117,8 +99,7 @@
       "fcf_margin": 0.09840546166739761,
       "incr_op_margin_yoy": 0.011349659436436092,
       "rev_growth_yoy": 0.762371166425681,
-      "rev_growth_yoy_accel": 0.7963772063960204,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12941183816948715
     },
     {
@@ -227,7 +208,7 @@
       "fcf_margin": 0.08826701029407229,
       "rev_growth_yoy": 0.1464541533788214,
       "rev_growth_yoy_accel": 0.058080735676314346,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.007649653540741624
     },
     {
@@ -362,7 +343,7 @@
       "incr_op_margin_yoy": 0.03175270845456434,
       "rev_growth_yoy": -0.2813968399756271,
       "rev_growth_yoy_accel": 0.2142947223539617,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4108801138454751
     },
     {
@@ -430,11 +411,46 @@
       "incr_op_margin_yoy": 0.1287863322519221,
       "rev_growth_yoy": 0.3620379080648438,
       "rev_growth_yoy_accel": 0.7096805641953838,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05637404811554228
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7207471,
+      "gross_profit": 1469279,
+      "operating_income": 631256,
+      "net_income": 560830,
+      "opex": 838023,
+      "cogs": 5738192,
+      "rd": 113545,
+      "sga": null,
+      "fcf": -968698,
+      "ocf": -384080,
+      "capex": -584618,
+      "gross_margin": 0.20385499990218484,
+      "op_margin": 0.08758356433206599,
+      "fcf_margin": -0.1344019282214247,
+      "incr_op_margin_yoy": 0.06913024545046864,
+      "rev_growth_yoy": 0.42689704324757727,
+      "rev_growth_yoy_accel": 0.06485913518273345,
+      "op_leverage_ratio": 6.0978573034133845,
+      "fcf_margin_change": -0.4284312140226815
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +36.3% vs OpEx growth +5.9% (leverage: 6.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +42.7% vs prior quarter YoY: +36.2% (accel: +6.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -568,12 +584,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +76.2% vs prior quarter YoY: -3.4% (accel: +79.6%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +9.1% -> +22.8% (+13.7%)",
@@ -617,5 +627,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:54:52.243326"
+  "last_updated": "2026-02-24T10:37:48.269059"
 }

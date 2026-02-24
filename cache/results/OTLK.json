@@ -1,6 +1,8 @@
 {
   "ticker": "OTLK",
   "name": "Outlook Therapeutics, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2015-06-30T00:00:00",
@@ -292,7 +294,7 @@
       "fcf_margin": null,
       "rev_growth_yoy": 0.3830960370000907,
       "rev_growth_yoy_accel": 1.117119491755926,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2019-03-31T00:00:00",
@@ -509,5 +511,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:50:20.146035"
+  "last_updated": "2026-02-24T10:35:48.364754"
 }

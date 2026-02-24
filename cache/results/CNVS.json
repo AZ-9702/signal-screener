@@ -1,25 +1,9 @@
 {
   "ticker": "CNVS",
   "name": "Cineverse Corp.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 9954000,
-      "gross_profit": null,
-      "operating_income": -1281000,
-      "net_income": -9644000,
-      "opex": 11235000,
-      "cogs": null,
-      "rd": null,
-      "sga": 5361000,
-      "fcf": -6977000,
-      "ocf": -4003000,
-      "capex": -2974000,
-      "gross_margin": null,
-      "op_margin": -0.12869198312236288,
-      "fcf_margin": -0.700924251557163
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3477000,
       "gross_margin": null,
       "op_margin": -0.5466424682395644,
-      "fcf_margin": -0.8116152450090744,
-      "fcf_margin_change": -0.11069099345191147
+      "fcf_margin": -0.8116152450090744
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.18474858474858474,
       "fcf_margin": 0.23842823842823843,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.050043483437313
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": -0.054245952854302754,
       "fcf_margin": -0.34244532803180916,
-      "incr_op_margin_yoy": 0.125181598062954,
-      "rev_growth_yoy": 0.4149085794655415,
       "op_leverage_ratio": 1.362406035011403,
       "fcf_margin_change": -0.9063372413248905
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.006468075005934014,
       "incr_op_margin_yoy": 0.34901595434959826,
       "rev_growth_yoy": 1.0389594676346037,
-      "rev_growth_yoy_accel": 0.6240508881690622,
       "op_leverage_ratio": 0.8278447652484284,
       "fcf_margin_change": 0.34891340303774315
     },
@@ -356,17 +336,17 @@
       "cogs": null,
       "rd": null,
       "sga": 9361000,
-      "fcf": 7413000,
-      "ocf": 7413000,
+      "fcf": 7374000,
+      "ocf": 7374000,
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.2316151202749141,
-      "fcf_margin": 0.18195876288659793,
+      "fcf_margin": 0.18100147275405007,
       "incr_op_margin_yoy": 0.32802942033207105,
       "rev_growth_yoy": 2.0686953901777643,
       "rev_growth_yoy_accel": 2.089676023439369,
       "op_leverage_ratio": 1.6885180650969283,
-      "fcf_margin_change": 0.18863118615373037
+      "fcf_margin_change": 0.1876738960211825
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -379,16 +359,16 @@
       "cogs": null,
       "rd": null,
       "sga": 5396000,
-      "fcf": 12427000,
-      "ocf": 12427000,
+      "fcf": 12466000,
+      "ocf": 12466000,
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.1365650080256822,
-      "fcf_margin": 0.7978812199036918,
+      "fcf_margin": 0.8003852327447833,
       "incr_op_margin_yoy": 2.82265406162465,
       "rev_growth_yoy": 0.5791341376863024,
       "rev_growth_yoy_accel": -1.4895612524914619,
-      "fcf_margin_change": 0.6159224570170938
+      "fcf_margin_change": 0.6193837599907333
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": -0.463855421686747,
       "rev_growth_yoy": 0.2182535334721157,
       "rev_growth_yoy_accel": -0.36088060421418666,
-      "fcf_margin_change": -2.104113794775533
+      "fcf_margin_change": -2.106617807616624
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -433,9 +413,44 @@
       "rev_growth_yoy_accel": -0.24824018862558145,
       "op_leverage_ratio": 0.5601439881960795,
       "fcf_margin_change": 0.7259137272551056
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 16286000,
+      "gross_profit": null,
+      "operating_income": -656000,
+      "net_income": -875000,
+      "opex": 16942000,
+      "cogs": null,
+      "rd": null,
+      "sga": 10690000,
+      "fcf": -1613000,
+      "ocf": -1613000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.04027999508780548,
+      "fcf_margin": -0.0990421220680339,
+      "incr_op_margin_yoy": 0.41269321992312097,
+      "rev_growth_yoy": -0.6002454590083456,
+      "rev_growth_yoy_accel": -0.5702588038548798,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.4812767255487016
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -58.0% -> -9.9% (+48.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -60.0% vs prior quarter YoY: -3.0% (decel: -57.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -457,7 +472,7 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +18.2% -> +79.8% (+61.6%)",
+      "detail": "FCF margin: +18.1% -> +80.0% (+61.9%)",
       "severity": "MEDIUM"
     },
     {
@@ -475,7 +490,7 @@
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -0.7% -> +18.2%",
+      "detail": "FCF margin: -0.7% -> +18.1%",
       "severity": "HIGH"
     },
     {
@@ -617,12 +632,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +103.9% vs prior quarter YoY: +41.5% (accel: +62.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +23.8% -> +56.4% (+32.5%)",
@@ -668,7 +677,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:43:30.315560",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-24T10:33:48.657328"
 }

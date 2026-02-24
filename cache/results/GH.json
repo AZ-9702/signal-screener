@@ -1,25 +1,9 @@
 {
   "ticker": "GH",
   "name": "GUARDANT HEALTH, INC.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 78316000,
-      "gross_profit": null,
-      "operating_income": -91166000,
-      "net_income": null,
-      "opex": 169482000,
-      "cogs": null,
-      "rd": 40282000,
-      "sga": null,
-      "fcf": -66505000,
-      "ocf": -59223000,
-      "capex": -7282000,
-      "gross_margin": null,
-      "op_margin": -1.1640788600030645,
-      "fcf_margin": -0.8491879054088565
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -9586000,
       "gross_margin": null,
       "op_margin": -1.371168880696625,
-      "fcf_margin": -0.32895188457382574,
-      "fcf_margin_change": 0.5202360208350307
+      "fcf_margin": -0.32895188457382574
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.9084249084249084,
       "fcf_margin": -0.9399211899211899,
-      "incr_op_margin_yoy": -0.23637218045112782,
-      "rev_growth_yoy": 0.3804075795495173,
       "op_leverage_ratio": 6.687966797820391,
       "fcf_margin_change": -0.14550470525686554
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.5340222062664544,
       "incr_op_margin_yoy": -0.8876333601009522,
       "rev_growth_yoy": 0.2216233394775313,
-      "rev_growth_yoy_accel": -0.15878424007198602,
       "fcf_margin_change": 0.40589898365473553
     },
     {
@@ -212,7 +192,7 @@
       "incr_op_margin_yoy": -0.32859113904645104,
       "rev_growth_yoy": 0.339389587820893,
       "rev_growth_yoy_accel": 0.16564666407796927,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1571891255875405
     },
     {
@@ -235,7 +215,7 @@
       "incr_op_margin_yoy": 0.38223952010283513,
       "rev_growth_yoy": 0.25659678956241294,
       "rev_growth_yoy_accel": -0.08279279825848007,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09617907494463973
     },
     {
@@ -258,7 +238,7 @@
       "incr_op_margin_yoy": 1.2119331928510106,
       "rev_growth_yoy": 0.21827194984838677,
       "rev_growth_yoy_accel": -0.03832483971402617,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17251565073996522
     },
     {
@@ -304,7 +284,7 @@
       "incr_op_margin_yoy": 0.8641174548105689,
       "rev_growth_yoy": 0.3090339823173858,
       "rev_growth_yoy_accel": 0.08708758737999861,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3131496173270346
     },
     {
@@ -357,17 +337,17 @@
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
       "revenue": 201814000,
-      "gross_profit": null,
+      "gross_profit": 124221000,
       "operating_income": -125965000,
       "net_income": -111006000,
       "opex": 327779000,
-      "cogs": null,
+      "cogs": 77593000,
       "rd": 93543000,
       "sga": null,
       "fcf": -83388000,
       "ocf": -64513000,
       "capex": -18875000,
-      "gross_margin": null,
+      "gross_margin": 0.6155222135233432,
       "op_margin": -0.6241638340253897,
       "fcf_margin": -0.4131923454269773,
       "incr_op_margin_yoy": 1.5300684345594526,
@@ -443,6 +423,29 @@
       "rev_growth_yoy_accel": 0.07551604134482415,
       "op_leverage_ratio": 1.8800853064015357,
       "fcf_margin_change": 0.1115275828057235
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 281266000,
+      "gross_profit": 181774000,
+      "operating_income": -120805000,
+      "net_income": -128494000,
+      "opex": 402071000,
+      "cogs": 99492000,
+      "rd": 98264000,
+      "sga": null,
+      "fcf": -54221000,
+      "ocf": -26373000,
+      "capex": -27848000,
+      "gross_margin": 0.6462707899283952,
+      "op_margin": -0.4295044548576792,
+      "fcf_margin": -0.19277481103297234,
+      "incr_op_margin_yoy": 0.06494487237577405,
+      "rev_growth_yoy": 0.393689238605845,
+      "rev_growth_yoy_accel": 0.008680151305086647,
+      "op_leverage_ratio": 0.5824950066145967,
+      "fcf_margin_change": -0.020211876448740285
     }
   ],
   "signals": [
@@ -567,12 +570,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +22.2% vs prior quarter YoY: +38.0% (decel: -15.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +14.1% vs OpEx growth +2.1% (leverage: 6.7x)",
@@ -589,12 +586,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +17.1% vs OpEx growth +1.7% (leverage: 9.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -84.9% -> -32.9% (+52.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -605,7 +596,7 @@
         20
       ],
       "gross_profit": [
-        6,
+        8,
         20
       ],
       "op_income": [
@@ -619,12 +610,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 6/20Q"
+      "gross_profit: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:26:39.348326",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:22:11.992612"
 }

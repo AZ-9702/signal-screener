@@ -1,25 +1,9 @@
 {
   "ticker": "MDU",
-  "name": "MDU Resources Group, Inc.",
+  "name": "MDU RESOURCES GROUP, INC.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Gas",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1385160000,
-      "gross_profit": null,
-      "operating_income": 145890000,
-      "net_income": 112294000,
-      "opex": 1239270000,
-      "cogs": null,
-      "rd": null,
-      "sga": 964073000,
-      "fcf": 286607000,
-      "ocf": 286607000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.1053235727280603,
-      "fcf_margin": 0.20691255883796816
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.06935529318255482,
-      "fcf_margin": 0.077870381077872,
-      "fcf_margin_change": -0.12904217776009616
+      "fcf_margin": 0.077870381077872
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.08467457773928107,
       "fcf_margin": 0.09005941966219143,
-      "incr_op_margin_yoy": -0.40876390925558526,
-      "rev_growth_yoy": 0.04184715123162667,
       "fcf_margin_change": -0.025323619442784384
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.07935426621835025,
       "incr_op_margin_yoy": -0.09448046611989121,
       "rev_growth_yoy": 0.15360791831509407,
-      "rev_growth_yoy_accel": 0.11176076708346741,
       "fcf_margin_change": -0.010705153443841181
     },
     {
@@ -433,6 +413,27 @@
       "rev_growth_yoy": -0.7001130872828211,
       "rev_growth_yoy_accel": -0.03535978312882293,
       "fcf_margin_change": -0.15051286863459923
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 534011000,
+      "gross_profit": null,
+      "operating_income": 107342000,
+      "net_income": 76339000,
+      "opex": 426669000,
+      "cogs": null,
+      "rd": null,
+      "sga": 107327000,
+      "fcf": 80572000,
+      "ocf": 80572000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2010108406006618,
+      "fcf_margin": 0.1508807870998912,
+      "incr_op_margin_yoy": 0.07576778601085578,
+      "op_leverage_ratio": 1.2628193868596522,
+      "fcf_margin_change": -0.03293630047105309
     }
   ],
   "signals": [
@@ -527,12 +528,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +15.4% vs prior quarter YoY: +4.2% (accel: +11.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.1% -> +11.5% (+5.4%)",
@@ -566,7 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:11:08.065638",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Gas"
+  "last_updated": "2026-02-24T10:12:28.859335"
 }

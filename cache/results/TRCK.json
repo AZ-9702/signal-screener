@@ -1,25 +1,9 @@
 {
   "ticker": "TRCK",
-  "name": "TRACK GROUP, INC.",
+  "name": "Track Group, Inc.",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 9401905,
-      "gross_profit": 5212804,
-      "operating_income": 1422555,
-      "net_income": 1323494,
-      "opex": 3790249,
-      "cogs": 4189101,
-      "rd": 307294,
-      "sga": null,
-      "fcf": 582002,
-      "ocf": 582002,
-      "capex": null,
-      "gross_margin": 0.5544412541926343,
-      "op_margin": 0.151304974896045,
-      "fcf_margin": 0.0619025612362601
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.5511131301188522,
       "op_margin": 0.1685390034101176,
-      "fcf_margin": 0.027082498887123385,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.03482006234913671
+      "fcf_margin": 0.027082498887123385
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": 0.5002502173900356,
       "op_margin": 0.06214739252845246,
       "fcf_margin": 0.13356429200880066,
-      "rev_growth_yoy": 0.020607632176670578,
       "fcf_margin_change": 0.02016894206524396
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": 0.000777193959713074,
       "fcf_margin": -0.0019281706608700292,
       "rev_growth_yoy": -0.038300295178481075,
-      "rev_growth_yoy_accel": -0.05890792735515166,
       "fcf_margin_change": -0.1354924626696707
     },
     {
@@ -226,7 +206,7 @@
       "fcf_margin": 0.09398501513869724,
       "rev_growth_yoy": -0.030811396642018648,
       "rev_growth_yoy_accel": 0.09319305754081056,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11750077323632935
     },
     {
@@ -312,7 +292,7 @@
       "fcf_margin": -0.05439535853448492,
       "rev_growth_yoy": 0.056044567809567215,
       "rev_growth_yoy_accel": -0.0261858387144217,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21038041951619818
     },
     {
@@ -399,7 +379,7 @@
       "fcf_margin": 0.30630850419548405,
       "rev_growth_yoy": -0.010189188277011615,
       "rev_growth_yoy_accel": 0.060869021843528194,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24783062020636487
     },
     {
@@ -422,9 +402,36 @@
       "rev_growth_yoy": -0.06567758817925548,
       "rev_growth_yoy_accel": -0.055488399902243864,
       "fcf_margin_change": -0.16772795984061212
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 9117208,
+      "gross_profit": 4267707,
+      "operating_income": 787153,
+      "net_income": 514659,
+      "opex": 3480554,
+      "cogs": 4849501,
+      "rd": 694143,
+      "sga": null,
+      "fcf": 1036865,
+      "ocf": 1036865,
+      "capex": null,
+      "gross_margin": 0.4680936312958967,
+      "op_margin": 0.08633706722496624,
+      "fcf_margin": 0.11372615388395219,
+      "rev_growth_yoy": 0.05178391957480151,
+      "rev_growth_yoy_accel": 0.11746150775405699,
+      "fcf_margin_change": -0.02485439047091975
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +5.2% vs prior quarter YoY: -6.6% (accel: +11.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -546,12 +553,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.8% vs prior quarter YoY: +2.1% (decel: -5.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +54.7% -> +47.8% -> +50.0% (reversal +2.2%)",
@@ -589,5 +590,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:22:57.969279"
+  "last_updated": "2026-02-24T10:40:59.190226"
 }

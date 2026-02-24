@@ -1,25 +1,9 @@
 {
   "ticker": "MRSH",
   "name": "Marsh & McLennan Companies, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4416000000,
-      "gross_profit": null,
-      "operating_income": 571000000,
-      "net_income": 374000000,
-      "opex": 3845000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1313000000,
-      "ocf": 1383000000,
-      "capex": -70000000,
-      "gross_margin": null,
-      "op_margin": 0.12930253623188406,
-      "fcf_margin": 0.2973278985507246
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -69000000,
       "gross_margin": null,
       "op_margin": 0.2671650600039347,
-      "fcf_margin": -0.09384221916191225,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.3911701177126369
+      "fcf_margin": -0.09384221916191225
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.1919408214911427,
       "fcf_margin": 0.2538446564142496,
-      "incr_op_margin_yoy": 0.5755894590846047,
-      "rev_growth_yoy": 0.16326992753623187,
       "op_leverage_ratio": 1.5082716759565986,
       "fcf_margin_change": -0.009519951920902048
     },
@@ -119,8 +99,7 @@
       "fcf_margin": -0.1484952243647504,
       "incr_op_margin_yoy": 0.18669527896995708,
       "rev_growth_yoy": 0.09167814282903797,
-      "rev_growth_yoy_accel": -0.0715917847071939,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.40233988077899996
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.7493333333333333,
       "rev_growth_yoy": 0.06757974409803569,
       "rev_growth_yoy_accel": 0.08996635106708377,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4310050632046813
     },
     {
@@ -436,6 +415,29 @@
       "rev_growth_yoy": 0.114797261716693,
       "rev_growth_yoy_accel": -0.0062443714612526735,
       "fcf_margin_change": 0.08534134274833349
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6595000000,
+      "gross_profit": null,
+      "operating_income": 1219000000,
+      "net_income": 821000000,
+      "opex": 5376000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2056000000,
+      "ocf": 2161000000,
+      "capex": -105000000,
+      "gross_margin": null,
+      "op_margin": 0.18483699772554965,
+      "fcf_margin": 0.311751326762699,
+      "incr_op_margin_yoy": 0.14583333333333334,
+      "rev_growth_yoy": 0.08702818526454591,
+      "rev_growth_yoy_accel": -0.027769076452147087,
+      "op_leverage_ratio": 1.0207671717355233,
+      "fcf_margin_change": -0.0047342660573293505
     }
   ],
   "signals": [
@@ -560,22 +562,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +9.2% vs prior quarter YoY: +16.3% (decel: -7.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +12.1% vs OpEx growth +8.0% (leverage: 1.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +57.6% vs year-ago OPM: +12.9%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-06 (Q2)",
@@ -611,7 +601,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:42.368551",
-  "sector": "Financial Services",
-  "industry": "Insurance Brokers"
+  "last_updated": "2026-02-24T11:09:35.753293"
 }

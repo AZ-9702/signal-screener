@@ -1,25 +1,9 @@
 {
   "ticker": "AMKR",
-  "name": "AMKOR TECHNOLOGY, INC.",
+  "name": "Amkor Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1371041000,
-      "gross_profit": 278501000,
-      "operating_income": 159179000,
-      "net_income": 126674000,
-      "opex": 119322000,
-      "cogs": 1092540000,
-      "rd": 41103000,
-      "sga": 78219000,
-      "fcf": 58495000,
-      "ocf": 335985000,
-      "capex": -277490000,
-      "gross_margin": 0.20313105151487082,
-      "op_margin": 0.11610083141204385,
-      "fcf_margin": 0.04266466137774144
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -110351000,
       "gross_margin": 0.2002292350035818,
       "op_margin": 0.1089228217019191,
-      "fcf_margin": 0.0500976510952758,
-      "fcf_margin_change": 0.007432989717534359
+      "fcf_margin": 0.0500976510952758
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.19396602288602843,
       "op_margin": 0.11028164958568397,
       "fcf_margin": 0.08266911239322164,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03257146129794584
     },
     {
@@ -76,7 +59,7 @@
       "gross_margin": 0.19323735871505057,
       "op_margin": 0.12579476502082093,
       "fcf_margin": -0.02529446757882213,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10796357997204377
     },
     {
@@ -96,9 +79,7 @@
       "gross_margin": 0.21011176799385844,
       "op_margin": 0.1463542620969893,
       "fcf_margin": 0.1167324966775752,
-      "incr_op_margin_yoy": 0.2636572653512555,
-      "rev_growth_yoy": 0.25790840682372007,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14202696425639733
     },
     {
@@ -120,7 +101,6 @@
       "fcf_margin": 0.005024999749501508,
       "incr_op_margin_yoy": 0.2422173453629196,
       "rev_growth_yoy": 0.20409908381404818,
-      "rev_growth_yoy_accel": -0.053809323009671894,
       "fcf_margin_change": -0.11170749692807369
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.2677636202448031,
       "rev_growth_yoy": 0.23955443188578227,
       "rev_growth_yoy_accel": 0.1696429117316446,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14862975233583997
     },
     {
@@ -344,7 +324,7 @@
       "incr_op_margin_yoy": -0.43298321439340637,
       "rev_growth_yoy": 0.0218444137176946,
       "rev_growth_yoy_accel": 0.019408069386516392,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05677812356988327
     },
     {
@@ -411,7 +391,7 @@
       "incr_op_margin_yoy": 0.20914299451099805,
       "rev_growth_yoy": 0.03415592750880276,
       "rev_growth_yoy_accel": 0.06633142810894439,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11646816363057509
     },
     {
@@ -436,9 +416,49 @@
       "rev_growth_yoy_accel": 0.03319459937978544,
       "op_leverage_ratio": 0.7941362417468625,
       "fcf_margin_change": -0.11350622674347594
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1888046000,
+      "gross_profit": 314629000,
+      "operating_income": 184968000,
+      "net_income": 171761000,
+      "opex": 129661000,
+      "cogs": 1573417000,
+      "rd": 36731000,
+      "sga": 92930000,
+      "fcf": 212397000,
+      "ocf": 644480000,
+      "capex": -432083000,
+      "gross_margin": 0.16664265595223846,
+      "op_margin": 0.09796795205201568,
+      "fcf_margin": 0.11249567012668124,
+      "incr_op_margin_yoy": 0.1951623617376259,
+      "rev_growth_yoy": 0.1589375355253579,
+      "rev_growth_yoy_accel": 0.09158700863676969,
+      "fcf_margin_change": 0.1517167345826765
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.9% -> +11.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.9% vs prior quarter YoY: +6.7% (accel: +9.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +19.5% vs year-ago OPM: +8.3%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -597,12 +617,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +20.4% vs prior quarter YoY: +25.8% (decel: -5.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +24.2% vs year-ago OPM: +10.9%",
       "severity": "MEDIUM"
@@ -612,12 +626,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.5% -> +11.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +26.4% vs year-ago OPM: +11.6%",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -645,7 +653,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:32:01.547961",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-24T10:12:07.299168"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "VMC",
   "name": "VULCAN MATERIALS COMPANY",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1175119000,
-      "gross_profit": 302741000,
-      "operating_income": 196430000,
-      "net_income": 114518000,
-      "opex": 106311000,
-      "cogs": 872378000,
-      "rd": null,
-      "sga": 98626000,
-      "fcf": 199263000,
-      "ocf": 292474000,
-      "capex": -93211000,
-      "gross_margin": 0.2576258234272444,
-      "op_margin": 0.16715753893860963,
-      "fcf_margin": 0.16956835860878772
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -100700000,
       "gross_margin": 0.21460035344420897,
       "op_margin": 0.233551178272167,
-      "fcf_margin": 0.06421152737320564,
-      "fcf_margin_change": -0.10535683123558208
+      "fcf_margin": 0.06421152737320564
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.29268937810376866,
       "op_margin": 0.21126088959455477,
       "fcf_margin": 0.10073127526088371,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.036519747887678075
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.2189555768743506,
       "op_margin": 0.13159783677176723,
       "fcf_margin": 0.09612134198840443,
-      "incr_op_margin_yoy": 0.034685888159115365,
-      "rev_growth_yoy": 0.3669279451698083,
       "op_leverage_ratio": 0.9038093815041144,
       "fcf_margin_change": -0.03609046594377653
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.009865645485818135,
       "incr_op_margin_yoy": -0.21702487107181873,
       "rev_growth_yoy": 0.44213848722883264,
-      "rev_growth_yoy_accel": 0.07521054205902433,
       "fcf_margin_change": -0.0862556965025863
     },
     {
@@ -435,11 +415,39 @@
       "incr_op_margin_yoy": 0.7166203059805285,
       "rev_growth_yoy": 0.14352013573531613,
       "rev_growth_yoy_accel": 0.09983467108082844,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08488814130442363
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1912600000,
+      "gross_profit": 486900000,
+      "operating_income": 378900000,
+      "net_income": 252000000,
+      "opex": 108000000,
+      "cogs": 1425700000,
+      "rd": null,
+      "sga": 136100000,
+      "fcf": 358200000,
+      "ocf": 543000000,
+      "capex": -184800000,
+      "gross_margin": 0.25457492418697064,
+      "op_margin": 0.19810728850779044,
+      "fcf_margin": 0.18728432500261424,
+      "incr_op_margin_yoy": -0.37521222410865873,
+      "rev_growth_yoy": 0.0317742892593192,
+      "rev_growth_yoy_accel": -0.11174584647599693,
+      "fcf_margin_change": -0.011188291187654131
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +3.2% vs prior quarter YoY: +14.4% (decel: -11.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -589,18 +597,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +21.9% -> +17.4% -> +22.8% (reversal +5.4%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +44.2% vs prior quarter YoY: +36.7% (accel: +7.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +25.8% -> +21.5% -> +29.3% (reversal +7.8%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -628,5 +624,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:03:35.785588"
+  "last_updated": "2026-02-24T10:18:00.423367"
 }

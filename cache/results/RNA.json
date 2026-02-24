@@ -1,25 +1,9 @@
 {
   "ticker": "RNA",
-  "name": "Avidity Biosciences, Inc.",
+  "name": "AVIDITY BIOSCIENCES, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2142000,
-      "gross_profit": null,
-      "operating_income": -16293000,
-      "net_income": -16275000,
-      "opex": 18435000,
-      "cogs": null,
-      "rd": 13619000,
-      "sga": null,
-      "fcf": -13310000,
-      "ocf": -13073000,
-      "capex": -237000,
-      "gross_margin": null,
-      "op_margin": -7.606442577030812,
-      "fcf_margin": -6.2138188608776845
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -525000,
       "gross_margin": null,
       "op_margin": -8.8228550295858,
-      "fcf_margin": -7.472633136094674,
-      "op_leverage_ratio": 0.595227753912296,
-      "fcf_margin_change": -1.2588142752169897
+      "fcf_margin": -7.472633136094674
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": null,
       "op_margin": -20.813714902807774,
       "fcf_margin": -15.076673866090713,
-      "rev_growth_yoy": -0.1353874883286648,
       "fcf_margin_change": -5.098865266922891
     },
     {
@@ -116,7 +97,6 @@
       "op_margin": -19.197771587743734,
       "fcf_margin": -16.898050139275767,
       "rev_growth_yoy": -0.33616863905325445,
-      "rev_growth_yoy_accel": -0.20078115072458966,
       "fcf_margin_change": -1.821376273185054
     },
     {
@@ -160,7 +140,7 @@
       "fcf_margin": -12.833199033037873,
       "rev_growth_yoy": 0.14748035136384652,
       "rev_growth_yoy_accel": 0.31203731338916296,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 4.094257348963962
     },
     {
@@ -225,7 +205,7 @@
       "fcf_margin": -21.77417962003454,
       "rev_growth_yoy": 0.06336088154269973,
       "rev_growth_yoy_accel": -0.1806502605185816,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.9696627444974801
     },
     {
@@ -426,9 +406,37 @@
       "rev_growth_yoy_accel": 3.459151748333724,
       "op_leverage_ratio": 14.927087405444466,
       "fcf_margin_change": 40.19477853549574
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 860000,
+      "gross_profit": null,
+      "operating_income": -254478000,
+      "net_income": -237101000,
+      "opex": 255338000,
+      "cogs": null,
+      "rd": 166596000,
+      "sga": null,
+      "fcf": -175284000,
+      "ocf": -169773000,
+      "capex": -5511000,
+      "gross_margin": null,
+      "op_margin": -295.9046511627907,
+      "fcf_margin": -203.8186046511628,
+      "incr_op_margin_yoy": 63.17463322290582,
+      "rev_growth_yoy": -0.7107299024554322,
+      "rev_growth_yoy_accel": -5.051055244921185,
+      "fcf_margin_change": -191.24265274735518
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -71.1% vs prior quarter YoY: +434.0% (decel: -505.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -580,12 +588,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -33.6% vs prior quarter YoY: -13.5% (decel: -20.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -1106.4% -> -997.8% (+108.6%)",
@@ -619,5 +621,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:35:27.949511"
+  "last_updated": "2026-02-24T10:09:55.674012"
 }

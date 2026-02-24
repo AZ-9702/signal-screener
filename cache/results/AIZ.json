@@ -1,25 +1,9 @@
 {
   "ticker": "AIZ",
   "name": "Assurant, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2555100000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 139200000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 778200000,
-      "fcf": 400300000,
-      "ocf": 440400000,
-      "capex": -40100000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.15666705804078118
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -39600000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.18839924360766258,
-      "fcf_margin_change": -0.34506630164844376
+      "fcf_margin": -0.18839924360766258
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.07712920890131655,
-      "rev_growth_yoy": 0.007749207467418105,
       "fcf_margin_change": 0.09536410161494155
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.21839126757159544,
       "rev_growth_yoy": 0.02059524788292362,
-      "rev_growth_yoy_accel": 0.012846040415505515,
       "fcf_margin_change": -0.295520476472912
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.08889038649459177,
       "rev_growth_yoy_accel": 0.009058597373596183,
       "fcf_margin_change": 0.07171327991100773
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3350400000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 225200000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 611700000,
+      "ocf": 671000000,
+      "capex": -59300000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.18257521489971346,
+      "rev_growth_yoy": 0.0791033238855965,
+      "rev_growth_yoy_accel": -0.00978706260899527,
+      "fcf_margin_change": 0.045765683722241685
     }
   ],
   "signals": [
@@ -497,7 +499,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:33:16.210602",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-24T10:24:18.267828"
 }

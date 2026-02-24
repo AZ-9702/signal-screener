@@ -1,25 +1,9 @@
 {
   "ticker": "APAM",
   "name": "Artisan Partners Asset Management Inc.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 261036000,
-      "gross_profit": null,
-      "operating_income": 113492000,
-      "net_income": 73114000,
-      "opex": 147544000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 19279000,
-      "ocf": 19956000,
-      "capex": -677000,
-      "gross_margin": null,
-      "op_margin": 0.4347752800380024,
-      "fcf_margin": 0.07385571338819166
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -408000,
       "gross_margin": null,
       "op_margin": 0.4190527630325069,
-      "fcf_margin": 0.6617929867172153,
-      "op_leverage_ratio": 0.785679324910597,
-      "fcf_margin_change": 0.5879372733290237
+      "fcf_margin": 0.6617929867172153
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.45188867646721254,
       "fcf_margin": 0.21576066817730177,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.44603231853991354
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.43747698675706903,
       "fcf_margin": -0.019873919171142347,
-      "incr_op_margin_yoy": 0.450537037037037,
-      "rev_growth_yoy": 0.2068680182043856,
       "fcf_margin_change": -0.4754166990583093
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.6761873308759295,
       "incr_op_margin_yoy": 1.6321180746778279,
       "rev_growth_yoy": -0.031233981360754375,
-      "rev_growth_yoy_accel": -0.23810199956513997,
       "fcf_margin_change": 0.6960612500470719
     },
     {
@@ -232,7 +211,7 @@
       "incr_op_margin_yoy": 1.3796110783736004,
       "rev_growth_yoy": -0.03375260553407482,
       "rev_growth_yoy_accel": 0.13346804233984472,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2586604145340871
     },
     {
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": 0.35618842915994986,
       "rev_growth_yoy": 0.11492241759056084,
       "rev_growth_yoy_accel": -0.012330694230307457,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.277905415974891
     },
     {
@@ -437,11 +416,52 @@
       "incr_op_margin_yoy": 0.39801888965676113,
       "rev_growth_yoy": 0.07763375324591712,
       "rev_growth_yoy_accel": 0.033578335954599706,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045895783044793664
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 335505000,
+      "gross_profit": null,
+      "operating_income": 131505000,
+      "net_income": 94796000,
+      "opex": 204000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -77317000,
+      "ocf": -77250000,
+      "capex": -67000,
+      "gross_margin": null,
+      "op_margin": 0.39196137166361156,
+      "fcf_margin": -0.23044962072100267,
+      "incr_op_margin_yoy": 0.5810578873459198,
+      "rev_growth_yoy": 0.12945251825444115,
+      "rev_growth_yoy_accel": 0.05181876500852403,
+      "op_leverage_ratio": 4.998705614695832,
+      "fcf_margin_change": -0.3644978869920333
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +11.4% vs OpEx growth +2.3% (leverage: 5.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +12.9% vs prior quarter YoY: +7.8% (accel: +5.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +58.1% vs year-ago OPM: +36.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
@@ -588,12 +608,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.1% vs prior quarter YoY: +20.7% (decel: -23.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +163.2% vs year-ago OPM: +41.9%",
       "severity": "HIGH"
@@ -602,12 +616,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +21.6% -> +45.6% (+24.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +7.4% -> +66.2% (+58.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -638,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:21:39.561288",
-  "sector": "Financial Services",
-  "industry": "Asset Management"
+  "last_updated": "2026-02-24T10:12:43.894257"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "UNM",
   "name": "Unum Group",
+  "sector": "Financial Services",
+  "industry": "Insurance - Life",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4273500000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 135400000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -829100000,
-      "ocf": -809500000,
-      "capex": -19600000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.194009594009594
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -30900000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.07314453125,
-      "fcf_margin_change": 0.120865062759594
+      "fcf_margin": -0.07314453125
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.1517908093048236,
-      "rev_growth_yoy": -0.30288990288990286,
       "fcf_margin_change": 0.016962375456286732
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.1019279128248114,
       "rev_growth_yoy": -0.029134114583333332,
-      "rev_growth_yoy_accel": 0.27375578830656955,
       "fcf_margin_change": -0.049862896480012214
     },
     {
@@ -412,9 +393,36 @@
       "rev_growth_yoy": 0.05017096673919801,
       "rev_growth_yoy_accel": 0.010584154096159724,
       "fcf_margin_change": -0.21439701605449202
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3244100000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 174100000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 320100000,
+      "ocf": 357900000,
+      "capex": -37800000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.09867143429610678,
+      "rev_growth_yoy": 0.0023172464932336404,
+      "rev_growth_yoy_accel": -0.04785372024596437,
+      "fcf_margin_change": 0.21784027161554792
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -11.9% -> +9.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -434,22 +442,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -2.9% vs prior quarter YoY: -30.3% (accel: +27.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -7.3% -> +21.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -19.4% -> -7.3% (+12.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -480,5 +476,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:51.887017"
+  "last_updated": "2026-02-24T10:35:14.570780"
 }

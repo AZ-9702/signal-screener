@@ -1,25 +1,9 @@
 {
   "ticker": "OXY",
-  "name": "OCCIDENTAL PETROLEUM CORPORATION",
+  "name": "OCCIDENTAL PETROLEUM CORP /DE/",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4160000000,
-      "gross_profit": 3559000000,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": 601000000,
-      "rd": null,
-      "sga": 209000000,
-      "fcf": 790000000,
-      "ocf": 1404000000,
-      "capex": -614000000,
-      "gross_margin": 0.8555288461538462,
-      "op_margin": null,
-      "fcf_margin": 0.18990384615384615
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -579000000,
       "gross_margin": 0.8877763083317589,
       "op_margin": null,
-      "fcf_margin": 0.0625354241450973,
-      "fcf_margin_change": -0.12736842200874884
+      "fcf_margin": 0.0625354241450973
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.902565398710982,
       "op_margin": null,
       "fcf_margin": 0.2723366611904461,
-      "rev_growth_yoy": 0.9021634615384615,
       "fcf_margin_change": -0.0901486156057848
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.2851838543538148,
       "rev_growth_yoy": 0.5773663328924995,
-      "rev_growth_yoy_accel": -0.324797128645962,
       "fcf_margin_change": 0.012847193163368742
     },
     {
@@ -255,15 +236,15 @@
       "cogs": 898000000,
       "rd": null,
       "sga": 307000000,
-      "fcf": 1695000000,
+      "fcf": 2269000000,
       "ocf": 3239000000,
-      "capex": -1544000000,
+      "capex": -970000000,
       "gross_margin": 0.8747908533184606,
       "op_margin": null,
-      "fcf_margin": 0.23633575013943112,
+      "fcf_margin": 0.3163692136084774,
       "rev_growth_yoy": -0.12738776006813482,
       "rev_growth_yoy_accel": 0.1103119204430473,
-      "fcf_margin_change": 0.025382970033256208
+      "fcf_margin_change": 0.10541643350230251
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -284,7 +265,7 @@
       "fcf_margin": 0.03748953974895398,
       "rev_growth_yoy": -0.17301038062283736,
       "rev_growth_yoy_accel": -0.045622620554702537,
-      "fcf_margin_change": -0.19884621039047715
+      "fcf_margin_change": -0.27887967385952345
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -339,15 +320,15 @@
       "cogs": 752000000,
       "rd": null,
       "sga": 276000000,
-      "fcf": 1575000000,
+      "fcf": 2330000000,
       "ocf": 3356000000,
-      "capex": -1781000000,
+      "capex": -1026000000,
       "gross_margin": 0.8887573964497042,
       "op_margin": null,
-      "fcf_margin": 0.23298816568047337,
+      "fcf_margin": 0.34467455621301774,
       "rev_growth_yoy": -0.05744562186279978,
       "rev_growth_yoy_accel": -0.05954117928107304,
-      "fcf_margin_change": -0.04569578803484797
+      "fcf_margin_change": 0.0659906024976964
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -368,7 +349,7 @@
       "fcf_margin": 0.03527855357930325,
       "rev_growth_yoy": 0.1385774058577406,
       "rev_growth_yoy_accel": 0.19602302772054037,
-      "fcf_margin_change": -0.1977096121011701
+      "fcf_margin_change": -0.3093960026337145
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -411,9 +392,42 @@
       "rev_growth_yoy": -0.07653701380175659,
       "rev_growth_yoy_accel": -0.01742010020339954,
       "fcf_margin_change": 0.004303030508443939
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1752000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 158000000,
+      "fcf": 1881000000,
+      "ocf": 2634000000,
+      "capex": -753000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.0736301369863013,
+      "rev_growth_yoy": -0.7408284023668639,
+      "rev_growth_yoy_accel": -0.6642913885651073,
+      "fcf_margin_change": 0.9193426973727747
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +15.4% -> +107.4% (+91.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -74.1% vs prior quarter YoY: -7.7% (decel: -66.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -431,6 +445,12 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +13.9% vs prior quarter YoY: -5.7% (accel: +19.6%)",
       "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +27.9% -> +34.5% (+6.6%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2024-12 (Q4)",
@@ -455,6 +475,12 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +1.7% vs prior quarter YoY: -17.3% (accel: +19.0%)",
       "severity": "HIGH"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +21.1% -> +31.6% (+10.5%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2023-12 (Q4)",
@@ -511,12 +537,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +57.7% vs prior quarter YoY: +90.2% (decel: -32.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.3% -> +43.9% (+37.7%)",
@@ -531,7 +551,7 @@
         20
       ],
       "gross_profit": [
-        20,
+        19,
         20
       ],
       "op_income": [
@@ -550,5 +570,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:01:37.699468"
+  "last_updated": "2026-02-24T10:27:32.294415"
 }

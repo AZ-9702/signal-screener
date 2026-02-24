@@ -1,25 +1,9 @@
 {
   "ticker": "GPC",
   "name": "GENUINE PARTS CO",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4251594000,
-      "gross_profit": 1448110000,
-      "operating_income": null,
-      "net_income": 171204000,
-      "opex": 1213190000,
-      "cogs": 2803484000,
-      "rd": null,
-      "sga": 1132297000,
-      "fcf": null,
-      "ocf": null,
-      "capex": -48074000,
-      "gross_margin": 0.3406040181635405,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -48391000,
       "gross_margin": 0.3451094515796533,
       "op_margin": null,
-      "fcf_margin": 0.05656599728448452,
-      "op_leverage_ratio": 1.027622540202179
+      "fcf_margin": 0.05656599728448452
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": 0.35256616982521477,
       "op_margin": null,
       "fcf_margin": 0.025432788787662582,
-      "rev_growth_yoy": 0.1297431034101563,
       "fcf_margin_change": -0.027599169673787446
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.06058264639583276,
       "rev_growth_yoy": 0.18588447098739136,
-      "rev_growth_yoy_accel": 0.05614136757723506,
       "op_leverage_ratio": 0.9871608526407809,
       "fcf_margin_change": 0.035149857608170174
     },
@@ -139,7 +120,7 @@
       "fcf_margin": 0.056626661292792715,
       "rev_growth_yoy": 0.1711372989072562,
       "rev_growth_yoy_accel": -0.014747172080135151,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.003955985103040044
     },
     {
@@ -204,7 +185,7 @@
       "fcf_margin": 0.0189774086150535,
       "rev_growth_yoy": 0.08886032748244213,
       "rev_growth_yoy_accel": -0.0611312718837316,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.00396865060303599
     },
     {
@@ -422,6 +403,27 @@
       "rev_growth_yoy_accel": 0.014726087563184317,
       "op_leverage_ratio": 0.5082131371258245,
       "fcf_margin_change": 0.02519630680769884
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6009415000,
+      "gross_profit": 2101224000,
+      "operating_income": null,
+      "net_income": -609498000,
+      "opex": 2139649000,
+      "cogs": 3908191000,
+      "rd": null,
+      "sga": 1864241000,
+      "fcf": 260678000,
+      "ocf": 380073000,
+      "capex": -119395000,
+      "gross_margin": 0.3496553325074071,
+      "op_margin": null,
+      "fcf_margin": 0.043378265604888326,
+      "rev_growth_yoy": 0.04146184178533295,
+      "rev_growth_yoy_accel": -0.007118456556531087,
+      "fcf_margin_change": 0.005048535971865144
     }
   ],
   "signals": [
@@ -460,12 +462,6 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: +8.9% vs prior quarter YoY: +15.0% (decel: -6.1%)",
       "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +18.6% vs prior quarter YoY: +13.0% (accel: +5.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -484,7 +480,7 @@
         20
       ],
       "fcf": [
-        19,
+        20,
         20
       ]
     },
@@ -495,7 +491,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:19:20.766391",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:13:50.786733"
 }

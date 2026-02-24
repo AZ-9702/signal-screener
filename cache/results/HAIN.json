@@ -1,25 +1,9 @@
 {
   "ticker": "HAIN",
-  "name": "The Hain Celestial Group, Inc.",
+  "name": "THE HAIN CELESTIAL GROUP, INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 528418000,
-      "gross_profit": 129965000,
-      "operating_income": 12957000,
-      "net_income": 2140000,
-      "opex": 117008000,
-      "cogs": 398453000,
-      "rd": null,
-      "sga": 83620000,
-      "fcf": 63861000,
-      "ocf": 63861000,
-      "capex": null,
-      "gross_margin": 0.2459511220283942,
-      "op_margin": 0.024520360774992526,
-      "fcf_margin": 0.1208531881957087
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.2637128403342238,
       "op_margin": 0.10064270692077205,
-      "fcf_margin": 0.08523479305892766,
-      "fcf_margin_change": -0.03561839513678104
+      "fcf_margin": 0.08523479305892766
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.24593188675328814,
       "op_margin": 0.06713828335160953,
       "fcf_margin": 0.06383389140375853,
-      "incr_op_margin_yoy": -0.37034015191250463,
-      "rev_growth_yoy": -0.09741719623479897,
       "op_leverage_ratio": 0.7161558307352593,
       "fcf_margin_change": -0.018790316394387455
     },
@@ -118,8 +99,7 @@
       "fcf_margin": 0.06194588210498689,
       "incr_op_margin_yoy": -1.394581519109821,
       "rev_growth_yoy": 0.020980341207135954,
-      "rev_growth_yoy_accel": 0.11839753744193493,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0018880092987716424
     },
     {
@@ -186,7 +166,7 @@
       "incr_op_margin_yoy": 0.2037566533233625,
       "rev_growth_yoy": -0.047664176491431856,
       "rev_growth_yoy_accel": -0.01347666838530813,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.017069275680353976
     },
     {
@@ -430,11 +410,40 @@
       "incr_op_margin_yoy": 0.37127990117171417,
       "rev_growth_yoy": -0.06769708765420836,
       "rev_growth_yoy_accel": 0.06470771751485842,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.015763027705242107
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 384120000,
+      "gross_profit": 74439000,
+      "operating_income": -98822000,
+      "net_income": -116006000,
+      "opex": 173261000,
+      "cogs": 309681000,
+      "rd": null,
+      "sga": 60903000,
+      "fcf": 36968000,
+      "ocf": 36968000,
+      "capex": null,
+      "gross_margin": 0.19379100281162137,
+      "op_margin": -0.25726856190773717,
+      "fcf_margin": 0.0962407580964282,
+      "incr_op_margin_yoy": 0.2529873926548511,
+      "rev_growth_yoy": -0.06650303170224917,
+      "rev_growth_yoy_accel": 0.0011940559519591915,
+      "op_leverage_ratio": 0.03364295308003798,
+      "fcf_margin_change": 0.11929156501058297
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -2.3% -> +9.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -512,12 +521,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +62.5% vs year-ago OPM: +5.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +2.1% vs prior quarter YoY: -9.7% (accel: +11.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -545,7 +548,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:17:36.585592",
-  "sector": "Consumer Defensive",
-  "industry": "Packaged Foods"
+  "last_updated": "2026-02-24T11:07:09.174965"
 }

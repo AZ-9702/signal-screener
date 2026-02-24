@@ -1,25 +1,9 @@
 {
   "ticker": "CMTG",
   "name": "Claros Mortgage Trust, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 62003000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 13194000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 44656000,
-      "ocf": 44656000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.7202232150057255
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5390063896181089,
-      "fcf_margin_change": -0.18121682538761663
+      "fcf_margin": 0.5390063896181089
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 1.0111636901709715,
-      "rev_growth_yoy": 0.10086608712481654,
       "op_leverage_ratio": 0.07972739542956864,
       "fcf_margin_change": 0.17360386668908945
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.3904914806566886,
       "rev_growth_yoy": -0.04358809252563277,
-      "rev_growth_yoy_accel": -0.14445417965044932,
       "fcf_margin_change": -0.6206722095142829
     },
     {
@@ -419,9 +400,37 @@
       "rev_growth_yoy": -0.28982536183855606,
       "rev_growth_yoy_accel": -0.09048285869838826,
       "fcf_margin_change": 0.3037175789169493
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 46747000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 52017000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2398000,
+      "ocf": 2398000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.05129740945943055,
+      "rev_growth_yoy": -0.22380699365722445,
+      "rev_growth_yoy_accel": 0.06601836818133161,
+      "op_leverage_ratio": 0.11716708771940285,
+      "fcf_margin_change": -0.1391570768018014
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -22.4% vs prior quarter YoY: -29.0% (accel: +6.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -525,12 +534,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -4.4% vs prior quarter YoY: +10.1% (decel: -14.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +83.8% -> +101.1% (+17.4%)",
@@ -571,7 +574,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:33:33.133003",
-  "sector": "Real Estate",
-  "industry": "REIT - Mortgage"
+  "last_updated": "2026-02-24T10:26:29.993806"
 }

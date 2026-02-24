@@ -1,25 +1,9 @@
 {
   "ticker": "QUAD",
-  "name": "Quad/Graphics,\u00a0Inc.",
+  "name": "QUAD/GRAPHICS, INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 843300000,
-      "gross_profit": 160400000,
-      "operating_income": -54500000,
-      "net_income": -94000000,
-      "opex": 897800000,
-      "cogs": 682900000,
-      "rd": null,
-      "sga": 97100000,
-      "fcf": 72500000,
-      "ocf": 82800000,
-      "capex": -10300000,
-      "gross_margin": 0.19020514644847622,
-      "op_margin": -0.06462706035811693,
-      "fcf_margin": 0.08597177754061425
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -16900000,
       "gross_margin": 0.20685746670444885,
       "op_margin": 0.029753471238311135,
-      "fcf_margin": 0.0793425899688297,
-      "fcf_margin_change": -0.006629187571784545
+      "fcf_margin": 0.0793425899688297
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.1787970980575708,
       "op_margin": -0.004914579920430611,
       "fcf_margin": 0.12403463608705827,
-      "incr_op_margin_yoy": 4.451327433628318,
-      "rev_growth_yoy": 0.013399739120123325,
       "op_leverage_ratio": 0.7892159140988714,
       "fcf_margin_change": 0.23903251174206464
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.04837409298575652,
       "incr_op_margin_yoy": -0.40625,
       "rev_growth_yoy": 0.054406347407197506,
-      "rev_growth_yoy_accel": 0.041006608287074184,
       "fcf_margin_change": -0.1724087290728148
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy_accel": -0.030396709809201894,
       "op_leverage_ratio": 4.621859025127799,
       "fcf_margin_change": -0.09518438954529179
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 630600000,
+      "gross_profit": 136200000,
+      "operating_income": 37300000,
+      "net_income": null,
+      "opex": 593300000,
+      "cogs": 494400000,
+      "rd": null,
+      "sga": 81300000,
+      "fcf": 137200000,
+      "ocf": 145900000,
+      "capex": -8700000,
+      "gross_margin": 0.2159847764034253,
+      "op_margin": 0.0591500158579131,
+      "fcf_margin": 0.21757056771328892,
+      "incr_op_margin_yoy": -0.2262210796915167,
+      "rev_growth_yoy": -0.10982495765104461,
+      "rev_growth_yoy_accel": 0.01880574774314625,
+      "op_leverage_ratio": 1.283512521727934,
+      "fcf_margin_change": 0.2526045813187311
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.5% -> +21.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -582,12 +591,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -11.5% -> +12.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -6.5% -> +3.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -615,5 +618,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:44:55.120418"
+  "last_updated": "2026-02-24T10:30:01.211994"
 }

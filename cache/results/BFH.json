@@ -1,6 +1,8 @@
 {
   "ticker": "BFH",
   "name": "BREAD FINANCIAL HOLDINGS, INC.",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
     {
       "date": "2016-12-31T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.44539648749334754,
       "op_margin": 0.18754656732304417,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2017-06-30T00:00:00",
@@ -74,7 +76,7 @@
       "gross_margin": 0.44232378163564107,
       "op_margin": 0.25041832252666807,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2017-12-31T00:00:00",
@@ -138,7 +140,7 @@
       "incr_op_margin_yoy": 0.8392204628501827,
       "rev_growth_yoy": 0.04506532001317379,
       "rev_growth_yoy_accel": 0.04229789052940583,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2018-09-30T00:00:00",
@@ -160,7 +162,7 @@
       "incr_op_margin_yoy": 1.2385057471264367,
       "rev_growth_yoy": 0.018197029910060655,
       "rev_growth_yoy_accel": -0.026868290103113132,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2018-12-31T00:00:00",
@@ -333,7 +335,7 @@
       "incr_op_margin_yoy": 0.03409971583570137,
       "rev_growth_yoy": -0.26926822481914303,
       "rev_growth_yoy_accel": 0.004517462982117637,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2020-12-31T00:00:00",
@@ -341,17 +343,17 @@
       "revenue": 1109800000,
       "gross_profit": 507200000,
       "operating_income": 258700000,
-      "net_income": 12000000,
+      "net_income": null,
       "opex": 851100000,
       "cogs": 602600000,
       "rd": null,
       "sga": null,
-      "fcf": 394400000,
-      "ocf": 394400000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": 0.4570192827536493,
       "op_margin": 0.23310506397549108,
-      "fcf_margin": 0.3553793476302036,
+      "fcf_margin": null,
       "incr_op_margin_yoy": 0.1432232346241458,
       "rev_growth_yoy": -0.24038329911019848,
       "rev_growth_yoy_accel": 0.028884925708944548,
@@ -376,8 +378,7 @@
       "fcf_margin": 0.47654161673886997,
       "incr_op_margin_yoy": -1.1421353991242842,
       "rev_growth_yoy": -0.2148646692719641,
-      "rev_growth_yoy_accel": 0.025518629838234386,
-      "fcf_margin_change": 0.12116226910866634
+      "rev_growth_yoy_accel": 0.025518629838234386
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -455,12 +456,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +902.1% vs year-ago OPM: +17.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +35.5% -> +47.7% (+12.1%)",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-03 (Q1)",
@@ -569,18 +564,16 @@
         20
       ],
       "fcf": [
-        4,
+        3,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "fcf: 4/20Q"
+      "fcf: 3/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:20:38.207752",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-24T10:40:34.998716"
 }

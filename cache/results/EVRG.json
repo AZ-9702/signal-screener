@@ -1,25 +1,9 @@
 {
   "ticker": "EVRG",
   "name": "EVERGY, INC.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1094400000,
-      "gross_profit": null,
-      "operating_income": 153000000,
-      "net_income": 51000000,
-      "opex": 941400000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -170100000,
-      "ocf": 332100000,
-      "capex": -502200000,
-      "gross_margin": null,
-      "op_margin": 0.13980263157894737,
-      "fcf_margin": -0.15542763157894737
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -467700000,
       "gross_margin": null,
       "op_margin": 0.1970965940815187,
-      "fcf_margin": -0.30789751225262113,
-      "op_leverage_ratio": 1.2617690990870032,
-      "fcf_margin_change": -0.15246988067367376
+      "fcf_margin": -0.30789751225262113
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.12583548703324124,
       "fcf_margin": -0.23357989484003208,
-      "incr_op_margin_yoy": -0.4259927797833935,
-      "rev_growth_yoy": 0.025310672514619884,
       "fcf_margin_change": -0.42399127745679666
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.2121088324209494,
       "incr_op_margin_yoy": 0.16649484536082473,
       "rev_growth_yoy": -0.24070972144673988,
-      "rev_growth_yoy_accel": -0.2660203939613598,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02147106241908267
     },
     {
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.35939643347050754,
       "rev_growth_yoy": 0.059563689843941496,
       "rev_growth_yoy_accel": -0.0807981317405875,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05086418507942894
     },
     {
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": -0.011917659804983749,
       "rev_growth_yoy": -0.06380919460767369,
       "rev_growth_yoy_accel": -0.12337288445161518,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03847695350613001
     },
     {
@@ -441,9 +420,37 @@
       "rev_growth_yoy_accel": 0.00642579723924643,
       "op_leverage_ratio": 4.874299980629749,
       "fcf_margin_change": 0.3356715748375814
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1340200000,
+      "gross_profit": null,
+      "operating_income": 239000000,
+      "net_income": 84300000,
+      "opex": 1101200000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -530500000,
+      "ocf": 334000000,
+      "capex": -864500000,
+      "gross_margin": null,
+      "op_margin": 0.17833159229965675,
+      "fcf_margin": -0.39583644232204146,
+      "incr_op_margin_yoy": 0.2028985507246377,
+      "rev_growth_yoy": 0.06585016701129315,
+      "rev_growth_yoy_accel": 0.0666782557824094,
+      "fcf_margin_change": -0.5203737095743759
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +6.6% vs prior quarter YoY: -0.1% (accel: +6.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -589,12 +596,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -24.1% vs prior quarter YoY: +2.5% (decel: -26.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -13.8% -> +19.0%",
@@ -640,7 +641,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:21:22.067962",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:24:53.285949"
 }

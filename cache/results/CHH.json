@@ -1,25 +1,9 @@
 {
   "ticker": "CHH",
-  "name": "CHOICE HOTELS INTERNATIONAL INC /DE",
+  "name": "CHOICE HOTELS INTERNATIONAL INC / DE",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 193393000,
-      "gross_profit": null,
-      "operating_income": 16797000,
-      "net_income": 7865000,
-      "opex": 167361000,
-      "cogs": null,
-      "rd": null,
-      "sga": 44312000,
-      "fcf": 40381000,
-      "ocf": 40381000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.08685422947055994,
-      "fcf_margin": 0.20880280051501346
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.2404958813208197,
-      "fcf_margin": 0.0006559276730419192,
-      "fcf_margin_change": -0.20814687284197153
+      "fcf_margin": 0.0006559276730419192
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.37523099515876307,
       "fcf_margin": 0.48641432275381363,
-      "incr_op_margin_yoy": 0.9864430927722067,
-      "rev_growth_yoy": 0.471811285827305,
       "fcf_margin_change": 0.04469913051213309
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.2480298920951239,
       "incr_op_margin_yoy": 0.7408264241775876,
       "rev_growth_yoy": 0.408752261583956,
-      "rev_growth_yoy_accel": -0.06305902424334903,
       "fcf_margin_change": -0.23838443065868972
     },
     {
@@ -433,9 +413,36 @@
       "rev_growth_yoy_accel": 0.06529754070255002,
       "op_leverage_ratio": 4.8055130651861555,
       "fcf_margin_change": -0.070641652599502
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 390150000,
+      "gross_profit": null,
+      "operating_income": 101454000,
+      "net_income": 63682000,
+      "opex": 288696000,
+      "cogs": null,
+      "rd": null,
+      "sga": 85840000,
+      "fcf": 85690000,
+      "ocf": 85690000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.26003844675124954,
+      "fcf_margin": 0.21963347430475458,
+      "rev_growth_yoy": 0.0009749339353977987,
+      "rev_growth_yoy_accel": -0.044299902265778,
+      "fcf_margin_change": 0.06608807259688138
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +15.4% -> +22.0% (+6.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -540,20 +547,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +40.9% vs prior quarter YoY: +47.2% (decel: -6.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +74.1% vs year-ago OPM: +24.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +98.6% vs year-ago OPM: +8.7%",
       "severity": "HIGH"
     },
     {
@@ -608,7 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:05:44.932178",
-  "sector": "Consumer Cyclical",
-  "industry": "Lodging"
+  "last_updated": "2026-02-24T10:18:26.820749"
 }

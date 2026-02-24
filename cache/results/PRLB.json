@@ -1,25 +1,9 @@
 {
   "ticker": "PRLB",
   "name": "Proto Labs, Inc.",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 105208000,
-      "gross_profit": 52628000,
-      "operating_income": 10991000,
-      "net_income": 9579000,
-      "opex": 41637000,
-      "cogs": 52580000,
-      "rd": 11390000,
-      "sga": null,
-      "fcf": 18073000,
-      "ocf": 24594000,
-      "capex": -6521000,
-      "gross_margin": 0.5002281195346362,
-      "op_margin": 0.10446924188274656,
-      "fcf_margin": 0.1717835145616303
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6546000,
       "gross_margin": 0.4764652188140468,
       "op_margin": 0.03669290253689957,
-      "fcf_margin": -0.001041971651482011,
-      "op_leverage_ratio": 0.4581102020995898,
-      "fcf_margin_change": -0.1728254862131123
+      "fcf_margin": -0.001041971651482011
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.4601862687731617,
       "op_margin": 0.13087575580261362,
       "fcf_margin": -0.025022755347506663,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.023980783696024653
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.448382450518684,
       "op_margin": 0.1055979026071758,
       "fcf_margin": 0.13565082293537895,
-      "incr_op_margin_yoy": 0.11206052030042452,
-      "rev_growth_yoy": 0.174644513725192,
       "fcf_margin_change": 0.07606185834250505
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.11850074093164101,
       "incr_op_margin_yoy": 0.4512559064909227,
       "rev_growth_yoy": 0.06925236381172176,
-      "rev_growth_yoy_accel": -0.10539214991347023,
       "fcf_margin_change": -0.017150082003737938
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -2.4488468361916027,
       "rev_growth_yoy": 0.013618645705817924,
       "rev_growth_yoy_accel": 0.07815069729909202,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10669917975131984
     },
     {
@@ -389,7 +368,7 @@
       "incr_op_margin_yoy": 1.3626112759643918,
       "rev_growth_yoy": -0.013175385096567363,
       "rev_growth_yoy_accel": 0.01319848733641837,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0004006147880225297
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy": 0.07759176557686337,
       "rev_growth_yoy_accel": 0.0025147543296393515,
       "fcf_margin_change": 0.11739690312306368
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 136493000,
+      "gross_profit": 60372000,
+      "operating_income": 6800000,
+      "net_income": 5999000,
+      "opex": 53572000,
+      "cogs": 76121000,
+      "rd": 10321000,
+      "sga": null,
+      "fcf": 8401000,
+      "ocf": 16451000,
+      "capex": -8050000,
+      "gross_margin": 0.4423083967675998,
+      "op_margin": 0.04981940465811434,
+      "fcf_margin": 0.061548943901885075,
+      "incr_op_margin_yoy": 0.5626398969002239,
+      "rev_growth_yoy": 0.1210924024640657,
+      "rev_growth_yoy_accel": 0.043500636887202335,
+      "fcf_margin_change": -0.12334238774712576
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1.2% (year-ago) -> +5.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -567,12 +574,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +6.9% vs prior quarter YoY: +17.5% (decel: -10.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +45.1% vs year-ago OPM: +3.7%",
       "severity": "HIGH"
@@ -615,5 +616,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:54:42.068664"
+  "last_updated": "2026-02-24T10:12:54.248022"
 }

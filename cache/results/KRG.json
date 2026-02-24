@@ -1,25 +1,9 @@
 {
   "ticker": "KRG",
   "name": "KITE REALTY GROUP TRUST",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 68361000,
-      "gross_profit": null,
-      "operating_income": 5651000,
-      "net_income": -6794000,
-      "opex": 62550000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 9752000,
-      "ocf": 9752000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.08266409209929639,
-      "fcf_margin": 0.14265443747165782
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.547790990990991,
-      "fcf_margin": 0.4512432432432432,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.30858880577158543
+      "fcf_margin": 0.4512432432432432
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": -0.47624424670144216,
       "fcf_margin": -0.02135624424670144,
-      "incr_op_margin_yoy": -0.8801763418579327,
-      "rev_growth_yoy": 1.383669051067129,
       "op_leverage_ratio": 0.4812954446345462,
       "fcf_margin_change": -0.5311442523625624
     },
@@ -120,8 +100,7 @@
       "fcf_margin": 0.25506839308404194,
       "incr_op_margin_yoy": -0.2317223395405388,
       "rev_growth_yoy": 1.8020324324324324,
-      "rev_growth_yoy_accel": 0.4183633813653034,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2764246373307434
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.20234006898469262,
       "rev_growth_yoy": 1.913838232756141,
       "rev_growth_yoy_accel": 0.11180580032370857,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2618931823953391
     },
     {
@@ -189,7 +168,7 @@
       "incr_op_margin_yoy": 2.4658472891061116,
       "rev_growth_yoy": 0.2561460570727217,
       "rev_growth_yoy_accel": -1.546778451427943,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03118981433045731
     },
     {
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 1.7609838983736548,
       "rev_growth_yoy": 0.06357804630872828,
       "rev_growth_yoy_accel": -0.19256801076399344,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.26325318111554175
     },
     {
@@ -434,6 +413,27 @@
       "rev_growth_yoy": -0.01060539533806507,
       "rev_growth_yoy_accel": -0.015129153305245465,
       "fcf_margin_change": -0.05589486466685201
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 204153000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 169282000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 106584000,
+      "ocf": 106584000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5220790289635714,
+      "rev_growth_yoy": -0.04919521600625943,
+      "rev_growth_yoy_accel": -0.03858982066819436,
+      "fcf_margin_change": -0.0445055459065854
     }
   ],
   "signals": [
@@ -571,12 +571,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +180.2% vs prior quarter YoY: +138.4% (accel: +41.8%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -47.6% -> +4.6%",
       "severity": "HIGH"
@@ -585,12 +579,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +45.1% -> +51.9% (+6.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +14.3% -> +45.1% (+30.9%)",
       "severity": "MEDIUM"
     }
   ],
@@ -606,7 +594,7 @@
         20
       ],
       "op_income": [
-        18,
+        17,
         20
       ],
       "fcf": [
@@ -621,7 +609,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:02:18.519762",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-24T10:39:51.193545"
 }

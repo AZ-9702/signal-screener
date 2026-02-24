@@ -1,25 +1,9 @@
 {
   "ticker": "GWW",
   "name": "W.W. Grainger, Inc.",
+  "sector": "Industrials",
+  "industry": "Industrial Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2941000000,
-      "gross_profit": 1027000000,
-      "operating_income": 275000000,
-      "net_income": 168000000,
-      "opex": 752000000,
-      "cogs": 1914000000,
-      "rd": null,
-      "sga": 752000000,
-      "fcf": 291000000,
-      "ocf": 336000000,
-      "capex": -45000000,
-      "gross_margin": 0.3492009520571234,
-      "op_margin": 0.09350561033662019,
-      "fcf_margin": 0.09894593675620537
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -73000000,
       "gross_margin": 0.3544098573281453,
       "op_margin": 0.11608300907911803,
-      "fcf_margin": 0.07166018158236057,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.02728575517384481
+      "fcf_margin": 0.07166018158236057
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3730276868115511,
       "op_margin": 0.12414409050312593,
       "fcf_margin": 0.0461446859184281,
-      "incr_op_margin_yoy": 0.3397129186602871,
-      "rev_growth_yoy": 0.1421285277116627,
       "fcf_margin_change": 0.013226536452235933
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.07842061968741432,
       "incr_op_margin_yoy": 0.31261101243339257,
       "rev_growth_yoy": 0.1825551232166018,
-      "rev_growth_yoy_accel": 0.0404265955049391,
       "op_leverage_ratio": 5.513728902832803,
       "fcf_margin_change": 0.032275933768986215
     },
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 0.32882882882882886,
       "rev_growth_yoy": 0.1217438990951467,
       "rev_growth_yoy_accel": -0.0101405903362317,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0049582158446628
     },
     {
@@ -302,7 +281,7 @@
       "incr_op_margin_yoy": -0.0763888888888889,
       "rev_growth_yoy": 0.03519921779516011,
       "rev_growth_yoy_accel": -0.01608957757569733,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.008641605170820257
     },
     {
@@ -348,7 +327,7 @@
       "incr_op_margin_yoy": 0.10555555555555556,
       "rev_growth_yoy": 0.04277566539923954,
       "rev_growth_yoy_accel": 0.011690060425542746,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04149852946896833
     },
     {
@@ -393,7 +372,7 @@
       "incr_op_margin_yoy": 0.04225352112676056,
       "rev_growth_yoy": 0.01676505312868949,
       "rev_growth_yoy_accel": -0.04227923008371982,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0808333193433278
     },
     {
@@ -441,6 +420,28 @@
       "rev_growth_yoy_accel": 0.005181106170818371,
       "op_leverage_ratio": 0.11599535729970512,
       "fcf_margin_change": 0.02843703440280823
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4425000000,
+      "gross_profit": 1746000000,
+      "operating_income": 634000000,
+      "net_income": 451000000,
+      "opex": 1112000000,
+      "cogs": 2679000000,
+      "rd": null,
+      "sga": 1112000000,
+      "fcf": 269000000,
+      "ocf": 395000000,
+      "capex": -126000000,
+      "gross_margin": 0.3945762711864407,
+      "op_margin": 0.1432768361581921,
+      "fcf_margin": 0.0607909604519774,
+      "incr_op_margin_yoy": 0.005208333333333333,
+      "rev_growth_yoy": 0.04535790219702339,
+      "rev_growth_yoy_accel": -0.01594565295338682,
+      "fcf_margin_change": -0.012002683524831713
     }
   ],
   "signals": [
@@ -511,12 +512,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +34.0% vs year-ago OPM: +9.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +5.1% vs OpEx growth +2.8% (leverage: 1.8x)",
@@ -554,7 +549,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:44.938717",
-  "sector": "Industrials",
-  "industry": "Industrial Distribution"
+  "last_updated": "2026-02-24T10:21:23.019491"
 }

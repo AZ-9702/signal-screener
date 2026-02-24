@@ -1,25 +1,9 @@
 {
   "ticker": "TAP",
-  "name": "Molson Coors Beverage Company",
+  "name": "MOLSON COORS BEVERAGE COMPANY",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Brewers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2777800000,
-      "gross_profit": 895200000,
-      "operating_income": -1282700000,
-      "net_income": -1369800000,
-      "opex": 2177900000,
-      "cogs": 1399100000,
-      "rd": null,
-      "sga": 648300000,
-      "fcf": 202500000,
-      "ocf": 202500000,
-      "capex": null,
-      "gross_margin": 0.32226942184462526,
-      "op_margin": -0.46176830585355316,
-      "fcf_margin": 0.07289941680466556
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.3240104605292319,
       "op_margin": 0.07854261779176455,
-      "fcf_margin": -0.08461504365941226,
-      "fcf_margin_change": -0.15751446046407783
+      "fcf_margin": -0.08461504365941226
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.26837590783871773,
       "op_margin": 0.05165289256198347,
       "fcf_margin": 0.09573002754820936,
-      "incr_op_margin_yoy": 3.4750360057609218,
-      "rev_growth_yoy": 0.1499748002015984,
       "fcf_margin_change": -0.05540230056496523
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -0.04513297771724738,
       "incr_op_margin_yoy": 0.12190082644628099,
       "rev_growth_yoy": 0.17162359824475865,
-      "rev_growth_yoy_accel": 0.02164879804316025,
       "fcf_margin_change": -0.14086300526545675
     },
     {
@@ -432,9 +412,43 @@
       "rev_growth_yoy": -0.033025282380040516,
       "rev_growth_yoy_accel": -0.007465760741729895,
       "fcf_margin_change": -0.01523708028112658
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3125800000,
+      "gross_profit": 968300000,
+      "operating_income": 324300000,
+      "net_income": 238300000,
+      "opex": 644000000,
+      "cogs": 1694100000,
+      "rd": null,
+      "sga": 610900000,
+      "fcf": 540700000,
+      "ocf": 540700000,
+      "capex": null,
+      "gross_margin": 0.30977669716552564,
+      "op_margin": 0.10374944014332331,
+      "fcf_margin": 0.17297971719239874,
+      "incr_op_margin_yoy": 0.5415959252971138,
+      "rev_growth_yoy": -0.03631767172277716,
+      "rev_growth_yoy_accel": -0.0032923893427366444,
+      "fcf_margin_change": -0.0038420260558864328
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +54.2% vs year-ago OPM: +12.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -98.5% -> +10.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -610,12 +624,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -46.2% (year-ago) -> +5.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -8.5% -> +26.4%",
@@ -626,12 +634,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +58.0% vs OpEx growth +24.7% (leverage: 2.3x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -46.2% -> +7.9%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -659,5 +661,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:39:44.292731"
+  "last_updated": "2026-02-24T10:26:51.471468"
 }

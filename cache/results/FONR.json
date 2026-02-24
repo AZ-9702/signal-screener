@@ -1,25 +1,9 @@
 {
   "ticker": "FONR",
   "name": "FONAR CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 219000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 3111000,
-      "opex": 16182000,
-      "cogs": null,
-      "rd": 424000,
-      "sga": 4541000,
-      "fcf": 4042000,
-      "ocf": 5770000,
-      "capex": -1728000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 18.45662100456621
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -799000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 12.286343612334802,
-      "op_leverage_ratio": 0.21217634159053583,
-      "fcf_margin_change": -6.170277392231407
+      "fcf_margin": 12.286343612334802
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.1482086686547653,
-      "rev_growth_yoy": 110.77625570776256,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14563808289833885
     },
     {
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.10667046518253226,
       "rev_growth_yoy": 107.24229074889868,
-      "rev_growth_yoy_accel": -3.5339649588638764,
       "fcf_margin_change": -0.041538203472233054
     },
     {
@@ -419,6 +399,27 @@
       "rev_growth_yoy": 0.043389423076923075,
       "rev_growth_yoy_accel": -0.008001103317216034,
       "fcf_margin_change": -0.1378002407295019
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 25547000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 2056000,
+      "opex": 22547000,
+      "cogs": null,
+      "rd": 455000,
+      "sga": 6239000,
+      "fcf": -227000,
+      "ocf": 171000,
+      "capex": -398000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.008885583434454144,
+      "rev_growth_yoy": 0.023927855711422846,
+      "rev_growth_yoy_accel": -0.01946156736550023,
+      "fcf_margin_change": -0.002089131412797652
     }
   ],
   "signals": [
@@ -489,12 +490,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +10724.2% vs prior quarter YoY: +11077.6% (decel: -353.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.3% -> +14.8% (+14.6%)",
@@ -541,7 +536,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:16:55.169158",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:47:24.910459"
 }

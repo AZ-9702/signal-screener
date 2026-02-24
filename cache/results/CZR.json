@@ -1,25 +1,9 @@
 {
   "ticker": "CZR",
   "name": "CAESARS ENTERTAINMENT,\u00a0INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1497000000,
-      "gross_profit": null,
-      "operating_income": -83000000,
-      "net_income": -555000000,
-      "opex": 1580000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": -69000000,
-      "gross_margin": null,
-      "op_margin": -0.055444221776887105,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -65000000,
       "gross_margin": null,
       "op_margin": 0.10947616244849911,
-      "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "fcf_margin": null
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -93,9 +76,7 @@
       "capex": -207000000,
       "gross_margin": null,
       "op_margin": 0.047086067155538404,
-      "fcf_margin": null,
-      "incr_op_margin_yoy": 0.18738574040219377,
-      "rev_growth_yoy": 0.7307949231796927
+      "fcf_margin": null
     },
     {
       "date": "2022-03-31T00:00:00",
@@ -115,8 +96,7 @@
       "op_margin": -0.004363001745200698,
       "fcf_margin": null,
       "incr_op_margin_yoy": -0.3305227655986509,
-      "rev_growth_yoy": 0.34902884049440847,
-      "rev_growth_yoy_accel": -0.3817660826852843
+      "rev_growth_yoy": 0.34902884049440847
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -138,7 +118,7 @@
       "incr_op_margin_yoy": 0.03761755485893417,
       "rev_growth_yoy": 0.12749800159872102,
       "rev_growth_yoy_accel": -0.22153083889568745,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-09-30T00:00:00",
@@ -247,7 +227,7 @@
       "incr_op_margin_yoy": 0.6074766355140186,
       "rev_growth_yoy": 0.037062694838933145,
       "rev_growth_yoy_accel": 0.016502609762719035,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15734583674701494
     },
     {
@@ -261,15 +241,16 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 139000000,
+      "ocf": 508000000,
       "capex": -369000000,
       "gross_margin": null,
       "op_margin": 0.18973451327433627,
-      "fcf_margin": null,
+      "fcf_margin": 0.049203539823008846,
       "incr_op_margin_yoy": 12.0,
       "rev_growth_yoy": 0.0014179369018078695,
-      "rev_growth_yoy_accel": -0.03564475793712528
+      "rev_growth_yoy_accel": -0.03564475793712528,
+      "fcf_margin_change": 0.0405195050868699
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -290,7 +271,8 @@
       "fcf_margin": -0.06710430342815463,
       "incr_op_margin_yoy": 1.3409090909090908,
       "rev_growth_yoy": -0.03109540636042403,
-      "rev_growth_yoy_accel": -0.0325133432622319
+      "rev_growth_yoy_accel": -0.0325133432622319,
+      "fcf_margin_change": -0.11630784325116347
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -335,7 +317,7 @@
       "incr_op_margin_yoy": 0.6666666666666666,
       "rev_growth_yoy": -0.04008016032064128,
       "rev_growth_yoy_accel": -0.023060361779481155,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11097545681890275
     },
     {
@@ -349,15 +331,16 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 30000000,
+      "ocf": 309000000,
       "capex": -279000000,
       "gross_margin": null,
       "op_margin": 0.2390139335476956,
-      "fcf_margin": null,
+      "fcf_margin": 0.010718113612004287,
       "incr_op_margin_yoy": -5.115384615384615,
       "rev_growth_yoy": -0.009203539823008849,
-      "rev_growth_yoy_accel": 0.030876620497632432
+      "rev_growth_yoy_accel": 0.030876620497632432,
+      "fcf_margin_change": 0.07752395912348653
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -378,7 +361,8 @@
       "fcf_margin": -0.0017895490336435219,
       "incr_op_margin_yoy": 0.057692307692307696,
       "rev_growth_yoy": 0.018964259664478483,
-      "rev_growth_yoy_accel": 0.028167799487487332
+      "rev_growth_yoy_accel": 0.028167799487487332,
+      "fcf_margin_change": -0.012507662645647809
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -424,6 +408,29 @@
       "rev_growth_yoy": -0.0017397355601948504,
       "rev_growth_yoy_accel": -0.028948216125565876,
       "fcf_margin_change": -0.03693528067669498
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2916000000,
+      "gross_profit": null,
+      "operating_income": 331000000,
+      "net_income": -250000000,
+      "opex": 2585000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 147000000,
+      "ocf": 304000000,
+      "capex": -157000000,
+      "gross_margin": null,
+      "op_margin": 0.1135116598079561,
+      "fcf_margin": 0.050411522633744855,
+      "incr_op_margin_yoy": -2.888888888888889,
+      "rev_growth_yoy": 0.04180064308681672,
+      "rev_growth_yoy_accel": 0.04354037864701157,
+      "op_leverage_ratio": 0.1685416003933023,
+      "fcf_margin_change": 0.007539441769332168
     }
   ],
   "signals": [
@@ -437,6 +444,12 @@
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.2% -> +8.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -6.7% -> +1.1%",
       "severity": "HIGH"
     },
     {
@@ -536,28 +549,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +34.9% vs prior quarter YoY: +73.1% (decel: -38.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -5.5% (year-ago) -> +4.7%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +47.3% vs OpEx growth +26.4% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -5.5% -> +10.9%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -576,19 +571,17 @@
         20
       ],
       "fcf": [
-        9,
+        12,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "fcf: 9/20Q"
+      "fcf: 12/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:09:11.267425",
-  "sector": "Consumer Cyclical",
-  "industry": "Resorts & Casinos"
+  "last_updated": "2026-02-24T10:38:48.829165"
 }

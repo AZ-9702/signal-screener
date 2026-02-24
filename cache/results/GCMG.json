@@ -1,25 +1,9 @@
 {
   "ticker": "GCMG",
   "name": "GCM Grosvenor Inc.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 155488000,
-      "gross_profit": null,
-      "operating_income": -70791000,
-      "net_income": 7507000,
-      "opex": 226279000,
-      "cogs": null,
-      "rd": null,
-      "sga": 24273000,
-      "fcf": 24896000,
-      "ocf": 25039000,
-      "capex": -143000,
-      "gross_margin": null,
-      "op_margin": -0.4552827227824655,
-      "fcf_margin": 0.1601152500514509
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -55000,
       "gross_margin": null,
       "op_margin": -0.0452048556951724,
-      "fcf_margin": 0.15245255234016994,
-      "fcf_margin_change": -0.007662697711280975
+      "fcf_margin": 0.15245255234016994
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.1856093832234781,
       "fcf_margin": 0.40111776647201824,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2486652141318483
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.350350219050867,
       "fcf_margin": 0.17745481256066528,
-      "incr_op_margin_yoy": 3.9184777964508504,
-      "rev_growth_yoy": 0.22578591273924675,
       "op_leverage_ratio": 1.853158789694518,
       "fcf_margin_change": -0.5056110354173148
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.3819914770565406,
       "incr_op_margin_yoy": 11.85489785227868,
       "rev_growth_yoy": 0.018494656991445372,
-      "rev_growth_yoy_accel": -0.20729125574780138,
       "fcf_margin_change": 0.2045366644958753
     },
     {
@@ -254,7 +234,7 @@
       "incr_op_margin_yoy": 0.3113548387096774,
       "rev_growth_yoy": -0.11296223417435539,
       "rev_growth_yoy_accel": -0.14413318089723773,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11216908620766478
     },
     {
@@ -321,7 +301,7 @@
       "incr_op_margin_yoy": 6.0824322877636225,
       "rev_growth_yoy": 0.08680178045403436,
       "rev_growth_yoy_accel": -0.011567806696375263,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07429871567847059
     },
     {
@@ -434,11 +414,40 @@
       "incr_op_margin_yoy": 1.593303423064141,
       "rev_growth_yoy": 0.09790858286355761,
       "rev_growth_yoy_accel": 0.07479693212908081,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2393135824959084
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 177095000,
+      "gross_profit": null,
+      "operating_income": 54705000,
+      "net_income": 18976000,
+      "opex": 122390000,
+      "cogs": null,
+      "rd": null,
+      "sga": 26255000,
+      "fcf": 23924000,
+      "ocf": 28481000,
+      "capex": -4557000,
+      "gross_margin": null,
+      "op_margin": 0.3089020017504729,
+      "fcf_margin": 0.1350913351590954,
+      "incr_op_margin_yoy": 0.9377218184890992,
+      "rev_growth_yoy": 0.07160794137757849,
+      "rev_growth_yoy_accel": -0.026300641485979118,
+      "op_leverage_ratio": 0.8969118528331596,
+      "fcf_margin_change": -0.44482079150890486
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +93.8% vs year-ago OPM: +26.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -627,12 +636,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +1.8% vs prior quarter YoY: +22.6% (decel: -20.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -4.5% (year-ago) -> +17.1%",
       "severity": "HIGH"
@@ -642,12 +645,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +61.4% vs OpEx growth +33.1% (leverage: 1.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -45.5% (year-ago) -> +35.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -695,7 +692,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:34:50.148617",
-  "sector": "Financial Services",
-  "industry": "Asset Management"
+  "last_updated": "2026-02-24T10:22:03.552676"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "IDXX",
   "name": "IDEXX LABORATORIES INC /DE",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 720938000,
-      "gross_profit": 409502000,
-      "operating_income": 185095000,
-      "net_income": 174790000,
-      "opex": 224407000,
-      "cogs": 311436000,
-      "rd": 38777000,
-      "sga": null,
-      "fcf": 204744000,
-      "ocf": 218934000,
-      "capex": -14190000,
-      "gross_margin": 0.5680127833461407,
-      "op_margin": 0.2567419112323112,
-      "fcf_margin": 0.2839966821002638
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -20163000,
       "gross_margin": 0.6053462293640149,
       "op_margin": 0.31840011726781425,
-      "fcf_margin": 0.13405948512743232,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.14993719697283148
+      "fcf_margin": 0.13405948512743232
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.5697499656717722,
       "op_margin": 0.248649964423473,
       "fcf_margin": 0.2224169568962289,
-      "incr_op_margin_yoy": 0.1758658548757361,
-      "rev_growth_yoy": 0.11117738279852081,
       "fcf_margin_change": 0.04696740660076518
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.09905934978106483,
       "incr_op_margin_yoy": 0.012270147173787431,
       "rev_growth_yoy": 0.07566088514054779,
-      "rev_growth_yoy_accel": -0.03551649765797302,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12335760711516407
     },
     {
@@ -390,7 +369,7 @@
       "incr_op_margin_yoy": 0.5119422113480135,
       "rev_growth_yoy": 0.03561059854060025,
       "rev_growth_yoy_accel": -0.022826559359623903,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.035656475802273685
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy": 0.1329474969324776,
       "rev_growth_yoy_accel": 0.027445981355213048,
       "fcf_margin_change": 0.19919810812529054
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1090579000,
+      "gross_profit": 658114000,
+      "operating_income": 315605000,
+      "net_income": 248188000,
+      "opex": 342509000,
+      "cogs": 432465000,
+      "rd": 66833000,
+      "sga": null,
+      "fcf": 326326000,
+      "ocf": 355760000,
+      "capex": -29434000,
+      "gross_margin": 0.6034537617173996,
+      "op_margin": 0.2893921485742894,
+      "fcf_margin": 0.29922270647059956,
+      "incr_op_margin_yoy": 0.3956167318458299,
+      "rev_growth_yoy": 0.14281956809684287,
+      "rev_growth_yoy_accel": 0.009872071164365281,
+      "fcf_margin_change": -0.03665577773055512
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +39.6% vs year-ago OPM: +27.4%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -580,7 +587,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:58:20.446853",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:13:28.375997"
 }

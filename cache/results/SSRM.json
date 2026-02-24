@@ -1,6 +1,8 @@
 {
   "ticker": "SSRM",
   "name": "SSR Mining Inc.",
+  "sector": "Basic Materials",
+  "industry": "Gold",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -164,7 +166,7 @@
       "incr_op_margin_yoy": 0.7824250064012921,
       "rev_growth_yoy": -0.24892687028552238,
       "rev_growth_yoy_accel": 0.23495398931936665,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7871124067629344
     },
     {
@@ -187,7 +189,7 @@
       "incr_op_margin_yoy": 1.9319406347962382,
       "rev_growth_yoy": -0.11487539598138677,
       "rev_growth_yoy_accel": 0.1340514743041356,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4135449069995475
     },
     {
@@ -414,9 +416,56 @@
       "rev_growth_yoy": 0.4992422947201542,
       "rev_growth_yoy_accel": -0.6942916073903083,
       "fcf_margin_change": -0.2488785845512802
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 521725000,
+      "gross_profit": 333693000,
+      "operating_income": 202333000,
+      "net_income": 181457000,
+      "opex": 131360000,
+      "cogs": 188032000,
+      "rd": null,
+      "sga": null,
+      "fcf": 106366000,
+      "ocf": 172051000,
+      "capex": -65685000,
+      "gross_margin": 0.6395955723800852,
+      "op_margin": 0.38781542000095837,
+      "fcf_margin": 0.20387368824572333,
+      "incr_op_margin_yoy": 0.8459388127209905,
+      "rev_growth_yoy": 0.6143130757115849,
+      "rev_growth_yoy_accel": 0.1150707809914307,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.21009649102097414
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.6% -> +20.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +59.8% -> +57.1% -> +64.0% (reversal +6.9%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +61.4% vs prior quarter YoY: +49.9% (accel: +11.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +84.6% vs year-ago OPM: +10.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -671,23 +720,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
-        19,
-        19
+        20,
+        20
       ],
       "op_income": [
-        19,
-        19
+        20,
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -695,5 +744,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:58:32.286553"
+  "last_updated": "2026-02-24T10:34:56.414009"
 }

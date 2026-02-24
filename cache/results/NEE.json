@@ -1,25 +1,9 @@
 {
   "ticker": "NEE",
-  "name": "NEXTERA ENERGY, INC.",
+  "name": "NEXTERA ENERGY INC",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4100000000,
-      "gross_profit": null,
-      "operating_income": 940000000,
-      "net_income": -5000000,
-      "opex": 3808000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1352000000,
-      "ocf": 1352000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.22926829268292684,
-      "fcf_margin": 0.3297560975609756
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.16725,
-      "fcf_margin": 0.323,
-      "fcf_margin_change": -0.006756097560975616
+      "fcf_margin": 0.323
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.28829787234042553,
       "fcf_margin": 0.2802127659574468,
-      "incr_op_margin_yoy": 0.6916666666666667,
-      "rev_growth_yoy": 0.14634146341463414,
       "fcf_margin_change": -0.22737982663514578
     },
     {
@@ -119,8 +100,7 @@
       "fcf_margin": 0.3924,
       "incr_op_margin_yoy": -1.444,
       "rev_growth_yoy": 0.25,
-      "rev_growth_yoy_accel": 0.10365853658536586,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11218723404255321
     },
     {
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": 5.31,
       "rev_growth_yoy": 0.14,
       "rev_growth_yoy_accel": -0.051489361702127645,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11583020050125312
     },
     {
@@ -391,7 +371,7 @@
       "incr_op_margin_yoy": 0.405,
       "rev_growth_yoy": 0.1111111111111111,
       "rev_growth_yoy_accel": 0.16468253968253968,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08772641509433965
     },
     {
@@ -439,9 +419,37 @@
       "rev_growth_yoy_accel": 0.03781094527363184,
       "op_leverage_ratio": 0.9691532258064517,
       "fcf_margin_change": 0.04604307432432431
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6100000000,
+      "gross_profit": null,
+      "operating_income": 1586000000,
+      "net_income": 1535000000,
+      "opex": 4977000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2499000000,
+      "ocf": 2499000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.26,
+      "fcf_margin": 0.409672131147541,
+      "incr_op_margin_yoy": 0.80625,
+      "rev_growth_yoy": 0.1509433962264151,
+      "rev_growth_yoy_accel": 0.046465784286116585,
+      "fcf_margin_change": -0.13465219317678334
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +80.6% vs year-ago OPM: +17.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -587,18 +595,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +25.0% vs prior quarter YoY: +14.6% (accel: +10.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +69.2% vs year-ago OPM: +22.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +32.3% -> +46.9% (+14.6%)",
@@ -638,7 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:12.435572",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:42:45.489345"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "TCMD",
   "name": "Tactile Systems Technology, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 59243000,
-      "gross_profit": 41853000,
-      "operating_income": 6991000,
-      "net_income": 12113000,
-      "opex": 34861000,
-      "cogs": 17390000,
-      "rd": 1373000,
-      "sga": null,
-      "fcf": 4603000,
-      "ocf": 5039000,
-      "capex": -436000,
-      "gross_margin": 0.7064632108434752,
-      "op_margin": 0.11800550275981972,
-      "fcf_margin": 0.07769694309876272
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -249000,
       "gross_margin": 0.706770784625456,
       "op_margin": -0.09548302627887403,
-      "fcf_margin": -0.02452539044234546,
-      "fcf_margin_change": -0.10222233354110818
+      "fcf_margin": -0.02452539044234546
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.7259266459305339,
       "op_margin": 0.06099339035769829,
       "fcf_margin": 0.07652928978745464,
-      "incr_op_margin_yoy": -1.2981891348088532,
-      "rev_growth_yoy": 0.04194588390189558,
       "op_leverage_ratio": 2.4873702851549346,
       "fcf_margin_change": 0.10845492363319821
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.06955271165951062,
       "incr_op_margin_yoy": -2.077794852093738,
       "rev_growth_yoy": 0.12171514074628262,
-      "rev_growth_yoy_accel": 0.07976925684438704,
       "fcf_margin_change": -0.14608200144696526
     },
     {
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": -0.46721025043680836,
       "rev_growth_yoy": 0.168135526831179,
       "rev_growth_yoy_accel": 0.046420386084896376,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10486162271659838
     },
     {
@@ -189,7 +169,7 @@
       "incr_op_margin_yoy": 0.3356063095629313,
       "rev_growth_yoy": 0.1971876620010368,
       "rev_growth_yoy_accel": -0.0459690898133526,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03841631373306198
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 2.2222479185938946,
       "rev_growth_yoy": 0.06625601421960713,
       "rev_growth_yoy_accel": -0.07950641347760136,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1384066756603093
     },
     {
@@ -437,11 +417,46 @@
       "incr_op_margin_yoy": 0.33027957668614755,
       "rev_growth_yoy": 0.17323136278439796,
       "rev_growth_yoy_accel": 0.09555920566456404,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07484192331372463
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 103594000,
+      "gross_profit": 81006000,
+      "operating_income": 18775000,
+      "net_income": 10634000,
+      "opex": 62231000,
+      "cogs": 22588000,
+      "rd": 2531000,
+      "sga": null,
+      "fcf": 16786000,
+      "ocf": 17296000,
+      "capex": -510000,
+      "gross_margin": 0.7819564839662528,
+      "op_margin": 0.18123636504044635,
+      "fcf_margin": 0.16203641137517616,
+      "incr_op_margin_yoy": 0.34760397578988284,
+      "rev_growth_yoy": 0.2104223871005433,
+      "rev_growth_yoy_accel": 0.03719102431614535,
+      "op_leverage_ratio": 1.372041875048121,
+      "fcf_margin_change": 0.054532475744600684
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +10.8% -> +16.2% (+5.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +34.8% vs year-ago OPM: +14.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -623,12 +638,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +12.2% vs prior quarter YoY: +4.2% (accel: +8.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.2% -> +7.7%",
@@ -684,5 +693,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:15:40.775782"
+  "last_updated": "2026-02-24T10:34:04.114434"
 }

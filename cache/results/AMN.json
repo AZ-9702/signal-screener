@@ -1,25 +1,9 @@
 {
   "ticker": "AMN",
   "name": "AMN HEALTHCARE SERVICES, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 631271000,
-      "gross_profit": 207539000,
-      "operating_income": 28659000,
-      "net_income": 9308000,
-      "opex": 178880000,
-      "cogs": 423732000,
-      "rd": null,
-      "sga": 155210000,
-      "fcf": 29500000,
-      "ocf": 39845000,
-      "capex": -10345000,
-      "gross_margin": 0.32876371637537605,
-      "op_margin": 0.045398885740038745,
-      "fcf_margin": 0.04673111864793409
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -11607000,
       "gross_margin": 0.3260563579003211,
       "op_margin": 0.1178425297281434,
-      "fcf_margin": 0.03106739131661672,
-      "op_leverage_ratio": 12.919021639316844,
-      "fcf_margin_change": -0.01566372733131737
+      "fcf_margin": 0.03106739131661672
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3186431849278637,
       "op_margin": 0.12368850624887659,
       "fcf_margin": 0.04630954957466555,
-      "incr_op_margin_yoy": 0.19122570629729943,
-      "rev_growth_yoy": 1.1592073768635023,
       "op_leverage_ratio": 1.6831961399674407,
       "fcf_margin_change": 0.04505072068425771
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.12020639752456945,
       "incr_op_margin_yoy": 0.15531366215966863,
       "rev_growth_yoy": 0.7524090095886313,
-      "rev_growth_yoy_accel": -0.40679836727487095,
       "op_leverage_ratio": 1.6416720849183355,
       "fcf_margin_change": 0.0738968479499039
     },
@@ -432,9 +411,50 @@
       "rev_growth_yoy": -0.07710880875741263,
       "rev_growth_yoy_accel": 0.03428807385800417,
       "fcf_margin_change": -0.08119305735999555
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 748225000,
+      "gross_profit": 195127000,
+      "operating_income": 8118000,
+      "net_income": -7696000,
+      "opex": 187009000,
+      "cogs": 553098000,
+      "rd": null,
+      "sga": 152113000,
+      "fcf": 67626000,
+      "ocf": 75572000,
+      "capex": -7946000,
+      "gross_margin": 0.26078652811654246,
+      "op_margin": 0.010849677570249591,
+      "fcf_margin": 0.09038190383908584,
+      "incr_op_margin_yoy": 15.586712044983724,
+      "rev_growth_yoy": 0.018396399118562588,
+      "rev_growth_yoy_accel": 0.09550520787597522,
+      "op_leverage_ratio": 0.48828784543238335,
+      "fcf_margin_change": 0.06712249794842617
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +2.3% -> +9.0% (+6.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +1.8% vs prior quarter YoY: -7.7% (accel: +9.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -27.6% (year-ago) -> +1.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
@@ -550,33 +570,15 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +75.2% vs prior quarter YoY: +115.9% (decel: -40.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +55.3% vs OpEx growth +32.8% (leverage: 1.7x)",
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +19.1% vs year-ago OPM: +4.5%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +3.1% -> +18.7% (+15.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +40.3% vs OpEx growth +3.1% (leverage: 12.9x)",
       "severity": "MEDIUM"
     }
   ],
@@ -605,7 +607,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:09:26.440558",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-24T10:12:11.967946"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ET",
   "name": "ENERGY TRANSFER LP",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 10034000000,
-      "gross_profit": 3331000000,
-      "operating_income": 1339000000,
-      "net_income": 636000000,
-      "opex": 8695000000,
-      "cogs": 6703000000,
-      "rd": null,
-      "sga": 156000000,
-      "fcf": 1906000000,
-      "ocf": 1906000000,
-      "capex": null,
-      "gross_margin": 0.3319712975882001,
-      "op_margin": 0.1334462826390273,
-      "fcf_margin": 0.18995415587004186
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.35581053250956163,
       "op_margin": 0.2394233598117093,
-      "fcf_margin": 0.30332450720800236,
-      "op_leverage_ratio": 1.425686699728133,
-      "fcf_margin_change": 0.1133703513379605
+      "fcf_margin": 0.30332450720800236
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.20919762019617302,
       "op_margin": 0.09052902395883583,
       "fcf_margin": 0.093208983223455,
-      "incr_op_margin_yoy": 0.04058912211527311,
-      "rev_growth_yoy": 0.8593781144110025,
       "op_leverage_ratio": 1.046028743116992,
       "fcf_margin_change": -0.04259274505306923
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.1156605338929286,
       "incr_op_margin_yoy": -0.6358695652173914,
       "rev_growth_yoy": 0.20570756104736687,
-      "rev_growth_yoy_accel": -0.6536705533636357,
       "op_leverage_ratio": 0.9946152475011897,
       "fcf_margin_change": 0.022451550669473602
     },
@@ -436,9 +415,38 @@
       "rev_growth_yoy_accel": 0.032355315605416164,
       "op_leverage_ratio": 0.7201856093053152,
       "fcf_margin_change": -0.01464371067695383
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 25320000000,
+      "gross_profit": 5904000000,
+      "operating_income": 2076000000,
+      "net_income": 928000000,
+      "opex": 23244000000,
+      "cogs": 19416000000,
+      "rd": null,
+      "sga": 367000000,
+      "fcf": 1898000000,
+      "ocf": 1898000000,
+      "capex": null,
+      "gross_margin": 0.23317535545023696,
+      "op_margin": 0.08199052132701422,
+      "fcf_margin": 0.07496050552922591,
+      "incr_op_margin_yoy": -0.035127184634019724,
+      "rev_growth_yoy": 0.2957371680057315,
+      "rev_growth_yoy_accel": 0.3351171025329797,
+      "op_leverage_ratio": 0.8799037455325709,
+      "fcf_margin_change": -0.05393595633305735
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +29.6% vs prior quarter YoY: -3.9% (accel: +33.5%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2024-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -516,18 +524,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +71.8% vs prior quarter YoY: +20.6% (accel: +51.2%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +20.6% vs prior quarter YoY: +85.9% (decel: -65.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +19.0% -> +30.3% (+11.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -555,7 +551,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:56:51.418455",
-  "sector": "Energy",
-  "industry": "Oil & Gas Midstream"
+  "last_updated": "2026-02-24T10:19:53.093045"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ADM",
-  "name": "Archer-Daniels-Midland Co",
+  "name": "ARCHER-DANIELS-MIDLAND CO",
+  "sector": "Consumer Defensive",
+  "industry": "Farm Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 17978000000,
-      "gross_profit": 1352000000,
-      "operating_income": null,
-      "net_income": 687000000,
-      "opex": null,
-      "cogs": 16626000000,
-      "rd": null,
-      "sga": 749000000,
-      "fcf": -1135000000,
-      "ocf": -870000000,
-      "capex": -265000000,
-      "gross_margin": 0.07520302592056959,
-      "op_margin": null,
-      "fcf_margin": -0.06313271776615864
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -174000000,
       "gross_margin": 0.08193510824114751,
       "op_margin": null,
-      "fcf_margin": 0.006563277404329646,
-      "fcf_margin_change": 0.06969599517048829
+      "fcf_margin": 0.006563277404329646
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.07145950627977479,
       "op_margin": null,
       "fcf_margin": 0.012429623213512342,
-      "rev_growth_yoy": 0.2843475358771832,
       "fcf_margin_change": -0.11338158622601568
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.06016913319238901,
       "rev_growth_yoy": 0.2517863759064204,
-      "rev_growth_yoy_accel": -0.03256115997076281,
       "fcf_margin_change": -0.07259875640590135
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.021818728996338466,
       "rev_growth_yoy_accel": 0.0704523140376905,
       "fcf_margin_change": -0.11438300710813638
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 18556000000,
+      "gross_profit": 1213000000,
+      "operating_income": null,
+      "net_income": 456000000,
+      "opex": null,
+      "cogs": 17343000000,
+      "rd": null,
+      "sga": 893000000,
+      "fcf": -669000000,
+      "ocf": -313000000,
+      "capex": -356000000,
+      "gross_margin": 0.06536969174391033,
+      "op_margin": null,
+      "fcf_margin": -0.036053028669971975,
+      "rev_growth_yoy": -0.13684993952925853,
+      "rev_growth_yoy_accel": -0.158668668525597,
+      "fcf_margin_change": -0.11032163263620012
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -13.7% vs prior quarter YoY: +2.2% (decel: -15.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -479,12 +487,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.7% -> +10.7% (+10.1%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -6.3% -> +0.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -514,7 +516,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:08:11.019349",
-  "sector": "Consumer Defensive",
-  "industry": "Farm Products"
+  "last_updated": "2026-02-24T10:35:56.139270"
 }

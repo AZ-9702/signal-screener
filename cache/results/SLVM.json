@@ -1,25 +1,9 @@
 {
   "ticker": "SLVM",
   "name": "SYLVAMO CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Paper & Paper Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 796000000,
-      "gross_profit": 257000000,
-      "operating_income": null,
-      "net_income": 65000000,
-      "opex": null,
-      "cogs": 539000000,
-      "rd": null,
-      "sga": 59000000,
-      "fcf": 127000000,
-      "ocf": 134000000,
-      "capex": -7000000,
-      "gross_margin": 0.3228643216080402,
-      "op_margin": null,
-      "fcf_margin": 0.15954773869346733
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -17000000,
       "gross_margin": 0.32519280205655526,
       "op_margin": null,
-      "fcf_margin": 0.08354755784061697,
-      "fcf_margin_change": -0.07600018085285036
+      "fcf_margin": 0.08354755784061697
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.31995884773662553,
       "op_margin": null,
       "fcf_margin": 0.15946502057613168,
-      "rev_growth_yoy": 0.22110552763819097,
       "fcf_margin_change": -0.01344246841065247
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.07471852610030706,
       "rev_growth_yoy": 0.25578406169665807,
-      "rev_growth_yoy_accel": 0.0346785340584671,
       "fcf_margin_change": -0.08474649447582462
     },
     {
@@ -327,7 +308,7 @@
       "fcf_margin": 0.1689119170984456,
       "rev_growth_yoy": 0.0758082497212932,
       "rev_growth_yoy_accel": 0.06057429977570016,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04565361056039631
     },
     {
@@ -415,11 +396,40 @@
       "incr_op_margin_yoy": 0.4369747899159664,
       "rev_growth_yoy": -0.12331606217616581,
       "rev_growth_yoy_accel": 0.025665717030693785,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.022232345427586328
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 890000000,
+      "gross_profit": 200000000,
+      "operating_income": 79000000,
+      "net_income": 33000000,
+      "opex": 121000000,
+      "cogs": 690000000,
+      "rd": null,
+      "sga": 68000000,
+      "fcf": 94000000,
+      "ocf": 94000000,
+      "capex": null,
+      "gross_margin": 0.2247191011235955,
+      "op_margin": 0.08876404494382023,
+      "fcf_margin": 0.10561797752808989,
+      "incr_op_margin_yoy": 0.375,
+      "rev_growth_yoy": -0.08247422680412371,
+      "rev_growth_yoy_accel": 0.0408418353720421,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.002781098095465784
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +37.5% vs year-ago OPM: +11.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -553,7 +563,7 @@
         20
       ],
       "op_income": [
-        7,
+        8,
         20
       ],
       "fcf": [
@@ -563,10 +573,10 @@
     },
     "gaps": [],
     "warnings": [
-      "op_income: 7/20Q"
+      "op_income: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:36:13.947111"
+  "last_updated": "2026-02-24T10:10:49.210046"
 }

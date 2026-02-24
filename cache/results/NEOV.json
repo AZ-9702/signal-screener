@@ -1,6 +1,8 @@
 {
   "ticker": "NEOV",
-  "name": "NeoVolta, Inc",
+  "name": "NeoVolta, Inc.",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
   "quarters": [
     {
       "date": "2021-09-30T00:00:00",
@@ -95,7 +97,7 @@
       "op_margin": -0.45157741137546525,
       "fcf_margin": -0.07682158565672803,
       "rev_growth_yoy": -0.03861455710288297,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4261192012024586
     },
     {
@@ -138,7 +140,7 @@
       "fcf_margin": 0.05960636555857617,
       "rev_growth_yoy": -0.32574983679975306,
       "rev_growth_yoy_accel": 0.12638985233984046,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.0646301265904838
     },
     {
@@ -160,7 +162,7 @@
       "fcf_margin": -2.01894683471356,
       "rev_growth_yoy": -0.20313728087605423,
       "rev_growth_yoy_accel": 0.12261255592369882,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -2.0785532002721365
     },
     {
@@ -182,7 +184,7 @@
       "fcf_margin": -0.23436980618481149,
       "rev_growth_yoy": -0.5031134659352493,
       "rev_growth_yoy_accel": -0.2999761850591951,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.7845770285287488
     },
     {
@@ -247,7 +249,7 @@
       "fcf_margin": -0.04753856087732686,
       "rev_growth_yoy": -0.19761117775973802,
       "rev_growth_yoy_accel": 0.3510446464719912,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.6619718301054136
     },
     {
@@ -362,9 +364,37 @@
       "rev_growth_yoy_accel": 3.0647719801764577,
       "op_leverage_ratio": 1.8943334146212127,
       "fcf_margin_change": -0.180494601638349
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4645517,
+      "gross_profit": 772522,
+      "operating_income": -4476522,
+      "net_income": -5538799,
+      "opex": 5249044,
+      "cogs": 3872995,
+      "rd": 58795,
+      "sga": null,
+      "fcf": -2084000,
+      "ocf": -2084000,
+      "capex": null,
+      "gross_margin": 0.16629408524390288,
+      "op_margin": -0.9636219176466257,
+      "fcf_margin": -0.4486045363734542,
+      "incr_op_margin_yoy": -0.9875923911340326,
+      "rev_growth_yoy": 3.335199112339618,
+      "rev_growth_yoy_accel": -6.931917769721117,
+      "fcf_margin_change": -0.07357111661740867
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +333.5% vs prior quarter YoY: +1026.7% (decel: -693.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -517,23 +547,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 17,
+    "n_quarters": 18,
     "coverage": {
       "revenue": [
-        17,
-        17
+        18,
+        18
       ],
       "gross_profit": [
-        17,
-        17
+        18,
+        18
       ],
       "op_income": [
-        17,
-        17
+        18,
+        18
       ],
       "fcf": [
-        17,
-        17
+        18,
+        18
       ]
     },
     "gaps": [],
@@ -541,7 +571,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:05:33.396133",
-  "sector": "Industrials",
-  "industry": "Electrical Equipment & Parts"
+  "last_updated": "2026-02-24T10:43:33.632417"
 }

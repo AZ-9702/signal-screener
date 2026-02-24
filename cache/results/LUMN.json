@@ -1,25 +1,9 @@
 {
   "ticker": "LUMN",
   "name": "Lumen Technologies, Inc.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5125000000,
-      "gross_profit": 2894000000,
-      "operating_income": -1809000000,
-      "net_income": -2289000000,
-      "opex": 6934000000,
-      "cogs": 2231000000,
-      "rd": null,
-      "sga": 866000000,
-      "fcf": 1682000000,
-      "ocf": 1682000000,
-      "capex": null,
-      "gross_margin": 0.5646829268292682,
-      "op_margin": -0.35297560975609754,
-      "fcf_margin": 0.3281951219512195
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.5752634718631935,
       "op_margin": 0.19626168224299065,
-      "fcf_margin": 0.30324120103400276,
-      "fcf_margin_change": -0.024953920917216765
+      "fcf_margin": 0.30324120103400276
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.5696306994016918,
       "op_margin": 0.23952960594181968,
       "fcf_margin": 0.331545285743759,
-      "incr_op_margin_yoy": -10.683453237410072,
-      "rev_growth_yoy": -0.05424390243902439,
       "fcf_margin_change": -0.022455123505269015
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.294054747647562,
       "incr_op_margin_yoy": -0.2719546742209632,
       "rev_growth_yoy": -0.07019288128852655,
-      "rev_growth_yoy_accel": -0.01594897884950216,
       "fcf_margin_change": -0.03749053809619701
     },
     {
@@ -428,6 +408,28 @@
       "rev_growth_yoy": -0.04160198696057125,
       "rev_growth_yoy_accel": 0.01225358219487551,
       "fcf_margin_change": 0.6290643775529062
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3041000000,
+      "gross_profit": 1414000000,
+      "operating_income": -200000000,
+      "net_income": -2000000,
+      "opex": 3241000000,
+      "cogs": 1627000000,
+      "rd": null,
+      "sga": 940000000,
+      "fcf": 562000000,
+      "ocf": 562000000,
+      "capex": null,
+      "gross_margin": 0.4649786254521539,
+      "op_margin": -0.06576783952647156,
+      "fcf_margin": 0.18480762906938508,
+      "incr_op_margin_yoy": 1.2291666666666667,
+      "rev_growth_yoy": -0.0865124662060679,
+      "rev_growth_yoy_accel": -0.04491047924549665,
+      "fcf_margin_change": -0.6286034496478161
     }
   ],
   "signals": [
@@ -532,18 +534,6 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: -21.6% vs prior quarter YoY: -10.2% (decel: -11.4%)",
       "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -35.3% (year-ago) -> +24.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -35.3% -> +19.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -571,7 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:40:00.111137",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-24T10:11:47.425191"
 }

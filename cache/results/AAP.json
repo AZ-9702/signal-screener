@@ -1,25 +1,9 @@
 {
   "ticker": "AAP",
   "name": "ADVANCE AUTO PARTS, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2019-07-13T00:00:00",
-      "quarter_label": "2019-07 (Q3)",
-      "revenue": 2332246000,
-      "gross_profit": 1009438000,
-      "operating_income": 170772000,
-      "net_income": 124820000,
-      "opex": 838666000,
-      "cogs": 1322808000,
-      "rd": null,
-      "sga": 838666000,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.4328179788924496,
-      "op_margin": 0.07322212150862302,
-      "fcf_margin": null
-    },
     {
       "date": "2019-10-05T00:00:00",
       "quarter_label": "2019-10 (Q4)",
@@ -74,8 +58,6 @@
       "gross_margin": 0.4384435791443123,
       "op_margin": 0.10507999584229505,
       "fcf_margin": null,
-      "incr_op_margin_yoy": 0.5443790130902125,
-      "rev_growth_yoy": 0.07251979422410844,
       "op_leverage_ratio": 4.728097110641392
     },
     {
@@ -97,7 +79,6 @@
       "fcf_margin": 0.12135709587368328,
       "incr_op_margin_yoy": 0.36760188319656084,
       "rev_growth_yoy": 0.09939942199881839,
-      "rev_growth_yoy_accel": 0.026879627774709952,
       "op_leverage_ratio": 0.3576837494570188
     },
     {
@@ -307,16 +288,16 @@
       "cogs": 1543905000,
       "rd": null,
       "sga": 1001680000,
-      "fcf": 207055000,
-      "ocf": 258541000,
-      "capex": -51486000,
+      "fcf": 206352000,
+      "ocf": 258166000,
+      "capex": -51814000,
       "gross_margin": 0.37363608370262275,
       "op_margin": -0.032746567870341185,
-      "fcf_margin": 0.08400243582924691,
+      "fcf_margin": 0.08371722797438728,
       "incr_op_margin_yoy": 23.965525011266337,
       "rev_growth_yoy": -0.003588082037558439,
       "rev_growth_yoy_accel": -0.03301934441526734,
-      "fcf_margin_change": 0.022712197480158854
+      "fcf_margin_change": 0.02242698962529923
     },
     {
       "date": "2024-07-13T00:00:00",
@@ -372,16 +353,16 @@
       "cogs": 1648909000,
       "rd": null,
       "sga": 858217000,
-      "fcf": -124167000,
-      "ocf": -73367000,
-      "capex": -50800000,
+      "fcf": -124000000,
+      "ocf": -73000000,
+      "capex": -51000000,
       "gross_margin": 0.17390363347152465,
       "op_margin": -0.4108180007765434,
-      "fcf_margin": -0.06220713668415977,
+      "fcf_margin": -0.062123470397414865,
       "incr_op_margin_yoy": 1.5768293931456945,
       "rev_growth_yoy": -0.19021051423016802,
       "rev_growth_yoy_accel": 0.019819426054759337,
-      "fcf_margin_change": -0.07477702175351061
+      "fcf_margin_change": -0.07469335546676571
     },
     {
       "date": "2025-07-12T00:00:00",
@@ -425,9 +406,37 @@
       "rev_growth_yoy": -0.052137555511173,
       "rev_growth_yoy_accel": 0.19871585662790886,
       "op_leverage_ratio": 1.574413646055437
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 1973000000,
+      "gross_profit": 869000000,
+      "operating_income": 44000000,
+      "net_income": 6000000,
+      "opex": 825000000,
+      "cogs": 1104000000,
+      "rd": null,
+      "sga": 801000000,
+      "fcf": -21000000,
+      "ocf": 72000000,
+      "capex": -93000000,
+      "gross_margin": 0.44044602128737964,
+      "op_margin": 0.022301064368981247,
+      "fcf_margin": -0.010643689812468323,
+      "incr_op_margin_yoy": -37.52456026058632,
+      "rev_growth_yoy": -0.01153542666048772,
+      "rev_growth_yoy_accel": 0.04060212885068528,
+      "fcf_margin_change": 0.026684404490085707
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -41.1% (year-ago) -> +2.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "OPERATING LEVERAGE",
@@ -529,12 +538,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +18.4% vs OpEx growth +3.9% (leverage: 4.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2020-07 (Q3)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +54.4% vs year-ago OPM: +7.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -553,7 +556,7 @@
         20
       ],
       "fcf": [
-        13,
+        14,
         20
       ]
     },
@@ -590,7 +593,7 @@
       ]
     ],
     "warnings": [
-      "fcf: 13/20Q",
+      "fcf: 14/20Q",
       "gap: 1Q missing between 2019-12 (Q4) and 2020-07 (Q3)",
       "gap: 1Q missing between 2021-01 (Q1) and 2021-07 (Q3)",
       "gap: 1Q missing between 2022-01 (Q1) and 2022-07 (Q3)",
@@ -601,7 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:22:52.701097",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:47:32.331908"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "AD",
   "name": "ARRAY DIGITAL INFRASTRUCTURE, INC.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1073000000,
-      "gross_profit": null,
-      "operating_income": 5000000,
-      "net_income": 5000000,
-      "opex": 1068000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 374000000,
-      "fcf": 287000000,
-      "ocf": 287000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.004659832246039142,
-      "fcf_margin": 0.2674743709226468
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.08211143695014662,
-      "fcf_margin": 0.12121212121212122,
-      "fcf_margin_change": -0.1462622497105256
+      "fcf_margin": 0.12121212121212122
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.004677268475210477,
       "fcf_margin": -0.1244153414405987,
-      "incr_op_margin_yoy": -0.0,
-      "rev_growth_yoy": -0.003727865796831314,
       "op_leverage_ratio": 0.5446511726356786,
       "fcf_margin_change": -0.42362793986579556
     },
@@ -118,7 +99,6 @@
       "fcf_margin": 0.1594059405940594,
       "incr_op_margin_yoy": 1.0,
       "rev_growth_yoy": -0.01270772238514174,
-      "rev_growth_yoy_accel": -0.008979856588310426,
       "fcf_margin_change": 0.2838212820346581
     },
     {
@@ -266,17 +246,17 @@
       "cogs": null,
       "rd": null,
       "sga": 348000000,
-      "fcf": -7000000,
-      "ocf": 147000000,
-      "capex": -154000000,
+      "fcf": 561221000,
+      "ocf": 147857000,
+      "capex": 413364000,
       "gross_margin": null,
       "op_margin": 0.022,
-      "fcf_margin": -0.007,
+      "fcf_margin": 0.561221,
       "incr_op_margin_yoy": -1.0,
       "rev_growth_yoy": -0.04671115347950429,
       "rev_growth_yoy_accel": 0.0640921706202187,
       "op_leverage_ratio": 0.4834717895465559,
-      "fcf_margin_change": -0.24168328141225337
+      "fcf_margin_change": 0.3265377185877466
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -298,7 +278,7 @@
       "incr_op_margin_yoy": -0.6944444444444444,
       "rev_growth_yoy": -0.036511156186612576,
       "rev_growth_yoy_accel": 0.010199997292891713,
-      "fcf_margin_change": 0.08068421052631579
+      "fcf_margin_change": -0.4875367894736842
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -348,24 +328,24 @@
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
       "revenue": 971000000,
-      "gross_profit": null,
+      "gross_profit": 950825000,
       "operating_income": -9000000,
       "net_income": 5000000,
       "opex": 980000000,
-      "cogs": null,
+      "cogs": 20175000,
       "rd": null,
       "sga": 353000000,
-      "fcf": -402110000,
-      "ocf": 121519000,
-      "capex": -523629000,
-      "gross_margin": null,
+      "fcf": 115889000,
+      "ocf": 120984000,
+      "capex": -5095000,
+      "gross_margin": 0.9792224510813594,
       "op_margin": -0.009268795056642637,
-      "fcf_margin": -0.41411946446961895,
+      "fcf_margin": 0.1193501544799176,
       "incr_op_margin_yoy": 1.0689655172413792,
       "rev_growth_yoy": -0.029,
       "rev_growth_yoy_accel": 0.01357528556593977,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.958707316964196
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.4252376980146594
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -387,7 +367,7 @@
       "incr_op_margin_yoy": 0.1694915254237288,
       "rev_growth_yoy": -0.06210526315789474,
       "rev_growth_yoy_accel": -0.033105263157894735,
-      "fcf_margin_change": 0.5128848965683843
+      "fcf_margin_change": -0.02058472238115218
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -433,9 +413,44 @@
       "rev_growth_yoy": -0.9488947939262473,
       "rev_growth_yoy_accel": -0.9370285587590412,
       "fcf_margin_change": 0.7097139352921447
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 60329000,
+      "gross_profit": 37506000,
+      "operating_income": 8597000,
+      "net_income": 37478000,
+      "opex": 51732000,
+      "cogs": 22823000,
+      "rd": null,
+      "sga": 15381000,
+      "fcf": -210665000,
+      "ocf": -202062000,
+      "capex": -8603000,
+      "gross_margin": 0.6216910606839166,
+      "op_margin": 0.1425019476536989,
+      "fcf_margin": -3.4919358848978104,
+      "incr_op_margin_yoy": -0.01932311449469677,
+      "rev_growth_yoy": -0.9378692070030896,
+      "rev_growth_yoy_accel": 0.011025586923157693,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -4.4745755843820945
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.9% (year-ago) -> +14.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -113.1% -> +14.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -462,12 +477,6 @@
     },
     {
       "quarter": "2025-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -41.4% -> +9.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2025-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +16.9% vs year-ago OPM: +5.4%",
       "severity": "MEDIUM"
@@ -491,10 +500,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2024-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -0.7% -> +7.4%",
-      "severity": "HIGH"
+      "quarter": "2023-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +23.5% -> +56.1% (+32.7%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2023-12 (Q4)",
@@ -583,7 +592,7 @@
         20
       ],
       "gross_profit": [
-        2,
+        4,
         20
       ],
       "op_income": [
@@ -597,12 +606,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 2/20Q"
+      "gross_profit: 4/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:12:31.166411",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-24T10:16:18.798996"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "LSH",
   "name": "Lakeside Holding Limited",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
     {
       "date": "2023-09-30T00:00:00",
@@ -140,7 +142,7 @@
       "fcf_margin": -0.06265980216347544,
       "rev_growth_yoy": -0.1474238824165283,
       "rev_growth_yoy_accel": 0.12118603076063664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09323009515237463
     },
     {
@@ -187,9 +189,50 @@
       "rev_growth_yoy": 0.49450160404591,
       "rev_growth_yoy_accel": 0.1770927615712664,
       "fcf_margin_change": -0.579624781252905
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7012633,
+      "gross_profit": 1910293,
+      "operating_income": -1490724,
+      "net_income": -1583681,
+      "opex": 3401017,
+      "cogs": 5102340,
+      "rd": null,
+      "sga": null,
+      "fcf": -453460,
+      "ocf": -453460,
+      "capex": null,
+      "gross_margin": 0.2724073825052587,
+      "op_margin": -0.21257693080473483,
+      "fcf_margin": -0.06466330121653308,
+      "incr_op_margin_yoy": 0.14836420016833263,
+      "rev_growth_yoy": 0.9503433234443648,
+      "rev_growth_yoy_accel": 0.4558417193984548,
+      "op_leverage_ratio": 0.3489865797590443,
+      "fcf_margin_change": 0.5937942543225924
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -65.8% -> -6.5% (+59.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +26.7% -> +18.2% -> +27.2% (reversal +9.1%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +95.0% vs prior quarter YoY: +49.5% (accel: +45.6%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -252,23 +295,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 9,
+    "n_quarters": 10,
     "coverage": {
       "revenue": [
-        9,
-        9
+        10,
+        10
       ],
       "gross_profit": [
-        9,
-        9
+        10,
+        10
       ],
       "op_income": [
-        9,
-        9
+        10,
+        10
       ],
       "fcf": [
-        9,
-        9
+        10,
+        10
       ]
     },
     "gaps": [],
@@ -276,7 +319,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:53:22.863846",
-  "sector": "Industrials",
-  "industry": "Integrated Freight & Logistics"
+  "last_updated": "2026-02-24T10:23:45.728723"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "QDEL",
   "name": "QUIDELORTHO CORP",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
     {
       "date": "2021-07-04T00:00:00",
@@ -299,7 +301,7 @@
       "incr_op_margin_yoy": 0.6686390532544378,
       "rev_growth_yoy": -0.02271505376344086,
       "rev_growth_yoy_accel": 0.01953423205824009,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3073035026352511
     },
     {
@@ -390,9 +392,44 @@
       "rev_growth_yoy_accel": -0.0011451483463586279,
       "op_leverage_ratio": 0.10913829613943639,
       "fcf_margin_change": 0.002013737982860808
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 723600000,
+      "gross_profit": 320400000,
+      "operating_income": -66300000,
+      "net_income": -130700000,
+      "opex": 386700000,
+      "cogs": 403200000,
+      "rd": 45800000,
+      "sga": 194400000,
+      "fcf": 86600000,
+      "ocf": 131900000,
+      "capex": -45300000,
+      "gross_margin": 0.4427860696517413,
+      "op_margin": -0.09162520729684909,
+      "fcf_margin": 0.11967938087341072,
+      "incr_op_margin_yoy": 2.1582278481012658,
+      "rev_growth_yoy": 0.022322690025430914,
+      "rev_growth_yoy_accel": 0.05973157463552581,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.2549844244510647
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -13.5% -> +12.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +2.2% vs prior quarter YoY: -3.7% (accel: +6.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -563,23 +600,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 18,
+    "n_quarters": 19,
     "coverage": {
       "revenue": [
-        18,
-        18
+        19,
+        19
       ],
       "gross_profit": [
-        18,
-        18
+        19,
+        19
       ],
       "op_income": [
-        18,
-        18
+        19,
+        19
       ],
       "fcf": [
-        17,
-        18
+        18,
+        19
       ]
     },
     "gaps": [],
@@ -587,5 +624,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:40:15.959150"
+  "last_updated": "2026-02-24T10:23:28.064751"
 }

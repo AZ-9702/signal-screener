@@ -1,25 +1,9 @@
 {
   "ticker": "WU",
   "name": "THE WESTERN UNION COMPANY",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1271800000,
-      "gross_profit": 512600000,
-      "operating_income": 227100000,
-      "net_income": 177100000,
-      "opex": 1044700000,
-      "cogs": 759200000,
-      "rd": null,
-      "sga": 285500000,
-      "fcf": 279900000,
-      "ocf": 291900000,
-      "capex": -12000000,
-      "gross_margin": 0.4030507941500236,
-      "op_margin": 0.17856581223462809,
-      "fcf_margin": 0.22008177386381506
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8700000,
       "gross_margin": 0.41652892561983473,
       "op_margin": 0.19239669421487604,
-      "fcf_margin": 0.138099173553719,
-      "fcf_margin_change": -0.08198260031009605
+      "fcf_margin": 0.138099173553719
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.44325965130759654,
       "op_margin": 0.2465753424657534,
       "fcf_margin": 0.27085927770859275,
-      "incr_op_margin_yoy": 6.9,
-      "rev_growth_yoy": 0.010221732976883158,
       "fcf_margin_change": 0.015864330962110595
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.16414294367050272,
       "incr_op_margin_yoy": -0.0865561694290976,
       "rev_growth_yoy": -0.04487603305785124,
-      "rev_growth_yoy_accel": -0.0550977660347344,
       "fcf_margin_change": -0.10671633403809003
     },
     {
@@ -432,6 +412,28 @@
       "rev_growth_yoy": -0.003281853281853282,
       "rev_growth_yoy_accel": 0.03450884439256532,
       "fcf_margin_change": 0.25232365910212184
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1008400000,
+      "gross_profit": 363000000,
+      "operating_income": 185300000,
+      "net_income": 114400000,
+      "opex": 823100000,
+      "cogs": 645400000,
+      "rd": null,
+      "sga": 177700000,
+      "fcf": 115500000,
+      "ocf": 135400000,
+      "capex": -19900000,
+      "gross_margin": 0.35997619992066643,
+      "op_margin": 0.1837564458548195,
+      "fcf_margin": 0.1145378817929393,
+      "incr_op_margin_yoy": -0.14457831325301204,
+      "rev_growth_yoy": -0.04706104706104706,
+      "rev_growth_yoy_accel": -0.04377919377919377,
+      "fcf_margin_change": -0.13018417902441495
     }
   ],
   "signals": [
@@ -532,18 +534,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -4.5% vs prior quarter YoY: +1.0% (decel: -5.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +690.0% vs year-ago OPM: +17.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.8% -> +25.5% (+12.7%)",
@@ -581,5 +571,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:22:18.258145"
+  "last_updated": "2026-02-24T10:10:15.049500"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "LAMR",
   "name": "LAMAR ADVERTISING CO/NEW",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 428525000,
-      "gross_profit": 290726000,
-      "operating_income": 141231000,
-      "net_income": 108706000,
-      "opex": 287294000,
-      "cogs": 137799000,
-      "rd": null,
-      "sga": null,
-      "fcf": 190777000,
-      "ocf": 208416000,
-      "capex": -17639000,
-      "gross_margin": 0.6784341637010676,
-      "op_margin": 0.3295747039262587,
-      "fcf_margin": 0.4451945627442973
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -16332000,
       "gross_margin": 0.6462072740312931,
       "op_margin": 0.23976154076374903,
-      "fcf_margin": 0.18061318859688147,
-      "fcf_margin_change": -0.26458137414741584
+      "fcf_margin": 0.18061318859688147
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.681475370723087,
       "op_margin": 0.3031740447334474,
       "fcf_margin": 0.3874162410478513,
-      "incr_op_margin_yoy": 0.13188693242895427,
-      "rev_growth_yoy": 0.15413103086167668,
       "op_leverage_ratio": 11.859221666357051,
       "fcf_margin_change": 0.024903816903282472
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.16234148891862432,
       "incr_op_margin_yoy": 0.3916802265641497,
       "rev_growth_yoy": 0.21706962610648697,
-      "rev_growth_yoy_accel": 0.0629385952448103,
       "fcf_margin_change": -0.22507475212922695
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.9436589036755386,
       "rev_growth_yoy": 0.10588516525684953,
       "rev_growth_yoy_accel": -0.05769122581655313,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03205917966766336
     },
     {
@@ -439,9 +419,44 @@
       "rev_growth_yoy_accel": 0.01307091259826346,
       "op_leverage_ratio": 0.2767996211943956,
       "fcf_margin_change": -0.012870352713979294
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 595932000,
+      "gross_profit": 403563000,
+      "operating_income": 196061000,
+      "net_income": 152289000,
+      "opex": 399871000,
+      "cogs": 192369000,
+      "rd": null,
+      "sga": null,
+      "fcf": 208298000,
+      "ocf": 271160000,
+      "capex": -62862000,
+      "gross_margin": 0.6771963915346046,
+      "op_margin": 0.3289989461884913,
+      "fcf_margin": 0.3495331682138231,
+      "incr_op_margin_yoy": 9.740543843568592,
+      "rev_growth_yoy": 0.028236597321793684,
+      "rev_growth_yoy_accel": -0.009708220851161374,
+      "op_leverage_ratio": 2.0607846380934425,
+      "fcf_margin_change": 0.03220782293484176
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +1.8% vs OpEx growth +0.9% (leverage: 2.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +974.1% vs year-ago OPM: +6.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -570,12 +585,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +21.7% vs prior quarter YoY: +15.4% (accel: +6.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +39.2% vs year-ago OPM: +24.0%",
       "severity": "MEDIUM"
@@ -596,12 +605,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +20.0% vs OpEx growth +5.0% (leverage: 4.0x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +67.8% -> +64.6% -> +68.4% (reversal +3.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -630,7 +633,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:44.159792",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-24T10:15:38.163063"
 }

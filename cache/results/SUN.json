@@ -1,25 +1,9 @@
 {
   "ticker": "SUN",
   "name": "SUNOCO LP",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2553000000,
-      "gross_profit": 282000000,
-      "operating_income": 144000000,
-      "net_income": 83000000,
-      "opex": 138000000,
-      "cogs": 2271000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -4000000,
-      "ocf": 40000000,
-      "capex": -44000000,
-      "gross_margin": 0.11045828437132785,
-      "op_margin": 0.0564042303172738,
-      "fcf_margin": -0.0015667841754798276
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -18000000,
       "gross_margin": 0.10112359550561797,
       "op_margin": 0.058772687986171135,
-      "fcf_margin": 0.03860558916738692,
-      "op_leverage_ratio": 5.513513513513513,
-      "fcf_margin_change": 0.040172373342866746
+      "fcf_margin": 0.03860558916738692
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.08037340619307833,
       "op_margin": 0.04918032786885246,
       "fcf_margin": 0.02117486338797814,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.017430725779408778
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.06842955187727089,
       "op_margin": 0.03552684699232943,
       "fcf_margin": -0.006863140896245458,
-      "incr_op_margin_yoy": 0.013327780091628489,
-      "rev_growth_yoy": 0.9404622013317665,
       "op_leverage_ratio": 0.6265838971425914,
       "fcf_margin_change": -0.04724815868239319
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.0005553498704183636,
       "incr_op_margin_yoy": 0.02848265147591921,
       "rev_growth_yoy": 0.5563238259867473,
-      "rev_growth_yoy_accel": -0.38413837534501916,
       "op_leverage_ratio": 1.8425514735567217,
       "fcf_margin_change": 0.006307791025827095
     },
@@ -438,9 +417,38 @@
       "rev_growth_yoy_accel": 0.17584519462453735,
       "op_leverage_ratio": 1.0418562887365586,
       "fcf_margin_change": 0.021395291900218008
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 8600000000,
+      "gross_profit": 924000000,
+      "operating_income": 184000000,
+      "net_income": 101000000,
+      "opex": 8416000000,
+      "cogs": 7676000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 392000000,
+      "ocf": 392000000,
+      "capex": null,
+      "gross_margin": 0.10744186046511628,
+      "op_margin": 0.021395348837209303,
+      "fcf_margin": 0.045581395348837206,
+      "incr_op_margin_yoy": -0.01591113779645752,
+      "rev_growth_yoy": 0.6321882710191687,
+      "rev_growth_yoy_accel": 0.5833272033787584,
+      "op_leverage_ratio": 0.9335038620528653,
+      "fcf_margin_change": -0.020897384492011603
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +63.2% vs prior quarter YoY: +4.9% (accel: +58.3%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -596,24 +604,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.0% vs OpEx growth +4.9% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +55.6% vs prior quarter YoY: +94.0% (decel: -38.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -0.2% -> +3.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +36.0% vs OpEx growth +6.5% (leverage: 5.5x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -641,5 +631,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:35:24.546222"
+  "last_updated": "2026-02-24T10:25:24.884295"
 }

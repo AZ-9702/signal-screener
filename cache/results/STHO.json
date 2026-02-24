@@ -1,6 +1,8 @@
 {
   "ticker": "STHO",
-  "name": "Star Holdings",
+  "name": "Star\u00a0Holdings",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -117,7 +119,7 @@
       "fcf_margin": -0.160989010989011,
       "rev_growth_yoy": -0.3746164985396264,
       "rev_growth_yoy_accel": 0.0006951757560826888,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12798531743485875
     },
     {
@@ -312,9 +314,36 @@
       "rev_growth_yoy": 0.144928716904277,
       "rev_growth_yoy_accel": -0.23158923668153036,
       "fcf_margin_change": 0.25161946431556426
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 25357000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -19136000,
+      "opex": 24271000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -8000000,
+      "ocf": -8000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.31549473518160664,
+      "rev_growth_yoy": -0.22600042733738288,
+      "rev_growth_yoy_accel": -0.3709291442416599,
+      "fcf_margin_change": -0.5043377691932759
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -22.6% vs prior quarter YoY: +14.5% (decel: -37.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -437,23 +466,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
         0,
-        15
+        16
       ],
       "op_income": [
         0,
-        15
+        16
       ],
       "fcf": [
-        15,
-        15
+        16,
+        16
       ]
     },
     "gaps": [],
@@ -464,5 +493,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:20:08.594267"
+  "last_updated": "2026-02-24T10:38:53.667622"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "AORT",
   "name": "ARTIVION, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 67896000,
-      "gross_profit": 44591000,
-      "operating_income": 1914000,
-      "net_income": -3458000,
-      "opex": 42677000,
-      "cogs": 23305000,
-      "rd": 6574000,
-      "sga": 36103000,
-      "fcf": 3293000,
-      "ocf": 5450000,
-      "capex": -2157000,
-      "gross_margin": 0.6567544479792624,
-      "op_margin": 0.028190173206079888,
-      "fcf_margin": 0.04850064804995876
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1502000,
       "gross_margin": 0.6729500471253534,
       "op_margin": 0.020341271962524794,
-      "fcf_margin": -0.06387947163335068,
-      "op_leverage_ratio": 0.5399054107136542,
-      "fcf_margin_change": -0.11238011968330944
+      "fcf_margin": -0.06387947163335068
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6470766052850341,
       "op_margin": -0.11762853616142278,
       "fcf_margin": -0.023314104340378367,
-      "incr_op_margin_yoy": -0.9786919464254653,
-      "rev_growth_yoy": 0.16934723695063036,
       "op_leverage_ratio": 0.4174896781514345,
       "fcf_margin_change": 0.06232856188311797
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.03674251745172445,
       "incr_op_margin_yoy": 0.031015344433561867,
       "rev_growth_yoy": 0.08617609408189965,
-      "rev_growth_yoy_accel": -0.08317114286873072,
       "fcf_margin_change": -0.013428413111346085
     },
     {
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 0.7676526717557252,
       "rev_growth_yoy": 0.055050690760098754,
       "rev_growth_yoy_accel": -0.031125403321800894,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08934660378302785
     },
     {
@@ -187,7 +166,7 @@
       "fcf_margin": -0.05047986095367642,
       "rev_growth_yoy": 5.038164093004509e-05,
       "rev_growth_yoy_accel": -0.06408467451706018,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06488679502275682
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 2.054076890578792,
       "rev_growth_yoy": 0.17063763832318063,
       "rev_growth_yoy_accel": -0.009115000282325814,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.18065090564561304
     },
     {
@@ -438,9 +417,44 @@
       "rev_growth_yoy": 0.18385032209565771,
       "rev_growth_yoy_accel": 0.03129826586166226,
       "fcf_margin_change": 0.05190874150927796
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 115992000,
+      "gross_profit": 73143000,
+      "operating_income": 10680000,
+      "net_income": 2426000,
+      "opex": 65963000,
+      "cogs": 42849000,
+      "rd": 9122000,
+      "sga": 56841000,
+      "fcf": -7947000,
+      "ocf": 19560000,
+      "capex": -27507000,
+      "gross_margin": 0.630586592178771,
+      "op_margin": 0.0920753155390027,
+      "fcf_margin": -0.06851334574798262,
+      "incr_op_margin_yoy": 0.42876257760650827,
+      "rev_growth_yoy": 0.19200887902330743,
+      "rev_growth_yoy_accel": 0.008158556927649718,
+      "op_leverage_ratio": 2.485091277748302,
+      "fcf_margin_change": -0.2242000145312754
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +2.3% vs OpEx growth +0.9% (leverage: 2.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +42.9% vs year-ago OPM: +2.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -569,12 +583,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +8.6% vs prior quarter YoY: +16.9% (decel: -8.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -11.8% -> +2.1%",
       "severity": "HIGH"
@@ -611,7 +619,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:37:52.038716",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:28:29.764217"
 }

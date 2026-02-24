@@ -1,25 +1,9 @@
 {
   "ticker": "RARE",
   "name": "Ultragenyx Pharmaceutical Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 91542000,
-      "gross_profit": null,
-      "operating_income": -96081000,
-      "net_income": -24011000,
-      "opex": 187623000,
-      "cogs": null,
-      "rd": 131100000,
-      "sga": 51042000,
-      "fcf": -84398000,
-      "ocf": -62452000,
-      "capex": -21946000,
-      "gross_margin": null,
-      "op_margin": -1.049583797601101,
-      "fcf_margin": -0.9219593192195932
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -16414000,
       "gross_margin": null,
       "op_margin": -1.0721766688465215,
-      "fcf_margin": -1.7682982041350168,
-      "op_leverage_ratio": 0.8775629225539199,
-      "fcf_margin_change": -0.8463388849154236
+      "fcf_margin": -1.7682982041350168
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": null,
       "op_margin": -1.2299463958076005,
       "fcf_margin": -0.8441401144035784,
-      "incr_op_margin_yoy": 0.7951674230344659,
-      "rev_growth_yoy": -0.08906294378536628,
       "fcf_margin_change": 0.1382474809765336
     },
     {
@@ -118,7 +98,6 @@
       "fcf_margin": -1.8728341777694377,
       "incr_op_margin_yoy": 1.5448612538540596,
       "rev_growth_yoy": -0.19578449620202223,
-      "rev_growth_yoy_accel": -0.10672155241665596,
       "fcf_margin_change": -1.0286940633658594
     },
     {
@@ -264,16 +243,16 @@
       "cogs": null,
       "rd": 160557000,
       "sga": 76833000,
-      "fcf": -85504000,
-      "ocf": -83904000,
-      "capex": -1600000,
+      "fcf": -85431000,
+      "ocf": -84098000,
+      "capex": -1333000,
       "gross_margin": null,
       "op_margin": -0.95805859080633,
-      "fcf_margin": -0.6711881436824918,
+      "fcf_margin": -0.6706151092690279,
       "incr_op_margin_yoy": 0.9806604558309765,
       "rev_growth_yoy": 0.2326508495568371,
       "rev_growth_yoy_accel": 0.1516281711448772,
-      "fcf_margin_change": 0.568653980904462
+      "fcf_margin_change": 0.5692270153179259
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -295,7 +274,7 @@
       "incr_op_margin_yoy": -1.3484466834592779,
       "rev_growth_yoy": 0.08295852571246617,
       "rev_growth_yoy_accel": -0.14969232384437092,
-      "fcf_margin_change": -1.1107897490522485
+      "fcf_margin_change": -1.1113627834657125
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -352,16 +331,16 @@
       "cogs": null,
       "rd": 187766000,
       "sga": 82495000,
-      "fcf": -80157000,
-      "ocf": -79503000,
-      "capex": -654000,
+      "fcf": -79478000,
+      "ocf": -79315000,
+      "capex": -163000,
       "gross_margin": null,
       "op_margin": -0.7416316405562935,
-      "fcf_margin": -0.4861624119798395,
+      "fcf_margin": -0.4820441905177799,
       "incr_op_margin_yoy": -0.006109110310790983,
       "rev_growth_yoy": 0.2942492464204974,
       "rev_growth_yoy_accel": -0.1284040395910067,
-      "fcf_margin_change": 0.005701037344145732
+      "fcf_margin_change": 0.009819258806205322
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -383,7 +362,7 @@
       "incr_op_margin_yoy": 0.7356774680718343,
       "rev_growth_yoy": 0.27986915733279427,
       "rev_growth_yoy_accel": -0.014380089087703107,
-      "fcf_margin_change": -0.7184939932695646
+      "fcf_margin_change": -0.7226122147316243
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -428,9 +407,43 @@
       "rev_growth_yoy": 0.1465224310723042,
       "rev_growth_yoy_accel": 0.014096873687896,
       "fcf_margin_change": 0.08545507340151459
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 207279000,
+      "gross_profit": null,
+      "operating_income": -113283000,
+      "net_income": -128556000,
+      "opex": null,
+      "cogs": null,
+      "rd": 203280000,
+      "sga": 87937000,
+      "fcf": -100767000,
+      "ocf": -99829000,
+      "capex": -938000,
+      "gross_margin": null,
+      "op_margin": -0.5465242499240155,
+      "fcf_margin": -0.48614186675929544,
+      "incr_op_margin_yoy": 0.21213621998962312,
+      "rev_growth_yoy": 0.2571735293582489,
+      "rev_growth_yoy_accel": 0.11065109828594469,
+      "fcf_margin_change": 0.09348210077711044
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -58.0% -> -48.6% (+9.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +25.7% vs prior quarter YoY: +14.7% (accel: +11.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -534,12 +547,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -19.6% vs prior quarter YoY: -8.9% (decel: -10.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -98.2% -> -84.4% (+13.8%)",
@@ -579,5 +586,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:30:44.228412"
+  "last_updated": "2026-02-24T10:32:06.170065"
 }

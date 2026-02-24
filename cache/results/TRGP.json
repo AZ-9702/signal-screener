@@ -1,25 +1,9 @@
 {
   "ticker": "TRGP",
   "name": "TARGA RESOURCES CORP.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2572800000,
-      "gross_profit": 814500000,
-      "operating_income": 265200000,
-      "net_income": 33600000,
-      "opex": 549300000,
-      "cogs": 1758300000,
-      "rd": null,
-      "sga": null,
-      "fcf": 500300000,
-      "ocf": 648800000,
-      "capex": -148500000,
-      "gross_margin": 0.3165811567164179,
-      "op_margin": 0.10307835820895522,
-      "fcf_margin": 0.19445740049751245
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -96200000,
       "gross_margin": 0.21923087510666997,
       "op_margin": 0.09472293335535552,
-      "fcf_margin": 0.16065185674567126,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.033805543751841194
+      "fcf_margin": 0.16065185674567126
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.16022860923257864,
       "op_margin": -0.016833284328138784,
       "fcf_margin": 0.05891649514848574,
-      "incr_op_margin_yoy": -0.12437255995538204,
-      "rev_growth_yoy": 1.1150497512437811,
       "op_leverage_ratio": 0.21722100488013038,
       "fcf_margin_change": -0.02460930255091108
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.10965699421265955,
       "incr_op_margin_yoy": -0.03641435464414958,
       "rev_growth_yoy": 0.36512786632532274,
-      "rev_growth_yoy_accel": -0.7499218849184583,
       "fcf_margin_change": 0.050740499064173814
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": -4.708830548926015,
       "rev_growth_yoy": 0.009268886185156509,
       "rev_growth_yoy_accel": 0.07849256230704989,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.010784748250243809
     },
     {
@@ -390,7 +369,7 @@
       "fcf_margin": 0.03555847857064562,
       "rev_growth_yoy": -0.00019726459758022093,
       "rev_growth_yoy_accel": -0.03930565002038952,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10086809850696543
     },
     {
@@ -436,9 +415,49 @@
       "rev_growth_yoy": 0.0777298925177839,
       "rev_growth_yoy_accel": -0.11825550894207013,
       "fcf_margin_change": -0.0062685249793662575
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4055500000,
+      "gross_profit": 1747900000,
+      "operating_income": 917400000,
+      "net_income": 545000000,
+      "opex": 830500000,
+      "cogs": 2307600000,
+      "rd": null,
+      "sga": null,
+      "fcf": 542300000,
+      "ocf": 1505500000,
+      "capex": -963200000,
+      "gross_margin": 0.43099494513623476,
+      "op_margin": 0.22621131796325977,
+      "fcf_margin": 0.13371963999506842,
+      "incr_op_margin_yoy": -0.6200686106346484,
+      "rev_growth_yoy": -0.07940435384650307,
+      "rev_growth_yoy_accel": -0.15713424636428697,
+      "fcf_margin_change": 0.1512085588619021
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.7% -> +13.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +42.8% -> +39.6% -> +43.1% (reversal +3.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -7.9% vs prior quarter YoY: +7.8% (decel: -15.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -597,12 +616,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +36.5% vs prior quarter YoY: +111.5% (decel: -75.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -1.7% -> +6.0%",
       "severity": "HIGH"
@@ -639,5 +652,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:21.190536"
+  "last_updated": "2026-02-24T10:23:17.258275"
 }

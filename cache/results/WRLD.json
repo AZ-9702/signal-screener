@@ -1,25 +1,9 @@
 {
   "ticker": "WRLD",
   "name": "WORLD ACCEPTANCE CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 130945650,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 14490606,
-      "opex": 114037045,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 46976618,
-      "ocf": 51202198,
-      "capex": -4225580,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.35874897715197107
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2698269,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6347194148208914,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.2759704376689204
+      "fcf_margin": 0.6347194148208914
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3991875888219468,
-      "rev_growth_yoy": 0.13460669369314673,
       "op_leverage_ratio": 0.5638960855056938,
       "fcf_margin_change": -0.0038531706281471068
     },
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.621958521965502,
       "rev_growth_yoy": 0.13705906480721902,
-      "rev_growth_yoy_accel": 0.002452371114072288,
       "op_leverage_ratio": 7.529529704611757,
       "fcf_margin_change": 0.22277093314355523
     },
@@ -204,7 +184,7 @@
       "fcf_margin": 0.5245701797471974,
       "rev_growth_yoy": -0.03301889628387112,
       "rev_growth_yoy_accel": -0.019050223585925747,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06155497787815567
     },
     {
@@ -289,7 +269,7 @@
       "fcf_margin": 0.5167495557718268,
       "rev_growth_yoy": -0.009773870440259394,
       "rev_growth_yoy_accel": 0.049934555278696544,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09813819019094039
     },
     {
@@ -332,7 +312,7 @@
       "fcf_margin": 0.4011839356763724,
       "rev_growth_yoy": -0.03993281593838235,
       "rev_growth_yoy_accel": 0.03038198765463789,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.035799198844206126
     },
     {
@@ -346,16 +326,16 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 60345236,
-      "ocf": 61030864,
+      "fcf": 60415593,
+      "ocf": 61101221,
       "capex": -685628,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.4352884487549634,
+      "fcf_margin": 0.43579595508717917,
       "rev_growth_yoy": 0.0064128488644381405,
       "rev_growth_yoy_accel": 0.046345664802820485,
       "op_leverage_ratio": 0.2972011586061731,
-      "fcf_margin_change": 0.034104513078591026
+      "fcf_margin_change": 0.03461201941080677
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -368,16 +348,16 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 90087914,
-      "ocf": 90957261,
+      "fcf": 90017557,
+      "ocf": 90886904,
       "capex": -869347,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5450887869693596,
+      "fcf_margin": 0.5446630826758314,
       "rev_growth_yoy": 0.037717012526292656,
       "rev_growth_yoy_accel": 0.03130416366185452,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.10980033821439616
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.10886712758865225
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -398,7 +378,7 @@
       "fcf_margin": 0.431206735244004,
       "rev_growth_yoy": 0.022579446708926906,
       "rev_growth_yoy_accel": -0.01513756581736575,
-      "fcf_margin_change": -0.1138820517253556
+      "fcf_margin_change": -0.11345634743182742
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -421,13 +401,35 @@
       "rev_growth_yoy_accel": 0.0006787340692305105,
       "op_leverage_ratio": 0.3514733264740979,
       "fcf_margin_change": -0.07638307555643276
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 141252129,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -911330,
+      "opex": 142265504,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 57163474,
+      "ocf": 57971410,
+      "capex": -807936,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.404691061329065,
+      "rev_growth_yoy": 0.01889435175538929,
+      "rev_growth_yoy_accel": -0.004363829022768127,
+      "op_leverage_ratio": 1.123946183675981,
+      "fcf_margin_change": 0.04986740164149378
     }
   ],
   "signals": [
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +43.5% -> +54.5% (+11.0%)",
+      "detail": "FCF margin: +43.6% -> +54.5% (+10.9%)",
       "severity": "MEDIUM"
     },
     {
@@ -489,12 +491,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +12.0% vs OpEx growth +1.6% (leverage: 7.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +35.9% -> +63.5% (+27.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -525,5 +521,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:16:12.449152"
+  "last_updated": "2026-02-24T11:09:46.586058"
 }

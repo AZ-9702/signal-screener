@@ -1,25 +1,9 @@
 {
   "ticker": "NWL",
-  "name": "NEWELL BRANDS INC",
+  "name": "NEWELL BRANDS INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2689000000,
-      "gross_profit": 884000000,
-      "operating_income": 248000000,
-      "net_income": 127000000,
-      "opex": 636000000,
-      "cogs": 1805000000,
-      "rd": null,
-      "sga": 608000000,
-      "fcf": 612000000,
-      "ocf": 612000000,
-      "capex": null,
-      "gross_margin": 0.3287467460022313,
-      "op_margin": 0.09222759390107847,
-      "fcf_margin": 0.22759390107846783
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.319493006993007,
       "op_margin": 0.08391608391608392,
-      "fcf_margin": -0.010926573426573426,
-      "fcf_margin_change": -0.23852047450504127
+      "fcf_margin": -0.010926573426573426
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.30426982418371007,
       "op_margin": 0.10082526013634732,
       "fcf_margin": 0.14854682454251883,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1112636942361327
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.2976827094474153,
       "op_margin": 0.06060606060606061,
       "fcf_margin": 0.14046345811051694,
-      "incr_op_margin_yoy": -0.6724137931034483,
-      "rev_growth_yoy": 0.04313871327631089,
       "fcf_margin_change": -0.008083366432001887
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.11390284757118928,
       "incr_op_margin_yoy": 0.25,
       "rev_growth_yoy": 0.043706293706293704,
-      "rev_growth_yoy_accel": 0.0005675804299828113,
       "fcf_margin_change": -0.2543663056817062
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": -0.06857142857142857,
       "rev_growth_yoy": -0.06459948320413436,
       "rev_growth_yoy_accel": -0.10830577691042806,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04365817511657208
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.5969696969696969,
       "rev_growth_yoy": -0.13022888713496447,
       "rev_growth_yoy_accel": 0.11390846629887139,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20327633966950043
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": -1.2583732057416268,
       "rev_growth_yoy": -0.09146608315098469,
       "rev_growth_yoy_accel": -0.0008799375026720818,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07538347483140655
     },
     {
@@ -435,6 +415,29 @@
       "rev_growth_yoy": -0.0724191063174114,
       "rev_growth_yoy_accel": -0.024214482608606674,
       "fcf_margin_change": 0.23706164636397192
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1897000000,
+      "gross_profit": 628000000,
+      "operating_income": -272000000,
+      "net_income": -315000000,
+      "opex": 900000000,
+      "cogs": 1269000000,
+      "rd": null,
+      "sga": 514000000,
+      "fcf": 161000000,
+      "ocf": 161000000,
+      "capex": null,
+      "gross_margin": 0.33104902477596204,
+      "op_margin": -0.143384290985767,
+      "fcf_margin": 0.08487084870848709,
+      "incr_op_margin_yoy": 5.403846153846154,
+      "rev_growth_yoy": -0.02668034889687019,
+      "rev_growth_yoy_accel": 0.04573875742054121,
+      "op_leverage_ratio": 0.062140535133783446,
+      "fcf_margin_change": -0.1222166374487665
     }
   ],
   "signals": [
@@ -608,7 +611,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:40:36.744350",
-  "sector": "Consumer Defensive",
-  "industry": "Household & Personal Products"
+  "last_updated": "2026-02-24T10:42:36.012683"
 }

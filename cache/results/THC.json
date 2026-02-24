@@ -1,25 +1,9 @@
 {
   "ticker": "THC",
   "name": "TENET HEALTHCARE CORP",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4915000000,
-      "gross_profit": null,
-      "operating_income": 920000000,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 280000000,
-      "ocf": 446000000,
-      "capex": -166000000,
-      "gross_margin": null,
-      "op_margin": 0.1871820956256358,
-      "fcf_margin": 0.056968463886063074
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -121000000,
       "gross_margin": null,
       "op_margin": 0.10876385693369588,
-      "fcf_margin": 0.08638360175695461,
-      "fcf_margin_change": 0.02941513787089154
+      "fcf_margin": 0.08638360175695461
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.15465403624382207,
       "fcf_margin": 0.010914332784184515,
-      "incr_op_margin_yoy": 2.864406779661017,
-      "rev_growth_yoy": -0.01200406917599186,
       "fcf_margin_change": -0.05467618621867613
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.015384615384615385,
       "incr_op_margin_yoy": -3.5555555555555554,
       "rev_growth_yoy": -0.007529805480025099,
-      "rev_growth_yoy_accel": 0.004474263695966762,
       "fcf_margin_change": 0.004470282600430871
     },
     {
@@ -427,9 +407,37 @@
       "rev_growth_yoy": 0.03260445138617728,
       "rev_growth_yoy_accel": -0.00031735931341120294,
       "fcf_margin_change": 0.0061377804020393
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5527000000,
+      "gross_profit": null,
+      "operating_income": 853000000,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 367000000,
+      "ocf": 731000000,
+      "capex": -364000000,
+      "gross_margin": null,
+      "op_margin": 0.15433327302333996,
+      "fcf_margin": 0.0664013026958567,
+      "incr_op_margin_yoy": 0.07032967032967033,
+      "rev_growth_yoy": 0.08970820189274448,
+      "rev_growth_yoy_accel": 0.0571037505065672,
+      "fcf_margin_change": -0.08069644735141121
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +9.0% vs prior quarter YoY: +3.3% (accel: +5.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -513,12 +521,6 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: -6.4% vs prior quarter YoY: -0.8% (decel: -5.6%)",
       "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +286.4% vs year-ago OPM: +18.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -548,5 +550,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:23:04.308623"
+  "last_updated": "2026-02-24T10:32:31.069628"
 }

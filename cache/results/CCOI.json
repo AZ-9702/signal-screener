@@ -1,25 +1,9 @@
 {
   "ticker": "CCOI",
   "name": "COGENT COMMUNICATIONS HOLDINGS,\u00a0INC.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 143898000,
-      "gross_profit": 89067000,
-      "operating_income": 27377000,
-      "net_income": null,
-      "opex": 116530000,
-      "cogs": 54831000,
-      "rd": null,
-      "sga": 39244000,
-      "fcf": 21711000,
-      "ocf": 37571000,
-      "capex": -15860000,
-      "gross_margin": 0.6189592628111579,
-      "op_margin": 0.19025281796828308,
-      "fcf_margin": 0.15087770504107076
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -15444000,
       "gross_margin": 0.6110289759294713,
       "op_margin": 0.17912206953405507,
-      "fcf_margin": 0.21571499621875362,
-      "op_leverage_ratio": 0.5866739310808725,
-      "fcf_margin_change": 0.06483729117768286
+      "fcf_margin": 0.21571499621875362
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.6167661823344406,
       "op_margin": 0.24575275281394984,
       "fcf_margin": 0.14053106722911698,
-      "incr_op_margin_yoy": 2.6549019607843136,
-      "rev_growth_yoy": 0.023037151315515158,
       "fcf_margin_change": -0.0315740927484395
     },
     {
@@ -118,7 +98,6 @@
       "fcf_margin": 0.2097536450477627,
       "incr_op_margin_yoy": 1.0396163469557964,
       "rev_growth_yoy": 0.016337709586651858,
-      "rev_growth_yoy_accel": -0.0066994417288633,
       "op_leverage_ratio": 0.670401168407395,
       "fcf_margin_change": 0.06922257781864571
     },
@@ -352,7 +331,7 @@
       "revenue": 252291000,
       "gross_profit": 97112000,
       "operating_income": -33234000,
-      "net_income": null,
+      "net_income": -43317000,
       "opex": 285525000,
       "cogs": 155179000,
       "rd": null,
@@ -433,6 +412,28 @@
       "rev_growth_yoy": -0.05930358239827062,
       "rev_growth_yoy_accel": -0.004796454159078166,
       "fcf_margin_change": 0.2700504815843857
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 240524000,
+      "gross_profit": 112170000,
+      "operating_income": -11194000,
+      "net_income": -30781000,
+      "opex": 252006000,
+      "cogs": 128354000,
+      "rd": null,
+      "sga": 65227000,
+      "fcf": -43023000,
+      "ocf": -5992000,
+      "capex": -37031000,
+      "gross_margin": 0.4663567876802315,
+      "op_margin": -0.046540054214963995,
+      "fcf_margin": -0.17887196288104307,
+      "incr_op_margin_yoy": -1.8730347582221467,
+      "rev_growth_yoy": -0.0466405856728936,
+      "rev_growth_yoy_accel": 0.012662996725377018,
+      "fcf_margin_change": -0.041859617304082636
     }
   ],
   "signals": [
@@ -507,18 +508,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +104.0% vs year-ago OPM: +17.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +265.5% vs year-ago OPM: +19.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +15.1% -> +21.6% (+6.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -546,7 +535,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:56:32.324808",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-24T10:12:32.427474"
 }

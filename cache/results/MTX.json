@@ -1,25 +1,9 @@
 {
   "ticker": "MTX",
   "name": "MINERALS TECHNOLOGIES INC.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 431800000,
-      "gross_profit": 111300000,
-      "operating_income": 54500000,
-      "net_income": 31100000,
-      "opex": 56800000,
-      "cogs": 320500000,
-      "rd": 4900000,
-      "sga": 49200000,
-      "fcf": 71200000,
-      "ocf": 92200000,
-      "capex": -21000000,
-      "gross_margin": 0.25775822139879573,
-      "op_margin": 0.12621584066697544,
-      "fcf_margin": 0.16489115331171839
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -17700000,
       "gross_margin": 0.24701723376049492,
       "op_margin": 0.12991604065399912,
-      "fcf_margin": 0.07335395492708793,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.09153719838463045
+      "fcf_margin": 0.07335395492708793
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.2222688194590061,
       "op_margin": 0.11029565946739359,
       "fcf_margin": 0.09708534283916964,
-      "incr_op_margin_yoy": -0.04212860310421286,
-      "rev_growth_yoy": 0.10444650301065309,
       "fcf_margin_change": 0.050804700404681054
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.036023887497591986,
       "incr_op_margin_yoy": 0.11127819548872181,
       "rev_growth_yoy": 0.1469288555015466,
-      "rev_growth_yoy_accel": 0.04248235249089352,
       "op_leverage_ratio": 2.250127310307642,
       "fcf_margin_change": -0.13310923033676164
     },
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": -1.951219512195122,
       "rev_growth_yoy": -0.022727272727272728,
       "rev_growth_yoy_accel": 0.05716047282932222,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11006319483738261
     },
     {
@@ -435,6 +414,28 @@
       "rev_growth_yoy": 0.014675052410901468,
       "rev_growth_yoy_accel": 0.037402325138174194,
       "fcf_margin_change": 0.01798709284071856
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 519500000,
+      "gross_profit": 124500000,
+      "operating_income": 62000000,
+      "net_income": 37200000,
+      "opex": 62500000,
+      "cogs": 395000000,
+      "rd": 5800000,
+      "sga": 52200000,
+      "fcf": 31900000,
+      "ocf": 64300000,
+      "capex": -32400000,
+      "gross_margin": 0.23965351299326276,
+      "op_margin": 0.11934552454282965,
+      "fcf_margin": 0.06140519730510106,
+      "incr_op_margin_yoy": -15.785714285714286,
+      "rev_growth_yoy": 0.0027021810461300907,
+      "rev_growth_yoy_accel": -0.011972871364771378,
+      "fcf_margin_change": -0.020488115993170915
     }
   ],
   "signals": [
@@ -584,7 +585,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:35:08.651288",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:17:19.150501"
 }

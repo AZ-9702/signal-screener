@@ -1,25 +1,9 @@
 {
   "ticker": "APPN",
-  "name": "Appian Corporation",
+  "name": "APPIAN CORPORATION",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 81630000,
-      "gross_profit": 59690000,
-      "operating_income": -9686000,
-      "net_income": -6381000,
-      "opex": 69376000,
-      "cogs": 21940000,
-      "rd": 18875000,
-      "sga": null,
-      "fcf": 5618000,
-      "ocf": 5833000,
-      "capex": -215000,
-      "gross_margin": 0.7312262648536078,
-      "op_margin": -0.11865735636408183,
-      "fcf_margin": 0.06882273673894401
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -468000,
       "gross_margin": 0.7351977941590231,
       "op_margin": -0.11805750942546846,
-      "fcf_margin": -0.036891564909121606,
-      "op_leverage_ratio": 0.9534796837418955,
-      "fcf_margin_change": -0.10571430164806561
+      "fcf_margin": -0.036891564909121606
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.7311883262849087,
       "op_margin": -0.2471139558806721,
       "fcf_margin": -0.21912028041299958,
-      "incr_op_margin_yoy": -0.6960356194879699,
-      "rev_growth_yoy": 0.28614479970599044,
       "op_leverage_ratio": 0.8688736694214979,
       "fcf_margin_change": 0.06839175741553843
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.20998372219207814,
       "incr_op_margin_yoy": -0.5263862106961552,
       "rev_growth_yoy": 0.28598278093523155,
-      "rev_growth_yoy_accel": -0.00016201877075888715,
       "op_leverage_ratio": 2.014356097188695,
       "fcf_margin_change": 0.009136558220921437
     },
@@ -257,7 +236,7 @@
       "incr_op_margin_yoy": 1.1738474346966385,
       "rev_growth_yoy": 0.16303573246462383,
       "rev_growth_yoy_accel": 0.002654859691757383,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3575858352470378
     },
     {
@@ -348,7 +327,7 @@
       "incr_op_margin_yoy": 0.4752918976294374,
       "rev_growth_yoy": 0.12369615008680175,
       "rev_growth_yoy_accel": -0.022997660350500063,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06947309407489734
     },
     {
@@ -439,11 +418,40 @@
       "incr_op_margin_yoy": 0.6151675163874727,
       "rev_growth_yoy": 0.21390179939241294,
       "rev_growth_yoy_accel": 0.0487259714647926,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1146442888927176
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 202867000,
+      "gross_profit": 131400000,
+      "operating_income": -687000,
+      "net_income": -5103000,
+      "opex": 132087000,
+      "cogs": 71467000,
+      "rd": 52061000,
+      "sga": null,
+      "fcf": 270000,
+      "ocf": 1137000,
+      "capex": -867000,
+      "gross_margin": 0.647715005397625,
+      "op_margin": -0.003386455165206761,
+      "fcf_margin": 0.0013309212439677226,
+      "incr_op_margin_yoy": -0.15808965784091536,
+      "rev_growth_yoy": 0.21706812250652427,
+      "rev_growth_yoy_accel": 0.00316632311411133,
+      "op_leverage_ratio": 3.1256463493510305,
+      "fcf_margin_change": -0.09522851063984225
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +8.5% vs OpEx growth +2.7% (leverage: 3.1x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -608,7 +616,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:33:38.272326",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:22:36.565818"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "RRR",
   "name": "RED ROCK RESORTS, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 343409000,
-      "gross_profit": null,
-      "operating_income": 78634000,
-      "net_income": 29710000,
-      "opex": 264775000,
-      "cogs": null,
-      "rd": null,
-      "sga": 78648000,
-      "fcf": 127237000,
-      "ocf": 127237000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.22898060330393205,
-      "fcf_margin": 0.3705115474550754
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.20178436215859044,
-      "fcf_margin": 0.3396300256083762,
-      "op_leverage_ratio": 0.04466177754027299,
-      "fcf_margin_change": -0.030881521846699234
+      "fcf_margin": 0.3396300256083762
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.39358459630462655,
       "fcf_margin": 0.450355827418447,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1107258018100708
     },
     {
@@ -96,9 +78,7 @@
       "gross_margin": null,
       "op_margin": 0.38186923765372177,
       "fcf_margin": 0.31523319300870833,
-      "incr_op_margin_yoy": 1.0469314079422383,
-      "rev_growth_yoy": 0.22988622895730745,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08074625579291378
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.3920589787768029,
       "incr_op_margin_yoy": 4.119937980700573,
       "rev_growth_yoy": 0.1390083914933682,
-      "rev_growth_yoy_accel": -0.09087783746393926,
       "fcf_margin_change": 0.07682578576809457
     },
     {
@@ -187,7 +166,7 @@
       "incr_op_margin_yoy": 19.34531450577664,
       "rev_growth_yoy": 0.007377697381817149,
       "rev_growth_yoy_accel": 0.008173320969886653,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04404253086021359
     },
     {
@@ -436,6 +415,29 @@
       "rev_growth_yoy": 0.01614474718813032,
       "rev_growth_yoy_accel": -0.06582431961450043,
       "fcf_margin_change": 0.05280602559583769
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 511777000,
+      "gross_profit": null,
+      "operating_income": 143562000,
+      "net_income": 44659000,
+      "opex": 368215000,
+      "cogs": null,
+      "rd": null,
+      "sga": 111729000,
+      "fcf": 156557000,
+      "ocf": 156557000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.28051670942617585,
+      "fcf_margin": 0.30590862817203585,
+      "incr_op_margin_yoy": 0.07909463997015297,
+      "rev_growth_yoy": 0.032443337132712656,
+      "rev_growth_yoy_accel": 0.016298589944582335,
+      "op_leverage_ratio": 1.0857215988840359,
+      "fcf_margin_change": -0.04795787364051829
     }
   ],
   "signals": [
@@ -543,20 +545,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +13.9% vs prior quarter YoY: +23.0% (decel: -9.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -20.2% (year-ago) -> +32.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +104.7% vs year-ago OPM: +22.9%",
       "severity": "HIGH"
     },
     {
@@ -599,5 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:16.211659"
+  "last_updated": "2026-02-24T10:13:08.407157"
 }

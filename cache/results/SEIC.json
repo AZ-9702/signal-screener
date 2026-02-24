@@ -1,25 +1,9 @@
 {
   "ticker": "SEIC",
   "name": "SEI INVESTMENTS COMPANY",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 443723000,
-      "gross_profit": 144594000,
-      "operating_income": 124010000,
-      "net_income": 125882000,
-      "opex": 319713000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 80823000,
-      "ocf": 92158000,
-      "capex": -11335000,
-      "gross_margin": 0.3258654611097464,
-      "op_margin": 0.2794761596761944,
-      "fcf_margin": 0.18214742080081492
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -4218000,
       "gross_margin": 0.33872666704704557,
       "op_margin": 0.2915099432503961,
-      "fcf_margin": 0.29045219734641836,
-      "op_leverage_ratio": 2.748605453378089,
-      "fcf_margin_change": 0.10830477654560344
+      "fcf_margin": 0.29045219734641836
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3390012957241104,
       "op_margin": 0.28585268613575204,
       "fcf_margin": 0.28952656234426394,
-      "incr_op_margin_yoy": 0.33469711878743935,
-      "rev_growth_yoy": 0.13054766149151611,
       "op_leverage_ratio": 0.823908994168858,
       "fcf_margin_change": -0.02332346299973448
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.43193227883042706,
       "incr_op_margin_yoy": 0.6517490080075066,
       "rev_growth_yoy": 0.2759729287272376,
-      "rev_growth_yoy_accel": 0.1454252672357215,
       "op_leverage_ratio": 6.790271283981165,
       "fcf_margin_change": 0.14240571648616313
     },
@@ -325,7 +304,7 @@
       "incr_op_margin_yoy": 0.798990945237061,
       "rev_growth_yoy": 0.06119736554225785,
       "rev_growth_yoy_accel": -0.02931271825311177,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.012216888719368268
     },
     {
@@ -441,6 +420,29 @@
       "rev_growth_yoy_accel": -0.0017505464275916899,
       "op_leverage_ratio": 1.8311360634762694,
       "fcf_margin_change": 0.23122660770583
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 607925000,
+      "gross_profit": 223663000,
+      "operating_income": 161618000,
+      "net_income": 172501000,
+      "opex": 446307000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 124823000,
+      "ocf": 126398000,
+      "capex": -1575000,
+      "gross_margin": 0.367912160217132,
+      "op_margin": 0.26585187317514497,
+      "fcf_margin": 0.20532631492371592,
+      "incr_op_margin_yoy": 0.31682270621858677,
+      "rev_growth_yoy": 0.09105511584917174,
+      "rev_growth_yoy_accel": 0.014547289218530643,
+      "op_leverage_ratio": 0.7666855671777147,
+      "fcf_margin_change": -0.19162551485998744
     }
   ],
   "signals": [
@@ -620,12 +622,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +27.6% vs prior quarter YoY: +13.1% (accel: +14.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +65.2% vs year-ago OPM: +29.2%",
       "severity": "HIGH"
@@ -640,18 +636,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +29.0% -> +37.2% (+8.2%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +18.2% -> +29.0% (+10.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +2.7% vs OpEx growth +1.0% (leverage: 2.7x)",
       "severity": "MEDIUM"
     }
   ],
@@ -680,5 +664,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:36:48.067577"
+  "last_updated": "2026-02-24T10:09:32.489008"
 }

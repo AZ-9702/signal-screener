@@ -1,6 +1,8 @@
 {
   "ticker": "AXSM",
-  "name": "Axsome Therapeutics, Inc.",
+  "name": "AXSOME THERAPEUTICS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2021-06-30T00:00:00",
@@ -200,7 +202,7 @@
       "fcf_margin": -0.7142095227936373,
       "incr_op_margin_yoy": 3.11084435817541,
       "rev_growth_yoy": -0.20699754694637118,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.28964640242456136
     },
     {
@@ -292,7 +294,7 @@
       "incr_op_margin_yoy": 0.22152634297520662,
       "rev_growth_yoy": 0.619528260376805,
       "rev_growth_yoy_accel": -0.040838019505761824,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13901607997847581
     },
     {
@@ -340,9 +342,38 @@
       "rev_growth_yoy_accel": -0.08914142102841283,
       "op_leverage_ratio": 0.8593272908136719,
       "fcf_margin_change": 0.2219575178442878
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 195999000,
+      "gross_profit": 183670000,
+      "operating_income": -26957000,
+      "net_income": -28559000,
+      "opex": 222956000,
+      "cogs": 12329000,
+      "rd": 48791000,
+      "sga": 169297000,
+      "fcf": -18724000,
+      "ocf": -18653000,
+      "capex": -71000,
+      "gross_margin": 0.937096617839887,
+      "op_margin": -0.13753641600212246,
+      "fcf_margin": -0.0955310996484676,
+      "incr_op_margin_yoy": 0.5911980630041562,
+      "rev_growth_yoy": 0.6502955391273597,
+      "rev_growth_yoy_accel": 0.018100659304523203,
+      "op_leverage_ratio": 5.422764278323417,
+      "fcf_margin_change": -0.10130914774428494
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +14.6% vs OpEx growth +2.7% (leverage: 5.4x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -459,23 +490,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 16,
+    "n_quarters": 17,
     "coverage": {
       "revenue": [
-        16,
-        16
+        17,
+        17
       ],
       "gross_profit": [
-        15,
-        16
+        16,
+        17
       ],
       "op_income": [
-        16,
-        16
+        17,
+        17
       ],
       "fcf": [
-        16,
-        16
+        17,
+        17
       ]
     },
     "gaps": [
@@ -491,7 +522,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:40:21.147087",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:06:20.206661"
 }

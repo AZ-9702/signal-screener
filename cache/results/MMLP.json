@@ -1,25 +1,9 @@
 {
   "ticker": "MMLP",
   "name": "MARTIN MIDSTREAM PARTNERS L.P.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 180088000,
-      "gross_profit": 72607000,
-      "operating_income": 11928000,
-      "net_income": -2564000,
-      "opex": 178484000,
-      "cogs": 107481000,
-      "rd": null,
-      "sga": 10241000,
-      "fcf": 40718000,
-      "ocf": 45635000,
-      "capex": -4917000,
-      "gross_margin": 0.40317511438852116,
-      "op_margin": 0.06623428546044156,
-      "fcf_margin": 0.226100573053174
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2514000,
       "gross_margin": 0.42852806830734325,
       "op_margin": 0.0780498970016022,
-      "fcf_margin": 0.006667529133121697,
-      "op_leverage_ratio": 3.4248797947769987,
-      "fcf_margin_change": -0.2194330439200523
+      "fcf_margin": 0.006667529133121697
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3610347456856449,
       "op_margin": 0.0902674305540982,
       "fcf_margin": 0.15223535008009625,
-      "incr_op_margin_yoy": 0.13116861025534407,
-      "rev_growth_yoy": 0.5875905113055839,
       "op_leverage_ratio": 1.2643302265476337,
       "fcf_margin_change": 0.25514269560073927
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.0650391653325024,
       "incr_op_margin_yoy": 0.12480345660705383,
       "rev_growth_yoy": 0.3892394041020231,
-      "rev_growth_yoy_accel": -0.1983511072035608,
       "fcf_margin_change": -0.08719618474759386
     },
     {
@@ -187,7 +166,7 @@
       "incr_op_margin_yoy": 0.217258405831178,
       "rev_growth_yoy": -0.14875518527068338,
       "rev_growth_yoy_accel": -0.23418153598876268,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.33464218034650245
     },
     {
@@ -434,9 +413,44 @@
       "rev_growth_yoy": -0.012969918214047527,
       "rev_growth_yoy_accel": 0.007920880621920413,
       "fcf_margin_change": -0.18831324773163688
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 174177000,
+      "gross_profit": 99377000,
+      "operating_income": 12718000,
+      "net_income": -2893000,
+      "opex": 162011000,
+      "cogs": 74800000,
+      "rd": null,
+      "sga": 10091000,
+      "fcf": 15580000,
+      "ocf": 22443000,
+      "capex": -6863000,
+      "gross_margin": 0.5705517950131188,
+      "op_margin": 0.07301767742009566,
+      "fcf_margin": 0.08944923841839049,
+      "incr_op_margin_yoy": 2.0687719298245613,
+      "rev_growth_yoy": 0.01663485615227022,
+      "rev_growth_yoy_accel": 0.029604774366317747,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.1362495015809645
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -4.7% -> +8.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +206.9% vs year-ago OPM: +4.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -588,22 +602,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +38.9% vs prior quarter YoY: +58.8% (decel: -19.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -10.3% -> +15.2%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +11.6% vs OpEx growth +3.4% (leverage: 3.4x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -631,7 +633,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:19:03.993666",
-  "sector": "Energy",
-  "industry": "Oil & Gas Midstream"
+  "last_updated": "2026-02-24T10:09:23.939938"
 }

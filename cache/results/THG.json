@@ -1,25 +1,9 @@
 {
   "ticker": "THG",
   "name": "HANOVER INSURANCE GROUP, INC.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1297000000,
-      "gross_profit": null,
-      "operating_income": 150300000,
-      "net_income": 164600000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 158200000,
-      "ocf": 161000000,
-      "capex": -2800000,
-      "gross_margin": null,
-      "op_margin": 0.11588280647648419,
-      "fcf_margin": 0.12197378565921357
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -2300000,
       "gross_margin": null,
       "op_margin": 0.06631341073794124,
-      "fcf_margin": 0.10870412218499181,
-      "fcf_margin_change": -0.01326966347422176
+      "fcf_margin": 0.10870412218499181
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.1184985815086928,
       "fcf_margin": 0.1643995053466211,
-      "incr_op_margin_yoy": 0.16216216216216217,
-      "rev_growth_yoy": 0.05990747879722436,
       "fcf_margin_change": -0.05833631414570106
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.14668971218155857,
       "incr_op_margin_yoy": 1.4620253164556962,
       "rev_growth_yoy": 0.0369360243123198,
-      "rev_growth_yoy_accel": -0.022971454484904563,
       "fcf_margin_change": -0.01770979316506252
     },
     {
@@ -426,9 +406,37 @@
       "rev_growth_yoy": 0.06369386060180157,
       "rev_growth_yoy_accel": -0.012898838038141167,
       "fcf_margin_change": 0.20731962378238974
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1671800000,
+      "gross_profit": null,
+      "operating_income": 289000000,
+      "net_income": 198500000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 377000000,
+      "ocf": 378200000,
+      "capex": -1200000,
+      "gross_margin": null,
+      "op_margin": 0.17286756789089605,
+      "fcf_margin": 0.2255054432348367,
+      "incr_op_margin_yoy": 0.3954285714285714,
+      "rev_growth_yoy": 0.05522943886890109,
+      "rev_growth_yoy_accel": -0.008464421732900483,
+      "fcf_margin_change": -0.10566572793633447
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +39.5% vs year-ago OPM: +16.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -595,5 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:58.066217"
+  "last_updated": "2026-02-24T10:15:42.815897"
 }

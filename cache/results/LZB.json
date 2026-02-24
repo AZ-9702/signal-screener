@@ -1,25 +1,9 @@
 {
   "ticker": "LZB",
   "name": "LA-Z-BOY INCORPORATED",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
   "quarters": [
-    {
-      "date": "2021-01-23T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 470196000,
-      "gross_profit": 201252000,
-      "operating_income": 34414000,
-      "net_income": 29232000,
-      "opex": 166838000,
-      "cogs": 268944000,
-      "rd": null,
-      "sga": 166838000,
-      "fcf": 42841000,
-      "ocf": 54121000,
-      "capex": -11280000,
-      "gross_margin": 0.4280172523798586,
-      "op_margin": 0.07319075449387064,
-      "fcf_margin": 0.09111306774196293
-    },
     {
       "date": "2021-04-24T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -11238000,
       "gross_margin": 0.4275319075211273,
       "op_margin": 0.0963636013629276,
-      "fcf_margin": 0.09403430419465994,
-      "op_leverage_ratio": 3.36613801633311,
-      "fcf_margin_change": 0.0029212364526970125
+      "fcf_margin": 0.09403430419465994
     },
     {
       "date": "2021-07-24T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.38507726050577096,
       "op_margin": 0.0654956429609953,
       "fcf_margin": -0.025115142830465165,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1191494470251251
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.38379174663603777,
       "op_margin": 0.06908478881962583,
       "fcf_margin": 0.007850265845307599,
-      "incr_op_margin_yoy": 0.05004093630705189,
-      "rev_growth_yoy": 0.21560583246135653,
       "fcf_margin_change": 0.016011560817081674
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.023105149832156432,
       "incr_op_margin_yoy": 0.1740017928962543,
       "rev_growth_yoy": 0.31781623577877455,
-      "rev_growth_yoy_accel": 0.10221040331741801,
       "op_leverage_ratio": 2.8302836106773186,
       "fcf_margin_change": 0.015254883986848834
     },
@@ -437,9 +416,38 @@
       "rev_growth_yoy_accel": 0.009454286516438868,
       "op_leverage_ratio": 1.484758844899418,
       "fcf_margin_change": 0.020362802882367123
+    },
+    {
+      "date": "2026-01-24T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 541588000,
+      "gross_profit": 233511000,
+      "operating_income": 29811000,
+      "net_income": 21650000,
+      "opex": 203700000,
+      "cogs": 308077000,
+      "rd": null,
+      "sga": 203700000,
+      "fcf": 71556000,
+      "ocf": 89366000,
+      "capex": -17810000,
+      "gross_margin": 0.43115984844568195,
+      "op_margin": 0.05504368634460143,
+      "fcf_margin": 0.13212257287827647,
+      "incr_op_margin_yoy": -0.27040533037201553,
+      "rev_growth_yoy": 0.03796832746556479,
+      "rev_growth_yoy_accel": 0.03517960442434044,
+      "op_leverage_ratio": 0.8156948684939993,
+      "fcf_margin_change": 0.07553476090461242
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +5.7% -> +13.2% (+7.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-07 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -537,12 +545,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.8% vs prior quarter YoY: +21.6% (accel: +10.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2022-01 (Q1)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.8% -> +0.8%",
@@ -552,12 +554,6 @@
       "quarter": "2021-10 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.7% vs OpEx growth +0.9% (leverage: 11.1x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +10.5% vs OpEx growth +3.1% (leverage: 3.4x)",
       "severity": "MEDIUM"
     }
   ],
@@ -586,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:17.478513",
-  "sector": "Consumer Cyclical",
-  "industry": "Furnishings, Fixtures & Appliances"
+  "last_updated": "2026-02-24T10:35:18.244540"
 }

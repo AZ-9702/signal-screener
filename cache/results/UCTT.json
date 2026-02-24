@@ -1,25 +1,9 @@
 {
   "ticker": "UCTT",
   "name": "Ultra Clean Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-25T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 369600000,
-      "gross_profit": 77600000,
-      "operating_income": 33100000,
-      "net_income": 22500000,
-      "opex": 44500000,
-      "cogs": 292000000,
-      "rd": 4100000,
-      "sga": null,
-      "fcf": 34500000,
-      "ocf": 44400000,
-      "capex": -9900000,
-      "gross_margin": 0.20995670995670995,
-      "op_margin": 0.08955627705627706,
-      "fcf_margin": 0.09334415584415584
-    },
     {
       "date": "2021-03-26T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6500000,
       "gross_margin": 0.20809386973180077,
       "op_margin": 0.09674329501915709,
-      "fcf_margin": 0.14152298850574713,
-      "op_leverage_ratio": 2.8896103896103895,
-      "fcf_margin_change": 0.048178832661591287
+      "fcf_margin": 0.14152298850574713
     },
     {
       "date": "2021-06-25T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.20606826801517067,
       "op_margin": 0.0913852266570345,
       "fcf_margin": 0.06014087050749503,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.007599812722318633
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.20988457161437166,
       "op_margin": 0.10209721996423346,
       "fcf_margin": 0.04064379775646237,
-      "incr_op_margin_yoy": 0.1209775967413442,
-      "rev_growth_yoy": 0.6642316017316018,
       "op_leverage_ratio": 2.5148352640677003,
       "fcf_margin_change": -0.019497072751032664
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.16982804467293033,
       "incr_op_margin_yoy": 0.03617747440273038,
       "rev_growth_yoy": 0.3508141762452107,
-      "rev_growth_yoy_accel": -0.31341742548639107,
       "fcf_margin_change": -0.2104718424293927
     },
     {
@@ -167,7 +146,7 @@
       "incr_op_margin_yoy": -0.17589175891758918,
       "rev_growth_yoy": 0.14683041358136176,
       "rev_growth_yoy_accel": -0.03465250567329664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02527236953931769
     },
     {
@@ -302,7 +281,7 @@
       "incr_op_margin_yoy": 0.11036036036036036,
       "rev_growth_yoy": 0.10246942072467113,
       "rev_growth_yoy_accel": 0.3173352399337107,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05921640587330068
     },
     {
@@ -371,7 +350,7 @@
       "incr_op_margin_yoy": 0.18043844856661045,
       "rev_growth_yoy": 0.2666966494265797,
       "rev_growth_yoy_accel": 0.024397798851867075,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00020009374281801108
     },
     {
@@ -439,9 +418,37 @@
       "rev_growth_yoy": -0.056254626202812734,
       "rev_growth_yoy_accel": -0.061486170477178165,
       "fcf_margin_change": -0.045273859736647167
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 506700000,
+      "gross_profit": 77300000,
+      "operating_income": 10900000,
+      "net_income": -3300000,
+      "opex": 66400000,
+      "cogs": 429400000,
+      "rd": 8800000,
+      "sga": null,
+      "fcf": -2000000,
+      "ocf": 8100000,
+      "capex": -10100000,
+      "gross_margin": 0.1525557529109927,
+      "op_margin": 0.021511742648509965,
+      "fcf_margin": -0.003947108742845865,
+      "incr_op_margin_yoy": 0.26501766784452296,
+      "rev_growth_yoy": -0.10047931830285815,
+      "rev_growth_yoy_accel": -0.04422469210004542,
+      "fcf_margin_change": 0.01742544027676198
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +26.5% vs year-ago OPM: +4.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -587,21 +594,9 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +35.1% vs prior quarter YoY: +66.4% (decel: -31.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +11.1% vs OpEx growth +4.4% (leverage: 2.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +13.0% vs OpEx growth +4.5% (leverage: 2.9x)",
       "severity": "MEDIUM"
     }
   ],
@@ -630,5 +625,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:35:46.785212"
+  "last_updated": "2026-02-24T10:06:02.503539"
 }

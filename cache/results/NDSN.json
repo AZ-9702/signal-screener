@@ -1,25 +1,9 @@
 {
   "ticker": "NDSN",
   "name": "NORDSON CORPORATION",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2021-01-31T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 526566000,
-      "gross_profit": 289960000,
-      "operating_income": 109025000,
-      "net_income": 77582000,
-      "opex": 417541000,
-      "cogs": 236606000,
-      "rd": null,
-      "sga": 180935000,
-      "fcf": 135372000,
-      "ocf": 143289000,
-      "capex": -7917000,
-      "gross_margin": 0.550662215182902,
-      "op_margin": 0.20704906887265795,
-      "fcf_margin": 0.25708458198972206
-    },
     {
       "date": "2021-04-30T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -10826000,
       "gross_margin": 0.5728197334183717,
       "op_margin": 0.28223965206653345,
-      "fcf_margin": 0.15876669527664036,
-      "op_leverage_ratio": 8.907189802881017,
-      "fcf_margin_change": -0.0983178867130817
+      "fcf_margin": 0.15876669527664036
     },
     {
       "date": "2021-07-31T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.5583601185883651,
       "op_margin": 0.255858009146932,
       "fcf_margin": 0.17334519654741073,
-      "incr_op_margin_yoy": 0.5670096852300243,
-      "rev_growth_yoy": 0.15686542617639573,
       "op_leverage_ratio": 1.34917751215951,
       "fcf_margin_change": -0.09405872871212331
     },
@@ -120,8 +100,7 @@
       "fcf_margin": 0.13240258544577221,
       "incr_op_margin_yoy": 0.3833424179657691,
       "rev_growth_yoy": 0.0777982080883675,
-      "rev_growth_yoy_accel": -0.07906721808802823,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04094261110163852
     },
     {
@@ -438,11 +417,45 @@
       "incr_op_margin_yoy": 4.81997819569365,
       "rev_growth_yoy": 0.0098565176861227,
       "rev_growth_yoy_accel": -0.11091814510309865,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.047490508425871214
+    },
+    {
+      "date": "2026-01-31T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 669461000,
+      "gross_profit": 366122000,
+      "operating_income": 166405000,
+      "net_income": 133382000,
+      "opex": 199717000,
+      "cogs": 303339000,
+      "rd": null,
+      "sga": 199717000,
+      "fcf": 122915000,
+      "ocf": 140428000,
+      "capex": -17513000,
+      "gross_margin": 0.5468907075990984,
+      "op_margin": 0.2485656371319614,
+      "fcf_margin": 0.1836029283259219,
+      "incr_op_margin_yoy": 0.47108676745434025,
+      "rev_growth_yoy": 0.08781157583438952,
+      "rev_growth_yoy_accel": 0.07795505814826682,
+      "fcf_margin_change": -0.07424203456413159
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +8.8% vs prior quarter YoY: +1.0% (accel: +7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +47.1% vs year-ago OPM: +22.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -553,32 +566,14 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.8% vs prior quarter YoY: +15.7% (decel: -7.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +38.3% vs year-ago OPM: +28.2%",
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +56.7% vs year-ago OPM: +20.7%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +18.3% -> +26.7% (+8.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +12.0% vs OpEx growth +1.3% (leverage: 8.9x)",
       "severity": "MEDIUM"
     }
   ],
@@ -607,7 +602,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:25:42.679452",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:22:40.154845"
 }

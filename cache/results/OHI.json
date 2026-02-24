@@ -1,25 +1,9 @@
 {
   "ticker": "OHI",
-  "name": "OMEGA HEALTHCARE INVESTORS, INC.",
+  "name": "OMEGA HEALTHCARE INVESTORS,\u00a0INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 263785000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 357200000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 197359000,
-      "ocf": 197359000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.7481812840002274
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6427887846643874,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10539249933584005
+      "fcf_margin": 0.6427887846643874
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.62624375372576,
-      "rev_growth_yoy": -0.05245180734310139,
       "fcf_margin_change": -0.03864306498536496
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.5302609149068448,
       "rev_growth_yoy": -0.08932015429122468,
-      "rev_growth_yoy_accel": -0.03686834694812329,
       "fcf_margin_change": -0.09598283881891523
     },
     {
@@ -202,7 +182,7 @@
       "fcf_margin": 0.510352792366706,
       "rev_growth_yoy": -0.12479393538294928,
       "rev_growth_yoy_accel": 0.2956878428998204,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5506206284134113
     },
     {
@@ -288,7 +268,7 @@
       "fcf_margin": 0.6225837344173218,
       "rev_growth_yoy": 0.11501727756849157,
       "rev_growth_yoy_accel": -0.5371677414166655,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0667890274611751
     },
     {
@@ -310,7 +290,7 @@
       "fcf_margin": 0.7284140141249085,
       "rev_growth_yoy": 0.010224352184565945,
       "rev_growth_yoy_accel": -0.10479292538392562,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10583027970758663
     },
     {
@@ -341,7 +321,7 @@
       "revenue": 279318000,
       "gross_profit": null,
       "operating_income": null,
-      "net_income": null,
+      "net_income": 113341000,
       "opex": 161671000,
       "cogs": null,
       "rd": null,
@@ -354,7 +334,7 @@
       "fcf_margin": 0.819739508373968,
       "rev_growth_yoy": 0.16713675052962781,
       "rev_growth_yoy_accel": 0.0266759850110187,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14993427122411362
     },
     {
@@ -397,7 +377,7 @@
       "fcf_margin": 0.8469377641536817,
       "rev_growth_yoy": 0.11775109299887238,
       "rev_growth_yoy_accel": -0.019882025098612616,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18956109995583859
     },
     {
@@ -419,8 +399,30 @@
       "fcf_margin": 0.7276012465058361,
       "rev_growth_yoy": 0.12883837871520282,
       "rev_growth_yoy_accel": 0.011087285716330442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11933651764784559
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 319217000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 164835000,
+      "opex": 175420000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 230620000,
+      "ocf": 230620000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.722455257708706,
+      "rev_growth_yoy": 0.14284435661146078,
+      "rev_growth_yoy_accel": 0.01400597789625796,
+      "op_leverage_ratio": 0.4014057485911498,
+      "fcf_margin_change": -0.00514598879713013
     }
   ],
   "signals": [
@@ -549,7 +551,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:15.141968",
-  "sector": "Real Estate",
-  "industry": "REIT - Healthcare Facilities"
+  "last_updated": "2026-02-24T11:08:51.728652"
 }

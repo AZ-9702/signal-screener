@@ -1,25 +1,9 @@
 {
   "ticker": "LSCC",
   "name": "Lattice Semiconductor Corp",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 107173000,
-      "gross_profit": 64861000,
-      "operating_income": 17332000,
-      "net_income": 15989000,
-      "opex": 47529000,
-      "cogs": 42312000,
-      "rd": 22633000,
-      "sga": 24534000,
-      "fcf": 20389000,
-      "ocf": 22729000,
-      "capex": -2340000,
-      "gross_margin": 0.605199070661454,
-      "op_margin": 0.16171983615276236,
-      "fcf_margin": 0.19024381140772395
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -1270000,
       "gross_margin": 0.6099934321960663,
       "op_margin": 0.17844550451104427,
-      "fcf_margin": 0.24284455045110442,
-      "op_leverage_ratio": 1.5733567692723223,
-      "fcf_margin_change": 0.05260073904338047
+      "fcf_margin": 0.24284455045110442
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6423357664233577,
       "op_margin": 0.2104164462780775,
       "fcf_margin": 0.34516026658203747,
-      "incr_op_margin_yoy": 0.3611576454277627,
-      "rev_growth_yoy": 0.3230477825571739,
       "op_leverage_ratio": 0.7695628821595333,
       "fcf_margin_change": 0.021805883702671836
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.25764209547221206,
       "incr_op_margin_yoy": 0.49179574125693265,
       "rev_growth_yoy": 0.30072764354108333,
-      "rev_growth_yoy_accel": -0.02232013901609059,
       "op_leverage_ratio": 2.139963904356161,
       "fcf_margin_change": -0.0875181711098254
     },
@@ -191,7 +170,7 @@
       "incr_op_margin_yoy": 0.7077418410654178,
       "rev_growth_yoy": 0.24094643675729047,
       "rev_growth_yoy_accel": -0.06682167962420918,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06128572410975719
     },
     {
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.41276703967446593,
       "rev_growth_yoy": 0.11396506848918027,
       "rev_growth_yoy_accel": -0.06392824633619217,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05167634533482385
     },
     {
@@ -394,7 +373,7 @@
       "incr_op_margin_yoy": 0.4645535930316961,
       "rev_growth_yoy": -0.14675283172957426,
       "rev_growth_yoy_accel": 0.16496022133145882,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14409986151829893
     },
     {
@@ -441,9 +420,50 @@
       "rev_growth_yoy_accel": 0.050086563646483555,
       "op_leverage_ratio": 0.5039232697252196,
       "fcf_margin_change": 0.002678549500777838
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 145792000,
+      "gross_profit": 99937000,
+      "operating_income": 1086000,
+      "net_income": -7645000,
+      "opex": 98851000,
+      "cogs": 45855000,
+      "rd": 53433000,
+      "sga": 44293000,
+      "fcf": 43977000,
+      "ocf": 57584000,
+      "capex": -13607000,
+      "gross_margin": 0.685476569359087,
+      "op_margin": 0.00744896839332748,
+      "fcf_margin": 0.30164206540825284,
+      "incr_op_margin_yoy": 0.4685792831212773,
+      "rev_growth_yoy": 0.24163891704068335,
+      "rev_growth_yoy_accel": 0.19239860891500962,
+      "op_leverage_ratio": 1.265147762295515,
+      "fcf_margin_change": 0.046477047297880825
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +24.2% vs prior quarter YoY: +4.9% (accel: +19.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -10.4% (year-ago) -> +0.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1.2% -> +0.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -625,27 +645,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +36.1% vs year-ago OPM: +16.2%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +24.3% -> +30.3% (+6.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +19.0% -> +24.3% (+5.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +8.0% vs OpEx growth +5.1% (leverage: 1.6x)",
       "severity": "MEDIUM"
     }
   ],
@@ -674,7 +676,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:34:00.329085",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-24T10:41:47.125253"
 }

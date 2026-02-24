@@ -1,25 +1,9 @@
 {
   "ticker": "AVNT",
-  "name": "AVIENT CORPORATION",
+  "name": "Avient Corporation",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 997000000,
-      "gross_profit": 252900000,
-      "operating_income": 65000000,
-      "net_income": 74300000,
-      "opex": 187900000,
-      "cogs": 744100000,
-      "rd": null,
-      "sga": 187900000,
-      "fcf": 127800000,
-      "ocf": 152900000,
-      "capex": -25100000,
-      "gross_margin": 0.25366098294884654,
-      "op_margin": 0.06519558676028084,
-      "fcf_margin": 0.12818455366098294
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -16500000,
       "gross_margin": 0.2601737933407898,
       "op_margin": 0.10358771401531447,
-      "fcf_margin": -0.011098683644497977,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.13928323730548092
+      "fcf_margin": -0.011098683644497977
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.23372733160621761,
       "op_margin": 0.08751619170984457,
       "fcf_margin": 0.031492875647668395,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.042591559292166375
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.2106533499791927,
       "op_margin": 0.06158967956720766,
       "fcf_margin": 0.07149396587598834,
-      "incr_op_margin_yoy": 0.044009779951100246,
-      "rev_growth_yoy": 0.20511534603811435,
       "fcf_margin_change": 0.054032086879431535
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.004328335136806307,
       "incr_op_margin_yoy": 0.0623574144486692,
       "rev_growth_yoy": 0.11313774412802202,
-      "rev_growth_yoy_accel": -0.09197760191009233,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06716563073918204
     },
     {
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": 1.4047619047619047,
       "rev_growth_yoy": 0.019771684123808402,
       "rev_growth_yoy_accel": 0.022666738406076196,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17596073096935994
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": -0.010672227674190383,
       "rev_growth_yoy_accel": -0.030443911797998786,
       "fcf_margin_change": -0.04024656847190437
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 760600000,
+      "gross_profit": 229600000,
+      "operating_income": 39600000,
+      "net_income": 16900000,
+      "opex": 190000000,
+      "cogs": 531000000,
+      "rd": null,
+      "sga": 190000000,
+      "fcf": 125400000,
+      "ocf": 167800000,
+      "capex": -42400000,
+      "gross_margin": 0.3018669471469892,
+      "op_margin": 0.052064159873783857,
+      "fcf_margin": 0.16486983960031554,
+      "incr_op_margin_yoy": -3.2624113475177303,
+      "rev_growth_yoy": 0.018888144675150702,
+      "rev_growth_yoy_accel": 0.029560372349341085,
+      "fcf_margin_change": 0.10609736594873463
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +5.9% -> +16.5% (+10.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -577,12 +584,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.3% vs prior quarter YoY: +20.5% (decel: -9.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +1.7% -> +7.1% (+5.4%)",
@@ -620,7 +621,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:18:56.020810",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:33:32.069285"
 }

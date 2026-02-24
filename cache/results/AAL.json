@@ -1,25 +1,9 @@
 {
   "ticker": "AAL",
-  "name": "AMERICAN AIRLINES GROUP INC.",
+  "name": "American Airlines Group Inc.",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4027000000,
-      "gross_profit": null,
-      "operating_income": -2515000000,
-      "net_income": -2178000000,
-      "opex": 6542000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -2863000000,
-      "ocf": -2863000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.6245343928482742,
-      "fcf_margin": -0.710951080208592
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.3280938123752495,
-      "fcf_margin": 0.04341317365269461,
-      "fcf_margin_change": 0.7543642538612866
+      "fcf_margin": 0.04341317365269461
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.08274106290442347,
       "fcf_margin": -0.12729394292988225,
-      "incr_op_margin_yoy": 0.3212962962962963,
-      "rev_growth_yoy": 1.3409485969704495,
       "op_leverage_ratio": 0.23328775596515777,
       "fcf_margin_change": 0.0667076180022172
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.1331610293291381,
       "incr_op_margin_yoy": -0.08341852381925986,
       "rev_growth_yoy": 1.220309381237525,
-      "rev_growth_yoy_accel": -0.12063921573292458,
       "fcf_margin_change": 0.26045497225902037
     },
     {
@@ -434,9 +414,38 @@
       "rev_growth_yoy": 0.003224151828240639,
       "rev_growth_yoy_accel": -0.0008221715985767186,
       "fcf_margin_change": -0.0702720448780799
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 13999000000,
+      "gross_profit": null,
+      "operating_income": 452000000,
+      "net_income": 99000000,
+      "opex": 13547000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -274000000,
+      "ocf": -274000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.03228802057289806,
+      "fcf_margin": -0.019572826630473605,
+      "incr_op_margin_yoy": -2.0117994100294987,
+      "rev_growth_yoy": 0.024816983894582725,
+      "rev_growth_yoy_accel": 0.021592832066342084,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.016212955182076848
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +2.2% vs OpEx growth +0.1% (leverage: 43.5x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -570,12 +579,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +122.0% vs prior quarter YoY: +134.1% (decel: -12.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -19.4% -> -12.7% (+6.7%)",
@@ -597,12 +600,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -32.8% -> +5.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -71.1% -> +4.3%",
       "severity": "HIGH"
     }
   ],
@@ -633,7 +630,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:42:33.846253",
-  "sector": "Industrials",
-  "industry": "Airlines"
+  "last_updated": "2026-02-24T10:29:20.298363"
 }

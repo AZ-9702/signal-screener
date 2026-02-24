@@ -1,25 +1,9 @@
 {
   "ticker": "ANGI",
   "name": "Angi Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 359301000,
-      "gross_profit": 308544000,
-      "operating_income": -4697000,
-      "net_income": null,
-      "opex": 363998000,
-      "cogs": 50757000,
-      "rd": 18735000,
-      "sga": null,
-      "fcf": 383000,
-      "ocf": 15234000,
-      "capex": -14851000,
-      "gross_margin": 0.8587340419314168,
-      "op_margin": -0.013072604863331859,
-      "fcf_margin": 0.0010659586252195234
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -18743000,
       "gross_margin": 0.8609199827403115,
       "op_margin": 0.00028163264251516036,
-      "fcf_margin": -0.008779703846481789,
-      "op_leverage_ratio": 1.2254810744110662,
-      "fcf_margin_change": -0.009845662471701312
+      "fcf_margin": -0.008779703846481789
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.752604266861606,
       "op_margin": -0.0695384940941095,
       "fcf_margin": -0.0902523950598284,
-      "incr_op_margin_yoy": -0.4282733622137742,
-      "rev_growth_yoy": 0.15740284608169752,
       "fcf_margin_change": 0.01744207917456979
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.06336679972211968,
       "incr_op_margin_yoy": -0.6933848972114798,
       "rev_growth_yoy": 0.12694139198871401,
-      "rev_growth_yoy_accel": -0.03046145409298351,
       "op_leverage_ratio": 0.8568715983581684,
       "fcf_margin_change": 0.02688559533770872
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.1249551659387725,
       "rev_growth_yoy": 0.22517031364314422,
       "rev_growth_yoy_accel": 0.0982289216544302,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01020286612226548
     },
     {
@@ -431,6 +410,27 @@
       "rev_growth_yoy": -0.10476578850697124,
       "rev_growth_yoy_accel": 0.012368509918460474,
       "fcf_margin_change": -0.14270752959051086
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 240768000,
+      "gross_profit": 231949000,
+      "operating_income": 5948000,
+      "net_income": null,
+      "opex": 226001000,
+      "cogs": 8819000,
+      "rd": 15931000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": -18728000,
+      "gross_margin": 0.9633713782562466,
+      "op_margin": 0.024704279638490166,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.13958894505737796,
+      "rev_growth_yoy": -0.10117258809343373,
+      "rev_growth_yoy_accel": 0.0035932004135375145
     }
   ],
   "signals": [
@@ -589,12 +589,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.9% -> +6.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -1.3% -> +0.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -613,7 +607,7 @@
         20
       ],
       "fcf": [
-        18,
+        17,
         20
       ]
     },
@@ -622,7 +616,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:19:27.101356",
-  "sector": "Communication Services",
-  "industry": "Internet Content & Information"
+  "last_updated": "2026-02-24T10:10:44.081702"
 }

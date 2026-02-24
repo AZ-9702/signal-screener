@@ -1,25 +1,9 @@
 {
   "ticker": "CNDT",
-  "name": "CONDUENT INCORPORATED",
+  "name": "CONDUENT INC",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1055000000,
-      "gross_profit": 252000000,
-      "operating_income": null,
-      "net_income": -11000000,
-      "opex": 1066000000,
-      "cogs": 803000000,
-      "rd": 0,
-      "sga": 119000000,
-      "fcf": 144000000,
-      "ocf": 172000000,
-      "capex": -28000000,
-      "gross_margin": 0.23886255924170616,
-      "op_margin": null,
-      "fcf_margin": 0.13649289099526066
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -14000000,
       "gross_margin": 0.23443579766536965,
       "op_margin": null,
-      "fcf_margin": -0.01556420233463035,
-      "fcf_margin_change": -0.152057093329891
+      "fcf_margin": -0.01556420233463035
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": 0.23377862595419846,
       "op_margin": null,
       "fcf_margin": 0.05438931297709924,
-      "rev_growth_yoy": -0.006635071090047393,
       "fcf_margin_change": 0.013926885231434497
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": -0.023784901758014478,
       "rev_growth_yoy": -0.05933852140077821,
-      "rev_growth_yoy_accel": -0.052703450310730815,
       "fcf_margin_change": -0.07817421473511371
     },
     {
@@ -266,7 +247,7 @@
       "fcf_margin": 0.10912906610703044,
       "rev_growth_yoy": -0.033468559837728194,
       "rev_growth_yoy_accel": 0.012590805566570683,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13488013906840382
     },
     {
@@ -416,9 +397,36 @@
       "rev_growth_yoy_accel": 0.039805685756873724,
       "op_leverage_ratio": 1.0503978779840848,
       "fcf_margin_change": -0.03061637369059929
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 770000000,
+      "gross_profit": 146000000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 798000000,
+      "cogs": 624000000,
+      "rd": 1000000,
+      "sga": 96000000,
+      "fcf": 24000000,
+      "ocf": 39000000,
+      "capex": -15000000,
+      "gross_margin": 0.18961038961038962,
+      "op_margin": null,
+      "fcf_margin": 0.03116883116883117,
+      "rev_growth_yoy": -0.0375,
+      "rev_growth_yoy_accel": 0.012066294919454774,
+      "fcf_margin_change": 0.10157300326791852
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -7.0% -> +3.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -462,12 +470,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -5.9% vs prior quarter YoY: -0.7% (decel: -5.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.6% -> +7.8%",
@@ -501,7 +503,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:52:29.991556",
-  "sector": "Technology",
-  "industry": "Information Technology Services"
+  "last_updated": "2026-02-24T10:17:44.736558"
 }

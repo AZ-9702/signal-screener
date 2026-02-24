@@ -1,25 +1,9 @@
 {
   "ticker": "HL",
   "name": "HECLA MINING COMPANY",
+  "sector": "Basic Materials",
+  "industry": "Other Precious Metals & Mining",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 188890000,
-      "gross_profit": 46764000,
-      "operating_income": 25338000,
-      "net_income": 795000,
-      "opex": 21426000,
-      "cogs": 142126000,
-      "rd": 0,
-      "sga": null,
-      "fcf": 28267000,
-      "ocf": 64901000,
-      "capex": -36634000,
-      "gross_margin": 0.24757266133728625,
-      "op_margin": 0.13414156387315368,
-      "fcf_margin": 0.14964794324739267
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -21413000,
       "gross_margin": 0.3073814808491264,
       "op_margin": 0.1823506535389752,
-      "fcf_margin": 0.07836302240434048,
-      "op_leverage_ratio": 0.5045926195072472,
-      "fcf_margin_change": -0.07128492084305219
+      "fcf_margin": 0.07836302240434048
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.28766790218178284,
       "op_margin": 0.11790164147008289,
       "fcf_margin": 0.1324684727520289,
-      "incr_op_margin_yoy": 0.9226128016789087,
-      "rev_growth_yoy": -0.020181057758483775,
       "fcf_margin_change": 0.05061788378736677
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.08810234907425778,
       "incr_op_margin_yoy": 0.9728164907814232,
       "rev_growth_yoy": -0.11549807447878133,
-      "rev_growth_yoy_accel": -0.09531701672029755,
       "fcf_margin_change": -0.04436612367777111
     },
     {
@@ -142,7 +121,7 @@
       "incr_op_margin_yoy": 0.7011704872667439,
       "rev_growth_yoy": -0.12267470399067817,
       "rev_growth_yoy_accel": -0.007176629511896848,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05749191831114089
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -0.7080224598107838,
       "rev_growth_yoy": 0.0697108295486839,
       "rev_growth_yoy_accel": 0.017046547462212257,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.033390585407442636
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": 0.04903730445246691,
       "rev_growth_yoy": -0.049984962406015035,
       "rev_growth_yoy_accel": 0.12522355806107083,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22323203682903936
     },
     {
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": 0.5300032580043242,
       "rev_growth_yoy": 0.3790805643037989,
       "rev_growth_yoy_accel": 0.4290655267098139,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2761667116073526
     },
     {
@@ -368,7 +347,7 @@
       "incr_op_margin_yoy": 0.905232394761985,
       "rev_growth_yoy": 0.5536436617088805,
       "rev_growth_yoy_accel": 0.20632691569720413,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.029596307498264002
     },
     {
@@ -391,7 +370,7 @@
       "incr_op_margin_yoy": 0.6585481332943421,
       "rev_growth_yoy": 0.37889388375332406,
       "rev_growth_yoy_accel": -0.1747497779555564,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09702305706388953
     },
     {
@@ -439,9 +418,50 @@
       "rev_growth_yoy_accel": 0.4334125369427082,
       "op_leverage_ratio": 1.4772035557510825,
       "fcf_margin_change": -0.12115316084387082
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 448111000,
+      "gross_profit": 248208000,
+      "operating_income": 220039000,
+      "net_income": 134409000,
+      "opex": 28169000,
+      "cogs": 199903000,
+      "rd": null,
+      "sga": null,
+      "fcf": 134709000,
+      "ocf": 217055000,
+      "capex": -82346000,
+      "gross_margin": 0.5538984760472294,
+      "op_margin": 0.4910368190024347,
+      "fcf_margin": 0.30061524934670203,
+      "incr_op_margin_yoy": 0.9165860442617003,
+      "rev_growth_yoy": 0.7949209909675352,
+      "rev_growth_yoy_accel": 0.12390073268979485,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.08050595652691797
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +22.0% -> +30.1% (+8.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +79.5% vs prior quarter YoY: +67.1% (accel: +12.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +91.7% vs year-ago OPM: +15.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -618,12 +638,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -11.5% vs prior quarter YoY: -2.0% (decel: -9.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +97.3% vs year-ago OPM: +18.2%",
       "severity": "HIGH"
@@ -638,12 +652,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +27.2% -> +18.2% -> +28.8% (reversal +10.6%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +92.3% vs year-ago OPM: +13.4%",
       "severity": "HIGH"
     },
     {
@@ -684,7 +692,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:19:53.752466",
-  "sector": "Basic Materials",
-  "industry": "Other Precious Metals & Mining"
+  "last_updated": "2026-02-24T10:40:25.468416"
 }

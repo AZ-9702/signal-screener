@@ -1,25 +1,9 @@
 {
   "ticker": "RYN",
   "name": "RAYONIER INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 205519000,
-      "gross_profit": 38416000,
-      "operating_income": 22369000,
-      "net_income": 10254000,
-      "opex": 183150000,
-      "cogs": 167103000,
-      "rd": null,
-      "sga": 13609000,
-      "fcf": 66190000,
-      "ocf": 66190000,
-      "capex": null,
-      "gross_margin": 0.1869218904334879,
-      "op_margin": 0.10884151830244405,
-      "fcf_margin": 0.3220626803361246
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.20929552304293095,
       "op_margin": 0.14878791519323886,
-      "fcf_margin": 0.2813729126076669,
-      "fcf_margin_change": -0.040689767728457726
+      "fcf_margin": 0.2813729126076669
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.17105418847068432,
       "op_margin": 0.12799196925108686,
       "fcf_margin": 0.18193615859965726,
-      "incr_op_margin_yoy": 0.19768388993164995,
-      "rev_growth_yoy": 0.2747872459480632,
       "fcf_margin_change": -0.12750709469185476
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.22368391423205625,
       "incr_op_margin_yoy": 0.5502059227299471,
       "rev_growth_yoy": 0.15980401886684042,
-      "rev_growth_yoy_accel": -0.11498322708122277,
       "fcf_margin_change": 0.04174775563239899
     },
     {
@@ -438,9 +418,37 @@
       "rev_growth_yoy_accel": 0.2967817251837999,
       "op_leverage_ratio": 1.3986663231537142,
       "fcf_margin_change": 0.08199606067500209
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 117495000,
+      "gross_profit": 49274000,
+      "operating_income": 27022000,
+      "net_income": 25909000,
+      "opex": 90473000,
+      "cogs": 68221000,
+      "rd": null,
+      "sga": 16068000,
+      "fcf": 51789000,
+      "ocf": 51789000,
+      "capex": null,
+      "gross_margin": 0.419371037065407,
+      "op_margin": 0.229984254649134,
+      "fcf_margin": 0.4407762032426912,
+      "incr_op_margin_yoy": 0.524287042421017,
+      "rev_growth_yoy": -0.8382273367506681,
+      "rev_growth_yoy_accel": -0.7486754041171889,
+      "fcf_margin_change": -0.21367287888944353
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -83.8% vs prior quarter YoY: -9.0% (decel: -74.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -653,12 +661,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +16.0% vs prior quarter YoY: +27.5% (decel: -11.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +55.0% vs year-ago OPM: +14.9%",
       "severity": "HIGH"
@@ -707,5 +709,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:15:08.497657"
+  "last_updated": "2026-02-24T10:07:23.795968"
 }

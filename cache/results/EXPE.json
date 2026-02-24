@@ -1,25 +1,9 @@
 {
   "ticker": "EXPE",
   "name": "EXPEDIA GROUP, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 920000000,
-      "gross_profit": 633000000,
-      "operating_income": -463000000,
-      "net_income": -383000000,
-      "opex": 1096000000,
-      "cogs": 287000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -513000000,
-      "ocf": -385000000,
-      "capex": -128000000,
-      "gross_margin": 0.6880434782608695,
-      "op_margin": -0.5032608695652174,
-      "fcf_margin": -0.5576086956521739
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -168000000,
       "gross_margin": 0.7504012841091493,
       "op_margin": -0.29614767255216695,
-      "fcf_margin": 1.6067415730337078,
-      "op_leverage_ratio": 1.8671404682274249,
-      "fcf_margin_change": 2.1643502686858818
+      "fcf_margin": 1.6067415730337078
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.8266783677051338,
       "op_margin": 0.07152259763053971,
       "fcf_margin": 0.06230802983764809,
-      "incr_op_margin_yoy": 0.4606328182487123,
-      "rev_growth_yoy": 1.4771739130434782,
       "fcf_margin_change": 0.5349616422616859
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 1.2605602489995553,
       "incr_op_margin_yoy": 0.2333000997008973,
       "rev_growth_yoy": 0.804975922953451,
-      "rev_growth_yoy_accel": -0.6721979900900272,
       "fcf_margin_change": 1.1982522191619072
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.3394216133942161,
       "rev_growth_yoy": 0.22180958811613774,
       "rev_growth_yoy_accel": -0.28505919445136585,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.7842692332783099
     },
     {
@@ -439,9 +418,43 @@
       "rev_growth_yoy_accel": 0.022618563038403705,
       "op_leverage_ratio": 6.361470236605778,
       "fcf_margin_change": -0.3987497000688225
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3547000000,
+      "gross_profit": 3201000000,
+      "operating_income": 420000000,
+      "net_income": 205000000,
+      "opex": 2781000000,
+      "cogs": 346000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 119000000,
+      "ocf": 304000000,
+      "capex": -185000000,
+      "gross_margin": 0.9024527769946433,
+      "op_margin": 0.11840992387933465,
+      "fcf_margin": 0.03354947843247815,
+      "incr_op_margin_yoy": 0.5619834710743802,
+      "rev_growth_yoy": 0.11400753768844221,
+      "rev_growth_yoy_accel": 0.027308030299279654,
+      "fcf_margin_change": 0.18903451923030226
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -15.5% -> +3.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +56.2% vs year-ago OPM: +6.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -623,21 +636,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +80.5% vs prior quarter YoY: +147.7% (decel: -67.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -47.3% -> +6.2%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -50.3% (year-ago) -> +7.2%",
       "severity": "HIGH"
     },
     {
@@ -656,18 +657,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +69.4% vs OpEx growth +43.3% (leverage: 1.6x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -55.8% -> +160.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +35.4% vs OpEx growth +19.0% (leverage: 1.9x)",
       "severity": "MEDIUM"
     }
   ],
@@ -696,7 +685,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:08:04.569176",
-  "sector": "Consumer Cyclical",
-  "industry": "Travel Services"
+  "last_updated": "2026-02-24T10:44:00.521776"
 }

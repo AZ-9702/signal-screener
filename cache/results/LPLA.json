@@ -1,25 +1,9 @@
 {
   "ticker": "LPLA",
   "name": "LPL Financial Holdings Inc.",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1581283000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 111548000,
-      "opex": 1410471000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 282703000,
-      "ocf": 326274000,
-      "capex": -43571000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.17878077485181337
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -41109000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.011302885834469907,
-      "op_leverage_ratio": 1.3651615080970185,
-      "fcf_margin_change": -0.16747788901734348
+      "fcf_margin": 0.011302885834469907
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.08472909838257428,
-      "rev_growth_yoy": 0.324362558757667,
       "op_leverage_ratio": 0.3311894362200585,
       "fcf_margin_change": -0.015934858746490338
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": -0.07196713161152214,
       "rev_growth_yoy": 0.2096933914337934,
-      "rev_growth_yoy_accel": -0.11466916732387361,
       "fcf_margin_change": -0.15669622999409644
     },
     {
@@ -428,9 +408,43 @@
       "rev_growth_yoy_accel": 0.1563219349398477,
       "op_leverage_ratio": 0.5786443049675041,
       "fcf_margin_change": -0.4258811620685974
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4932470000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 300719000,
+      "opex": 4534909000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 613330000,
+      "ocf": 785011000,
+      "capex": -171681000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.12434540909524032,
+      "rev_growth_yoy": 0.40432149292596326,
+      "rev_growth_yoy_accel": -0.06009292815450468,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.5355432249014274
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -41.1% -> +12.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +40.4% vs prior quarter YoY: +46.4% (decel: -6.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -516,12 +530,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +21.0% vs prior quarter YoY: +32.4% (decel: -11.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -8.6% -> +10.1%",
@@ -556,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:31.026001",
-  "sector": "Financial Services",
-  "industry": "Capital Markets"
+  "last_updated": "2026-02-24T10:07:48.456369"
 }

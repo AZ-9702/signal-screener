@@ -1,25 +1,9 @@
 {
   "ticker": "CNK",
   "name": "Cinemark Holdings, Inc.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 98242000,
-      "gross_profit": null,
-      "operating_income": -286996000,
-      "net_income": -239256000,
-      "opex": 385238000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -178727000,
-      "ocf": -162445000,
-      "capex": -16282000,
-      "gross_margin": null,
-      "op_margin": -2.921316748437532,
-      "fcf_margin": -1.8192524582154272
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -17700000,
       "gross_margin": null,
       "op_margin": -1.4816064917235772,
-      "fcf_margin": -1.239933194008447,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.5793192642069802
+      "fcf_margin": -1.239933194008447
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.06739720684637655,
       "fcf_margin": 0.2551925355894574,
-      "incr_op_margin_yoy": 0.5839760867576373,
-      "rev_growth_yoy": 5.785590684228741,
       "op_leverage_ratio": 1.7625717081302463,
       "fcf_margin_change": 0.3592008516551488
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.2985884907709012,
       "incr_op_margin_yoy": 0.39417112778392493,
       "rev_growth_yoy": 3.0267223966212256,
-      "rev_growth_yoy_accel": -2.7588682876075157,
       "fcf_margin_change": -0.5537810263603586
     },
     {
@@ -407,6 +386,26 @@
       "fcf_margin": null,
       "rev_growth_yoy": -0.06975482751139075,
       "rev_growth_yoy_accel": -0.3507409348390944
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 776300000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 34100000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": -0.04666584796757951,
+      "rev_growth_yoy_accel": 0.02308897954381124
     }
   ],
   "signals": [
@@ -501,12 +500,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +302.7% vs prior quarter YoY: +578.6% (decel: -275.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -10.4% -> +25.5%",
@@ -517,12 +510,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +53.3% vs OpEx growth +30.2% (leverage: 1.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -292.1% (year-ago) -> +6.7%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-12 (Q4)",
@@ -547,12 +534,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +157.7% vs OpEx growth +33.9% (leverage: 4.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -181.9% -> -124.0% (+57.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -567,24 +548,22 @@
         20
       ],
       "op_income": [
-        7,
+        6,
         20
       ],
       "fcf": [
-        8,
+        7,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 7/20Q",
-      "fcf: 8/20Q"
+      "op_income: 6/20Q",
+      "fcf: 7/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:26:40.830711",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-24T10:27:49.593176"
 }

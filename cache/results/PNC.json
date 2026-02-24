@@ -1,25 +1,9 @@
 {
   "ticker": "PNC",
-  "name": "PNC FINANCIAL SERVICES GROUP, INC.",
+  "name": "PNC FINANCIAL SERVICES GROUP, INC",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4208000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1935000000,
-      "ocf": 1935000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.4598384030418251
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.1848341232227488,
-      "fcf_margin_change": -0.27500427981907627
+      "fcf_margin": 0.1848341232227488
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6814901501852936,
-      "rev_growth_yoy": 0.218393536121673,
       "fcf_margin_change": 0.38805162796093334
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.2107843137254902,
       "rev_growth_yoy": 0.11184834123222749,
-      "rev_growth_yoy_accel": -0.10654519488944551,
       "fcf_margin_change": -0.8922744639107838
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.08891752577319588,
       "rev_growth_yoy_accel": 0.04271534503026481,
       "fcf_margin_change": 0.1875899866850093
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6071000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 757000000,
+      "ocf": 757000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1246911546697414,
+      "rev_growth_yoy": 0.0905335009879648,
+      "rev_growth_yoy_accel": 0.0016159752147689166,
+      "fcf_margin_change": -0.32433674051199995
     }
   ],
   "signals": [
@@ -493,12 +495,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.2% vs prior quarter YoY: +21.8% (decel: -10.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +29.3% -> +68.1% (+38.8%)",
@@ -539,5 +535,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:25.204255"
+  "last_updated": "2026-02-24T10:14:22.068323"
 }

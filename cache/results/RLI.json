@@ -1,25 +1,9 @@
 {
   "ticker": "RLI",
-  "name": "RLI Corp.",
+  "name": "RLI CORP",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 304451000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 83805000,
-      "opex": 21691000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 99216000,
-      "ocf": 100015000,
-      "capex": -799000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.3258849535721676
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -887000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.20673021706672792,
-      "fcf_margin_change": -0.1191547365054397
+      "fcf_margin": 0.20673021706672792
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3128332158187059,
-      "rev_growth_yoy": 0.062121655044654146,
       "op_leverage_ratio": 0.44468283167440126,
       "fcf_margin_change": -0.10908048995272901
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.13998557472631631,
       "rev_growth_yoy": -0.07836954592438686,
-      "rev_growth_yoy_accel": -0.140491200969041,
       "fcf_margin_change": -0.17284764109238956
     },
     {
@@ -421,6 +402,27 @@
       "rev_growth_yoy_accel": -0.11667761110044293,
       "op_leverage_ratio": 0.8998563770723613,
       "fcf_margin_change": 0.002265029158231513
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 465693000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 91177000,
+      "opex": 29132000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 154981000,
+      "ocf": 156768000,
+      "capex": -1787000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3327964989810884,
+      "rev_growth_yoy": 0.06052387068565026,
+      "rev_growth_yoy_accel": -0.023028081994697407,
+      "fcf_margin_change": -0.01641726833802315
     }
   ],
   "signals": [
@@ -569,12 +571,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -7.8% vs prior quarter YoY: +6.2% (decel: -14.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +34.2% -> +42.2% (+8.0%)",
@@ -615,5 +611,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:01:25.503866"
+  "last_updated": "2026-02-24T10:15:16.082733"
 }

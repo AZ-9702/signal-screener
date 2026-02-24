@@ -1,25 +1,9 @@
 {
   "ticker": "PRG",
   "name": "PROG HOLDINGS, INC.",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 605652000,
-      "gross_profit": null,
-      "operating_income": 445604000,
-      "net_income": 40818000,
-      "opex": 96525000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -109360000,
-      "ocf": -95882000,
-      "capex": -13478000,
-      "gross_margin": null,
-      "op_margin": 0.7357426376863281,
-      "fcf_margin": -0.18056573742016868
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1844000,
       "gross_margin": null,
       "op_margin": 0.14716761835281783,
-      "fcf_margin": 0.2291591828582762,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.40972492027844487
+      "fcf_margin": 0.2291591828582762
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.0878332918305511,
       "fcf_margin": -0.07991579833050547,
-      "incr_op_margin_yoy": -9.508596023574869,
-      "rev_growth_yoy": 0.067515669064083,
       "fcf_margin_change": -0.16296405287959412
     },
     {
@@ -118,7 +98,6 @@
       "fcf_margin": 0.13508214350058553,
       "incr_op_margin_yoy": 5.375628736832115,
       "rev_growth_yoy": -0.014614404140909651,
-      "rev_growth_yoy_accel": -0.08213007320499266,
       "op_leverage_ratio": 1.6981741173558267,
       "fcf_margin_change": 0.214997941831091
     },
@@ -433,9 +412,37 @@
       "rev_growth_yoy": -0.018208514464360837,
       "rev_growth_yoy_accel": -0.03932101596310864,
       "fcf_margin_change": 0.06655744750438576
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 525364000,
+      "gross_profit": null,
+      "operating_income": 36199000,
+      "net_income": 40466000,
+      "opex": 495817000,
+      "cogs": null,
+      "rd": null,
+      "sga": 91705000,
+      "fcf": -57496000,
+      "ocf": -54903000,
+      "capex": -2593000,
+      "gross_margin": null,
+      "op_margin": 0.06890270364927936,
+      "fcf_margin": -0.10944031185996757,
+      "incr_op_margin_yoy": 0.14263546898607538,
+      "rev_growth_yoy": -0.15715202464223835,
+      "rev_growth_yoy_accel": -0.1389435101778775,
+      "fcf_margin_change": -0.2883859822256827
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -15.7% vs prior quarter YoY: -1.8% (decel: -13.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -528,20 +535,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -1.5% vs prior quarter YoY: +6.8% (decel: -8.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +537.6% vs year-ago OPM: +14.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -18.1% -> +22.9%",
       "severity": "HIGH"
     }
   ],
@@ -572,5 +567,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:53:44.689203"
+  "last_updated": "2026-02-24T10:26:54.539229"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "PUMP",
   "name": "ProPetro Holding Corp.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 154344000,
-      "gross_profit": 38698000,
-      "operating_income": -56039000,
-      "net_income": -44112000,
-      "opex": 210383000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 7004000,
-      "ocf": 21098000,
-      "capex": -14094000,
-      "gross_margin": 0.25072565179080497,
-      "op_margin": -0.36307857772249,
-      "fcf_margin": 0.045379153060695586
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -22494000,
       "gross_margin": 0.23585080949844542,
       "op_margin": -0.1774517211906502,
-      "fcf_margin": -0.03397787659948717,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.07935702966018277
+      "fcf_margin": -0.03397787659948717
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.23858658105417158,
       "op_margin": -0.09104319908968993,
       "fcf_margin": -0.042134352013654654,
-      "incr_op_margin_yoy": 0.3667008263742014,
-      "rev_growth_yoy": 0.5942958586015653,
       "fcf_margin_change": -0.09117893036062925
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.13850643837554832,
       "incr_op_margin_yoy": 0.28362838428668063,
       "rev_growth_yoy": 0.7507958726108338,
-      "rev_growth_yoy_accel": 0.1565000140092685,
       "op_leverage_ratio": 4.712493100362617,
       "fcf_margin_change": -0.09637208636189368
     },
@@ -167,7 +146,7 @@
       "incr_op_margin_yoy": 0.2357474522100947,
       "rev_growth_yoy": 0.3315287146290069,
       "rev_growth_yoy_accel": -0.12122317921433085,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08656357288208047
     },
     {
@@ -439,9 +418,61 @@
       "rev_growth_yoy": -0.18553044326457319,
       "rev_growth_yoy_accel": -0.09906494123528078,
       "fcf_margin_change": -0.060475131391444406
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 289675000,
+      "gross_profit": 75029000,
+      "operating_income": 6082000,
+      "net_income": 742000,
+      "opex": 283593000,
+      "cogs": 214646000,
+      "rd": null,
+      "sga": null,
+      "fcf": 16812000,
+      "ocf": 81044000,
+      "capex": -64232000,
+      "gross_margin": 0.25901096055924744,
+      "op_margin": 0.02099594373004229,
+      "fcf_margin": 0.058037455769396736,
+      "incr_op_margin_yoy": -0.7360665824670488,
+      "rev_growth_yoy": -0.09633010350830125,
+      "rev_growth_yoy_accel": 0.08920033975627194,
+      "fcf_margin_change": 0.06613500745082952
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.8% -> +5.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +22.4% -> +19.5% -> +25.9% (reversal +6.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -9.6% vs prior quarter YoY: -18.6% (accel: +8.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -5.2% (year-ago) -> +2.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -2.1% -> +2.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -630,12 +661,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +75.1% vs prior quarter YoY: +59.4% (accel: +15.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -17.7% (year-ago) -> +2.0%",
       "severity": "HIGH"
@@ -684,5 +709,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:57:50.920177"
+  "last_updated": "2026-02-24T10:22:26.156084"
 }

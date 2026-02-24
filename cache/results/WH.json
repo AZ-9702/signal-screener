@@ -1,25 +1,9 @@
 {
   "ticker": "WH",
   "name": "Wyndham Hotels\u00a0& Resorts,\u00a0Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Lodging",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 296000000,
-      "gross_profit": null,
-      "operating_income": 21000000,
-      "net_income": -7000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 0,
-      "ocf": 10000000,
-      "capex": -10000000,
-      "gross_margin": null,
-      "op_margin": 0.07094594594594594,
-      "fcf_margin": 0.0
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -5000000,
       "gross_margin": null,
       "op_margin": 0.2079207920792079,
-      "fcf_margin": 0.19471947194719472,
-      "fcf_margin_change": 0.19471947194719472
+      "fcf_margin": 0.19471947194719472
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.22448979591836735,
       "fcf_margin": 0.21683673469387754,
-      "incr_op_margin_yoy": 0.6979166666666666,
-      "rev_growth_yoy": 0.32432432432432434,
       "fcf_margin_change": -0.08769890245515055
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.33692722371967654,
       "incr_op_margin_yoy": 1.4264705882352942,
       "rev_growth_yoy": 0.22442244224422442,
-      "rev_growth_yoy_accel": -0.09990188208009992,
       "fcf_margin_change": 0.120090489025799
     },
     {
@@ -427,9 +407,37 @@
       "rev_growth_yoy": -0.03535353535353535,
       "rev_growth_yoy_accel": -0.11709740456334461,
       "fcf_margin_change": 0.05023936064990045
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 334000000,
+      "gross_profit": null,
+      "operating_income": -36000000,
+      "net_income": -60000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 136000000,
+      "ocf": 152000000,
+      "capex": -16000000,
+      "gross_margin": null,
+      "op_margin": -0.10778443113772455,
+      "fcf_margin": 0.40718562874251496,
+      "incr_op_margin_yoy": 23.571428571428573,
+      "rev_growth_yoy": -0.020527859237536656,
+      "rev_growth_yoy_accel": 0.014825676115998696,
+      "fcf_margin_change": 0.21085055020848353
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +19.6% -> +40.7% (+21.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -534,32 +542,14 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +22.4% vs prior quarter YoY: +32.4% (decel: -10.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +142.6% vs year-ago OPM: +20.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +69.8% vs year-ago OPM: +7.1%",
       "severity": "HIGH"
     },
     {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.5% -> +25.6% (+6.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +0.0% -> +19.5% (+19.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -590,5 +580,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:57:34.453533"
+  "last_updated": "2026-02-24T10:19:33.890892"
 }

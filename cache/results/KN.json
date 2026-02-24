@@ -1,25 +1,9 @@
 {
   "ticker": "KN",
   "name": "Knowles Corporation",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 243200000,
-      "gross_profit": 92000000,
-      "operating_income": 37600000,
-      "net_income": 29600000,
-      "opex": 54400000,
-      "cogs": 151200000,
-      "rd": 22700000,
-      "sga": 32200000,
-      "fcf": null,
-      "ocf": null,
-      "capex": -11500000,
-      "gross_margin": 0.3782894736842105,
-      "op_margin": 0.15460526315789475,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -93,9 +77,7 @@
       "capex": -20400000,
       "gross_margin": 0.430644472897994,
       "op_margin": 0.17328211694408877,
-      "fcf_margin": null,
-      "incr_op_margin_yoy": -0.33707865168539325,
-      "rev_growth_yoy": -0.036595394736842105
+      "fcf_margin": null
     },
     {
       "date": "2022-03-31T00:00:00",
@@ -114,8 +96,7 @@
       "gross_margin": 0.41360476663356505,
       "op_margin": 0.105759682224429,
       "fcf_margin": -0.029791459781529295,
-      "rev_growth_yoy": 0.001990049751243781,
-      "rev_growth_yoy_accel": 0.03858544448808589
+      "rev_growth_yoy": 0.001990049751243781
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -247,7 +228,7 @@
       "incr_op_margin_yoy": -11.67741935483871,
       "rev_growth_yoy": -0.01739618406285073,
       "rev_growth_yoy_accel": 0.06239104997970246,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22582801570035949
     },
     {
@@ -400,7 +381,7 @@
       "incr_op_margin_yoy": -4.256802721088436,
       "rev_growth_yoy": -0.2872496336101612,
       "rev_growth_yoy_accel": 0.0396342767768042,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23495410094784422
     },
     {
@@ -423,11 +404,45 @@
       "incr_op_margin_yoy": 0.6826923076923077,
       "rev_growth_yoy": 0.07298245614035087,
       "rev_growth_yoy_accel": 0.3602320897505121,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07456974167690586
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 162200000,
+      "gross_profit": 72500000,
+      "operating_income": 25800000,
+      "net_income": 21000000,
+      "opex": 46700000,
+      "cogs": 89600000,
+      "rd": 10500000,
+      "sga": 35700000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -15300000,
+      "gross_margin": 0.4469790382244143,
+      "op_margin": 0.15906288532675708,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.5279187817258884,
+      "rev_growth_yoy": 0.13824561403508773,
+      "rev_growth_yoy_accel": 0.06526315789473686,
+      "op_leverage_ratio": 1.031669769079841
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +13.8% vs prior quarter YoY: +7.3% (accel: +6.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +52.8% vs year-ago OPM: +10.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -636,7 +651,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:35:43.878413",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-24T11:06:48.297544"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "CBOE",
   "name": "Cboe Global Markets, Inc.",
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 844200000,
-      "gross_profit": 307100000,
-      "operating_income": 134800000,
-      "net_income": 87300000,
-      "opex": 172300000,
-      "cogs": 537100000,
-      "rd": null,
-      "sga": null,
-      "fcf": 259200000,
-      "ocf": 269400000,
-      "capex": -10200000,
-      "gross_margin": 0.3637763563136697,
-      "op_margin": 0.15967780146884625,
-      "fcf_margin": 0.3070362473347548
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -9900000,
       "gross_margin": 0.361594776414721,
       "op_margin": 0.20241392956074397,
-      "fcf_margin": 0.5829046299960428,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.27586838266128794
+      "fcf_margin": 0.5829046299960428
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +78,7 @@
       "gross_margin": 0.4507156048014774,
       "op_margin": 0.2546168051708218,
       "fcf_margin": -0.810595567867036,
-      "incr_op_margin_yoy": 3.864864864864865,
-      "rev_growth_yoy": 0.026297085998578537,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -1.4810167235967127
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 1.2816829143150335,
       "incr_op_margin_yoy": -0.9669421487603306,
       "rev_growth_yoy": -0.03591214879303522,
-      "rev_growth_yoy_accel": -0.062209234791613756,
       "op_leverage_ratio": 2.493915322361632,
       "fcf_margin_change": 2.0922784821820697
     },
@@ -278,7 +257,7 @@
       "incr_op_margin_yoy": -1.2083333333333333,
       "rev_growth_yoy": -0.035831591519856675,
       "rev_growth_yoy_accel": 0.04942256046806482,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -1.015136128788837
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.24642614023144996,
       "rev_growth_yoy": 0.1616417253521127,
       "rev_growth_yoy_accel": 0.08871817390906356,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -2.074847590833296
     },
     {
@@ -355,7 +334,7 @@
       "revenue": 1107600000,
       "gross_profit": 524500000,
       "operating_income": 298500000,
-      "net_income": null,
+      "net_income": 196500000,
       "opex": 226000000,
       "cogs": 583100000,
       "rd": null,
@@ -392,7 +371,7 @@
       "incr_op_margin_yoy": 0.30067283431455005,
       "rev_growth_yoy": 0.24843292937735062,
       "rev_growth_yoy_accel": 0.1050448835427269,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.4145064831646246
     },
     {
@@ -438,9 +417,44 @@
       "rev_growth_yoy": 0.08146253670550346,
       "rev_growth_yoy_accel": -0.12336292530681686,
       "fcf_margin_change": -0.1462795428475294
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1204000000,
+      "gross_profit": 671100000,
+      "operating_income": 403800000,
+      "net_income": 313500000,
+      "opex": 267300000,
+      "cogs": 532900000,
+      "rd": null,
+      "sga": null,
+      "fcf": 332100000,
+      "ocf": 352100000,
+      "capex": -20000000,
+      "gross_margin": 0.5573920265780731,
+      "op_margin": 0.33538205980066443,
+      "fcf_margin": 0.27583056478405316,
+      "incr_op_margin_yoy": 1.092323651452282,
+      "rev_growth_yoy": 0.08703503069700252,
+      "rev_growth_yoy_accel": 0.005572493991499061,
+      "op_leverage_ratio": 0.3998235128955918,
+      "fcf_margin_change": 0.15504577017951607
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +12.1% -> +27.6% (+15.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +109.2% vs year-ago OPM: +27.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -586,33 +600,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.6% vs prior quarter YoY: +2.6% (decel: -6.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +386.5% vs year-ago OPM: +16.0%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +13.9% -> +67.0% (+53.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +36.4% -> +36.2% -> +43.8% (reversal +7.6%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +30.7% -> +58.3% (+27.6%)",
       "severity": "MEDIUM"
     }
   ],
@@ -641,7 +631,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:10:46.261436",
-  "sector": "Financial Services",
-  "industry": "Financial Data & Stock Exchanges"
+  "last_updated": "2026-02-24T10:13:12.015081"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "GPN",
-  "name": "GLOBAL PAYMENTS INC.",
+  "name": "GLOBAL PAYMENTS INC",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1930193000,
-      "gross_profit": 1007998000,
-      "operating_income": 251981000,
-      "net_income": 182643000,
-      "opex": 1678211000,
-      "cogs": 922195000,
-      "rd": null,
-      "sga": 756016000,
-      "fcf": 769390000,
-      "ocf": 769390000,
-      "capex": null,
-      "gross_margin": 0.5222265338233016,
-      "op_margin": 0.1305470489220508,
-      "fcf_margin": 0.39860780761302106
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.5350538967953379,
       "op_margin": 0.13832061897269707,
-      "fcf_margin": 0.3012079857005528,
-      "op_leverage_ratio": 1.4233633803313208,
-      "fcf_margin_change": -0.09739982191246827
+      "fcf_margin": 0.3012079857005528
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.5587942648546181,
       "op_margin": 0.14629844105304468,
       "fcf_margin": 0.3433097187259142,
-      "incr_op_margin_yoy": 0.2615547333464752,
-      "rev_growth_yoy": 0.1366640538018737,
       "fcf_margin_change": -0.07350614551284673
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.292173371040703,
       "incr_op_margin_yoy": 0.6056530343404694,
       "rev_growth_yoy": 0.08354091216764564,
-      "rev_growth_yoy_accel": -0.053123141634228044,
       "fcf_margin_change": -0.05113634768521119
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": 6.601650705571714,
       "rev_growth_yoy": 0.07521704094776374,
       "rev_growth_yoy_accel": 0.012055187103086812,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03115974988805084
     },
     {
@@ -434,11 +413,39 @@
       "incr_op_margin_yoy": -0.5092193327327985,
       "rev_growth_yoy": -0.22829257304870323,
       "rev_growth_yoy_accel": 0.009962107794409092,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.034894625203345964
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1932807000,
+      "gross_profit": 1363761000,
+      "operating_income": 169308000,
+      "net_income": 217524000,
+      "opex": 1763499000,
+      "cogs": 569046000,
+      "rd": null,
+      "sga": 1129060000,
+      "fcf": 515212000,
+      "ocf": 515212000,
+      "capex": null,
+      "gross_margin": 0.7055857103166534,
+      "op_margin": 0.08759695096302941,
+      "fcf_margin": 0.2665615345970912,
+      "incr_op_margin_yoy": 1.1394849453893807,
+      "rev_growth_yoy": -0.23160620278557645,
+      "rev_growth_yoy_accel": -0.0033136297368732137,
+      "fcf_margin_change": -0.11634184883327991
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +113.9% vs year-ago OPM: +33.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -537,21 +544,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +8.4% vs prior quarter YoY: +13.7% (decel: -5.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +60.6% vs year-ago OPM: +13.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +26.2% vs year-ago OPM: +13.1%",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -597,7 +592,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:17:59.902990",
-  "sector": "Industrials",
-  "industry": "Specialty Business Services"
+  "last_updated": "2026-02-24T10:15:00.865863"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "GSHD",
   "name": "GOOSEHEAD INSURANCE, INC.",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 34650000,
-      "gross_profit": null,
-      "operating_income": 5148000,
-      "net_income": 2797000,
-      "opex": 29502000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 4392000,
-      "ocf": 9602000,
-      "capex": -5210000,
-      "gross_margin": null,
-      "op_margin": 0.14857142857142858,
-      "fcf_margin": 0.12675324675324676
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1945000,
       "gross_margin": null,
       "op_margin": -0.025682080184449854,
-      "fcf_margin": 0.19030997822467016,
-      "fcf_margin_change": 0.0635567314714234
+      "fcf_margin": 0.19030997822467016
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.053368133233905046,
       "fcf_margin": 0.1015162813820532,
-      "incr_op_margin_yoy": -0.5378136200716845,
-      "rev_growth_yoy": 0.16103896103896104,
       "fcf_margin_change": -0.05596554486971621
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.1667231939531954,
       "incr_op_margin_yoy": -0.527363184079602,
       "rev_growth_yoy": 0.3218265659023953,
-      "rev_growth_yoy_accel": 0.16078760486343424,
       "op_leverage_ratio": 0.10670863680443879,
       "fcf_margin_change": -0.2682394753352486
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.1266751969829618,
       "rev_growth_yoy": 0.38899221963167685,
       "rev_growth_yoy_accel": 0.06716565372928157,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.38253927029886325
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": 0.7364160983287117,
       "rev_growth_yoy": 0.23129994626172273,
       "rev_growth_yoy_accel": -0.07527091111823275,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07404352024876493
     },
     {
@@ -324,7 +304,7 @@
       "incr_op_margin_yoy": 0.47747134263988195,
       "rev_growth_yoy": 0.12718506863749873,
       "rev_growth_yoy_accel": 0.014942811714023618,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05507574245058827
     },
     {
@@ -438,9 +418,38 @@
       "rev_growth_yoy": 0.15890305632088167,
       "rev_growth_yoy_accel": -0.04521281295480731,
       "fcf_margin_change": -0.026603265024090883
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 105258000,
+      "gross_profit": null,
+      "operating_income": 30898000,
+      "net_income": 12431000,
+      "opex": 74360000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 20275000,
+      "ocf": 23152000,
+      "capex": -2877000,
+      "gross_margin": null,
+      "op_margin": 0.29354538372380246,
+      "fcf_margin": 0.19262193847498527,
+      "incr_op_margin_yoy": 0.26887791107974596,
+      "rev_growth_yoy": 0.12069589659504695,
+      "rev_growth_yoy_accel": -0.038207159725834716,
+      "op_leverage_ratio": 2.1790723154120712,
+      "fcf_margin_change": -0.06978752688687684
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +16.4% vs OpEx growth +7.5% (leverage: 2.2x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -598,12 +607,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +32.2% vs prior quarter YoY: +16.1% (accel: +16.1%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +22.2% vs OpEx growth +7.4% (leverage: 3.0x)",
@@ -614,12 +617,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -2.6% -> +9.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +12.7% -> +19.0% (+6.4%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -649,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:30:30.532676",
-  "sector": "Financial Services",
-  "industry": "Insurance Brokers"
+  "last_updated": "2026-02-24T10:19:25.942884"
 }

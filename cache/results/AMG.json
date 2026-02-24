@@ -1,25 +1,9 @@
 {
   "ticker": "AMG",
   "name": "AFFILIATED MANAGERS GROUP,\u00a0INC.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 554300000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 115900000,
-      "opex": 386700000,
-      "cogs": null,
-      "rd": null,
-      "sga": 83500000,
-      "fcf": 380800000,
-      "ocf": 382500000,
-      "capex": -1700000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.6869926032834205
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -700000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.33661241280629584,
-      "fcf_margin_change": -0.35038019047712465
+      "fcf_margin": 0.33661241280629584
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5180688060132986,
-      "rev_growth_yoy": 0.24806061699440737,
       "op_leverage_ratio": 1.1067968671958444,
       "fcf_margin_change": -0.07928863487682658
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.2326691915033756,
       "rev_growth_yoy": 0.08620998032552316,
-      "rev_growth_yoy_accel": -0.16185063666888422,
       "fcf_margin_change": -0.285399614509923
     },
     {
@@ -244,7 +225,7 @@
       "fcf_margin": 0.5546458492003047,
       "rev_growth_yoy": -0.09229173867957138,
       "rev_growth_yoy_accel": 0.05933878606798698,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3817678004198169
     },
     {
@@ -415,8 +396,30 @@
       "fcf_margin": 0.5225378787878788,
       "rev_growth_yoy": 0.022463206816421378,
       "rev_growth_yoy_accel": 0.03665469192535602,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05741216913662173
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 556600000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 347600000,
+      "opex": 526600000,
+      "cogs": null,
+      "rd": null,
+      "sga": 117800000,
+      "fcf": 254500000,
+      "ocf": 256400000,
+      "capex": -1900000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4572403880704276,
+      "rev_growth_yoy": 0.06160595079153157,
+      "rev_growth_yoy_accel": 0.039142743975110195,
+      "op_leverage_ratio": 0.18879897785349234,
+      "fcf_margin_change": -0.06529749071745122
     }
   ],
   "signals": [
@@ -475,12 +478,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +8.6% vs prior quarter YoY: +24.8% (decel: -16.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +33.7% -> +61.5% (+27.8%)",
@@ -521,7 +518,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:42:55.771653",
-  "sector": "Financial Services",
-  "industry": "Asset Management"
+  "last_updated": "2026-02-24T10:33:56.224403"
 }

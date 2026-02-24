@@ -1,25 +1,9 @@
 {
   "ticker": "SXC",
-  "name": "SunCoke Energy, Inc.",
+  "name": "SUNCOKE ENERGY, INC.",
+  "sector": "Basic Materials",
+  "industry": "Coking Coal",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 310100000,
-      "gross_profit": null,
-      "operating_income": 4800000,
-      "net_income": -5000000,
-      "opex": 305300000,
-      "cogs": null,
-      "rd": null,
-      "sga": 30300000,
-      "fcf": 14200000,
-      "ocf": 34700000,
-      "capex": -20500000,
-      "gross_margin": null,
-      "op_margin": 0.015478877781360851,
-      "fcf_margin": 0.04579168010319252
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -20100000,
       "gross_margin": null,
       "op_margin": 0.10614059460961378,
-      "fcf_margin": 0.12420116699083078,
-      "op_leverage_ratio": 2.989582432102941,
-      "fcf_margin_change": 0.07840948688763827
+      "fcf_margin": 0.12420116699083078
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.07664932931836846,
       "fcf_margin": 0.0071174377224199285,
-      "incr_op_margin_yoy": 0.42028985507246375,
-      "rev_growth_yoy": 0.1780070944856498,
       "fcf_margin_change": -0.15932185286421036
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.022282855843565257,
       "incr_op_margin_yoy": 0.13016270337922403,
       "rev_growth_yoy": 0.22200611280911364,
-      "rev_growth_yoy_accel": 0.04399901832346384,
       "op_leverage_ratio": 1.2762453611462254,
       "fcf_margin_change": 0.015165418121145328
     },
@@ -434,9 +413,37 @@
       "rev_growth_yoy_accel": 0.07182298705275476,
       "op_leverage_ratio": 1.0487983578437212,
       "fcf_margin_change": -0.04475794759579522
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 480200000,
+      "gross_profit": null,
+      "operating_income": -97800000,
+      "net_income": -85600000,
+      "opex": 578000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 21200000,
+      "fcf": 32800000,
+      "ocf": 56600000,
+      "capex": -23800000,
+      "gross_margin": null,
+      "op_margin": -0.20366513952519782,
+      "fcf_margin": 0.068304872969596,
+      "incr_op_margin_yoy": 22.982758620689655,
+      "rev_growth_yoy": -0.011934156378600824,
+      "rev_growth_yoy_accel": -0.0056089166316104135,
+      "fcf_margin_change": 0.10177509884228594
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.3% -> +6.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -522,27 +529,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +42.0% vs year-ago OPM: +1.5%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.2% -> +16.6% (+9.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +4.6% -> +12.4% (+7.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +16.1% vs OpEx growth +5.4% (leverage: 3.0x)",
       "severity": "MEDIUM"
     }
   ],
@@ -573,5 +562,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:14:03.741117"
+  "last_updated": "2026-02-24T10:13:54.440537"
 }

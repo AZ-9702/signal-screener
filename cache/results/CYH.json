@@ -1,25 +1,9 @@
 {
   "ticker": "CYH",
   "name": "COMMUNITY HEALTH SYSTEMS, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3119000000,
-      "gross_profit": 2595000000,
-      "operating_income": 436000000,
-      "net_income": 311000000,
-      "opex": 2683000000,
-      "cogs": 524000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -47000000,
-      "ocf": 76000000,
-      "capex": -123000000,
-      "gross_margin": 0.8319974350753446,
-      "op_margin": 0.1397883937159346,
-      "fcf_margin": -0.015068932350112215
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -105000000,
       "gross_margin": 0.8370394955194158,
       "op_margin": 0.10819780949220047,
-      "fcf_margin": -0.001327580484566877,
-      "fcf_margin_change": 0.01374135186554534
+      "fcf_margin": -0.001327580484566877
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.8388493659140117,
       "op_margin": 0.13114754098360656,
       "fcf_margin": -0.20600061862047633,
-      "incr_op_margin_yoy": -0.10526315789473684,
-      "rev_growth_yoy": 0.03655017633857006,
       "op_leverage_ratio": 3.0917760362571998,
       "fcf_margin_change": -0.2053585640458375
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.0012857602057216328,
       "incr_op_margin_yoy": -0.5714285714285714,
       "rev_growth_yoy": 0.032525721871888486,
-      "rev_growth_yoy_accel": -0.004024454466681572,
       "fcf_margin_change": 0.20728637882619796
     },
     {
@@ -276,7 +256,7 @@
       "incr_op_margin_yoy": 2.45,
       "rev_growth_yoy": 0.012730744748567792,
       "rev_growth_yoy_accel": -0.007434544507630555,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.026443095946781008
     },
     {
@@ -365,7 +345,7 @@
       "incr_op_margin_yoy": -0.5903614457831325,
       "rev_growth_yoy": 0.026084223758642364,
       "rev_growth_yoy_accel": 0.024788047478668286,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.033742696144753864
     },
     {
@@ -433,9 +413,37 @@
       "rev_growth_yoy": -0.000970873786407767,
       "rev_growth_yoy_accel": 0.0012584255766495578,
       "fcf_margin_change": 0.002253305073188213
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3106000000,
+      "gross_profit": 2660000000,
+      "operating_income": 450000000,
+      "net_income": 110000000,
+      "opex": 2656000000,
+      "cogs": 446000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 172000000,
+      "ocf": 266000000,
+      "capex": -94000000,
+      "gross_margin": 0.8564069542820347,
+      "op_margin": 0.1448808757244044,
+      "fcf_margin": 0.05537669027688345,
+      "incr_op_margin_yoy": -1.0817610062893082,
+      "rev_growth_yoy": -0.04869831546707504,
+      "rev_growth_yoy_accel": -0.04772744168066727,
+      "fcf_margin_change": 0.05408093387908624
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +0.1% -> +5.5% (+5.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -582,7 +590,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:30:57.432095",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-24T10:25:29.098528"
 }

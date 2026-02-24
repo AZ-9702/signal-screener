@@ -1,25 +1,9 @@
 {
   "ticker": "AMAT",
   "name": "APPLIED MATERIALS INC /DE",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2021-01-31T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 5162000000,
-      "gross_profit": 2349000000,
-      "operating_income": 1283000000,
-      "net_income": 1130000000,
-      "opex": 1066000000,
-      "cogs": 2813000000,
-      "rd": 606000000,
-      "sga": null,
-      "fcf": 1300000000,
-      "ocf": 1421000000,
-      "capex": -121000000,
-      "gross_margin": 0.4550561797752809,
-      "op_margin": 0.24854707477721813,
-      "fcf_margin": 0.25184037194885706
-    },
     {
       "date": "2021-05-02T00:00:00",
       "quarter_label": "2021-05 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -204000000,
       "gross_margin": 0.47527767825152273,
       "op_margin": 0.28287352203511285,
-      "fcf_margin": 0.17610175564313865,
-      "op_leverage_ratio": 10.841728012398296,
-      "fcf_margin_change": -0.0757386163057184
+      "fcf_margin": 0.17610175564313865
     },
     {
       "date": "2021-08-01T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.4788573273079406,
       "op_margin": 0.3248870238863783,
       "fcf_margin": 0.25,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07389824435686135
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.4718545686493382,
       "op_margin": 0.3151012597671823,
       "fcf_margin": 0.4008929995216074,
-      "incr_op_margin_yoy": 0.6248872858431019,
-      "rev_growth_yoy": 0.2148392096086788,
       "op_leverage_ratio": 0.43275669292327795,
       "fcf_margin_change": 0.24704684567545354
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.03282626100880705,
       "incr_op_margin_yoy": 0.4751131221719457,
       "rev_growth_yoy": 0.11877463274811896,
-      "rev_growth_yoy_accel": -0.09606457686055984,
       "fcf_margin_change": -0.36806673851280036
     },
     {
@@ -358,7 +337,7 @@
       "opex": 1321000000,
       "cogs": 3670000000,
       "rd": 859000000,
-      "sga": null,
+      "sga": 462000000,
       "fcf": 544000000,
       "ocf": 925000000,
       "capex": -381000000,
@@ -437,9 +416,38 @@
       "rev_growth_yoy": -0.0347764371894961,
       "rev_growth_yoy_accel": -0.11208537787996525,
       "fcf_margin_change": 0.01969617510110039
+    },
+    {
+      "date": "2026-01-25T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 7012000000,
+      "gross_profit": 3435000000,
+      "operating_income": 1831000000,
+      "net_income": 2026000000,
+      "opex": 1604000000,
+      "cogs": 3577000000,
+      "rd": 928000000,
+      "sga": 411000000,
+      "fcf": 1040000000,
+      "ocf": 1686000000,
+      "capex": -646000000,
+      "gross_margin": 0.48987450085567597,
+      "op_margin": 0.26112378779235595,
+      "fcf_margin": 0.14831717056474614,
+      "incr_op_margin_yoy": 2.2337662337662336,
+      "rev_growth_yoy": -0.021490371197320682,
+      "rev_growth_yoy_accel": 0.013286065992175418,
+      "op_leverage_ratio": 0.9493540945790081,
+      "fcf_margin_change": -0.15212400590584207
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +223.4% vs year-ago OPM: +30.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -574,12 +582,6 @@
     },
     {
       "quarter": "2022-05 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.9% vs prior quarter YoY: +21.5% (decel: -9.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-05 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +47.5% vs year-ago OPM: +28.3%",
       "severity": "MEDIUM"
@@ -591,21 +593,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +62.5% vs year-ago OPM: +24.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-08 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +17.6% -> +25.0% (+7.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-05 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +8.1% vs OpEx growth +0.8% (leverage: 10.8x)",
       "severity": "MEDIUM"
     }
   ],
@@ -634,7 +624,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:08.676558",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-24T10:20:59.691182"
 }

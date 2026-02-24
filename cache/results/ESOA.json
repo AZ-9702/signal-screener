@@ -1,25 +1,9 @@
 {
   "ticker": "ESOA",
   "name": "Energy Services of America Corporation",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 32009796,
-      "gross_profit": 2843059,
-      "operating_income": -752771,
-      "net_income": null,
-      "opex": 3595830,
-      "cogs": 29166737,
-      "rd": null,
-      "sga": 3595830,
-      "fcf": 2120581,
-      "ocf": 3587672,
-      "capex": -1467091,
-      "gross_margin": 0.08881840421600938,
-      "op_margin": -0.023516894640628137,
-      "fcf_margin": 0.06624787611892309
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -2296690,
       "gross_margin": 0.07316902379856259,
       "op_margin": -0.0761710063481892,
-      "fcf_margin": -0.32409519518764235,
-      "fcf_margin_change": -0.3903430713065654
+      "fcf_margin": -0.32409519518764235
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -75,7 +58,7 @@
       "gross_margin": 0.13898332570320887,
       "op_margin": 0.05845599559829481,
       "fcf_margin": 0.10018972230955463,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22020565526774155
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.12443698739718642,
       "op_margin": 0.039282990450460485,
       "fcf_margin": 0.12801329141186088,
-      "incr_op_margin_yoy": 0.22804713799338908,
-      "rev_growth_yoy": 0.33268968661968357,
       "op_leverage_ratio": 0.5580203262774202,
       "fcf_margin_change": 0.027823569102306253
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.004370633865665281,
       "incr_op_margin_yoy": 0.1429392328688407,
       "rev_growth_yoy": 0.38223036598669063,
-      "rev_growth_yoy_accel": 0.04954067936700707,
       "fcf_margin_change": -0.1236426575461956
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.0872819169407444,
       "rev_growth_yoy": 0.6714217532386255,
       "rev_growth_yoy_accel": 0.15490484395894544,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1813347518475714
     },
     {
@@ -321,7 +301,7 @@
       "fcf_margin": 0.1892536592905152,
       "rev_growth_yoy": 0.004605033290583367,
       "rev_growth_yoy_accel": -0.32058766955130436,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2578807214367367
     },
     {
@@ -435,9 +415,49 @@
       "rev_growth_yoy_accel": 0.03706406176292584,
       "op_leverage_ratio": 15.702156809911994,
       "fcf_margin_change": -0.044640692639335636
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 114112200,
+      "gross_profit": 13993792,
+      "operating_income": 4912763,
+      "net_income": null,
+      "opex": 9081029,
+      "cogs": 100118408,
+      "rd": null,
+      "sga": 9081029,
+      "fcf": 16778090,
+      "ocf": 18790087,
+      "capex": -2011997,
+      "gross_margin": 0.12263186583029685,
+      "op_margin": 0.043052040009744795,
+      "fcf_margin": 0.1470315181023589,
+      "incr_op_margin_yoy": 0.24263687310477594,
+      "rev_growth_yoy": 0.13379638283898374,
+      "rev_growth_yoy_accel": -0.10900617314253774,
+      "fcf_margin_change": 0.19728961514723525
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -5.0% -> +14.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +13.4% vs prior quarter YoY: +24.3% (decel: -10.9%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +24.3% vs year-ago OPM: +1.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -601,12 +621,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -2.4% (year-ago) -> +3.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -12.0% -> +10.0%",
@@ -622,12 +636,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -32.4% -> -12.0% (+20.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +8.9% -> +7.3% -> +10.7% (reversal +3.4%)",
       "severity": "MEDIUM"
     }
   ],
@@ -656,7 +664,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:09:15.153589",
-  "sector": "Industrials",
-  "industry": "Engineering & Construction"
+  "last_updated": "2026-02-24T11:08:55.407652"
 }

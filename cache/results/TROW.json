@@ -1,25 +1,9 @@
 {
   "ticker": "TROW",
   "name": "PRICE T ROWE GROUP INC",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1732900000,
-      "gross_profit": null,
-      "operating_income": 755900000,
-      "net_income": 783400000,
-      "opex": 977000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -57200000,
-      "ocf": 2000000,
-      "capex": -59200000,
-      "gross_margin": null,
-      "op_margin": 0.4362052051474407,
-      "fcf_margin": -0.033008252063015754
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -58800000,
       "gross_margin": null,
       "op_margin": 0.48894241296255747,
-      "fcf_margin": 0.5123166192248741,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.5453248712878899
+      "fcf_margin": 0.5123166192248741
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": null,
       "op_margin": 0.5097999078859833,
       "fcf_margin": 0.6303669208331201,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24457932947874284
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.4396696742621196,
       "fcf_margin": 0.15338736809909773,
-      "incr_op_margin_yoy": 0.4659090909090909,
-      "rev_growth_yoy": 0.13203300825206302,
       "fcf_margin_change": -0.47697955273402237
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.5628019323671497,
       "incr_op_margin_yoy": -0.43646408839779005,
       "rev_growth_yoy": 0.019816071819575214,
-      "rev_growth_yoy_accel": -0.1122169364324878,
       "fcf_margin_change": 0.409414564268052
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": 0.4816556914393227,
       "rev_growth_yoy": 0.13826742976066597,
       "rev_growth_yoy_accel": 0.0609809844122865,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.45130198448870507
     },
     {
@@ -437,6 +416,29 @@
       "rev_growth_yoy_accel": 0.06619720910162251,
       "op_leverage_ratio": 23.200222477935597,
       "fcf_margin_change": 0.016956998957315783
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1934100000,
+      "gross_profit": null,
+      "operating_income": 471000000,
+      "net_income": 445300000,
+      "opex": 1463100000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -85400000,
+      "ocf": -18700000,
+      "capex": -66700000,
+      "gross_margin": null,
+      "op_margin": 0.2435241197456181,
+      "fcf_margin": -0.04415490408975751,
+      "incr_op_margin_yoy": -0.8886861313868614,
+      "rev_growth_yoy": 0.06007125239791724,
+      "rev_growth_yoy_accel": -0.0003566149855953049,
+      "op_leverage_ratio": 0.12598050116047976,
+      "fcf_margin_change": -0.33250980242617156
     }
   ],
   "signals": [
@@ -585,22 +587,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +2.0% vs prior quarter YoY: +13.2% (decel: -11.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +38.6% -> +63.0% (+24.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -3.3% -> +51.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -630,5 +620,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:15:24.378539"
+  "last_updated": "2026-02-24T10:46:27.133094"
 }

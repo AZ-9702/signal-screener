@@ -1,25 +1,9 @@
 {
   "ticker": "MUSA",
   "name": "MURPHY USA INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2860900000,
-      "gross_profit": null,
-      "operating_income": 92400000,
-      "net_income": 61000000,
-      "opex": 2768400000,
-      "cogs": null,
-      "rd": null,
-      "sga": 41100000,
-      "fcf": 95900000,
-      "ocf": 95900000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.03229752874969415,
-      "fcf_margin": 0.03352091999021287
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.02674507364790365,
-      "fcf_margin": 0.06496847700093297,
-      "op_leverage_ratio": 0.9703941496970042,
-      "fcf_margin_change": 0.0314475570107201
+      "fcf_margin": 0.06496847700093297
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.03375288441367737,
       "fcf_margin": 0.031550241241871196,
-      "incr_op_margin_yoy": 0.035937254079009495,
-      "rev_growth_yoy": 0.6662588695864937,
       "op_leverage_ratio": 0.9762023648429051,
       "fcf_margin_change": -0.02414056825295534
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.06627070959674898,
       "incr_op_margin_yoy": 0.07974451400746221,
       "rev_growth_yoy": 0.44706115179101524,
-      "rev_growth_yoy_accel": -0.21919771779547848,
       "op_leverage_ratio": 1.1690888917532938,
       "fcf_margin_change": 0.034720468354877784
     },
@@ -438,9 +417,37 @@
       "rev_growth_yoy_accel": 0.05740782150209342,
       "op_leverage_ratio": 0.8196032538889682,
       "fcf_margin_change": -0.014804647407387135
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4743600000,
+      "gross_profit": null,
+      "operating_income": 209500000,
+      "net_income": 141900000,
+      "opex": 4531500000,
+      "cogs": null,
+      "rd": null,
+      "sga": 65200000,
+      "fcf": 245500000,
+      "ocf": 245500000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.04416476937347163,
+      "fcf_margin": 0.051753942153638585,
+      "incr_op_margin_yoy": 0.31626506024096385,
+      "rev_growth_yoy": 0.007048233695652174,
+      "rev_growth_yoy_accel": 0.03157815638344448,
+      "fcf_margin_change": 0.015589558591994748
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +31.6% vs year-ago OPM: +4.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -512,12 +519,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +51.9% vs prior quarter YoY: +44.7% (accel: +7.1%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +44.7% vs prior quarter YoY: +66.6% (decel: -21.9%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -547,7 +548,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:44:45.026395",
-  "sector": "Consumer Cyclical",
-  "industry": "Specialty Retail"
+  "last_updated": "2026-02-24T10:28:37.253061"
 }

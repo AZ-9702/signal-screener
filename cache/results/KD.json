@@ -1,25 +1,9 @@
 {
   "ticker": "KD",
-  "name": "Kyndryl Holdings, Inc",
+  "name": "Kyndryl Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4927000000,
-      "gross_profit": 660000000,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": 4267000000,
-      "rd": 20000000,
-      "sga": 825000000,
-      "fcf": 19000000,
-      "ocf": 305000000,
-      "capex": -286000000,
-      "gross_margin": 0.13395575400852447,
-      "op_margin": null,
-      "fcf_margin": 0.00385630200933631
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -180000000,
       "gross_margin": 0.09494864808216306,
       "op_margin": null,
-      "fcf_margin": -0.10647662963739259,
-      "fcf_margin_change": -0.1103329316467289
+      "fcf_margin": -0.10647662963739259
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.12225636523266023,
       "op_margin": null,
       "fcf_margin": 0.0996488147497805,
-      "rev_growth_yoy": -0.07529937081388269,
       "fcf_margin_change": 0.15118845222521182
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.002031144211238998,
       "rev_growth_yoy": -0.07126388597778244,
-      "rev_growth_yoy_accel": 0.0040354848361002504,
       "fcf_margin_change": -0.0976176705385415
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.014043455219925808,
       "rev_growth_yoy_accel": -0.015113259980556994,
       "fcf_margin_change": 0.07236527085622088
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3859000000,
+      "gross_profit": 843000000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": 3016000000,
+      "rd": null,
+      "sga": 672000000,
+      "fcf": 428000000,
+      "ocf": 428000000,
+      "capex": null,
+      "gross_margin": 0.21845037574501167,
+      "op_margin": null,
+      "fcf_margin": 0.11090956206271055,
+      "rev_growth_yoy": 0.030715811965811964,
+      "rev_growth_yoy_accel": 0.04475926718573777,
+      "fcf_margin_change": 0.07167279775204137
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +3.9% -> +11.1% (+7.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -497,12 +505,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -10.6% -> -3.4% (+7.3%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +13.4% -> +9.5% -> +12.4% (reversal +2.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -532,7 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:59:52.895020",
-  "sector": "Technology",
-  "industry": "Information Technology Services"
+  "last_updated": "2026-02-24T10:38:17.466392"
 }

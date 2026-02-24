@@ -1,25 +1,9 @@
 {
   "ticker": "GNK",
   "name": "GENCO SHIPPING & TRADING LIMITED",
+  "sector": "Industrials",
+  "industry": "Marine Shipping",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 95494000,
-      "gross_profit": null,
-      "operating_income": -61151000,
-      "net_income": -65921000,
-      "opex": 156646000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 19985000,
-      "ocf": 20881000,
-      "capex": -896000,
-      "gross_margin": null,
-      "op_margin": -0.6403648396757912,
-      "fcf_margin": 0.20928016419879783
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -152000,
       "gross_margin": null,
       "op_margin": 0.07202794807685721,
-      "fcf_margin": 0.15232158555102693,
-      "fcf_margin_change": -0.0569585786477709
+      "fcf_margin": 0.15232158555102693
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.5084189046148474,
       "fcf_margin": 0.5207826362138391,
-      "incr_op_margin_yoy": 1.758099425863483,
-      "rev_growth_yoy": 0.9192619431587324,
       "op_leverage_ratio": 74.42533878628106,
       "fcf_margin_change": 0.057245934593248116
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.3749036534607677,
       "incr_op_margin_yoy": 0.7357512953367875,
       "rev_growth_yoy": 0.5552625269719492,
-      "rev_growth_yoy_accel": -0.3639994161867832,
       "fcf_margin_change": -0.14587898275307143
     },
     {
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.7726187634280258,
       "rev_growth_yoy": 0.13847018378950152,
       "rev_growth_yoy_accel": -0.41679234318244773,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.039837888819787504
     },
     {
@@ -276,7 +256,7 @@
       "incr_op_margin_yoy": 2.071571964737715,
       "rev_growth_yoy": -0.09023178155985918,
       "rev_growth_yoy_accel": 0.29668444996180005,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18414729455359102
     },
     {
@@ -299,7 +279,7 @@
       "incr_op_margin_yoy": 0.7659260545044263,
       "rev_growth_yoy": 0.24413344492589337,
       "rev_growth_yoy_accel": 0.33436522648575256,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06572327899823321
     },
     {
@@ -434,9 +414,56 @@
       "rev_growth_yoy": -0.19541537470301615,
       "rev_growth_yoy_accel": 0.04847749478421842,
       "fcf_margin_change": 0.028245671267026387
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 109924000,
+      "gross_profit": null,
+      "operating_income": 19033000,
+      "net_income": 15411000,
+      "opex": 90891000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 15601000,
+      "ocf": 15897000,
+      "capex": -296000,
+      "gross_margin": null,
+      "op_margin": 0.17314690149557876,
+      "fcf_margin": 0.14192533022815765,
+      "incr_op_margin_yoy": 0.4127028539451595,
+      "rev_growth_yoy": 0.10808249833672708,
+      "rev_growth_yoy_accel": 0.30349787303974324,
+      "op_leverage_ratio": 2.1639404578464636,
+      "fcf_margin_change": 0.060219645864848875
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +8.2% -> +14.2% (+6.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +37.5% vs OpEx growth +17.3% (leverage: 2.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +10.8% vs prior quarter YoY: -19.5% (accel: +30.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +41.3% vs year-ago OPM: +14.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -589,12 +616,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +55.5% vs prior quarter YoY: +91.9% (decel: -36.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +73.6% vs year-ago OPM: +7.2%",
       "severity": "HIGH"
@@ -610,12 +631,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +18.1% vs OpEx growth +0.2% (leverage: 74.4x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -64.0% (year-ago) -> +50.8%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -640,12 +655,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +38.2% vs OpEx growth +4.3% (leverage: 8.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -64.0% -> +7.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -675,7 +684,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:05:34.730558",
-  "sector": "Industrials",
-  "industry": "Marine Shipping"
+  "last_updated": "2026-02-24T10:30:05.048437"
 }

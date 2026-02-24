@@ -1,25 +1,9 @@
 {
   "ticker": "EAF",
   "name": "GRAFTECH INTERNATIONAL LTD.",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 338010000,
-      "gross_profit": 175525000,
-      "operating_income": 155704000,
-      "net_income": 125096000,
-      "opex": 19821000,
-      "cogs": 162485000,
-      "rd": 1903000,
-      "sga": 17918000,
-      "fcf": 141594000,
-      "ocf": 146981000,
-      "capex": -5387000,
-      "gross_margin": 0.5192893701369782,
-      "op_margin": 0.460649093222094,
-      "fcf_margin": 0.41890476613117955
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -14174000,
       "gross_margin": 0.5190622772234943,
       "op_margin": 0.44967263146483044,
-      "fcf_margin": 0.3556243984007727,
-      "fcf_margin_change": -0.06328036773040685
+      "fcf_margin": 0.3556243984007727
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.5097539067448208,
       "op_margin": 0.4522064327418036,
       "fcf_margin": 0.34513513824752123,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12003460914699213
     },
     {
@@ -96,9 +79,7 @@
       "gross_margin": 0.4968634132779877,
       "op_margin": 0.4460311649274828,
       "fcf_margin": 0.22625814425271062,
-      "incr_op_margin_yoy": 0.25060317209191946,
-      "rev_growth_yoy": 0.07479956214313185,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11887699399481061
     },
     {
@@ -120,7 +101,6 @@
       "fcf_margin": 0.3534819587980723,
       "incr_op_margin_yoy": 0.2589897813995602,
       "rev_growth_yoy": 0.20318202873221483,
-      "rev_growth_yoy_accel": 0.12838246658908298,
       "fcf_margin_change": 0.1272238145453617
     },
     {
@@ -231,7 +211,7 @@
       "incr_op_margin_yoy": 0.7569362944661258,
       "rev_growth_yoy": -0.48972077239953143,
       "rev_growth_yoy_accel": 0.1312924837541362,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12346159950183737
     },
     {
@@ -409,7 +389,7 @@
       "incr_op_margin_yoy": 2.164024056861673,
       "rev_growth_yoy": -0.03995572611358291,
       "rev_growth_yoy_accel": 0.14121483559203413,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.053726567105674694
     },
     {
@@ -434,9 +414,37 @@
       "rev_growth_yoy_accel": 0.14208807567808152,
       "op_leverage_ratio": 1.6680244167848217,
       "fcf_margin_change": 0.5610549344831448
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 116457000,
+      "gross_profit": -24337000,
+      "operating_income": -39187000,
+      "net_income": -65116000,
+      "opex": 14850000,
+      "cogs": null,
+      "rd": 1609000,
+      "sga": 13241000,
+      "fcf": -39265000,
+      "ocf": -20894000,
+      "capex": -18371000,
+      "gross_margin": -0.2089784212198494,
+      "op_margin": -0.33649329795546856,
+      "fcf_margin": -0.337163073065595,
+      "incr_op_margin_yoy": 0.8041666666666667,
+      "rev_growth_yoy": -0.13232302912447752,
+      "rev_growth_yoy_accel": -0.23445537868897612,
+      "fcf_margin_change": -0.464775956577866
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -13.2% vs prior quarter YoY: +10.2% (decel: -23.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -582,12 +590,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +20.3% vs prior quarter YoY: +7.5% (accel: +12.8%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +22.5% -> +34.5% (+12.0%)",
@@ -625,7 +627,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:32:01.421081",
-  "sector": "Industrials",
-  "industry": "Electrical Equipment & Parts"
+  "last_updated": "2026-02-24T10:47:53.577698"
 }

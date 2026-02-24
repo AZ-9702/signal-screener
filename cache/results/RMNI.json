@@ -1,25 +1,9 @@
 {
   "ticker": "RMNI",
   "name": "Rimini Street, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 87828000,
-      "gross_profit": 54244000,
-      "operating_income": 4470000,
-      "net_income": 3659000,
-      "opex": 49774000,
-      "cogs": 33584000,
-      "rd": null,
-      "sga": null,
-      "fcf": 10270000,
-      "ocf": 10270000,
-      "capex": null,
-      "gross_margin": 0.6176162499430705,
-      "op_margin": 0.05089493100150294,
-      "fcf_margin": 0.11693309650680876
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.6150406735309176,
       "op_margin": 0.021810114340975028,
-      "fcf_margin": 0.2786734171454576,
-      "fcf_margin_change": 0.16174032063864885
+      "fcf_margin": 0.2786734171454576
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +79,7 @@
       "gross_margin": 0.6509130833308152,
       "op_margin": 0.12839573323663614,
       "fcf_margin": 0.1926993624029251,
-      "incr_op_margin_yoy": 0.7228189677757401,
-      "rev_growth_yoy": 0.13037983331056155,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18588227367621507
     },
     {
@@ -120,7 +101,6 @@
       "fcf_margin": 0.4682769890715964,
       "incr_op_margin_yoy": 0.4018971542685971,
       "rev_growth_yoy": 0.11394277262642927,
-      "rev_growth_yoy_accel": -0.016437060684132282,
       "fcf_margin_change": 0.27557762666867125
     },
     {
@@ -367,7 +347,7 @@
       "incr_op_margin_yoy": 1.5844032334759868,
       "rev_growth_yoy": 0.01875836232271876,
       "rev_growth_yoy_accel": 0.04463944521477389,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15303356766570456
     },
     {
@@ -434,9 +414,38 @@
       "rev_growth_yoy": -0.01188474472638337,
       "rev_growth_yoy_accel": -0.02149462806957548,
       "fcf_margin_change": 0.4097140822672365
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 109790000,
+      "gross_profit": 66276000,
+      "operating_income": 4965000,
+      "net_income": 724000,
+      "opex": 61311000,
+      "cogs": 43514000,
+      "rd": null,
+      "sga": null,
+      "fcf": 19562000,
+      "ocf": 19562000,
+      "capex": null,
+      "gross_margin": 0.6036615356589853,
+      "op_margin": 0.04522269787776664,
+      "fcf_margin": 0.17817651880863467,
+      "incr_op_margin_yoy": 2.241238978069184,
+      "rev_growth_yoy": -0.038725889347097094,
+      "rev_growth_yoy_accel": -0.026841144620713724,
+      "op_leverage_ratio": 0.9420343277472203,
+      "fcf_margin_change": -0.06084966365646183
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +224.1% vs year-ago OPM: +13.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -558,21 +567,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +72.3% vs year-ago OPM: +5.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.2% vs OpEx growth +0.6% (leverage: 7.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.7% -> +27.9% (+16.2%)",
       "severity": "MEDIUM"
     }
   ],
@@ -601,5 +598,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:41:58.860380"
+  "last_updated": "2026-02-24T10:21:07.141001"
 }

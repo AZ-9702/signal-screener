@@ -1,25 +1,9 @@
 {
   "ticker": "FOLD",
-  "name": "AMICUS THERAPEUTICS, INC.",
+  "name": "Amicus Therapeutics,\u00a0Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 70571000,
-      "gross_profit": 61154000,
-      "operating_income": -64835000,
-      "net_income": -71401000,
-      "opex": 125989000,
-      "cogs": 9417000,
-      "rd": null,
-      "sga": 43685000,
-      "fcf": -50889000,
-      "ocf": -49822000,
-      "capex": -1067000,
-      "gross_margin": 0.8665599183800712,
-      "op_margin": -0.9187201541709767,
-      "fcf_margin": -0.7211035694548752
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -868000,
       "gross_margin": 0.9015240504804072,
       "op_margin": -0.7989970181621036,
-      "fcf_margin": -1.1027077497665734,
-      "fcf_margin_change": -0.3816041803116982
+      "fcf_margin": -1.1027077497665734
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.8917494477671709,
       "op_margin": -0.5016470101920866,
       "fcf_margin": -0.4687713949853384,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.633936354781235
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.9044355722180295,
       "op_margin": -0.8781800034082333,
       "fcf_margin": -0.8797380529249945,
-      "incr_op_margin_yoy": -0.6311836311836312,
-      "rev_growth_yoy": 0.16413257570390102,
       "op_leverage_ratio": 0.09988754634703309,
       "fcf_margin_change": -0.5706048578781657
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.7519024328272883,
       "incr_op_margin_yoy": -1.8097945261106148,
       "rev_growth_yoy": 0.18543116171199664,
-      "rev_growth_yoy_accel": 0.021298586008095616,
       "fcf_margin_change": 0.12783562009770622
     },
     {
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": -6.563893911995178,
       "rev_growth_yoy": 0.042861018175241884,
       "rev_growth_yoy_accel": -0.14257014353675476,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5510254462917568
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 3.988350419384902,
       "rev_growth_yoy": 0.026978439876799296,
       "rev_growth_yoy_accel": -0.015882578298442588,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06023725878094416
     },
     {
@@ -234,7 +214,7 @@
       "incr_op_margin_yoy": 3.0317310485042115,
       "rev_growth_yoy": 0.1705912227025554,
       "rev_growth_yoy_accel": 0.0746120573592282,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.037942802070697945
     },
     {
@@ -280,7 +260,7 @@
       "incr_op_margin_yoy": 1.4317053286889498,
       "rev_growth_yoy": 0.30632491827097713,
       "rev_growth_yoy_accel": 0.03934324342307466,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.40062615349517244
     },
     {
@@ -325,7 +305,7 @@
       "incr_op_margin_yoy": 1.0516383759248897,
       "rev_growth_yoy": 0.340370146979461,
       "rev_growth_yoy_accel": 0.06063211521870987,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4558405925234069
     },
     {
@@ -439,8 +419,31 @@
       "incr_op_margin_yoy": 0.4578129538193436,
       "rev_growth_yoy": 0.19463386024293902,
       "rev_growth_yoy_accel": -0.026564696625750228,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3956853963673016
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 185212000,
+      "gross_profit": 158665000,
+      "operating_income": 15946000,
+      "net_income": 1690000,
+      "opex": 142719000,
+      "cogs": 26547000,
+      "rd": null,
+      "sga": 117081000,
+      "fcf": 15954000,
+      "ocf": 16253000,
+      "capex": -299000,
+      "gross_margin": 0.8566669546249703,
+      "op_margin": 0.08609593330885688,
+      "fcf_margin": 0.08613912705440252,
+      "incr_op_margin_yoy": -0.0007041063482228356,
+      "rev_growth_yoy": 0.2371715228514555,
+      "rev_growth_yoy_accel": 0.04253766260851649,
+      "op_leverage_ratio": 0.40218326500251855,
+      "fcf_margin_change": -0.12253111623056562
     }
   ],
   "signals": [
@@ -644,7 +647,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:09:25.113052",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:11:07.270847"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "AON",
   "name": "Aon plc",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2965000000,
-      "gross_profit": null,
-      "operating_income": 713000000,
-      "net_income": null,
-      "opex": 2252000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 738000000,
-      "ocf": 760000000,
-      "capex": -22000000,
-      "gross_margin": null,
-      "op_margin": 0.24047217537942664,
-      "fcf_margin": 0.24890387858347388
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -29000000,
       "gross_margin": null,
       "op_margin": 0.35319148936170214,
-      "fcf_margin": 0.15092198581560284,
-      "op_leverage_ratio": 15.190556492411467,
-      "fcf_margin_change": -0.09798189276787103
+      "fcf_margin": 0.15092198581560284
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +77,7 @@
       "gross_margin": null,
       "op_margin": 0.31623376623376626,
       "fcf_margin": 0.2909090909090909,
-      "incr_op_margin_yoy": 2.2695652173913046,
-      "rev_growth_yoy": 0.0387858347386172,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3375412152614225
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.11989100817438691,
       "incr_op_margin_yoy": 0.8413793103448276,
       "rev_growth_yoy": 0.04113475177304964,
-      "rev_growth_yoy_accel": 0.002348917034432442,
       "op_leverage_ratio": 2.0478278067110556,
       "fcf_margin_change": -0.17101808273470398
     },
@@ -367,7 +346,7 @@
       "incr_op_margin_yoy": 0.40414507772020725,
       "rev_growth_yoy": 0.22874074074074074,
       "rev_growth_yoy_accel": -0.03133375976721725,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.020526749196276284
     },
     {
@@ -436,9 +415,38 @@
       "rev_growth_yoy": 0.07417360924482666,
       "rev_growth_yoy_accel": -0.030879582244535048,
       "fcf_margin_change": 0.09377917914970524
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4300000000,
+      "gross_profit": null,
+      "operating_income": 1208000000,
+      "net_income": 1693000000,
+      "opex": 3092000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1323000000,
+      "ocf": 1397000000,
+      "capex": -74000000,
+      "gross_margin": null,
+      "op_margin": 0.28093023255813954,
+      "fcf_margin": 0.30767441860465117,
+      "incr_op_margin_yoy": 0.7647058823529411,
+      "rev_growth_yoy": 0.036894140342416205,
+      "rev_growth_yoy_accel": -0.037279468902410455,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.03772195425638997
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +76.5% vs year-ago OPM: +26.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -603,12 +611,6 @@
     },
     {
       "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +227.0% vs year-ago OPM: +24.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -29.6% -> +31.6%",
       "severity": "HIGH"
@@ -617,12 +619,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +15.1% -> +25.7% (+10.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +18.9% vs OpEx growth +1.2% (leverage: 15.2x)",
       "severity": "MEDIUM"
     }
   ],
@@ -653,7 +649,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:54:57.367138",
-  "sector": "Financial Services",
-  "industry": "Insurance Brokers"
+  "last_updated": "2026-02-24T10:40:47.078427"
 }

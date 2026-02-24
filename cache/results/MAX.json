@@ -1,25 +1,9 @@
 {
   "ticker": "MAX",
   "name": "MediaAlpha, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 190205000,
-      "gross_profit": 26463000,
-      "operating_income": -11127000,
-      "net_income": -4366000,
-      "opex": 201332000,
-      "cogs": 163742000,
-      "rd": 6967000,
-      "sga": null,
-      "fcf": 12110000,
-      "ocf": 12110000,
-      "capex": null,
-      "gross_margin": 0.13912883467837334,
-      "op_margin": -0.058500039431140086,
-      "fcf_margin": 0.06366814752503877
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.15213609235661452,
       "op_margin": 0.011314146139134042,
-      "fcf_margin": -0.05389773486646542,
-      "fcf_margin_change": -0.1175658823915042
+      "fcf_margin": -0.05389773486646542
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.1571752153678582,
       "op_margin": -0.010372314090504011,
       "fcf_margin": 0.13581171403109218,
-      "incr_op_margin_yoy": -0.33021208203766467,
-      "rev_growth_yoy": -0.15047448805236455,
       "op_leverage_ratio": 0.8451872773487993,
       "fcf_margin_change": 0.054135238244016656
     },
@@ -118,7 +99,6 @@
       "fcf_margin": 0.05824024011388579,
       "incr_op_margin_yoy": 0.31730614088870246,
       "rev_growth_yoy": -0.17852040463626517,
-      "rev_growth_yoy_accel": -0.028045916583900626,
       "fcf_margin_change": -0.0775714739172064
     },
     {
@@ -435,9 +415,37 @@
       "rev_growth_yoy_accel": -0.22858975370789295,
       "op_leverage_ratio": 3.9203687851797944,
       "fcf_margin_change": -0.024681238476526382
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 291155000,
+      "gross_profit": 44811000,
+      "operating_income": 22313000,
+      "net_income": 31406000,
+      "opex": 268842000,
+      "cogs": 246344000,
+      "rd": 5328000,
+      "sga": null,
+      "fcf": -7488000,
+      "ocf": -7448000,
+      "capex": -40000,
+      "gross_margin": 0.15390771238687298,
+      "op_margin": 0.07663615599938177,
+      "fcf_margin": -0.02571826003331559,
+      "incr_op_margin_yoy": -0.42778889708206047,
+      "rev_growth_yoy": -0.031575131050264764,
+      "rev_growth_yoy_accel": -0.21441946195370046,
+      "fcf_margin_change": -0.10256629960083942
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.2% vs prior quarter YoY: +18.3% (decel: -21.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -605,12 +613,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -5.4% -> +2.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -5.9% -> +1.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -638,7 +640,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:13:21.590860",
-  "sector": "Communication Services",
-  "industry": "Internet Content & Information"
+  "last_updated": "2026-02-24T10:08:31.299471"
 }

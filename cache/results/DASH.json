@@ -1,25 +1,9 @@
 {
   "ticker": "DASH",
   "name": "DOORDASH, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 970000000,
-      "gross_profit": 501000000,
-      "operating_income": -305000000,
-      "net_income": -312000000,
-      "opex": 1275000000,
-      "cogs": 469000000,
-      "rd": 209000000,
-      "sga": null,
-      "fcf": -83000000,
-      "ocf": -63000000,
-      "capex": -20000000,
-      "gross_margin": 0.5164948453608248,
-      "op_margin": -0.31443298969072164,
-      "fcf_margin": -0.08556701030927835
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -32000000,
       "gross_margin": 0.47725162488393685,
       "op_margin": -0.09192200557103064,
-      "fcf_margin": 0.1244196843082637,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.20998669461754205
+      "fcf_margin": 0.1244196843082637
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.5115384615384615,
       "op_margin": -0.11846153846153847,
       "fcf_margin": 0.10153846153846154,
-      "incr_op_margin_yoy": 0.4575757575757576,
-      "rev_growth_yoy": 0.3402061855670103,
       "op_leverage_ratio": 0.3412757508066518,
       "fcf_margin_change": 0.04193061840120663
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.03571428571428571,
       "incr_op_margin_yoy": -0.19525065963060687,
       "rev_growth_yoy": 0.3519034354688951,
-      "rev_growth_yoy_accel": 0.011697249901884754,
       "op_leverage_ratio": 0.9970285714285714,
       "fcf_margin_change": -0.13725274725274725
     },
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.4319654427645788,
       "rev_growth_yoy": 0.2721928277483833,
       "rev_growth_yoy_accel": -0.054299709565049536,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0006096435470075434
     },
     {
@@ -352,7 +331,7 @@
       "incr_op_margin_yoy": 0.3966789667896679,
       "rev_growth_yoy": 0.25046210720887246,
       "rev_growth_yoy_accel": 0.01745695015308249,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.008370639530799029
     },
     {
@@ -446,9 +425,38 @@
       "rev_growth_yoy_accel": 0.02479716950643407,
       "op_leverage_ratio": 2.2978984492882724,
       "fcf_margin_change": 0.10110081911064958
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3955000000,
+      "gross_profit": 2020000000,
+      "operating_income": 147000000,
+      "net_income": 213000000,
+      "opex": 3808000000,
+      "cogs": 1935000000,
+      "rd": 419000000,
+      "sga": null,
+      "fcf": 367000000,
+      "ocf": 421000000,
+      "capex": -54000000,
+      "gross_margin": 0.5107458912768648,
+      "op_margin": 0.03716814159292035,
+      "fcf_margin": 0.09279393173198483,
+      "incr_op_margin_yoy": 0.027726432532347505,
+      "rev_growth_yoy": 0.37660981552384265,
+      "rev_growth_yoy_accel": 0.10314344449649604,
+      "op_leverage_ratio": 0.7595023683372961,
+      "fcf_margin_change": -0.14168082160521772
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +37.7% vs prior quarter YoY: +27.3% (accel: +10.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -550,18 +558,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.4% -> +17.9% (+5.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +51.6% -> +47.7% -> +55.1% (reversal +7.4%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -8.6% -> +12.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -589,7 +585,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:34.730810",
-  "sector": "Consumer Cyclical",
-  "industry": "Internet Retail"
+  "last_updated": "2026-02-24T10:28:04.282406"
 }

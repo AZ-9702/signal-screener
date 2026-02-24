@@ -1,25 +1,9 @@
 {
   "ticker": "ETD",
-  "name": "ETHAN ALLEN INTERIORS INC.",
+  "name": "Ethan Allen Interiors Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 178826000,
-      "gross_profit": 101332000,
-      "operating_income": 22555000,
-      "net_income": 16883000,
-      "opex": 78777000,
-      "cogs": 77494000,
-      "rd": null,
-      "sga": 78354000,
-      "fcf": 20289000,
-      "ocf": 23728000,
-      "capex": -3439000,
-      "gross_margin": 0.56665138179012,
-      "op_margin": 0.1261281916499838,
-      "fcf_margin": 0.1134566561909342
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -4464000,
       "gross_margin": 0.5730552321967428,
       "op_margin": 0.10729422135825771,
-      "fcf_margin": 0.1793492388196336,
-      "fcf_margin_change": 0.0658925826286994
+      "fcf_margin": 0.1793492388196336
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5875690196210348,
       "op_margin": 0.17440279105976655,
       "fcf_margin": 0.01687226384356994,
-      "incr_op_margin_yoy": 0.46936823043017734,
-      "rev_growth_yoy": 0.16366188361871317,
       "op_leverage_ratio": 2.789938609154513,
       "fcf_margin_change": -0.06792044376418974
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.060705558562979677,
       "incr_op_margin_yoy": 0.6602889307629125,
       "rev_growth_yoy": 0.11695731286942959,
-      "rev_growth_yoy_accel": -0.04670457074928358,
       "fcf_margin_change": 0.043833294719409735
     },
     {
@@ -275,7 +255,7 @@
       "incr_op_margin_yoy": 0.42861920022293437,
       "rev_growth_yoy": -0.1766333105271189,
       "rev_growth_yoy_accel": 0.0594082687391842,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.007326111399720198
     },
     {
@@ -434,9 +414,38 @@
       "rev_growth_yoy": -0.04764249661455128,
       "rev_growth_yoy_accel": 0.0014288540187804774,
       "fcf_margin_change": -0.0446522554045978
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 149916000,
+      "gross_profit": 91271000,
+      "operating_income": 14228000,
+      "net_income": null,
+      "opex": 77043000,
+      "cogs": 58645000,
+      "rd": null,
+      "sga": 77858000,
+      "fcf": -4723000,
+      "ocf": -1827000,
+      "capex": -2896000,
+      "gross_margin": 0.6088142693241548,
+      "op_margin": 0.09490648096267243,
+      "fcf_margin": -0.031504309079751325,
+      "incr_op_margin_yoy": 0.5349945533769063,
+      "rev_growth_yoy": -0.046699732926363986,
+      "rev_growth_yoy_accel": 0.0009427636881872911,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.1296646530627699
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +53.5% vs year-ago OPM: +11.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -610,18 +619,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +14.1% vs OpEx growth +5.1% (leverage: 2.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +46.9% vs year-ago OPM: +12.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.3% -> +17.9% (+6.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -649,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:17:40.592752",
-  "sector": "Consumer Cyclical",
-  "industry": "Furnishings, Fixtures & Appliances"
+  "last_updated": "2026-02-24T11:06:36.561732"
 }

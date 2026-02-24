@@ -1,25 +1,9 @@
 {
   "ticker": "AME",
-  "name": "AMETEK, Inc.",
+  "name": "AMETEK,\u00a0Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1198947000,
-      "gross_profit": 428979000,
-      "operating_income": 298113000,
-      "net_income": 221025000,
-      "opex": 900834000,
-      "cogs": 769968000,
-      "rd": null,
-      "sga": 130866000,
-      "fcf": 348847000,
-      "ocf": 385882000,
-      "capex": -37035000,
-      "gross_margin": 0.3577964663992654,
-      "op_margin": 0.2486456865899827,
-      "fcf_margin": 0.2909611517439887
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -17537000,
       "gross_margin": 0.35069118283319983,
       "op_margin": 0.2412888589848833,
-      "fcf_margin": 0.21951203462576763,
-      "op_leverage_ratio": 0.5852152155878699,
-      "fcf_margin_change": -0.07144911711822105
+      "fcf_margin": 0.21951203462576763
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3467017346691095,
       "op_margin": 0.24016771460586736,
       "fcf_margin": 0.1585740933469438,
-      "incr_op_margin_yoy": 0.2068189423815117,
-      "rev_growth_yoy": 0.2542214126229099,
       "op_leverage_ratio": 1.2232142049337176,
       "fcf_margin_change": -0.036398284299460903
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.1199513206835673,
       "incr_op_margin_yoy": 0.24670178719267824,
       "rev_growth_yoy": 0.19969944280941188,
-      "rev_growth_yoy_accel": -0.05452196981349805,
       "fcf_margin_change": -0.038622772663376506
     },
     {
@@ -439,6 +418,29 @@
       "rev_growth_yoy_accel": 0.08282364372372396,
       "op_leverage_ratio": 0.9659002478085743,
       "fcf_margin_change": 0.03639205084326941
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1998448000,
+      "gross_profit": 720414000,
+      "operating_income": 505482000,
+      "net_income": 398601000,
+      "opex": 1492966000,
+      "cogs": 1278034000,
+      "rd": null,
+      "sga": 214932000,
+      "fcf": 527267000,
+      "ocf": 584264000,
+      "capex": -56997000,
+      "gross_margin": 0.3604867377084618,
+      "op_margin": 0.2529372793287591,
+      "fcf_margin": 0.2638382384730551,
+      "incr_op_margin_yoy": 0.15411279903397143,
+      "rev_growth_yoy": 0.1344492115699233,
+      "rev_growth_yoy_accel": 0.026711368562579108,
+      "op_leverage_ratio": 0.8850053399761191,
+      "fcf_margin_change": 0.041951467553477645
     }
   ],
   "signals": [
@@ -519,12 +521,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +37.6% vs year-ago OPM: +22.8%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +20.0% vs prior quarter YoY: +25.4% (decel: -5.5%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -552,7 +548,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:28.727684",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:33:12.703003"
 }

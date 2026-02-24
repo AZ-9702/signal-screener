@@ -1,25 +1,9 @@
 {
   "ticker": "RGLD",
-  "name": "Royal Gold, Inc.",
+  "name": "Royal Gold, Inc",
+  "sector": "Basic Materials",
+  "industry": "Gold",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 158360000,
-      "gross_profit": 84239000,
-      "operating_income": 77366000,
-      "net_income": 59889000,
-      "opex": 80994000,
-      "cogs": 24859000,
-      "rd": null,
-      "sga": null,
-      "fcf": 99912000,
-      "ocf": 99912000,
-      "capex": null,
-      "gross_margin": 0.5319461985349836,
-      "op_margin": 0.488545087143218,
-      "fcf_margin": 0.6309168982066178
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.5476088618336618,
       "op_margin": 0.4983343736192834,
-      "fcf_margin": 0.6468451283058301,
-      "fcf_margin_change": 0.015928230099212293
+      "fcf_margin": 0.6468451283058301
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.8510571382795022,
       "op_margin": 0.49819310353012386,
       "fcf_margin": 0.7055381821850096,
-      "incr_op_margin_yoy": 0.6485582127743332,
-      "rev_growth_yoy": 0.06416393028542561,
       "fcf_margin_change": -0.03908290007674431
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.6229127529179883,
       "incr_op_margin_yoy": 0.48158453910755844,
       "rev_growth_yoy": 0.13862219385787122,
-      "rev_growth_yoy_accel": 0.07445826357244562,
       "fcf_margin_change": -0.08262542926702132
     },
     {
@@ -209,7 +189,7 @@
       "incr_op_margin_yoy": 0.6817220355854174,
       "rev_growth_yoy": 0.04950263311878291,
       "rev_growth_yoy_accel": 0.08238280828982984,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.017809183084954494
     },
     {
@@ -276,7 +256,7 @@
       "incr_op_margin_yoy": -0.604615086290479,
       "rev_growth_yoy": -0.06328383850779237,
       "rev_growth_yoy_accel": -0.11797496451499018,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045712751684725994
     },
     {
@@ -321,7 +301,7 @@
       "incr_op_margin_yoy": 1.0044253676715247,
       "rev_growth_yoy": 0.20864747781896947,
       "rev_growth_yoy_accel": 0.334768422464258,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2766660346809132
     },
     {
@@ -367,7 +347,7 @@
       "incr_op_margin_yoy": 1.0773640117048142,
       "rev_growth_yoy": 0.32681802103939317,
       "rev_growth_yoy_accel": -0.07154581600801085,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.008627227329877862
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": 1.1184347483613244,
       "rev_growth_yoy": 0.20418045216432312,
       "rev_growth_yoy_accel": -0.09490216593348616,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02388511990709863
     },
     {
@@ -437,9 +417,38 @@
       "rev_growth_yoy_accel": 0.09623174984045407,
       "op_leverage_ratio": 0.6259361482534019,
       "fcf_margin_change": -0.038696740164108845
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 375323000,
+      "gross_profit": 242447000,
+      "operating_income": 210871000,
+      "net_income": 93611000,
+      "opex": 164452000,
+      "cogs": 50849000,
+      "rd": null,
+      "sga": null,
+      "fcf": 241705000,
+      "ocf": 241705000,
+      "capex": null,
+      "gross_margin": 0.6459689387540865,
+      "op_margin": 0.5618387362351894,
+      "fcf_margin": 0.6439919749122756,
+      "incr_op_margin_yoy": 0.44816887875297373,
+      "rev_growth_yoy": 0.852897906793049,
+      "rev_growth_yoy_accel": 0.5524857047882719,
+      "op_leverage_ratio": 0.5871000239641495,
+      "fcf_margin_change": -0.04617893135111373
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +85.3% vs prior quarter YoY: +30.0% (accel: +55.2%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -621,22 +630,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +13.9% vs prior quarter YoY: +6.4% (accel: +7.4%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +55.5% -> +54.2% -> +85.1% (reversal +30.9%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +64.9% vs year-ago OPM: +48.9%",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-06 (Q2)",
@@ -670,5 +667,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:13:39.622496"
+  "last_updated": "2026-02-24T10:17:37.297747"
 }

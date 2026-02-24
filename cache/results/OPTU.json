@@ -1,25 +1,9 @@
 {
   "ticker": "OPTU",
   "name": "Optimum Communications, Inc.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2535421000,
-      "gross_profit": 1704302000,
-      "operating_income": 608719000,
-      "net_income": 330472000,
-      "opex": 1926702000,
-      "cogs": 831119000,
-      "rd": null,
-      "sga": null,
-      "fcf": 446925000,
-      "ocf": 791503000,
-      "capex": -344578000,
-      "gross_margin": 0.6721968462042398,
-      "op_margin": 0.24008596599933502,
-      "fcf_margin": 0.176272500701067
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -212791000,
       "gross_margin": 0.6563430760026642,
       "op_margin": 0.24546266148301954,
-      "fcf_margin": 0.2165670695867108,
-      "fcf_margin_change": 0.04029456888564378
+      "fcf_margin": 0.2165670695867108
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.6722533304438806,
       "op_margin": 0.2682107374240839,
       "fcf_margin": 0.15113003236653175,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.010411186898271862
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.6682117361286848,
       "op_margin": 0.23750901378663128,
       "fcf_margin": 0.11500798448954401,
-      "incr_op_margin_yoy": 0.6949520408877686,
-      "rev_growth_yoy": -0.0056333839626634,
       "fcf_margin_change": -0.03612204787698774
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.08582033009661434,
       "incr_op_margin_yoy": 1.6862307638254515,
       "rev_growth_yoy": -0.02296414303412792,
-      "rev_growth_yoy_accel": -0.01733075907146452,
       "fcf_margin_change": -0.02918765439292967
     },
     {
@@ -231,7 +211,7 @@
       "incr_op_margin_yoy": 0.2865647974628802,
       "rev_growth_yoy": -0.05632935906982258,
       "rev_growth_yoy_accel": -0.0035116711169492776,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05749752158397606
     },
     {
@@ -431,9 +411,44 @@
       "rev_growth_yoy": -0.05368317098352561,
       "rev_growth_yoy_accel": -0.011932957327860441,
       "fcf_margin_change": -0.09771790778574271
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2182872000,
+      "gross_profit": 1517924000,
+      "operating_income": 397645000,
+      "net_income": -71198000,
+      "opex": 1785227000,
+      "cogs": 664948000,
+      "rd": null,
+      "sga": null,
+      "fcf": 199430000,
+      "ocf": 481561000,
+      "capex": -282131000,
+      "gross_margin": 0.6953792984655078,
+      "op_margin": 0.1821659721687758,
+      "fcf_margin": 0.09136128916400045,
+      "incr_op_margin_yoy": -1.0906336880452496,
+      "rev_growth_yoy": -0.023335288566983754,
+      "rev_growth_yoy_accel": 0.030347882416541856,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.17583126463966348
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -8.4% -> +9.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -55.3% -> +18.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -511,12 +526,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +168.6% vs year-ago OPM: +24.5%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +69.5% vs year-ago OPM: +24.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -544,5 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:50:32.741404"
+  "last_updated": "2026-02-24T10:45:21.180901"
 }

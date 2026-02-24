@@ -1,25 +1,9 @@
 {
   "ticker": "TBI",
   "name": "TrueBlue, Inc.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-27T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 518634000,
-      "gross_profit": 120797000,
-      "operating_income": 9142000,
-      "net_income": 8026000,
-      "opex": 111655000,
-      "cogs": 397837000,
-      "rd": null,
-      "sga": 103626000,
-      "fcf": 42941000,
-      "ocf": 53763000,
-      "capex": -10822000,
-      "gross_margin": 0.23291376963330596,
-      "op_margin": 0.01762707419876059,
-      "fcf_margin": 0.0827963457852744
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -10003000,
       "gross_margin": 0.24105636289911184,
       "op_margin": 0.013540263262307447,
-      "fcf_margin": 0.038979215445187114,
-      "fcf_margin_change": -0.04381713034008728
+      "fcf_margin": 0.038979215445187114
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.26815879600598136,
       "op_margin": 0.03530943996912836,
       "fcf_margin": 0.021946199733088933,
-      "incr_op_margin_yoy": 0.12408999380421314,
-      "rev_growth_yoy": 0.19916935642476197,
       "op_leverage_ratio": 0.49586784473952045,
       "fcf_margin_change": 0.11849040619686645
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.037465889413705884,
       "incr_op_margin_yoy": 0.06226766800633559,
       "rev_growth_yoy": 0.20232785269867845,
-      "rev_growth_yoy_accel": 0.0031584962739164835,
       "fcf_margin_change": 0.015519689680616951
     },
     {
@@ -410,7 +390,7 @@
       "fcf_margin": -0.04049972369347387,
       "rev_growth_yoy": 0.00017414128157888095,
       "rev_growth_yoy_accel": 0.08109447698715884,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03186951472123604
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy_accel": 0.12774034701077616,
       "op_leverage_ratio": 5.554475522870598,
       "fcf_margin_change": -0.01371507645307142
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 418178000,
+      "gross_profit": 90044000,
+      "operating_income": -29424000,
+      "net_income": -31536000,
+      "opex": 119468000,
+      "cogs": 328134000,
+      "rd": null,
+      "sga": 94940000,
+      "fcf": -7494000,
+      "ocf": -4368000,
+      "capex": -3126000,
+      "gross_margin": 0.21532457470263858,
+      "op_margin": -0.07036238156957085,
+      "fcf_margin": -0.017920598405463704,
+      "incr_op_margin_yoy": -0.5902560124127231,
+      "rev_growth_yoy": 0.08349462240220959,
+      "rev_growth_yoy_accel": -0.04441986589014546,
+      "fcf_margin_change": 0.03629420174108158
     }
   ],
   "signals": [
@@ -535,12 +537,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +12.4% vs year-ago OPM: +1.8%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +11.8% vs OpEx growth +6.5% (leverage: 1.8x)",
@@ -572,5 +568,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:09:44.498957"
+  "last_updated": "2026-02-24T10:30:49.231910"
 }

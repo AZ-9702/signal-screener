@@ -1,25 +1,9 @@
 {
   "ticker": "OII",
   "name": "OCEANEERING INTERNATIONAL INC",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 424262000,
-      "gross_profit": 45001000,
-      "operating_income": 480000,
-      "net_income": null,
-      "opex": 44521000,
-      "cogs": 379261000,
-      "rd": null,
-      "sga": 42839000,
-      "fcf": 89437000,
-      "ocf": 104284000,
-      "capex": -14847000,
-      "gross_margin": 0.10606889139258288,
-      "op_margin": 0.0011313763664905177,
-      "fcf_margin": 0.21080605852044257
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -10699000,
       "gross_margin": 0.12948602797832492,
       "op_margin": 0.03150018397771241,
-      "fcf_margin": -0.02838970364732958,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.23919576216777216
+      "fcf_margin": -0.02838970364732958
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.1696196130779565,
       "op_margin": -0.026937556378814207,
       "fcf_margin": 0.26914415620868676,
-      "incr_op_margin_yoy": -0.3074893396470893,
-      "rev_growth_yoy": 0.10004902630921458,
       "fcf_margin_change": 0.21771467894365187
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.22373189826945103,
       "incr_op_margin_yoy": -1.7222867766674412,
       "rev_growth_yoy": 0.019668474447666912,
-      "rev_growth_yoy_accel": -0.08038055186154767,
       "fcf_margin_change": -0.49287605447813776
     },
     {
@@ -165,7 +144,7 @@
       "incr_op_margin_yoy": 0.33498820767416565,
       "rev_growth_yoy": 0.19891648493832662,
       "rev_growth_yoy_accel": 0.14706571847753486,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2344378178761026
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.30032936748000266,
       "rev_growth_yoy": 0.07026512169778645,
       "rev_growth_yoy_accel": -0.04831125267293823,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0541184482468734
     },
     {
@@ -437,11 +416,51 @@
       "incr_op_margin_yoy": 0.2405408404267123,
       "rev_growth_yoy": 0.09280079316162874,
       "rev_growth_yoy_accel": 0.04891226312012206,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.036514790105753855
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 668574000,
+      "gross_profit": 132272000,
+      "operating_income": 65383000,
+      "net_income": null,
+      "opex": 66889000,
+      "cogs": 536302000,
+      "rd": null,
+      "sga": 66889000,
+      "fcf": 190689000,
+      "ocf": 221129000,
+      "capex": -30440000,
+      "gross_margin": 0.1978419741120654,
+      "op_margin": 0.09779470933658801,
+      "fcf_margin": 0.285217492753233,
+      "incr_op_margin_yoy": 0.2784784740172921,
+      "rev_growth_yoy": -0.06289999299180041,
+      "rev_growth_yoy_accel": -0.15570078615342914,
+      "fcf_margin_change": 0.18150473541642498
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +10.4% -> +28.5% (+18.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -6.3% vs prior quarter YoY: +9.3% (decel: -15.6%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +27.8% vs year-ago OPM: +10.9%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -629,12 +648,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +2.0% vs prior quarter YoY: +10.0% (decel: -8.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.1% -> +26.9% (+21.8%)",
@@ -684,7 +697,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:21:21.865763",
-  "sector": "Energy",
-  "industry": "Oil & Gas Equipment & Services"
+  "last_updated": "2026-02-24T10:15:26.947563"
 }

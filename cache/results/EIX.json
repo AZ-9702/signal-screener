@@ -1,25 +1,9 @@
 {
   "ticker": "EIX",
   "name": "EDISON INTERNATIONAL",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3157000000,
-      "gross_profit": null,
-      "operating_income": 794000000,
-      "net_income": 526000000,
-      "opex": 2363000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -1395000000,
-      "ocf": 192000000,
-      "capex": -1587000000,
-      "gross_margin": null,
-      "op_margin": 0.2515045929680076,
-      "fcf_margin": -0.4418751979727589
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1358000000,
       "gross_margin": null,
       "op_margin": 0.1347972972972973,
-      "fcf_margin": -0.43445945945945946,
-      "fcf_margin_change": 0.0074157385132994635
+      "fcf_margin": -0.43445945945945946
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.18643050135094566,
       "fcf_margin": -0.3392374662263585,
-      "incr_op_margin_yoy": -0.9942528735632183,
-      "rev_growth_yoy": 0.055115616091225846,
       "fcf_margin_change": -0.26431767003839846
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.1045866935483871,
       "incr_op_margin_yoy": -0.1388888888888889,
       "rev_growth_yoy": 0.34054054054054056,
-      "rev_growth_yoy_accel": 0.2854249244493147,
       "op_leverage_ratio": 0.5187625331726202,
       "fcf_margin_change": 0.23465077267797138
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": -0.11688311688311688,
       "rev_growth_yoy": 0.20904977375565612,
       "rev_growth_yoy_accel": -0.13149076678488444,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15863685934582447
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 0.4731182795698925,
       "rev_growth_yoy": 0.09384460141271443,
       "rev_growth_yoy_accel": 0.06560456106979966,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19397351281016487
     },
     {
@@ -355,7 +335,7 @@
       "revenue": 3984000000,
       "gross_profit": null,
       "operating_income": 790000000,
-      "net_income": null,
+      "net_income": 340000000,
       "opex": 3194000000,
       "cogs": null,
       "rd": null,
@@ -438,9 +418,43 @@
       "rev_growth_yoy_accel": 0.057816771327682516,
       "op_leverage_ratio": 1.8201732935785326,
       "fcf_margin_change": 0.29017691814449365
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5213000000,
+      "gross_profit": null,
+      "operating_income": 2752000000,
+      "net_income": 1848000000,
+      "opex": 2461000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -319000000,
+      "ocf": 1572000000,
+      "capex": -1891000000,
+      "gross_margin": null,
+      "op_margin": 0.5279109917513908,
+      "fcf_margin": -0.061193170918856704,
+      "incr_op_margin_yoy": 1.596419853539463,
+      "rev_growth_yoy": 0.3084839357429719,
+      "rev_growth_yoy_accel": 0.2029273120167654,
+      "fcf_margin_change": -0.16867143178842192
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +30.8% vs prior quarter YoY: +10.6% (accel: +20.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +159.6% vs year-ago OPM: +19.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -580,12 +594,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +34.1% vs prior quarter YoY: +5.5% (accel: +28.5%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -2.4% -> +18.6%",
@@ -631,7 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:23.033812",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:31:05.622668"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "CNC",
   "name": "CENTENE CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 28288000000,
-      "gross_profit": 27504000000,
-      "operating_income": 15000000,
-      "net_income": -12000000,
-      "opex": 28273000000,
-      "cogs": 784000000,
-      "rd": null,
-      "sga": 2721000000,
-      "fcf": 2775000000,
-      "ocf": 2981000000,
-      "capex": -206000000,
-      "gross_margin": 0.9722850678733032,
-      "op_margin": 0.0005302601809954751,
-      "fcf_margin": 0.0980981334841629
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -187000000,
       "gross_margin": 0.9650468598872695,
       "op_margin": 0.035153253510322516,
-      "fcf_margin": -0.004802721542207251,
-      "op_leverage_ratio": 2.5824713551725806,
-      "fcf_margin_change": -0.10290085502637014
+      "fcf_margin": -0.004802721542207251
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.9575042986981086,
       "op_margin": 0.018515106853352985,
       "fcf_margin": 0.013111029231147138,
-      "incr_op_margin_yoy": 0.13738317757009347,
-      "rev_growth_yoy": 0.15130090497737556,
       "fcf_margin_change": -0.03555279845508381
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.02444534086325131,
       "incr_op_margin_yoy": 0.02763121355179117,
       "rev_growth_yoy": 0.24020278157622652,
-      "rev_growth_yoy_accel": 0.08890187659885096,
       "op_leverage_ratio": 1.1423029371459716,
       "fcf_margin_change": 0.011334311632104173
     },
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": -0.07378129117259552,
       "rev_growth_yoy": 0.03903417418807375,
       "rev_growth_yoy_accel": -0.0706084117909482,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.014870096915933093
     },
     {
@@ -439,6 +418,28 @@
       "rev_growth_yoy_accel": -0.04111891594697767,
       "op_leverage_ratio": 0.12854752824481472,
       "fcf_margin_change": -0.009311161559801332
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 49725000000,
+      "gross_profit": 2558000000,
+      "operating_income": -1745000000,
+      "net_income": -1101000000,
+      "opex": 51470000000,
+      "cogs": 680000000,
+      "rd": null,
+      "sga": 3370000000,
+      "fcf": 224000000,
+      "ocf": 437000000,
+      "capex": -213000000,
+      "gross_margin": 0.0514429361488185,
+      "op_margin": -0.0350930115635998,
+      "fcf_margin": 0.004504776269482152,
+      "incr_op_margin_yoy": -0.21524663677130046,
+      "rev_growth_yoy": 0.2186006616836172,
+      "rev_growth_yoy_accel": 0.03615295447565964,
+      "fcf_margin_change": -0.01853808949827796
     }
   ],
   "signals": [
@@ -557,18 +558,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +24.0% vs prior quarter YoY: +15.1% (accel: +8.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +13.7% vs year-ago OPM: +0.1%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.5% vs OpEx growth +1.3% (leverage: 3.3x)",
@@ -585,12 +574,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.5% -> +4.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +6.0% vs OpEx growth +2.3% (leverage: 2.6x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -618,7 +601,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:18:25.500345",
-  "sector": "Healthcare",
-  "industry": "Healthcare Plans"
+  "last_updated": "2026-02-24T10:37:23.885670"
 }

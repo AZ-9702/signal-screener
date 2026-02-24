@@ -1,25 +1,9 @@
 {
   "ticker": "ICHR",
   "name": "ICHOR HOLDINGS, LTD.",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2021-06-25T00:00:00",
-      "quarter_label": "2021-06 (Q2)",
-      "revenue": 282308000,
-      "gross_profit": 47353000,
-      "operating_income": 25215000,
-      "net_income": 22865000,
-      "opex": 22138000,
-      "cogs": 234955000,
-      "rd": 4049000,
-      "sga": 14699000,
-      "fcf": 3272000,
-      "ocf": 13241000,
-      "capex": -9969000,
-      "gross_margin": 0.1677352395256245,
-      "op_margin": 0.08931734134349717,
-      "fcf_margin": 0.011590178103348116
-    },
     {
       "date": "2021-09-24T00:00:00",
       "quarter_label": "2021-09 (Q3)",
@@ -36,8 +20,7 @@
       "capex": -3335000,
       "gross_margin": 0.16601167944303893,
       "op_margin": 0.08064141827243157,
-      "fcf_margin": -0.06776740027771966,
-      "fcf_margin_change": -0.07935757838106777
+      "fcf_margin": -0.06776740027771966
     },
     {
       "date": "2021-12-31T00:00:00",
@@ -113,9 +96,7 @@
       "gross_margin": 0.16828802039082413,
       "op_margin": 0.07523971355747057,
       "fcf_margin": null,
-      "incr_op_margin_yoy": -0.008867349530178616,
-      "rev_growth_yoy": 0.16737747424798446,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-07-01T00:00:00",
@@ -133,10 +114,7 @@
       "capex": -10996000,
       "gross_margin": 0.16828802039082413,
       "op_margin": 0.07523971355747057,
-      "fcf_margin": -0.004894404660759801,
-      "incr_op_margin_yoy": -0.008867349530178616,
-      "rev_growth_yoy": 0.16737747424798446,
-      "rev_growth_yoy_accel": 0.0
+      "fcf_margin": -0.004894404660759801
     },
     {
       "date": "2022-09-30T00:00:00",
@@ -157,7 +135,6 @@
       "fcf_margin": 0.03241733986047806,
       "incr_op_margin_yoy": 0.12232185196361599,
       "rev_growth_yoy": 0.3530007038100854,
-      "rev_growth_yoy_accel": 0.18562322956210095,
       "op_leverage_ratio": 6.974077549236669,
       "fcf_margin_change": 0.03731174452123786
     },
@@ -270,7 +247,7 @@
       "incr_op_margin_yoy": 0.2643960138030721,
       "rev_growth_yoy": -0.32559657961023464,
       "rev_growth_yoy_accel": 0.12114917385602225,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16551882302272522
     },
     {
@@ -429,9 +406,43 @@
       "rev_growth_yoy": 0.13335764591098756,
       "rev_growth_yoy_accel": -0.04899017204627207,
       "fcf_margin_change": 0.07036092588408112
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 223606000,
+      "gross_profit": 20982000,
+      "operating_income": -13835000,
+      "net_income": -15961000,
+      "opex": 34817000,
+      "cogs": 202624000,
+      "rd": 5604000,
+      "sga": 27135000,
+      "fcf": 5921000,
+      "ocf": 9170000,
+      "capex": -3249000,
+      "gross_margin": 0.09383469137679669,
+      "op_margin": -0.06187222167562588,
+      "fcf_margin": 0.026479611459442054,
+      "incr_op_margin_yoy": 1.299225606608157,
+      "rev_growth_yoy": -0.0415146748052861,
+      "rev_growth_yoy_accel": -0.17487232071627368,
+      "fcf_margin_change": 0.01770804820723558
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +11.3% -> +4.6% -> +9.4% (reversal +4.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.2% vs prior quarter YoY: +13.3% (decel: -17.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -545,12 +556,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +7.9% vs OpEx growth +1.1% (leverage: 7.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-09 (Q3)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +35.3% vs prior quarter YoY: +16.7% (accel: +18.6%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -578,7 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:59:34.421042",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-24T10:10:23.060895"
 }

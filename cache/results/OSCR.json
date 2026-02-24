@@ -1,25 +1,9 @@
 {
   "ticker": "OSCR",
   "name": "Oscar Health, Inc.",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 157673000,
-      "gross_profit": null,
-      "operating_income": -186837000,
-      "net_income": -189870000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 88983000,
-      "ocf": 88983000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -1.1849650859690626,
-      "fcf_margin": 0.5643515376760765
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.1692827054479301,
-      "fcf_margin": 0.8600468883667038,
-      "fcf_margin_change": 0.29569535069062736
+      "fcf_margin": 0.8600468883667038
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": -0.3966298907204067,
       "fcf_margin": 0.06950472416024449,
-      "incr_op_margin_yoy": -0.029309030301955707,
-      "rev_growth_yoy": 2.146175946420757,
       "fcf_margin_change": 1.396711641604538
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.5786073717701603,
       "incr_op_margin_yoy": -0.009940716997830544,
       "rev_growth_yoy": 1.6334504640107421,
-      "rev_growth_yoy_accel": -0.5127254824100147,
       "fcf_margin_change": 0.5091026476099159
     },
     {
@@ -427,9 +407,43 @@
       "rev_growth_yoy": 0.23210488049839034,
       "rev_growth_yoy_accel": -0.05834350034979835,
       "fcf_margin_change": -0.5008122834307622
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2805235000,
+      "gross_profit": null,
+      "operating_income": -333747000,
+      "net_income": -352611000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 511031000,
+      "fcf": 671903000,
+      "ocf": 671903000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.11897292027227666,
+      "fcf_margin": 0.23951754487591947,
+      "incr_op_margin_yoy": -0.45062124665999675,
+      "rev_growth_yoy": 0.1725433825607038,
+      "rev_growth_yoy_accel": -0.05956149793768653,
+      "fcf_margin_change": 0.5625795572644654
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -32.3% -> +24.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +17.3% vs prior quarter YoY: +23.2% (decel: -6.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -545,22 +559,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +163.3% vs prior quarter YoY: +214.6% (decel: -51.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -132.7% -> +7.0%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +56.4% -> +86.0% (+29.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -590,5 +592,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:10:51.040686"
+  "last_updated": "2026-02-24T10:47:17.594377"
 }

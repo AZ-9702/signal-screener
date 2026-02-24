@@ -1,25 +1,9 @@
 {
   "ticker": "CNP",
   "name": "CenterPoint Energy, Inc.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2054000000,
-      "gross_profit": 1993000000,
-      "operating_income": 285000000,
-      "net_income": 200000000,
-      "opex": 1769000000,
-      "cogs": 61000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 556000000,
-      "ocf": 556000000,
-      "capex": null,
-      "gross_margin": 0.9703018500486855,
-      "op_margin": 0.13875365141187926,
-      "fcf_margin": 0.27069133398247325
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.9842952493129171,
       "op_margin": 0.17785630153121318,
-      "fcf_margin": -0.6599921476246564,
-      "op_leverage_ratio": 1.306444461089057,
-      "fcf_margin_change": -0.9306834816071297
+      "fcf_margin": -0.6599921476246564
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.9788245462402766,
       "op_margin": 0.14520311149524634,
       "fcf_margin": 0.23292999135695766,
-      "incr_op_margin_yoy": 0.19615384615384615,
-      "rev_growth_yoy": 0.12658227848101267,
       "op_leverage_ratio": 0.9372670548287385,
       "fcf_margin_change": -0.08668121504670159
     },
@@ -119,7 +99,6 @@
       "fcf_margin": 0.20991675714802752,
       "incr_op_margin_yoy": 0.1111111111111111,
       "rev_growth_yoy": 0.08480565371024736,
-      "rev_growth_yoy_accel": -0.04177662477076531,
       "op_leverage_ratio": 1.2461162433072546,
       "fcf_margin_change": -0.023013234208930144
     },
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 4.0,
       "rev_growth_yoy": 0.00579080709373869,
       "rev_growth_yoy_accel": -0.16577358357177557,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4375080055148291
     },
     {
@@ -358,17 +337,17 @@
       "cogs": 1000000,
       "rd": null,
       "sga": null,
-      "fcf": 889000000,
+      "fcf": -1123000000,
       "ocf": 889000000,
-      "capex": null,
+      "capex": -2012000000,
       "gross_margin": 0.9995579133510168,
       "op_margin": 0.21352785145888595,
-      "fcf_margin": 0.39301503094606544,
+      "fcf_margin": -0.4964633068081344,
       "incr_op_margin_yoy": 2.025,
       "rev_growth_yoy": 0.03666361136571952,
       "rev_growth_yoy_accel": 0.038814149000128126,
       "op_leverage_ratio": 0.9027377521613833,
-      "fcf_margin_change": 0.7744805481874448
+      "fcf_margin_change": -0.11499778956675505
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -391,7 +370,7 @@
       "rev_growth_yoy": 0.11450381679389313,
       "rev_growth_yoy_accel": 0.0778402054281736,
       "op_leverage_ratio": 1.0518265726423843,
-      "fcf_margin_change": -0.6080835240967504
+      "fcf_margin_change": 0.28139481365744945
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -435,8 +414,31 @@
       "incr_op_margin_yoy": 0.5909090909090909,
       "rev_growth_yoy": 0.07112068965517242,
       "rev_growth_yoy_accel": 0.05064824871029053,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05124678109811129
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2505000000,
+      "gross_profit": 2505000000,
+      "operating_income": 542000000,
+      "net_income": 264000000,
+      "opex": 1963000000,
+      "cogs": 0,
+      "rd": null,
+      "sga": null,
+      "fcf": -707000000,
+      "ocf": 774000000,
+      "capex": -1481000000,
+      "gross_margin": 1.0,
+      "op_margin": 0.21636726546906188,
+      "fcf_margin": -0.2822355289421158,
+      "incr_op_margin_yoy": 0.24279835390946503,
+      "rev_growth_yoy": 0.10742705570291777,
+      "rev_growth_yoy_accel": 0.036306366047745356,
+      "op_leverage_ratio": 0.8101670821575153,
+      "fcf_margin_change": -0.04078683678919828
     }
   ],
   "signals": [
@@ -466,15 +468,15 @@
     },
     {
       "quarter": "2025-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +11.5% vs prior quarter YoY: +3.7% (accel: +7.8%)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -49.6% -> -21.5% (+28.1%)",
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2024-12 (Q4)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -38.1% -> +39.3%",
-      "severity": "HIGH"
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +11.5% vs prior quarter YoY: +3.7% (accel: +7.8%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2024-12 (Q4)",
@@ -598,7 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:12:03.610982",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:20:49.431840"
 }

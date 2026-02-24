@@ -1,25 +1,9 @@
 {
   "ticker": "RDN",
   "name": "RADIAN GROUP INC",
+  "sector": "Financial Services",
+  "industry": "Insurance - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 369861000,
-      "gross_profit": 348261000,
-      "operating_income": null,
-      "net_income": 148013000,
-      "opex": 190694000,
-      "cogs": 21600000,
-      "rd": null,
-      "sga": null,
-      "fcf": 159678000,
-      "ocf": 159678000,
-      "capex": null,
-      "gross_margin": 0.9415996820427134,
-      "op_margin": null,
-      "fcf_margin": 0.4317243504992416
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.46539826588364813,
-      "fcf_margin_change": 0.033673915384406505
+      "fcf_margin": 0.46539826588364813
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.36459699579220994,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10080127009143819
     },
     {
@@ -95,8 +78,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.45455969405999996,
-      "rev_growth_yoy": -0.08515090804383268,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06344727318315274
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.3982353744282886,
       "rev_growth_yoy": -0.10897683485750259,
-      "rev_growth_yoy_accel": -0.023825926813669907,
       "fcf_margin_change": -0.05632431963171136
     },
     {
@@ -338,8 +319,8 @@
     {
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
-      "revenue": 315861000,
-      "gross_profit": 305994000,
+      "revenue": 292669000,
+      "gross_profit": 282802000,
       "operating_income": null,
       "net_income": 148291000,
       "opex": 126735000,
@@ -349,12 +330,12 @@
       "fcf": -269415000,
       "ocf": -269415000,
       "capex": null,
-      "gross_margin": 0.9687615755031486,
+      "gross_margin": 0.9662861457824368,
       "op_margin": null,
-      "fcf_margin": -0.8529543058497251,
-      "rev_growth_yoy": -0.031166608388390967,
-      "rev_growth_yoy_accel": -0.09598913105745611,
-      "fcf_margin_change": -0.14031685927828885
+      "fcf_margin": -0.9205450526020863,
+      "rev_growth_yoy": -0.10230291207341836,
+      "rev_growth_yoy_accel": -0.1671254347424835,
+      "fcf_margin_change": -0.20790760603065006
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -374,8 +355,9 @@
       "op_margin": null,
       "fcf_margin": 0.21315000282917446,
       "rev_growth_yoy": -0.0040824249103056185,
-      "rev_growth_yoy_accel": 0.027084183478085347,
-      "fcf_margin_change": 1.0661043086788995
+      "rev_growth_yoy_accel": 0.09822048716311274,
+      "op_leverage_ratio": 3.7490627944868082,
+      "fcf_margin_change": 1.1336950554312608
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -418,9 +400,42 @@
       "rev_growth_yoy": -0.09186867431265482,
       "rev_growth_yoy_accel": -0.08208187885761398,
       "fcf_margin_change": 3.425266343619372
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 300512000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 154843000,
+      "opex": 99474000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 406994000,
+      "ocf": 406994000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.354335267809605,
+      "rev_growth_yoy": 0.02679819181396048,
+      "rev_growth_yoy_accel": 0.1186668661266153,
+      "fcf_margin_change": 0.17223253219516366
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +118.2% -> +135.4% (+17.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +2.7% vs prior quarter YoY: -9.2% (accel: +11.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -436,13 +451,25 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -85.3% -> +21.3%",
+      "detail": "FCF margin: -92.1% -> +21.3%",
       "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +8.7% vs OpEx growth +2.3% (leverage: 3.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -0.4% vs prior quarter YoY: -10.2% (accel: +9.8%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2024-12 (Q4)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.1% vs prior quarter YoY: +6.5% (decel: -9.6%)",
+      "detail": "YoY growth: -10.2% vs prior quarter YoY: +6.5% (decel: -16.7%)",
       "severity": "WARNING"
     },
     {
@@ -496,7 +523,7 @@
         20
       ],
       "gross_profit": [
-        11,
+        10,
         20
       ],
       "op_income": [
@@ -510,11 +537,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 11/20Q",
+      "gross_profit: 10/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:09:28.532994"
+  "last_updated": "2026-02-24T10:10:59.455203"
 }

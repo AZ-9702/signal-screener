@@ -1,25 +1,9 @@
 {
   "ticker": "AWR",
-  "name": "American States Water Co",
+  "name": "AMERICAN STATES WATER COMPANY",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Water",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 124200000,
-      "gross_profit": null,
-      "operating_income": 29277000,
-      "net_income": 20211000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -1272000,
-      "ocf": 34327000,
-      "capex": -35599000,
-      "gross_margin": null,
-      "op_margin": 0.23572463768115942,
-      "fcf_margin": -0.010241545893719806
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -37093000,
       "gross_margin": null,
       "op_margin": 0.2590893558858705,
-      "fcf_margin": -0.10607380830343413,
-      "fcf_margin_change": -0.09583226240971432
+      "fcf_margin": -0.10607380830343413
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.2573826999588421,
       "fcf_margin": -0.03543867471532446,
-      "incr_op_margin_yoy": -0.09767687434002112,
-      "rev_growth_yoy": -0.060998389694041866,
       "fcf_margin_change": -0.1100611748067288
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.02630560928433269,
       "incr_op_margin_yoy": 0.7024734982332156,
       "rev_growth_yoy": -0.0725269092772937,
-      "rev_growth_yoy_accel": -0.011528519583251837,
       "fcf_margin_change": 0.06174428399965715
     },
     {
@@ -387,7 +367,7 @@
       "incr_op_margin_yoy": 0.5149663062215953,
       "rev_growth_yoy": 0.09435789753865036,
       "rev_growth_yoy_accel": -0.04877998391206061,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19420061750539466
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy_accel": 0.07957918706798786,
       "op_leverage_ratio": 2.274730083798884,
       "fcf_margin_change": 0.1227426425780703
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 164278000,
+      "gross_profit": 146005000,
+      "operating_income": 45037000,
+      "net_income": 28741000,
+      "opex": 100968000,
+      "cogs": 18273000,
+      "rd": null,
+      "sga": null,
+      "fcf": -35979000,
+      "ocf": 27716000,
+      "capex": -63695000,
+      "gross_margin": 0.8887678204020015,
+      "op_margin": 0.2741511340532512,
+      "fcf_margin": -0.21901289277931313,
+      "incr_op_margin_yoy": 0.2995278564683664,
+      "rev_growth_yoy": 0.14801045437392557,
+      "rev_growth_yoy_accel": 0.018614106201693792,
+      "fcf_margin_change": -0.4255191648080353
     }
   ],
   "signals": [
@@ -651,7 +653,7 @@
         20
       ],
       "gross_profit": [
-        7,
+        8,
         20
       ],
       "op_income": [
@@ -665,12 +667,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 7/20Q"
+      "gross_profit: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:24:31.515576",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Water"
+  "last_updated": "2026-02-24T10:29:13.027003"
 }

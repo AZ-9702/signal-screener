@@ -1,25 +1,9 @@
 {
   "ticker": "AEE",
   "name": "Ameren Corporation",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1328000000,
-      "gross_profit": null,
-      "operating_income": 211000000,
-      "net_income": null,
-      "opex": 1117000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -951000000,
-      "ocf": 398000000,
-      "capex": -1349000000,
-      "gross_margin": null,
-      "op_margin": 0.1588855421686747,
-      "fcf_margin": -0.7161144578313253
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -887000000,
       "gross_margin": null,
       "op_margin": 0.20178799489144317,
-      "fcf_margin": -0.5887611749680716,
-      "op_leverage_ratio": 1.505152187698161,
-      "fcf_margin_change": 0.12735328286325376
+      "fcf_margin": -0.5887611749680716
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.12750809061488674,
       "fcf_margin": -0.256957928802589,
-      "incr_op_margin_yoy": -0.06451612903225806,
-      "rev_growth_yoy": 0.16340361445783133,
       "fcf_margin_change": -0.20505290395443881
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.2054284193720064,
       "incr_op_margin_yoy": 0.04792332268370607,
       "rev_growth_yoy": 0.19987228607918264,
-      "rev_growth_yoy_accel": 0.03646867162135131,
       "op_leverage_ratio": 1.4570614886731394,
       "fcf_margin_change": 0.0515295094305826
     },
@@ -389,7 +368,7 @@
       "incr_op_margin_yoy": 0.2099644128113879,
       "rev_growth_yoy": 0.15473568281938327,
       "rev_growth_yoy_accel": -0.04489348899767484,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05817097951810157
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy_accel": -0.06981074993020991,
       "op_leverage_ratio": 6.0866445294912195,
       "fcf_margin_change": 0.1348293988518435
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1782000000,
+      "gross_profit": null,
+      "operating_income": 360000000,
+      "net_income": null,
+      "opex": 1422000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -54000000,
+      "ocf": 956000000,
+      "capex": -1010000000,
+      "gross_margin": null,
+      "op_margin": 0.20202020202020202,
+      "fcf_margin": -0.030303030303030304,
+      "incr_op_margin_yoy": -1.0188679245283019,
+      "rev_growth_yoy": -0.08191653786707882,
+      "rev_growth_yoy_accel": -0.3239782037667567,
+      "fcf_margin_change": -0.07328191137009218
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -8.2% vs prior quarter YoY: +24.2% (decel: -32.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -613,18 +620,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -58.9% -> -27.5% (+31.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -71.6% -> -58.9% (+12.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +17.9% vs OpEx growth +11.9% (leverage: 1.5x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -654,7 +649,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:10:34.970131",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:28:41.045602"
 }

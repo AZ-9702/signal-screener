@@ -1,25 +1,9 @@
 {
   "ticker": "UCB",
   "name": "UNITED COMMUNITY BANKS, INC.",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 183863000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 59502000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 92585000,
-      "ocf": 105056000,
-      "capex": -12471000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.50355427682568
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -2490000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.17018778101031473,
-      "fcf_margin_change": -0.33336649581536526
+      "fcf_margin": 0.17018778101031473
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.39718552392247647,
-      "rev_growth_yoy": -0.04614305216383938,
       "fcf_margin_change": -0.20273746013314148
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 1.0750393757756889,
       "rev_growth_yoy": -0.04956889711716477,
-      "rev_growth_yoy_accel": -0.003425844953325388,
       "fcf_margin_change": 0.6778538518532125
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.36479844613480966,
       "rev_growth_yoy_accel": 0.24799352297337784,
       "fcf_margin_change": 0.09964785958303513
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 278388000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 86455000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 59713000,
+      "ocf": 65472000,
+      "capex": -5759000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.21449559607454344,
+      "rev_growth_yoy": 0.16253664403297335,
+      "rev_growth_yoy_accel": -0.2022618021018363,
+      "fcf_margin_change": -0.21067995151835955
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +16.3% vs prior quarter YoY: +36.5% (decel: -20.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -545,5 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:12:06.522575"
+  "last_updated": "2026-02-24T10:37:56.465113"
 }

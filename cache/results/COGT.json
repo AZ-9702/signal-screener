@@ -1,6 +1,8 @@
 {
   "ticker": "COGT",
-  "name": "Cogent Biosciences, Inc.",
+  "name": "COGENT BIOSCIENCES, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2017-03-31T00:00:00",
@@ -298,14 +300,14 @@
       "quarter_label": "2020-12 (Q4)",
       "revenue": 0,
       "gross_profit": null,
-      "operating_income": -11456000,
-      "net_income": -11338000,
-      "opex": 11456000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
       "cogs": null,
-      "rd": 6108000,
+      "rd": null,
       "sga": null,
-      "fcf": -9366000,
-      "ocf": -9366000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
@@ -394,24 +396,22 @@
         16
       ],
       "op_income": [
-        1,
+        0,
         16
       ],
       "fcf": [
-        1,
+        0,
         16
       ]
     },
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 1/16Q",
-      "fcf: 1/16Q"
+      "op_income: no data",
+      "fcf: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:56:59.474524",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:39:47.085458"
 }

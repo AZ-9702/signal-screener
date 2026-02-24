@@ -1,25 +1,9 @@
 {
   "ticker": "RSTRF",
   "name": "RESTAURANT BRANDS INTERNATIONAL LIMITED PARTNERSHIP",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1358000000,
-      "gross_profit": 904000000,
-      "operating_income": 373000000,
-      "net_income": 139000000,
-      "opex": 985000000,
-      "cogs": 454000000,
-      "rd": null,
-      "sga": 342000000,
-      "fcf": 282000000,
-      "ocf": 328000000,
-      "capex": -46000000,
-      "gross_margin": 0.6656848306332842,
-      "op_margin": 0.27466863033873345,
-      "fcf_margin": 0.20765832106038293
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -15000000,
       "gross_margin": 0.6817460317460318,
       "op_margin": 0.35079365079365077,
-      "fcf_margin": 0.1992063492063492,
-      "fcf_margin_change": -0.008451971854033735
+      "fcf_margin": 0.1992063492063492
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.6558861578266494,
       "op_margin": 0.2690815006468305,
       "fcf_margin": 0.28137128072445017,
-      "incr_op_margin_yoy": 0.22872340425531915,
-      "rev_growth_yoy": 0.13843888070692195,
       "op_leverage_ratio": 0.19534161490683227,
       "fcf_margin_change": -0.04371233131568364
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.1543762922122674,
       "incr_op_margin_yoy": 0.041884816753926704,
       "rev_growth_yoy": 0.15158730158730158,
-      "rev_growth_yoy_accel": 0.013148420880379624,
       "fcf_margin_change": -0.12699498851218277
     },
     {
@@ -436,8 +416,30 @@
       "incr_op_margin_yoy": 0.5443037974683544,
       "rev_growth_yoy": 0.06896551724137931,
       "rev_growth_yoy_accel": -0.08968832891246684,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.046283774052920224
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2466000000,
+      "gross_profit": null,
+      "operating_income": 621000000,
+      "net_income": null,
+      "opex": 1845000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 453000000,
+      "ocf": 555000000,
+      "capex": -102000000,
+      "gross_margin": null,
+      "op_margin": 0.2518248175182482,
+      "fcf_margin": 0.18369829683698297,
+      "incr_op_margin_yoy": -0.08235294117647059,
+      "rev_growth_yoy": 0.0740418118466899,
+      "rev_growth_yoy_accel": 0.005076294605310588,
+      "fcf_margin_change": -0.03312489630307419
     }
   ],
   "signals": [
@@ -552,7 +554,7 @@
         20
       ],
       "gross_profit": [
-        14,
+        13,
         20
       ],
       "op_income": [
@@ -566,10 +568,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 14/20Q"
+      "gross_profit: 13/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:53:50.768579"
+  "last_updated": "2026-02-24T10:14:02.159471"
 }

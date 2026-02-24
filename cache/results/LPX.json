@@ -1,25 +1,9 @@
 {
   "ticker": "LPX",
   "name": "LOUISIANA-PACIFIC CORPORATION",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 860000000,
-      "gross_profit": 350000000,
-      "operating_income": 297000000,
-      "net_income": 256000000,
-      "opex": 53000000,
-      "cogs": 509000000,
-      "rd": null,
-      "sga": 54000000,
-      "fcf": 303000000,
-      "ocf": 321000000,
-      "capex": -18000000,
-      "gross_margin": 0.4069767441860465,
-      "op_margin": 0.3453488372093023,
-      "fcf_margin": 0.35232558139534886
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -34000000,
       "gross_margin": 0.47099311701081614,
       "op_margin": 0.42379547689282204,
-      "fcf_margin": 0.2753195673549656,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.07700601404038326
+      "fcf_margin": 0.2753195673549656
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3387096774193548,
       "op_margin": 0.2550403225806452,
       "fcf_margin": 0.08064516129032258,
-      "incr_op_margin_yoy": -0.3333333333333333,
-      "rev_growth_yoy": 0.15348837209302327,
       "fcf_margin_change": -0.28276747201566593
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.24906507105459985,
       "incr_op_margin_yoy": 0.63125,
       "rev_growth_yoy": 0.31465093411996065,
-      "rev_growth_yoy_accel": 0.16116256202693738,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1684199097642773
     },
     {
@@ -254,7 +233,7 @@
       "incr_op_margin_yoy": 0.08870967741935484,
       "rev_growth_yoy": -0.14553990610328638,
       "rev_growth_yoy_accel": 0.3137521292949437,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16638414776712648
     },
     {
@@ -299,7 +278,7 @@
       "incr_op_margin_yoy": 0.8214285714285714,
       "rev_growth_yoy": 0.23972602739726026,
       "rev_growth_yoy_accel": 0.30639269406392694,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05597910964080002
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": 0.916256157635468,
       "rev_growth_yoy": 0.3322422258592471,
       "rev_growth_yoy_accel": 0.09251619846198686,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1278184261609676
     },
     {
@@ -388,7 +367,7 @@
       "fcf_margin": 0.0,
       "rev_growth_yoy": 0.0,
       "rev_growth_yoy_accel": -0.03343465045592705,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06323529411764706
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": -0.0817174515235457,
       "rev_growth_yoy_accel": -0.009235879041973219,
       "fcf_margin_change": -0.11696183312856472
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 567000000,
+      "gross_profit": 85000000,
+      "operating_income": -9000000,
+      "net_income": -8000000,
+      "opex": 94000000,
+      "cogs": 482000000,
+      "rd": null,
+      "sga": 79000000,
+      "fcf": -8000000,
+      "ocf": 67000000,
+      "capex": -75000000,
+      "gross_margin": 0.14991181657848324,
+      "op_margin": -0.015873015873015872,
+      "fcf_margin": -0.014109347442680775,
+      "incr_op_margin_yoy": 0.7433628318584071,
+      "rev_growth_yoy": -0.1661764705882353,
+      "rev_growth_yoy_accel": -0.08445901906468958,
+      "fcf_margin_change": -0.0216508255723942
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -16.6% vs prior quarter YoY: -8.2% (decel: -8.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -620,12 +627,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.5% vs prior quarter YoY: +15.3% (accel: +16.1%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +63.1% vs year-ago OPM: +42.4%",
       "severity": "HIGH"
@@ -662,7 +663,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:36.889595",
-  "sector": "Industrials",
-  "industry": "Building Products & Equipment"
+  "last_updated": "2026-02-24T10:38:00.230009"
 }

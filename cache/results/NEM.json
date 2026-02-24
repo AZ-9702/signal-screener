@@ -1,25 +1,9 @@
 {
   "ticker": "NEM",
   "name": "NEWMONT CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Gold",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3381000000,
-      "gross_profit": 2026000000,
-      "operating_income": null,
-      "net_income": 824000000,
-      "opex": 2461000000,
-      "cogs": 1355000000,
-      "rd": 30000000,
-      "sga": null,
-      "fcf": 1686000000,
-      "ocf": 1686000000,
-      "capex": null,
-      "gross_margin": 0.5992309967465247,
-      "op_margin": null,
-      "fcf_margin": 0.4986690328305235
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.5658077994428969,
       "op_margin": null,
-      "fcf_margin": 0.2928272980501393,
-      "fcf_margin_change": -0.2058417347803842
+      "fcf_margin": 0.2928272980501393
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": 0.5457227138643068,
       "op_margin": null,
       "fcf_margin": 0.3831858407079646,
-      "rev_growth_yoy": 0.0026619343389529724,
       "op_leverage_ratio": 0.40751055257517754,
       "fcf_margin_change": -0.011978235285126981
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.22957327158451868,
       "rev_growth_yoy": 0.05257660167130919,
-      "rev_growth_yoy_accel": 0.049914667332356215,
       "fcf_margin_change": -0.1536125691234459
     },
     {
@@ -289,7 +270,7 @@
       "fcf_margin": 0.19289087745463585,
       "rev_growth_yoy": 0.5016797312430011,
       "rev_growth_yoy_accel": 0.26511723124300113,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.037217387436945665
     },
     {
@@ -311,7 +292,7 @@
       "fcf_margin": 0.3243980009086779,
       "rev_growth_yoy": 0.6407007081625047,
       "rev_growth_yoy_accel": 0.13902097691950355,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13150712345404203
     },
     {
@@ -398,7 +379,7 @@
       "fcf_margin": 0.4483731427496709,
       "rev_growth_yoy": 0.20786006360745116,
       "rev_growth_yoy_accel": -0.037479235423123036,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04298392119278466
     },
     {
@@ -422,9 +403,37 @@
       "rev_growth_yoy_accel": -0.008294374139481558,
       "op_leverage_ratio": 0.12526102605538475,
       "fcf_margin_change": -0.03237024629782437
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6818000000,
+      "gross_profit": 4791000000,
+      "operating_income": null,
+      "net_income": 1301000000,
+      "opex": 3750000000,
+      "cogs": 2027000000,
+      "rd": 43000000,
+      "sga": null,
+      "fcf": 3621000000,
+      "ocf": 3621000000,
+      "capex": null,
+      "gross_margin": 0.7026987386330302,
+      "op_margin": null,
+      "fcf_margin": 0.5310941625110003,
+      "rev_growth_yoy": 0.20629865534324132,
+      "rev_growth_yoy_accel": 0.006732965875271724,
+      "op_leverage_ratio": 0.8610605997677783,
+      "fcf_margin_change": 0.11509126605915376
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +41.6% -> +53.1% (+11.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -591,7 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:47:20.339421",
-  "sector": "Basic Materials",
-  "industry": "Gold"
+  "last_updated": "2026-02-24T10:20:08.143886"
 }

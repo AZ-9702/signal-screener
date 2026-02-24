@@ -1,25 +1,9 @@
 {
   "ticker": "WEN",
-  "name": "Wendy's Co",
+  "name": "THE WENDY\u2019S COMPANY",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2021-01-03T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 474317000,
-      "gross_profit": 309580000,
-      "operating_income": 78567000,
-      "net_income": 38734000,
-      "opex": 395750000,
-      "cogs": 164737000,
-      "rd": null,
-      "sga": null,
-      "fcf": 78602000,
-      "ocf": 78602000,
-      "capex": null,
-      "gross_margin": 0.6526858619868148,
-      "op_margin": 0.16564238684255467,
-      "fcf_margin": 0.165716177155784
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.6591721479434076,
       "op_margin": 0.18062029148006423,
-      "fcf_margin": 0.18650465120827114,
-      "fcf_margin_change": 0.020788474052487155
+      "fcf_margin": 0.18650465120827114
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.6875279981027168,
       "op_margin": 0.2569156580592982,
       "fcf_margin": 0.14781173923707325,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.038692911971197896
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.6740510943506275,
       "op_margin": 0.1625031963026439,
       "fcf_margin": 0.14602401083678676,
-      "incr_op_margin_yoy": 1.4991023339317773,
-      "rev_growth_yoy": -0.00234864025535665,
       "fcf_margin_change": -0.10473780987750655
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.042939323800811634,
       "incr_op_margin_yoy": -0.2897679324894515,
       "rev_growth_yoy": 0.06179881487082874,
-      "rev_growth_yoy_accel": 0.06414745512618539,
       "op_leverage_ratio": 0.7407739831053608,
       "fcf_margin_change": -0.10308468703597512
     },
@@ -434,9 +414,37 @@
       "rev_growth_yoy": -0.030389650262290048,
       "rev_growth_yoy_accel": -0.01322207276902269,
       "fcf_margin_change": 0.12719349709703476
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 542974000,
+      "gross_profit": 340199000,
+      "operating_income": 64017000,
+      "net_income": 26481000,
+      "opex": 478957000,
+      "cogs": 202775000,
+      "rd": null,
+      "sga": null,
+      "fcf": 69280000,
+      "ocf": 69280000,
+      "capex": null,
+      "gross_margin": 0.6265474958285295,
+      "op_margin": 0.11790067296039958,
+      "fcf_margin": 0.1275935864332362,
+      "incr_op_margin_yoy": 1.022524681299722,
+      "rev_growth_yoy": -0.05450195290393245,
+      "rev_growth_yoy_accel": -0.0241123026416424,
+      "fcf_margin_change": -0.10762249462718787
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +102.3% vs year-ago OPM: +16.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -522,18 +530,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +6.2% vs prior quarter YoY: -0.2% (accel: +6.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +149.9% vs year-ago OPM: +16.6%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +14.8% -> +25.1% (+10.3%)",
@@ -565,5 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:53.304905"
+  "last_updated": "2026-02-24T10:10:11.231768"
 }

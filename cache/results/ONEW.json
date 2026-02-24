@@ -1,25 +1,9 @@
 {
   "ticker": "ONEW",
   "name": "OneWater Marine Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 214083000,
-      "gross_profit": 52436000,
-      "operating_income": 16036000,
-      "net_income": 7788000,
-      "opex": 36400000,
-      "cogs": 161647000,
-      "rd": null,
-      "sga": 34860000,
-      "fcf": -31038000,
-      "ocf": -28615000,
-      "capex": -2423000,
-      "gross_margin": 0.24493303998916308,
-      "op_margin": 0.0749055272954882,
-      "fcf_margin": -0.14498115216995278
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2703000,
       "gross_margin": 0.26936601023630885,
       "op_margin": 0.11738685905506795,
-      "fcf_margin": 0.1713929450170049,
-      "op_leverage_ratio": 1.4344193432506844,
-      "fcf_margin_change": 0.31637409718695764
+      "fcf_margin": 0.1713929450170049
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.30024801351287056,
       "op_margin": 0.093165651615359,
       "fcf_margin": -0.07807072845791502,
-      "incr_op_margin_yoy": 0.1251585658283479,
-      "rev_growth_yoy": 0.570755267816688,
       "op_leverage_ratio": 1.2533448209767637,
       "fcf_margin_change": -0.09281894914609397
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.05691124948261472,
       "incr_op_margin_yoy": 0.183947171957766,
       "rev_growth_yoy": 0.3413599667486825,
-      "rev_growth_yoy_accel": -0.22939530106800543,
       "op_leverage_ratio": 1.6217136508589987,
       "fcf_margin_change": 0.021159478975300294
     },
@@ -324,7 +303,7 @@
       "incr_op_margin_yoy": 0.38693205903888395,
       "rev_growth_yoy": -0.08732053592310113,
       "rev_growth_yoy_accel": -0.01864254434907632,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13194759912913936
     },
     {
@@ -438,9 +417,37 @@
       "rev_growth_yoy": 0.2177554882163793,
       "rev_growth_yoy_accel": 0.19854049524940226,
       "fcf_margin_change": -0.14506243599804594
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 380561000,
+      "gross_profit": 89393000,
+      "operating_income": -5174000,
+      "net_income": -7711000,
+      "opex": 94567000,
+      "cogs": 291168000,
+      "rd": null,
+      "sga": 81350000,
+      "fcf": -78228000,
+      "ocf": -76288000,
+      "capex": -1940000,
+      "gross_margin": 0.23489795328475593,
+      "op_margin": -0.01359571790067821,
+      "fcf_margin": -0.20555968688331175,
+      "incr_op_margin_yoy": -0.6743206235517168,
+      "rev_growth_yoy": 0.012631248436726679,
+      "rev_growth_yoy_accel": -0.20512423977965263,
+      "fcf_margin_change": -0.22123117459887348
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +1.3% vs prior quarter YoY: +21.8% (decel: -20.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -622,22 +629,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +34.1% vs prior quarter YoY: +57.1% (decel: -22.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +17.1% -> +29.7% (+12.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -14.5% -> +17.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -665,5 +660,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:57:09.359673"
+  "last_updated": "2026-02-24T11:06:44.243052"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "SIGI",
   "name": "SELECTIVE INSURANCE GROUP, INC.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 798432000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 127061000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 168956000,
-      "ocf": 173162000,
-      "capex": -4206000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.21160975512003527
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -4561000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.15635515053358162,
-      "fcf_margin_change": -0.05525460458645365
+      "fcf_margin": 0.15635515053358162
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.25420291021565034,
-      "rev_growth_yoy": 0.08925368722696485,
       "fcf_margin_change": -0.029272843618836697
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.100467814415492,
       "rev_growth_yoy": 0.05243765758974608,
-      "rev_growth_yoy_accel": -0.03681602963721877,
       "fcf_margin_change": -0.15373509580015832
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.09306713943354769,
       "rev_growth_yoy_accel": -0.01624678483934415,
       "fcf_margin_change": 0.1717625138268487
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1364887000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 155232000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 366277000,
+      "ocf": 376257000,
+      "capex": -9980000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.26835701417040386,
+      "rev_growth_yoy": 0.08635268872662556,
+      "rev_growth_yoy_accel": -0.006714450706922129,
+      "fcf_margin_change": -0.02377376936916281
     }
   ],
   "signals": [
@@ -503,5 +505,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:04:53.518351"
+  "last_updated": "2026-02-24T11:08:12.616112"
 }

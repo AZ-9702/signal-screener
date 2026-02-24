@@ -1,25 +1,9 @@
 {
   "ticker": "CVRX",
-  "name": "CVRx, Inc.",
+  "name": "CVRx,\u00a0Inc",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2088000,
-      "gross_profit": 1637000,
-      "operating_income": -2135000,
-      "net_income": -3402000,
-      "opex": 3772000,
-      "cogs": 451000,
-      "rd": 510000,
-      "sga": 3262000,
-      "fcf": -4185000,
-      "ocf": -4084000,
-      "capex": -101000,
-      "gross_margin": 0.7840038314176245,
-      "op_margin": -1.0225095785440612,
-      "fcf_margin": -2.0043103448275863
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -101000,
       "gross_margin": 0.6968531468531468,
       "op_margin": -1.4744755244755245,
-      "fcf_margin": -1.7968531468531468,
-      "op_leverage_ratio": 0.5720378804308538,
-      "fcf_margin_change": 0.2074571979744395
+      "fcf_margin": -1.7968531468531468
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.7310005467468562,
       "op_margin": -2.4024056861673047,
       "fcf_margin": -2.0647895024603606,
-      "incr_op_margin_yoy": -4.2375796178343945,
-      "rev_growth_yoy": 0.7519157088122606,
       "op_leverage_ratio": 0.46001811523141495,
       "fcf_margin_change": 0.6980970954777836
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -2.6832679097154073,
       "incr_op_margin_yoy": -4.6800986842105265,
       "rev_growth_yoy": 0.4251748251748252,
-      "rev_growth_yoy_accel": -0.32674088363743536,
       "op_leverage_ratio": 0.8326534045506161,
       "fcf_margin_change": -0.6184784072550467
     },
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.1382658959537572,
       "rev_growth_yoy": 0.699159392175881,
       "rev_growth_yoy_accel": -0.1891331937911236,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5865530446800094
     },
     {
@@ -328,7 +307,7 @@
       "incr_op_margin_yoy": -0.9627221499783268,
       "rev_growth_yoy": 0.2428421052631579,
       "rev_growth_yoy_accel": -0.10695110190566023,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23421921543952917
     },
     {
@@ -374,7 +353,7 @@
       "incr_op_margin_yoy": -0.1518454297745851,
       "rev_growth_yoy": 0.3570986289252543,
       "rev_growth_yoy_accel": 0.08481245253861175,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.25584569324328166
     },
     {
@@ -442,11 +421,45 @@
       "incr_op_margin_yoy": 0.5641609719058466,
       "rev_growth_yoy": 0.09848201600239288,
       "rev_growth_yoy_accel": -0.05244539993730392,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08942606193362757
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 16024000,
+      "gross_profit": 13825000,
+      "operating_income": -11184000,
+      "net_income": -11934000,
+      "opex": 25009000,
+      "cogs": 2199000,
+      "rd": 3000000,
+      "sga": 22009000,
+      "fcf": -9826000,
+      "ocf": -9758000,
+      "capex": -68000,
+      "gross_margin": 0.8627683474787818,
+      "op_margin": -0.6979530703944083,
+      "fcf_margin": -0.6132051922116825,
+      "rev_growth_yoy": 0.04445313518446096,
+      "rev_growth_yoy_accel": -0.054028880817931925,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.06780229587545161
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -68.1% -> -61.3% (+6.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.4% vs prior quarter YoY: +9.8% (decel: -5.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -616,21 +629,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +42.5% vs prior quarter YoY: +75.2% (decel: -32.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -276.3% -> -206.5% (+69.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -200.4% -> -179.7% (+20.7%)",
       "severity": "MEDIUM"
     }
   ],
@@ -659,7 +660,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:01:48.146480",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:43:56.223944"
 }

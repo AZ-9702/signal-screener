@@ -1,25 +1,9 @@
 {
   "ticker": "NBR",
-  "name": "NABORS INDUSTRIES LTD.",
+  "name": "NABORS INDUSTRIES\u00a0LTD",
+  "sector": "Energy",
+  "industry": "Oil & Gas Drilling",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 443396000,
-      "gross_profit": 169118000,
-      "operating_income": -68741000,
-      "net_income": -108237000,
-      "opex": 511830000,
-      "cogs": 274278000,
-      "rd": 7285000,
-      "sga": null,
-      "fcf": 59460000,
-      "ocf": 101855000,
-      "capex": -42395000,
-      "gross_margin": 0.3814152585950257,
-      "op_margin": -0.15503297278279463,
-      "fcf_margin": 0.13410134507302726
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -40852000,
       "gross_margin": 0.3688446095750156,
       "op_margin": -0.07800030835311209,
-      "fcf_margin": 0.08390244749853966,
-      "op_leverage_ratio": 0.2882146698436941,
-      "fcf_margin_change": -0.0501988975744876
+      "fcf_margin": 0.08390244749853966
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.3579540793452443,
       "op_margin": -0.028794368185590415,
       "fcf_margin": 0.0976085774517566,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.018426923934824715
     },
     {
@@ -97,9 +79,7 @@
       "gross_margin": 0.361153477487356,
       "op_margin": -0.006788841279098648,
       "fcf_margin": 0.08859529858942965,
-      "incr_op_margin_yoy": 0.6495810990283895,
-      "rev_growth_yoy": 0.22585454086189322,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.00901327886232696
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": -0.07546360056214262,
       "incr_op_margin_yoy": 0.33029399785240865,
       "rev_growth_yoy": 0.23458288727087953,
-      "rev_growth_yoy_accel": 0.008728346408986315,
       "op_leverage_ratio": 0.30684418818603154,
       "fcf_margin_change": -0.16405889915157226
     },
@@ -145,7 +124,7 @@
       "incr_op_margin_yoy": 0.419101758350399,
       "rev_growth_yoy": 0.28939393010485703,
       "rev_growth_yoy_accel": 0.0548110428339775,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1454604148544004
     },
     {
@@ -168,7 +147,7 @@
       "incr_op_margin_yoy": 0.44398162039406724,
       "rev_growth_yoy": 0.3242700294754514,
       "rev_growth_yoy_accel": 0.03487609937059438,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.030004651373175636
     },
     {
@@ -214,7 +193,7 @@
       "incr_op_margin_yoy": 0.5645631528964862,
       "rev_growth_yoy": 0.3704231371990312,
       "rev_growth_yoy_accel": -0.02809288465036691,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08441619821614363
     },
     {
@@ -438,9 +417,43 @@
       "rev_growth_yoy": 0.11804374116055506,
       "rev_growth_yoy_accel": -0.015312637054954517,
       "fcf_margin_change": 0.02992814577058435
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 797529000,
+      "gross_profit": null,
+      "operating_income": 113557000,
+      "net_income": 10348000,
+      "opex": 780696000,
+      "cogs": null,
+      "rd": 13328000,
+      "sga": null,
+      "fcf": 83779000,
+      "ocf": 245841000,
+      "capex": -162062000,
+      "gross_margin": null,
+      "op_margin": 0.14238604489617304,
+      "fcf_margin": 0.10504821768236641,
+      "incr_op_margin_yoy": 2.6073105892778026,
+      "rev_growth_yoy": 0.0927764281280701,
+      "rev_growth_yoy_accel": -0.02526731303248496,
+      "fcf_margin_change": 0.10766496929262809
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.3% -> +10.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -8.6% (year-ago) -> +14.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -588,7 +601,7 @@
         20
       ],
       "gross_profit": [
-        16,
+        15,
         20
       ],
       "op_income": [
@@ -601,11 +614,11 @@
       ]
     },
     "gaps": [],
-    "warnings": []
+    "warnings": [
+      "gross_profit: 15/20Q"
+    ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:01:52.079619",
-  "sector": "Energy",
-  "industry": "Oil & Gas Drilling"
+  "last_updated": "2026-02-24T10:46:49.922111"
 }

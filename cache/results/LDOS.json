@@ -1,25 +1,9 @@
 {
   "ticker": "LDOS",
-  "name": "LEIDOS HOLDINGS, INC.",
+  "name": "Leidos Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Information Technology Services",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 3252000000,
-      "gross_profit": 491000000,
-      "operating_income": 299000000,
-      "net_income": 197000000,
-      "opex": 192000000,
-      "cogs": 2761000000,
-      "rd": null,
-      "sga": 187000000,
-      "fcf": -52000000,
-      "ocf": -52000000,
-      "capex": null,
-      "gross_margin": 0.1509840098400984,
-      "op_margin": 0.09194341943419435,
-      "fcf_margin": -0.015990159901599015
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.14087481146304676,
       "op_margin": 0.09291101055806938,
-      "fcf_margin": 0.07209653092006033,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.08808669082165935
+      "fcf_margin": 0.07209653092006033
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.14551704382698366,
       "op_margin": 0.07734173589229447,
       "fcf_margin": 0.06072758521913492,
-      "incr_op_margin_yoy": -0.12133891213389121,
-      "rev_growth_yoy": 0.07349323493234933,
       "fcf_margin_change": -0.1014888948268025
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.02661705781339439,
       "incr_op_margin_yoy": -0.20670391061452514,
       "rev_growth_yoy": 0.05399698340874812,
-      "rev_growth_yoy_accel": -0.01949625152360121,
       "fcf_margin_change": -0.034110527405740526
     },
     {
@@ -270,17 +249,17 @@
       "cogs": 3385000000,
       "rd": null,
       "sga": 233000000,
-      "fcf": 304000000,
-      "ocf": 304000000,
+      "fcf": 326000000,
+      "ocf": 326000000,
       "capex": null,
       "gross_margin": 0.14949748743718594,
       "op_margin": 0.0907035175879397,
-      "fcf_margin": 0.0763819095477387,
+      "fcf_margin": 0.08190954773869347,
       "incr_op_margin_yoy": 0.3392226148409894,
       "rev_growth_yoy": 0.07654855288071409,
       "rev_growth_yoy_accel": -0.01020311009046107,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.12637248984017257
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.1208448516492178
     },
     {
       "date": "2024-03-29T00:00:00",
@@ -302,7 +281,7 @@
       "incr_op_margin_yoy": 0.5434782608695652,
       "rev_growth_yoy": 0.0746147607461476,
       "rev_growth_yoy_accel": -0.0019337921345664866,
-      "fcf_margin_change": -0.04795423659176386
+      "fcf_margin_change": -0.053481874782718625
     },
     {
       "date": "2024-06-28T00:00:00",
@@ -361,17 +340,17 @@
       "cogs": 3672000000,
       "rd": null,
       "sga": 279000000,
-      "fcf": 251000000,
-      "ocf": 251000000,
+      "fcf": 294000000,
+      "ocf": 294000000,
       "capex": null,
       "gross_margin": 0.15876288659793814,
       "op_margin": 0.09644902634593357,
-      "fcf_margin": 0.057502863688430696,
+      "fcf_margin": 0.06735395189003436,
       "incr_op_margin_yoy": 0.15584415584415584,
       "rev_growth_yoy": 0.09673366834170855,
       "rev_growth_yoy_accel": 0.02812872062428952,
       "op_leverage_ratio": 0.39517165412153477,
-      "fcf_margin_change": -0.09691241077457646
+      "fcf_margin_change": -0.08706132257297279
     },
     {
       "date": "2025-04-04T00:00:00",
@@ -393,7 +372,7 @@
       "incr_op_margin_yoy": 0.42592592592592593,
       "rev_growth_yoy": 0.06792452830188679,
       "rev_growth_yoy_accel": -0.028809140039821754,
-      "fcf_margin_change": -0.04383973059066862
+      "fcf_margin_change": -0.05369081879227229
     },
     {
       "date": "2025-07-04T00:00:00",
@@ -439,9 +418,37 @@
       "rev_growth_yoy_accel": 0.03730347228800422,
       "op_leverage_ratio": 0.14288267105572536,
       "fcf_margin_change": 0.044823716237947564
+    },
+    {
+      "date": "2026-01-02T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 4207000000,
+      "gross_profit": 739000000,
+      "operating_income": 473000000,
+      "net_income": 327000000,
+      "opex": 266000000,
+      "cogs": 3468000000,
+      "rd": null,
+      "sga": 266000000,
+      "fcf": 495000000,
+      "ocf": 495000000,
+      "capex": null,
+      "gross_margin": 0.1756596149275018,
+      "op_margin": 0.11243166151652008,
+      "fcf_margin": 0.11766104112193962,
+      "incr_op_margin_yoy": -0.3291139240506329,
+      "rev_growth_yoy": -0.03619702176403208,
+      "rev_growth_yoy_accel": -0.1027841339358698,
+      "fcf_margin_change": -0.04143495350773144
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.6% vs prior quarter YoY: +6.7% (decel: -10.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -531,12 +538,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.5% -> +16.2% (+15.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.6% -> +7.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -564,7 +565,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:29.474507",
-  "sector": "Technology",
-  "industry": "Information Technology Services"
+  "last_updated": "2026-02-24T10:39:27.667691"
 }

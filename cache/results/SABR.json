@@ -1,25 +1,9 @@
 {
   "ticker": "SABR",
   "name": "Sabre Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 313714000,
-      "gross_profit": 192772000,
-      "operating_income": -219509000,
-      "net_income": -305715000,
-      "opex": 412281000,
-      "cogs": 120942000,
-      "rd": null,
-      "sga": 139395000,
-      "fcf": null,
-      "ocf": null,
-      "capex": -17161000,
-      "gross_margin": 0.6144832554492309,
-      "op_margin": -0.6997105643994211,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -6435000,
       "gross_margin": 0.5518529149515702,
       "op_margin": -0.6185126601604964,
-      "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "fcf_margin": null
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.6136122579833292,
       "op_margin": -0.25143167604471905,
       "fcf_margin": null,
-      "incr_op_margin_yoy": 0.5009174900895021,
-      "rev_growth_yoy": 0.5958388850991667,
       "op_leverage_ratio": 8.555412943985843
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": null,
       "incr_op_margin_yoy": 0.47788879134197787,
       "rev_growth_yoy": 0.7860719913033919,
-      "rev_growth_yoy_accel": 0.19023310620422518,
       "op_leverage_ratio": 8.746232447791927
     },
     {
@@ -261,7 +241,7 @@
       "sga": 140166000,
       "fcf": null,
       "ocf": null,
-      "capex": -18813000,
+      "capex": -12310000,
       "gross_margin": 0.6039985270423097,
       "op_margin": 0.05434515241182267,
       "fcf_margin": null,
@@ -289,7 +269,7 @@
       "incr_op_margin_yoy": 2.4457714413674703,
       "rev_growth_yoy": 0.05411508088784764,
       "rev_growth_yoy_accel": -0.03440814311041593,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -346,7 +326,7 @@
       "sga": 154571000,
       "fcf": null,
       "ocf": null,
-      "capex": -19307000,
+      "capex": -14686000,
       "gross_margin": 0.5943790889909951,
       "op_margin": 0.07987838662196876,
       "fcf_margin": null,
@@ -374,7 +354,7 @@
       "incr_op_margin_yoy": -0.8475035890891689,
       "rev_growth_yoy": -0.008007551546457594,
       "rev_growth_yoy_accel": -0.04828246483553428,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -418,9 +398,36 @@
       "rev_growth_yoy": -0.06477062012726327,
       "rev_growth_yoy_accel": 0.039619004514798356,
       "op_leverage_ratio": 1.8037566502818714
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 666525000,
+      "gross_profit": 374437000,
+      "operating_income": 21341000,
+      "net_income": null,
+      "opex": 353096000,
+      "cogs": 292088000,
+      "rd": null,
+      "sga": 157806000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -23468000,
+      "gross_margin": 0.5617748771613968,
+      "op_margin": 0.032018303889576535,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.7417166331251686,
+      "rev_growth_yoy": -0.06743722052148801,
+      "rev_growth_yoy_accel": -0.0026666003942247413
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +74.2% vs year-ago OPM: +8.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -524,12 +531,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +78.6% vs prior quarter YoY: +59.6% (accel: +19.0%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +13.5% vs OpEx growth +1.6% (leverage: 8.6x)",
@@ -575,5 +576,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:25:45.785345"
+  "last_updated": "2026-02-24T10:31:48.396748"
 }

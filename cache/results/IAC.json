@@ -1,25 +1,9 @@
 {
   "ticker": "IAC",
   "name": "IAC Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 848819000,
-      "gross_profit": 599697000,
-      "operating_income": -24366000,
-      "net_income": 509125000,
-      "opex": 873185000,
-      "cogs": 249122000,
-      "rd": 75243000,
-      "sga": null,
-      "fcf": -33245000,
-      "ocf": -13466000,
-      "capex": -19779000,
-      "gross_margin": 0.7065075122022481,
-      "op_margin": -0.02870576648260701,
-      "fcf_margin": -0.03916618266084996
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -20217000,
       "gross_margin": 0.6876552627229617,
       "op_margin": -0.015036169698818923,
-      "fcf_margin": 0.04278703739018778,
-      "fcf_margin_change": 0.08195322005103774
+      "fcf_margin": 0.04278703739018778
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.698381164659748,
       "op_margin": -0.034259662201177266,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2021-09-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.5648216987136916,
       "op_margin": -0.05981325499680019,
       "fcf_margin": null,
-      "incr_op_margin_yoy": -0.1448186386713154,
-      "rev_growth_yoy": 0.36594727497852897,
       "op_leverage_ratio": 0.8932172897725882
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.013272770486175298,
       "incr_op_margin_yoy": -0.1800139204677277,
       "rev_growth_yoy": 0.684967644329176,
-      "rev_growth_yoy_accel": 0.31902036935064704,
       "op_leverage_ratio": 0.8561560447576004
     },
     {
@@ -229,7 +209,7 @@
       "incr_op_margin_yoy": -0.44091843564735134,
       "rev_growth_yoy": -0.1842033611212838,
       "rev_growth_yoy_accel": -0.002308081024403358,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01210497436853647
     },
     {
@@ -318,7 +298,7 @@
       "incr_op_margin_yoy": -0.2682553590601128,
       "rev_growth_yoy": -0.14579309439010282,
       "rev_growth_yoy_accel": -0.0032171147687719837,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.020148737945622414
     },
     {
@@ -429,9 +409,37 @@
       "incr_op_margin_yoy": 0.10524867736998676,
       "rev_growth_yoy": -0.3717044184681465,
       "rev_growth_yoy_accel": 0.010168872128118789
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 645979000,
+      "gross_profit": 450925000,
+      "operating_income": -113369000,
+      "net_income": -76794000,
+      "opex": 759348000,
+      "cogs": 195054000,
+      "rd": 46497000,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": -5213000,
+      "gross_margin": 0.6980490077850828,
+      "op_margin": -0.17549951314206808,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.4776481964768385,
+      "rev_growth_yoy": -0.3470388868167313,
+      "rev_growth_yoy_accel": 0.024665531651415218,
+      "op_leverage_ratio": 0.38971817398060743
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +65.6% -> +64.8% -> +69.8% (reversal +5.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -515,18 +523,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +64.1% -> +56.5% -> +59.5% (reversal +3.0%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +68.5% vs prior quarter YoY: +36.6% (accel: +31.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -3.9% -> +4.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -545,18 +541,16 @@
         20
       ],
       "fcf": [
-        14,
+        13,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "fcf: 14/20Q"
+      "fcf: 13/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:20:44.128205",
-  "sector": "Communication Services",
-  "industry": "Internet Content & Information"
+  "last_updated": "2026-02-24T10:11:37.250782"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "SAH",
   "name": "SONIC AUTOMOTIVE, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2798555000,
-      "gross_profit": 389117000,
-      "operating_income": 105837000,
-      "net_income": 57339000,
-      "opex": 283280000,
-      "cogs": 2409438000,
-      "rd": null,
-      "sga": 258978000,
-      "fcf": -27040000,
-      "ocf": 8104000,
-      "capex": -35144000,
-      "gross_margin": 0.13904211280464382,
-      "op_margin": 0.0378184455906709,
-      "fcf_margin": -0.00966212920596522
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -67700000,
       "gross_margin": 0.1438543446636606,
       "op_margin": 0.031523633933998804,
-      "fcf_margin": 0.008109665644944485,
-      "fcf_margin_change": 0.017771794850909704
+      "fcf_margin": 0.008109665644944485
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.16661098103841554,
       "op_margin": 0.05015349136328467,
       "fcf_margin": 0.16316307766512253,
-      "incr_op_margin_yoy": 0.13958687941884354,
-      "rev_growth_yoy": 0.1379243931243088,
       "op_leverage_ratio": 0.5196819313431632,
       "fcf_margin_change": 0.09010296204464201
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.05400658004795628,
       "incr_op_margin_yoy": 0.08320809400326581,
       "rev_growth_yoy": 0.2869967611574287,
-      "rev_growth_yoy_accel": 0.14907236803311993,
       "op_leverage_ratio": 1.0170829887224004,
       "fcf_margin_change": -0.10915649761716625
     },
@@ -344,7 +324,7 @@
       "incr_op_margin_yoy": 0.15657894736842104,
       "rev_growth_yoy": -0.04171812817345959,
       "rev_growth_yoy_accel": 0.013005516054414155,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06351566061784486
     },
     {
@@ -434,11 +414,51 @@
       "incr_op_margin_yoy": 0.018867924528301886,
       "rev_growth_yoy": 0.13813547186023198,
       "rev_growth_yoy_accel": 0.07899848952602984,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.005739938553117361
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3871300000,
+      "gross_profit": 598700000,
+      "operating_income": 123200000,
+      "net_income": 46900000,
+      "opex": 475500000,
+      "cogs": 3272600000,
+      "rd": null,
+      "sga": 433700000,
+      "fcf": 329400000,
+      "ocf": 66900000,
+      "capex": 262500000,
+      "gross_margin": 0.15465089246506342,
+      "op_margin": 0.0318239351122362,
+      "fcf_margin": 0.08508769663937178,
+      "incr_op_margin_yoy": 0.4204081632653061,
+      "rev_growth_yoy": -0.006288823861594538,
+      "rev_growth_yoy_accel": -0.14442429572182652,
+      "fcf_margin_change": 0.051266165611136845
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +3.4% -> +8.5% (+5.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.6% vs prior quarter YoY: +13.8% (decel: -14.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +42.0% vs year-ago OPM: +3.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -554,21 +574,9 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +28.7% vs prior quarter YoY: +13.8% (accel: +14.9%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.3% -> +16.3% (+9.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +14.0% vs year-ago OPM: +3.8%",
       "severity": "MEDIUM"
     },
     {
@@ -582,12 +590,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +20.3% vs OpEx growth +10.3% (leverage: 2.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.0% -> +0.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -615,5 +617,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:35:18.432277"
+  "last_updated": "2026-02-24T10:07:09.781910"
 }

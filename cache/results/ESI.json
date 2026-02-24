@@ -1,25 +1,9 @@
 {
   "ticker": "ESI",
   "name": "Element Solutions Inc",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 536600000,
-      "gross_profit": 222700000,
-      "operating_income": 80000000,
-      "net_income": null,
-      "opex": 142700000,
-      "cogs": 313900000,
-      "rd": 11400000,
-      "sga": 131300000,
-      "fcf": null,
-      "ocf": null,
-      "capex": -7100000,
-      "gross_margin": 0.41502049944092434,
-      "op_margin": 0.14908684308609765,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8500000,
       "gross_margin": 0.43810216324304674,
       "op_margin": 0.18160334484639157,
-      "fcf_margin": 0.04381021632430467,
-      "op_leverage_ratio": Infinity
+      "fcf_margin": 0.04381021632430467
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.3660534858556191,
       "op_margin": 0.09352295563456485,
       "fcf_margin": null,
-      "incr_op_margin_yoy": -0.1767905711695376,
-      "rev_growth_yoy": 0.20555348490495715,
       "op_leverage_ratio": 29.22860543113708
     },
     {
@@ -117,8 +98,7 @@
       "fcf_margin": -0.022199353131431933,
       "incr_op_margin_yoy": -0.033820138355111454,
       "rev_growth_yoy": 0.2365024540992547,
-      "rev_growth_yoy_accel": 0.030948969194297543,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -394,7 +374,7 @@
       "incr_op_margin_yoy": -0.152,
       "rev_growth_yoy": 0.02040150155051412,
       "rev_growth_yoy_accel": -0.012120237579920663,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -417,9 +397,37 @@
       "rev_growth_yoy": 0.017209302325581394,
       "rev_growth_yoy_accel": -0.003192199224932725,
       "op_leverage_ratio": 2.074610271054726
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 676200000,
+      "gross_profit": 276600000,
+      "operating_income": 69700000,
+      "net_income": 6100000,
+      "opex": 206900000,
+      "cogs": 399600000,
+      "rd": 17400000,
+      "sga": 189500000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -17000000,
+      "gross_margin": 0.4090505767524401,
+      "op_margin": 0.10307601301390121,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.1,
+      "rev_growth_yoy": 0.08330663248958667,
+      "rev_growth_yoy_accel": 0.06609733016400528,
+      "op_leverage_ratio": 0.1758302316471778
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +8.3% vs prior quarter YoY: +1.7% (accel: +6.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -568,7 +576,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:50:33.466882",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:29:49.835932"
 }

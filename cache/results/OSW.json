@@ -1,25 +1,9 @@
 {
   "ticker": "OSW",
   "name": "OneSpaWorld Holdings Limited",
+  "sector": "Consumer Cyclical",
+  "industry": "Leisure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3831000,
-      "gross_profit": null,
-      "operating_income": -25066000,
-      "net_income": -27975000,
-      "opex": 28897000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -16442000,
-      "ocf": -16442000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -6.54293918037066,
-      "fcf_margin": -4.29182980944923
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -3.379427549194991,
-      "fcf_margin": -1.6203935599284436,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 2.6714362495207866
+      "fcf_margin": -1.6203935599284436
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.047179834444431475,
       "fcf_margin": -0.04254474553712157,
-      "incr_op_margin_yoy": 0.2569665118552921,
-      "rev_growth_yoy": 21.357347950926652,
       "op_leverage_ratio": 1.5850936822820114,
       "fcf_margin_change": 0.22755952855477712
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.006399507203723349,
       "incr_op_margin_yoy": 0.15192572465975412,
       "rev_growth_yoy": 14.68211091234347,
-      "rev_growth_yoy_accel": -6.675237038583182,
       "op_leverage_ratio": 0.47960979442344553,
       "fcf_margin_change": 0.03614523833339822
     },
@@ -444,6 +423,28 @@
       "rev_growth_yoy_accel": -0.0008120605429881578,
       "op_leverage_ratio": 1.1865020798925676,
       "fcf_margin_change": 0.04397788705325163
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 242127000,
+      "gross_profit": null,
+      "operating_income": 16371000,
+      "net_income": 12062000,
+      "opex": 225756000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 19955000,
+      "ocf": 19955000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.06761327732966584,
+      "fcf_margin": 0.08241542661495826,
+      "incr_op_margin_yoy": -0.034509048593555636,
+      "rev_growth_yoy": 0.11473439960222093,
+      "rev_growth_yoy_accel": 0.04513457171926051,
+      "fcf_margin_change": -0.04586577624132254
     }
   ],
   "signals": [
@@ -574,12 +575,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +1468.2% vs prior quarter YoY: +2135.7% (decel: -667.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -27.0% -> -4.3% (+22.8%)",
@@ -614,12 +609,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +63.8% vs OpEx growth +6.7% (leverage: 9.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -429.2% -> -162.0% (+267.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -649,5 +638,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:36:34.536829"
+  "last_updated": "2026-02-24T10:07:33.834125"
 }

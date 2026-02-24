@@ -1,25 +1,9 @@
 {
   "ticker": "TRIP",
   "name": "TRIPADVISOR, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 116000000,
-      "gross_profit": 103000000,
-      "operating_income": -92000000,
-      "net_income": -72000000,
-      "opex": 208000000,
-      "cogs": 13000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -23000000,
-      "ocf": -14000000,
-      "capex": -9000000,
-      "gross_margin": 0.8879310344827587,
-      "op_margin": -0.7931034482758621,
-      "fcf_margin": -0.19827586206896552
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -10000000,
       "gross_margin": 0.9024390243902439,
       "op_margin": -0.6829268292682927,
-      "fcf_margin": -0.23577235772357724,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.03749649565461172
+      "fcf_margin": -0.23577235772357724
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.91701244813278,
       "op_margin": -0.11618257261410789,
       "fcf_margin": 0.2697095435684647,
-      "incr_op_margin_yoy": 0.512,
-      "rev_growth_yoy": 1.0775862068965518,
       "fcf_margin_change": 0.5271352861427221
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.3282442748091603,
       "incr_op_margin_yoy": 0.460431654676259,
       "rev_growth_yoy": 1.1300813008130082,
-      "rev_growth_yoy_accel": 0.05249509391645635,
       "op_leverage_ratio": 1.803064155761251,
       "fcf_margin_change": 0.05853473124069558
     },
@@ -440,6 +419,27 @@
       "rev_growth_yoy_accel": -0.02491263369691836,
       "op_leverage_ratio": 1.640250109059183,
       "fcf_margin_change": -0.3022865483682406
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 411000000,
+      "gross_profit": 376000000,
+      "operating_income": -34000000,
+      "net_income": -38000000,
+      "opex": 445000000,
+      "cogs": 35000000,
+      "rd": null,
+      "sga": null,
+      "fcf": -103000000,
+      "ocf": -103000000,
+      "capex": null,
+      "gross_margin": 0.9148418491484185,
+      "op_margin": -0.0827250608272506,
+      "fcf_margin": -0.25060827250608275,
+      "rev_growth_yoy": 0.0,
+      "rev_growth_yoy_accel": -0.039473684210526314,
+      "fcf_margin_change": -0.33017427612271927
     }
   ],
   "signals": [
@@ -630,12 +630,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +113.0% vs prior quarter YoY: +107.8% (accel: +5.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -25.7% -> +27.0%",
@@ -691,5 +685,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:34.056027"
+  "last_updated": "2026-02-24T10:46:39.486105"
 }

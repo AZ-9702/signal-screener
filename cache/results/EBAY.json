@@ -1,25 +1,9 @@
 {
   "ticker": "EBAY",
   "name": "eBay Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2868000000,
-      "gross_profit": 2126000000,
-      "operating_income": 677000000,
-      "net_income": 845000000,
-      "opex": 1449000000,
-      "cogs": 742000000,
-      "rd": 299000000,
-      "sga": null,
-      "fcf": 603000000,
-      "ocf": 758000000,
-      "capex": -155000000,
-      "gross_margin": 0.7412831241283124,
-      "op_margin": 0.23605299860529985,
-      "fcf_margin": 0.2102510460251046
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -83000000,
       "gross_margin": 0.7277538868673503,
       "op_margin": 0.27853126033741316,
-      "fcf_margin": 0.3172345352299041,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.10698348920479947
+      "fcf_margin": 0.3172345352299041
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.734404898584003,
       "op_margin": 0.2632988901645618,
       "fcf_margin": 0.07271335629544584,
-      "incr_op_margin_yoy": -0.043137254901960784,
-      "rev_growth_yoy": -0.08891213389121339,
       "op_leverage_ratio": 0.7427429028388645,
       "fcf_margin_change": 0.03432871015390246
     },
@@ -119,7 +99,6 @@
       "fcf_margin": 0.21345146999597261,
       "incr_op_margin_yoy": 0.2777777777777778,
       "rev_growth_yoy": -0.17863049950380416,
-      "rev_growth_yoy_accel": -0.08971836561259078,
       "fcf_margin_change": 0.14073811370052677
     },
     {
@@ -430,10 +409,38 @@
       "incr_op_margin_yoy": -0.0778688524590164,
       "rev_growth_yoy": 0.09472049689440994,
       "rev_growth_yoy_accel": 0.03328970373733373,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2965000000,
+      "gross_profit": 2116000000,
+      "operating_income": 601000000,
+      "net_income": 528000000,
+      "opex": 1515000000,
+      "cogs": 849000000,
+      "rd": 436000000,
+      "sga": null,
+      "fcf": 466000000,
+      "ocf": 583000000,
+      "capex": -117000000,
+      "gross_margin": 0.7136593591905565,
+      "op_margin": 0.20269814502529512,
+      "fcf_margin": 0.15716694772344014,
+      "incr_op_margin_yoy": 0.15025906735751296,
+      "rev_growth_yoy": 0.14967041488949206,
+      "rev_growth_yoy_accel": 0.05494991799508213,
+      "op_leverage_ratio": 0.795309127351218
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.0% vs prior quarter YoY: +9.5% (accel: +5.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -529,24 +536,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.3% -> +21.3% (+14.1%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -17.9% vs prior quarter YoY: -8.9% (decel: -9.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +74.1% -> +72.8% -> +74.8% (reversal +2.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +21.0% -> +31.7% (+10.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -574,7 +563,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:01:53.584503",
-  "sector": "Consumer Cyclical",
-  "industry": "Internet Retail"
+  "last_updated": "2026-02-24T10:17:33.923893"
 }

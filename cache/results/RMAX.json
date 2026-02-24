@@ -1,25 +1,9 @@
 {
   "ticker": "RMAX",
   "name": "RE/MAX Holdings, Inc.",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 72449000,
-      "gross_profit": null,
-      "operating_income": 6748000,
-      "net_income": 1291000,
-      "opex": 65701000,
-      "cogs": null,
-      "rd": null,
-      "sga": 40757000,
-      "fcf": 27376000,
-      "ocf": 27376000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.09314138221369515,
-      "fcf_margin": 0.37786580905188477
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.04892454526592434,
-      "fcf_margin": 0.2881527076561311,
-      "fcf_margin_change": -0.08971310139575367
+      "fcf_margin": 0.2881527076561311
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.17360122206975118,
       "fcf_margin": 0.1230743339460943,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1650783737100368
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.11705528077790114,
       "fcf_margin": 0.28933526238462143,
-      "incr_op_margin_yoy": 0.22071317458418094,
-      "rev_growth_yoy": 0.2307002167041643,
       "fcf_margin_change": 0.43983472940001755
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.18133268867302535,
       "incr_op_margin_yoy": 0.21727510823667753,
       "rev_growth_yoy": 0.25878691472439314,
-      "rev_growth_yoy_accel": 0.02808669802022884,
       "op_leverage_ratio": 0.34762643885540717,
       "fcf_margin_change": -0.10800257371159608
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.23442315422752244,
       "rev_growth_yoy": 0.1932268337519095,
       "rev_growth_yoy_accel": -0.06556008097248364,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.061875660934230636
     },
     {
@@ -299,7 +279,7 @@
       "incr_op_margin_yoy": 0.3355355636772561,
       "rev_growth_yoy": -0.08330113230524233,
       "rev_growth_yoy_accel": -0.025873148006572512,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.007047645136204844
     },
     {
@@ -434,6 +414,28 @@
       "rev_growth_yoy": -0.06665562323198858,
       "rev_growth_yoy_accel": 0.006037581616774382,
       "fcf_margin_change": 0.17965107769563954
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 71137000,
+      "gross_profit": null,
+      "operating_income": 9318000,
+      "net_income": 1440000,
+      "opex": 61819000,
+      "cogs": null,
+      "rd": null,
+      "sga": 37333000,
+      "fcf": 12923000,
+      "ocf": 12923000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.13098668765902413,
+      "fcf_margin": 0.18166355061360473,
+      "incr_op_margin_yoy": -3.794736842105263,
+      "rev_growth_yoy": -0.018353181448107415,
+      "rev_growth_yoy_accel": 0.04830244178388116,
+      "fcf_margin_change": -0.06055797381743
     }
   ],
   "signals": [
@@ -547,12 +549,6 @@
     },
     {
       "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +22.1% vs year-ago OPM: +9.3%",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -41.3% -> +11.7%",
       "severity": "HIGH"
@@ -585,5 +581,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:33:25.981324"
+  "last_updated": "2026-02-24T10:20:37.739393"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "IEX",
   "name": "IDEX CORP",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 614822000,
-      "gross_profit": 269168000,
-      "operating_income": 138965000,
-      "net_income": 101068000,
-      "opex": 130203000,
-      "cogs": 345654000,
-      "rd": null,
-      "sga": 125185000,
-      "fcf": 149239000,
-      "ocf": 161401000,
-      "capex": -12162000,
-      "gross_margin": 0.43779825705651393,
-      "op_margin": 0.2260247681442759,
-      "fcf_margin": 0.24273529574413408
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -14600000,
       "gross_margin": 0.44878350275138185,
       "op_margin": 0.2385558466096964,
-      "fcf_margin": 0.14523737953119153,
-      "op_leverage_ratio": 1.146651915667107,
-      "fcf_margin_change": -0.09749791621294254
+      "fcf_margin": 0.14523737953119153
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.4396151080445105,
       "op_margin": 0.22665424357650693,
       "fcf_margin": 0.19012364332300874,
-      "incr_op_margin_yoy": 0.2305253260782588,
-      "rev_growth_yoy": 0.16260966588703724,
       "fcf_margin_change": -0.008887899908281427
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.08467580881373984,
       "incr_op_margin_yoy": 0.3235585076314302,
       "rev_growth_yoy": 0.1519302615193026,
-      "rev_growth_yoy_accel": -0.010679404367734624,
       "op_leverage_ratio": 2.888978064991579,
       "fcf_margin_change": -0.1054478345092689
     },
@@ -413,7 +392,7 @@
       "incr_op_margin_yoy": 0.08934707903780069,
       "rev_growth_yoy": 0.07210109018830525,
       "rev_growth_yoy_accel": 0.05486186470423279,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.057504448518893025
     },
     {
@@ -438,9 +417,44 @@
       "rev_growth_yoy_accel": 0.028750826624523607,
       "op_leverage_ratio": 6.279616362375781,
       "fcf_margin_change": 0.04500096774577883
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 899100000,
+      "gross_profit": 387100000,
+      "operating_income": 183600000,
+      "net_income": 128300000,
+      "opex": 203500000,
+      "cogs": 512000000,
+      "rd": null,
+      "sga": 201100000,
+      "fcf": 189800000,
+      "ocf": 209500000,
+      "capex": -19700000,
+      "gross_margin": 0.43054165276387496,
+      "op_margin": 0.2042042042042042,
+      "fcf_margin": 0.21109998887776665,
+      "incr_op_margin_yoy": 0.505524861878453,
+      "rev_growth_yoy": 0.041951558697415695,
+      "rev_growth_yoy_accel": -0.058900358115413165,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.003649072235241191
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.2% vs prior quarter YoY: +10.1% (decel: -5.9%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +50.6% vs year-ago OPM: +19.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -587,7 +601,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:01.257294",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:23:39.212253"
 }

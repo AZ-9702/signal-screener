@@ -1,6 +1,8 @@
 {
   "ticker": "TPG",
   "name": "TPG Inc.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -395,6 +397,28 @@
       "rev_growth_yoy_accel": 0.1933814777512067,
       "op_leverage_ratio": 2.0749925804605125,
       "fcf_margin_change": -0.017021372581015104
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1491282000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 77114000,
+      "opex": 1225093000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -43703000,
+      "ocf": -43703000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.029305657816563198,
+      "rev_growth_yoy": 0.3854167634386026,
+      "rev_growth_yoy_accel": -0.044923088069984574,
+      "op_leverage_ratio": 1.1648016175195288,
+      "fcf_margin_change": -0.4314602662118695
     }
   ],
   "signals": [
@@ -538,23 +562,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
         0,
-        19
+        20
       ],
       "op_income": [
         0,
-        19
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -565,5 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:15:27.370826"
+  "last_updated": "2026-02-24T10:39:03.653256"
 }

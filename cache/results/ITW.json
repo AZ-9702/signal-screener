@@ -1,25 +1,9 @@
 {
   "ticker": "ITW",
   "name": "ILLINOIS TOOL WORKS INC",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3475000000,
-      "gross_profit": 1475000000,
-      "operating_income": 883000000,
-      "net_income": null,
-      "opex": 592000000,
-      "cogs": 2000000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 705000000,
-      "ocf": 773000000,
-      "capex": -68000000,
-      "gross_margin": 0.4244604316546763,
-      "op_margin": 0.25410071942446044,
-      "fcf_margin": 0.20287769784172663
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -68000000,
       "gross_margin": 0.4246613995485327,
       "op_margin": 0.2553611738148984,
-      "fcf_margin": 0.15265237020316028,
-      "op_leverage_ratio": 1.4693525179856113,
-      "fcf_margin_change": -0.05022532763856635
+      "fcf_margin": 0.15265237020316028
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.4044577330796412,
       "op_margin": 0.22669203587931502,
       "fcf_margin": 0.1889100298994292,
-      "incr_op_margin_yoy": -0.24019607843137256,
-      "rev_growth_yoy": 0.05870503597122302,
       "op_leverage_ratio": 0.5454486458423465,
       "fcf_margin_change": 0.03480429311652708
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.06321401370906321,
       "incr_op_margin_yoy": -0.02531645569620253,
       "rev_growth_yoy": 0.11145598194130925,
-      "rev_growth_yoy_accel": 0.05275094597008623,
       "op_leverage_ratio": 1.4005782203662063,
       "fcf_margin_change": -0.125696016190366
     },
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.9625,
       "rev_growth_yoy": 0.02030972328002031,
       "rev_growth_yoy_accel": -0.05905967057700605,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01192271738203493
     },
     {
@@ -436,6 +415,28 @@
       "rev_growth_yoy": 0.023449319213313162,
       "rev_growth_yoy_accel": 0.0169929000427147,
       "fcf_margin_change": 0.11193281773339905
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4093000000,
+      "gross_profit": 2170000000,
+      "operating_income": 1085000000,
+      "net_income": null,
+      "opex": 1085000000,
+      "cogs": 1923000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 858000000,
+      "ocf": 963000000,
+      "capex": -105000000,
+      "gross_margin": 0.5301734668946982,
+      "op_margin": 0.2650867334473491,
+      "fcf_margin": 0.20962619105790373,
+      "incr_op_margin_yoy": 0.33540372670807456,
+      "rev_growth_yoy": 0.040946083418107834,
+      "rev_growth_yoy_accel": 0.017496764204794672,
+      "fcf_margin_change": -0.013088763364367761
     }
   ],
   "signals": [
@@ -516,12 +517,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +1.8% vs OpEx growth +0.9% (leverage: 2.1x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +11.1% vs prior quarter YoY: +5.9% (accel: +5.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -549,7 +544,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:54:05.484590",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:46:54.476266"
 }

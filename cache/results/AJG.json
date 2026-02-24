@@ -1,25 +1,9 @@
 {
   "ticker": "AJG",
   "name": "ARTHUR J. GALLAGHER & CO.",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1703600000,
-      "gross_profit": 1487300000,
-      "operating_income": null,
-      "net_income": 142200000,
-      "opex": 1569900000,
-      "cogs": 216300000,
-      "rd": null,
-      "sga": null,
-      "fcf": 419500000,
-      "ocf": 419500000,
-      "capex": null,
-      "gross_margin": 0.8730335759567974,
-      "op_margin": null,
-      "fcf_margin": 0.24624324958910543
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.857228637413395,
       "op_margin": null,
-      "fcf_margin": 0.1010161662817552,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.14522708330735024
+      "fcf_margin": 0.1010161662817552
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": 0.8838140619455569,
       "op_margin": null,
       "fcf_margin": 0.09231003193592538,
-      "rev_growth_yoy": 0.1579596149330829,
       "fcf_margin_change": -0.15153993532625776
     },
     {
@@ -117,8 +98,7 @@
       "op_margin": null,
       "fcf_margin": 0.08894181415020737,
       "rev_growth_yoy": 0.12484988452655889,
-      "rev_growth_yoy_accel": -0.033109730406524,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0033682177857180112
     },
     {
@@ -246,7 +226,7 @@
       "fcf_margin": 0.36003210272873193,
       "rev_growth_yoy": 0.2191780821917808,
       "rev_growth_yoy_accel": 0.023926001917674106,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3549540897060856
     },
     {
@@ -260,15 +240,15 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 693600000,
-      "ocf": 693600000,
+      "fcf": 693900000,
+      "ocf": 693900000,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.2852090957687405,
+      "fcf_margin": 0.2853324561042806,
       "rev_growth_yoy": 0.19898437114825224,
       "rev_growth_yoy_accel": -0.020193711043528573,
-      "fcf_margin_change": -0.07482300695999144
+      "fcf_margin_change": -0.07469964662445133
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -289,8 +269,8 @@
       "fcf_margin": 0.242361900082906,
       "rev_growth_yoy": 0.20346624293263368,
       "rev_growth_yoy_accel": 0.004481871784381447,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.04284719568583448
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.04297055602137459
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -346,15 +326,15 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 739300000,
-      "ocf": 739300000,
+      "fcf": 739400000,
+      "ocf": 739400000,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.27220176730486006,
+      "fcf_margin": 0.2722385861561119,
       "rev_growth_yoy": 0.1168222377564867,
       "rev_growth_yoy_accel": -0.009501999803705918,
-      "fcf_margin_change": -0.060846543939261366
+      "fcf_margin_change": -0.060809725088009525
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -376,7 +356,7 @@
       "rev_growth_yoy": 0.14453280928547302,
       "rev_growth_yoy_accel": 0.027710571528986316,
       "op_leverage_ratio": 3.173595235712141,
-      "fcf_margin_change": -0.038312192802525985
+      "fcf_margin_change": -0.038349011653777826
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -420,9 +400,37 @@
       "rev_growth_yoy_accel": 0.03860655726004325,
       "op_leverage_ratio": 0.3796190614663225,
       "fcf_margin_change": 0.3495829889766907
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3628200000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 151100000,
+      "opex": 667500000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 753000000,
+      "ocf": 753000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.20754092938647264,
+      "rev_growth_yoy": 0.33586156111929305,
+      "rev_growth_yoy_accel": 0.13677363180477117,
+      "op_leverage_ratio": 0.5226846341942866,
+      "fcf_margin_change": -0.009745735695533525
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +33.6% vs prior quarter YoY: +19.9% (accel: +13.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -522,7 +530,7 @@
         20
       ],
       "gross_profit": [
-        7,
+        6,
         20
       ],
       "op_income": [
@@ -536,13 +544,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 7/20Q",
+      "gross_profit: 6/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:56:47.587932",
-  "sector": "Financial Services",
-  "industry": "Insurance Brokers"
+  "last_updated": "2026-02-24T10:34:52.969034"
 }

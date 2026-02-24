@@ -1,25 +1,9 @@
 {
   "ticker": "MAC",
   "name": "MACERICH CO",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 194643000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -190418000,
-      "opex": 186574000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 59710000,
-      "ocf": 59710000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.3067667473271579
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.27422488761920766,
-      "fcf_margin_change": -0.03254185970795026
+      "fcf_margin": 0.27422488761920766
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.2822070514635244,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00798216384431677
     },
     {
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.325780395199714,
-      "rev_growth_yoy": 0.1785833551681797,
       "op_leverage_ratio": 0.9313440291033002,
       "fcf_margin_change": -0.1390418658862823
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.30277962839588424,
       "rev_growth_yoy": 0.13506700836029073,
-      "rev_growth_yoy_accel": -0.04351634680788896,
       "fcf_margin_change": -0.023000766803829786
     },
     {
@@ -268,7 +249,7 @@
       "fcf_margin": 0.20689351789784152,
       "rev_growth_yoy": 0.045845108993318,
       "rev_growth_yoy_accel": 0.010496942845546718,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2854145975446023
     },
     {
@@ -311,7 +292,7 @@
       "fcf_margin": 0.31287438347075225,
       "rev_growth_yoy": 0.014818198084511286,
       "rev_growth_yoy_accel": 0.04307459545202597,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.020249983974624686
     },
     {
@@ -421,9 +402,43 @@
       "rev_growth_yoy_accel": -0.008999327046214672,
       "op_leverage_ratio": 7.407528521067916,
       "fcf_margin_change": 0.16145994057009755
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 261704000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -18760000,
+      "opex": 281693000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 50204000,
+      "ocf": 50204000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1918350502858191,
+      "rev_growth_yoy": -0.04374515850860141,
+      "rev_growth_yoy_accel": -0.19376513816567784,
+      "op_leverage_ratio": 15.59011537590629,
+      "fcf_margin_change": -0.2519346427593278
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3.3% vs OpEx growth +0.2% (leverage: 15.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.4% vs prior quarter YoY: +15.0% (decel: -19.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -549,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:06:42.226563",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-24T10:15:49.626517"
 }

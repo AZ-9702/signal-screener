@@ -1,25 +1,9 @@
 {
   "ticker": "EPC",
   "name": "EDGEWELL PERSONAL CARE COMPANY",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 451100000,
-      "gross_profit": 193300000,
-      "operating_income": 41600000,
-      "net_income": 17700000,
-      "opex": 151700000,
-      "cogs": 257800000,
-      "rd": 13700000,
-      "sga": 93100000,
-      "fcf": -82500000,
-      "ocf": -82500000,
-      "capex": null,
-      "gross_margin": 0.42850809133229883,
-      "op_margin": 0.09221902017291066,
-      "fcf_margin": -0.18288627798714255
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.46543423839784326,
       "op_margin": 0.12112459079530137,
-      "fcf_margin": 0.12266512613133064,
-      "op_leverage_ratio": 0.8463068137664307,
-      "fcf_margin_change": 0.3055514041184732
+      "fcf_margin": 0.12266512613133064
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.4098856032808116,
       "op_margin": 0.06863803151305849,
       "fcf_margin": -0.1705158644506799,
-      "incr_op_margin_yoy": -0.8032786885245902,
-      "rev_growth_yoy": 0.027045001108401686,
       "fcf_margin_change": -0.3050887657761585
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.0713894467774329,
       "incr_op_margin_yoy": -0.7464788732394366,
       "rev_growth_yoy": 0.05468900442903909,
-      "rev_growth_yoy_accel": 0.027644003320637402,
       "op_leverage_ratio": 0.9505377906666125,
       "fcf_margin_change": 0.24190531122811282
     },
@@ -436,9 +415,37 @@
       "rev_growth_yoy": 0.03786707882534776,
       "rev_growth_yoy_accel": 0.06966701707789484,
       "fcf_margin_change": -0.045098260823316666
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 422800000,
+      "gross_profit": 161000000,
+      "operating_income": -18900000,
+      "net_income": -65700000,
+      "opex": 179900000,
+      "cogs": 261800000,
+      "rd": 13800000,
+      "sga": 102400000,
+      "fcf": -125900000,
+      "ocf": -125900000,
+      "capex": null,
+      "gross_margin": 0.38079470198675497,
+      "op_margin": -0.04470198675496689,
+      "fcf_margin": -0.2977767265846736,
+      "incr_op_margin_yoy": 0.7050359712230215,
+      "rev_growth_yoy": -0.11622073578595318,
+      "rev_growth_yoy_accel": -0.15408781461130094,
+      "fcf_margin_change": -0.4357141800470712
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -11.6% vs prior quarter YoY: +3.8% (decel: -15.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -618,12 +625,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.3% -> +30.5% (+18.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -18.3% -> +12.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -651,7 +652,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:04:36.678451",
-  "sector": "Consumer Defensive",
-  "industry": "Household & Personal Products"
+  "last_updated": "2026-02-24T11:07:53.687079"
 }

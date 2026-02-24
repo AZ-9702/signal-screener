@@ -1,6 +1,8 @@
 {
   "ticker": "FOXX",
   "name": "Foxx Development Holdings Inc.",
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
   "quarters": [
     {
       "date": "2023-12-31T00:00:00",
@@ -142,7 +144,7 @@
       "incr_op_margin_yoy": -0.0702870983262215,
       "rev_growth_yoy": 6.4046626381054,
       "rev_growth_yoy_accel": -14.765987141201617,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12115011197345463
     },
     {
@@ -167,9 +169,42 @@
       "rev_growth_yoy_accel": -6.529651583266998,
       "op_leverage_ratio": 62.48528396291695,
       "fcf_margin_change": 0.11818260700315805
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 16716572,
+      "gross_profit": 2216780,
+      "operating_income": -2222571,
+      "net_income": -4285914,
+      "opex": 4439351,
+      "cogs": 14499792,
+      "rd": 193208,
+      "sga": null,
+      "fcf": 284174,
+      "ocf": 284174,
+      "capex": null,
+      "gross_margin": 0.13260972405107938,
+      "op_margin": -0.13295614675066156,
+      "fcf_margin": 0.016999537943544883,
+      "rev_growth_yoy": -0.0436870084840412,
+      "rev_growth_yoy_accel": 0.08130193667755672,
+      "fcf_margin_change": 0.035629681459680054
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.9% -> +1.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -4.4% vs prior quarter YoY: -12.5% (accel: +8.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -250,23 +285,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 8,
+    "n_quarters": 9,
     "coverage": {
       "revenue": [
-        8,
-        8
+        9,
+        9
       ],
       "gross_profit": [
-        8,
-        8
+        9,
+        9
       ],
       "op_income": [
-        8,
-        8
+        9,
+        9
       ],
       "fcf": [
-        8,
-        8
+        9,
+        9
       ]
     },
     "gaps": [],
@@ -274,7 +309,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:51:06.222782",
-  "sector": "Technology",
-  "industry": "Consumer Electronics"
+  "last_updated": "2026-02-24T10:41:23.351953"
 }

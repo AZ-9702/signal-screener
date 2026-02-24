@@ -1,25 +1,9 @@
 {
   "ticker": "UPS",
   "name": "United Parcel Service, Inc.",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 24896000000,
-      "gross_profit": null,
-      "operating_income": 2037000000,
-      "net_income": -3347000000,
-      "opex": 22859000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -1017000000,
-      "ocf": 1176000000,
-      "capex": -2193000000,
-      "gross_margin": null,
-      "op_margin": 0.08182037275064268,
-      "fcf_margin": -0.040849935732647814
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -834000000,
       "gross_margin": null,
       "op_margin": 0.12070019207263838,
-      "fcf_margin": 0.1613846691112275,
-      "fcf_margin_change": 0.20223460484387532
+      "fcf_margin": 0.1613846691112275
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.1401101868856001,
       "fcf_margin": 0.05840625112527457,
-      "incr_op_margin_yoy": 0.6448695652173912,
-      "rev_growth_yoy": 0.11548039845758355,
       "op_leverage_ratio": 1.117489060115186,
       "fcf_margin_change": -0.045415349978935225
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.16129296907047339,
       "incr_op_margin_yoy": 0.3306122448979592,
       "rev_growth_yoy": 0.0641697223677318,
-      "rev_growth_yoy_accel": -0.05131067608985175,
       "fcf_margin_change": 0.10288671794519882
     },
     {
@@ -434,9 +414,38 @@
       "rev_growth_yoy": -0.03731175545066307,
       "rev_growth_yoy_accel": -0.009949027427929549,
       "fcf_margin_change": 0.10712514419838154
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 24479000000,
+      "gross_profit": null,
+      "operating_income": 2575000000,
+      "net_income": 1791000000,
+      "opex": 21904000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2586000000,
+      "ocf": 3302000000,
+      "capex": -716000000,
+      "gross_margin": null,
+      "op_margin": 0.10519220556395277,
+      "fcf_margin": 0.1056415703255852,
+      "incr_op_margin_yoy": 0.42700729927007297,
+      "rev_growth_yoy": -0.032488834433421605,
+      "rev_growth_yoy_accel": 0.004822921017241466,
+      "op_leverage_ratio": 1.2236757883859952,
+      "fcf_margin_change": 0.03503685400524899
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +42.7% vs year-ago OPM: +11.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -553,20 +562,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +6.4% vs prior quarter YoY: +11.5% (decel: -5.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +33.1% vs year-ago OPM: +12.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +64.5% vs year-ago OPM: +8.2%",
       "severity": "HIGH"
     },
     {
@@ -574,12 +571,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +2.3% vs OpEx growth +0.1% (leverage: 19.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -4.1% -> +16.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -609,5 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:21.228355"
+  "last_updated": "2026-02-24T10:40:17.868777"
 }

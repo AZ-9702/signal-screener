@@ -1,25 +1,9 @@
 {
   "ticker": "DEI",
   "name": "Douglas Emmett, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 215390000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 17695000,
-      "opex": 182655000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 63489000,
-      "ocf": 63489000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.29476298806815543
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5781178483090224,
-      "fcf_margin_change": 0.2833548602408669
+      "fcf_margin": 0.5781178483090224
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.449521042319093,
-      "rev_growth_yoy": 0.10892799108593713,
       "fcf_margin_change": -0.044694971515463144
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.5838447434298105,
       "rev_growth_yoy": 0.10442682447583163,
-      "rev_growth_yoy_accel": -0.004501166610105509,
       "fcf_margin_change": 0.1343237011107175
     },
     {
@@ -418,6 +399,27 @@
       "rev_growth_yoy": -0.0006899219550713252,
       "rev_growth_yoy_accel": -0.02777545070674459,
       "fcf_margin_change": 0.11603097319127836
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 249433000,
+      "gross_profit": 155075000,
+      "operating_income": null,
+      "net_income": -6844000,
+      "opex": 204678000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 63157000,
+      "ocf": 63157000,
+      "capex": null,
+      "gross_margin": 0.6217100383670164,
+      "op_margin": null,
+      "fcf_margin": 0.2532022627318759,
+      "rev_growth_yoy": 0.018181150221039354,
+      "rev_growth_yoy_accel": 0.018871072176110677,
+      "fcf_margin_change": -0.1848574387606614
     }
   ],
   "signals": [
@@ -480,12 +482,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.0% vs OpEx growth +1.4% (leverage: 2.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +29.5% -> +57.8% (+28.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -496,7 +492,7 @@
         20
       ],
       "gross_profit": [
-        15,
+        16,
         20
       ],
       "op_income": [
@@ -510,13 +506,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 15/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:34:46.106175",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-24T10:16:42.036064"
 }

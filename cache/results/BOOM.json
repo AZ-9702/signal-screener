@@ -1,25 +1,9 @@
 {
   "ticker": "BOOM",
-  "name": "DMC GLOBAL INC.",
+  "name": "DMC Global Inc.",
+  "sector": "Industrials",
+  "industry": "Conglomerates",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 57113000,
-      "gross_profit": 12186000,
-      "operating_income": -818000,
-      "net_income": -927000,
-      "opex": 13004000,
-      "cogs": 44927000,
-      "rd": null,
-      "sga": null,
-      "fcf": 4837000,
-      "ocf": 9008000,
-      "capex": -4171000,
-      "gross_margin": 0.21336648398788366,
-      "op_margin": -0.01432248349762751,
-      "fcf_margin": 0.08469175144012747
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1365000,
       "gross_margin": 0.23200618060296813,
       "op_margin": -0.012756477056308167,
-      "fcf_margin": 0.014571130834740738,
-      "fcf_margin_change": -0.07012062060538674
+      "fcf_margin": 0.014571130834740738
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.18002895161739324,
       "op_margin": -0.07651300038973331,
       "fcf_margin": -0.18396804186849283,
-      "incr_op_margin_yoy": -0.3176294888330731,
-      "rev_growth_yoy": 0.2579272669970059,
       "op_leverage_ratio": 0.37132329681976717,
       "fcf_margin_change": -0.19913737569804252
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.044118919230658325,
       "incr_op_margin_yoy": -0.038527294179970625,
       "rev_growth_yoy": 1.492292213158935,
-      "rev_growth_yoy_accel": 1.234364946161929,
       "op_leverage_ratio": 0.7663825514684193,
       "fcf_margin_change": 0.1398491226378345
     },
@@ -167,7 +147,7 @@
       "incr_op_margin_yoy": 0.11430701836145027,
       "rev_growth_yoy": 1.597171566803126,
       "rev_growth_yoy_accel": 0.06300181833893093,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0824367292487172
     },
     {
@@ -235,7 +215,7 @@
       "incr_op_margin_yoy": 0.747383173476985,
       "rev_growth_yoy": 0.13768836948459576,
       "rev_growth_yoy_accel": -0.19122105696945427,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01924331142538412
     },
     {
@@ -325,7 +305,7 @@
       "incr_op_margin_yoy": 0.8757220474692594,
       "rev_growth_yoy": -0.09267798838146123,
       "rev_growth_yoy_accel": 0.002102879683700626,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06394754940875848
     },
     {
@@ -437,9 +417,37 @@
       "rev_growth_yoy": -0.005884706978330895,
       "rev_growth_yoy_accel": 0.08578541610919736,
       "fcf_margin_change": 0.015518182888742113
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 143531000,
+      "gross_profit": 24494000,
+      "operating_income": -11130000,
+      "net_income": -11164000,
+      "opex": 35624000,
+      "cogs": 119037000,
+      "rd": null,
+      "sga": null,
+      "fcf": 9634000,
+      "ocf": 15194000,
+      "capex": -5560000,
+      "gross_margin": 0.17065302965909804,
+      "op_margin": -0.07754422389588311,
+      "fcf_margin": 0.06712138841086594,
+      "incr_op_margin_yoy": 1.1799163179916319,
+      "rev_growth_yoy": -0.05803483533936236,
+      "rev_growth_yoy_accel": -0.05215012836103146,
+      "fcf_margin_change": -0.0276638714682355
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -5.8% vs prior quarter YoY: -0.6% (decel: -5.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -597,12 +605,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +149.2% vs prior quarter YoY: +25.8% (accel: +123.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -15.4% -> +1.5%",
@@ -646,7 +648,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:04:21.885962",
-  "sector": "Industrials",
-  "industry": "Conglomerates"
+  "last_updated": "2026-02-24T10:06:06.434117"
 }

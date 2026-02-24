@@ -1,25 +1,9 @@
 {
   "ticker": "ES",
   "name": "EVERSOURCE ENERGY",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2233933000,
-      "gross_profit": null,
-      "operating_income": 454728000,
-      "net_income": 273803000,
-      "opex": 1779205000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -655069000,
-      "ocf": 186363000,
-      "capex": -841432000,
-      "gross_margin": null,
-      "op_margin": 0.2035548962301018,
-      "fcf_margin": -0.293235741626987
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -688983000,
       "gross_margin": null,
       "op_margin": 0.20721909237607225,
-      "fcf_margin": -0.0982245987033944,
-      "op_leverage_ratio": 1.0224575431274177,
-      "fcf_margin_change": 0.19501114292359262
+      "fcf_margin": -0.0982245987033944
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.19050546896688159,
       "fcf_margin": -0.21016731851599954,
-      "incr_op_margin_yoy": 0.07294943140575853,
-      "rev_growth_yoy": 0.11100601495210465,
       "op_leverage_ratio": 0.6600545086815734,
       "fcf_margin_change": -0.1793036284542845
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.11311406932829393,
       "incr_op_margin_yoy": 0.12004740731559949,
       "rev_growth_yoy": 0.22841703705800753,
-      "rev_growth_yoy_accel": 0.11741102210590289,
       "op_leverage_ratio": 1.0021916268589197,
       "fcf_margin_change": 0.09705324918770561
     },
@@ -438,9 +417,44 @@
       "rev_growth_yoy_accel": -0.06882247681145004,
       "op_leverage_ratio": 0.8214112749569326,
       "fcf_margin_change": -0.013568572284486347
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3370196000,
+      "gross_profit": null,
+      "operating_income": 710464000,
+      "net_income": null,
+      "opex": 2659732000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -67254000,
+      "ocf": 916057000,
+      "capex": -983311000,
+      "gross_margin": null,
+      "op_margin": 0.21080791740302343,
+      "fcf_margin": -0.019955515940319198,
+      "incr_op_margin_yoy": 0.9095001855994863,
+      "rev_growth_yoy": 0.1341778933652096,
+      "rev_growth_yoy_accel": 0.08279379608730894,
+      "op_leverage_ratio": 0.9201691955053437,
+      "fcf_margin_change": -0.011775116173193252
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +13.4% vs prior quarter YoY: +5.1% (accel: +8.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +91.0% vs year-ago OPM: +11.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -556,21 +570,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +22.8% vs prior quarter YoY: +11.1% (accel: +11.7%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -15.9% -> -3.1% (+12.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -29.3% -> -9.8% (+19.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -601,7 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:11:46.051252",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:37:33.705502"
 }

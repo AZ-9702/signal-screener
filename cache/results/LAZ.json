@@ -1,25 +1,9 @@
 {
   "ticker": "LAZ",
-  "name": "Lazard, Inc.",
+  "name": "LAZARD, INC.",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 898326000,
-      "gross_profit": null,
-      "operating_income": 217499000,
-      "net_income": 189889000,
-      "opex": 660655000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 290449000,
-      "ocf": 320525000,
-      "capex": -30076000,
-      "gross_margin": null,
-      "op_margin": 0.24211589111302578,
-      "fcf_margin": 0.32332249094426746
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7498000,
       "gross_margin": null,
       "op_margin": 0.1975131783310585,
-      "fcf_margin": -0.19243599096343014,
-      "fcf_margin_change": -0.5157584819076976
+      "fcf_margin": -0.19243599096343014
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.2649359573713939,
       "fcf_margin": 0.432888281576279,
-      "incr_op_margin_yoy": 0.4439505741605903,
-      "rev_growth_yoy": 0.12747599423817188,
       "op_leverage_ratio": 1.2977478455928702,
       "fcf_margin_change": -0.096012908030217
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.3170312115999017,
       "incr_op_margin_yoy": 0.7019315673289184,
       "rev_growth_yoy": 0.05330164258483551,
-      "rev_growth_yoy_accel": -0.07417435165333637,
       "fcf_margin_change": -0.7499194931761808
     },
     {
@@ -435,9 +415,44 @@
       "rev_growth_yoy": -0.04539183120431402,
       "rev_growth_yoy_accel": -0.19958729414098975,
       "fcf_margin_change": 0.32277090042880263
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 929378000,
+      "gross_profit": null,
+      "operating_income": 84952000,
+      "net_income": 49863000,
+      "opex": 821769000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 396118000,
+      "ocf": 399698000,
+      "capex": -3580000,
+      "gross_margin": null,
+      "op_margin": 0.09140737138171982,
+      "fcf_margin": 0.4262183955290528,
+      "incr_op_margin_yoy": -0.24493138556883576,
+      "rev_growth_yoy": 0.10769733188084166,
+      "rev_growth_yoy_accel": 0.1530891630851557,
+      "op_leverage_ratio": 0.7971132649559871,
+      "fcf_margin_change": 0.056952316677419845
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +36.9% -> +42.6% (+5.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +10.8% vs prior quarter YoY: -4.5% (accel: +15.3%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -638,20 +653,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +5.3% vs prior quarter YoY: +12.7% (decel: -7.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +70.2% vs year-ago OPM: +19.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +44.4% vs year-ago OPM: +24.2%",
       "severity": "HIGH"
     },
     {
@@ -694,7 +697,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:03:52.084067",
-  "sector": "Financial Services",
-  "industry": "Capital Markets"
+  "last_updated": "2026-02-24T10:07:55.927445"
 }

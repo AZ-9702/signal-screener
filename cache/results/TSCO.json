@@ -1,25 +1,9 @@
 {
   "ticker": "TSCO",
   "name": "TRACTOR SUPPLY CO /DE/",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 10620352000,
-      "gross_profit": 995530000,
-      "operating_income": 184467000,
-      "net_income": 135893000,
-      "opex": 811063000,
-      "cogs": 1882735000,
-      "rd": null,
-      "sga": 683600000,
-      "fcf": 256830000,
-      "ocf": 389540000,
-      "capex": -132710000,
-      "gross_margin": 0.09373794766877783,
-      "op_margin": 0.01736919830905793,
-      "fcf_margin": 0.024182814279602033
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -100741000,
       "gross_margin": 0.3523143346645962,
       "op_margin": 0.0825602649537878,
-      "fcf_margin": 0.02735200921379089,
-      "fcf_margin_change": 0.0031691949341888584
+      "fcf_margin": 0.02735200921379089
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.3375963008889869,
       "op_margin": 0.0882883176010248,
       "fcf_margin": 0.006269424369833976,
-      "incr_op_margin_yoy": -0.014872755602331056,
-      "rev_growth_yoy": -0.6874600766528266,
       "op_leverage_ratio": 1.9953601989977505,
       "fcf_margin_change": 0.04053103317004975
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.017631836176463196,
       "incr_op_margin_yoy": 0.05931940154273586,
       "rev_growth_yoy": 0.08301150004870474,
-      "rev_growth_yoy_accel": 0.7704715767015313,
       "fcf_margin_change": -0.02390126054629717
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy": 0.07231294213644077,
       "rev_growth_yoy_accel": 0.026839857882650343,
       "fcf_margin_change": -0.12146846741332011
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3898320000,
+      "gross_profit": 1369879000,
+      "operating_income": 297731000,
+      "net_income": 1096087000,
+      "opex": 1072148000,
+      "cogs": 2528441000,
+      "rd": null,
+      "sga": 944385000,
+      "fcf": 59277000,
+      "ocf": 324834000,
+      "capex": -265557000,
+      "gross_margin": 0.3514023989821256,
+      "op_margin": 0.07637418169878307,
+      "fcf_margin": 0.01520578095179462,
+      "incr_op_margin_yoy": -0.1652228962488681,
+      "rev_growth_yoy": 0.033069557398627436,
+      "rev_growth_yoy_accel": -0.03924338473781333,
+      "op_leverage_ratio": 1.9686827710903203,
+      "fcf_margin_change": 0.0070636347443284
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +4.8% vs OpEx growth +2.4% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -548,12 +557,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +8.3% vs prior quarter YoY: -68.7% (accel: +77.0%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.4% -> +0.6%",
@@ -603,5 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:19.848633"
+  "last_updated": "2026-02-24T10:21:38.876521"
 }

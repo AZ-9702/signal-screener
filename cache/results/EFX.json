@@ -1,25 +1,9 @@
 {
   "ticker": "EFX",
-  "name": "EQUIFAX INC",
+  "name": "EQUIFAX\u00a0INC.",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1118500000,
-      "gross_profit": 637600000,
-      "operating_income": 169500000,
-      "net_income": 74500000,
-      "opex": 949000000,
-      "cogs": 480900000,
-      "rd": null,
-      "sga": 366600000,
-      "fcf": 297200000,
-      "ocf": 297200000,
-      "capex": null,
-      "gross_margin": 0.5700491729995529,
-      "op_margin": 0.15154224407688868,
-      "fcf_margin": 0.2657130084935181
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.6015663643858202,
       "op_margin": 0.25276174773289367,
-      "fcf_margin": 0.11821929101401484,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.14749371747950324
+      "fcf_margin": 0.11821929101401484
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.5805936801787425,
       "op_margin": 0.2012448132780083,
       "fcf_margin": 0.30745292052345996,
-      "incr_op_margin_yoy": 0.6139569413511508,
-      "rev_growth_yoy": 0.12042914617791685,
       "op_leverage_ratio": 0.45869156769045305,
       "fcf_margin_change": -0.01833005437227969
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.14561326291079812,
       "incr_op_margin_yoy": 0.17177097203728361,
       "rev_growth_yoy": 0.12382522671063478,
-      "rev_growth_yoy_accel": 0.003396080532717935,
       "op_leverage_ratio": 2.9484251858865465,
       "fcf_margin_change": -0.4530661834342581
     },
@@ -232,7 +211,7 @@
       "fcf_margin": 0.1989222829386764,
       "rev_growth_yoy": 0.000683526999316473,
       "rev_growth_yoy_accel": 0.045577893196499575,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08302366542715565
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": 0.4012400354295837,
       "rev_growth_yoy": 0.08568609593199757,
       "rev_growth_yoy_accel": 0.018558599772243348,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.005120484064520647
     },
     {
@@ -436,6 +415,28 @@
       "rev_growth_yoy": 0.07150783742544042,
       "rev_growth_yoy_accel": -0.0029416557587609027,
       "fcf_margin_change": 0.12748008821857362
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1550600000,
+      "gross_profit": 889400000,
+      "operating_income": 284200000,
+      "net_income": 175800000,
+      "opex": 1266400000,
+      "cogs": 661200000,
+      "rd": null,
+      "sga": 421000000,
+      "fcf": 470800000,
+      "ocf": 470800000,
+      "capex": null,
+      "gross_margin": 0.573584418934606,
+      "op_margin": 0.18328389010705534,
+      "fcf_margin": 0.3036244034567264,
+      "incr_op_margin_yoy": -0.02972560975609756,
+      "rev_growth_yoy": 0.09243342257291813,
+      "rev_growth_yoy_accel": 0.020925585147477707,
+      "fcf_margin_change": -0.05879387604356484
     }
   ],
   "signals": [
@@ -548,12 +549,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +61.4% vs year-ago OPM: +15.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +11.8% -> +33.0% (+21.2%)",
@@ -585,7 +580,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:12:28.892009",
-  "sector": "Industrials",
-  "industry": "Consulting Services"
+  "last_updated": "2026-02-24T10:21:48.126553"
 }

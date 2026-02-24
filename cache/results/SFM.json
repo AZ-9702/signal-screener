@@ -1,25 +1,9 @@
 {
   "ticker": "SFM",
   "name": "Sprouts Farmers Market, Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Grocery Stores",
   "quarters": [
-    {
-      "date": "2021-01-03T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 1601834000,
-      "gross_profit": 588029000,
-      "operating_income": 92932000,
-      "net_income": 68397000,
-      "opex": 495097000,
-      "cogs": 1013805000,
-      "rd": null,
-      "sga": 463635000,
-      "fcf": 57677000,
-      "ocf": 83771000,
-      "capex": -26094000,
-      "gross_margin": 0.3670973396743982,
-      "op_margin": 0.05801599916096175,
-      "fcf_margin": 0.036006852145727956
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -16605000,
       "gross_margin": 0.37206837170656964,
       "op_margin": 0.07187483933131358,
-      "fcf_margin": 0.056385901905935266,
-      "fcf_margin_change": 0.02037904976020731
+      "fcf_margin": 0.056385901905935266
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.3572008499486869,
       "op_margin": 0.03442064421394484,
       "fcf_margin": 0.02396308671781007,
-      "incr_op_margin_yoy": 0.38105064289513746,
-      "rev_growth_yoy": -0.06807072393269215,
       "fcf_margin_change": -0.03483597239125816
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.07665427097036794,
       "incr_op_margin_yoy": 0.09748303253492406,
       "rev_growth_yoy": 0.04171133652861696,
-      "rev_growth_yoy_accel": 0.1097820604613091,
       "op_leverage_ratio": 4.666661978545606,
       "fcf_margin_change": 0.052691184252557866
     },
@@ -434,9 +414,37 @@
       "rev_growth_yoy": 0.13089912038381382,
       "rev_growth_yoy_accel": -0.041839045961493515,
       "fcf_margin_change": 0.02791359299751146
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2148691000,
+      "gross_profit": 816375000,
+      "operating_income": 123072000,
+      "net_income": 89825000,
+      "opex": 693303000,
+      "cogs": 1332316000,
+      "rd": null,
+      "sga": 653005000,
+      "fcf": 66341000,
+      "ocf": 138527000,
+      "capex": -72186000,
+      "gross_margin": 0.3799406243149899,
+      "op_margin": 0.05727766347045713,
+      "fcf_margin": 0.03087507696546409,
+      "incr_op_margin_yoy": 0.10893790624610561,
+      "rev_growth_yoy": 0.07637554427650549,
+      "rev_growth_yoy_accel": -0.05452357610730833,
+      "fcf_margin_change": -0.01973866671190806
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +7.6% vs prior quarter YoY: +13.1% (decel: -5.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
@@ -508,18 +516,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.9% vs OpEx growth +2.1% (leverage: 4.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +4.2% vs prior quarter YoY: -6.8% (accel: +11.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +38.1% vs year-ago OPM: +5.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -547,5 +543,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:51:37.623437"
+  "last_updated": "2026-02-24T10:17:40.923568"
 }

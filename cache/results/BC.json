@@ -1,25 +1,9 @@
 {
   "ticker": "BC",
-  "name": "BRUNSWICK CORPORATION",
+  "name": "Brunswick Corporation",
+  "sector": "Consumer Cyclical",
+  "industry": "Recreational Vehicles",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1161100000,
-      "gross_profit": 336300000,
-      "operating_income": 136500000,
-      "net_income": 95100000,
-      "opex": 199800000,
-      "cogs": 824800000,
-      "rd": 38100000,
-      "sga": 161900000,
-      "fcf": 95600000,
-      "ocf": 157400000,
-      "capex": -61800000,
-      "gross_margin": 0.28963913530273017,
-      "op_margin": 0.11756093359745069,
-      "fcf_margin": 0.08233571613125484
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -42900000,
       "gross_margin": 0.2911666201507117,
       "op_margin": 0.1618057493720346,
-      "fcf_margin": -0.024141780630756348,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.1064774967620112
+      "fcf_margin": -0.024141780630756348
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.26331236897274635,
       "op_margin": 0.08511530398322852,
       "fcf_margin": 0.015723270440251572,
-      "incr_op_margin_yoy": -0.054464616524638756,
-      "rev_growth_yoy": 0.23245198518646112,
       "fcf_margin_change": -0.021622581577685648
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.1431857050185764,
       "incr_op_margin_yoy": 0.02895238095238095,
       "rev_growth_yoy": 0.1831565727044376,
-      "rev_growth_yoy_accel": -0.049295412482023515,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15890897545882796
     },
     {
@@ -321,7 +300,7 @@
       "incr_op_margin_yoy": 0.13970588235294118,
       "rev_growth_yoy": -0.15179463079363215,
       "rev_growth_yoy_accel": 0.06534232722426186,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.26545340800898665
     },
     {
@@ -388,7 +367,7 @@
       "incr_op_margin_yoy": 0.3791899441340782,
       "rev_growth_yoy": -0.1049084249084249,
       "rev_growth_yoy_accel": 0.04708511353052068,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.29235036049079866
     },
     {
@@ -435,9 +414,49 @@
       "rev_growth_yoy": 0.0682478598916202,
       "rev_growth_yoy_accel": 0.06610089680553391,
       "fcf_margin_change": -0.10919405221822436
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1333800000,
+      "gross_profit": 307800000,
+      "operating_income": 41900000,
+      "net_income": 18700000,
+      "opex": 258100000,
+      "cogs": 1026000000,
+      "rd": 45000000,
+      "sga": 210700000,
+      "fcf": 83600000,
+      "ocf": 132900000,
+      "capex": -49300000,
+      "gross_margin": 0.23076923076923078,
+      "op_margin": 0.031414005098215625,
+      "fcf_margin": 0.06267806267806268,
+      "incr_op_margin_yoy": 0.5455561766349916,
+      "rev_growth_yoy": 0.1549051865962421,
+      "rev_growth_yoy_accel": 0.08665732670462191,
+      "fcf_margin_change": -0.015619246541169779
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.5% vs prior quarter YoY: +6.8% (accel: +8.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -4.8% (year-ago) -> +3.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -17.8% -> +3.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -632,7 +651,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:58:57.957925",
-  "sector": "Consumer Cyclical",
-  "industry": "Recreational Vehicles"
+  "last_updated": "2026-02-24T10:41:12.421915"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "HIMS",
   "name": "HIMS & HERS HEALTH, INC.",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 41466000,
-      "gross_profit": 31892000,
-      "operating_income": -2083306,
-      "net_income": -2039488,
-      "opex": 36518000,
-      "cogs": 9574000,
-      "rd": null,
-      "sga": 17204000,
-      "fcf": -269000,
-      "ocf": -269000,
-      "capex": null,
-      "gross_margin": 0.7691120436019871,
-      "op_margin": -0.05024130613032364,
-      "fcf_margin": -0.006487242560169778
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.7693351684061628,
       "op_margin": -0.9253545895936078,
-      "fcf_margin": -0.30485147379286615,
-      "op_leverage_ratio": 0.18323572451744896,
-      "fcf_margin_change": -0.29836423123269634
+      "fcf_margin": -0.30485147379286615
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.7789659263164832,
       "op_margin": -0.28680880511434786,
       "fcf_margin": 0.009902458314110591,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3147539321069767
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.733160958216744,
       "op_margin": -0.25460749241431424,
       "fcf_margin": -0.036659228562320685,
-      "incr_op_margin_yoy": -0.45062091457914094,
-      "rev_growth_yoy": 1.0426132252930111,
       "op_leverage_ratio": 10.364938008475521,
       "fcf_margin_change": 0.17851340838104146
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.1915135124464536,
       "incr_op_margin_yoy": 0.6426530612244898,
       "rev_growth_yoy": 0.9366517566999274,
-      "rev_growth_yoy_accel": -0.10596146859308375,
       "op_leverage_ratio": 2.048399002400778,
       "fcf_margin_change": -0.15485428388413292
     },
@@ -445,9 +424,44 @@
       "rev_growth_yoy_accel": -0.2344402528384475,
       "op_leverage_ratio": 0.94914015126855,
       "fcf_margin_change": 0.28337990105822164
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 617818000,
+      "gross_profit": 444435000,
+      "operating_income": 9186000,
+      "net_income": 20601000,
+      "opex": 435249000,
+      "cogs": 173383000,
+      "rd": null,
+      "sga": null,
+      "fcf": 61312000,
+      "ocf": 61312000,
+      "capex": null,
+      "gross_margin": 0.7193623364809701,
+      "op_margin": 0.014868456406255564,
+      "fcf_margin": 0.09923958188333781,
+      "incr_op_margin_yoy": -0.06884744547443279,
+      "rev_growth_yoy": 0.2840738331334604,
+      "rev_growth_yoy_accel": -0.2075636968748074,
+      "op_leverage_ratio": 2.707966047167879,
+      "fcf_margin_change": -0.14905250327533298
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3.1% vs OpEx growth +1.2% (leverage: 2.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +28.4% vs prior quarter YoY: +49.2% (decel: -20.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -623,12 +637,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +93.7% vs prior quarter YoY: +104.3% (decel: -10.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -21.5% -> -3.7% (+17.9%)",
@@ -672,7 +680,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:52:14.282331",
-  "sector": "Healthcare",
-  "industry": "Drug Manufacturers - Specialty & Generic"
+  "last_updated": "2026-02-24T10:09:39.170020"
 }

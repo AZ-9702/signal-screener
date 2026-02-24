@@ -1,25 +1,9 @@
 {
   "ticker": "BDX",
   "name": "BECTON, DICKINSON AND COMPANY",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5315000000,
-      "gross_profit": 2732000000,
-      "operating_income": 1241000000,
-      "net_income": 1003000000,
-      "opex": 4074000000,
-      "cogs": 2583000000,
-      "rd": 291000000,
-      "sga": 1149000000,
-      "fcf": 1287000000,
-      "ocf": 1533000000,
-      "capex": -246000000,
-      "gross_margin": 0.5140169332079022,
-      "op_margin": 0.2334901222953904,
-      "fcf_margin": 0.24214487300094073
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -253000000,
       "gross_margin": 0.45771347055227224,
       "op_margin": 0.0884450784593438,
-      "fcf_margin": 0.190544120643978,
-      "fcf_margin_change": -0.05160075235696274
+      "fcf_margin": 0.190544120643978
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.4850850850850851,
       "op_margin": 0.16316316316316315,
       "fcf_margin": 0.0982982982982983,
-      "incr_op_margin_yoy": 1.33125,
-      "rev_growth_yoy": -0.060206961429915336,
       "fcf_margin_change": 0.0011220568182593454
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.04430253442426661,
       "incr_op_margin_yoy": 2.0961538461538463,
       "rev_growth_yoy": 0.021194212349704505,
-      "rev_growth_yoy_accel": 0.08140117377961983,
       "fcf_margin_change": -0.05399576387403168
     },
     {
@@ -348,12 +328,12 @@
       "cogs": 2933000000,
       "rd": 343000000,
       "sga": 1318000000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 588000000,
+      "ocf": 693000000,
       "capex": -105000000,
       "gross_margin": 0.432469040247678,
       "op_margin": 0.0876547987616099,
-      "fcf_margin": null,
+      "fcf_margin": 0.11377708978328173,
       "incr_op_margin_yoy": 0.030303030303030304,
       "rev_growth_yoy": 0.09817254568635785,
       "rev_growth_yoy_accel": 0.029369714941321484
@@ -400,7 +380,7 @@
       "incr_op_margin_yoy": 0.5394990366088632,
       "rev_growth_yoy": 0.10400801603206412,
       "rev_growth_yoy_accel": 0.05901297143345163,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -423,9 +403,42 @@
       "rev_growth_yoy": 0.08350193121206548,
       "rev_growth_yoy_accel": -0.020506084819998646,
       "op_leverage_ratio": 0.5658574409103845
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5252000000,
+      "gross_profit": 2411000000,
+      "operating_income": 552000000,
+      "net_income": 382000000,
+      "opex": 4700000000,
+      "cogs": 2841000000,
+      "rd": 306000000,
+      "sga": 1393000000,
+      "fcf": 549000000,
+      "ocf": 657000000,
+      "capex": -108000000,
+      "gross_margin": 0.4590632140137091,
+      "op_margin": 0.1051028179741051,
+      "fcf_margin": 0.10453160700685453,
+      "incr_op_margin_yoy": 1.1785714285714286,
+      "rev_growth_yoy": 0.016253869969040248,
+      "rev_growth_yoy_accel": -0.06724806124302524
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +1.6% vs prior quarter YoY: +8.4% (decel: -6.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +117.9% vs year-ago OPM: +8.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -518,20 +531,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +2.1% vs prior quarter YoY: -6.0% (accel: +8.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +209.6% vs year-ago OPM: +8.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +133.1% vs year-ago OPM: +23.3%",
       "severity": "HIGH"
     }
   ],
@@ -551,18 +552,16 @@
         20
       ],
       "fcf": [
-        6,
+        7,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "fcf: 6/20Q"
+      "fcf: 7/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:57:19.326898",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-24T11:07:13.301966"
 }

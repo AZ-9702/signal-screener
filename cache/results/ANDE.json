@@ -1,25 +1,9 @@
 {
   "ticker": "ANDE",
-  "name": "ANDERSONS, INC.",
+  "name": "THE ANDERSONS, INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Food Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2508303000,
-      "gross_profit": 133691000,
-      "operating_income": null,
-      "net_income": 15991000,
-      "opex": null,
-      "cogs": 2409226000,
-      "rd": null,
-      "sga": null,
-      "fcf": -287956000,
-      "ocf": -270223000,
-      "capex": -17733000,
-      "gross_margin": 0.0532993820921954,
-      "op_margin": null,
-      "fcf_margin": -0.11480112251191343
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -16919000,
       "gross_margin": 0.04655713846150344,
       "op_margin": null,
-      "fcf_margin": -0.17552866778033704,
-      "fcf_margin_change": -0.06072754526842361
+      "fcf_margin": -0.17552866778033704
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.05128979232305373,
       "op_margin": null,
       "fcf_margin": -0.051062177247903746,
-      "rev_growth_yoy": 0.508072190640445,
       "fcf_margin_change": -0.16647241806230298
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.2754481323816213,
       "rev_growth_yoy": 0.5092424145274419,
-      "rev_growth_yoy_accel": 0.0011702238869969461,
       "fcf_margin_change": -0.22438595513371756
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.02164222041459175,
       "rev_growth_yoy_accel": -0.10023220382262878,
       "fcf_margin_change": -0.01749532823438138
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2536249000,
+      "gross_profit": 231491000,
+      "operating_income": null,
+      "net_income": 67434000,
+      "opex": null,
+      "cogs": 2304758000,
+      "rd": null,
+      "sga": null,
+      "fcf": -77098000,
+      "ocf": -6185000,
+      "capex": -70913000,
+      "gross_margin": 0.09127297832350056,
+      "op_margin": null,
+      "fcf_margin": -0.03039843485399107,
+      "rev_growth_yoy": -0.18791644813645764,
+      "rev_growth_yoy_accel": -0.20955866855104938,
+      "fcf_margin_change": -0.09278303782847078
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -18.8% vs prior quarter YoY: +2.2% (decel: -21.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -550,7 +558,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:35:52.227598",
-  "sector": "Consumer Defensive",
-  "industry": "Food Distribution"
+  "last_updated": "2026-02-24T10:30:59.081200"
 }

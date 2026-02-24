@@ -1,25 +1,9 @@
 {
   "ticker": "ITT",
   "name": "ITT INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2021-03-31T00:00:00",
-      "quarter_label": "2021-03 (Q1)",
-      "revenue": 698400000,
-      "gross_profit": 229000000,
-      "operating_income": 109900000,
-      "net_income": 86200000,
-      "opex": 119100000,
-      "cogs": 469400000,
-      "rd": 24300000,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.32789232531500573,
-      "op_margin": 0.15735967926689576,
-      "fcf_margin": null
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -159,7 +143,7 @@
       "incr_op_margin_yoy": 0.3171875,
       "rev_growth_yoy": 0.09280742459396751,
       "rev_growth_yoy_accel": 0.03251245640426248,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0033503621907538944
     },
     {
@@ -182,7 +166,7 @@
       "incr_op_margin_yoy": 0.42376681614349776,
       "rev_growth_yoy": 0.1301429822001751,
       "rev_growth_yoy_accel": 0.037335557606207576,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12884089754152955
     },
     {
@@ -295,7 +279,7 @@
       "incr_op_margin_yoy": 0.2209405501330967,
       "rev_growth_yoy": 0.14124577014663492,
       "rev_growth_yoy_accel": 0.07088687523313117,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14204943012546345
     },
     {
@@ -432,6 +416,29 @@
       "rev_growth_yoy_accel": 0.05526382577995624,
       "op_leverage_ratio": 1.2741920241920242,
       "fcf_margin_change": 0.015994125276302756
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1054000000,
+      "gross_profit": 374100000,
+      "operating_income": 178700000,
+      "net_income": 131700000,
+      "opex": 195400000,
+      "cogs": 679900000,
+      "rd": 26800000,
+      "sga": null,
+      "fcf": 227800000,
+      "ocf": 227800000,
+      "capex": null,
+      "gross_margin": 0.3549335863377609,
+      "op_margin": 0.16954459203036054,
+      "fcf_margin": 0.2161290322580645,
+      "incr_op_margin_yoy": 0.1504,
+      "rev_growth_yoy": 0.13455328310010764,
+      "rev_growth_yoy_accel": 0.005881796430428465,
+      "op_leverage_ratio": 0.48190671604443996,
+      "fcf_margin_change": 0.04207238127217722
     }
   ],
   "signals": [
@@ -578,7 +585,7 @@
         20
       ],
       "fcf": [
-        19,
+        20,
         20
       ]
     },
@@ -587,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:24:47.774914",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T11:08:24.677662"
 }

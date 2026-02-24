@@ -1,25 +1,9 @@
 {
   "ticker": "MTW",
   "name": "The Manitowoc Company, Inc.",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 430300000,
-      "gross_profit": 78000000,
-      "operating_income": 22800000,
-      "net_income": 1800000,
-      "opex": 55200000,
-      "cogs": 352300000,
-      "rd": null,
-      "sga": null,
-      "fcf": 24800000,
-      "ocf": 35800000,
-      "capex": -11000000,
-      "gross_margin": 0.18126888217522658,
-      "op_margin": 0.05298628863583547,
-      "fcf_margin": 0.057634208691610504
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8000000,
       "gross_margin": 0.1930567315834039,
       "op_margin": 0.030200395145357044,
-      "fcf_margin": 0.0925769122212814,
-      "fcf_margin_change": 0.03494270352967089
+      "fcf_margin": 0.0925769122212814
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.15950180795500202,
       "op_margin": 0.0036159100040176776,
       "fcf_margin": -0.020088388911209322,
-      "incr_op_margin_yoy": -0.3111111111111111,
-      "rev_growth_yoy": 0.15686730188240763,
       "op_leverage_ratio": 0.8950579564801643,
       "fcf_margin_change": -0.04851854960342193
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.006753812636165577,
       "incr_op_margin_yoy": 0.0659025787965616,
       "rev_growth_yoy": 0.2955122777307367,
-      "rev_growth_yoy_accel": 0.13864497584832905,
       "fcf_margin_change": 0.013334576275043745
     },
     {
@@ -366,7 +346,7 @@
       "fcf_margin": 0.16963087248322148,
       "rev_growth_yoy": 0.0003356831151393085,
       "rev_growth_yoy_accel": -0.007151358543528382,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.27043117736127026
     },
     {
@@ -434,11 +414,52 @@
       "incr_op_margin_yoy": 0.38461538461538464,
       "rev_growth_yoy": 0.054496951219512195,
       "rev_growth_yoy_accel": 0.09470332019300445,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09685372386658196
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 677100000,
+      "gross_profit": 113300000,
+      "operating_income": 20200000,
+      "net_income": 7000000,
+      "opex": 93100000,
+      "cogs": 563800000,
+      "rd": null,
+      "sga": null,
+      "fcf": 78300000,
+      "ocf": 91100000,
+      "capex": -12800000,
+      "gross_margin": 0.16733126569192142,
+      "op_margin": 0.029833111800324916,
+      "fcf_margin": 0.11564023039432876,
+      "incr_op_margin_yoy": 0.04932182490752158,
+      "rev_growth_yoy": 0.1360738255033557,
+      "rev_growth_yoy_accel": 0.0815768742838435,
+      "op_leverage_ratio": 2.088738304621933,
+      "fcf_margin_change": 0.1553944768706569
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -4.0% -> +11.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +22.4% vs OpEx growth +10.7% (leverage: 2.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +13.6% vs prior quarter YoY: +5.4% (accel: +8.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -620,12 +641,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +29.6% vs prior quarter YoY: +15.7% (accel: +13.9%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +30.8% vs OpEx growth +10.4% (leverage: 3.0x)",
@@ -657,7 +672,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:28:41.749819",
-  "sector": "Industrials",
-  "industry": "Farm & Heavy Construction Machinery"
+  "last_updated": "2026-02-24T10:31:52.258860"
 }

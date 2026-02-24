@@ -1,25 +1,9 @@
 {
   "ticker": "NVT",
   "name": "nVent Electric plc",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 521200000,
-      "gross_profit": 197000000,
-      "operating_income": 74400000,
-      "net_income": 47100000,
-      "opex": 122600000,
-      "cogs": 324200000,
-      "rd": 10400000,
-      "sga": 112200000,
-      "fcf": 125700000,
-      "ocf": 140300000,
-      "capex": -14600000,
-      "gross_margin": 0.37797390636991557,
-      "op_margin": 0.1427475057559478,
-      "fcf_margin": 0.24117421335379893
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -9900000,
       "gross_margin": 0.3807615230460922,
       "op_margin": 0.14647476771725268,
-      "fcf_margin": 0.07287301876480233,
-      "op_leverage_ratio": 1.0859618828344844,
-      "fcf_margin_change": -0.16830119458899662
+      "fcf_margin": 0.07287301876480233
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3695067264573991,
       "op_margin": 0.13303437967115098,
       "fcf_margin": 0.1508221225710015,
-      "incr_op_margin_yoy": 0.09878213802435724,
-      "rev_growth_yoy": 0.28357636224098237,
       "op_leverage_ratio": 1.153333794279656,
       "fcf_margin_change": -0.01641496517013105
     },
@@ -121,8 +101,7 @@
       "fcf_margin": -0.0066215632647185834,
       "incr_op_margin_yoy": 0.06652949245541838,
       "rev_growth_yoy": 0.2656221533977045,
-      "rev_growth_yoy_accel": -0.017954208843277863,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15744368583572008
     },
     {
@@ -440,9 +419,38 @@
       "rev_growth_yoy_accel": 0.2537672433804681,
       "op_leverage_ratio": 1.5264453835242244,
       "fcf_margin_change": 0.22570221633691173
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1066700000,
+      "gross_profit": 388900000,
+      "operating_income": 163800000,
+      "net_income": 118800000,
+      "opex": 225100000,
+      "cogs": 677800000,
+      "rd": 21300000,
+      "sga": 203800000,
+      "fcf": 165700000,
+      "ocf": 202400000,
+      "capex": -36700000,
+      "gross_margin": 0.36458235680135,
+      "op_margin": 0.1535577013218337,
+      "fcf_margin": 0.15533889565951065,
+      "incr_op_margin_yoy": 0.14848966613672496,
+      "rev_growth_yoy": 0.41810688646636535,
+      "rev_growth_yoy_accel": 0.07028079950984362,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.03526831496667532
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +41.8% vs prior quarter YoY: +34.8% (accel: +7.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -637,7 +645,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:36.952413",
-  "sector": "Industrials",
-  "industry": "Electrical Equipment & Parts"
+  "last_updated": "2026-02-24T10:32:16.909917"
 }

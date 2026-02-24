@@ -1,25 +1,9 @@
 {
   "ticker": "FKWL",
   "name": "FRANKLIN WIRELESS CORP.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 66247578,
-      "gross_profit": 11292455,
-      "operating_income": 8731697,
-      "net_income": 6856611,
-      "opex": 2560758,
-      "cogs": 54955123,
-      "rd": 1151732,
-      "sga": 1409026,
-      "fcf": 27907290,
-      "ocf": 27911599,
-      "capex": -4309,
-      "gross_margin": 0.17045838264457003,
-      "op_margin": 0.13180401855596893,
-      "fcf_margin": 0.42125751374638937
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -2728,
       "gross_margin": 0.1706729794265199,
       "op_margin": 0.11797197055583329,
-      "fcf_margin": -0.37470917048164587,
-      "fcf_margin_change": -0.7959666842280353
+      "fcf_margin": -0.37470917048164587
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.19981455750995422,
       "op_margin": -0.9705553777498657,
       "fcf_margin": -1.1439693586204134,
-      "incr_op_margin_yoy": 0.16297227505502476,
-      "rev_growth_yoy": -0.9725033117437138,
       "fcf_margin_change": 0.7622817253912371
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.1678540191261419,
       "incr_op_margin_yoy": 0.16766111016761465,
       "rev_growth_yoy": -0.8491508439001787,
-      "rev_growth_yoy_accel": 0.12335246784353515,
       "op_leverage_ratio": 18.43136996709617,
       "fcf_margin_change": 1.3118233777465553
     },
@@ -141,7 +121,7 @@
       "incr_op_margin_yoy": -0.17328782305686039,
       "rev_growth_yoy": 0.10736062989799827,
       "rev_growth_yoy_accel": 0.956511473798177,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.177196927785352
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.12797954204204204,
       "rev_growth_yoy": 0.4000992686103531,
       "rev_growth_yoy_accel": -0.3722145262065884,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2860050527388815
     },
     {
@@ -342,7 +322,7 @@
       "incr_op_margin_yoy": 0.05773462479610707,
       "rev_growth_yoy": 0.37981963940723806,
       "rev_growth_yoy_accel": 1.0200878310204633,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.8142674046882878
     },
     {
@@ -430,11 +410,39 @@
       "fcf_margin": -0.11689420759264839,
       "rev_growth_yoy": -0.043380306047206496,
       "rev_growth_yoy_accel": -0.1758674326247709,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.45288621137133644
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11928864,
+      "gross_profit": 2034060,
+      "operating_income": 48717,
+      "net_income": 533622,
+      "opex": 1985343,
+      "cogs": 9894804,
+      "rd": 776818,
+      "sga": 1208525,
+      "fcf": -4091804,
+      "ocf": -4085780,
+      "capex": -6024,
+      "gross_margin": 0.1705158177677271,
+      "op_margin": 0.0040839597131797295,
+      "fcf_margin": -0.34301707186870434,
+      "incr_op_margin_yoy": 0.12656568050708059,
+      "rev_growth_yoy": -0.330857776178714,
+      "rev_growth_yoy_accel": -0.2874774701315075,
+      "fcf_margin_change": -0.22612286427605593
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -33.1% vs prior quarter YoY: -4.3% (decel: -28.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -634,12 +642,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -84.9% vs prior quarter YoY: -97.3% (accel: +12.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -190.6% -> -114.4% (+76.2%)",
@@ -677,7 +679,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:39:37.734315",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-24T10:33:16.416325"
 }

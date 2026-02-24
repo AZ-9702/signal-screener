@@ -1,25 +1,9 @@
 {
   "ticker": "VNO",
   "name": "VORNADO REALTY TRUST",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 376431000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -194979000,
-      "opex": 606911000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 232880000,
-      "ocf": 232880000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.618652555182756
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5899962366143214,
-      "fcf_margin_change": -0.028656318568434536
+      "fcf_margin": 0.5899962366143214
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6737508311959722,
-      "rev_growth_yoy": 0.11861137897782063,
       "op_leverage_ratio": 0.5258595966355849,
       "fcf_margin_change": 0.6605693995664013
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.3867957388098523,
       "rev_growth_yoy": 0.16357042663108556,
-      "rev_growth_yoy_accel": 0.04495904765326493,
       "op_leverage_ratio": 3.434623927690184,
       "fcf_margin_change": -0.28695509238611994
     },
@@ -140,7 +121,7 @@
       "fcf_margin": 0.572468433981486,
       "rev_growth_yoy": 0.19674038966488186,
       "rev_growth_yoy_accel": 0.033169963033796296,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18567269517163365
     },
     {
@@ -225,7 +206,7 @@
       "fcf_margin": 0.5988432526955134,
       "rev_growth_yoy": 0.041599227332665925,
       "rev_growth_yoy_accel": 0.03302030258202697,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.39281665169040714
     },
     {
@@ -353,7 +334,7 @@
       "fcf_margin": 0.4503811791432753,
       "rev_growth_yoy": 0.03599118324635766,
       "rev_growth_yoy_accel": 0.05315323604073453,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2126421801472121
     },
     {
@@ -419,9 +400,36 @@
       "rev_growth_yoy_accel": 0.04317272324675027,
       "op_leverage_ratio": 0.3763558979306424,
       "fcf_margin_change": -2.2531922780041165
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 453709000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 16127000,
+      "opex": 387854000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 146273000,
+      "ocf": 146273000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3223938691980983,
+      "rev_growth_yoy": -0.008914567814936979,
+      "rev_growth_yoy_accel": -0.03247888181026698,
+      "fcf_margin_change": 0.2492927010252969
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +7.3% -> +32.2% (+24.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -553,5 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:52:36.308193"
+  "last_updated": "2026-02-24T11:07:01.430964"
 }

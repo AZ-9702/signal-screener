@@ -1,25 +1,9 @@
 {
   "ticker": "FELE",
   "name": "FRANKLIN ELECTRIC CO., INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 321106000,
-      "gross_profit": 111403000,
-      "operating_income": 34373000,
-      "net_income": 26794000,
-      "opex": 77030000,
-      "cogs": 209703000,
-      "rd": null,
-      "sga": 76713000,
-      "fcf": 70529000,
-      "ocf": 78146000,
-      "capex": -7617000,
-      "gross_margin": 0.3469352799387118,
-      "op_margin": 0.10704564847744981,
-      "fcf_margin": 0.21964398049242306
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6744000,
       "gross_margin": 0.3469370597455006,
       "op_margin": 0.10146045891558524,
-      "fcf_margin": -0.0040895251706971406,
-      "op_leverage_ratio": 0.6061972909306812,
-      "fcf_margin_change": -0.2237335056631202
+      "fcf_margin": -0.0040895251706971406
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.33567927494682326,
       "op_margin": 0.10914408582262092,
       "fcf_margin": 0.06015675575695922,
-      "incr_op_margin_yoy": 0.11519198664440734,
-      "rev_growth_yoy": 0.34696953653933593,
       "fcf_margin_change": -0.05067743629173594
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.1567479566748621,
       "incr_op_margin_yoy": 0.051932040802540026,
       "rev_growth_yoy": 0.3555785086744774,
-      "rev_growth_yoy_accel": 0.008608972135141446,
       "op_leverage_ratio": 0.5791745593501936,
       "fcf_margin_change": -0.21690471243182133
     },
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": -0.004378429307764784,
       "rev_growth_yoy": 0.03273771723234471,
       "rev_growth_yoy_accel": -0.04053625446012654,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12248904548233813
     },
     {
@@ -435,9 +414,43 @@
       "rev_growth_yoy": 0.0946036978913815,
       "rev_growth_yoy_accel": 0.0132869018202698,
       "fcf_margin_change": 0.0890255013906126
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 506855000,
+      "gross_profit": 171492000,
+      "operating_income": 51618000,
+      "net_income": 39250000,
+      "opex": 119874000,
+      "cogs": 335363000,
+      "rd": null,
+      "sga": 119593000,
+      "fcf": 88674000,
+      "ocf": 104191000,
+      "capex": -15517000,
+      "gross_margin": 0.33834528612719617,
+      "op_margin": 0.10183977666196446,
+      "fcf_margin": 0.1749494431346243,
+      "incr_op_margin_yoy": 0.40663192799621034,
+      "rev_growth_yoy": 0.04345901656218798,
+      "rev_growth_yoy_accel": -0.05114468132919352,
+      "fcf_margin_change": 0.018025250146317312
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +4.3% vs prior quarter YoY: +9.5% (decel: -5.1%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +40.7% vs year-ago OPM: +8.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -632,7 +645,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:09:44.291197",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:11:22.291845"
 }

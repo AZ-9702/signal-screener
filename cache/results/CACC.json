@@ -1,25 +1,9 @@
 {
   "ticker": "CACC",
   "name": "CREDIT ACCEPTANCE CORP",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 447400000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 166300000,
-      "opex": 231300000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 201400000,
-      "ocf": 202200000,
-      "capex": -800000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.45015645954403216
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -800000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.719290465631929,
-      "fcf_margin_change": 0.26913400608789684
+      "fcf_margin": 0.719290465631929
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.7229171083315666,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.003626642699637639
     },
     {
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.27979274611398963,
-      "rev_growth_yoy": 0.03531515422440769,
       "fcf_margin_change": -0.28774607541334496
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.8215931533903884,
       "rev_growth_yoy": 0.010421286031042129,
-      "rev_growth_yoy_accel": -0.02489386819336556,
       "fcf_margin_change": 0.5418004072763988
     },
     {
@@ -222,7 +203,7 @@
       "fcf_margin": 0.5884076166562042,
       "rev_growth_yoy": 0.04481853957149104,
       "rev_growth_yoy_accel": 0.048987949270854654,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06298066011770498
     },
     {
@@ -309,7 +290,7 @@
       "fcf_margin": 0.3782980304719435,
       "rev_growth_yoy": 0.12617702448210924,
       "rev_growth_yoy_accel": 0.00674114964738029,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.23134763881939507
     },
     {
@@ -353,7 +334,7 @@
       "fcf_margin": 0.5398480296872239,
       "rev_growth_yoy": 0.15113913751017088,
       "rev_growth_yoy_accel": 0.001327185984888818,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03674655508471869
     },
     {
@@ -419,6 +400,27 @@
       "rev_growth_yoy": 0.058331819007813916,
       "rev_growth_yoy_accel": -0.026395048327749075,
       "fcf_margin_change": 0.27426904630142035
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 579900000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 122000000,
+      "opex": 162300000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 268900000,
+      "ocf": 269300000,
+      "capex": -400000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.46370063804104156,
+      "rev_growth_yoy": 0.024739353242622372,
+      "rev_growth_yoy_accel": -0.033592465765191544,
+      "fcf_margin_change": -0.049348812508408946
     }
   ],
   "signals": [
@@ -457,12 +459,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +28.0% -> +82.2% (+54.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +45.0% -> +71.9% (+26.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -493,7 +489,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:04:40.303698",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-24T10:42:55.561206"
 }

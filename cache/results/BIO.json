@@ -1,25 +1,9 @@
 {
   "ticker": "BIO",
   "name": "BIO-RAD LABORATORIES, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 789800000,
-      "gross_profit": 460100000,
-      "operating_income": 175242000,
-      "net_income": 839200000,
-      "opex": 284858000,
-      "cogs": 329684000,
-      "rd": 65765000,
-      "sga": 219148000,
-      "fcf": 245499000,
-      "ocf": 294378000,
-      "capex": -48879000,
-      "gross_margin": 0.5825525449480882,
-      "op_margin": 0.22188148898455304,
-      "fcf_margin": 0.3108369207394277
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -19547000,
       "gross_margin": 0.5512234519727681,
       "op_margin": 0.13877621781077495,
-      "fcf_margin": 0.1294214607675331,
-      "fcf_margin_change": -0.1814154599718946
+      "fcf_margin": 0.1294214607675331
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5472161572052402,
       "op_margin": 0.14599072052401746,
       "fcf_margin": 0.15650109170305676,
-      "incr_op_margin_yoy": 1.1975438596491228,
-      "rev_growth_yoy": -0.07217016966320587,
       "fcf_margin_change": -0.1055098339524223
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.024877796538020917,
       "incr_op_margin_yoy": -1.5920176554200642,
       "rev_growth_yoy": -0.03678336149345896,
-      "rev_growth_yoy_accel": 0.03538680816974691,
       "fcf_margin_change": -0.13162329516503585
     },
     {
@@ -185,7 +165,7 @@
       "incr_op_margin_yoy": -7.6792,
       "rev_growth_yoy": -0.003411572052401747,
       "rev_growth_yoy_accel": 0.08526935784644023,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08564724298386461
     },
     {
@@ -319,7 +299,7 @@
       "incr_op_margin_yoy": -0.2786273865928602,
       "rev_growth_yoy": -0.0625948818839835,
       "rev_growth_yoy_accel": 0.034951967907105724,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03815304805090681
     },
     {
@@ -365,7 +345,7 @@
       "incr_op_margin_yoy": 2.6997810218978104,
       "rev_growth_yoy": -0.020111567821491486,
       "rev_growth_yoy_accel": -0.04796211613163317,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06812758529351244
     },
     {
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": -1.858884486437062,
       "rev_growth_yoy": 0.020555197063006285,
       "rev_growth_yoy_accel": 0.06217138513805295,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05448070010526243
     },
     {
@@ -434,6 +414,29 @@
       "rev_growth_yoy": 0.0050344066526197846,
       "rev_growth_yoy_accel": -0.0155207904103865,
       "fcf_margin_change": 0.02794468933580388
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 693200000,
+      "gross_profit": 345200000,
+      "operating_income": -118900000,
+      "net_income": 720000000,
+      "opex": 464100000,
+      "cogs": 348000000,
+      "rd": 70300000,
+      "sga": 221000000,
+      "fcf": 119100000,
+      "ocf": 164900000,
+      "capex": -45800000,
+      "gross_margin": 0.4979803808424697,
+      "op_margin": -0.17152336987882286,
+      "fcf_margin": 0.17181188690132718,
+      "incr_op_margin_yoy": -6.896108949416343,
+      "rev_growth_yoy": 0.03850187265917603,
+      "rev_growth_yoy_accel": 0.03346746600655625,
+      "op_leverage_ratio": 0.09204515141036407,
+      "fcf_margin_change": 0.035211580622613536
     }
   ],
   "signals": [
@@ -540,12 +543,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +119.8% vs year-ago OPM: +22.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +18.3% -> +26.2% (+7.9%)",
@@ -589,7 +586,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:31.260355",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:44:44.012586"
 }

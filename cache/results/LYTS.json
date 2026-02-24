@@ -1,25 +1,9 @@
 {
   "ticker": "LYTS",
-  "name": "LSI INDUSTRIES INC.",
+  "name": "LSI INDUSTRIES INC",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 76387000,
-      "gross_profit": 19706000,
-      "operating_income": 2686000,
-      "net_income": 2208000,
-      "opex": 17020000,
-      "cogs": 56676000,
-      "rd": null,
-      "sga": 17004000,
-      "fcf": 5303000,
-      "ocf": 5778000,
-      "capex": -475000,
-      "gross_margin": 0.25797583358424864,
-      "op_margin": 0.03516305130454135,
-      "fcf_margin": 0.06942280754578659
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -637000,
       "gross_margin": 0.25056783557697637,
       "op_margin": 0.029028862666888262,
-      "fcf_margin": 0.14652927815633482,
-      "fcf_margin_change": 0.07710647061054823
+      "fcf_margin": 0.14652927815633482
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.23036363807250204,
       "op_margin": 0.0417680949650836,
       "fcf_margin": -0.07693825953739297,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10434639230036777
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.22896628667572408,
       "op_margin": 0.03978658125118091,
       "fcf_margin": -0.08189449627956777,
-      "incr_op_margin_yoy": 0.04994821038094142,
-      "rev_growth_yoy": 0.45499888724521187,
       "op_leverage_ratio": 0.9323692162372998,
       "fcf_margin_change": -0.004956236742174797
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.030369354560398142,
       "incr_op_margin_yoy": 0.08085577861608674,
       "rev_growth_yoy": 0.5249986150351781,
-      "rev_growth_yoy_accel": 0.06999972778996622,
       "fcf_margin_change": 0.11226385083996591
     },
     {
@@ -345,7 +325,7 @@
       "incr_op_margin_yoy": -0.1294527091579091,
       "rev_growth_yoy": 0.11871258333940911,
       "rev_growth_yoy_accel": 0.07527054380399871,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0001888819607903519
     },
     {
@@ -438,9 +418,42 @@
       "rev_growth_yoy_accel": -0.06330292393810638,
       "op_leverage_ratio": 0.48880735581330936,
       "fcf_margin_change": -0.05698157609402441
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 147002000,
+      "gross_profit": 37434000,
+      "operating_income": 8865000,
+      "net_income": 6348000,
+      "opex": 28569000,
+      "cogs": 109568000,
+      "rd": null,
+      "sga": 28569000,
+      "fcf": 23299000,
+      "ocf": 24983000,
+      "capex": -1684000,
+      "gross_margin": 0.25464959660412784,
+      "op_margin": 0.0603053019686807,
+      "fcf_margin": 0.15849444225248635,
+      "rev_growth_yoy": -0.004954851286772172,
+      "rev_growth_yoy_accel": -0.14365646973783847,
+      "fcf_margin_change": 0.16034501045959737
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -0.2% -> +15.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.5% vs prior quarter YoY: +13.9% (decel: -14.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -548,18 +561,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -8.2% -> +3.0%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +52.5% vs prior quarter YoY: +45.5% (accel: +7.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.9% -> +14.7% (+7.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -587,7 +588,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:13:52.698525",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-24T11:09:52.789580"
 }

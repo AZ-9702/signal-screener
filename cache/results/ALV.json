@@ -1,25 +1,9 @@
 {
   "ticker": "ALV",
   "name": "Autoliv, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2516800000,
-      "gross_profit": 501800000,
-      "operating_income": 306800000,
-      "net_income": 188500000,
-      "opex": 195000000,
-      "cogs": 2015000000,
-      "rd": null,
-      "sga": 105500000,
-      "fcf": 357000000,
-      "ocf": 469000000,
-      "capex": -112000000,
-      "gross_margin": 0.1993801652892562,
-      "op_margin": 0.12190082644628099,
-      "fcf_margin": 0.1418467895740623
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -94000000,
       "gross_margin": 0.20428189116859946,
       "op_margin": 0.10570918822479929,
-      "fcf_margin": 0.04103479036574487,
-      "fcf_margin_change": -0.10081199920831743
+      "fcf_margin": 0.04103479036574487
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,9 +77,7 @@
       "gross_margin": 0.17366682397357244,
       "op_margin": 0.08258612553091081,
       "fcf_margin": 0.07645115620575743,
-      "incr_op_margin_yoy": 0.3313222724987431,
-      "rev_growth_yoy": -0.15805785123966942,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03530334895074931
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -0.01977401129943503,
       "incr_op_margin_yoy": 0.8728813559322034,
       "rev_growth_yoy": -0.05263157894736842,
-      "rev_growth_yoy_accel": 0.105426272292301,
       "fcf_margin_change": -0.09622516750519246
     },
     {
@@ -186,7 +166,7 @@
       "incr_op_margin_yoy": 0.25462962962962965,
       "rev_growth_yoy": 0.1019348749410099,
       "rev_growth_yoy_accel": -0.14441055007252557,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09679879892170853
     },
     {
@@ -366,7 +346,7 @@
       "incr_op_margin_yoy": -0.8592592592592593,
       "rev_growth_yoy": -0.04907306434023991,
       "rev_growth_yoy_accel": -0.033279535834846996,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09528282973362778
     },
     {
@@ -435,9 +415,38 @@
       "rev_growth_yoy": 0.059099804305283755,
       "rev_growth_yoy_accel": 0.017257193940600456,
       "fcf_margin_change": -0.003887482768443279
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2817000000,
+      "gross_profit": 572000000,
+      "operating_income": 319000000,
+      "net_income": 226000000,
+      "opex": 253000000,
+      "cogs": 2245000000,
+      "rd": 94000000,
+      "sga": 144000000,
+      "fcf": 426000000,
+      "ocf": 544000000,
+      "capex": -118000000,
+      "gross_margin": 0.20305289314873978,
+      "op_margin": 0.11324103656372027,
+      "fcf_margin": 0.15122470713525027,
+      "incr_op_margin_yoy": -0.1691542288557214,
+      "rev_growth_yoy": 0.0768348623853211,
+      "rev_growth_yoy_accel": 0.017735058080037343,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.09505323632963311
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +5.6% -> +15.1% (+9.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -596,20 +605,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -5.3% vs prior quarter YoY: -15.8% (accel: +10.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +87.3% vs year-ago OPM: +10.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +33.1% vs year-ago OPM: +12.2%",
       "severity": "HIGH"
     },
     {
@@ -644,7 +641,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:38:55.201309",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:17:48.575010"
 }

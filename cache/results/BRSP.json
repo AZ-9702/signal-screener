@@ -1,25 +1,9 @@
 {
   "ticker": "BRSP",
-  "name": "BRIGHTSPIRE CAPITAL, INC.",
+  "name": "BrightSpire Capital,\u00a0Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 38350000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -52475000,
-      "opex": 59998000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 51494000,
-      "ocf": 51494000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 1.3427379400260757
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.021460337159995863,
-      "op_leverage_ratio": 0.605205651784832,
-      "fcf_margin_change": -1.3212776028660798
+      "fcf_margin": 0.021460337159995863
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5761386023872986,
-      "rev_growth_yoy": 1.25006518904824,
       "fcf_margin_change": 5.928232964790939
     },
     {
@@ -116,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.4126431504578264,
       "rev_growth_yoy": 0.013729444616816631,
-      "rev_growth_yoy_accel": -1.2363357444314234,
       "fcf_margin_change": -0.16349545192947224
     },
     {
@@ -179,7 +159,7 @@
       "op_margin": null,
       "fcf_margin": 0.35007329964121753,
       "rev_growth_yoy": 0.20157608065824545,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.003671978230917028
     },
     {
@@ -201,7 +181,7 @@
       "fcf_margin": 0.3597544387819873,
       "rev_growth_yoy": 0.40635600785574005,
       "rev_growth_yoy_accel": 0.2047799271974946,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00968113914076979
     },
     {
@@ -244,7 +224,7 @@
       "fcf_margin": 0.3744110890472297,
       "rev_growth_yoy": 0.05746842479078529,
       "rev_growth_yoy_accel": -0.10584038840323617,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1420168646679881
     },
     {
@@ -415,6 +395,27 @@
       "rev_growth_yoy": -0.0477929915712811,
       "rev_growth_yoy_accel": 0.012294300726650359,
       "fcf_margin_change": 0.15308650389479864
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 83162000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -14355000,
+      "opex": 68199000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 15225000,
+      "ocf": 15225000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1830764050888627,
+      "rev_growth_yoy": -0.0036780121961446765,
+      "rev_growth_yoy_accel": 0.04411497937513642,
+      "fcf_margin_change": -0.17281723068992644
     }
   ],
   "signals": [
@@ -503,12 +504,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +1.4% vs prior quarter YoY: +125.0% (decel: -123.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -535.2% -> +57.6%",
@@ -543,7 +538,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:10:26.354130",
-  "sector": "Real Estate",
-  "industry": "REIT - Mortgage"
+  "last_updated": "2026-02-24T10:26:36.234604"
 }

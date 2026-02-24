@@ -1,25 +1,9 @@
 {
   "ticker": "FIX",
-  "name": "COMFORT SYSTEMS USA,\u00a0INC.",
+  "name": "Comfort Systems USA, Inc.",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 698961000,
-      "gross_profit": 136999000,
-      "operating_income": 48281000,
-      "net_income": 42840000,
-      "opex": 88718000,
-      "cogs": 561962000,
-      "rd": null,
-      "sga": 88920000,
-      "fcf": 65438000,
-      "ocf": 70110000,
-      "capex": -4672000,
-      "gross_margin": 0.19600378275755012,
-      "op_margin": 0.06907538474964983,
-      "fcf_margin": 0.09362181867085574
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -4812000,
       "gross_margin": 0.1843478494567465,
       "op_margin": 0.053160754358644355,
-      "fcf_margin": 0.11919923674265895,
-      "fcf_margin_change": 0.025577418071803207
+      "fcf_margin": 0.11919923674265895
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.17713389223905476,
       "op_margin": 0.055185986734743904,
       "fcf_margin": 0.02727571981874085,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09192351692391809
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.17997182519472388,
       "op_margin": 0.05762401820382112,
       "fcf_margin": 0.02456651450091346,
-      "incr_op_margin_yoy": 0.006682662627368367,
-      "rev_growth_yoy": 0.22479508871024279,
       "op_leverage_ratio": 0.2626982556612904,
       "fcf_margin_change": -0.02038273576530679
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.06160869211582258,
       "incr_op_margin_yoy": 0.0003991552760437214,
       "rev_growth_yoy": 0.32168937874853865,
-      "rev_growth_yoy_accel": 0.09689429003829586,
       "op_leverage_ratio": 0.28036154434507826,
       "fcf_margin_change": 0.03704217761490912
     },
@@ -441,9 +421,44 @@
       "rev_growth_yoy_accel": 0.1518223617519651,
       "op_leverage_ratio": 1.4141879091797032,
       "fcf_margin_change": 0.10953015909812766
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2646067000,
+      "gross_profit": 674715000,
+      "operating_income": 426744000,
+      "net_income": 330806000,
+      "opex": 247971000,
+      "cogs": 1971352000,
+      "rd": null,
+      "sga": 248365000,
+      "fcf": 402450000,
+      "ocf": 468540000,
+      "capex": -66090000,
+      "gross_margin": 0.25498787445669363,
+      "op_margin": 0.16127482788606637,
+      "fcf_margin": 0.15209365446906672,
+      "incr_op_margin_yoy": 0.2574823677856971,
+      "rev_growth_yoy": 0.4166727343982559,
+      "rev_growth_yoy_accel": 0.06431399449693354,
+      "op_leverage_ratio": 0.9606958079961014,
+      "fcf_margin_change": -0.059226439746731196
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +41.7% vs prior quarter YoY: +35.2% (accel: +6.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +25.7% vs year-ago OPM: +12.1%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -613,12 +628,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +32.2% vs prior quarter YoY: +22.5% (accel: +9.7%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +16.8% vs OpEx growth +9.2% (leverage: 1.8x)",
@@ -650,7 +659,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:54.107517",
-  "sector": "Industrials",
-  "industry": "Engineering & Construction"
+  "last_updated": "2026-02-24T10:19:22.450623"
 }

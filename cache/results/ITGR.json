@@ -1,25 +1,9 @@
 {
   "ticker": "ITGR",
   "name": "INTEGER HOLDINGS CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 268959000,
-      "gross_profit": 73209000,
-      "operating_income": 27593000,
-      "net_income": 15427000,
-      "opex": 45616000,
-      "cogs": 195750000,
-      "rd": null,
-      "sga": 35037000,
-      "fcf": 59452000,
-      "ocf": 71102000,
-      "capex": -11650000,
-      "gross_margin": 0.27219390315996117,
-      "op_margin": 0.10259184485367659,
-      "fcf_margin": 0.22104484326607401
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -7660000,
       "gross_margin": 0.29086264532631934,
       "op_margin": 0.11914606478532845,
-      "fcf_margin": 0.09904395335786853,
-      "op_leverage_ratio": 0.8558895049393639,
-      "fcf_margin_change": -0.12200088990820548
+      "fcf_margin": 0.09904395335786853
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.28442134073449715,
       "op_margin": 0.126112498117126,
       "fcf_margin": 0.06923207584056304,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02981187751730549
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.2615401817804259,
       "op_margin": 0.09157069150040732,
       "fcf_margin": 0.04953117262750986,
-      "incr_op_margin_yoy": 0.02428727074632286,
-      "rev_growth_yoy": 0.16380191776441763,
       "op_leverage_ratio": 0.2686915398853044,
       "fcf_margin_change": -0.07262581716874243
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.023472879785920133,
       "incr_op_margin_yoy": -0.5923697725605283,
       "rev_growth_yoy": 0.07038665321706081,
-      "rev_growth_yoy_accel": -0.09341526454735682,
       "fcf_margin_change": -0.02605829284158973
     },
     {
@@ -257,7 +236,7 @@
       "incr_op_margin_yoy": 0.30343637624369085,
       "rev_growth_yoy": 0.18096474845336757,
       "rev_growth_yoy_accel": 0.03824634899724172,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03244137191630757
     },
     {
@@ -325,7 +304,7 @@
       "incr_op_margin_yoy": 0.3764035621439239,
       "rev_growth_yoy": 0.0903850576436592,
       "rev_growth_yoy_accel": -0.004708465067113407,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05086837116208037
     },
     {
@@ -415,7 +394,7 @@
       "incr_op_margin_yoy": 0.10304775141467289,
       "rev_growth_yoy": 0.09237004873888703,
       "rev_growth_yoy_accel": 0.03791795679206865,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0383245675721275
     },
     {
@@ -439,6 +418,28 @@
       "rev_growth_yoy": 0.08408106310136133,
       "rev_growth_yoy_accel": -0.008288985637525698,
       "fcf_margin_change": 0.04673447885371252
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 472060000,
+      "gross_profit": 124756000,
+      "operating_income": 55935000,
+      "net_income": 48608000,
+      "opex": 68821000,
+      "cogs": 347304000,
+      "rd": null,
+      "sga": 57214000,
+      "fcf": 27938000,
+      "ocf": 55415000,
+      "capex": -27477000,
+      "gross_margin": 0.26427996441130364,
+      "op_margin": 0.11849129347964242,
+      "fcf_margin": 0.059183154683726646,
+      "incr_op_margin_yoy": -0.04861942117626202,
+      "rev_growth_yoy": 0.05019610809415858,
+      "rev_growth_yoy_accel": -0.033884955007202754,
+      "fcf_margin_change": -0.0397261679245767
     }
   ],
   "signals": [
@@ -533,12 +534,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.0% vs prior quarter YoY: +16.4% (decel: -9.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.9% -> +12.2% (+5.3%)",
@@ -570,7 +565,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:22:28.885587",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:09:45.075598"
 }

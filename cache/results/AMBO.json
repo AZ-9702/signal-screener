@@ -1,6 +1,8 @@
 {
   "ticker": "AMBO",
   "name": "AMBOW EDUCATION HOLDING LTD.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
     {
       "date": "2020-09-30T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.3686097094136071,
       "op_margin": -0.009187402122846702,
       "fcf_margin": -0.19067339481468593,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -137,7 +139,7 @@
       "fcf_margin": null,
       "rev_growth_yoy": 0.15298040850354314,
       "rev_growth_yoy_accel": 0.27358158152407097,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     }
   ],
   "signals": [
@@ -242,7 +244,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:13:46.387861",
-  "sector": "Consumer Defensive",
-  "industry": "Education & Training Services"
+  "last_updated": "2026-02-24T10:41:26.732953"
 }

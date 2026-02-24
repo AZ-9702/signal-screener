@@ -1,25 +1,9 @@
 {
   "ticker": "ELS",
-  "name": "EQUITY LIFESTYLE PROPERTIES INC",
+  "name": "EQUITY LIFESTYLE PROPERTIES, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 271896000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 206685000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 56544000,
-      "ocf": 56544000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.20796186777297201
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5854906703057654,
-      "op_leverage_ratio": 0.8666442255231943,
-      "fcf_margin_change": 0.3775288025327934
+      "fcf_margin": 0.5854906703057654
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.17035010604616851,
-      "rev_growth_yoy": 0.19652367081531175,
       "fcf_margin_change": -0.2041831579964633
     },
     {
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.42933570986343284,
       "rev_growth_yoy": 0.2166738728026915,
-      "rev_growth_yoy_accel": 0.02015020198737974,
       "op_leverage_ratio": 1.7551762195040603,
       "fcf_margin_change": 0.2589856038172643
     },
@@ -293,7 +273,7 @@
       "incr_op_margin_yoy": 1.5757101588830043,
       "rev_growth_yoy": 0.04491393478072831,
       "rev_growth_yoy_accel": -0.01392272010294892,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1554790140974197
     },
     {
@@ -429,6 +409,28 @@
       "rev_growth_yoy_accel": 0.02394035225538276,
       "op_leverage_ratio": 6.2394518382472475,
       "fcf_margin_change": 0.02540740773776634
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 373868000,
+      "gross_profit": null,
+      "operating_income": 99010000,
+      "net_income": null,
+      "opex": 274858000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 99461000,
+      "ocf": 99461000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2648260883520387,
+      "fcf_margin": 0.26603239646078297,
+      "incr_op_margin_yoy": -1.6750809061488674,
+      "rev_growth_yoy": 0.004149622773774384,
+      "rev_growth_yoy_accel": -0.011493775908234416,
+      "fcf_margin_change": -0.1077402127013623
     }
   ],
   "signals": [
@@ -539,12 +541,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.9% vs OpEx growth +2.1% (leverage: 2.4x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +20.8% -> +58.5% (+37.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -559,7 +555,7 @@
         20
       ],
       "op_income": [
-        11,
+        12,
         20
       ],
       "fcf": [
@@ -570,12 +566,10 @@
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 11/20Q"
+      "op_income: 12/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:31:21.842497",
-  "sector": "Real Estate",
-  "industry": "REIT - Residential"
+  "last_updated": "2026-02-24T10:28:01.016598"
 }

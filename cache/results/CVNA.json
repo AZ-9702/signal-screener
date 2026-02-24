@@ -1,25 +1,9 @@
 {
   "ticker": "CVNA",
   "name": "CARVANA CO.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1826406000,
-      "gross_profit": 243864000,
-      "operating_income": null,
-      "net_income": -63338000,
-      "opex": null,
-      "cogs": 1582542000,
-      "rd": null,
-      "sga": 342674000,
-      "fcf": -251000000,
-      "ocf": -161000000,
-      "capex": -90000000,
-      "gross_margin": 0.1335212433599101,
-      "op_margin": null,
-      "fcf_margin": -0.13742837025283536
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -82000000,
       "gross_margin": 0.15055679287305124,
       "op_margin": null,
-      "fcf_margin": -0.2734966592427617,
-      "fcf_margin_change": -0.13606828898992632
+      "fcf_margin": -0.2734966592427617
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.1374900079936051,
       "op_margin": null,
       "fcf_margin": -0.35678124167332803,
-      "rev_growth_yoy": 1.0548552731429923,
       "fcf_margin_change": -0.21913756351240848
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.23248498713182728,
       "rev_growth_yoy": 0.5576837416481069,
-      "rev_growth_yoy_accel": -0.49717153149488547,
       "fcf_margin_change": 0.12429625454150076
     },
     {
@@ -221,7 +202,7 @@
       "fcf_margin": 0.1654312668463612,
       "rev_growth_yoy": -0.23583934088568487,
       "rev_growth_yoy_accel": 0.018950478959897044,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20303679255626142
     },
     {
@@ -309,7 +290,7 @@
       "incr_op_margin_yoy": 0.49095022624434387,
       "rev_growth_yoy": 0.14892183288409702,
       "rev_growth_yoy_accel": -0.0256752507690112,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0702453820220521
     },
     {
@@ -425,6 +406,28 @@
       "rev_growth_yoy_accel": 0.125652001235603,
       "op_leverage_ratio": 2.1442965596771093,
       "fcf_margin_change": 0.05477837277747125
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5603000000,
+      "gross_profit": 1051000000,
+      "operating_income": 424000000,
+      "net_income": 857000000,
+      "opex": 627000000,
+      "cogs": 4552000000,
+      "rd": null,
+      "sga": 627000000,
+      "fcf": 379000000,
+      "ocf": 430000000,
+      "capex": -51000000,
+      "gross_margin": 0.18757808316973051,
+      "op_margin": 0.0756737462073889,
+      "fcf_margin": 0.06764233446368018,
+      "incr_op_margin_yoy": 0.07976653696498054,
+      "rev_growth_yoy": 0.579644770228362,
+      "rev_growth_yoy_accel": 0.0346379302830816,
+      "fcf_margin_change": 0.013277184826704792
     }
   ],
   "signals": [
@@ -615,12 +618,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +55.8% vs prior quarter YoY: +105.5% (decel: -49.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -21.6% -> -13.8% (+7.8%)",
@@ -645,7 +642,7 @@
         20
       ],
       "op_income": [
-        11,
+        12,
         20
       ],
       "fcf": [
@@ -655,12 +652,10 @@
     },
     "gaps": [],
     "warnings": [
-      "op_income: 11/20Q"
+      "op_income: 12/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:50:01.979499",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto & Truck Dealerships"
+  "last_updated": "2026-02-24T10:30:23.731621"
 }

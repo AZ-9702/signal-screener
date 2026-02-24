@@ -1,25 +1,9 @@
 {
   "ticker": "MRNA",
-  "name": "MODERNA, INC.",
+  "name": "Moderna, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 570745000,
-      "gross_profit": 562812000,
-      "operating_income": -275038000,
-      "net_income": -272485000,
-      "opex": 845783000,
-      "cogs": 7933000,
-      "rd": 758860000,
-      "sga": null,
-      "fcf": 1240000000,
-      "ocf": 1264000000,
-      "capex": -24000000,
-      "gross_margin": 0.9861006228701084,
-      "op_margin": -0.48189296445873375,
-      "fcf_margin": 2.1725989715196805
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -35000000,
       "gross_margin": 0.9003613835828601,
       "op_margin": 0.6535880227155395,
-      "fcf_margin": 1.5157459989674755,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.656852972552205
+      "fcf_margin": 1.5157459989674755
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.8679794758008598,
       "op_margin": 0.7502426847871307,
       "fcf_margin": 0.44237969768409374,
-      "incr_op_margin_yoy": 0.8561475425266047,
-      "rev_growth_yoy": 11.634363857764852,
       "op_leverage_ratio": 1.632409141807411,
       "fcf_margin_change": -0.19698435947026333
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.43372898120672604,
       "incr_op_margin_yoy": 0.717122790021797,
       "rev_growth_yoy": 2.1316468766133196,
-      "rev_growth_yoy_accel": -9.502716981151533,
       "fcf_margin_change": -0.008650716477367704
     },
     {
@@ -278,7 +257,7 @@
       "incr_op_margin_yoy": 0.6924769027716674,
       "rev_growth_yoy": -0.4470889063729347,
       "rev_growth_yoy_accel": 0.008618584709110477,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.0933099874274836
     },
     {
@@ -413,7 +392,7 @@
       "incr_op_margin_yoy": -4.606060606060606,
       "rev_growth_yoy": -0.4107883817427386,
       "rev_growth_yoy_accel": -0.05749496856908587,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 4.192227438706312
     },
     {
@@ -438,9 +417,43 @@
       "rev_growth_yoy_accel": -0.04356177937433986,
       "op_leverage_ratio": 28.442824346962837,
       "fcf_margin_change": 5.626816014195408
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 678000000,
+      "gross_profit": 226000000,
+      "operating_income": -857000000,
+      "net_income": -826000000,
+      "opex": 1535000000,
+      "cogs": 452000000,
+      "rd": 775000000,
+      "sga": null,
+      "fcf": 891000000,
+      "ocf": 930000000,
+      "capex": -39000000,
+      "gross_margin": 0.3333333333333333,
+      "op_margin": -1.2640117994100295,
+      "fcf_margin": 1.3141592920353982,
+      "incr_op_margin_yoy": -1.3506944444444444,
+      "rev_growth_yoy": -0.2981366459627329,
+      "rev_growth_yoy_accel": 0.1562135151543455,
+      "fcf_margin_change": 2.1803010243188625
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -86.6% -> +131.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -29.8% vs prior quarter YoY: -45.4% (accel: +15.6%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -622,22 +635,10 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +213.2% vs prior quarter YoY: +1163.4% (decel: -950.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +45.1% vs OpEx growth +27.6% (leverage: 1.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -48.2% (year-ago) -> +75.0%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -650,12 +651,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +90.0% -> +82.8% -> +85.5% (reversal +2.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -48.2% -> +65.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -683,7 +678,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:21:18.866044",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:14:35.753536"
 }

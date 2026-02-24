@@ -1,25 +1,9 @@
 {
   "ticker": "BKNG",
   "name": "Booking Holdings Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1238000000,
-      "gross_profit": null,
-      "operating_income": -153000000,
-      "net_income": null,
-      "opex": 1391000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -641000000,
-      "ocf": -577000000,
-      "capex": -64000000,
-      "gross_margin": null,
-      "op_margin": -0.12358642972536349,
-      "fcf_margin": -0.5177705977382876
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -65000000,
       "gross_margin": null,
       "op_margin": -0.27256792287467135,
-      "fcf_margin": -0.23838737949167396,
-      "fcf_margin_change": 0.2793832182466136
+      "fcf_margin": -0.23838737949167396
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.28446829922844685,
       "fcf_margin": 0.05971150620597115,
-      "incr_op_margin_yoy": 0.5742971887550201,
-      "rev_growth_yoy": 1.4079159935379644,
       "fcf_margin_change": -0.26471107719864817
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.5884972170686457,
       "incr_op_margin_yoy": 0.3120978120978121,
       "rev_growth_yoy": 1.361963190184049,
-      "rev_growth_yoy_accel": -0.045952803353915384,
       "fcf_margin_change": 0.5287857108626746
     },
     {
@@ -437,9 +417,37 @@
       "rev_growth_yoy_accel": -0.033421123190062796,
       "op_leverage_ratio": 1.5133417228199155,
       "fcf_margin_change": -0.3092612065402164
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6349000000,
+      "gross_profit": null,
+      "operating_income": 2030000000,
+      "net_income": null,
+      "opex": 4319000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1417000000,
+      "ocf": 1490000000,
+      "capex": -73000000,
+      "gross_margin": null,
+      "op_margin": 0.3197353914002205,
+      "fcf_margin": 0.2231847535044889,
+      "incr_op_margin_yoy": 0.3428246013667426,
+      "rev_growth_yoy": 0.16048254432462072,
+      "rev_growth_yoy_accel": 0.03363741047423294,
+      "fcf_margin_change": 0.0709867073233166
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +15.2% -> +22.3% (+7.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -639,12 +647,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -12.4% (year-ago) -> +28.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +116.5% vs OpEx growth +20.1% (leverage: 5.8x)",
@@ -666,12 +668,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +89.3% vs OpEx growth +52.6% (leverage: 1.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -51.8% -> -23.8% (+27.9%)",
       "severity": "MEDIUM"
     }
   ],
@@ -702,7 +698,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:14.509569",
-  "sector": "Consumer Cyclical",
-  "industry": "Travel Services"
+  "last_updated": "2026-02-24T10:26:27.154297"
 }

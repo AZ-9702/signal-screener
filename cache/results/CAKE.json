@@ -1,25 +1,9 @@
 {
   "ticker": "CAKE",
   "name": "THE CHEESECAKE FACTORY INCORPORATED",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2020-12-29T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 554552000,
-      "gross_profit": 427357000,
-      "operating_income": -38811000,
-      "net_income": -32317000,
-      "opex": 593363000,
-      "cogs": 127195000,
-      "rd": null,
-      "sga": null,
-      "fcf": 23585000,
-      "ocf": 35644000,
-      "capex": -12059000,
-      "gross_margin": 0.7706346744759734,
-      "op_margin": -0.0699862231134321,
-      "fcf_margin": 0.04252982587746505
-    },
     {
       "date": "2021-03-30T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -7227000,
       "gross_margin": 0.7834374905365968,
       "op_margin": 0.014095888380455104,
-      "fcf_margin": 0.022975150497994156,
-      "op_leverage_ratio": 3.092603972517264,
-      "fcf_margin_change": -0.019554675379470896
+      "fcf_margin": 0.022975150497994156
     },
     {
       "date": "2021-06-29T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.7696696120603637,
       "op_margin": 0.0012604722844161077,
       "fcf_margin": 0.09792929767617321,
-      "incr_op_margin_yoy": 0.17912046853124816,
-      "rev_growth_yoy": 0.4005774030208168,
       "op_leverage_ratio": 0.4047163109593127,
       "fcf_margin_change": 0.13707445045811134
     },
@@ -120,8 +100,7 @@
       "fcf_margin": 0.005567524662660165,
       "incr_op_margin_yoy": 0.11712459333826439,
       "rev_growth_yoy": 0.26504382252951386,
-      "rev_growth_yoy_accel": -0.13553358049130293,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09236177301351305
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 0.2137480584650922,
       "rev_growth_yoy": 0.02899041003840141,
       "rev_growth_yoy_accel": 0.046679662526635086,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01476872800988938
     },
     {
@@ -324,7 +303,7 @@
       "incr_op_margin_yoy": 0.29628749471905363,
       "rev_growth_yoy": 0.04372351847789695,
       "rev_growth_yoy_accel": 0.014733108439495535,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0349035789247936
     },
     {
@@ -438,6 +417,29 @@
       "rev_growth_yoy": 0.04824540625855748,
       "rev_growth_yoy_accel": -0.009034012175541825,
       "fcf_margin_change": 0.04344085764864174
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 961558000,
+      "gross_profit": null,
+      "operating_income": 33235000,
+      "net_income": 28775000,
+      "opex": 928323000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 49751000,
+      "ocf": 74907000,
+      "capex": -25156000,
+      "gross_margin": null,
+      "op_margin": 0.03456369766566343,
+      "fcf_margin": 0.05173998864343077,
+      "incr_op_margin_yoy": -0.3300160118241163,
+      "rev_growth_yoy": 0.04407886093143807,
+      "rev_growth_yoy_accel": -0.004166545327119409,
+      "op_leverage_ratio": 0.8926435270920496,
+      "fcf_margin_change": -0.007702752195125444
     }
   ],
   "signals": [
@@ -545,12 +547,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +26.5% vs prior quarter YoY: +40.1% (decel: -13.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +11.7% vs year-ago OPM: +1.4%",
       "severity": "MEDIUM"
@@ -562,28 +558,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -7.0% (year-ago) -> +0.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.3% -> +11.1% (+8.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +13.1% vs OpEx growth +4.2% (leverage: 3.1x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -7.0% -> +1.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -594,7 +572,7 @@
         20
       ],
       "gross_profit": [
-        8,
+        7,
         20
       ],
       "op_income": [
@@ -608,12 +586,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 8/20Q"
+      "gross_profit: 7/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:24:19.865764",
-  "sector": "Consumer Cyclical",
-  "industry": "Restaurants"
+  "last_updated": "2026-02-24T10:06:48.937280"
 }

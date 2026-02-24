@@ -1,25 +1,9 @@
 {
   "ticker": "APLE",
   "name": "APPLE HOSPITALITY REIT, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Hotel & Motel",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 133965000,
-      "gross_profit": 42532000,
-      "operating_income": -32828000,
-      "net_income": -51247000,
-      "opex": 168862000,
-      "cogs": 91433000,
-      "rd": null,
-      "sga": null,
-      "fcf": 529000,
-      "ocf": 529000,
-      "capex": null,
-      "gross_margin": 0.3174859104990109,
-      "op_margin": -0.2450490799835778,
-      "fcf_margin": 0.0039487925950808045
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.3463673423097037,
       "op_margin": -0.17524714421628979,
-      "fcf_margin": -0.013319639853068117,
-      "op_leverage_ratio": 1.4084017775756201,
-      "fcf_margin_change": -0.01726843244814892
+      "fcf_margin": -0.013319639853068117
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.40509920666592175,
       "op_margin": 0.11181700640094498,
       "fcf_margin": 0.2841317221894105,
-      "incr_op_margin_yoy": 0.5217495691244437,
-      "rev_growth_yoy": 0.870548277535177,
       "fcf_margin_change": -0.06435870225243617
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.14996659986639946,
       "incr_op_margin_yoy": 0.595971109910087,
       "rev_growth_yoy": 0.6411888125106324,
-      "rev_growth_yoy_accel": -0.22935946502454463,
       "op_leverage_ratio": 1.7074559671235598,
       "fcf_margin_change": -0.13416512232301106
     },
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 0.32195543000627747,
       "rev_growth_yoy": 0.19570174832423468,
       "rev_growth_yoy_accel": 0.0020252753885793284,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1524495692540709
     },
     {
@@ -438,6 +417,28 @@
       "rev_growth_yoy": -0.013105692859575075,
       "rev_growth_yoy_accel": 0.0015247518987675096,
       "fcf_margin_change": 0.05514569606050096
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 326436000,
+      "gross_profit": 121508000,
+      "operating_income": 49597000,
+      "net_income": 29615000,
+      "opex": 282018000,
+      "cogs": 204928000,
+      "rd": null,
+      "sga": null,
+      "fcf": 85843000,
+      "ocf": 85843000,
+      "capex": null,
+      "gross_margin": 0.3722261025132032,
+      "op_margin": 0.1519348356186205,
+      "fcf_margin": 0.26297038316852306,
+      "incr_op_margin_yoy": 0.046363636363636364,
+      "rev_growth_yoy": -0.019817677368212445,
+      "rev_growth_yoy_accel": -0.006711984508637371,
+      "fcf_margin_change": -0.07522549891065783
     }
   ],
   "signals": [
@@ -593,20 +594,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +64.1% vs prior quarter YoY: +87.1% (decel: -22.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -17.5% (year-ago) -> +12.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -24.5% (year-ago) -> +11.2%",
       "severity": "HIGH"
     },
     {
@@ -659,7 +648,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:25:07.044132",
-  "sector": "Real Estate",
-  "industry": "REIT - Hotel & Motel"
+  "last_updated": "2026-02-24T10:06:30.587554"
 }

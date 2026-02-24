@@ -1,6 +1,8 @@
 {
   "ticker": "AERT",
   "name": "Aeries Technology, Inc.",
+  "sector": "Industrials",
+  "industry": "Consulting Services",
   "quarters": [
     {
       "date": "2022-12-31T00:00:00",
@@ -77,7 +79,7 @@
       "gross_margin": 0.274433951530322,
       "op_margin": -0.09087916714074411,
       "fcf_margin": 0.04608032768233018,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.055694534663346715
     },
     {
@@ -165,7 +167,7 @@
       "fcf_margin": 0.07781663011912524,
       "rev_growth_yoy": -0.040106951871657755,
       "rev_growth_yoy_accel": -0.060743816537916176,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20321412216928422
     },
     {
@@ -210,7 +212,7 @@
       "fcf_margin": 0.039472993543646,
       "rev_growth_yoy": -0.03314047909053999,
       "rev_growth_yoy_accel": 0.03512432484659289,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17964451623348526
     },
     {
@@ -256,9 +258,42 @@
       "rev_growth_yoy_accel": 0.10902180937001185,
       "op_leverage_ratio": 4.955768039832545,
       "fcf_margin_change": -0.03478967073707317
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 17460000,
+      "gross_profit": 3342000,
+      "operating_income": 772000,
+      "net_income": 1157000,
+      "opex": 2570000,
+      "cogs": 14118000,
+      "rd": null,
+      "sga": 2570000,
+      "fcf": 2134000,
+      "ocf": 2368000,
+      "capex": -234000,
+      "gross_margin": 0.1914089347079038,
+      "op_margin": 0.04421534936998855,
+      "fcf_margin": 0.12222222222222222,
+      "rev_growth_yoy": -0.008348952121315386,
+      "rev_growth_yoy_accel": -0.03715236585923988,
+      "fcf_margin_change": 0.08460484794951065
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +3.8% -> +12.2% (+8.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -29.3% (year-ago) -> +4.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -345,23 +380,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 12,
+    "n_quarters": 13,
     "coverage": {
       "revenue": [
-        12,
-        12
+        13,
+        13
       ],
       "gross_profit": [
-        12,
-        12
+        13,
+        13
       ],
       "op_income": [
-        12,
-        12
+        13,
+        13
       ],
       "fcf": [
-        12,
-        12
+        13,
+        13
       ]
     },
     "gaps": [],
@@ -369,7 +404,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:54:36.760475",
-  "sector": "Industrials",
-  "industry": "Consulting Services"
+  "last_updated": "2026-02-24T11:06:53.796448"
 }

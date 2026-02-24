@@ -1,25 +1,9 @@
 {
   "ticker": "SSTK",
   "name": "Shutterstock,\u00a0Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 180944000,
-      "gross_profit": 114636000,
-      "operating_income": 27593000,
-      "net_income": 25879000,
-      "opex": 153351000,
-      "cogs": 66308000,
-      "rd": 9867000,
-      "sga": null,
-      "fcf": 59494000,
-      "ocf": 64847000,
-      "capex": -5353000,
-      "gross_margin": 0.6335440799363339,
-      "op_margin": 0.15249469449111328,
-      "fcf_margin": 0.3287978601114157
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -8548000,
       "gross_margin": 0.662638244007835,
       "op_margin": 0.20797573125419438,
-      "fcf_margin": 0.1488424877646892,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.1799553723467265
+      "fcf_margin": 0.1488424877646892
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6188412065136576,
       "op_margin": 0.07091936651715643,
       "fcf_margin": 0.2310978069131075,
-      "incr_op_margin_yoy": -0.5233302467893233,
-      "rev_growth_yoy": 0.1372745158723141,
       "op_leverage_ratio": 0.5312443394009408,
       "fcf_margin_change": -0.01994236506885083
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.05497860715505293,
       "incr_op_margin_yoy": -0.3911425146678443,
       "rev_growth_yoy": 0.086484687447144,
-      "rev_growth_yoy_accel": -0.05078982842517009,
       "fcf_margin_change": -0.17611919975805457
     },
     {
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": 0.2996569870251614,
       "rev_growth_yoy": 0.21329861442470677,
       "rev_growth_yoy_accel": 0.08122666425789624,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0013683186051429153
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": 0.03793477740354686,
       "rev_growth_yoy_accel": -0.1753638370211599,
       "fcf_margin_change": 0.20317640726267971
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 220221000,
+      "gross_profit": 122815000,
+      "operating_income": -2364000,
+      "net_income": -16019000,
+      "opex": 222585000,
+      "cogs": 97406000,
+      "rd": 26040000,
+      "sga": null,
+      "fcf": 25899000,
+      "ocf": 36213000,
+      "capex": -10314000,
+      "gross_margin": 0.5576897752712049,
+      "op_margin": -0.010734671080414674,
+      "fcf_margin": 0.11760458811829934,
+      "incr_op_margin_yoy": 0.5155725444573708,
+      "rev_growth_yoy": -0.12019288391009404,
+      "rev_growth_yoy_accel": -0.1581276613136409,
+      "fcf_margin_change": -0.14371631893838016
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -12.0% vs prior quarter YoY: +3.8% (decel: -15.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -589,12 +596,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +8.6% vs prior quarter YoY: +13.7% (decel: -5.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +14.9% -> +34.0% (+19.1%)",
@@ -626,5 +627,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:13:00.408142"
+  "last_updated": "2026-02-24T10:36:05.738716"
 }

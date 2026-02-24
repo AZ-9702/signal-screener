@@ -1,25 +1,9 @@
 {
   "ticker": "MCO",
   "name": "MOODY\u2019S CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Financial Data & Stock Exchanges",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1290000000,
-      "gross_profit": 881000000,
-      "operating_income": 444000000,
-      "net_income": 314000000,
-      "opex": 846000000,
-      "cogs": 409000000,
-      "rd": null,
-      "sga": 350000000,
-      "fcf": 638000000,
-      "ocf": 658000000,
-      "capex": -20000000,
-      "gross_margin": 0.6829457364341085,
-      "op_margin": 0.34418604651162793,
-      "fcf_margin": 0.4945736434108527
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -14000000,
       "gross_margin": 0.754375,
       "op_margin": 0.533125,
-      "fcf_margin": 0.41375,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.08082364341085269
+      "fcf_margin": 0.41375
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.6848602988953866,
       "op_margin": 0.33398310591293046,
       "fcf_margin": 0.1539961013645224,
-      "incr_op_margin_yoy": 0.28112449799196787,
-      "rev_growth_yoy": 0.1930232558139535,
       "fcf_margin_change": -0.1100930205227646
     },
     {
@@ -118,7 +98,6 @@
       "fcf_margin": 0.2700394218134034,
       "incr_op_margin_yoy": 2.5256410256410255,
       "rev_growth_yoy": -0.04875,
-      "rev_growth_yoy_accel": -0.24177325581395348,
       "fcf_margin_change": 0.116043320448881
     },
     {
@@ -208,7 +187,7 @@
       "incr_op_margin_yoy": 1.9615384615384615,
       "rev_growth_yoy": -0.03416557161629435,
       "rev_growth_yoy_accel": 0.12762780070339375,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13293782629330803
     },
     {
@@ -388,7 +367,7 @@
       "incr_op_margin_yoy": 0.32608695652173914,
       "rev_growth_yoy": 0.07726763717805152,
       "rev_growth_yoy_accel": -0.05246209255167822,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.009579325368799019
     },
     {
@@ -435,9 +414,43 @@
       "rev_growth_yoy_accel": 0.06242598781320379,
       "op_leverage_ratio": 6.20231822971549,
       "fcf_margin_change": 0.08127717372756998
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1889000000,
+      "gross_profit": 1388000000,
+      "operating_income": 770000000,
+      "net_income": 610000000,
+      "opex": 1119000000,
+      "cogs": 501000000,
+      "rd": null,
+      "sga": 468000000,
+      "fcf": 777000000,
+      "ocf": 858000000,
+      "capex": -81000000,
+      "gross_margin": 0.7347803070407624,
+      "op_margin": 0.4076230809952356,
+      "fcf_margin": 0.4113287453679195,
+      "incr_op_margin_yoy": 0.9631336405529954,
+      "rev_growth_yoy": 0.1297846889952153,
+      "rev_growth_yoy_accel": 0.022779724847394017,
+      "fcf_margin_change": 0.08347622917459613
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +32.8% -> +41.1% (+8.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +96.3% vs year-ago OPM: +33.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -626,12 +639,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -4.9% vs prior quarter YoY: +19.3% (decel: -24.2%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +252.6% vs year-ago OPM: +53.3%",
       "severity": "HIGH"
@@ -662,7 +669,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:13.904876",
-  "sector": "Financial Services",
-  "industry": "Financial Data & Stock Exchanges"
+  "last_updated": "2026-02-24T10:27:41.354752"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "T",
   "name": "AT&T INC.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 45691000000,
-      "gross_profit": null,
-      "operating_income": -10745000000,
-      "net_income": -13883000000,
-      "opex": 56436000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 10182000000,
-      "fcf": 10082000000,
-      "ocf": 10082000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.2351666630189753,
-      "fcf_margin": 0.2206561467247379
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.17435535628940121,
-      "fcf_margin": 0.22592685313730398,
-      "fcf_margin_change": 0.0052707064125660785
+      "fcf_margin": 0.22592685313730398
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.15738864769255506,
       "fcf_margin": 0.36192313876829074,
-      "incr_op_margin_yoy": -1.0714579336804604,
-      "rev_growth_yoy": -0.31945021995579,
       "fcf_margin_change": 0.11479123154921353
     },
     {
@@ -117,8 +98,7 @@
       "fcf_margin": 0.15042645322136203,
       "incr_op_margin_yoy": 0.3462461432979088,
       "rev_growth_yoy": -0.13277498349985206,
-      "rev_growth_yoy_accel": 0.18667523645593792,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21149668554692871
     },
     {
@@ -162,7 +142,7 @@
       "incr_op_margin_yoy": 0.11104362789756048,
       "rev_growth_yoy": -0.24745754220730423,
       "rev_growth_yoy_accel": 0.07952622439503429,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-12-31T00:00:00",
@@ -263,16 +243,17 @@
       "cogs": null,
       "rd": null,
       "sga": 7485000000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 11378000000,
+      "ocf": 11378000000,
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.1646055836612329,
-      "fcf_margin": null,
+      "fcf_margin": 0.3553182187246268,
       "incr_op_margin_yoy": 38.82621502209131,
       "rev_growth_yoy": 0.021663529336694,
       "rev_growth_yoy_accel": 0.011444842787414634,
-      "op_leverage_ratio": 0.6200027922821322
+      "op_leverage_ratio": 0.6200027922821322,
+      "fcf_margin_change": 0.014758086928910175
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -293,7 +274,8 @@
       "fcf_margin": 0.2513320900492873,
       "incr_op_margin_yoy": 1.3963963963963963,
       "rev_growth_yoy": -0.003682935731112512,
-      "rev_growth_yoy_accel": -0.025346465067806512
+      "rev_growth_yoy_accel": -0.025346465067806512,
+      "fcf_margin_change": -0.10398612867533952
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -351,16 +333,17 @@
       "cogs": null,
       "rd": null,
       "sga": 7389000000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 11896000000,
+      "ocf": 11896000000,
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.1649018515078333,
-      "fcf_margin": null,
+      "fcf_margin": 0.36832001981546847,
       "incr_op_margin_yoy": 0.19927536231884058,
       "rev_growth_yoy": 0.008619074386359378,
       "rev_growth_yoy_accel": 0.013133077681252294,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.02955855951692149
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -381,7 +364,8 @@
       "fcf_margin": 0.2954679030888787,
       "incr_op_margin_yoy": -0.15551839464882944,
       "rev_growth_yoy": 0.01991474623684561,
-      "rev_growth_yoy_accel": 0.011295671850486232
+      "rev_growth_yoy_accel": 0.011295671850486232,
+      "fcf_margin_change": -0.07285211672658976
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -426,9 +410,38 @@
       "rev_growth_yoy": 0.016416774236255916,
       "rev_growth_yoy_accel": -0.018821672587249805,
       "fcf_margin_change": 0.014089571859591588
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 33466000000,
+      "gross_profit": null,
+      "operating_income": 5788000000,
+      "net_income": 3788000000,
+      "opex": 27678000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 7398000000,
+      "fcf": 11320000000,
+      "ocf": 11320000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.17295165242335506,
+      "fcf_margin": 0.3382537500747027,
+      "incr_op_margin_yoy": 0.3955479452054795,
+      "rev_growth_yoy": 0.03616322992135736,
+      "rev_growth_yoy_accel": 0.01974645568510144,
+      "op_leverage_ratio": 0.7149115750947765,
+      "fcf_margin_change": 0.007666625778893654
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +39.6% vs year-ago OPM: +16.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -521,12 +534,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -13.3% vs prior quarter YoY: -31.9% (accel: +18.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +34.6% vs year-ago OPM: +17.4%",
       "severity": "MEDIUM"
@@ -536,18 +543,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +24.7% -> +36.2% (+11.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -23.5% (year-ago) -> +15.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -23.5% -> +17.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -566,17 +561,16 @@
         20
       ],
       "fcf": [
-        15,
+        17,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 1/20Q",
-      "fcf: 15/20Q"
+      "gross_profit: 1/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:18.443159"
+  "last_updated": "2026-02-24T11:08:47.741651"
 }

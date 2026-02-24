@@ -1,25 +1,9 @@
 {
   "ticker": "LILA",
-  "name": "Liberty Latin America Ltd.",
+  "name": "LIBERTY LATIN AMERICA LTD.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1097200000,
-      "gross_profit": 831400000,
-      "operating_income": 103300000,
-      "net_income": -28900000,
-      "opex": 993900000,
-      "cogs": 265800000,
-      "rd": null,
-      "sga": null,
-      "fcf": -38900000,
-      "ocf": 149100000,
-      "capex": -188000000,
-      "gross_margin": 0.7577469923441488,
-      "op_margin": 0.09414874225300765,
-      "fcf_margin": -0.035453882610280714
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -152400000,
       "gross_margin": 0.7584274506422968,
       "op_margin": 0.1536339339598241,
-      "fcf_margin": 0.044055522027761015,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.07950940463804174
+      "fcf_margin": 0.044055522027761015
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.7317645219294817,
       "op_margin": -0.30849816277069814,
       "fcf_margin": 0.032444687671018685,
-      "incr_op_margin_yoy": -2.737218251786696,
-      "rev_growth_yoy": 0.1657856361647831,
       "op_leverage_ratio": 0.12447119600979556,
       "fcf_margin_change": -0.002957996892739706
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.04357101829818659,
       "incr_op_margin_yoy": 0.1717687074829932,
       "rev_growth_yoy": 0.05069402534701267,
-      "rev_growth_yoy_accel": -0.11509161081777042,
       "fcf_margin_change": -0.07601570596920527
     },
     {
@@ -231,7 +210,7 @@
       "incr_op_margin_yoy": -5.160168598524763,
       "rev_growth_yoy": -0.07794021024967149,
       "rev_growth_yoy_accel": 0.016340580757139053,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10413217734606958
     },
     {
@@ -321,7 +300,7 @@
       "incr_op_margin_yoy": 6.1063829787234045,
       "rev_growth_yoy": -0.004186336510198629,
       "rev_growth_yoy_accel": -0.00020010712081649455,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11914651445917972
     },
     {
@@ -366,7 +345,7 @@
       "incr_op_margin_yoy": -1.105263157894737,
       "rev_growth_yoy": -0.011430044688896529,
       "rev_growth_yoy_accel": 0.02108017026935538,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18355465653326034
     },
     {
@@ -433,11 +412,40 @@
       "incr_op_margin_yoy": 24.339055793991417,
       "rev_growth_yoy": 0.021391847227322805,
       "rev_growth_yoy_accel": 0.0493882694097915,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03024511070005781
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1159500000,
+      "gross_profit": 896200000,
+      "operating_income": 125600000,
+      "net_income": -54800000,
+      "opex": 1033900000,
+      "cogs": 263300000,
+      "rd": null,
+      "sga": null,
+      "fcf": 461900000,
+      "ocf": 461900000,
+      "capex": null,
+      "gross_margin": 0.7729193617938767,
+      "op_margin": 0.10832255282449331,
+      "fcf_margin": 0.3983613626563174,
+      "incr_op_margin_yoy": -0.22826086956521738,
+      "rev_growth_yoy": 0.007997913587759715,
+      "rev_growth_yoy_accel": -0.01339393363956309,
+      "op_leverage_ratio": 0.3588489594618297,
+      "fcf_margin_change": 0.2381815873754185
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +16.0% -> +39.8% (+23.8%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -596,20 +604,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +5.1% vs prior quarter YoY: +16.6% (decel: -11.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -30.8% -> +15.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -3.5% -> +4.4%",
       "severity": "HIGH"
     }
   ],
@@ -638,7 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:45.049528",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-24T10:29:26.566936"
 }

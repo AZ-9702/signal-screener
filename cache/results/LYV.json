@@ -1,25 +1,9 @@
 {
   "ticker": "LYV",
   "name": "LIVE NATION ENTERTAINMENT, INC.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 237383000,
-      "gross_profit": null,
-      "operating_income": -388014000,
-      "net_income": -443332000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 281035000,
-      "fcf": -153195000,
-      "ocf": -126485000,
-      "capex": -26710000,
-      "gross_margin": null,
-      "op_margin": -1.6345483880480067,
-      "fcf_margin": -0.6453494984897823
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -23763000,
       "gross_margin": null,
       "op_margin": -1.0432299068507858,
-      "fcf_margin": 0.17484317416184633,
-      "fcf_margin_change": 0.8201926726516287
+      "fcf_margin": 0.17484317416184633
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": -0.046074053796098656,
       "fcf_margin": 0.26156364564566786,
-      "incr_op_margin_yoy": 0.10684945617768282,
-      "rev_growth_yoy": 10.387378203156924,
       "fcf_margin_change": 0.33238976260028563
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.6300033059538231,
       "incr_op_margin_yoy": 0.218378665770841,
       "rev_growth_yoy": 5.203551851456768,
-      "rev_growth_yoy_accel": -5.183826351700156,
       "fcf_margin_change": 0.3684396603081553
     },
     {
@@ -427,6 +407,28 @@
       "rev_growth_yoy": 0.11084124386508741,
       "rev_growth_yoy_accel": -0.05239254241166984,
       "fcf_margin_change": -0.03798173725855532
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6313505000,
+      "gross_profit": null,
+      "operating_income": -142656000,
+      "net_income": -202100000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 1301455000,
+      "fcf": -405638000,
+      "ocf": -53730000,
+      "capex": -351908000,
+      "gross_margin": null,
+      "op_margin": -0.022595372934685252,
+      "fcf_margin": -0.0642492561580295,
+      "incr_op_margin_yoy": 0.15316689665649647,
+      "rev_growth_yoy": 0.11122091990749777,
+      "rev_growth_yoy_accel": 0.00037967604241036235,
+      "fcf_margin_change": -0.020566498967098598
     }
   ],
   "signals": [
@@ -582,12 +584,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +520.4% vs prior quarter YoY: +1038.7% (decel: -518.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -104.3% (year-ago) -> +1.5%",
       "severity": "HIGH"
@@ -615,12 +611,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +17.5% -> +184.2% (+166.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -64.5% -> +17.5%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -650,7 +640,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:06:56.995575",
-  "sector": "Communication Services",
-  "industry": "Entertainment"
+  "last_updated": "2026-02-24T10:22:33.195970"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ATRC",
   "name": "AtriCure, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 57725000,
-      "gross_profit": 42437000,
-      "operating_income": -17503000,
-      "net_income": -18562000,
-      "opex": 59940000,
-      "cogs": 15288000,
-      "rd": 10871000,
-      "sga": 49069000,
-      "fcf": 2902000,
-      "ocf": 3954000,
-      "capex": -1052000,
-      "gross_margin": 0.7351580770896492,
-      "op_margin": -0.30321351234300564,
-      "fcf_margin": 0.05027284538761369
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1326000,
       "gross_margin": 0.7514129059468578,
       "op_margin": -0.2679881906368621,
-      "fcf_margin": -0.17953606073386758,
-      "op_leverage_ratio": 3.3185071414858043,
-      "fcf_margin_change": -0.22980890612148125
+      "fcf_margin": -0.17953606073386758
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +78,7 @@
       "gross_margin": 0.7513999289792128,
       "op_margin": -0.17075036193285803,
       "fcf_margin": -0.03290174547242481,
-      "incr_op_margin_yoy": 0.3227909378428968,
-      "rev_growth_yoy": 0.26839324382849716,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.008263652937653309
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.3756302295644711,
       "incr_op_margin_yoy": 0.11339128161558068,
       "rev_growth_yoy": 0.258135807676086,
-      "rev_growth_yoy_accel": -0.010257436152411148,
       "op_leverage_ratio": 0.5623170610950122,
       "fcf_margin_change": -0.3427284840920463
     },
@@ -189,7 +168,7 @@
       "incr_op_margin_yoy": 0.5648885887913572,
       "rev_growth_yoy": 0.20227266519161954,
       "rev_growth_yoy_accel": 0.020808004391165397,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03637514055021388
     },
     {
@@ -440,9 +419,44 @@
       "rev_growth_yoy": 0.15839013027348806,
       "rev_growth_yoy_accel": -0.012506669389362735,
       "fcf_margin_change": 0.04033965503213535
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 140500000,
+      "gross_profit": 105337000,
+      "operating_income": 2491000,
+      "net_income": 1756000,
+      "opex": 102846000,
+      "cogs": 35163000,
+      "rd": 24505000,
+      "sga": 78341000,
+      "fcf": 18425000,
+      "ocf": 20027000,
+      "capex": -1602000,
+      "gross_margin": 0.749729537366548,
+      "op_margin": 0.017729537366548042,
+      "fcf_margin": 0.13113879003558718,
+      "incr_op_margin_yoy": 1.04875793626333,
+      "rev_growth_yoy": 0.130539037794604,
+      "rev_growth_yoy_accel": -0.027851092478884065,
+      "op_leverage_ratio": 2.7252295517944987,
+      "fcf_margin_change": -0.048433560991083174
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +4.6% vs OpEx growth +1.7% (leverage: 2.7x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -11.7% (year-ago) -> +1.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -532,12 +546,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -18.0% -> -12.3% (+5.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +2.7% vs OpEx growth +0.8% (leverage: 3.3x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -565,7 +573,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:38:57.898865",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-24T10:25:09.848276"
 }

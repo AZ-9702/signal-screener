@@ -1,25 +1,9 @@
 {
   "ticker": "UTL",
-  "name": "UNITIL CORP",
+  "name": "UNITIL CORPORATION",
+  "sector": "Utilities",
+  "industry": "Utilities - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 116900000,
-      "gross_profit": null,
-      "operating_income": 25300000,
-      "net_income": 13600000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -28200000,
-      "ocf": 800000,
-      "capex": -29000000,
-      "gross_margin": null,
-      "op_margin": 0.21642429426860565,
-      "fcf_margin": -0.24123182207014543
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -14100000,
       "gross_margin": null,
       "op_margin": 0.24063400576368876,
-      "fcf_margin": 0.2420749279538905,
-      "fcf_margin_change": 0.4833067500240359
+      "fcf_margin": 0.2420749279538905
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.1888412017167382,
       "fcf_margin": -0.15450643776824036,
-      "incr_op_margin_yoy": 0.048034934497816595,
-      "rev_growth_yoy": 0.1958939264328486,
       "fcf_margin_change": 0.12581975998915007
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.0711318795430945,
       "incr_op_margin_yoy": 0.04460966542750929,
       "rev_growth_yoy": 0.38760806916426516,
-      "rev_growth_yoy_accel": 0.19171414273141657,
       "fcf_margin_change": 0.22563831731133485
     },
     {
@@ -427,9 +407,43 @@
       "rev_growth_yoy": 0.08826695371367062,
       "rev_growth_yoy_accel": 0.016166640234046792,
       "fcf_margin_change": -0.4052498539457777
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 161500000,
+      "gross_profit": null,
+      "operating_income": 34700000,
+      "net_income": 19000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -36300000,
+      "ocf": 21400000,
+      "capex": -57700000,
+      "gross_margin": null,
+      "op_margin": 0.2148606811145511,
+      "fcf_margin": -0.22476780185758513,
+      "incr_op_margin_yoy": 0.19117647058823528,
+      "rev_growth_yoy": 0.26666666666666666,
+      "rev_growth_yoy_accel": 0.17839971295299606,
+      "fcf_margin_change": 0.16098887470027837
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -38.6% -> -22.5% (+16.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +26.7% vs prior quarter YoY: +8.8% (accel: +17.8%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -545,22 +559,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +38.8% vs prior quarter YoY: +19.6% (accel: +19.2%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -28.0% -> -15.5% (+12.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -24.1% -> +24.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -590,5 +592,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:04:49.025927"
+  "last_updated": "2026-02-24T11:07:29.910731"
 }

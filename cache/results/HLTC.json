@@ -1,25 +1,9 @@
 {
   "ticker": "HLTC",
   "name": "National Healthcare Properties, Inc.",
+  "sector": "",
+  "industry": "",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 90878000,
-      "gross_profit": 30519000,
-      "operating_income": -3021000,
-      "net_income": -20726000,
-      "opex": 96823000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 24000,
-      "ocf": 24000,
-      "capex": null,
-      "gross_margin": 0.335823851757301,
-      "op_margin": -0.03324236889016043,
-      "fcf_margin": 0.00026409031888906004
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.408468766479697,
       "op_margin": 0.010331271873052399,
-      "fcf_margin": 0.1673018840788149,
-      "fcf_margin_change": 0.16703779375992586
+      "fcf_margin": 0.1673018840788149
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.3513226106606407,
       "op_margin": -0.09153746691962829,
       "fcf_margin": 0.1555834833782461,
-      "incr_op_margin_yoy": 0.5604923076923077,
-      "rev_growth_yoy": -0.08940557670723387,
       "fcf_margin_change": 0.053139759748267804
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": -0.1506634787806336,
       "fcf_margin": 0.07031679617453676,
       "rev_growth_yoy": 0.0025648401169758857,
-      "rev_growth_yoy_accel": 0.09197041682420976,
       "op_leverage_ratio": 0.23341807585224064,
       "fcf_margin_change": -0.08526668720370933
     },
@@ -185,7 +165,7 @@
       "incr_op_margin_yoy": 1.3551228558182662,
       "rev_growth_yoy": 0.026065520283252572,
       "rev_growth_yoy_accel": 0.008335110313250377,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0033663277701770355
     },
     {
@@ -208,7 +188,7 @@
       "incr_op_margin_yoy": 3.9252361673414304,
       "rev_growth_yoy": 0.0442916915720263,
       "rev_growth_yoy_accel": 0.01822617128877373,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.027683880755174535
     },
     {
@@ -297,7 +277,7 @@
       "fcf_margin": 0.028799873158246413,
       "rev_growth_yoy": 0.010806479308568486,
       "rev_growth_yoy_accel": -0.011216839499581318,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.031882311676969075
     },
     {
@@ -430,6 +410,28 @@
       "rev_growth_yoy": -0.032763660894985384,
       "rev_growth_yoy_accel": 0.0064743228243476295,
       "fcf_margin_change": 0.023847599220288507
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 84478000,
+      "gross_profit": 31460000,
+      "operating_income": -6581000,
+      "net_income": null,
+      "opex": 90592000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 9959000,
+      "ocf": 9959000,
+      "capex": null,
+      "gross_margin": 0.372404649731291,
+      "op_margin": -0.07790193896635811,
+      "fcf_margin": 0.11788868107673003,
+      "incr_op_margin_yoy": 1.6950920245398773,
+      "rev_growth_yoy": -0.0371560783241013,
+      "rev_growth_yoy_accel": -0.004392417429115919,
+      "fcf_margin_change": -0.0003197675318301618
     }
   ],
   "signals": [
@@ -506,12 +508,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +0.3% vs prior quarter YoY: -8.9% (accel: +9.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.2% -> +15.6% (+5.3%)",
@@ -522,18 +518,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.5% -> +10.2% (+5.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +0.0% -> +16.7% (+16.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -3.3% -> +1.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -561,5 +545,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:56:58.929003"
+  "last_updated": "2026-02-24T10:11:29.553509"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "TNL",
   "name": "Travel & Leisure Co.",
+  "sector": "Consumer Cyclical",
+  "industry": "Travel Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 645000000,
-      "gross_profit": 617000000,
-      "operating_income": 85000000,
-      "net_income": 2000000,
-      "opex": 560000000,
-      "cogs": 28000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 137000000,
-      "ocf": 150000000,
-      "capex": -13000000,
-      "gross_margin": 0.9565891472868217,
-      "op_margin": 0.13178294573643412,
-      "fcf_margin": 0.2124031007751938
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -12000000,
       "gross_margin": 0.9665605095541401,
       "op_margin": 0.13853503184713375,
-      "fcf_margin": 0.10509554140127389,
-      "fcf_margin_change": -0.10730755937391992
+      "fcf_margin": 0.10509554140127389
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.9402298850574713,
       "op_margin": 0.22413793103448276,
       "fcf_margin": 0.13333333333333333,
-      "incr_op_margin_yoy": 0.4888888888888889,
-      "rev_growth_yoy": 0.3488372093023256,
       "op_leverage_ratio": 1.0967060353234368,
       "fcf_margin_change": -0.021613031386571308
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.1619283065512979,
       "incr_op_margin_yoy": 0.16574585635359115,
       "rev_growth_yoy": 0.28821656050955413,
-      "rev_growth_yoy_accel": -0.06062064879277146,
       "fcf_margin_change": 0.02859497321796456
     },
     {
@@ -437,6 +417,28 @@
       "rev_growth_yoy_accel": 0.01785697854524821,
       "op_leverage_ratio": 1.1521501855490068,
       "fcf_margin_change": -0.06128386363465288
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1025000000,
+      "gross_profit": 810000000,
+      "operating_income": -23000000,
+      "net_income": -61000000,
+      "opex": 1048000000,
+      "cogs": 215000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 92000000,
+      "ocf": 124000000,
+      "capex": -32000000,
+      "gross_margin": 0.7902439024390244,
+      "op_margin": -0.0224390243902439,
+      "fcf_margin": 0.0897560975609756,
+      "incr_op_margin_yoy": -4.2407407407407405,
+      "rev_growth_yoy": 0.055612770339855816,
+      "rev_growth_yoy_accel": 0.004253253723541614,
+      "fcf_margin_change": -0.04051210167274086
     }
   ],
   "signals": [
@@ -573,18 +575,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +28.8% vs prior quarter YoY: +34.9% (decel: -6.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +48.9% vs year-ago OPM: +13.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +5.3% vs OpEx growth +1.1% (leverage: 4.9x)",
@@ -622,5 +612,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:09:04.856733"
+  "last_updated": "2026-02-24T10:28:45.167999"
 }

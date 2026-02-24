@@ -1,25 +1,9 @@
 {
   "ticker": "CCSI",
   "name": "Consensus Cloud Solutions, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": -175922000,
-      "gross_profit": -113093000,
-      "operating_income": 16358000,
-      "net_income": 19579000,
-      "opex": -129451000,
-      "cogs": -62829000,
-      "rd": -9338000,
-      "sga": null,
-      "fcf": 74928000,
-      "ocf": 78494000,
-      "capex": -3566000,
-      "gross_margin": 0.6428587669535363,
-      "op_margin": -0.09298439080956333,
-      "fcf_margin": -0.42591603096827
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7472000,
       "gross_margin": 0.8387208496882937,
       "op_margin": 0.5967559455091203,
-      "fcf_margin": 0.6055645347494805,
-      "fcf_margin_change": 1.0314805657177506
+      "fcf_margin": 0.6055645347494805
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -139,7 +122,7 @@
       "incr_op_margin_yoy": -2.0109002067280586,
       "rev_growth_yoy": 0.060574668154185926,
       "rev_growth_yoy_accel": 0.010874829779676576,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5214754407448765
     },
     {
@@ -225,7 +208,7 @@
       "fcf_margin": 0.04304250366410897,
       "rev_growth_yoy": -0.0039822676384401534,
       "rev_growth_yoy_accel": -0.009800249491615847,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.27868207918628574
     },
     {
@@ -422,6 +405,27 @@
       "rev_growth_yoy": 0.00015953870522945085,
       "rev_growth_yoy_accel": -0.002366175580484835,
       "fcf_margin_change": 0.27442354517042844
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 87070000,
+      "gross_profit": 69683000,
+      "operating_income": 35763000,
+      "net_income": 20503000,
+      "opex": 33920000,
+      "cogs": 17387000,
+      "rd": 2058000,
+      "sga": null,
+      "fcf": 7320000,
+      "ocf": 15218000,
+      "capex": -7898000,
+      "gross_margin": 0.8003100953256,
+      "op_margin": 0.4107384862754106,
+      "fcf_margin": 0.08407028827380268,
+      "rev_growth_yoy": 0.0010001954404883712,
+      "rev_growth_yoy_accel": 0.0008406567352589203,
+      "fcf_margin_change": -0.4222817574837143
     }
   ],
   "signals": [
@@ -514,18 +518,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -18.2% -> +42.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -42.6% -> +60.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -9.3% -> +59.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -553,7 +545,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:33:28.898811",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:43:06.940169"
 }

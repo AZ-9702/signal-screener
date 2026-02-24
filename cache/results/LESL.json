@@ -1,25 +1,9 @@
 {
   "ticker": "LESL",
-  "name": "Leslie's, Inc.",
+  "name": "LESLIE\u2019S, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 145006000,
-      "gross_profit": 51715000,
-      "operating_income": -25774000,
-      "net_income": -30257000,
-      "opex": 77489000,
-      "cogs": 93291000,
-      "rd": null,
-      "sga": 77489000,
-      "fcf": -121997000,
-      "ocf": -119291000,
-      "capex": -2706000,
-      "gross_margin": 0.3566404148793843,
-      "op_margin": -0.1777443691985159,
-      "fcf_margin": -0.8413238072907328
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -6784000,
       "gross_margin": 0.37249338758372696,
       "op_margin": 0.00680208479482023,
-      "fcf_margin": 0.0037258172634729607,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.8450496245542057
+      "fcf_margin": 0.0037258172634729607
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.36421676838505823,
       "op_margin": -0.06746418214084751,
       "fcf_margin": -0.7085713976539844,
-      "incr_op_margin_yoy": 0.33414536139434425,
-      "rev_growth_yoy": 0.27459553397790437,
       "fcf_margin_change": -0.8068165569248549
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.08820898663579922,
       "incr_op_margin_yoy": -0.14869074682158795,
       "rev_growth_yoy": 0.1851528520429638,
-      "rev_growth_yoy_accel": -0.08944268193494057,
       "op_leverage_ratio": 1.8986410808852203,
       "fcf_margin_change": 0.6203624110181851
     },
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": 0.22088502894954506,
       "rev_growth_yoy": -0.11360432993178102,
       "rev_growth_yoy_accel": -0.005231359618512191,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17554424027261356
     },
     {
@@ -437,9 +416,37 @@
       "rev_growth_yoy": -0.021748911046375725,
       "rev_growth_yoy_accel": 0.0998914991790657,
       "fcf_margin_change": -0.10658735310985955
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 147128000,
+      "gross_profit": 27069000,
+      "operating_income": -68748000,
+      "net_income": -82971000,
+      "opex": 95817000,
+      "cogs": 120059000,
+      "rd": null,
+      "sga": 85669000,
+      "fcf": -85461000,
+      "ocf": -81134000,
+      "capex": -4327000,
+      "gross_margin": 0.1839826545592953,
+      "op_margin": -0.46726659779239843,
+      "fcf_margin": -0.5808615627208961,
+      "incr_op_margin_yoy": 1.0337366548042706,
+      "rev_growth_yoy": -0.16036249914397244,
+      "rev_growth_yoy_accel": -0.13861358809759672,
+      "fcf_margin_change": -0.6882417161614905
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -16.0% vs prior quarter YoY: -2.2% (decel: -13.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -639,12 +646,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +18.5% vs prior quarter YoY: +27.5% (decel: -8.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.4% -> +37.1% (+36.7%)",
@@ -655,18 +656,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +210.0% vs OpEx growth +66.6% (leverage: 3.2x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -84.1% -> +0.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -17.8% -> +0.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -694,7 +683,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:02:56.347504",
-  "sector": "Consumer Cyclical",
-  "industry": "Specialty Retail"
+  "last_updated": "2026-02-24T10:28:33.222979"
 }

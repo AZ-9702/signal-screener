@@ -1,25 +1,9 @@
 {
   "ticker": "UPWK",
   "name": "UPWORK INC.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 106153000,
-      "gross_profit": 77375000,
-      "operating_income": 656000,
-      "net_income": 925000,
-      "opex": 76719000,
-      "cogs": -72589000,
-      "rd": 22743000,
-      "sga": null,
-      "fcf": 8843000,
-      "ocf": 8953000,
-      "capex": -110000,
-      "gross_margin": 0.7289007376145752,
-      "op_margin": 0.006179759403879307,
-      "fcf_margin": 0.08330428720808644
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -70000,
       "gross_margin": 0.7320782615583661,
       "op_margin": -0.06774395127575493,
-      "fcf_margin": 0.015895228790959257,
-      "op_leverage_ratio": 0.38116945629563825,
-      "fcf_margin_change": -0.06740905841712719
+      "fcf_margin": 0.015895228790959257
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.7273862385965459,
       "op_margin": -0.06490506551376998,
       "fcf_margin": 0.1610179411741753,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1587631678996808
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.7292701817969253,
       "op_margin": -0.15934997369497866,
       "fcf_margin": -0.09433272929210265,
-      "incr_op_margin_yoy": -0.7316548871445787,
-      "rev_growth_yoy": 0.2892334649044304,
       "op_leverage_ratio": 0.3437285302330448,
       "fcf_margin_change": -0.25535067046627796
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.0825615373186073,
       "incr_op_margin_yoy": -0.5756187315102099,
       "rev_growth_yoy": 0.2439556764273581,
-      "rev_growth_yoy_accel": -0.04527778847707231,
       "op_leverage_ratio": 0.7292869810914324,
       "fcf_margin_change": 0.011771191973495354
     },
@@ -191,7 +170,7 @@
       "incr_op_margin_yoy": 0.05393313267713333,
       "rev_growth_yoy": 0.17964868182615304,
       "rev_growth_yoy_accel": -0.058370375306224576,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.019394684918813694
     },
     {
@@ -236,7 +215,7 @@
       "incr_op_margin_yoy": 1.4455732946298985,
       "rev_growth_yoy": 0.07465359660416321,
       "rev_growth_yoy_accel": -0.06346310319843626,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08076569272403508
     },
     {
@@ -259,7 +238,7 @@
       "incr_op_margin_yoy": 2.159372805991107,
       "rev_growth_yoy": 0.10774011762406945,
       "rev_growth_yoy_accel": 0.03308652101990624,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18217420532884615
     },
     {
@@ -328,7 +307,7 @@
       "incr_op_margin_yoy": 0.974671669793621,
       "rev_growth_yoy": 0.1454116279483545,
       "rev_growth_yoy_accel": -0.04157938275673945,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12323350675079238
     },
     {
@@ -442,9 +421,37 @@
       "rev_growth_yoy_accel": 0.031675420757525496,
       "op_leverage_ratio": 0.5765308995815757,
       "fcf_margin_change": 0.010017394724131101
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 198409000,
+      "gross_profit": 154738000,
+      "operating_income": 28294000,
+      "net_income": 15634000,
+      "opex": 126444000,
+      "cogs": 43671000,
+      "rd": 47055000,
+      "sga": null,
+      "fcf": 63246000,
+      "ocf": 63701000,
+      "capex": -455000,
+      "gross_margin": 0.7798940572252266,
+      "op_margin": 0.14260441814635424,
+      "fcf_margin": 0.31876578179417264,
+      "incr_op_margin_yoy": 2.124025411492925,
+      "rev_growth_yoy": 0.03617031276927978,
+      "rev_growth_yoy_accel": -0.004877082160948933,
+      "fcf_margin_change": -0.05102056629485724
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +212.4% vs year-ago OPM: +7.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -597,5 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:24:51.457437"
+  "last_updated": "2026-02-24T10:47:43.137023"
 }

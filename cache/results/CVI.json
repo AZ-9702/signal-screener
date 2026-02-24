@@ -1,25 +1,9 @@
 {
   "ticker": "CVI",
-  "name": "CVR ENERGY, INC.",
+  "name": "CVR Energy,\u00a0Inc",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1119000000,
-      "gross_profit": -99000000,
-      "operating_income": -127000000,
-      "net_income": -68000000,
-      "opex": 28000000,
-      "cogs": 1218000000,
-      "rd": null,
-      "sga": 21000000,
-      "fcf": 28000000,
-      "ocf": 28000000,
-      "capex": null,
-      "gross_margin": -0.08847184986595175,
-      "op_margin": -0.11349419124218052,
-      "fcf_margin": 0.025022341376228777
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": -0.07177033492822966,
       "op_margin": -0.09227614490772386,
-      "fcf_margin": 0.06561859193438141,
-      "op_leverage_ratio": 4.303842716711349,
-      "fcf_margin_change": 0.040596250558152636
+      "fcf_margin": 0.06561859193438141
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.036914339801230475,
       "op_margin": 0.019403691433980123,
       "fcf_margin": 0.006625650733554188,
-      "incr_op_margin_yoy": 0.16901408450704225,
-      "rev_growth_yoy": 0.8882931188561215,
       "op_leverage_ratio": 1.007700477960701,
       "fcf_margin_change": -0.06719272420006238
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.13569321533923304,
       "incr_op_margin_yoy": 0.3901098901098901,
       "rev_growth_yoy": 0.6220095693779905,
-      "rev_growth_yoy_accel": -0.26628354947813104,
       "op_leverage_ratio": 1.138192143871273,
       "fcf_margin_change": 0.12906756460567884
     },
@@ -145,7 +124,7 @@
       "incr_op_margin_yoy": 0.2909625275532697,
       "rev_growth_yoy": 0.7633202467750981,
       "rev_growth_yoy_accel": 0.14131067739710768,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01164741381251548
     },
     {
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": 0.7323420074349443,
       "rev_growth_yoy": -0.120304114490161,
       "rev_growth_yoy_accel": 0.06473525558857916,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05382859042150393
     },
     {
@@ -368,7 +347,7 @@
       "incr_op_margin_yoy": 0.4,
       "rev_growth_yoy": -0.11580381471389646,
       "rev_growth_yoy_accel": 0.15739206157476332,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.024147267565947695
     },
     {
@@ -413,7 +392,7 @@
       "incr_op_margin_yoy": 0.6310679611650486,
       "rev_growth_yoy": -0.10472801220132182,
       "rev_growth_yoy_accel": 0.011750785436896116,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2184122298787762
     },
     {
@@ -438,9 +417,37 @@
       "rev_growth_yoy_accel": 0.16528447701310578,
       "op_leverage_ratio": 0.3495431314852098,
       "fcf_margin_change": -0.016095477457393023
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1810000000,
+      "gross_profit": -57000000,
+      "operating_income": -95000000,
+      "net_income": -110000000,
+      "opex": 38000000,
+      "cogs": 1867000000,
+      "rd": null,
+      "sga": 33000000,
+      "fcf": 0,
+      "ocf": 0,
+      "capex": null,
+      "gross_margin": -0.03149171270718232,
+      "op_margin": -0.052486187845303865,
+      "fcf_margin": 0.0,
+      "incr_op_margin_yoy": 0.8467153284671532,
+      "rev_growth_yoy": -0.07036466358500257,
+      "rev_growth_yoy_accel": -0.13092112839678655,
+      "fcf_margin_change": -0.08384773662551441
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -7.0% vs prior quarter YoY: +6.1% (decel: -13.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -617,20 +624,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +62.2% vs prior quarter YoY: +88.8% (decel: -26.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -9.2% (year-ago) -> +9.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -11.3% (year-ago) -> +1.9%",
       "severity": "HIGH"
     },
     {
@@ -650,12 +645,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -9.2% -> +0.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +30.7% vs OpEx growth +7.1% (leverage: 4.3x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -683,7 +672,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:33:02.063102",
-  "sector": "Energy",
-  "industry": "Oil & Gas Refining & Marketing"
+  "last_updated": "2026-02-24T10:29:53.618768"
 }

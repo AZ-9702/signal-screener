@@ -1,25 +1,9 @@
 {
   "ticker": "DBX",
   "name": "Dropbox, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 504100000,
-      "gross_profit": 398300000,
-      "operating_income": -346600000,
-      "net_income": -345800000,
-      "opex": 744900000,
-      "cogs": 105800000,
-      "rd": 176600000,
-      "sga": null,
-      "fcf": 158400000,
-      "ocf": 170700000,
-      "capex": -12300000,
-      "gross_margin": 0.7901210077365602,
-      "op_margin": -0.6875619916683198,
-      "fcf_margin": 0.3142233683792898
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6900000,
       "gross_margin": 0.7863565285379203,
       "op_margin": 0.08307271305707584,
-      "fcf_margin": 0.21266614542611414,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10155722295317568
+      "fcf_margin": 0.21266614542611414
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.7981530343007915,
       "op_margin": 0.15906520919713532,
       "fcf_margin": 0.4070863173765548,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19442017195044067
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.7952254641909814,
       "op_margin": 0.12413793103448276,
       "fcf_margin": 0.2854111405835544,
-      "incr_op_margin_yoy": 6.7882736156351795,
-      "rev_growth_yoy": 0.12180122991469947,
       "op_leverage_ratio": 0.5395662574313153,
       "fcf_margin_change": -0.11716973909656192
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.2323968705547653,
       "incr_op_margin_yoy": 0.9251968503937008,
       "rev_growth_yoy": 0.09929632525410477,
-      "rev_growth_yoy_accel": -0.022504904660594696,
       "fcf_margin_change": -0.053014270028789084
     },
     {
@@ -213,7 +192,7 @@
       "incr_op_margin_yoy": -0.11088295687885011,
       "rev_growth_yoy": 0.08659317211948792,
       "rev_growth_yoy_accel": 0.027707230474925584,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07761792608289728
     },
     {
@@ -259,7 +238,7 @@
       "incr_op_margin_yoy": 0.9857142857142858,
       "rev_growth_yoy": 0.07106598984771574,
       "rev_growth_yoy_accel": -0.01589053189141469,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0928692970935876
     },
     {
@@ -436,8 +415,30 @@
       "incr_op_margin_yoy": -10.659090909090908,
       "rev_growth_yoy": -0.0068879148403256105,
       "rev_growth_yoy_accel": 0.006981273496947832,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.049819838602958855
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 636200000,
+      "gross_profit": 504100000,
+      "operating_income": 162200000,
+      "net_income": 108700000,
+      "opex": 341900000,
+      "cogs": 132100000,
+      "rd": 186900000,
+      "sga": null,
+      "fcf": 224900000,
+      "ocf": 235400000,
+      "capex": -10500000,
+      "gross_margin": 0.792360892801006,
+      "op_margin": 0.25495127318453314,
+      "fcf_margin": 0.3535051870480981,
+      "incr_op_margin_yoy": -10.04054054054054,
+      "rev_growth_yoy": -0.011497824735860782,
+      "rev_growth_yoy_accel": -0.004609909895535172,
+      "fcf_margin_change": -0.10945193779427265
     }
   ],
   "signals": [
@@ -538,22 +539,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -68.8% (year-ago) -> +12.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +21.3% -> +40.7% (+19.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -68.8% -> +8.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -581,7 +570,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:51:30.294954",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:10:52.442528"
 }

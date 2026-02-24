@@ -1,25 +1,9 @@
 {
   "ticker": "LUVU",
   "name": "Luvu Brands, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5714000,
-      "gross_profit": 1566000,
-      "operating_income": 457000,
-      "net_income": 1465000,
-      "opex": 1109000,
-      "cogs": 4148000,
-      "rd": null,
-      "sga": null,
-      "fcf": 225000,
-      "ocf": 266000,
-      "capex": -41000,
-      "gross_margin": 0.27406370318515927,
-      "op_margin": 0.07997899894994749,
-      "fcf_margin": 0.03937696884844242
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -54000,
       "gross_margin": 0.28247856333926546,
       "op_margin": 0.09108558485681928,
-      "fcf_margin": 0.008898236531305614,
-      "op_leverage_ratio": 1.224831849700593,
-      "fcf_margin_change": -0.030478732317136804
+      "fcf_margin": 0.008898236531305614
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.21945449485109936,
       "op_margin": 0.03492902866685221,
       "fcf_margin": 0.0388254940161425,
-      "incr_op_margin_yoy": -0.13994565217391305,
-      "rev_growth_yoy": 0.2576128806440322,
       "op_leverage_ratio": 1.2117737789203082,
       "fcf_margin_change": 0.01970595674107823
     },
@@ -119,7 +99,6 @@
       "op_margin": 0.07892788390345032,
       "fcf_margin": -0.02739523174885236,
       "rev_growth_yoy": 0.09254165992557839,
-      "rev_growth_yoy_accel": -0.16507122071845381,
       "fcf_margin_change": -0.06622072576499485
     },
     {
@@ -348,15 +327,16 @@
       "cogs": 5204000,
       "rd": null,
       "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
+      "fcf": 229000,
+      "ocf": 231000,
+      "capex": -2000,
       "gross_margin": 0.27581408293904813,
       "op_margin": 0.04049540773726691,
-      "fcf_margin": null,
+      "fcf_margin": 0.03186752017812413,
       "rev_growth_yoy": 0.05894488653109343,
       "rev_growth_yoy_accel": 0.11934318884908232,
-      "op_leverage_ratio": 7.83052466990966
+      "op_leverage_ratio": 7.83052466990966,
+      "fcf_margin_change": 0.009108659858457695
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -369,14 +349,15 @@
       "cogs": 4243000,
       "rd": null,
       "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
+      "fcf": -191000,
+      "ocf": -160000,
+      "capex": -31000,
       "gross_margin": 0.2742045843311666,
       "op_margin": -0.00017105713308244953,
-      "fcf_margin": null,
+      "fcf_margin": -0.03267191241874786,
       "rev_growth_yoy": -0.013000168833361473,
-      "rev_growth_yoy_accel": -0.0719450553644549
+      "rev_growth_yoy_accel": -0.0719450553644549,
+      "fcf_margin_change": -0.06453943259687199
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -396,7 +377,8 @@
       "op_margin": -0.03997289972899729,
       "fcf_margin": -0.10501355013550136,
       "rev_growth_yoy": 0.028750653423941452,
-      "rev_growth_yoy_accel": 0.04175082225730292
+      "rev_growth_yoy_accel": 0.04175082225730292,
+      "fcf_margin_change": -0.0723416377167535
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -418,9 +400,43 @@
       "rev_growth_yoy": 0.014767199444058373,
       "rev_growth_yoy_accel": -0.013983453979883079,
       "fcf_margin_change": 0.11870983501822692
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6882000,
+      "gross_profit": 1798000,
+      "operating_income": 184000,
+      "net_income": -765000,
+      "opex": 1614000,
+      "cogs": 5084000,
+      "rd": null,
+      "sga": null,
+      "fcf": 236000,
+      "ocf": 285000,
+      "capex": -49000,
+      "gross_margin": 0.26126126126126126,
+      "op_margin": 0.026736413833188026,
+      "fcf_margin": 0.034292356873002035,
+      "rev_growth_yoy": -0.042304480935151684,
+      "rev_growth_yoy_accel": -0.05707168037921006,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.020596071990276472
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -4.2% vs prior quarter YoY: +1.5% (decel: -5.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -0.3% -> +2.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -566,12 +582,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +9.3% vs prior quarter YoY: +25.8% (decel: -16.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.5% -> +1.9%",
@@ -594,7 +604,7 @@
         20
       ],
       "fcf": [
-        18,
+        20,
         20
       ]
     },
@@ -603,7 +613,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:29:16.737213",
-  "sector": "Consumer Cyclical",
-  "industry": "Furnishings, Fixtures & Appliances"
+  "last_updated": "2026-02-24T10:33:05.964022"
 }

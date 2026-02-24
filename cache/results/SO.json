@@ -1,25 +1,9 @@
 {
   "ticker": "SO",
   "name": "The Southern Company",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5117000000,
-      "gross_profit": null,
-      "operating_income": 729000000,
-      "net_income": null,
-      "opex": 4388000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -681000000,
-      "ocf": 1476000000,
-      "capex": -2157000000,
-      "gross_margin": null,
-      "op_margin": 0.14246628884111784,
-      "fcf_margin": -0.1330857924565175
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1678000000,
       "gross_margin": 0.9013536379018613,
       "op_margin": 0.2703891708967851,
-      "fcf_margin": -0.07377326565143824,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.05931252680507926
+      "fcf_margin": -0.07377326565143824
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": -0.057395526270157794,
       "fcf_margin": -0.22125888676955088,
-      "incr_op_margin_yoy": -1.6307692307692307,
-      "rev_growth_yoy": 0.12702755520812975,
       "fcf_margin_change": -0.27560322790453007
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.02602286401925391,
       "incr_op_margin_yoy": -0.2899728997289973,
       "rev_growth_yoy": 0.12487309644670051,
-      "rev_growth_yoy_accel": -0.002154458761429237,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2472817507888048
     },
     {
@@ -354,7 +333,7 @@
       "revenue": 6341000000,
       "gross_profit": null,
       "operating_income": 1058000000,
-      "net_income": null,
+      "net_income": 534000000,
       "opex": 5283000000,
       "cogs": null,
       "rd": null,
@@ -437,6 +416,28 @@
       "rev_growth_yoy_accel": -0.003436430575755531,
       "op_leverage_ratio": 31.74853004445719,
       "fcf_margin_change": 0.1602269369413944
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6981000000,
+      "gross_profit": null,
+      "operating_income": 917000000,
+      "net_income": 416000000,
+      "opex": 6064000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1688000000,
+      "ocf": 2597000000,
+      "capex": -4285000000,
+      "gross_margin": null,
+      "op_margin": 0.13135653917776824,
+      "fcf_margin": -0.24179916917347086,
+      "incr_op_margin_yoy": -0.2203125,
+      "rev_growth_yoy": 0.10093045260999842,
+      "rev_growth_yoy_accel": 0.02545616061109822,
+      "fcf_margin_change": -0.3132551323589496
     }
   ],
   "signals": [
@@ -625,12 +626,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -7.4% -> -0.8% (+6.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -13.3% -> -7.4% (+5.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -660,5 +655,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:50:26.346147"
+  "last_updated": "2026-02-24T10:26:06.586985"
 }

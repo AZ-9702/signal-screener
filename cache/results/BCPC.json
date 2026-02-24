@@ -1,25 +1,9 @@
 {
   "ticker": "BCPC",
-  "name": "Balchem Corp",
+  "name": "Balchem Corporation",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 180713000,
-      "gross_profit": 56818000,
-      "operating_income": 28924000,
-      "net_income": 22162000,
-      "opex": 27894000,
-      "cogs": 123895000,
-      "rd": 2371000,
-      "sga": null,
-      "fcf": 35153000,
-      "ocf": 47954000,
-      "capex": -12801000,
-      "gross_margin": 0.3144101420484415,
-      "op_margin": 0.16005489367118028,
-      "fcf_margin": 0.19452391360887153
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -5951000,
       "gross_margin": 0.31632158400482613,
       "op_margin": 0.16468630154694705,
-      "fcf_margin": 0.18666781574524927,
-      "op_leverage_ratio": 2.9572790415845036,
-      "fcf_margin_change": -0.007856097863622263
+      "fcf_margin": 0.18666781574524927
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3005916493457137,
       "op_margin": 0.15868495258828993,
       "fcf_margin": 0.1403677515917291,
-      "incr_op_margin_yoy": 0.1510487353485503,
-      "rev_growth_yoy": 0.17940048585325905,
       "op_leverage_ratio": 1.2020018028940467,
       "fcf_margin_change": -0.017271898884090753
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.01174481248934971,
       "incr_op_margin_yoy": 0.1796070445025572,
       "rev_growth_yoy": 0.2327476623432585,
-      "rev_growth_yoy_accel": 0.053347176489999454,
       "op_leverage_ratio": 0.7633367407799335,
       "fcf_margin_change": -0.15211256408107882
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.27170240037287346,
       "rev_growth_yoy": 0.16963407703901368,
       "rev_growth_yoy_accel": -0.06311358530424482,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17161434813256687
     },
     {
@@ -390,7 +369,7 @@
       "incr_op_margin_yoy": 0.8599447513812155,
       "rev_growth_yoy": 0.04531438418753312,
       "rev_growth_yoy_accel": -0.0041174016969700925,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07245797867957049
     },
     {
@@ -436,8 +415,30 @@
       "incr_op_margin_yoy": 0.23850387428488667,
       "rev_growth_yoy": 0.11510377594398599,
       "rev_growth_yoy_accel": 0.02374223869833171,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.060112609811860174
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 263617000,
+      "gross_profit": 93899000,
+      "operating_income": 52290000,
+      "net_income": 39225000,
+      "opex": 41609000,
+      "cogs": 169718000,
+      "rd": 5052000,
+      "sga": null,
+      "fcf": 67275000,
+      "ocf": 67275000,
+      "capex": null,
+      "gross_margin": 0.3561947825823069,
+      "op_margin": 0.19835594821274805,
+      "fcf_margin": 0.2551997784664874,
+      "incr_op_margin_yoy": 0.20522593486638716,
+      "rev_growth_yoy": 0.09838586023566274,
+      "rev_growth_yoy_accel": -0.016717915708323247,
+      "fcf_margin_change": 0.010123944441715188
     }
   ],
   "signals": [
@@ -532,21 +533,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +23.3% vs prior quarter YoY: +17.9% (accel: +5.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.0% vs OpEx growth +2.5% (leverage: 3.6x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +2.7% vs OpEx growth +0.9% (leverage: 3.0x)",
       "severity": "MEDIUM"
     }
   ],
@@ -575,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:00:55.905479",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:16:38.268951"
 }

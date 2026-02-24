@@ -1,25 +1,9 @@
 {
   "ticker": "MCY",
-  "name": "MERCURY GENERAL CORP",
+  "name": "MERCURY GENERAL CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1071583000,
-      "gross_profit": 1068783000,
-      "operating_income": null,
-      "net_income": 166743000,
-      "opex": null,
-      "cogs": 2800000,
-      "rd": null,
-      "sga": null,
-      "fcf": 162364000,
-      "ocf": 162364000,
-      "capex": null,
-      "gross_margin": 0.9973870432808285,
-      "op_margin": null,
-      "fcf_margin": 0.1515178945541316
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.9962742776126376,
       "op_margin": null,
-      "fcf_margin": 0.17573225549191618,
-      "fcf_margin_change": 0.02421436093778459
+      "fcf_margin": 0.17573225549191618
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.9972361816228951,
       "op_margin": null,
       "fcf_margin": 0.07010091749239712,
-      "rev_growth_yoy": -0.02081966585882755,
       "fcf_margin_change": -0.04874316642404687
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.1323192556809082,
       "rev_growth_yoy": -0.18893943787911743,
-      "rev_growth_yoy_accel": -0.16811977202028988,
       "fcf_margin_change": 0.062218338188511066
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.03564618844805257,
       "rev_growth_yoy_accel": -0.0968379455786173,
       "fcf_margin_change": 0.061781563100776704
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1535779000,
+      "gross_profit": 1531679000,
+      "operating_income": null,
+      "net_income": 202547000,
+      "opex": null,
+      "cogs": 4100000,
+      "rd": null,
+      "sga": null,
+      "fcf": 287873000,
+      "ocf": 287873000,
+      "capex": null,
+      "gross_margin": 0.9973303450561571,
+      "op_margin": null,
+      "fcf_margin": 0.18744428723143108,
+      "rev_growth_yoy": 0.12414185842411572,
+      "rev_growth_yoy_accel": 0.08849566997606315,
+      "fcf_margin_change": -0.12578106209087164
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +12.4% vs prior quarter YoY: +3.6% (accel: +8.8%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -497,12 +505,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.0% -> +13.2% (+6.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -18.9% vs prior quarter YoY: -2.1% (decel: -16.8%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -532,7 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:07:02.679255",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-24T10:33:40.031628"
 }

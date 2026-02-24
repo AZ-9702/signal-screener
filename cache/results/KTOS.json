@@ -1,25 +1,9 @@
 {
   "ticker": "KTOS",
   "name": "KRATOS DEFENSE\u00a0& SECURITY SOLUTIONS,\u00a0INC.",
+  "sector": "Industrials",
+  "industry": "Aerospace & Defense",
   "quarters": [
-    {
-      "date": "2020-12-27T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 206400000,
-      "gross_profit": 54300000,
-      "operating_income": 9000000,
-      "net_income": 78100000,
-      "opex": 45300000,
-      "cogs": 152100000,
-      "rd": 7600000,
-      "sga": 37300000,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.26308139534883723,
-      "op_margin": 0.0436046511627907,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -92,8 +76,6 @@
       "gross_margin": 0.29064272211720227,
       "op_margin": 0.043478260869565216,
       "fcf_margin": null,
-      "incr_op_margin_yoy": 0.038461538461538464,
-      "rev_growth_yoy": 0.025193798449612403,
       "op_leverage_ratio": 1.2487537387836491
     },
     {
@@ -114,8 +96,7 @@
       "op_margin": -0.0061162079510703364,
       "fcf_margin": null,
       "incr_op_margin_yoy": -3.05,
-      "rev_growth_yoy": 0.010298661174047374,
-      "rev_growth_yoy_accel": -0.014895137275565028
+      "rev_growth_yoy": 0.010298661174047374
     },
     {
       "date": "2022-06-26T00:00:00",
@@ -159,7 +140,7 @@
       "incr_op_margin_yoy": -0.5035714285714286,
       "rev_growth_yoy": 0.13958125623130607,
       "rev_growth_yoy_accel": 0.046455951501905776,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-12-25T00:00:00",
@@ -181,7 +162,7 @@
       "incr_op_margin_yoy": -0.13527851458885942,
       "rev_growth_yoy": 0.1781663516068053,
       "rev_growth_yoy_accel": 0.03858509537549923,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2023-03-26T00:00:00",
@@ -224,7 +205,7 @@
       "incr_op_margin_yoy": 0.26299694189602446,
       "rev_growth_yoy": 0.14585191793041927,
       "rev_growth_yoy_accel": -0.03559558461800072,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20234672310830232
     },
     {
@@ -430,9 +411,37 @@
       "rev_growth_yoy": 0.25987676694454515,
       "rev_growth_yoy_accel": 0.08860052569162946,
       "fcf_margin_change": -0.00497645304440774
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 345100000,
+      "gross_profit": 83400000,
+      "operating_income": 8200000,
+      "net_income": 5900000,
+      "opex": 75200000,
+      "cogs": 261700000,
+      "rd": 9800000,
+      "sga": 63500000,
+      "fcf": 12100000,
+      "ocf": 12100000,
+      "capex": null,
+      "gross_margin": 0.24166908142567373,
+      "op_margin": 0.023761228629382788,
+      "fcf_margin": 0.03506230078238192,
+      "incr_op_margin_yoy": 0.08387096774193549,
+      "rev_growth_yoy": 0.2190038855528082,
+      "rev_growth_yoy_accel": -0.04087288139173695,
+      "fcf_margin_change": 0.07332467132323348
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.8% -> +3.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -594,18 +603,16 @@
         20
       ],
       "fcf": [
-        11,
+        12,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "fcf: 11/20Q"
+      "fcf: 12/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:18:41.192633",
-  "sector": "Industrials",
-  "industry": "Aerospace & Defense"
+  "last_updated": "2026-02-24T10:08:57.797813"
 }

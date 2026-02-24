@@ -1,25 +1,9 @@
 {
   "ticker": "BNL",
   "name": "BROADSTONE NET LEASE, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 82291000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 16262000,
-      "opex": 46078000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 42887000,
-      "ocf": 46064000,
-      "capex": -3177000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5211627030902529
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1334000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6100026602819899,
-      "fcf_margin_change": 0.08883995719173698
+      "fcf_margin": 0.6100026602819899
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5572623556200521,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0527403046619378
     },
     {
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.620366572396969,
-      "rev_growth_yoy": 0.1257853228178051,
       "fcf_margin_change": -0.09791128094689827
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.6215406911691052,
       "rev_growth_yoy": 0.13474328278797554,
-      "rev_growth_yoy_accel": 0.008957959970170432,
       "op_leverage_ratio": 0.39903838230624694,
       "fcf_margin_change": 0.0011741187721361346
     },
@@ -206,7 +187,7 @@
       "fcf_margin": 0.49409203980099503,
       "rev_growth_yoy": 0.26801717799256186,
       "rev_growth_yoy_accel": 0.057605053901976594,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06392304706902019
     },
     {
@@ -333,7 +314,7 @@
       "fcf_margin": 0.5558733175272378,
       "rev_growth_yoy": -0.010461645198689098,
       "rev_growth_yoy_accel": 0.021050979054875046,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14285292342000833
     },
     {
@@ -398,7 +379,7 @@
       "fcf_margin": 0.6785973483440426,
       "rev_growth_yoy": 0.06684166296845345,
       "rev_growth_yoy_accel": 0.035294484561756795,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15314882502082983
     },
     {
@@ -420,11 +401,39 @@
       "fcf_margin": 0.508237932152023,
       "rev_growth_yoy": 0.05323025544987407,
       "rev_growth_yoy_accel": -0.01361140751857938,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17035941619201966
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 118295000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 33126000,
+      "opex": 62385000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 77983000,
+      "ocf": 84567000,
+      "capex": -6584000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.6592248193076631,
+      "rev_growth_yoy": 0.054980825827164896,
+      "rev_growth_yoy_accel": 0.0017505703772908235,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.15098688715564013
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +50.8% -> +65.9% (+15.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -526,12 +535,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +55.7% -> +71.8% (+16.1%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +52.1% -> +61.0% (+8.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -562,7 +565,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:16:37.867066",
-  "sector": "Real Estate",
-  "industry": "REIT - Diversified"
+  "last_updated": "2026-02-24T10:24:30.894836"
 }

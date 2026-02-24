@@ -1,25 +1,9 @@
 {
   "ticker": "ALRM",
   "name": "ALARM.COM HOLDINGS, INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 165576000,
-      "gross_profit": 106316000,
-      "operating_income": 13381000,
-      "net_income": 15967000,
-      "opex": 92935000,
-      "cogs": 59260000,
-      "rd": 38867000,
-      "sga": null,
-      "fcf": 29946000,
-      "ocf": 35410000,
-      "capex": -5464000,
-      "gross_margin": 0.6420978885828864,
-      "op_margin": 0.08081485239406677,
-      "fcf_margin": 0.18085954486157413
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -4069000,
       "gross_margin": 0.6187665943952974,
       "op_margin": 0.08697492144836462,
-      "fcf_margin": 0.09949680576006678,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.08136273910150735
+      "fcf_margin": 0.09949680576006678
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.5820386431230632,
       "op_margin": 0.09922838543291529,
       "fcf_margin": 0.18888958216343255,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07894396193225234
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.5781350811613498,
       "op_margin": 0.05509754723744175,
       "fcf_margin": 0.09135132367248706,
-      "incr_op_margin_yoy": -0.08820757891902807,
-      "rev_growth_yoy": 0.17945837560999178,
       "op_leverage_ratio": 0.15417907238468762,
       "fcf_margin_change": -0.09753825849094548
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.07852528999157893,
       "incr_op_margin_yoy": -0.18488721576247003,
       "rev_growth_yoy": 0.19095293858479517,
-      "rev_growth_yoy_accel": 0.01149456297480339,
       "op_leverage_ratio": 1.23625945882271,
       "fcf_margin_change": -0.16987661366406598
     },
@@ -168,7 +147,7 @@
       "incr_op_margin_yoy": -0.11623414798017973,
       "rev_growth_yoy": 0.12382229986897111,
       "rev_growth_yoy_accel": -0.0031944376626003856,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02912350357736391
     },
     {
@@ -235,7 +214,7 @@
       "incr_op_margin_yoy": 0.4372620126926564,
       "rev_growth_yoy": 0.05182174822053607,
       "rev_growth_yoy_accel": 0.03099297833001002,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1881032807133955
     },
     {
@@ -280,7 +259,7 @@
       "incr_op_margin_yoy": 0.6192949497182009,
       "rev_growth_yoy": 0.08695150836700474,
       "rev_growth_yoy_accel": 0.060505441502316445,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10771254078857026
     },
     {
@@ -325,7 +304,7 @@
       "incr_op_margin_yoy": 0.9680829641562626,
       "rev_growth_yoy": 0.044364042434394194,
       "rev_growth_yoy_accel": -0.020328208037672796,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11984761861589646
     },
     {
@@ -348,7 +327,7 @@
       "incr_op_margin_yoy": 0.9131041141447191,
       "rev_growth_yoy": 0.08403274225391473,
       "rev_growth_yoy_accel": 0.039668699819520536,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22020627938724296
     },
     {
@@ -439,6 +418,29 @@
       "rev_growth_yoy": 0.06612556497586249,
       "rev_growth_yoy_accel": -0.021557866230217743,
       "fcf_margin_change": 0.18549367581762427
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 261657000,
+      "gross_profit": 172620000,
+      "operating_income": 34948000,
+      "net_income": null,
+      "opex": 137672000,
+      "cogs": 89037000,
+      "rd": 66155000,
+      "sga": null,
+      "fcf": 35069000,
+      "ocf": 35929000,
+      "capex": -860000,
+      "gross_margin": 0.6597186392873112,
+      "op_margin": 0.13356416988653083,
+      "fcf_margin": 0.13402660735237354,
+      "incr_op_margin_yoy": 0.2107946644692795,
+      "rev_growth_yoy": 0.08015604359313078,
+      "rev_growth_yoy_accel": 0.014030478617268291,
+      "op_leverage_ratio": 0.4615985970096361,
+      "fcf_margin_change": -0.12289226940269665
     }
   ],
   "signals": [
@@ -612,7 +614,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:29:43.423788",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:25:44.514727"
 }

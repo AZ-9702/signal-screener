@@ -1,25 +1,9 @@
 {
   "ticker": "POR",
   "name": "PORTLAND GENERAL ELECTRIC COMPANY",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 556000000,
-      "gross_profit": null,
-      "operating_income": 81000000,
-      "net_income": null,
-      "opex": 475000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -110000000,
-      "ocf": 125000000,
-      "capex": -235000000,
-      "gross_margin": null,
-      "op_margin": 0.14568345323741008,
-      "fcf_margin": -0.19784172661870503
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -153000000,
       "gross_margin": null,
       "op_margin": 0.21839080459770116,
-      "fcf_margin": 0.024630541871921183,
-      "op_leverage_ratio": 45.27877697841727,
-      "fcf_margin_change": 0.2224722684906262
+      "fcf_margin": 0.024630541871921183
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.16611842105263158,
       "fcf_margin": -0.32894736842105265,
-      "incr_op_margin_yoy": 0.38461538461538464,
-      "rev_growth_yoy": 0.09352517985611511,
       "fcf_margin_change": -0.5563616986391212
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.13099041533546327,
       "incr_op_margin_yoy": -1.588235294117647,
       "rev_growth_yoy": 0.027914614121510674,
-      "rev_growth_yoy_accel": -0.06561056573460444,
       "op_leverage_ratio": 1.1546052631578947,
       "fcf_margin_change": 0.45993778375651595
     },
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.09016393442622951,
       "rev_growth_yoy": 0.19488817891373802,
       "rev_growth_yoy_accel": 0.06495396838742223,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.23649868839953608
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": 0.24861878453038674,
       "rev_growth_yoy": 0.24197860962566844,
       "rev_growth_yoy_accel": 0.18666565474939478,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.30474295683159497
     },
     {
@@ -389,7 +368,7 @@
       "fcf_margin": -0.13793103448275862,
       "rev_growth_yoy": -0.001076426264800861,
       "rev_growth_yoy_accel": -0.1376281504027319,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1314864412453967
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy_accel": -0.039885995381875705,
       "op_leverage_ratio": 37.732342007434944,
       "fcf_margin_change": -0.017634563118927873
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 889000000,
+      "gross_profit": null,
+      "operating_income": 95000000,
+      "net_income": null,
+      "opex": 215000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -142000000,
+      "ocf": 148000000,
+      "capex": -290000000,
+      "gross_margin": null,
+      "op_margin": 0.10686164229471316,
+      "fcf_margin": -0.1597300337457818,
+      "incr_op_margin_yoy": 0.1076923076923077,
+      "rev_growth_yoy": 0.07888349514563107,
+      "rev_growth_yoy_accel": 0.05412569105521127,
+      "fcf_margin_change": -0.26477205055250447
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +7.9% vs prior quarter YoY: +2.5% (accel: +5.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -566,34 +573,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +2.8% vs prior quarter YoY: +9.4% (decel: -6.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +38.5% vs year-ago OPM: +14.6%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -12.1% -> +22.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -19.8% -> +2.5%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +9.5% vs OpEx growth +0.2% (leverage: 45.3x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -623,5 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:58:40.023852"
+  "last_updated": "2026-02-24T10:33:24.525490"
 }

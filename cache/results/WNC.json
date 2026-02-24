@@ -1,25 +1,9 @@
 {
   "ticker": "WNC",
   "name": "WABASH NATIONAL CORPORATION",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 404078000,
-      "gross_profit": 45496000,
-      "operating_income": 10041000,
-      "net_income": 5494000,
-      "opex": 35455000,
-      "cogs": 358582000,
-      "rd": null,
-      "sga": null,
-      "fcf": 10623000,
-      "ocf": 17035000,
-      "capex": -6412000,
-      "gross_margin": 0.11259212330292666,
-      "op_margin": 0.024849162785402817,
-      "fcf_margin": 0.02628947876400101
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -4165000,
       "gross_margin": 0.1203205077512162,
       "op_margin": 0.0286094749274878,
-      "fcf_margin": -0.06777754251880726,
-      "fcf_margin_change": -0.09406702128280826
+      "fcf_margin": -0.06777754251880726
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.12373226054799276,
       "op_margin": 0.050473719577590774,
       "fcf_margin": 0.005384694118222962,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07316223663703023
     },
     {
@@ -76,7 +59,7 @@
       "gross_margin": 0.1057782769610789,
       "op_margin": 0.03784560039455743,
       "fcf_margin": -0.14562153156252203,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15100622568074498
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.08898403219849899,
       "op_margin": -0.038850184757457586,
       "fcf_margin": 0.07896477402420729,
-      "incr_op_margin_yoy": -0.38113538743866276,
-      "rev_growth_yoy": 0.18610020837561064,
       "fcf_margin_change": 0.22458630558672932
     },
     {
@@ -119,8 +100,7 @@
       "fcf_margin": -0.0814176578066102,
       "incr_op_margin_yoy": 0.057638377337520516,
       "rev_growth_yoy": 0.39478779499136485,
-      "rev_growth_yoy_accel": 0.2086875866157542,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1603824318308175
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.20055161544523248,
       "rev_growth_yoy": 0.3576381261837759,
       "rev_growth_yoy_accel": -0.07257445797988321,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.20955973351875617
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 0.4378133960738181,
       "rev_growth_yoy": -0.19808627770819376,
       "rev_growth_yoy_accel": -0.027902430969637487,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05997607641173426
     },
     {
@@ -411,7 +391,7 @@
       "incr_op_margin_yoy": 0.5285094886376016,
       "rev_growth_yoy": -0.16671328163309784,
       "rev_growth_yoy_accel": 0.0940906370434949,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02453234938218221
     },
     {
@@ -435,9 +415,37 @@
       "rev_growth_yoy": -0.17766787345918456,
       "rev_growth_yoy_accel": -0.010954591826086713,
       "fcf_margin_change": 0.25752964448553156
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 321453000,
+      "gross_profit": -6200000,
+      "operating_income": -59941000,
+      "net_income": -49878000,
+      "opex": 53741000,
+      "cogs": 327653000,
+      "rd": null,
+      "sga": null,
+      "fcf": -61938000,
+      "ocf": -57434000,
+      "capex": -4504000,
+      "gross_margin": -0.01928742304473749,
+      "op_margin": -0.18646893947171125,
+      "fcf_margin": -0.1926813562169275,
+      "incr_op_margin_yoy": 0.6661738027076058,
+      "rev_growth_yoy": -0.22878550144668844,
+      "rev_growth_yoy_accel": -0.05111762798750388,
+      "fcf_margin_change": -0.4021285449903653
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -22.9% vs prior quarter YoY: -17.8% (decel: -5.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -608,12 +616,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +39.5% vs prior quarter YoY: +18.6% (accel: +20.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -3.9% -> +3.7%",
       "severity": "HIGH"
@@ -656,5 +658,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:33:48.127404"
+  "last_updated": "2026-02-24T10:31:09.880206"
 }

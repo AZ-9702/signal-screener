@@ -1,0 +1,120 @@
+{
+  "ticker": "SOLS",
+  "name": "SOLSTICE ADVANCED MATERIALS INC.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
+  "quarters": [
+    {
+      "date": "2024-09-30T00:00:00",
+      "quarter_label": "2024-09 (Q3)",
+      "revenue": 907000000,
+      "gross_profit": 332000000,
+      "operating_income": null,
+      "net_income": 152000000,
+      "opex": null,
+      "cogs": 575000000,
+      "rd": 21000000,
+      "sga": 107000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.36604189636163176,
+      "op_margin": null,
+      "fcf_margin": null
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 913000000,
+      "gross_profit": 305000000,
+      "operating_income": null,
+      "net_income": 133000000,
+      "opex": null,
+      "cogs": 608000000,
+      "rd": 21000000,
+      "sga": 89000000,
+      "fcf": 180000000,
+      "ocf": 275000000,
+      "capex": -95000000,
+      "gross_margin": 0.33406352683461116,
+      "op_margin": null,
+      "fcf_margin": 0.19715224534501644
+    },
+    {
+      "date": "2025-09-30T00:00:00",
+      "quarter_label": "2025-09 (Q3)",
+      "revenue": 969000000,
+      "gross_profit": 310000000,
+      "operating_income": null,
+      "net_income": -35000000,
+      "opex": null,
+      "cogs": 659000000,
+      "rd": 26000000,
+      "sga": 113000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.31991744066047473,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.06835722160970231
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 987000000,
+      "gross_profit": 258000000,
+      "operating_income": null,
+      "net_income": 41000000,
+      "opex": null,
+      "cogs": 729000000,
+      "rd": 27000000,
+      "sga": 112000000,
+      "fcf": 78000000,
+      "ocf": 166000000,
+      "capex": -88000000,
+      "gross_margin": 0.2613981762917933,
+      "op_margin": null,
+      "fcf_margin": 0.0790273556231003,
+      "rev_growth_yoy": 0.08105147864184009,
+      "rev_growth_yoy_accel": 0.012694257032137779
+    }
+  ],
+  "signals": [],
+  "data_quality": {
+    "n_quarters": 4,
+    "coverage": {
+      "revenue": [
+        4,
+        4
+      ],
+      "gross_profit": [
+        4,
+        4
+      ],
+      "op_income": [
+        0,
+        4
+      ],
+      "fcf": [
+        2,
+        4
+      ]
+    },
+    "gaps": [
+      [
+        "2024-12 (Q4)",
+        "2025-09 (Q3)",
+        273
+      ]
+    ],
+    "warnings": [
+      "op_income: no data",
+      "fcf: 2/4Q",
+      "gap: 2Q missing between 2024-12 (Q4) and 2025-09 (Q3)"
+    ]
+  },
+  "market_cap": null,
+  "source": "SEC EDGAR",
+  "last_updated": "2026-02-24T10:25:53.939513"
+}

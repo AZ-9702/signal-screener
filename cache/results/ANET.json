@@ -1,25 +1,9 @@
 {
   "ticker": "ANET",
-  "name": "Arista Networks,\u00a0Inc.",
+  "name": "ARISTA NETWORKS,\u00a0INC.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 648482000,
-      "gross_profit": 414584000,
-      "operating_income": 194638000,
-      "net_income": 182958000,
-      "opex": 219946000,
-      "cogs": 233898000,
-      "rd": 133847000,
-      "sga": null,
-      "fcf": 186924000,
-      "ocf": 186924000,
-      "capex": null,
-      "gross_margin": 0.6393145839051816,
-      "op_margin": 0.3001440286700325,
-      "fcf_margin": 0.2882485558581426
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -5096000,
       "gross_margin": 0.6370524385749938,
       "op_margin": 0.3090229821349927,
-      "fcf_margin": 0.37386639742825384,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.08561784157011126
+      "fcf_margin": 0.37386639742825384
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.63400848313864,
       "op_margin": 0.32237867498565725,
       "fcf_margin": 0.27319248137263347,
-      "incr_op_margin_yoy": 0.4043142001511561,
-      "rev_growth_yoy": 0.27136759385765524,
       "op_leverage_ratio": 2.1391188731642754,
       "fcf_margin_change": -0.029588216292777247
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.23061206340229812,
       "incr_op_margin_yoy": 0.3422130365052696,
       "rev_growth_yoy": 0.31383452023931857,
-      "rev_growth_yoy_accel": 0.04246692638166333,
       "op_leverage_ratio": 0.8659364735634884,
       "fcf_margin_change": -0.04258041797033535
     },
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.5571778569388706,
       "rev_growth_yoy": 0.2826773600634262,
       "rev_growth_yoy_accel": -0.10427623113566192,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16603450060131353
     },
     {
@@ -274,17 +253,17 @@
       "cogs": 541211000,
       "rd": 211481000,
       "sga": null,
-      "fcf": 526464000,
-      "ocf": 526464000,
+      "fcf": 526450000,
+      "ocf": 526450000,
       "capex": null,
       "gross_margin": 0.6486639830126126,
       "op_margin": 0.41541069190106444,
-      "fcf_margin": 0.3417627595286273,
+      "fcf_margin": 0.3417536711984976,
       "incr_op_margin_yoy": 0.6455442928063122,
       "rev_growth_yoy": 0.20766303529765937,
       "rev_growth_yoy_accel": -0.07501432476576683,
       "op_leverage_ratio": 0.35596812194597915,
-      "fcf_margin_change": -0.11387490066153394
+      "fcf_margin_change": -0.11388398899166363
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -306,8 +285,8 @@
       "incr_op_margin_yoy": 0.7979302163864687,
       "rev_growth_yoy": 0.1628170623324362,
       "rev_growth_yoy_accel": -0.04484597296522316,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.020769794136556385
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.020760705806426694
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -352,7 +331,7 @@
       "incr_op_margin_yoy": 0.6055293883508027,
       "rev_growth_yoy": 0.19972758397727394,
       "rev_growth_yoy_accel": 0.04106544667608486,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06151865572274462
     },
     {
@@ -366,17 +345,17 @@
       "cogs": 699442000,
       "rd": 285016000,
       "sga": null,
-      "fcf": 1030935000,
-      "ocf": 1030935000,
+      "fcf": 1030900000,
+      "ocf": 1030900000,
       "capex": null,
       "gross_margin": 0.6376766699336316,
       "op_margin": 0.41423388291556934,
-      "fcf_margin": 0.5340425686218035,
+      "fcf_margin": 0.5340244380026067,
       "incr_op_margin_yoy": 0.4095856656042708,
       "rev_growth_yoy": 0.25317426158940615,
       "rev_growth_yoy_accel": 0.053446677612132204,
       "op_leverage_ratio": 0.452706972016223,
-      "fcf_margin_change": -0.1106516668453803
+      "fcf_margin_change": -0.11066979746457717
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -398,8 +377,8 @@
       "incr_op_margin_yoy": 0.4583458306608279,
       "rev_growth_yoy": 0.2758261241435839,
       "rev_growth_yoy_accel": 0.022651862554177726,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.2281267665467836
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.22810863592758673
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -446,9 +425,38 @@
       "rev_growth_yoy_accel": -0.029661958862120363,
       "op_leverage_ratio": 0.35632597821957707,
       "fcf_margin_change": 0.002941688012722765
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2487800000,
+      "gross_profit": 1563800000,
+      "operating_income": 1032900000,
+      "net_income": 955800000,
+      "opex": 530900000,
+      "cogs": 924000000,
+      "rd": 348400000,
+      "sga": null,
+      "fcf": 1261900000,
+      "ocf": 1261900000,
+      "capex": null,
+      "gross_margin": 0.6285875070343275,
+      "op_margin": 0.4151861082080553,
+      "fcf_margin": 0.5072353083045261,
+      "incr_op_margin_yoy": 0.4184841503936386,
+      "rev_growth_yoy": 0.28872441251613623,
+      "rev_growth_yoy_accel": 0.01407969840144635,
+      "op_leverage_ratio": 2.1065916486788994,
+      "fcf_margin_change": -0.029133447923000655
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +7.8% vs OpEx growth +3.7% (leverage: 2.1x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -598,18 +606,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.1% vs OpEx growth +4.7% (leverage: 2.1x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +40.4% vs year-ago OPM: +30.0%",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +28.8% -> +37.4% (+8.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -637,7 +633,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:12.232568",
-  "sector": "Technology",
-  "industry": "Computer Hardware"
+  "last_updated": "2026-02-24T10:40:21.577388"
 }

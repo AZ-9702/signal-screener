@@ -1,6 +1,8 @@
 {
   "ticker": "BTOC",
   "name": "Armlogi Holding Corp.",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.13999283154151682,
       "op_margin": 0.12283557497055812,
       "fcf_margin": 0.027182907706284207,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2023-09-30T00:00:00",
@@ -119,7 +121,7 @@
       "incr_op_margin_yoy": 2.1184583703993036,
       "rev_growth_yoy": -0.05814319039494779,
       "rev_growth_yoy_accel": -0.3338000228613319,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07673614386561017
     },
     {
@@ -164,7 +166,7 @@
       "incr_op_margin_yoy": -0.7587275984427764,
       "rev_growth_yoy": 0.21758834730423707,
       "rev_growth_yoy_accel": 0.18762045599300317,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.007039089726381703
     },
     {
@@ -209,7 +211,7 @@
       "incr_op_margin_yoy": -0.7101819493851469,
       "rev_growth_yoy": 0.12478560429398428,
       "rev_growth_yoy_accel": -0.06783665170098555,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06666689612478235
     },
     {
@@ -233,9 +235,43 @@
       "rev_growth_yoy": 0.1645708797931241,
       "rev_growth_yoy_accel": 0.03978527549913982,
       "fcf_margin_change": -0.17373540381535324
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 51542848,
+      "gross_profit": -770266,
+      "operating_income": -4098816,
+      "net_income": -3860182,
+      "opex": 3328550,
+      "cogs": 52313114,
+      "rd": null,
+      "sga": null,
+      "fcf": -2049158,
+      "ocf": -1468367,
+      "capex": -580791,
+      "gross_margin": -0.01494418779497788,
+      "op_margin": -0.0795224974762745,
+      "fcf_margin": -0.03975639840468265,
+      "rev_growth_yoy": 0.0078047959081240965,
+      "rev_growth_yoy_accel": -0.156766083885,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.00037603375618577156
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: -0.3% -> -5.0% -> -1.5% (reversal +3.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +0.8% vs prior quarter YoY: +16.5% (decel: -15.7%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -292,23 +328,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
-        11,
-        11
+        12,
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        10,
-        11
+        11,
+        12
       ]
     },
     "gaps": [],
@@ -316,7 +352,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:56:10.039690",
-  "sector": "Industrials",
-  "industry": "Integrated Freight & Logistics"
+  "last_updated": "2026-02-24T10:32:55.464468"
 }

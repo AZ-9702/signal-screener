@@ -1,25 +1,9 @@
 {
   "ticker": "HI",
   "name": "HILLENBRAND, INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 692500000,
-      "gross_profit": 244200000,
-      "operating_income": null,
-      "net_income": 76400000,
-      "opex": 131600000,
-      "cogs": 448300000,
-      "rd": null,
-      "sga": null,
-      "fcf": 66200000,
-      "ocf": 66200000,
-      "capex": null,
-      "gross_margin": 0.3526353790613718,
-      "op_margin": null,
-      "fcf_margin": 0.09559566787003611
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.3404402602796622,
       "op_margin": null,
-      "fcf_margin": 0.2669251003738059,
-      "op_leverage_ratio": 0.88485559566787,
-      "fcf_margin_change": 0.1713294325037698
+      "fcf_margin": 0.2669251003738059
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": 0.3257825370675453,
       "op_margin": null,
       "fcf_margin": 0.06109280615046678,
-      "rev_growth_yoy": 0.05184115523465704,
       "fcf_margin_change": -0.052432164044261
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.062264150943396226,
       "rev_growth_yoy": 0.02727398587844386,
-      "rev_growth_yoy_accel": -0.024567169356213177,
       "op_leverage_ratio": 0.6464223696513647,
       "fcf_margin_change": 0.001171344792929449
     },
@@ -409,6 +389,26 @@
       "fcf_margin": null,
       "rev_growth_yoy": -0.22146609360076408,
       "rev_growth_yoy_accel": 0.01715582351085554
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 550200000,
+      "gross_profit": 183700000,
+      "operating_income": null,
+      "net_income": -2200000,
+      "opex": 149200000,
+      "cogs": 366500000,
+      "rd": null,
+      "sga": null,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3338785896037804,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": -0.22167208940444194,
+      "rev_growth_yoy_accel": -0.00020599580367786086
     }
   ],
   "signals": [
@@ -471,12 +471,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +8.6% vs OpEx growth +2.8% (leverage: 3.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +9.6% -> +26.7% (+17.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -495,19 +489,17 @@
         20
       ],
       "fcf": [
-        8,
+        7,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "op_income: no data",
-      "fcf: 8/20Q"
+      "fcf: 7/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:32:43.392937",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T11:06:25.170756"
 }

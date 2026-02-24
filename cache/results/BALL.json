@@ -1,25 +1,9 @@
 {
   "ticker": "BALL",
-  "name": "BALL Corp",
+  "name": "Ball Corporation",
+  "sector": "Consumer Cyclical",
+  "industry": "Packaging & Containers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3102000000,
-      "gross_profit": 654000000,
-      "operating_income": 296000000,
-      "net_income": null,
-      "opex": 2806000000,
-      "cogs": 2448000000,
-      "rd": null,
-      "sga": 162000000,
-      "fcf": 657000000,
-      "ocf": 1087000000,
-      "capex": -430000000,
-      "gross_margin": 0.21083172147001933,
-      "op_margin": 0.09542230818826564,
-      "fcf_margin": 0.21179883945841393
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -363000000,
       "gross_margin": 0.20224,
       "op_margin": 0.096,
-      "fcf_margin": -0.2688,
-      "fcf_margin_change": -0.4805988394584139
+      "fcf_margin": -0.2688
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +79,7 @@
       "gross_margin": 0.18862275449101795,
       "op_margin": 0.10342950462710941,
       "fcf_margin": 0.0985302123026674,
-      "incr_op_margin_yoy": 0.14685314685314685,
-      "rev_growth_yoy": 0.18439716312056736,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02507116361142056
     },
     {
@@ -120,8 +101,7 @@
       "fcf_margin": -0.31377825618945104,
       "incr_op_margin_yoy": 0.5245346869712352,
       "rev_growth_yoy": 0.18912,
-      "rev_growth_yoy_accel": 0.004722836879432646,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.41230846849211844
     },
     {
@@ -427,9 +407,42 @@
       "rev_growth_yoy": 0.0963659961064244,
       "rev_growth_yoy_accel": -0.03171781599225759,
       "fcf_margin_change": 0.0053569867530234155
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3347000000,
+      "gross_profit": 648000000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
+      "cogs": 2699000000,
+      "rd": null,
+      "sga": 150000000,
+      "fcf": 1041000000,
+      "ocf": 1211000000,
+      "capex": -170000000,
+      "gross_margin": 0.19360621452046609,
+      "op_margin": null,
+      "fcf_margin": 0.31102479832685986,
+      "rev_growth_yoy": 0.16215277777777778,
+      "rev_growth_yoy_accel": 0.06578678167135338,
+      "fcf_margin_change": 0.23496679299984002
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +7.6% -> +31.1% (+23.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +16.2% vs prior quarter YoY: +9.6% (accel: +6.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -581,7 +594,7 @@
         20
       ],
       "op_income": [
-        14,
+        13,
         20
       ],
       "fcf": [
@@ -591,12 +604,10 @@
     },
     "gaps": [],
     "warnings": [
-      "op_income: 14/20Q"
+      "op_income: 13/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:25:15.898481",
-  "sector": "Consumer Cyclical",
-  "industry": "Packaging & Containers"
+  "last_updated": "2026-02-24T10:19:49.195396"
 }

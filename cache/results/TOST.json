@@ -1,25 +1,9 @@
 {
   "ticker": "TOST",
-  "name": "Toast, Inc.",
+  "name": "TOAST, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 242401000,
-      "gross_profit": 46694000,
-      "operating_income": -56764000,
-      "net_income": -60845000,
-      "opex": 103458000,
-      "cogs": 195707000,
-      "rd": 30342000,
-      "sga": null,
-      "fcf": -30985000,
-      "ocf": -38370000,
-      "capex": 7385000,
-      "gross_margin": 0.1926312185180754,
-      "op_margin": -0.23417395142759312,
-      "fcf_margin": -0.12782538025833226
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6000000,
       "gross_margin": 0.24468085106382978,
       "op_margin": -0.01773049645390071,
-      "fcf_margin": -0.03900709219858156,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.0888182880597507
+      "fcf_margin": -0.03900709219858156
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.17117104151289428,
       "op_margin": -0.11040978331712513,
       "fcf_margin": -0.041120196390057956,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.16788075977033964
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.1475548339104983,
       "op_margin": -0.2281630615705232,
       "fcf_margin": -0.06409347547841895,
-      "incr_op_margin_yoy": -0.22281555535981679,
-      "rev_growth_yoy": 1.124054768750954,
       "op_leverage_ratio": 0.14202655283414595,
       "fcf_margin_change": -0.022973279088361
     },
@@ -121,8 +101,7 @@
       "fcf_margin": -0.09158878504672897,
       "incr_op_margin_yoy": -0.3794466403162055,
       "rev_growth_yoy": 0.8971631205673759,
-      "rev_growth_yoy_accel": -0.226891648183578,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02749530956831002
     },
     {
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.09285714285714286,
       "rev_growth_yoy": 0.3723404255319149,
       "rev_growth_yoy_accel": -0.07654846335697402,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0025681266942502515
     },
     {
@@ -328,7 +307,7 @@
       "incr_op_margin_yoy": 0.32196969696969696,
       "rev_growth_yoy": 0.26993865030674846,
       "rev_growth_yoy_accel": -0.042637662269564114,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11844362056697749
     },
     {
@@ -444,9 +423,37 @@
       "rev_growth_yoy_accel": 0.003353878616247419,
       "op_leverage_ratio": 0.4640860215053763,
       "fcf_margin_change": -0.04282993896055151
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1633000000,
+      "gross_profit": 423000000,
+      "operating_income": 85000000,
+      "net_income": 101000000,
+      "opex": 338000000,
+      "cogs": 1210000000,
+      "rd": 97000000,
+      "sga": null,
+      "fcf": 194000000,
+      "ocf": 194000000,
+      "capex": null,
+      "gross_margin": 0.25903245560318433,
+      "op_margin": 0.0520514390691978,
+      "fcf_margin": 0.11879975505205144,
+      "incr_op_margin_yoy": 0.17966101694915254,
+      "rev_growth_yoy": 0.22047832585949179,
+      "rev_growth_yoy_accel": -0.030862670309090567,
+      "fcf_margin_change": 0.017758726270667477
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +18.0% vs year-ago OPM: +2.4%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -574,22 +581,10 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +89.7% vs prior quarter YoY: +112.4% (decel: -22.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.9% -> +12.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -12.8% -> -3.9% (+8.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -617,5 +612,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:19:43.012441"
+  "last_updated": "2026-02-24T10:28:48.158256"
 }

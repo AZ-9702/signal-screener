@@ -1,25 +1,9 @@
 {
   "ticker": "SXT",
   "name": "Sensient Technologies Corp",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 334668000,
-      "gross_profit": null,
-      "operating_income": 34815000,
-      "net_income": 25169000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 69179000,
-      "fcf": 57700000,
-      "ocf": 75853000,
-      "capex": -18153000,
-      "gross_margin": null,
-      "op_margin": 0.1040284700060956,
-      "fcf_margin": 0.17240967167461485
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -14244000,
       "gross_margin": null,
       "op_margin": 0.130377367932344,
-      "fcf_margin": 0.04092276384340371,
-      "fcf_margin_change": -0.13148690783121114
+      "fcf_margin": 0.04092276384340371
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.3301032756838049,
       "op_margin": 0.11872591408967008,
       "fcf_margin": 0.017300733151611992,
-      "incr_op_margin_yoy": 0.9697231833910035,
-      "rev_growth_yoy": 0.017270847526503878,
       "fcf_margin_change": -0.025770890232367075
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.038332475437456576,
       "incr_op_margin_yoy": -1.4092322410906482,
       "rev_growth_yoy": -0.011623510572640687,
-      "rev_growth_yoy_accel": -0.028894358099144563,
       "op_leverage_ratio": 33.89458480115312,
       "fcf_margin_change": -0.05563320858906857
     },
@@ -231,7 +211,7 @@
       "incr_op_margin_yoy": -1.4012274645186038,
       "rev_growth_yoy": 0.007013607528530613,
       "rev_growth_yoy_accel": -0.030916641317529116,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1538156365033165
     },
     {
@@ -297,7 +277,7 @@
       "incr_op_margin_yoy": -0.09141981613891727,
       "rev_growth_yoy": 0.04244917426816908,
       "rev_growth_yoy_accel": 0.04082617004721111,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1116522010332841
     },
     {
@@ -434,6 +414,28 @@
       "rev_growth_yoy": 0.049657041412281305,
       "rev_growth_yoy_accel": 0.02312832571932548,
       "fcf_margin_change": -0.006688117860758264
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 393447000,
+      "gross_profit": 123349000,
+      "operating_income": 38186000,
+      "net_income": 25484000,
+      "opex": 85163000,
+      "cogs": 270098000,
+      "rd": null,
+      "sga": 85163000,
+      "fcf": 12942000,
+      "ocf": 44563000,
+      "capex": -31621000,
+      "gross_margin": 0.3135085538840047,
+      "op_margin": 0.09705500359641832,
+      "fcf_margin": 0.03289388405553988,
+      "incr_op_margin_yoy": -0.22376225994009513,
+      "rev_growth_yoy": 0.045234047075075716,
+      "rev_growth_yoy_accel": -0.004422994337205589,
+      "fcf_margin_change": -0.02584300351546682
     }
   ],
   "signals": [
@@ -540,12 +542,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +97.0% vs year-ago OPM: +10.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.1% -> +14.6% (+10.5%)",
@@ -560,7 +556,7 @@
         20
       ],
       "gross_profit": [
-        17,
+        18,
         20
       ],
       "op_income": [
@@ -577,5 +573,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:12:41.684736"
+  "last_updated": "2026-02-24T10:46:31.588169"
 }

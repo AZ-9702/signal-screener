@@ -1,25 +1,9 @@
 {
   "ticker": "BRC",
   "name": "BRADY CORP",
+  "sector": "Industrials",
+  "industry": "Security & Protection Services",
   "quarters": [
-    {
-      "date": "2021-01-31T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 265838000,
-      "gross_profit": 129522000,
-      "operating_income": 37412000,
-      "net_income": 30860000,
-      "opex": 92110000,
-      "cogs": 136316000,
-      "rd": 9876000,
-      "sga": 82234000,
-      "fcf": 30861000,
-      "ocf": 36051000,
-      "capex": -5190000,
-      "gross_margin": 0.48722154093846626,
-      "op_margin": 0.14073232570211933,
-      "fcf_margin": 0.11608949811539358
-    },
     {
       "date": "2021-04-30T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -6900000,
       "gross_margin": 0.5037072381667868,
       "op_margin": 0.15812022212972457,
-      "fcf_margin": 0.1662216627242363,
-      "op_leverage_ratio": 1.0266283030349812,
-      "fcf_margin_change": 0.05013216460884272
+      "fcf_margin": 0.1662216627242363
     },
     {
       "date": "2021-07-31T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.46961060193991605,
       "op_margin": 0.13479429658392417,
       "fcf_margin": -0.026017512694345317,
-      "incr_op_margin_yoy": 0.10456364785414712,
-      "rev_growth_yoy": 0.19642413800886255,
       "fcf_margin_change": -0.07629513925939703
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.1040256859380123,
       "incr_op_margin_yoy": 0.14318899832744844,
       "rev_growth_yoy": 0.14567703204366791,
-      "rev_growth_yoy_accel": -0.05074710596519463,
       "op_leverage_ratio": 1.476736603093697,
       "fcf_margin_change": 0.1300431986323576
     },
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": -7.046689895470383,
       "rev_growth_yoy": -0.004238652374383771,
       "rev_growth_yoy_accel": -0.03000149213480257,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12404527146989515
     },
     {
@@ -437,11 +416,45 @@
       "incr_op_margin_yoy": 0.32067181631351427,
       "rev_growth_yoy": 0.07484651187461047,
       "rev_growth_yoy_accel": -0.0820337625559403,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06921237075168762
+    },
+    {
+      "date": "2026-01-31T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 384137000,
+      "gross_profit": 194394000,
+      "operating_income": 62190000,
+      "net_income": 48051000,
+      "opex": 132204000,
+      "cogs": 189743000,
+      "rd": 24309000,
+      "sga": 107895000,
+      "fcf": 42347000,
+      "ocf": 53314000,
+      "capex": -10967000,
+      "gross_margin": 0.5060538297534474,
+      "op_margin": 0.1618953654555536,
+      "fcf_margin": 0.11023931566081893,
+      "incr_op_margin_yoy": 0.3989512781297793,
+      "rev_growth_yoy": 0.07699446274619752,
+      "rev_growth_yoy_accel": 0.0021479508715870482,
+      "fcf_margin_change": 0.05502905725134614
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +5.5% -> +11.0% (+5.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +39.9% vs year-ago OPM: +14.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -543,18 +556,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.6% -> +10.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +14.6% vs prior quarter YoY: +19.6% (decel: -5.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.6% -> +16.6% (+5.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -582,7 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:12:51.180086",
-  "sector": "Industrials",
-  "industry": "Security & Protection Services"
+  "last_updated": "2026-02-24T10:21:30.899783"
 }

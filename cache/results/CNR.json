@@ -1,25 +1,9 @@
 {
   "ticker": "CNR",
   "name": "Core Natural Resources, Inc.",
+  "sector": "Energy",
+  "industry": "Thermal Coal",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 324607000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 13085000,
-      "opex": 306044000,
-      "cogs": null,
-      "rd": null,
-      "sga": 32980000,
-      "fcf": 46894000,
-      "ocf": 66943000,
-      "capex": -20049000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.1444639209875326
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -13800000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.1876247621664119,
-      "op_leverage_ratio": 3.661072933505524,
-      "fcf_margin_change": 0.043160841178879306
+      "fcf_margin": 0.1876247621664119
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.04783771131339402,
-      "rev_growth_yoy": 0.4806365851629817,
       "op_leverage_ratio": 45.02209254202232,
       "fcf_margin_change": -0.18486166860231748
     },
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.3111714812469842,
       "rev_growth_yoy": 0.047867754295618015,
-      "rev_growth_yoy_accel": -0.4327688308673637,
       "fcf_margin_change": 0.26333376993359014
     },
     {
@@ -161,7 +141,7 @@
       "fcf_margin": 0.16867270377004406,
       "rev_growth_yoy": 2.7690790003489654,
       "rev_growth_yoy_accel": 1.8725025392246404,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12315148892246208
     },
     {
@@ -340,18 +320,18 @@
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
       "revenue": 595291000,
-      "gross_profit": null,
-      "operating_income": null,
+      "gross_profit": 216354000,
+      "operating_income": 37888000,
       "net_income": 30821000,
       "opex": 563637000,
-      "cogs": null,
+      "cogs": 378937000,
       "rd": null,
       "sga": 37555000,
       "fcf": 80470000,
       "ocf": 121310000,
       "capex": -40840000,
-      "gross_margin": null,
-      "op_margin": null,
+      "gross_margin": 0.3634424172379559,
+      "op_margin": 0.06364618312724366,
       "fcf_margin": 0.1351775854162082,
       "rev_growth_yoy": -0.08337657578309896,
       "rev_growth_yoy_accel": -0.09213480581693159,
@@ -425,6 +405,29 @@
       "rev_growth_yoy": 0.7439928329752721,
       "rev_growth_yoy_accel": -0.4557884582446481,
       "fcf_margin_change": -0.08029003932084414
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1042465000,
+      "gross_profit": 107990000,
+      "operating_income": -97088000,
+      "net_income": -78981000,
+      "opex": 1139553000,
+      "cogs": 934475000,
+      "rd": null,
+      "sga": null,
+      "fcf": 26033000,
+      "ocf": 107310000,
+      "capex": -81277000,
+      "gross_margin": 0.10359100785158255,
+      "op_margin": -0.09313310279002172,
+      "fcf_margin": 0.024972541044543464,
+      "incr_op_margin_yoy": -0.30184223590817,
+      "rev_growth_yoy": 0.7511855546279047,
+      "rev_growth_yoy_accel": 0.007192721652632628,
+      "op_leverage_ratio": 0.32262206781636726,
+      "fcf_margin_change": -0.013551492338563297
     }
   ],
   "signals": [
@@ -444,6 +447,12 @@
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +8.4% vs OpEx growth +4.7% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +36.3% -> +14.5% -> +17.2% (reversal +2.8%)",
       "severity": "MEDIUM"
     },
     {
@@ -579,12 +588,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +4.8% vs prior quarter YoY: +48.1% (decel: -43.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +222.5% vs OpEx growth +4.9% (leverage: 45.0x)",
@@ -594,12 +597,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +17.7% -> +23.3% (+5.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +5.4% vs OpEx growth +1.5% (leverage: 3.7x)",
       "severity": "MEDIUM"
     }
   ],
@@ -611,11 +608,11 @@
         20
       ],
       "gross_profit": [
-        6,
+        8,
         20
       ],
       "op_income": [
-        6,
+        8,
         20
       ],
       "fcf": [
@@ -625,13 +622,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 6/20Q",
-      "op_income: 6/20Q"
+      "gross_profit: 8/20Q",
+      "op_income: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:04:11.412426",
-  "sector": "Energy",
-  "industry": "Thermal Coal"
+  "last_updated": "2026-02-24T10:35:07.048863"
 }

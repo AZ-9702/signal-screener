@@ -1,25 +1,9 @@
 {
   "ticker": "IQV",
   "name": "IQVIA HOLDINGS INC.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3298000000,
-      "gross_profit": 1126000000,
-      "operating_income": 289000000,
-      "net_income": 119000000,
-      "opex": 837000000,
-      "cogs": 2172000000,
-      "rd": null,
-      "sga": 491000000,
-      "fcf": 750000000,
-      "ocf": 750000000,
-      "capex": null,
-      "gross_margin": 0.34141904184354155,
-      "op_margin": 0.08762886597938144,
-      "fcf_margin": 0.22741055184960582
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.21443238486359636,
       "op_margin": 0.10032267527134058,
-      "fcf_margin": 0.2543267820475213,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.026916230197915475
+      "fcf_margin": 0.2543267820475213
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.34983498349834985,
       "op_margin": 0.12733773377337734,
       "fcf_margin": 0.19031903190319033,
-      "incr_op_margin_yoy": 0.514792899408284,
-      "rev_growth_yoy": 0.10248635536688902,
       "op_leverage_ratio": 0.07996427430453161,
       "fcf_margin_change": -0.058575099621433674
     },
@@ -119,7 +99,6 @@
       "fcf_margin": 0.14237668161434977,
       "incr_op_margin_yoy": 0.9622641509433962,
       "rev_growth_yoy": 0.04664124376650044,
-      "rev_growth_yoy_accel": -0.05584511160038858,
       "fcf_margin_change": -0.04794235028884056
     },
     {
@@ -231,7 +210,7 @@
       "incr_op_margin_yoy": 0.37967914438502676,
       "rev_growth_yoy": 0.052809940694719004,
       "rev_growth_yoy_accel": 0.02926733979785802,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0063513907365709416
     },
     {
@@ -437,9 +416,38 @@
       "rev_growth_yoy_accel": -0.0008635643673098881,
       "op_leverage_ratio": 5.6270019085553065,
       "fcf_margin_change": 0.1111821101780846
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4364000000,
+      "gross_profit": 1436000000,
+      "operating_income": 627000000,
+      "net_income": 514000000,
+      "opex": 809000000,
+      "cogs": 2928000000,
+      "rd": null,
+      "sga": 468000000,
+      "fcf": 735000000,
+      "ocf": 735000000,
+      "capex": null,
+      "gross_margin": 0.3290559120073327,
+      "op_margin": 0.1436755270394134,
+      "fcf_margin": 0.16842346471127406,
+      "incr_op_margin_yoy": 0.0024630541871921183,
+      "rev_growth_yoy": 0.10257705912076806,
+      "rev_growth_yoy_accel": 0.050215662816866624,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.05303994992287228
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +10.3% vs prior quarter YoY: +5.2% (accel: +5.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -508,20 +516,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +4.7% vs prior quarter YoY: +10.2% (decel: -5.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +96.2% vs year-ago OPM: +10.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +51.5% vs year-ago OPM: +8.8%",
       "severity": "HIGH"
     },
     {
@@ -556,7 +552,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:46.638163",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:32:13.547347"
 }

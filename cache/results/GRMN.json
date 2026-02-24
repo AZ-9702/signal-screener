@@ -1,25 +1,9 @@
 {
   "ticker": "GRMN",
   "name": "GARMIN LTD",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1351405000,
-      "gross_profit": 790983000,
-      "operating_income": 371267000,
-      "net_income": 333547000,
-      "opex": 419717000,
-      "cogs": 560421000,
-      "rd": 199672000,
-      "sga": 158910000,
-      "fcf": 387489000,
-      "ocf": 435818000,
-      "capex": -48329000,
-      "gross_margin": 0.5853041834239181,
-      "op_margin": 0.274726673351068,
-      "fcf_margin": 0.286730476800071
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -36894000,
       "gross_margin": 0.5982839189911286,
       "op_margin": 0.23281983947060925,
-      "fcf_margin": 0.30911093351188584,
-      "fcf_margin_change": 0.022380456711814822
+      "fcf_margin": 0.30911093351188584
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5548369525772336,
       "op_margin": 0.22644617052879837,
       "fcf_margin": 0.035410598962768464,
-      "incr_op_margin_yoy": -1.3972476607605018,
-      "rev_growth_yoy": 0.029734979521313005,
       "op_leverage_ratio": 1.5834677859809603,
       "fcf_margin_change": -0.13573841196281458
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.1073787672833263,
       "incr_op_margin_yoy": -0.21032540987691234,
       "rev_growth_yoy": 0.0935675404983741,
-      "rev_growth_yoy_accel": 0.0638325609770611,
       "fcf_margin_change": 0.07196816832055784
     },
     {
@@ -345,7 +325,7 @@
       "incr_op_margin_yoy": 0.5416884123037625,
       "rev_growth_yoy": 0.24147437518150244,
       "rev_growth_yoy_accel": 0.10074398174421656,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0064582468160225
     },
     {
@@ -437,9 +417,38 @@
       "rev_growth_yoy": 0.11656773991785738,
       "rev_growth_yoy_accel": -0.08778543340266184,
       "fcf_margin_change": 0.1697739468293742
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2124955000,
+      "gross_profit": 1258260000,
+      "operating_income": 614154000,
+      "net_income": 528681000,
+      "opex": 644106000,
+      "cogs": 866695000,
+      "rd": 294984000,
+      "sga": 349122000,
+      "fcf": 429612000,
+      "ocf": 553785000,
+      "capex": -124173000,
+      "gross_margin": 0.5921348922683068,
+      "op_margin": 0.2890197674774289,
+      "fcf_margin": 0.2021746342863731,
+      "incr_op_margin_yoy": 0.32432191114903075,
+      "rev_growth_yoy": 0.16591708041596412,
+      "rev_growth_yoy_accel": 0.04934934049810674,
+      "op_leverage_ratio": 2.1663073252580545,
+      "fcf_margin_change": -0.037861369984898974
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +20.0% vs OpEx growth +9.2% (leverage: 2.2x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -621,12 +630,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +9.4% vs prior quarter YoY: +3.0% (accel: +6.4%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +16.7% vs OpEx growth +10.6% (leverage: 1.6x)",
@@ -670,7 +673,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:03:39.322830",
-  "sector": "Technology",
-  "industry": "Scientific & Technical Instruments"
+  "last_updated": "2026-02-24T10:30:20.287034"
 }

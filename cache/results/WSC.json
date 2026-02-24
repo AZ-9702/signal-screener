@@ -1,25 +1,9 @@
 {
   "ticker": "WSC",
   "name": "WILLSCOT HOLDINGS CORPORATION",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 437647000,
-      "gross_profit": 234255000,
-      "operating_income": 91263000,
-      "net_income": 46468000,
-      "opex": 142992000,
-      "cogs": null,
-      "rd": null,
-      "sga": 119357000,
-      "fcf": 122342000,
-      "ocf": 129717000,
-      "capex": -7375000,
-      "gross_margin": 0.5352601525887302,
-      "op_margin": 0.20853107641546725,
-      "fcf_margin": 0.27954493004636155
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7307000,
       "gross_margin": 0.5016893043639775,
       "op_margin": 0.17700430026121325,
-      "fcf_margin": 0.26982787199375535,
-      "fcf_margin_change": -0.009717058052606198
+      "fcf_margin": 0.26982787199375535
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5356542304479426,
       "op_margin": 0.25478373129956494,
       "fcf_margin": 0.2998253360382742,
-      "incr_op_margin_yoy": 1.1258714175058095,
-      "rev_growth_yoy": 0.05309758778193384,
       "fcf_margin_change": 0.04080896264666639
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.26537157050387705,
       "incr_op_margin_yoy": 0.2707278840746192,
       "rev_growth_yoy": 0.1964883159387101,
-      "rev_growth_yoy_accel": 0.14339072815677628,
       "op_leverage_ratio": 0.34174701050800765,
       "fcf_margin_change": -0.03445376553439716
     },
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.5031112206370302,
       "rev_growth_yoy": 0.23161866631875927,
       "rev_growth_yoy_accel": -0.02979854722618308,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.024685601657356337
     },
     {
@@ -232,7 +212,7 @@
       "fcf_margin": 0.33964221966056735,
       "rev_growth_yoy": 0.0007685139656352189,
       "rev_growth_yoy_accel": -0.11040198519529024,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08847150796689063
     },
     {
@@ -411,7 +391,7 @@
       "incr_op_margin_yoy": -8.520797059392532,
       "rev_growth_yoy": -0.025648786781124398,
       "rev_growth_yoy_accel": 0.021406550499884356,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02313560704873502
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy": -0.05751439896779686,
       "rev_growth_yoy_accel": -0.03186561218667246,
       "fcf_margin_change": -0.008121175749269627
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 565971000,
+      "gross_profit": 285532000,
+      "operating_income": -183686000,
+      "net_income": -187316000,
+      "opex": 469218000,
+      "cogs": null,
+      "rd": null,
+      "sga": 141894000,
+      "fcf": 149729000,
+      "ocf": 158896000,
+      "capex": -9167000,
+      "gross_margin": 0.5044993471396945,
+      "op_margin": -0.32455019780165417,
+      "fcf_margin": 0.2645524240641305,
+      "incr_op_margin_yoy": 9.799283056042032,
+      "rev_growth_yoy": -0.060652431889662496,
+      "rev_growth_yoy_accel": -0.0031380329218656383,
+      "fcf_margin_change": -0.06518201645799121
     }
   ],
   "signals": [
@@ -547,18 +549,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +19.6% vs prior quarter YoY: +5.3% (accel: +14.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +112.6% vs year-ago OPM: +20.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.4% vs OpEx growth +2.9% (leverage: 2.2x)",
@@ -596,5 +586,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:15:29.640412"
+  "last_updated": "2026-02-24T10:24:41.896999"
 }

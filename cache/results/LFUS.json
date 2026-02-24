@@ -1,25 +1,9 @@
 {
   "ticker": "LFUS",
   "name": "LITTELFUSE INC /DE",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 400696000,
-      "gross_profit": 138083000,
-      "operating_income": 65014000,
-      "net_income": null,
-      "opex": 75171000,
-      "cogs": 260511000,
-      "rd": 11494000,
-      "sga": 45675000,
-      "fcf": 79120000,
-      "ocf": 93775000,
-      "capex": -14655000,
-      "gross_margin": 0.3446078822848244,
-      "op_margin": 0.16225268033621498,
-      "fcf_margin": 0.1974564258190748
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -14721000,
       "gross_margin": 0.34598550218415935,
       "op_margin": 0.1649029526039578,
-      "fcf_margin": 0.07642401583461624,
-      "op_leverage_ratio": 1.343005738089244,
-      "fcf_margin_change": -0.12103240998445856
+      "fcf_margin": 0.07642401583461624
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.3976641134509925,
       "op_margin": 0.22259308611682027,
       "fcf_margin": 0.16577492535875057,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05451354018850789
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.36070262988979596,
       "op_margin": 0.16778678817137227,
       "fcf_margin": 0.18016688815961956,
-      "incr_op_margin_yoy": 0.18234023981256028,
-      "rev_growth_yoy": 0.38026084612773775,
       "op_leverage_ratio": 0.19302189146148638,
       "fcf_margin_change": 0.01439196280086899
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.0351691720276579,
       "incr_op_margin_yoy": 0.4645283823086952,
       "rev_growth_yoy": 0.343980301599417,
-      "rev_growth_yoy_accel": -0.036280544528320746,
       "op_leverage_ratio": 10.33961221841727,
       "fcf_margin_change": -0.14499771613196166
     },
@@ -345,7 +324,7 @@
       "incr_op_margin_yoy": 0.14677049469519418,
       "rev_growth_yoy": -0.06536467727827552,
       "rev_growth_yoy_accel": 0.02206712385800455,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.024560503740032588
     },
     {
@@ -390,7 +369,7 @@
       "incr_op_margin_yoy": 0.8031920515801713,
       "rev_growth_yoy": 0.03534279070201817,
       "rev_growth_yoy_accel": 0.04340188322047522,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1776425280300139
     },
     {
@@ -438,6 +417,28 @@
       "rev_growth_yoy_accel": 0.002556690686870866,
       "op_leverage_ratio": 0.5933661394923074,
       "fcf_margin_change": 0.09169727612932163
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 593934000,
+      "gross_profit": 225745000,
+      "operating_income": -222816000,
+      "net_income": -242135000,
+      "opex": 448561000,
+      "cogs": 368189000,
+      "rd": 27118000,
+      "sga": 98978000,
+      "fcf": 119725000,
+      "ocf": 138665000,
+      "capex": -18940000,
+      "gross_margin": 0.3800843191331023,
+      "op_margin": -0.37515279475497276,
+      "fcf_margin": 0.20157963679466068,
+      "incr_op_margin_yoy": -2.690046407673563,
+      "rev_growth_yoy": 0.12167779341082709,
+      "rev_growth_yoy_accel": 0.02077717831362763,
+      "fcf_margin_change": -0.00842292468074915
     }
   ],
   "signals": [
@@ -647,7 +648,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:48:56.020907",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-24T10:24:34.864845"
 }

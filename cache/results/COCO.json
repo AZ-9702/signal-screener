@@ -1,25 +1,9 @@
 {
   "ticker": "COCO",
   "name": "The Vita Coco Company, Inc.",
+  "sector": "Consumer Defensive",
+  "industry": "Beverages - Non-Alcoholic",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 69517000,
-      "gross_profit": 22544000,
-      "operating_income": 20005000,
-      "net_income": 17087000,
-      "opex": 2539000,
-      "cogs": 46973000,
-      "rd": null,
-      "sga": 18939000,
-      "fcf": 1567000,
-      "ocf": 1736000,
-      "capex": -169000,
-      "gross_margin": 0.3242947768171814,
-      "op_margin": 0.2877713365076168,
-      "fcf_margin": 0.022541248903145992
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -55000,
       "gross_margin": 0.3192047713717694,
       "op_margin": 0.05707090788601723,
-      "fcf_margin": -0.2106825712392313,
-      "op_leverage_ratio": 0.01256996179341299,
-      "fcf_margin_change": -0.23322382014237727
+      "fcf_margin": -0.2106825712392313
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.3328549568164331,
       "op_margin": 0.15411216488428187,
       "fcf_margin": -0.005377413135758068,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.005770301850029751
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.24931858080014782,
       "op_margin": -0.05861360066524993,
       "fcf_margin": -0.002829622101081031,
-      "incr_op_margin_yoy": -1.4695025487783442,
-      "rev_growth_yoy": 0.24550829293554094,
       "fcf_margin_change": 0.002547791034677037
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": -0.2363138686131387,
       "incr_op_margin_yoy": -0.47833126964472805,
       "rev_growth_yoy": 0.2783035122597747,
-      "rev_growth_yoy_accel": 0.03279521932423374,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.23348424651205765
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": -0.1852537977028529,
       "rev_growth_yoy": 0.1325508299774089,
       "rev_growth_yoy_accel": -0.14575268228236576,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1371247614625381
     },
     {
@@ -167,7 +146,7 @@
       "incr_op_margin_yoy": -1.09983281585861,
       "rev_growth_yoy": 0.07239623408173322,
       "rev_growth_yoy_accel": -0.06015459589567569,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22125161773160879
     },
     {
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 0.934715648711592,
       "rev_growth_yoy": 0.13801219309887194,
       "rev_growth_yoy_accel": 0.07556416574970812,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0038805579116026195
     },
     {
@@ -302,7 +281,7 @@
       "incr_op_margin_yoy": 6.320268179473955,
       "rev_growth_yoy": 0.017665977277489774,
       "rev_growth_yoy_accel": -0.13618602998409016,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.35289378736215343
     },
     {
@@ -392,7 +371,7 @@
       "incr_op_margin_yoy": 0.017375019507881184,
       "rev_growth_yoy": 0.17209797847768088,
       "rev_growth_yoy_accel": -0.027150212658888312,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13252054661036777
     },
     {
@@ -440,9 +419,36 @@
       "rev_growth_yoy_accel": 0.20074974020816067,
       "op_leverage_ratio": 0.6307803001484423,
       "fcf_margin_change": 0.07190674191196073
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 127787000,
+      "gross_profit": 44577000,
+      "operating_income": 10194000,
+      "net_income": 5527000,
+      "opex": 34383000,
+      "cogs": 83210000,
+      "rd": null,
+      "sga": 34383000,
+      "fcf": -7123000,
+      "ocf": -3895000,
+      "capex": -3228000,
+      "gross_margin": 0.34883830123564996,
+      "op_margin": 0.0797733728783053,
+      "fcf_margin": -0.05574119433119175,
+      "rev_growth_yoy": 0.0038808104137698068,
+      "rev_growth_yoy_accel": -0.36786312891176853,
+      "fcf_margin_change": -0.25126208422933394
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +0.4% vs prior quarter YoY: +37.2% (decel: -36.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -667,7 +673,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:21:03.156266",
-  "sector": "Consumer Defensive",
-  "industry": "Beverages - Non-Alcoholic"
+  "last_updated": "2026-02-24T10:26:57.697095"
 }

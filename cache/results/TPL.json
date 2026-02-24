@@ -1,25 +1,9 @@
 {
   "ticker": "TPL",
   "name": "Texas Pacific Land Corporation",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 74304000,
-      "gross_profit": null,
-      "operating_income": 55222000,
-      "net_income": 44791000,
-      "opex": 19072000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 44418000,
-      "ocf": 45178000,
-      "capex": -760000,
-      "gross_margin": null,
-      "op_margin": 0.7431901378122309,
-      "fcf_margin": 0.5977874677002584
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2738000,
       "gross_margin": null,
       "op_margin": 0.7369972075337176,
-      "fcf_margin": 0.589970887053651,
-      "op_leverage_ratio": 0.8260399159102273,
-      "fcf_margin_change": -0.007816580646607396
+      "fcf_margin": 0.589970887053651
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": null,
       "op_margin": 0.8346470697614254,
       "fcf_margin": 0.5775266183211661,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14046703444925684
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.8551617768960035,
       "fcf_margin": 0.5825259209936268,
-      "incr_op_margin_yoy": 0.9693306254631281,
-      "rev_growth_yoy": 0.9807547372954349,
       "op_leverage_ratio": 4.4945758873297725,
       "fcf_margin_change": 0.004999302672460626
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.7108290630196491,
       "incr_op_margin_yoy": 0.985929091484647,
       "rev_growth_yoy": 0.7507575307468362,
-      "rev_growth_yoy_accel": -0.2299972065485988,
       "fcf_margin_change": 0.12830314202602233
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": 2.0067684055935127,
       "rev_growth_yoy": -0.08884665569864413,
       "rev_growth_yoy_accel": -0.08224265800631032,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2408895385901011
     },
     {
@@ -368,7 +347,7 @@
       "incr_op_margin_yoy": 0.4538610341402206,
       "rev_growth_yoy": 0.11476865658208175,
       "rev_growth_yoy_accel": 0.016039175108103015,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.001804859413383486
     },
     {
@@ -438,6 +417,29 @@
       "rev_growth_yoy_accel": 0.08184081290095246,
       "op_leverage_ratio": 0.35572591623640326,
       "fcf_margin_change": 0.11666453028452883
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 211579000,
+      "gross_profit": null,
+      "operating_income": 149246000,
+      "net_income": 123346000,
+      "opex": 62333000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 113672000,
+      "ocf": 113672000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.7053913668180679,
+      "fcf_margin": 0.5372555877473663,
+      "incr_op_margin_yoy": 0.25981779414615236,
+      "rev_growth_yoy": 0.13884403393187789,
+      "rev_growth_yoy_accel": -0.031249822477610323,
+      "op_leverage_ratio": 0.2708107735576502,
+      "fcf_margin_change": -0.22406110230852172
     }
   ],
   "signals": [
@@ -581,12 +583,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +75.1% vs prior quarter YoY: +98.1% (decel: -23.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +98.6% vs year-ago OPM: +73.7%",
       "severity": "HIGH"
@@ -596,12 +592,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +19.0% vs OpEx growth +4.2% (leverage: 4.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +96.9% vs year-ago OPM: +74.3%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -637,5 +627,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:39.169187"
+  "last_updated": "2026-02-24T10:31:24.779627"
 }

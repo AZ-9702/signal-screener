@@ -1,25 +1,9 @@
 {
   "ticker": "INSM",
   "name": "INSMED INCORPORATED",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 41415000,
-      "gross_profit": 30553000,
-      "operating_income": -94538000,
-      "net_income": -102213000,
-      "opex": 164963000,
-      "cogs": 10862000,
-      "rd": 67814000,
-      "sga": null,
-      "fcf": -67725000,
-      "ocf": -66792000,
-      "capex": -933000,
-      "gross_margin": 0.7377278763732947,
-      "op_margin": -2.282699505010262,
-      "fcf_margin": -1.6352770735240856
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1181000,
       "gross_margin": 0.7552096284875914,
       "op_margin": -2.0846720047744567,
-      "fcf_margin": -3.219326602675685,
-      "fcf_margin_change": -1.5840495291515995
+      "fcf_margin": -3.219326602675685
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.7632385432257145,
       "op_margin": -1.7653410305751551,
       "fcf_margin": -1.5193856460694177,
-      "incr_op_margin_yoy": -0.3086545652321708,
-      "rev_growth_yoy": 0.3551611734878667,
       "op_leverage_ratio": 6.239637689257646,
       "fcf_margin_change": 0.12584394522172593
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -2.012201781309432,
       "incr_op_margin_yoy": -0.4653688047777864,
       "rev_growth_yoy": 0.3206097379022231,
-      "rev_growth_yoy_accel": -0.03455143558564361,
       "fcf_margin_change": -0.4928161352400142
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": -1.7608005642743785,
       "rev_growth_yoy": 0.16745902849549682,
       "rev_growth_yoy_accel": -0.016653450613992454,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10705625239702554
     },
     {
@@ -348,7 +328,7 @@
       "incr_op_margin_yoy": -4.5816902389744305,
       "rev_growth_yoy": 0.18151811007689195,
       "rev_growth_yoy_accel": 0.011750276750032873,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5398952010094296
     },
     {
@@ -441,9 +421,50 @@
       "rev_growth_yoy_accel": 0.334588276477487,
       "op_leverage_ratio": 1.5519848882013574,
       "fcf_margin_change": 0.3853364009373095
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 263843000,
+      "gross_profit": 219623000,
+      "operating_income": -319748000,
+      "net_income": -328485000,
+      "opex": 583591000,
+      "cogs": 44220000,
+      "rd": 254911000,
+      "sga": 212483000,
+      "fcf": -264185000,
+      "ocf": -247596000,
+      "capex": -16589000,
+      "gross_margin": 0.8324003289835243,
+      "op_margin": -1.2118873724146557,
+      "fcf_margin": -1.001296225406776,
+      "incr_op_margin_yoy": -0.5604356308931563,
+      "rev_growth_yoy": 1.5262155071714445,
+      "rev_growth_yoy_accel": 1.0026190394165608,
+      "op_leverage_ratio": 5.766803838581642,
+      "fcf_margin_change": 0.5595853134222413
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -156.1% -> -100.1% (+56.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +85.4% vs OpEx growth +14.8% (leverage: 5.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +152.6% vs prior quarter YoY: +52.4% (accel: +100.3%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -620,7 +641,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:06:42.720583",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:18:38.748336"
 }

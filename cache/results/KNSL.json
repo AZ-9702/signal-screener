@@ -1,25 +1,9 @@
 {
   "ticker": "KNSL",
   "name": "KINSALE CAPITAL GROUP, INC.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 139332000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 38181000,
-      "opex": 96512000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 69726000,
-      "ocf": 73513000,
-      "capex": -3787000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5004306261303936
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1282000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6511284828937758,
-      "fcf_margin_change": 0.1506978567633822
+      "fcf_margin": 0.6511284828937758
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5665025435452773,
-      "rev_growth_yoy": 0.31773031320873885,
       "op_leverage_ratio": 3.131054576969518,
       "fcf_margin_change": -0.07096986129691485
     },
@@ -118,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.6722900653290298,
       "rev_growth_yoy": 0.3039780739497986,
-      "rev_growth_yoy_accel": -0.013752239258940258,
       "fcf_margin_change": 0.1057875217837525
     },
     {
@@ -414,6 +395,27 @@
       "rev_growth_yoy": 0.19003822436121304,
       "rev_growth_yoy_accel": -0.0316763377407599,
       "fcf_margin_change": 0.04544162432225052
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 483271000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 138620000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 230792000,
+      "ocf": 241394000,
+      "capex": -10602000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4775622787214627,
+      "rev_growth_yoy": 0.17263778046845238,
+      "rev_growth_yoy_accel": -0.01740044389276066,
+      "fcf_margin_change": -0.10442785203099209
     }
   ],
   "signals": [
@@ -494,12 +496,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +11.4% vs OpEx growth +3.6% (leverage: 3.1x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +50.0% -> +65.1% (+15.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -530,7 +526,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:42:08.093680",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-24T10:10:26.641996"
 }

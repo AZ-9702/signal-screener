@@ -1,25 +1,9 @@
 {
   "ticker": "ARDX",
-  "name": "ARDELYX,\u00a0INC.",
+  "name": "ARDELYX, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1809000,
-      "gross_profit": 1805000,
-      "operating_income": -27643000,
-      "net_income": -28876000,
-      "opex": 29452000,
-      "cogs": 4000,
-      "rd": 18105000,
-      "sga": null,
-      "fcf": -17840000,
-      "ocf": -17590000,
-      "capex": -250000,
-      "gross_margin": 0.9977888336097291,
-      "op_margin": -15.2808181315644,
-      "fcf_margin": -9.86180210060807
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -778000,
       "gross_margin": 0.8480704952901853,
       "op_margin": -4.862503798237618,
-      "fcf_margin": -6.83606806441811,
-      "op_leverage_ratio": 8.506660639513616,
-      "fcf_margin_change": 3.0257340361899603
+      "fcf_margin": -6.83606806441811
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": 1.0,
       "op_margin": -34.27891156462585,
       "fcf_margin": -38.26433430515063,
-      "rev_growth_yoy": -0.4311774461028192,
       "fcf_margin_change": -8.39732663251636
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -59.01709401709402,
       "incr_op_margin_yoy": -0.6866208701341184,
       "rev_growth_yoy": -0.9288969917958068,
-      "rev_growth_yoy_accel": -0.49771954569298754,
       "fcf_margin_change": -20.752759711943384
     },
     {
@@ -163,7 +143,7 @@
       "incr_op_margin_yoy": 5.338578547075794,
       "rev_growth_yoy": 3.2506393861892584,
       "rev_growth_yoy_accel": 2.3268008484893343,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 7.283931349822258
     },
     {
@@ -231,7 +211,7 @@
       "incr_op_margin_yoy": 0.4842227495329934,
       "rev_growth_yoy": 7.841250989707047,
       "rev_growth_yoy_accel": -15.451484053027997,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 3.27729192965415
     },
     {
@@ -438,9 +418,38 @@
       "rev_growth_yoy_accel": -0.2107351150694723,
       "op_leverage_ratio": 6.382897415652018,
       "fcf_margin_change": 0.26803674375349107
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 125215000,
+      "gross_profit": 114366000,
+      "operating_income": 5099000,
+      "net_income": -407000,
+      "opex": 148804000,
+      "cogs": 10849000,
+      "rd": 22856000,
+      "sga": 86411000,
+      "fcf": 20590000,
+      "ocf": 20951000,
+      "capex": -361000,
+      "gross_margin": 0.9133570259154254,
+      "op_margin": 0.040721958231841236,
+      "fcf_margin": 0.16443716807091802,
+      "incr_op_margin_yoy": -0.3330398415144178,
+      "rev_growth_yoy": 0.07824057728904925,
+      "rev_growth_yoy_accel": -0.04480377282953668,
+      "op_leverage_ratio": 0.29111744831283853,
+      "fcf_margin_change": 0.16254283385235355
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +0.2% -> +16.4% (+16.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -716,30 +725,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +92.4% vs prior quarter YoY: -92.9% (accel: +185.3%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -92.9% vs prior quarter YoY: -43.1% (decel: -49.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +99.8% -> +84.8% -> +100.0% (reversal +15.2%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -986.2% -> -683.6% (+302.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +263.8% vs OpEx growth +31.0% (leverage: 8.5x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -767,7 +752,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:38:52.419075",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:20:23.425782"
 }

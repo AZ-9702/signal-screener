@@ -1,25 +1,9 @@
 {
   "ticker": "AIOT",
   "name": "POWERFLEET, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 29427000,
-      "gross_profit": 15185000,
-      "operating_income": -96000,
-      "net_income": -2365000,
-      "opex": 15281000,
-      "cogs": 14242000,
-      "rd": 2308000,
-      "sga": 12973000,
-      "fcf": 3555000,
-      "ocf": 3555000,
-      "capex": null,
-      "gross_margin": 0.5160227002412751,
-      "op_margin": -0.0032623101233561014,
-      "fcf_margin": 0.12080742175553064
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.49912041668103896,
       "op_margin": -0.06495119174916353,
-      "fcf_margin": 0.027042875375116415,
-      "fcf_margin_change": -0.09376454638041422
+      "fcf_margin": 0.027042875375116415
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.47826994157624897,
       "op_margin": -0.004620245618218672,
       "fcf_margin": 0.07210563968045786,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04506276430534144
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.4474624524300613,
       "op_margin": -0.10190860761700025,
       "fcf_margin": -0.12035557621357813,
-      "incr_op_margin_yoy": -0.6829463570856685,
-      "rev_growth_yoy": 0.16977605600299045,
       "op_leverage_ratio": 1.332927123320258,
       "fcf_margin_change": 0.031801983794628105
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.046379783480594676,
       "incr_op_margin_yoy": -0.44580335731414866,
       "rev_growth_yoy": 0.1438377427477493,
-      "rev_growth_yoy_accel": -0.025938313255241152,
       "fcf_margin_change": 0.07397579273298346
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": -1.369980879541109,
       "rev_growth_yoy": 0.03117920591391439,
       "rev_growth_yoy_accel": -0.11265853683383491,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.030249818746825814
     },
     {
@@ -341,7 +321,7 @@
       "incr_op_margin_yoy": 0.08943791887537071,
       "rev_growth_yoy": 1.2523175902909782,
       "rev_growth_yoy_accel": -0.10119255011463801,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07055384182234913
     },
     {
@@ -431,11 +411,46 @@
       "incr_op_margin_yoy": 0.10591154323302848,
       "rev_growth_yoy": 0.45003765353553715,
       "rev_growth_yoy_accel": 0.06967175137459325,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04318890030657253
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 113487000,
+      "gross_profit": 62688000,
+      "operating_income": 6346000,
+      "net_income": -3364000,
+      "opex": 56342000,
+      "cogs": 50799000,
+      "rd": 4572000,
+      "sga": 51770000,
+      "fcf": 4943000,
+      "ocf": 10208000,
+      "capex": -5265000,
+      "gross_margin": 0.5523804488619842,
+      "op_margin": 0.055918299012221666,
+      "fcf_margin": 0.04355564954576295,
+      "incr_op_margin_yoy": 1.0752337772740153,
+      "rev_growth_yoy": 0.06631651147713499,
+      "rev_growth_yoy_accel": -0.38372114205840213,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.03295383541777112
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +6.6% vs prior quarter YoY: +45.0% (decel: -38.4%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1.2% (year-ago) -> +5.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -588,7 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:13:08.629841",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T11:06:16.488685"
 }

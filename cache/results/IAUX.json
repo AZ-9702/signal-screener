@@ -1,6 +1,8 @@
 {
   "ticker": "IAUX",
-  "name": "i-80 GOLD CORP.",
+  "name": "I-80 GOLD CORP.",
+  "sector": "Basic Materials",
+  "industry": "Gold",
   "quarters": [
     {
       "date": "2024-03-31T00:00:00",
@@ -145,9 +147,37 @@
       "rev_growth_yoy_accel": -1.0926380168052852,
       "op_leverage_ratio": 0.25914673775312463,
       "fcf_margin_change": -0.1312113600766961
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 21290000,
+      "gross_profit": 4684000,
+      "operating_income": -62086000,
+      "net_income": -85560000,
+      "opex": 66770000,
+      "cogs": 16350000,
+      "rd": null,
+      "sga": null,
+      "fcf": -39230000,
+      "ocf": -34309000,
+      "capex": -4921000,
+      "gross_margin": 0.2200093940817285,
+      "op_margin": -2.9162047909816815,
+      "fcf_margin": -1.8426491310474402,
+      "incr_op_margin_yoy": 22.985036119711044,
+      "rev_growth_yoy": -0.0834337868090236,
+      "rev_growth_yoy_accel": -1.8655173735672128,
+      "fcf_margin_change": -1.2649296519881317
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -8.3% vs prior quarter YoY: +178.2% (decel: -186.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -210,23 +240,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 7,
+    "n_quarters": 8,
     "coverage": {
       "revenue": [
-        7,
-        7
+        8,
+        8
       ],
       "gross_profit": [
-        7,
-        7
+        8,
+        8
       ],
       "op_income": [
-        7,
-        7
+        8,
+        8
       ],
       "fcf": [
-        7,
-        7
+        8,
+        8
       ]
     },
     "gaps": [],
@@ -234,7 +264,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:37.831815",
-  "sector": "Basic Materials",
-  "industry": "Gold"
+  "last_updated": "2026-02-24T10:25:47.292334"
 }

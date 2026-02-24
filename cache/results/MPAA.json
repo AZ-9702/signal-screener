@@ -1,25 +1,9 @@
 {
   "ticker": "MPAA",
   "name": "MOTORCAR PARTS OF AMERICA, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 122568000,
-      "gross_profit": 24241000,
-      "operating_income": 15893000,
-      "net_income": 8469000,
-      "opex": 8348000,
-      "cogs": 98327000,
-      "rd": 2100000,
-      "sga": null,
-      "fcf": 27921000,
-      "ocf": 33154000,
-      "capex": -5233000,
-      "gross_margin": 0.19777592846419947,
-      "op_margin": 0.12966679720644866,
-      "fcf_margin": 0.2278000783238692
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1899000,
       "gross_margin": 0.190967596117244,
       "op_margin": 0.032534735439665015,
-      "fcf_margin": -0.1088099543205177,
-      "op_leverage_ratio": 0.16966767018990248,
-      "fcf_margin_change": -0.3366100326443869
+      "fcf_margin": -0.1088099543205177
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.20131635869229342,
       "op_margin": 0.053618441381867624,
       "fcf_margin": 0.0018045856251158766,
-      "incr_op_margin_yoy": -0.18391009632536567,
-      "rev_growth_yoy": 0.3201651328242282,
       "fcf_margin_change": 0.12095148561828013
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.15329193001293345,
       "incr_op_margin_yoy": 0.1768755935422602,
       "rev_growth_yoy": -0.025052341073467835,
-      "rev_growth_yoy_accel": -0.345217473897696,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.15509651563804933
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.6169225276686897,
       "rev_growth_yoy": 0.18796822762878548,
       "rev_growth_yoy_accel": 0.2497134844114318,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0310878187431416
     },
     {
@@ -345,7 +324,7 @@
       "incr_op_margin_yoy": -0.12271585693253659,
       "rev_growth_yoy": 0.058721820188263774,
       "rev_growth_yoy_accel": -0.005033228182169211,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23265166628815406
     },
     {
@@ -390,7 +369,7 @@
       "incr_op_margin_yoy": 1.1193824097049903,
       "rev_growth_yoy": 0.01914206398632031,
       "rev_growth_yoy_accel": -0.06414569014199195,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14859678508893875
     },
     {
@@ -437,9 +416,43 @@
       "rev_growth_yoy_accel": -0.04495220380993491,
       "op_leverage_ratio": 0.19458438616868182,
       "fcf_margin_change": 0.04514091739366832
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 167697000,
+      "gross_profit": 32878000,
+      "operating_income": 8334000,
+      "net_income": 1777000,
+      "opex": 24544000,
+      "cogs": 134819000,
+      "rd": 3460000,
+      "sga": null,
+      "fcf": -8646000,
+      "ocf": -8229000,
+      "capex": -417000,
+      "gross_margin": 0.19605598191977197,
+      "op_margin": 0.049696774539794986,
+      "fcf_margin": -0.051557272938693,
+      "incr_op_margin_yoy": 0.5004058661182964,
+      "rev_growth_yoy": -0.09925554314197318,
+      "rev_growth_yoy_accel": -0.1630638683895883,
+      "fcf_margin_change": -0.14565128115651033
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -9.9% vs prior quarter YoY: +6.4% (decel: -16.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +50.0% vs year-ago OPM: +9.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -622,12 +635,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -2.5% vs prior quarter YoY: +32.0% (decel: -34.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +17.7% vs year-ago OPM: +3.3%",
       "severity": "MEDIUM"
@@ -676,7 +683,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:53:13.653903",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T11:09:03.571653"
 }

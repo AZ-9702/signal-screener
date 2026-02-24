@@ -1,25 +1,9 @@
 {
   "ticker": "PSX",
   "name": "Phillips 66",
+  "sector": "Energy",
+  "industry": "Oil & Gas Refining & Marketing",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 16409000000,
-      "gross_profit": 1259000000,
-      "operating_income": null,
-      "net_income": -539000000,
-      "opex": null,
-      "cogs": 15150000000,
-      "rd": null,
-      "sga": 432000000,
-      "fcf": 639000000,
-      "ocf": 639000000,
-      "capex": null,
-      "gross_margin": 0.0767261868486806,
-      "op_margin": null,
-      "fcf_margin": 0.038942044000243765
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.0722245341471309,
       "op_margin": null,
-      "fcf_margin": 0.012530633005039996,
-      "fcf_margin_change": -0.02641141099520377
+      "fcf_margin": 0.012530633005039996
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.1016439700650227,
       "op_margin": null,
       "fcf_margin": 0.05520794994479205,
-      "rev_growth_yoy": 0.9869583765007008,
       "fcf_margin_change": -0.017635352637623718
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.03139943060891678,
       "rev_growth_yoy": 0.6728626254219263,
-      "rev_growth_yoy_accel": -0.3140957510787745,
       "fcf_margin_change": -0.023808519335875272
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.02851272235982887,
       "rev_growth_yoy_accel": 0.09753306955708478,
       "fcf_margin_change": 0.008772227430486064
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 34108000000,
+      "gross_profit": 4971000000,
+      "operating_income": null,
+      "net_income": 2906000000,
+      "opex": null,
+      "cogs": 29137000000,
+      "rd": null,
+      "sga": 544000000,
+      "fcf": 2752000000,
+      "ocf": 2752000000,
+      "capex": null,
+      "gross_margin": 0.14574293420898324,
+      "op_margin": null,
+      "fcf_margin": 0.080684883311833,
+      "rev_growth_yoy": 0.012557518183167582,
+      "rev_growth_yoy_accel": 0.04107024054299645,
+      "fcf_margin_change": 0.0465547949444565
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +12.7% -> +12.4% -> +14.6% (reversal +2.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -487,12 +495,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +67.3% vs prior quarter YoY: +98.7% (decel: -31.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +7.2% -> +6.6% -> +9.0% (reversal +2.4%)",
@@ -532,5 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:58:00.501573"
+  "last_updated": "2026-02-24T10:11:18.364845"
 }

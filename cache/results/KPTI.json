@@ -1,25 +1,9 @@
 {
   "ticker": "KPTI",
   "name": "Karyopharm Therapeutics Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 35100000,
-      "gross_profit": null,
-      "operating_income": -37066000,
-      "net_income": -43421000,
-      "opex": 72166000,
-      "cogs": null,
-      "rd": 37185000,
-      "sga": 33929000,
-      "fcf": -30753000,
-      "ocf": -30634000,
-      "capex": -119000,
-      "gross_margin": null,
-      "op_margin": -1.056011396011396,
-      "fcf_margin": -0.8761538461538462
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -2.251633705932932,
-      "fcf_margin": -2.273774720550301,
-      "fcf_margin_change": -1.397620874396455
+      "fcf_margin": -2.273774720550301
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +78,7 @@
       "gross_margin": null,
       "op_margin": 0.37192026546499934,
       "fcf_margin": 0.20011245832310384,
-      "incr_op_margin_yoy": 0.9216729370729085,
-      "rev_growth_yoy": 2.5974074074074074,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.835841716196754
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -1.2434654919236416,
       "incr_op_margin_yoy": 0.72867677181483,
       "rev_growth_yoy": 1.0494411006018916,
-      "rev_growth_yoy_accel": -1.5479663068055158,
       "fcf_margin_change": -1.4435779502467454
     },
     {
@@ -406,7 +386,7 @@
       "incr_op_margin_yoy": -0.7685814288655549,
       "rev_growth_yoy": -0.11351844061141494,
       "rev_growth_yoy_accel": -0.019604294623369295,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.8058699090434744
     },
     {
@@ -429,8 +409,30 @@
       "incr_op_margin_yoy": 2.1028321611860865,
       "rev_growth_yoy": 0.13565221875564035,
       "rev_growth_yoy_accel": 0.2491706593670553,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3598985795817675
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 34079000,
+      "gross_profit": null,
+      "operating_income": -17844000,
+      "net_income": -102198000,
+      "opex": 51923000,
+      "cogs": null,
+      "rd": 27667000,
+      "sga": 22772000,
+      "fcf": -11828000,
+      "ocf": -11828000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.5236069133483964,
+      "fcf_margin": -0.3470759118518736,
+      "incr_op_margin_yoy": 3.7989821882951653,
+      "rev_growth_yoy": 0.11580774016108965,
+      "rev_growth_yoy_accel": -0.0198444785945507,
+      "fcf_margin_change": -0.2140271424394678
     }
   ],
   "signals": [
@@ -555,21 +557,9 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +104.9% vs prior quarter YoY: +259.7% (decel: -154.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -63.6% -> +20.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -105.6% (year-ago) -> +37.2%",
       "severity": "HIGH"
     },
     {
@@ -618,7 +608,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:14:25.133225",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:46:04.784206"
 }

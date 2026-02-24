@@ -1,25 +1,9 @@
 {
   "ticker": "ZBH",
   "name": "ZIMMER BIOMET HOLDINGS, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2085300000,
-      "gross_profit": 1285400000,
-      "operating_income": 240700000,
-      "net_income": 333700000,
-      "opex": 1844600000,
-      "cogs": 647300000,
-      "rd": null,
-      "sga": 893900000,
-      "fcf": 403000000,
-      "ocf": 425100000,
-      "capex": -22100000,
-      "gross_margin": 0.6164101088572388,
-      "op_margin": 0.11542703687718793,
-      "fcf_margin": 0.19325756485877332
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -25800000,
       "gross_margin": 0.7204720147233951,
       "op_margin": 0.14376962217170078,
-      "fcf_margin": 0.1194651943271625,
-      "fcf_margin_change": -0.07379237053161082
+      "fcf_margin": 0.1194651943271625
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.6754011482408362,
       "op_margin": 0.0388144658717307,
       "fcf_margin": 0.155306933608126,
-      "incr_op_margin_yoy": 3.409282700421941,
-      "rev_growth_yoy": -0.022730542368004605,
       "op_leverage_ratio": 0.4051982753524604,
       "fcf_margin_change": -0.04692799362680122
     },
@@ -118,8 +99,7 @@
       "op_margin": 0.11928811928811929,
       "fcf_margin": null,
       "incr_op_margin_yoy": 0.36482084690553745,
-      "rev_growth_yoy": -0.09970769730431958,
-      "rev_growth_yoy_accel": -0.07697715493631498
+      "rev_growth_yoy": -0.09970769730431958
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -263,16 +243,17 @@
       "cogs": 538800000,
       "rd": null,
       "sga": 722300000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 525600000,
+      "ocf": 588400000,
       "capex": -62800000,
       "gross_margin": 0.7222823565795577,
       "op_margin": 0.18256790887067678,
-      "fcf_margin": null,
+      "fcf_margin": 0.2709138704190506,
       "incr_op_margin_yoy": 3.3260869565217392,
       "rev_growth_yoy": 0.06301024601391704,
       "rev_growth_yoy_accel": 0.012824595037752233,
-      "op_leverage_ratio": 1.599053433572214
+      "op_leverage_ratio": 1.599053433572214,
+      "fcf_margin_change": 0.12646815874021847
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -293,7 +274,8 @@
       "fcf_margin": 0.09152022019902604,
       "incr_op_margin_yoy": -1.0549828178694158,
       "rev_growth_yoy": 0.03178590933915893,
-      "rev_growth_yoy_accel": -0.03122433667475811
+      "rev_growth_yoy_accel": -0.03122433667475811,
+      "fcf_margin_change": -0.17939365022002451
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -315,7 +297,7 @@
       "incr_op_margin_yoy": 0.29972375690607733,
       "rev_growth_yoy": 0.038724860932819856,
       "rev_growth_yoy_accel": 0.006938951593660925,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07155907949201411
     },
     {
@@ -351,16 +333,17 @@
       "cogs": 586700000,
       "rd": null,
       "sga": 746900000,
-      "fcf": null,
-      "ocf": null,
+      "fcf": 454800000,
+      "ocf": 506300000,
       "capex": -51500000,
       "gross_margin": 0.7100138394622381,
       "op_margin": 0.19226967180703836,
-      "fcf_margin": null,
+      "fcf_margin": 0.22479240806642942,
       "incr_op_margin_yoy": 0.4187725631768953,
       "rev_growth_yoy": 0.04283284366785217,
       "rev_growth_yoy_accel": 0.002572807171501809,
-      "op_leverage_ratio": 1.8806880364386738
+      "op_leverage_ratio": 1.8806880364386738,
+      "fcf_margin_change": 0.03226965836793144
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -381,7 +364,8 @@
       "fcf_margin": 0.17715153737363157,
       "incr_op_margin_yoy": 1.3266331658291457,
       "rev_growth_yoy": 0.01053355917848825,
-      "rev_growth_yoy_accel": -0.03229928448936392
+      "rev_growth_yoy_accel": -0.03229928448936392,
+      "fcf_margin_change": -0.04764087069279785
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -427,6 +411,29 @@
       "rev_growth_yoy": 0.09713847165880934,
       "rev_growth_yoy_accel": 0.02746802881637886,
       "fcf_margin_change": 0.02377738413707814
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2243800000,
+      "gross_profit": 1451400000,
+      "operating_income": 154500000,
+      "net_income": 139300000,
+      "opex": 2089300000,
+      "cogs": 792400000,
+      "rd": null,
+      "sga": 872300000,
+      "fcf": 442600000,
+      "ocf": 517400000,
+      "capex": -74800000,
+      "gross_margin": 0.6468490952847847,
+      "op_margin": 0.06885640431411,
+      "fcf_margin": 0.19725465727783226,
+      "incr_op_margin_yoy": -1.0630099728014506,
+      "rev_growth_yoy": 0.1090351917754053,
+      "rev_growth_yoy_accel": 0.011896720116595955,
+      "op_leverage_ratio": 0.45503693862383765,
+      "fcf_margin_change": 0.015531863233663179
     }
   ],
   "signals": [
@@ -470,6 +477,12 @@
       "quarter": "2024-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +30.0% vs year-ago OPM: +17.6%",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +14.4% -> +27.1% (+12.6%)",
       "severity": "MEDIUM"
     },
     {
@@ -534,20 +547,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -10.0% vs prior quarter YoY: -2.3% (decel: -7.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +36.5% vs year-ago OPM: +14.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +340.9% vs year-ago OPM: +11.5%",
       "severity": "HIGH"
     },
     {
@@ -573,16 +574,14 @@
         20
       ],
       "fcf": [
-        14,
+        16,
         20
       ]
     },
     "gaps": [],
-    "warnings": [
-      "fcf: 14/20Q"
-    ]
+    "warnings": []
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:24.318291"
+  "last_updated": "2026-02-24T10:11:33.688080"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ON",
   "name": "ON Semiconductor Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1446300000,
-      "gross_profit": 497600000,
-      "operating_income": 168000000,
-      "net_income": 89000000,
-      "opex": 329600000,
-      "cogs": 948700000,
-      "rd": null,
-      "sga": null,
-      "fcf": 284000000,
-      "ocf": 400400000,
-      "capex": -116400000,
-      "gross_margin": 0.34405033533844986,
-      "op_margin": 0.11615847334577889,
-      "fcf_margin": 0.1963631335131024
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -77000000,
       "gross_margin": 0.3517581156779375,
       "op_margin": 0.08496996692987785,
-      "fcf_margin": 0.09549841398393737,
-      "op_leverage_ratio": 0.12279104892755786,
-      "fcf_margin_change": -0.10086471952916502
+      "fcf_margin": 0.09549841398393737
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.383316366249476,
       "op_margin": 0.1689921552188754,
       "fcf_margin": 0.22947481885142823,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13397640486749085
     },
     {
@@ -77,7 +59,7 @@
       "gross_margin": 0.41375351587164916,
       "op_margin": 0.22914872854600768,
       "fcf_margin": 0.20417886458871476,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02529595426271347
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.45078814798764966,
       "op_margin": 0.26017008829424193,
       "fcf_margin": 0.2475488868425329,
-      "incr_op_margin_yoy": 0.7811405702851426,
-      "rev_growth_yoy": 0.2764295097835857,
       "op_leverage_ratio": 0.6336269928008816,
       "fcf_margin_change": 0.04337002225381814
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.1567095115681234,
       "incr_op_margin_yoy": 1.1251888625080941,
       "rev_growth_yoy": 0.31268137949652425,
-      "rev_growth_yoy_accel": 0.036251869712938534,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0908393752744095
     },
     {
@@ -235,7 +214,7 @@
       "incr_op_margin_yoy": 9.648936170212766,
       "rev_growth_yoy": 0.004508393285371702,
       "rev_growth_yoy_accel": -0.0030494473315948786,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06360171882843421
     },
     {
@@ -347,7 +326,7 @@
       "incr_op_margin_yoy": 0.5767486273573645,
       "rev_growth_yoy": -0.19208547322083638,
       "rev_growth_yoy_accel": -0.02058050759822369,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04517729351494604
     },
     {
@@ -414,7 +393,7 @@
       "incr_op_margin_yoy": 0.7320825515947467,
       "rev_growth_yoy": -0.1535846011987091,
       "rev_growth_yoy_accel": 0.07028397667212358,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.24227816103897046
     },
     {
@@ -437,11 +416,45 @@
       "incr_op_margin_yoy": 0.8578199052132701,
       "rev_growth_yoy": -0.11975708042454168,
       "rev_growth_yoy_accel": 0.03382752077416741,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.16787788365706147
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1530100000,
+      "gross_profit": 551000000,
+      "operating_income": 200100000,
+      "net_income": 181800000,
+      "opex": 350900000,
+      "cogs": 979100000,
+      "rd": null,
+      "sga": null,
+      "fcf": 485400000,
+      "ocf": 554500000,
+      "capex": -69100000,
+      "gross_margin": 0.36010718253708907,
+      "op_margin": 0.130775766289785,
+      "fcf_margin": 0.3172341677014574,
+      "incr_op_margin_yoy": 1.0836798336798337,
+      "rev_growth_yoy": -0.11169811320754718,
+      "rev_growth_yoy_accel": 0.008058967216994506,
+      "fcf_margin_change": 0.07711552691223825
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +24.0% -> +31.7% (+7.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +108.4% vs year-ago OPM: +23.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
@@ -593,12 +606,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +78.1% vs year-ago OPM: +11.6%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +9.5% -> +22.9% (+13.4%)",
@@ -630,7 +637,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:12:37.318951",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-24T11:09:07.950680"
 }

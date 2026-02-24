@@ -1,6 +1,8 @@
 {
   "ticker": "CRH",
   "name": "CRH public limited company",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -57,7 +59,7 @@
       "gross_margin": 0.371544233807267,
       "op_margin": 0.17654028436018956,
       "fcf_margin": 0.12114928909952606,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0019323876952004743
     },
     {
@@ -235,9 +237,43 @@
       "rev_growth_yoy_accel": -0.00449173352341959,
       "op_leverage_ratio": 1.2905911936731076,
       "fcf_margin_change": 0.10903103184349107
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 9416000000,
+      "gross_profit": 3356000000,
+      "operating_income": 1406000000,
+      "net_income": 1025000000,
+      "opex": 1950000000,
+      "cogs": 6060000000,
+      "rd": null,
+      "sga": 1992000000,
+      "fcf": 2915000000,
+      "ocf": 2915000000,
+      "capex": null,
+      "gross_margin": 0.3564146134239592,
+      "op_margin": 0.14932030586236195,
+      "fcf_margin": 0.30957943925233644,
+      "incr_op_margin_yoy": 0.5531135531135531,
+      "rev_growth_yoy": 0.061555806087936864,
+      "rev_growth_yoy_accel": 0.00886916795194067,
+      "fcf_margin_change": 0.1297077254570523
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +18.0% -> +31.0% (+13.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +55.3% vs year-ago OPM: +12.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -324,23 +360,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
-        11,
-        11
+        12,
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [],
@@ -348,7 +384,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:54.121127",
-  "sector": "Basic Materials",
-  "industry": "Building Materials"
+  "last_updated": "2026-02-24T10:26:47.388948"
 }

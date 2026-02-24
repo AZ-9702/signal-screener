@@ -1,25 +1,9 @@
 {
   "ticker": "DD",
-  "name": "DuPont de Nemours, Inc.",
+  "name": "DUPONT DE NEMOURS, INC.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5252000000,
-      "gross_profit": 1731000000,
-      "operating_income": null,
-      "net_income": 222000000,
-      "opex": null,
-      "cogs": 3521000000,
-      "rd": 216000000,
-      "sga": 537000000,
-      "fcf": 1301000000,
-      "ocf": 1301000000,
-      "capex": null,
-      "gross_margin": 0.3295887281035796,
-      "op_margin": null,
-      "fcf_margin": 0.2477151561309977
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.3682092555331992,
       "op_margin": null,
-      "fcf_margin": 0.09507042253521127,
-      "fcf_margin_change": -0.15264473359578645
+      "fcf_margin": 0.09507042253521127
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.33083586981971436,
       "op_margin": null,
       "fcf_margin": 0.14539920393350503,
-      "rev_growth_yoy": -0.1867859862909368,
       "fcf_margin_change": -0.05174432217279326
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.06383628588882101,
       "rev_growth_yoy": -0.17655935613682092,
-      "rev_growth_yoy_accel": 0.010226630154115873,
       "fcf_margin_change": -0.08156291804468402
     },
     {
@@ -325,22 +306,22 @@
     {
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
-      "revenue": 3092000000,
-      "gross_profit": 1125000000,
+      "revenue": 1689000000,
+      "gross_profit": 553000000,
       "operating_income": null,
-      "net_income": -118000000,
+      "net_income": -117000000,
       "opex": null,
-      "cogs": 1967000000,
+      "cogs": 1136000000,
       "rd": 138000000,
       "sga": 363000000,
       "fcf": null,
       "ocf": null,
       "capex": null,
-      "gross_margin": 0.36384217335058217,
+      "gross_margin": 0.32741267021906456,
       "op_margin": null,
       "fcf_margin": null,
-      "rev_growth_yoy": 0.06694271911663216,
-      "rev_growth_yoy_accel": 0.023123229253976828
+      "rev_growth_yoy": -0.41718426501035194,
+      "rev_growth_yoy_accel": -0.46100375487300727
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -360,7 +341,7 @@
       "op_margin": null,
       "fcf_margin": null,
       "rev_growth_yoy": 0.04605936540429888,
-      "rev_growth_yoy_accel": -0.020883353712333283
+      "rev_growth_yoy_accel": 0.46324363041465083
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -401,6 +382,26 @@
       "fcf_margin": null,
       "rev_growth_yoy": -0.03759398496240601,
       "rev_growth_yoy_accel": -0.06471476705007552
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1693000000,
+      "gross_profit": 598000000,
+      "operating_income": null,
+      "net_income": -126000000,
+      "opex": null,
+      "cogs": 1095000000,
+      "rd": -211000000,
+      "sga": -108000000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
+      "gross_margin": 0.3532191376255168,
+      "op_margin": null,
+      "fcf_margin": null,
+      "rev_growth_yoy": 0.002368265245707519,
+      "rev_growth_yoy_accel": 0.03996225020811353
     }
   ],
   "signals": [
@@ -408,6 +409,24 @@
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: -3.8% vs prior quarter YoY: +2.7% (decel: -6.5%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +37.4% -> +32.7% -> +37.4% (reversal +4.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +4.6% vs prior quarter YoY: -41.7% (accel: +46.3%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -41.7% vs prior quarter YoY: +4.4% (decel: -46.1%)",
       "severity": "WARNING"
     },
     {
@@ -469,19 +488,17 @@
         20
       ],
       "fcf": [
-        10,
+        9,
         20
       ]
     },
     "gaps": [],
     "warnings": [
       "op_income: no data",
-      "fcf: 10/20Q"
+      "fcf: 9/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:16.176840",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:39:11.325290"
 }

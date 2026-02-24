@@ -1,25 +1,9 @@
 {
   "ticker": "KALU",
-  "name": "KAISER ALUMINUM CORP",
+  "name": "KAISER ALUMINUM CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Aluminum",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 272000000,
-      "gross_profit": 50200000,
-      "operating_income": 18500000,
-      "net_income": 5900000,
-      "opex": 253500000,
-      "cogs": 221800000,
-      "rd": null,
-      "sga": null,
-      "fcf": 56200000,
-      "ocf": 56200000,
-      "capex": null,
-      "gross_margin": 0.18455882352941178,
-      "op_margin": 0.06801470588235294,
-      "fcf_margin": 0.20661764705882352
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.18981481481481483,
       "op_margin": 0.052160493827160495,
-      "fcf_margin": -0.03518518518518519,
-      "op_leverage_ratio": 0.9041648375768218,
-      "fcf_margin_change": -0.2418028322440087
+      "fcf_margin": -0.03518518518518519
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.08916170634920635,
       "op_margin": 0.02058531746031746,
       "fcf_margin": 0.05716765873015873,
-      "incr_op_margin_yoy": -0.003555389221556886,
-      "rev_growth_yoy": 1.964705882352941,
       "op_leverage_ratio": 0.9208145348128276,
       "fcf_margin_change": 0.019331261181530966
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.001475548060708263,
       "incr_op_margin_yoy": 0.013284250960307298,
       "rev_growth_yoy": 1.9283950617283951,
-      "rev_growth_yoy_accel": -0.036310820624545936,
       "op_leverage_ratio": 1.0423665978598715,
       "fcf_margin_change": -0.05569211066945046
     },
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 0.04320113314447592,
       "rev_growth_yoy": -0.1488195615514334,
       "rev_growth_yoy_accel": -0.11112114885302068,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.019337236970430396
     },
     {
@@ -392,7 +371,7 @@
       "incr_op_margin_yoy": 0.21804511278195488,
       "rev_growth_yoy": 0.05410169491525424,
       "rev_growth_yoy_accel": -0.00644978076716228,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.016618949660278076
     },
     {
@@ -440,9 +419,44 @@
       "rev_growth_yoy_accel": 0.06386455226767483,
       "op_leverage_ratio": 2.0268952739642816,
       "fcf_margin_change": 0.05074798909986297
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 929000000,
+      "gross_profit": 123400000,
+      "operating_income": 60600000,
+      "net_income": 28200000,
+      "opex": 868400000,
+      "cogs": 805600000,
+      "rd": null,
+      "sga": null,
+      "fcf": -20600000,
+      "ocf": -20600000,
+      "capex": null,
+      "gross_margin": 0.13283100107642626,
+      "op_margin": 0.06523143164693218,
+      "fcf_margin": -0.02217438105489774,
+      "incr_op_margin_yoy": 0.23533007334963324,
+      "rev_growth_yoy": 0.213744447347792,
+      "rev_growth_yoy_accel": 0.08561819350266694,
+      "op_leverage_ratio": 1.0929914205445264,
+      "fcf_margin_change": -0.09223958555993628
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +21.4% vs prior quarter YoY: +12.8% (accel: +8.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +23.5% vs year-ago OPM: +2.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -619,7 +633,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:37:07.126690",
-  "sector": "Basic Materials",
-  "industry": "Aluminum"
+  "last_updated": "2026-02-24T10:21:52.161957"
 }

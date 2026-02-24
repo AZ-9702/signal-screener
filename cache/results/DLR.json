@@ -1,25 +1,9 @@
 {
   "ticker": "DLR",
   "name": "DIGITAL REALTY TRUST, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1062609000,
-      "gross_profit": null,
-      "operating_income": 160263000,
-      "net_income": 57691000,
-      "opex": 902346000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 525802000,
-      "ocf": 525802000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.15082029231824687,
-      "fcf_margin": 0.49482170770245687
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.17655960109722107,
-      "fcf_margin": 0.300694888347391,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.19412681935506587
+      "fcf_margin": 0.300694888347391
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.11834134743022426,
       "fcf_margin": 0.4067246417505199,
-      "incr_op_margin_yoy": -0.5924049590180814,
-      "rev_growth_yoy": 0.04569695908843234,
       "fcf_margin_change": 0.05390026762420147
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.24632270105613124,
       "incr_op_margin_yoy": -1.3886436868755245,
       "rev_growth_yoy": 0.03386950185759054,
-      "rev_growth_yoy_accel": -0.011827457230841804,
       "op_leverage_ratio": 2.2196034801721565,
       "fcf_margin_change": -0.16040194069438868
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": -0.3306888628777041,
       "rev_growth_yoy": 0.042201341397819954,
       "rev_growth_yoy_accel": 0.008331839540229417,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19770716934047305
     },
     {
@@ -348,7 +327,7 @@
       "incr_op_margin_yoy": 3.8239177263567505,
       "rev_growth_yoy": 0.020522920184365447,
       "rev_growth_yoy_accel": 0.027489347683529227,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02666105088151477
     },
     {
@@ -440,6 +419,29 @@
       "rev_growth_yoy_accel": 0.0014900972823578829,
       "op_leverage_ratio": 0.45858332637192645,
       "fcf_margin_change": -0.015524699561943578
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1634671000,
+      "gross_profit": null,
+      "operating_income": 112624000,
+      "net_income": 98647000,
+      "opex": 1522047000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 718953000,
+      "ocf": 718953000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.06889704411468729,
+      "fcf_margin": 0.4398151065260227,
+      "incr_op_margin_yoy": -0.1594394619961873,
+      "rev_growth_yoy": 0.13845968484436527,
+      "rev_growth_yoy_accel": 0.03643441119556083,
+      "op_leverage_ratio": 0.629505029971354,
+      "fcf_margin_change": 0.02588730633911318
     }
   ],
   "signals": [
@@ -585,7 +587,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:57:34.651884",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-24T10:47:49.627853"
 }

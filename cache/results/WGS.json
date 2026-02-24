@@ -1,25 +1,9 @@
 {
   "ticker": "WGS",
   "name": "GeneDx Holdings Corp.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 63957000,
-      "gross_profit": -5674000,
-      "operating_income": -125045000,
-      "net_income": -125683000,
-      "opex": 119371000,
-      "cogs": 69631000,
-      "rd": 31160000,
-      "sga": null,
-      "fcf": -6804298,
-      "ocf": -20298,
-      "capex": -6784000,
-      "gross_margin": -0.08871585596572697,
-      "op_margin": -1.9551417358537768,
-      "fcf_margin": -0.10638863611488969
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -2075000,
       "gross_margin": -0.06733539976012835,
       "op_margin": -0.028740331147489914,
-      "fcf_margin": -0.6897556112833133,
-      "fcf_margin_change": -0.5833669751684236
+      "fcf_margin": -0.6897556112833133
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": -0.048545872908773206,
       "op_margin": -2.003079531495995,
       "fcf_margin": -0.9868514385564263,
-      "incr_op_margin_yoy": -1.505035737491878,
-      "rev_growth_yoy": -0.09625216942633331,
       "op_leverage_ratio": 0.6437602140208242,
       "fcf_margin_change": 0.6798306680719491
     },
@@ -118,7 +99,6 @@
       "fcf_margin": -1.5363452661240986,
       "incr_op_margin_yoy": 8.524351072124757,
       "rev_growth_yoy": -0.1598105948505475,
-      "rev_growth_yoy_accel": -0.06355842542421418,
       "fcf_margin_change": -0.5494938275676723
     },
     {
@@ -163,7 +143,7 @@
       "incr_op_margin_yoy": -0.030282604353904535,
       "rev_growth_yoy": 0.9276946593172449,
       "rev_growth_yoy_accel": 1.1583869915516383,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.2895959561003718
     },
     {
@@ -230,7 +210,7 @@
       "incr_op_margin_yoy": 8.855946398659967,
       "rev_growth_yoy": 0.34662279852912714,
       "rev_growth_yoy_accel": 0.546878633608195,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13277429324069967
     },
     {
@@ -253,7 +233,7 @@
       "incr_op_margin_yoy": -1.5986435468243627,
       "rev_growth_yoy": -0.3596006439676094,
       "rev_growth_yoy_accel": -0.7062234424967365,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.37958931910869054
     },
     {
@@ -276,7 +256,7 @@
       "incr_op_margin_yoy": -76.10350966429299,
       "rev_growth_yoy": -0.06409127954360228,
       "rev_growth_yoy_accel": 0.2955093644240071,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21417420521013042
     },
     {
@@ -299,7 +279,7 @@
       "incr_op_margin_yoy": 2.4220297671524142,
       "rev_growth_yoy": 0.4469969169429055,
       "rev_growth_yoy_accel": 0.5110881964865077,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.29135889682559724
     },
     {
@@ -413,7 +393,7 @@
       "incr_op_margin_yoy": 0.607216110385978,
       "rev_growth_yoy": 0.45633491221601385,
       "rev_growth_yoy_accel": 0.060753226271955674,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.031874777122795295
     },
     {
@@ -438,9 +418,38 @@
       "rev_growth_yoy_accel": 0.06229297237435483,
       "op_leverage_ratio": 0.32804284493604335,
       "fcf_margin_change": 0.0037895961594777844
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 120989000,
+      "gross_profit": 84268000,
+      "operating_income": -14235000,
+      "net_income": -17666000,
+      "opex": 98503000,
+      "cogs": 36721000,
+      "rd": 24541000,
+      "sga": null,
+      "fcf": -7437000,
+      "ocf": -3090000,
+      "capex": -4347000,
+      "gross_margin": 0.6964930696178991,
+      "op_margin": -0.11765532403772244,
+      "fcf_margin": -0.06146839795353297,
+      "incr_op_margin_yoy": -0.9089510434336661,
+      "rev_growth_yoy": 0.2650460058552907,
+      "rev_growth_yoy_accel": -0.253581878735078,
+      "op_leverage_ratio": 0.29767168162720786,
+      "fcf_margin_change": -0.14365747995416683
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +26.5% vs prior quarter YoY: +51.9% (decel: -25.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -610,12 +619,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -16.0% vs prior quarter YoY: -9.6% (decel: -6.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -166.7% -> -98.7% (+68.0%)",
@@ -659,5 +662,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:25:43.445065"
+  "last_updated": "2026-02-24T10:07:36.951959"
 }

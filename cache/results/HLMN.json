@@ -1,25 +1,9 @@
 {
   "ticker": "HLMN",
   "name": "Hillman Solutions Corp.",
+  "sector": "Industrials",
+  "industry": "Tools & Accessories",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 327069000,
-      "gross_profit": 135548000,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": 191521000,
-      "rd": null,
-      "sga": 106416000,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.4144324286312674,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -92,7 +76,6 @@
       "gross_margin": 0.4040686113715598,
       "op_margin": -0.004876760205636722,
       "fcf_margin": -0.014366122772438176,
-      "rev_growth_yoy": 0.053267047626036096,
       "fcf_margin_change": 0.11037597555943188
     },
     {
@@ -113,8 +96,7 @@
       "op_margin": 0.024376537479374016,
       "fcf_margin": -0.009757226325228022,
       "rev_growth_yoy": 0.06367773183974496,
-      "rev_growth_yoy_accel": 0.01041068421370886,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.004608896447210154
     },
     {
@@ -226,7 +208,7 @@
       "incr_op_margin_yoy": 0.4949272791770131,
       "rev_growth_yoy": -0.035763763784082775,
       "rev_growth_yoy_accel": 0.0008905709091651254,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1297330595204898
     },
     {
@@ -249,7 +231,7 @@
       "incr_op_margin_yoy": 1.7246263170791474,
       "rev_growth_yoy": 0.053904759892005556,
       "rev_growth_yoy_accel": 0.08966852367608832,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0783771972394304
     },
     {
@@ -430,9 +412,37 @@
       "rev_growth_yoy_accel": 0.01886124213540888,
       "op_leverage_ratio": 0.560384814035288,
       "fcf_margin_change": -0.059177172454018795
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 365139000,
+      "gross_profit": 173720000,
+      "operating_income": 16733000,
+      "net_income": 1598000,
+      "opex": 156987000,
+      "cogs": 191419000,
+      "rd": null,
+      "sga": 120899000,
+      "fcf": 30896000,
+      "ocf": 30896000,
+      "capex": null,
+      "gross_margin": 0.4757640241113658,
+      "op_margin": 0.04582638392502581,
+      "fcf_margin": 0.08461435234253258,
+      "incr_op_margin_yoy": 0.17564357706875522,
+      "rev_growth_yoy": 0.04456147979471453,
+      "rev_growth_yoy_accel": -0.03589446178618129,
+      "fcf_margin_change": 0.022871372761933947
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +17.6% vs year-ago OPM: +4.0%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -602,11 +612,11 @@
         20
       ],
       "op_income": [
-        18,
+        19,
         20
       ],
       "fcf": [
-        18,
+        19,
         20
       ]
     },
@@ -615,7 +625,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:39:33.941027",
-  "sector": "Industrials",
-  "industry": "Tools & Accessories"
+  "last_updated": "2026-02-24T10:36:48.232227"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "TNDM",
   "name": "Tandem Diabetes Care, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 168065000,
-      "gross_profit": 90556000,
-      "operating_income": 18662000,
-      "net_income": 17000000,
-      "opex": 71894000,
-      "cogs": 77509000,
-      "rd": 17376000,
-      "sga": 54518000,
-      "fcf": 11141000,
-      "ocf": 15237000,
-      "capex": -4096000,
-      "gross_margin": 0.5388153393032458,
-      "op_margin": 0.11104037128491953,
-      "fcf_margin": 0.06628982834022551
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3524000,
       "gross_margin": 0.5196296007430674,
       "op_margin": -0.02295142409438658,
-      "fcf_margin": 0.1783999943277296,
-      "fcf_margin_change": 0.11211016598750409
+      "fcf_margin": 0.1783999943277296
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5415769824187128,
       "op_margin": 0.06065829825330006,
       "fcf_margin": 0.06613935503533401,
-      "incr_op_margin_yoy": -0.14127972144713935,
-      "rev_growth_yoy": 0.24949275577901406,
       "op_leverage_ratio": 1.2578297394083406,
       "fcf_margin_change": -0.10671327847744526
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.06342556009709677,
       "incr_op_margin_yoy": -0.3470318325207915,
       "rev_growth_yoy": 0.24724008593489652,
-      "rev_growth_yoy_accel": -0.0022526698441175386,
       "fcf_margin_change": -0.0027137949382372434
     },
     {
@@ -189,7 +169,7 @@
       "incr_op_margin_yoy": -2.9045307443365695,
       "rev_growth_yoy": 0.0500295243718928,
       "rev_growth_yoy_accel": -0.088702403456329,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04915234650581742
     },
     {
@@ -234,7 +214,7 @@
       "incr_op_margin_yoy": 6.114844649021864,
       "rev_growth_yoy": -0.02169657748349662,
       "rev_growth_yoy_accel": 0.015391201854448998,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09038367592213233
     },
     {
@@ -415,7 +395,7 @@
       "incr_op_margin_yoy": -1.120843989769821,
       "rev_growth_yoy": 0.08457482763282412,
       "rev_growth_yoy_accel": -0.13844968273373576,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02537793290795437
     },
     {
@@ -438,11 +418,52 @@
       "incr_op_margin_yoy": 0.6115107913669064,
       "rev_growth_yoy": 0.021650114152911615,
       "rev_growth_yoy_accel": -0.0629247134799125,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0819787082199138
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 290383000,
+      "gross_profit": 167460000,
+      "operating_income": 8294000,
+      "net_income": -589000,
+      "opex": 159166000,
+      "cogs": 122923000,
+      "rd": null,
+      "sga": 113100000,
+      "fcf": 3104000,
+      "ocf": 9789000,
+      "capex": -6685000,
+      "gross_margin": 0.5766866517668046,
+      "op_margin": 0.02856227809479205,
+      "fcf_margin": 0.010689330987006815,
+      "incr_op_margin_yoy": 1.1473820297349708,
+      "rev_growth_yoy": 0.027366193993942998,
+      "rev_growth_yoy_accel": 0.005716079841031382,
+      "op_leverage_ratio": 12.89538900564075,
+      "fcf_margin_change": -0.0060486821963851595
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +16.5% vs OpEx growth +1.3% (leverage: 12.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.2% (year-ago) -> +2.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -9.2% -> +2.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -574,12 +595,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -2.3% -> +3.2%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.6% -> +17.8% (+11.2%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -607,5 +622,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:52:05.242875"
+  "last_updated": "2026-02-24T10:21:34.611618"
 }

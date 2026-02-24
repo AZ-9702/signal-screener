@@ -1,25 +1,9 @@
 {
   "ticker": "CMCO",
-  "name": "COLUMBUS MCKINNON CORP",
+  "name": "Columbus McKinnon Corporation",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 166547000,
-      "gross_profit": 55315000,
-      "operating_income": 10447000,
-      "net_income": null,
-      "opex": 44868000,
-      "cogs": 111232000,
-      "rd": 3038000,
-      "sga": null,
-      "fcf": 21880000,
-      "ocf": 25005000,
-      "capex": -3125000,
-      "gross_margin": 0.3321284682401965,
-      "op_margin": 0.06272703801329355,
-      "fcf_margin": 0.13137432676661842
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.34412435900877925,
       "op_margin": 0.07624238193680027,
-      "fcf_margin": 0.14466668456519988,
-      "op_leverage_ratio": 1.0563583665220604,
-      "fcf_margin_change": 0.013292357798581456
+      "fcf_margin": 0.14466668456519988
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.3628009926889798,
       "op_margin": 0.105797393073535,
       "fcf_margin": 0.09942093142844367,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1511579924785505
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.34734460034800635,
       "op_margin": 0.07087853096886454,
       "fcf_margin": 0.014026692828847507,
-      "incr_op_margin_yoy": 0.09828223087947356,
-      "rev_growth_yoy": 0.29745957597555045,
       "fcf_margin_change": -0.08539423859959616
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.08507783145464305,
       "incr_op_margin_yoy": 0.14687262598126108,
       "rev_growth_yoy": 0.3604746691008672,
-      "rev_growth_yoy_accel": 0.06301509312531672,
       "op_leverage_ratio": 6.153226905345915,
       "fcf_margin_change": 0.07105113862579554
     },
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.4579888957433683,
       "rev_growth_yoy": 0.03624209090705838,
       "rev_growth_yoy_accel": 0.004278855888507238,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1288324699565211
     },
     {
@@ -345,7 +324,7 @@
       "incr_op_margin_yoy": 1.398114845590971,
       "rev_growth_yoy": -0.062407120743034054,
       "rev_growth_yoy_accel": -0.08038650008500746,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08048550551974581
     },
     {
@@ -437,6 +416,28 @@
       "rev_growth_yoy_accel": 0.09336310630700456,
       "op_leverage_ratio": 1.2239197607321908,
       "fcf_margin_change": 0.14828534741758279
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 258655000,
+      "gross_profit": 89157000,
+      "operating_income": 16168000,
+      "net_income": 5998000,
+      "opex": 72989000,
+      "cogs": 169498000,
+      "rd": 4442000,
+      "sga": null,
+      "fcf": 16523000,
+      "ocf": 20347000,
+      "capex": -3824000,
+      "gross_margin": 0.34469467050704605,
+      "op_margin": 0.06250797394212368,
+      "fcf_margin": 0.06388045852583557,
+      "incr_op_margin_yoy": -0.062079373495941594,
+      "rev_growth_yoy": 0.10471175118946946,
+      "rev_growth_yoy_accel": 0.027225103839774487,
+      "fcf_margin_change": 0.006113083302216833
     }
   ],
   "signals": [
@@ -615,12 +616,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +36.0% vs prior quarter YoY: +29.7% (accel: +6.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -5.2% -> +9.9%",
@@ -652,7 +647,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:19:18.954837",
-  "sector": "Industrials",
-  "industry": "Farm & Heavy Construction Machinery"
+  "last_updated": "2026-02-24T11:08:43.541687"
 }

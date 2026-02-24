@@ -1,25 +1,9 @@
 {
   "ticker": "NSC",
-  "name": "Norfolk Southern Corporation",
+  "name": "NORFOLK SOUTHERN CORPORATION",
+  "sector": "Industrials",
+  "industry": "Railroads",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2573000000,
-      "gross_profit": null,
-      "operating_income": 984000000,
-      "net_income": 671000000,
-      "opex": 1589000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 429000000,
-      "ocf": 870000000,
-      "capex": -441000000,
-      "gross_margin": null,
-      "op_margin": 0.38243295763699964,
-      "fcf_margin": 0.16673144189661873
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -265000000,
       "gross_margin": null,
       "op_margin": 0.38461538461538464,
-      "fcf_margin": 0.28419856006062905,
-      "op_leverage_ratio": 1.1645549941702293,
-      "fcf_margin_change": 0.11746711816401031
+      "fcf_margin": 0.28419856006062905
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.3958625525946704,
       "fcf_margin": 0.17426367461430575,
-      "incr_op_margin_yoy": 0.5197132616487455,
-      "rev_growth_yoy": 0.10843373493975904,
       "fcf_margin_change": -0.11255259467040674
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.20754716981132076,
       "incr_op_margin_yoy": 0.2536231884057971,
       "rev_growth_yoy": 0.10458507010231148,
-      "rev_growth_yoy_accel": -0.0038486648374475574,
       "op_leverage_ratio": 0.3557070952012688,
       "fcf_margin_change": 0.03328349519701501
     },
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": 8.671875,
       "rev_growth_yoy": 0.021476510067114093,
       "rev_growth_yoy_accel": 0.06234496472867221,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05987023871806492
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy": 0.017043592264831202,
       "rev_growth_yoy_accel": -0.0046384051070479035,
       "fcf_margin_change": 0.03846438411950681
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2974000000,
+      "gross_profit": null,
+      "operating_income": 937000000,
+      "net_income": 644000000,
+      "opex": 2037000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 334000000,
+      "ocf": 1063000000,
+      "capex": -729000000,
+      "gross_margin": null,
+      "op_margin": 0.31506388702084737,
+      "fcf_margin": 0.11230665770006724,
+      "incr_op_margin_yoy": 3.88,
+      "rev_growth_yoy": -0.016534391534391533,
+      "rev_growth_yoy_accel": -0.033577983799222735,
+      "fcf_margin_change": -0.11972685825223699
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +388.0% vs year-ago OPM: +37.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -554,21 +561,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +52.0% vs year-ago OPM: +38.2%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +6.1% vs OpEx growth +0.5% (leverage: 12.3x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +16.7% -> +28.4% (+11.7%)",
       "severity": "MEDIUM"
     }
   ],
@@ -599,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:56:11.000381",
-  "sector": "Industrials",
-  "industry": "Railroads"
+  "last_updated": "2026-02-24T11:08:59.488654"
 }

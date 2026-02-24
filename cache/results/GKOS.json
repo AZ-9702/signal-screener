@@ -1,25 +1,9 @@
 {
   "ticker": "GKOS",
-  "name": "Glaukos Corporation",
+  "name": "GLAUKOS Corp",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 73234000,
-      "gross_profit": 53644000,
-      "operating_income": -11392000,
-      "net_income": -10648000,
-      "opex": 65036000,
-      "cogs": 19590000,
-      "rd": null,
-      "sga": 43792000,
-      "fcf": 8459000,
-      "ocf": 10604000,
-      "capex": -2145000,
-      "gross_margin": 0.7325012972116777,
-      "op_margin": -0.15555616243821177,
-      "fcf_margin": 0.11550645874866865
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -17182000,
       "gross_margin": 0.7552818973634652,
       "op_margin": -0.17368467514124294,
-      "fcf_margin": -0.191325329566855,
-      "fcf_margin_change": -0.30683178831552366
+      "fcf_margin": -0.191325329566855
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": 0.7697296559257236,
       "op_margin": -0.2439787001638449,
       "fcf_margin": -0.19085199344620427,
-      "rev_growth_yoy": 8.19291585875413e-05,
       "fcf_margin_change": -0.29624618431757355
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": 0.1446787133759844,
       "fcf_margin": 0.046837369424210636,
       "rev_growth_yoy": -0.004222575329566855,
-      "rev_growth_yoy_accel": -0.004304504488154396,
       "fcf_margin_change": 0.2376893628704149
     },
     {
@@ -320,7 +301,7 @@
       "incr_op_margin_yoy": -0.058792753907527306,
       "rev_growth_yoy": 0.1901889326981679,
       "rev_growth_yoy_accel": 0.03155349784789929,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19245983933167116
     },
     {
@@ -343,7 +324,7 @@
       "incr_op_margin_yoy": 0.1798947481473526,
       "rev_growth_yoy": 0.23859676096760968,
       "rev_growth_yoy_accel": 0.04840782826944179,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10025998901685075
     },
     {
@@ -389,7 +370,7 @@
       "incr_op_margin_yoy": 0.8738713050090295,
       "rev_growth_yoy": 0.24575459578145803,
       "rev_growth_yoy_accel": -0.035117133715294235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.18018695696612597
     },
     {
@@ -437,9 +418,38 @@
       "rev_growth_yoy_accel": 0.08426437228774519,
       "op_leverage_ratio": 7.856489102974057,
       "fcf_margin_change": -0.13453235229915275
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 143121000,
+      "gross_profit": -1517000,
+      "operating_income": -139868000,
+      "net_income": -133657000,
+      "opex": 138351000,
+      "cogs": 31771000,
+      "rd": null,
+      "sga": 94700000,
+      "fcf": 3929000,
+      "ocf": 6843000,
+      "capex": -2914000,
+      "gross_margin": -0.01059942286596656,
+      "op_margin": -0.9772709804990183,
+      "fcf_margin": 0.027452295610008316,
+      "incr_op_margin_yoy": -2.955770559778853,
+      "rev_growth_yoy": 0.35661001526080816,
+      "rev_growth_yoy_accel": -0.0247595926837455,
+      "op_leverage_ratio": 0.5028536202617169,
+      "fcf_margin_change": 0.11525567594654426
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -8.8% -> +2.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -598,7 +608,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:51:56.332387",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:05:51.759719"
 }

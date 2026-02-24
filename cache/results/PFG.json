@@ -1,25 +1,9 @@
 {
   "ticker": "PFG",
-  "name": "PRINCIPAL FINANCIAL GROUP, INC.",
+  "name": "PRINCIPAL FINANCIAL GROUP,\u00a0INC",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3765100000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 472600000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 598900000,
-      "ocf": 598900000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.15906616026134765
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.04388343462677263,
-      "fcf_margin_change": -0.11518272563457502
+      "fcf_margin": 0.04388343462677263
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.28046246730708124,
-      "rev_growth_yoy": 0.08658468566571936,
       "fcf_margin_change": -0.0038498264102421187
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.010128617363344052,
       "rev_growth_yoy": -0.03069970391148512,
-      "rev_growth_yoy_accel": -0.11728438957720448,
       "fcf_margin_change": -0.2703338499437372
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 0.22247310399787487,
       "rev_growth_yoy_accel": 0.3708214384137606,
       "fcf_margin_change": 0.05150537196608487
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4576700000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 517000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1743700000,
+      "ocf": 1743700000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.38099504009439117,
+      "rev_growth_yoy": -0.03688973063973064,
+      "rev_growth_yoy_accel": -0.2593628346376055,
+      "fcf_margin_change": 0.1083418458310274
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +27.3% -> +38.1% (+10.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.7% vs prior quarter YoY: +22.2% (decel: -25.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -541,12 +555,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.1% vs prior quarter YoY: +8.7% (decel: -11.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.4% -> +28.0% (+23.7%)",
@@ -581,5 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:18:10.684450"
+  "last_updated": "2026-02-24T10:26:10.866250"
 }

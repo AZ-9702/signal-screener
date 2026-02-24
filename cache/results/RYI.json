@@ -1,25 +1,9 @@
 {
   "ticker": "RYI",
-  "name": "RYERSON HOLDING CORPORATION",
+  "name": "Ryerson Holding Corporation",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 853000000,
-      "gross_profit": 153900000,
-      "operating_income": 4800000,
-      "net_income": -16700000,
-      "opex": 149100000,
-      "cogs": 699100000,
-      "rd": null,
-      "sga": 149100000,
-      "fcf": -26900000,
-      "ocf": -18800000,
-      "capex": -8100000,
-      "gross_margin": 0.18042203985932004,
-      "op_margin": 0.005627198124267292,
-      "fcf_margin": -0.03153575615474795
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6500000,
       "gross_margin": 0.17249193759260872,
       "op_margin": 0.04044277869781226,
-      "fcf_margin": -0.04689270461082542,
-      "op_leverage_ratio": 21.434217467760842,
-      "fcf_margin_change": -0.01535694845607747
+      "fcf_margin": -0.04689270461082542
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.18111346018322763,
       "op_margin": 0.11705426356589148,
       "fcf_margin": -0.007470049330514447,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03942265528031097
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.21337766477606102,
       "op_margin": 0.09668166112523632,
       "fcf_margin": 0.04726514114349045,
-      "incr_op_margin_yoy": 0.21075047730944338,
-      "rev_growth_yoy": 0.7982415005861665,
       "fcf_margin_change": 0.06783526367539319
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.036424977127172915,
       "incr_op_margin_yoy": 0.31321695760598506,
       "rev_growth_yoy": 0.524274383334786,
-      "rev_growth_yoy_accel": -0.27396711725138045,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.010840164016317537
     },
     {
@@ -435,9 +414,43 @@
       "rev_growth_yoy": 0.03097816438842535,
       "rev_growth_yoy_accel": 0.07683699751776032,
       "fcf_margin_change": -0.03005361847485824
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1104800000,
+      "gross_profit": 168900000,
+      "operating_income": -37900000,
+      "net_income": -37900000,
+      "opex": 206800000,
+      "cogs": 935900000,
+      "rd": null,
+      "sga": 203400000,
+      "fcf": 91900000,
+      "ocf": 112700000,
+      "capex": -20800000,
+      "gross_margin": 0.1528783490224475,
+      "op_margin": -0.03430485155684287,
+      "fcf_margin": 0.08318247646632874,
+      "incr_op_margin_yoy": -0.41581108829568786,
+      "rev_growth_yoy": 0.09668453444510622,
+      "rev_growth_yoy_accel": 0.06570637005668087,
+      "fcf_margin_change": 0.10134864090885995
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.8% -> +8.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +9.7% vs prior quarter YoY: +3.1% (accel: +6.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -590,12 +603,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +52.4% vs prior quarter YoY: +79.8% (decel: -27.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +31.3% vs year-ago OPM: +4.0%",
       "severity": "HIGH"
@@ -605,18 +612,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.1% -> +4.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +21.1% vs year-ago OPM: +0.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +34.5% vs OpEx growth +1.6% (leverage: 21.4x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -644,5 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:04:43.564969"
+  "last_updated": "2026-02-24T10:09:27.657468"
 }

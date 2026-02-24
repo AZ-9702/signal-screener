@@ -1,25 +1,9 @@
 {
   "ticker": "JLL",
   "name": "Jones Lang LaSalle Incorporated",
+  "sector": "Real Estate",
+  "industry": "Real Estate Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4845400000,
-      "gross_profit": null,
-      "operating_income": 328800000,
-      "net_income": 250100000,
-      "opex": 4516600000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 751600000,
-      "ocf": 751600000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.0678581747636934,
-      "fcf_margin": 0.1551161926775911
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.019989596492531767,
-      "fcf_margin": -0.11438904163880013,
-      "fcf_margin_change": -0.26950523431639123
+      "fcf_margin": -0.11438904163880013
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.07494491817616092,
       "fcf_margin": 0.12817666548934525,
-      "incr_op_margin_yoy": 0.10615286739980005,
-      "rev_growth_yoy": 0.2270813555124448,
       "op_leverage_ratio": 1.0989241779285028,
       "fcf_margin_change": 0.034828060400578176
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.1492064814429125,
       "incr_op_margin_yoy": 0.12429674211696978,
       "rev_growth_yoy": 0.18931906566594833,
-      "rev_growth_yoy_accel": -0.03776228984649646,
       "fcf_margin_change": -0.27738314693225774
     },
     {
@@ -440,9 +420,38 @@
       "rev_growth_yoy_accel": -0.0010746112107835604,
       "op_leverage_ratio": 1.3699935670594487,
       "fcf_margin_change": 0.041539654608583526
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7608700000,
+      "gross_profit": null,
+      "operating_income": 506900000,
+      "net_income": null,
+      "opex": 7101800000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1011800000,
+      "ocf": 1011800000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.06662110478794012,
+      "fcf_margin": 0.1329793525832271,
+      "incr_op_margin_yoy": 0.16758586111807472,
+      "rev_growth_yoy": 0.11713576766653452,
+      "rev_growth_yoy_accel": 0.007811885441888947,
+      "op_leverage_ratio": 1.2161911898521742,
+      "fcf_margin_change": 0.038192549929012304
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +16.8% vs year-ago OPM: +5.5%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -585,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:22:45.387617",
-  "sector": "Real Estate",
-  "industry": "Real Estate Services"
+  "last_updated": "2026-02-24T10:24:13.936044"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "RLGT",
   "name": "RADIANT LOGISTICS, INC.",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 218805000,
-      "gross_profit": null,
-      "operating_income": 6027000,
-      "net_income": 3812000,
-      "opex": 212778000,
-      "cogs": null,
-      "rd": null,
-      "sga": 5568000,
-      "fcf": -14312000,
-      "ocf": -11531000,
-      "capex": -2781000,
-      "gross_margin": null,
-      "op_margin": 0.027545074381298416,
-      "fcf_margin": -0.06540983981170448
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3827000,
       "gross_margin": null,
       "op_margin": 0.02303282431129826,
-      "fcf_margin": -0.008628853601204066,
-      "op_leverage_ratio": 0.9416971739562287,
-      "fcf_margin_change": 0.056780986210500414
+      "fcf_margin": -0.008628853601204066
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.031848014232137706,
       "fcf_margin": -0.020693095489950956,
-      "incr_op_margin_yoy": 0.04010950922667884,
-      "rev_growth_yoy": 0.5208427595347456,
       "op_leverage_ratio": 0.9835798787202475,
       "fcf_margin_change": 0.0396078324586012
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.023888096958335773,
       "incr_op_margin_yoy": 0.05815917670602183,
       "rev_growth_yoy": 0.9485693267718532,
-      "rev_growth_yoy_accel": 0.42772656723710767,
       "op_leverage_ratio": 1.0317576193394602,
       "fcf_margin_change": 0.04458119244828673
     },
@@ -436,9 +415,44 @@
       "rev_growth_yoy_accel": 0.04281775272594457,
       "op_leverage_ratio": 0.6456777767959933,
       "fcf_margin_change": -0.005753859754253897
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 232130000,
+      "gross_profit": null,
+      "operating_income": 7480000,
+      "net_income": 5305000,
+      "opex": 224650000,
+      "cogs": null,
+      "rd": null,
+      "sga": 9609000,
+      "fcf": 11640000,
+      "ocf": 12356000,
+      "capex": -716000,
+      "gross_margin": null,
+      "op_margin": 0.032223323137896866,
+      "fcf_margin": 0.05014431568517641,
+      "incr_op_margin_yoy": 0.03831677670142531,
+      "rev_growth_yoy": -0.12252782145881215,
+      "rev_growth_yoy_accel": -0.2359559648036897,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.04583379970273614
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +2.4% vs OpEx growth +0.0% (leverage: 67.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -12.3% vs prior quarter YoY: +11.3% (decel: -23.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -554,22 +568,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +94.9% vs prior quarter YoY: +52.1% (accel: +42.8%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.9% -> +3.0%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -6.5% -> -0.9% (+5.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -599,5 +601,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:45:22.184350"
+  "last_updated": "2026-02-24T11:08:06.242111"
 }

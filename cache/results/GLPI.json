@@ -1,25 +1,9 @@
 {
   "ticker": "GLPI",
-  "name": "Gaming and Leisure Properties,\u00a0Inc.",
+  "name": "Gaming and Leisure Properties, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 300161000,
-      "gross_profit": 282999000,
-      "operating_income": 241507000,
-      "net_income": 169341000,
-      "opex": 58654000,
-      "cogs": 17162000,
-      "rd": null,
-      "sga": null,
-      "fcf": 117546000,
-      "ocf": 117546000,
-      "capex": null,
-      "gross_margin": 0.9428240177771263,
-      "op_margin": 0.8045915358757467,
-      "fcf_margin": 0.39160983605465066
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -606000,
       "gross_margin": 0.9339198721243737,
       "op_margin": 0.6635902673913836,
-      "fcf_margin": 0.6785168284456943,
-      "fcf_margin_change": 0.2869069923910436
+      "fcf_margin": 0.6785168284456943
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.9833576348735482,
       "op_margin": 0.6852833224395395,
       "fcf_margin": 0.6294735783598975,
-      "incr_op_margin_yoy": 20.2973713033954,
-      "rev_growth_yoy": -0.006083401907642898,
       "fcf_margin_change": -0.08497043460242071
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.7403402271991263,
       "incr_op_margin_yoy": -0.02272219325039112,
       "rev_growth_yoy": 0.04451438103355077,
-      "rev_growth_yoy_accel": 0.05059778294119367,
       "op_leverage_ratio": 0.24597269911687672,
       "fcf_margin_change": 0.11086664883922881
     },
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 2.853404936014625,
       "rev_growth_yoy": 0.027542712919458336,
       "rev_growth_yoy_accel": -0.016971668114092436,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05038301263186562
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 2.6339372187090526,
       "rev_growth_yoy": 0.1175245721631538,
       "rev_growth_yoy_accel": 0.08998185924369546,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03200505229671913
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": 0.6072117888545081,
       "rev_growth_yoy": 0.09703378241792217,
       "rev_growth_yoy_accel": 0.019919905994242204,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.008309392418880845
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 2.29454590839123,
       "rev_growth_yoy": 0.06740813653814336,
       "rev_growth_yoy_accel": 0.00899264615769664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02360491565355305
     },
     {
@@ -369,7 +349,7 @@
       "incr_op_margin_yoy": 0.6280967647916059,
       "rev_growth_yoy": 0.05578423375940644,
       "rev_growth_yoy_accel": -0.015917290325586322,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.048801676546588735
     },
     {
@@ -438,9 +418,44 @@
       "rev_growth_yoy": 0.031839331916406505,
       "rev_growth_yoy_accel": -0.005598993368781578,
       "fcf_margin_change": -0.13857860287080903
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 407031000,
+      "gross_profit": null,
+      "operating_income": 363392000,
+      "net_income": 267297000,
+      "opex": 43639000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 343244000,
+      "ocf": 343244000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.8927870358768742,
+      "fcf_margin": 0.8432871206370031,
+      "incr_op_margin_yoy": 3.16869545245751,
+      "rev_growth_yoy": 0.04470053771030376,
+      "rev_growth_yoy_accel": 0.012861205793897254,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.2389109731558029
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +60.4% -> +84.3% (+23.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +316.9% vs year-ago OPM: +79.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -496,18 +511,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +4.5% vs prior quarter YoY: -0.6% (accel: +5.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +2029.7% vs year-ago OPM: +80.5%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +62.1% -> +71.4% (+9.3%)",
@@ -518,12 +521,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +93.4% -> +93.0% -> +98.1% (reversal +5.1%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +39.2% -> +67.9% (+28.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -534,7 +531,7 @@
         20
       ],
       "gross_profit": [
-        9,
+        8,
         20
       ],
       "op_income": [
@@ -548,12 +545,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 9/20Q"
+      "gross_profit: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:31:05.298098",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-24T10:18:42.185935"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ARAY",
-  "name": "ACCURAY INC",
+  "name": "ACCURAY INCORPORATED",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 97459000,
-      "gross_profit": 40831000,
-      "operating_income": 8199000,
-      "net_income": 4769000,
-      "opex": 32632000,
-      "cogs": 56628000,
-      "rd": 11956000,
-      "sga": null,
-      "fcf": 18686000,
-      "ocf": 19284000,
-      "capex": -598000,
-      "gross_margin": 0.4189556634071763,
-      "op_margin": 0.0841276844621841,
-      "fcf_margin": 0.19173190777660348
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -260000,
       "gross_margin": 0.3855424036192742,
       "op_margin": 0.04315438466488563,
-      "fcf_margin": 0.15252237670872254,
-      "op_leverage_ratio": 0.687853130658734,
-      "fcf_margin_change": -0.03920953106788094
+      "fcf_margin": 0.15252237670872254
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.36660503117609117,
       "op_margin": 0.034237798322941305,
       "fcf_margin": 0.273558374543109,
-      "incr_op_margin_yoy": -0.22417091836734693,
-      "rev_growth_yoy": 0.1930658020295714,
       "op_leverage_ratio": 1.9902977553337748,
       "fcf_margin_change": 0.367153058186377
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.2373841882519315,
       "incr_op_margin_yoy": 0.7379946816830909,
       "rev_growth_yoy": -0.06233302782707045,
-      "rev_growth_yoy_accel": -0.25539882985664186,
       "fcf_margin_change": -0.5109425627950405
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.11913571787492577,
       "rev_growth_yoy": 0.22763052542919235,
       "rev_growth_yoy_accel": 0.24065998146015344,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.36334208692911374
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": 0.4547102581734075,
       "rev_growth_yoy": 0.1352331518614953,
       "rev_growth_yoy_accel": 0.27861787149557965,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15809901273966787
     },
     {
@@ -436,6 +415,29 @@
       "rev_growth_yoy": -0.07487320892215274,
       "rev_growth_yoy_accel": -0.02463826786219995,
       "fcf_margin_change": 0.1958515997386578
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 102241000,
+      "gross_profit": 24072000,
+      "operating_income": -11566000,
+      "net_income": -13770000,
+      "opex": 35638000,
+      "cogs": 78169000,
+      "rd": 10650000,
+      "sga": null,
+      "fcf": -19011000,
+      "ocf": -15986000,
+      "capex": -3025000,
+      "gross_margin": 0.23544370653651667,
+      "op_margin": -0.11312487162684245,
+      "fcf_margin": -0.18594301698927046,
+      "incr_op_margin_yoy": 1.1679466015933395,
+      "rev_growth_yoy": -0.11993217070945306,
+      "rev_growth_yoy_accel": -0.04505896178730032,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.29532965981143733
     }
   ],
   "signals": [
@@ -650,12 +652,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -6.2% vs prior quarter YoY: +19.3% (decel: -25.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -9.4% -> +27.4%",
@@ -693,7 +689,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:23:43.563850",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:32:23.495915"
 }

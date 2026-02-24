@@ -1,25 +1,9 @@
 {
   "ticker": "FLR",
   "name": "FLUOR CORPORATION",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3655700000,
-      "gross_profit": 124210000,
-      "operating_income": 244529000,
-      "net_income": -163300000,
-      "opex": -120319000,
-      "cogs": 3533000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 9546000,
-      "ocf": 41760000,
-      "capex": -32214000,
-      "gross_margin": 0.03397707689361819,
-      "op_margin": 0.06688978854938862,
-      "fcf_margin": 0.002611264600486911
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -30000000,
       "gross_margin": 0.0315722916863761,
       "op_margin": -0.003566413909558738,
-      "fcf_margin": -0.0884797343974496,
-      "fcf_margin_change": -0.09109099899793652
+      "fcf_margin": -0.0884797343974496
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.018373770666050344,
       "op_margin": -0.0007400181744755836,
       "fcf_margin": 0.01853907743988936,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10701881183733897
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.04842223630028508,
       "op_margin": -0.04701362052581565,
       "fcf_margin": 0.07127019322141273,
-      "incr_op_margin_yoy": 0.787950671746541,
-      "rev_growth_yoy": -0.13641710205979704,
       "op_leverage_ratio": 0.0002883140625715315,
       "fcf_margin_change": 0.0954396890618425
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.06342088404868675,
       "incr_op_margin_yoy": 0.5803547096591343,
       "rev_growth_yoy": 0.06243742611091411,
-      "rev_growth_yoy_accel": 0.19885452817071114,
       "fcf_margin_change": -0.1346910772700995
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 1.731743166168741,
       "rev_growth_yoy": 0.019340274569916577,
       "rev_growth_yoy_accel": -0.04309715154099753,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07615201469433694
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": -0.22118624917717103,
       "rev_growth_yoy": 0.16400291967509753,
       "rev_growth_yoy_accel": 0.14466264510518095,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01578492694017483
     },
     {
@@ -188,7 +168,7 @@
       "incr_op_margin_yoy": 0.30275226039783004,
       "rev_growth_yoy": 0.17516629711751663,
       "rev_growth_yoy_accel": 0.011163377442419103,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.026090181575043357
     },
     {
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": -0.3761904761904762,
       "rev_growth_yoy": 0.20179372197309417,
       "rev_growth_yoy_accel": 0.026627424855577536,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05066681417709297
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 0.2847222222222222,
       "rev_growth_yoy": 0.07311500380807312,
       "rev_growth_yoy_accel": 0.07791244517267866,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09419076158584172
     },
     {
@@ -368,7 +348,7 @@
       "incr_op_margin_yoy": 0.47954545454545455,
       "rev_growth_yoy": 0.11518324607329843,
       "rev_growth_yoy_accel": 0.08212748023933425,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0013350580604617746
     },
     {
@@ -436,9 +416,56 @@
       "rev_growth_yoy": -0.17733268197361993,
       "rev_growth_yoy_accel": -0.11842565571386124,
       "fcf_margin_change": 0.08985539827722307
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4176000000,
+      "gross_profit": 133000000,
+      "operating_income": 53000000,
+      "net_income": -1573000000,
+      "opex": 80000000,
+      "cogs": 4043000000,
+      "rd": null,
+      "sga": null,
+      "fcf": -378000000,
+      "ocf": -366000000,
+      "capex": -12000000,
+      "gross_margin": 0.031848659003831416,
+      "op_margin": 0.012691570881226053,
+      "fcf_margin": -0.09051724137931035,
+      "incr_op_margin_yoy": 1.5833333333333333,
+      "rev_growth_yoy": -0.01971830985915493,
+      "rev_growth_yoy_accel": 0.157614372114465,
+      "op_leverage_ratio": 0.3416828618728856,
+      "fcf_margin_change": -0.1715742485052011
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +1.4% -> -13.3% -> +3.2% (reversal +16.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -2.0% vs prior quarter YoY: -17.7% (accel: +15.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +158.3% vs year-ago OPM: +4.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -14.7% -> +1.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -603,12 +630,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +6.2% vs prior quarter YoY: -13.6% (accel: +19.9%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -0.4% (year-ago) -> +3.1%",
       "severity": "HIGH"
@@ -663,7 +684,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:48:44.794402",
-  "sector": "Industrials",
-  "industry": "Engineering & Construction"
+  "last_updated": "2026-02-24T10:37:06.089019"
 }

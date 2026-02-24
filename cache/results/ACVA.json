@@ -1,25 +1,9 @@
 {
   "ticker": "ACVA",
   "name": "ACV Auctions Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 53763000,
-      "gross_profit": null,
-      "operating_income": -11997000,
-      "net_income": -12259000,
-      "opex": 65760000,
-      "cogs": null,
-      "rd": null,
-      "sga": 16281000,
-      "fcf": -10462000,
-      "ocf": -9948000,
-      "capex": -514000,
-      "gross_margin": null,
-      "op_margin": -0.22314602979744433,
-      "fcf_margin": -0.19459479567732454
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -692000,
       "gross_margin": null,
       "op_margin": -0.24799525229424196,
-      "fcf_margin": 0.6538517210433373,
-      "op_leverage_ratio": 0.9160890862009989,
-      "fcf_margin_change": 0.8484465167206618
+      "fcf_margin": 0.6538517210433373
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": -0.256466055082504,
       "fcf_margin": -0.03492817712648612,
-      "incr_op_margin_yoy": -0.2950618347912268,
-      "rev_growth_yoy": 0.8633074791213288,
       "op_leverage_ratio": 1.1282205376846322,
       "fcf_margin_change": -0.19909297374514884
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.31246300878086647,
       "incr_op_margin_yoy": -0.3518643868271579,
       "rev_growth_yoy": 0.4918362620501983,
-      "rev_growth_yoy_accel": -0.37147121707113046,
       "op_leverage_ratio": 0.5773546486998045,
       "fcf_margin_change": -0.27753483165438037
     },
@@ -440,6 +419,28 @@
       "rev_growth_yoy_accel": -0.041158203966829954,
       "op_leverage_ratio": 0.27147419339734596,
       "fcf_margin_change": -0.017705408624197762
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 183645000,
+      "gross_profit": null,
+      "operating_income": -17848000,
+      "net_income": -19561000,
+      "opex": 201493000,
+      "cogs": null,
+      "rd": null,
+      "sga": 50175000,
+      "fcf": -14651000,
+      "ocf": -12360000,
+      "capex": -2291000,
+      "gross_margin": null,
+      "op_margin": -0.09718750850826323,
+      "fcf_margin": -0.07977892128835525,
+      "incr_op_margin_yoy": 0.3294517425717956,
+      "rev_growth_yoy": 0.1512782577077874,
+      "rev_growth_yoy_accel": -0.013504120056630764,
+      "fcf_margin_change": -0.11811807573235983
     }
   ],
   "signals": [
@@ -564,22 +565,10 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +49.2% vs prior quarter YoY: +86.3% (decel: -37.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +40.9% vs OpEx growth +23.8% (leverage: 1.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -19.5% -> +65.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -609,7 +598,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:36.025056",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto & Truck Dealerships"
+  "last_updated": "2026-02-24T10:07:26.870974"
 }

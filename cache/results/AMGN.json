@@ -1,25 +1,9 @@
 {
   "ticker": "AMGN",
   "name": "AMGEN INC",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6634000000,
-      "gross_profit": 4737000000,
-      "operating_income": 2008000000,
-      "net_income": 1615000000,
-      "opex": 4626000000,
-      "cogs": 1597000000,
-      "rd": null,
-      "sga": 1773000000,
-      "fcf": 1980000000,
-      "ocf": 2153000000,
-      "capex": -173000000,
-      "gross_margin": 0.7140488393126319,
-      "op_margin": 0.3026831474223696,
-      "fcf_margin": 0.29846246608381066
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -166000000,
       "gross_margin": 0.7475004236570073,
       "op_margin": 0.3607863074055245,
-      "fcf_margin": 0.3284189120488053,
-      "fcf_margin_change": 0.029956445964994638
+      "fcf_margin": 0.3284189120488053
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.7600656128839844,
       "op_margin": 0.3546078138980018,
       "fcf_margin": 0.3244855353414852,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05694033154130135
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.7490505404615834,
       "op_margin": 0.33654688869412797,
       "fcf_margin": 0.36824423020742036,
-      "incr_op_margin_yoy": 1.3962264150943395,
-      "rev_growth_yoy": 0.031956587277660535,
       "op_leverage_ratio": 0.4222191871695315,
       "fcf_margin_change": 0.043758694865935144
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.3164475793523565,
       "incr_op_margin_yoy": 1.1008902077151335,
       "rev_growth_yoy": 0.05710896458227419,
-      "rev_growth_yoy_accel": 0.025152377304613657,
       "fcf_margin_change": -0.05179665085506385
     },
     {
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": 0.01625,
       "rev_growth_yoy": 0.23178328263074024,
       "rev_growth_yoy_accel": 0.031096194168100694,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12496177258765473
     },
     {
@@ -414,7 +394,7 @@
       "incr_op_margin_yoy": 0.9443742098609356,
       "rev_growth_yoy": 0.09430138292799237,
       "rev_growth_yoy_accel": 3.5235486069443156e-05,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08793245895426464
     },
     {
@@ -439,9 +419,44 @@
       "rev_growth_yoy_accel": 0.029654867807042323,
       "op_leverage_ratio": 0.5287861800257864,
       "fcf_margin_change": 0.23629833546812312
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 9866000000,
+      "gross_profit": 6890000000,
+      "operating_income": 2720000000,
+      "net_income": 1333000000,
+      "opex": 7146000000,
+      "cogs": 2976000000,
+      "rd": null,
+      "sga": 1952000000,
+      "fcf": 961000000,
+      "ocf": 1603000000,
+      "capex": -642000000,
+      "gross_margin": 0.6983579971619704,
+      "op_margin": 0.27569430366916686,
+      "fcf_margin": 0.09740523008311372,
+      "incr_op_margin_yoy": 0.5243589743589744,
+      "rev_growth_yoy": 0.08584635703279771,
+      "rev_growth_yoy_accel": -0.03810989370223698,
+      "op_leverage_ratio": 1.9767700433554283,
+      "fcf_margin_change": -0.3470857189594728
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3.2% vs OpEx growth +1.6% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +52.4% vs year-ago OPM: +25.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -593,12 +608,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +139.6% vs year-ago OPM: +30.3%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +26.8% -> +32.4% (+5.7%)",
@@ -630,7 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:11.883572",
-  "sector": "Healthcare",
-  "industry": "Drug Manufacturers - General"
+  "last_updated": "2026-02-24T10:43:37.263433"
 }

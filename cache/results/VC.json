@@ -1,25 +1,9 @@
 {
   "ticker": "VC",
-  "name": "VISTEON CORP",
+  "name": "VISTEON CORPORATION",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 787000000,
-      "gross_profit": 89000000,
-      "operating_income": null,
-      "net_income": 18000000,
-      "opex": null,
-      "cogs": 698000000,
-      "rd": null,
-      "sga": 53000000,
-      "fcf": 71000000,
-      "ocf": 71000000,
-      "capex": null,
-      "gross_margin": 0.11308767471410419,
-      "op_margin": null,
-      "fcf_margin": 0.09021601016518424
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.09785522788203753,
       "op_margin": null,
-      "fcf_margin": 0.014745308310991957,
-      "fcf_margin_change": -0.07547070185419229
+      "fcf_margin": 0.014745308310991957
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.12595419847328243,
       "op_margin": null,
       "fcf_margin": 0.089058524173028,
-      "rev_growth_yoy": -0.0012706480304955528,
       "fcf_margin_change": 0.10966074287350343
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.02567237163814181,
       "rev_growth_yoy": 0.09651474530831099,
-      "rev_growth_yoy_accel": 0.09778539333880654,
       "fcf_margin_change": -0.1147308958111698
     },
     {
@@ -334,7 +315,7 @@
       "revenue": 939000000,
       "gross_profit": 134000000,
       "operating_income": null,
-      "net_income": 122000000,
+      "net_income": 125000000,
       "opex": null,
       "cogs": 805000000,
       "rd": null,
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.06428571428571428,
       "rev_growth_yoy_accel": -0.01990701606086221,
       "fcf_margin_change": 0.04045587700729146
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 948000000,
+      "gross_profit": 122000000,
+      "operating_income": null,
+      "net_income": 74000000,
+      "opex": null,
+      "cogs": 826000000,
+      "rd": null,
+      "sga": 54000000,
+      "fcf": 118000000,
+      "ocf": 118000000,
+      "capex": null,
+      "gross_margin": 0.12869198312236288,
+      "op_margin": null,
+      "fcf_margin": 0.12447257383966245,
+      "rev_growth_yoy": 0.009584664536741214,
+      "rev_growth_yoy_accel": 0.07387037882245549,
+      "fcf_margin_change": -0.014022518853903515
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +1.0% vs prior quarter YoY: -6.4% (accel: +7.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -505,12 +513,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +9.7% vs prior quarter YoY: -0.1% (accel: +9.8%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.1% -> +8.9%",
@@ -544,5 +546,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:28:42.759661"
+  "last_updated": "2026-02-24T10:23:09.363880"
 }

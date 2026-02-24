@@ -1,25 +1,9 @@
 {
   "ticker": "STT",
-  "name": "State Street Corp",
+  "name": "STATE STREET CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2917000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 537000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 3240000000,
-      "ocf": 3376000000,
-      "capex": -136000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 1.1107302022625987
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -162000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -1.32,
-      "fcf_margin_change": -2.4307302022625987
+      "fcf_margin": -1.32
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 1.301015394693744,
-      "rev_growth_yoy": 0.046623243057936234,
       "fcf_margin_change": 1.2371357960315366
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 1.4436871145731904,
       "rev_growth_yoy": 0.04440677966101695,
-      "rev_growth_yoy_accel": -0.002216463396919284,
       "fcf_margin_change": 0.1426717198794465
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.08775698066891685,
       "rev_growth_yoy_accel": 0.007217964686466211,
       "fcf_margin_change": 4.700828918217548
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3667000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 747000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 9775000000,
+      "ocf": 10042000000,
+      "capex": -267000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 2.665666757567494,
+      "rev_growth_yoy": 0.07473622508792498,
+      "rev_growth_yoy_accel": -0.013020755580991875,
+      "fcf_margin_change": 0.5054410876098072
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +216.0% -> +266.6% (+50.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -545,5 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:06:08.157557"
+  "last_updated": "2026-02-24T10:18:19.367093"
 }

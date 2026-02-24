@@ -1,6 +1,8 @@
 {
   "ticker": "FIG",
   "name": "FIGMA, INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
     {
       "date": "2024-06-30T00:00:00",
@@ -37,7 +39,27 @@
       "gross_margin": 0.9058442702591133,
       "op_margin": -0.23830164267842668,
       "fcf_margin": 0.30790026127799675,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 216945000,
+      "gross_profit": 200482000,
+      "operating_income": 51669000,
+      "net_income": 97807000,
+      "opex": 148813000,
+      "cogs": 16463000,
+      "rd": 58551000,
+      "sga": null,
+      "fcf": 72429000,
+      "ocf": 73091000,
+      "capex": -662000,
+      "gross_margin": 0.9241144068773192,
+      "op_margin": 0.23816635552789878,
+      "fcf_margin": 0.3338588121413261,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.025958550863329377
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -58,7 +80,7 @@
       "fcf_margin": null,
       "incr_op_margin_yoy": 12.373526407332763,
       "rev_growth_yoy": 0.4088195126355828,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": 0.31648939542871074
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -81,9 +103,38 @@
       "rev_growth_yoy": 0.3802576533309169,
       "rev_growth_yoy_accel": -0.028561859304665926,
       "op_leverage_ratio": 0.019494628070213803
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 303776000,
+      "gross_profit": 249474000,
+      "operating_income": -195502000,
+      "net_income": -226557000,
+      "opex": 444976000,
+      "cogs": 54302000,
+      "rd": 195838000,
+      "sga": null,
+      "fcf": 39152000,
+      "ocf": 39886000,
+      "capex": -734000,
+      "gross_margin": 0.8212432845254398,
+      "op_margin": -0.6435728958179712,
+      "fcf_margin": 0.12888444116717582,
+      "incr_op_margin_yoy": -2.8465755317801245,
+      "rev_growth_yoy": 0.40024430155108437,
+      "rev_growth_yoy_accel": 0.01998664822016749,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.05151625474380009
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +88.8% -> +69.4% -> +82.1% (reversal +12.7%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -91,47 +142,45 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2025-06 (Q2)",
+      "quarter": "2024-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -23.8% -> +0.8%",
+      "detail": "Op margin: -23.8% -> +23.8%",
       "severity": "HIGH"
     }
   ],
   "data_quality": {
-    "n_quarters": 4,
+    "n_quarters": 6,
     "coverage": {
       "revenue": [
-        4,
-        4
+        6,
+        6
       ],
       "gross_profit": [
-        4,
-        4
+        6,
+        6
       ],
       "op_income": [
-        4,
-        4
+        6,
+        6
       ],
       "fcf": [
-        2,
-        4
+        4,
+        6
       ]
     },
     "gaps": [
       [
-        "2024-09 (Q3)",
+        "2024-12 (Q4)",
         "2025-06 (Q2)",
-        273
+        181
       ]
     ],
     "warnings": [
-      "fcf: 2/4Q",
-      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+      "fcf: 4/6Q",
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:08.350454",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:31:02.009918"
 }

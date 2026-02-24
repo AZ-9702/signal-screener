@@ -1,6 +1,8 @@
 {
   "ticker": "VLTO",
   "name": "VERALTO CORPORATION",
+  "sector": "Industrials",
+  "industry": "Pollution & Treatment Controls",
   "quarters": [
     {
       "date": "2022-09-30T00:00:00",
@@ -187,7 +189,7 @@
       "incr_op_margin_yoy": 0.5932203389830508,
       "rev_growth_yoy": 0.04701195219123506,
       "rev_growth_yoy_accel": 0.01907899129738031,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.022712877090482808
     },
     {
@@ -280,6 +282,28 @@
       "rev_growth_yoy_accel": 0.0040521568961116305,
       "op_leverage_ratio": 1.3612934597617312,
       "fcf_margin_change": -0.05183377284033738
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1396000000,
+      "gross_profit": 828000000,
+      "operating_income": 316000000,
+      "net_income": 254000000,
+      "opex": 512000000,
+      "cogs": 568000000,
+      "rd": 68000000,
+      "sga": 444000000,
+      "fcf": 291000000,
+      "ocf": 311000000,
+      "capex": -20000000,
+      "gross_margin": 0.5931232091690545,
+      "op_margin": 0.22636103151862463,
+      "fcf_margin": 0.20845272206303725,
+      "incr_op_margin_yoy": 0.1568627450980392,
+      "rev_growth_yoy": 0.0379182156133829,
+      "rev_growth_yoy_accel": -0.030574935071548605,
+      "fcf_margin_change": 0.024692038302353475
     }
   ],
   "signals": [
@@ -321,23 +345,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 13,
+    "n_quarters": 14,
     "coverage": {
       "revenue": [
-        13,
-        13
+        14,
+        14
       ],
       "gross_profit": [
-        13,
-        13
+        14,
+        14
       ],
       "op_income": [
-        13,
-        13
+        14,
+        14
       ],
       "fcf": [
-        12,
-        13
+        13,
+        14
       ]
     },
     "gaps": [],
@@ -345,5 +369,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:13:20.112676"
+  "last_updated": "2026-02-24T10:12:50.685116"
 }

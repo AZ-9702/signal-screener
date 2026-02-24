@@ -1,6 +1,8 @@
 {
   "ticker": "DPZ",
   "name": "Domino\u2019s Pizza, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
     {
       "date": "2019-06-16T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.3852904197307057,
       "op_margin": 0.17425305672919011,
       "fcf_margin": null,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2020-03-22T00:00:00",
@@ -186,7 +188,7 @@
       "incr_op_margin_yoy": -0.8013187133437761,
       "rev_growth_yoy": 0.027905922346085892,
       "rev_growth_yoy_accel": -0.003374852341607542,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-06-19T00:00:00",
@@ -581,7 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:23.233327",
-  "sector": "Consumer Cyclical",
-  "industry": "Restaurants"
+  "last_updated": "2026-02-24T10:08:20.878765"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "TARS",
   "name": "TARSUS PHARMACEUTICALS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 0,
-      "gross_profit": null,
-      "operating_income": -11477000,
-      "net_income": -11467000,
-      "opex": 11477000,
-      "cogs": null,
-      "rd": 7587000,
-      "sga": null,
-      "fcf": -9963000,
-      "ocf": -10013000,
-      "capex": 50000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -329,7 +313,7 @@
       "fcf_margin": -0.18566856477825347,
       "incr_op_margin_yoy": 0.34105996064609595,
       "rev_growth_yoy": 24.717797969000536,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1927157735453199
     },
     {
@@ -423,9 +407,38 @@
       "rev_growth_yoy_accel": -0.048585028417086784,
       "op_leverage_ratio": 2.326708025133222,
       "fcf_margin_change": 0.43372664833484526
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 151668000,
+      "gross_profit": null,
+      "operating_income": -7976000,
+      "net_income": -8373000,
+      "opex": 159644000,
+      "cogs": null,
+      "rd": 18035000,
+      "sga": 130682000,
+      "fcf": 12972000,
+      "ocf": 19330000,
+      "capex": -6358000,
+      "gross_margin": null,
+      "op_margin": -0.05258854867209958,
+      "fcf_margin": 0.08552891842709075,
+      "incr_op_margin_yoy": 0.1928806005160685,
+      "rev_growth_yoy": 1.2838814600650523,
+      "rev_growth_yoy_accel": -0.18290851458061042,
+      "op_leverage_ratio": 1.40081708425078,
+      "fcf_margin_change": -0.052191495736704466
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +128.4% vs prior quarter YoY: +146.7% (decel: -18.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -616,5 +629,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:23:54.008448"
+  "last_updated": "2026-02-24T10:05:40.545843"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "CDP",
   "name": "COPT DEFENSE PROPERTIES",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 156607000,
-      "gross_profit": 133044000,
-      "operating_income": null,
-      "net_income": 81668000,
-      "opex": 123190000,
-      "cogs": 23563000,
-      "rd": null,
-      "sga": 9890000,
-      "fcf": 79383000,
-      "ocf": 79383000,
-      "capex": null,
-      "gross_margin": 0.849540569706335,
-      "op_margin": null,
-      "fcf_margin": 0.5068930507576289
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.9023447644723661,
       "op_margin": null,
-      "fcf_margin": 0.25149330332298636,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.25539974743464255
+      "fcf_margin": 0.25149330332298636
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,7 @@
       "gross_margin": 0.7736322956779899,
       "op_margin": null,
       "fcf_margin": 0.2648548931867564,
-      "rev_growth_yoy": 0.18725216625055074,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08954511597515752
     },
     {
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.26964906895846125,
       "rev_growth_yoy": 0.20874092578622575,
-      "rev_growth_yoy_accel": 0.021488759535675,
       "op_leverage_ratio": 0.21456231054566047,
       "fcf_margin_change": 0.004794175771704823
     },
@@ -269,7 +249,7 @@
       "fcf_margin": 0.3707693249280862,
       "rev_growth_yoy": 0.025575330818787198,
       "rev_growth_yoy_accel": 0.10198081027084199,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.036946805022790685
     },
     {
@@ -399,7 +379,7 @@
       "fcf_margin": 0.4628175762841271,
       "rev_growth_yoy": 0.01372882893943195,
       "rev_growth_yoy_accel": 0.041721336674884646,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07914071741350281
     },
     {
@@ -422,9 +402,37 @@
       "rev_growth_yoy": -0.0022724270048883606,
       "rev_growth_yoy_accel": -0.016001255944320312,
       "fcf_margin_change": -0.0992592193361147
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 197357000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 139054000,
+      "cogs": null,
+      "rd": null,
+      "sga": 11743000,
+      "fcf": 81323000,
+      "ocf": 81323000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.41206037789386746,
+      "rev_growth_yoy": 0.07590782465532374,
+      "rev_growth_yoy_accel": 0.0781802516602121,
+      "op_leverage_ratio": 0.7346377182385249,
+      "fcf_margin_change": 0.04850202094585504
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +7.6% vs prior quarter YoY: -0.2% (accel: +7.8%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -530,7 +538,7 @@
         20
       ],
       "gross_profit": [
-        8,
+        7,
         20
       ],
       "op_income": [
@@ -544,13 +552,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 8/20Q",
+      "gross_profit: 7/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:17:42.017177",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-24T10:16:48.511785"
 }

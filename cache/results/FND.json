@@ -1,25 +1,9 @@
 {
   "ticker": "FND",
   "name": "Floor & Decor Holdings, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Home Improvement Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 723652000,
-      "gross_profit": 307540000,
-      "operating_income": 68014000,
-      "net_income": 57140000,
-      "opex": 239526000,
-      "cogs": 416112000,
-      "rd": null,
-      "sga": null,
-      "fcf": 136479000,
-      "ocf": 136479000,
-      "capex": null,
-      "gross_margin": 0.4249832792557749,
-      "op_margin": 0.0939871651014576,
-      "fcf_margin": 0.18859755794221533
-    },
     {
       "date": "2021-04-01T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.43056494453297417,
       "op_margin": 0.12261273268867798,
-      "fcf_margin": 0.12906226798221682,
-      "op_leverage_ratio": 13.36811123592385,
-      "fcf_margin_change": -0.059535289959998516
+      "fcf_margin": 0.12906226798221682
     },
     {
       "date": "2021-07-01T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.38780862594125787,
       "op_margin": 0.06681249213909563,
       "fcf_margin": -0.06950406579645316,
-      "incr_op_margin_yoy": -0.036316819013755816,
-      "rev_growth_yoy": 0.26350096455202227,
       "op_leverage_ratio": 1.0486915735688667,
       "fcf_margin_change": -0.19302768615939755
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.0032399045817480517,
       "incr_op_margin_yoy": -0.00803015471350179,
       "rev_growth_yoy": 0.314613877682461,
-      "rev_growth_yoy_accel": 0.05111291313043875,
       "op_leverage_ratio": 1.7836427390146472,
       "fcf_margin_change": 0.0662641612147051
     },
@@ -438,6 +417,28 @@
       "rev_growth_yoy": 0.055102931678841,
       "rev_growth_yoy_accel": -0.01638962130892132,
       "fcf_margin_change": 0.017616009195166815
+    },
+    {
+      "date": "2025-12-25T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1129671000,
+      "gross_profit": 491096000,
+      "operating_income": 51930000,
+      "net_income": 39331000,
+      "opex": 439166000,
+      "cogs": 638575000,
+      "rd": null,
+      "sga": null,
+      "fcf": 124068000,
+      "ocf": 124068000,
+      "capex": null,
+      "gross_margin": 0.43472480040649003,
+      "op_margin": 0.045969136146718825,
+      "fcf_margin": 0.10982666634798981,
+      "incr_op_margin_yoy": -0.3275668389126039,
+      "rev_growth_yoy": 0.02009633236290608,
+      "rev_growth_yoy_accel": -0.035006599315934916,
+      "fcf_margin_change": 0.022934208608573925
     }
   ],
   "signals": [
@@ -514,21 +515,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +31.5% vs prior quarter YoY: +26.4% (accel: +5.1%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.9% -> +18.1% (+5.2%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +8.1% vs OpEx growth +0.6% (leverage: 13.4x)",
       "severity": "MEDIUM"
     }
   ],
@@ -557,7 +546,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:47:24.820208",
-  "sector": "Consumer Cyclical",
-  "industry": "Home Improvement Retail"
+  "last_updated": "2026-02-24T10:20:11.877454"
 }

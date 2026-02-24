@@ -1,25 +1,9 @@
 {
   "ticker": "YCBD",
-  "name": "cbdMD, INC.",
+  "name": "cbdMD, Inc.",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 12328303,
-      "gross_profit": 8898028,
-      "operating_income": -1759945,
-      "net_income": -9395621,
-      "opex": 10657973,
-      "cogs": 3430274,
-      "rd": null,
-      "sga": null,
-      "fcf": -2192038,
-      "ocf": -2192038,
-      "capex": null,
-      "gross_margin": 0.721756108687465,
-      "op_margin": -0.1427564685910137,
-      "fcf_margin": -0.1778053313582575
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.6912240771392497,
       "op_margin": -0.35323844476269284,
-      "fcf_margin": -0.25079062272669217,
-      "fcf_margin_change": -0.07298529136843468
+      "fcf_margin": -0.25079062272669217
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.5356798273985494,
       "op_margin": -2.6974401570851705,
       "fcf_margin": -0.6114153434811349,
-      "incr_op_margin_yoy": 7.778233755676487,
-      "rev_growth_yoy": -0.24386819499812748,
       "fcf_margin_change": -0.1657444289900738
     },
     {
@@ -117,8 +98,7 @@
       "fcf_margin": -0.555082592108786,
       "incr_op_margin_yoy": 0.38836949382986324,
       "rev_growth_yoy": -0.183896646817155,
-      "rev_growth_yoy_accel": 0.05997154818097247,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.056332751372348944
     },
     {
@@ -207,7 +187,7 @@
       "incr_op_margin_yoy": -1.0651748992140735,
       "rev_growth_yoy": -0.35194787849809417,
       "rev_growth_yoy_accel": -0.004740647980283397,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10697471233567235
     },
     {
@@ -316,7 +296,7 @@
       "fcf_margin": 0.05600808523123274,
       "rev_growth_yoy": -0.15450944376717904,
       "rev_growth_yoy_accel": 0.14412774008800092,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21582646139237271
     },
     {
@@ -352,15 +332,16 @@
       "cogs": 1712867,
       "rd": null,
       "sga": null,
-      "fcf": null,
-      "ocf": null,
+      "fcf": -482336,
+      "ocf": -317949,
       "capex": -164387,
       "gross_margin": 0.665028837526567,
       "op_margin": -0.016871497979065512,
-      "fcf_margin": null,
+      "fcf_margin": -0.09432644252168193,
       "rev_growth_yoy": -0.048727305198399004,
       "rev_growth_yoy_accel": 0.1534142717762339,
-      "op_leverage_ratio": 0.47274460866004636
+      "op_leverage_ratio": 0.47274460866004636,
+      "fcf_margin_change": -0.128866468498524
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -373,14 +354,15 @@
       "cogs": 1790062,
       "rd": null,
       "sga": null,
-      "fcf": null,
-      "ocf": null,
+      "fcf": -204983,
+      "ocf": -189477,
       "capex": -15506,
       "gross_margin": 0.6230992966307929,
       "op_margin": -0.10228941349965238,
-      "fcf_margin": null,
+      "fcf_margin": -0.0431595312780955,
       "rev_growth_yoy": 0.08520655004732072,
-      "rev_growth_yoy_accel": 0.1339338552457197
+      "rev_growth_yoy_accel": 0.1339338552457197,
+      "fcf_margin_change": 0.05116691124358643
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -400,7 +382,8 @@
       "op_margin": -0.19638073837000813,
       "fcf_margin": -0.1531812999750803,
       "rev_growth_yoy": -0.10960482639907629,
-      "rev_growth_yoy_accel": -0.194811376446397
+      "rev_growth_yoy_accel": -0.194811376446397,
+      "fcf_margin_change": -0.1100217686969848
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -421,11 +404,39 @@
       "fcf_margin": -0.05159179540625788,
       "rev_growth_yoy": 0.036082263804093,
       "rev_growth_yoy_accel": 0.14568709020316928,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1015895045688224
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5016904,
+      "gross_profit": 3001294,
+      "operating_income": -286288,
+      "net_income": -283131,
+      "opex": 3287582,
+      "cogs": 2015610,
+      "rd": null,
+      "sga": null,
+      "fcf": -977266,
+      "ocf": -812464,
+      "capex": -164802,
+      "gross_margin": 0.5982362827751936,
+      "op_margin": -0.05706467574424386,
+      "fcf_margin": -0.1947946382868797,
+      "rev_growth_yoy": -0.01888578336927757,
+      "rev_growth_yoy_accel": -0.05496804717337057,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.14320284288062182
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -1.9% vs prior quarter YoY: +3.6% (decel: -5.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -443,6 +454,12 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: -11.0% vs prior quarter YoY: +8.5% (decel: -19.5%)",
       "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-03 (Q1)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -9.4% -> -4.3% (+5.1%)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2025-03 (Q1)",
@@ -545,12 +562,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +58.6% -> +53.6% -> +66.9% (reversal +13.3%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -18.4% vs prior quarter YoY: -24.4% (accel: +6.0%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -569,7 +580,7 @@
         20
       ],
       "fcf": [
-        18,
+        20,
         20
       ]
     },
@@ -578,5 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:14:01.629919"
+  "last_updated": "2026-02-24T10:34:35.175874"
 }

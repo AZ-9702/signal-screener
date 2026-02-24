@@ -1,25 +1,9 @@
 {
   "ticker": "CLH",
-  "name": "CLEAN HARBORS,\u00a0INC",
+  "name": "CLEAN HARBORS, INC.",
+  "sector": "Industrials",
+  "industry": "Waste Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 796190000,
-      "gross_profit": 247415000,
-      "operating_income": 61741000,
-      "net_income": 39332000,
-      "opex": 185674000,
-      "cogs": 548775000,
-      "rd": null,
-      "sga": 111354000,
-      "fcf": 67266000,
-      "ocf": 113165000,
-      "capex": -45899000,
-      "gross_margin": 0.31074869063916905,
-      "op_margin": 0.07754556073299088,
-      "fcf_margin": 0.08448485914166216
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -41913000,
       "gross_margin": 0.30639437330785946,
       "op_margin": 0.06292783005093126,
-      "fcf_margin": 0.07558887728485376,
-      "op_leverage_ratio": 0.25161445704394825,
-      "fcf_margin_change": -0.0088959818568084
+      "fcf_margin": 0.07558887728485376
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.2923658373835733,
       "op_margin": 0.07342509609363625,
       "fcf_margin": 0.07375649966368344,
-      "incr_op_margin_yoy": 0.06327735693229938,
-      "rev_growth_yoy": 0.4060475514638466,
       "op_leverage_ratio": 0.9717918838079704,
       "fcf_margin_change": 0.023174195692707733
     },
@@ -121,8 +101,7 @@
       "fcf_margin": -0.09317950678679233,
       "incr_op_margin_yoy": 0.10039311726197567,
       "rev_growth_yoy": 0.4466520983780199,
-      "rev_growth_yoy_accel": 0.04060454691417331,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1669360064504758
     },
     {
@@ -212,7 +191,7 @@
       "incr_op_margin_yoy": 0.24488349556690145,
       "rev_growth_yoy": 0.118276396811589,
       "rev_growth_yoy_accel": -0.02341158181422065,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17263032085009816
     },
     {
@@ -438,9 +417,37 @@
       "rev_growth_yoy": 0.013021259011574308,
       "rev_growth_yoy_accel": 0.014866409357515847,
       "fcf_margin_change": 0.05781206160231188
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1499696000,
+      "gross_profit": 458968000,
+      "operating_income": 158446000,
+      "net_income": 86590000,
+      "opex": 300522000,
+      "cogs": 1040728000,
+      "rd": null,
+      "sga": 193894000,
+      "fcf": 233344000,
+      "ocf": 355093000,
+      "capex": -121749000,
+      "gross_margin": 0.30604069091335845,
+      "op_margin": 0.10565207882130778,
+      "fcf_margin": 0.15559420042461938,
+      "incr_op_margin_yoy": 0.3131816856226305,
+      "rev_growth_yoy": 0.047920643749353654,
+      "rev_growth_yoy_accel": 0.03489938473777934,
+      "fcf_margin_change": 0.021638837582319742
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +31.3% vs year-ago OPM: +9.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -596,12 +603,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +14.6% vs OpEx growth +0.9% (leverage: 15.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +31.1% -> +30.6% -> +33.3% (reversal +2.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -629,7 +630,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:30.924571",
-  "sector": "Industrials",
-  "industry": "Waste Management"
+  "last_updated": "2026-02-24T10:27:05.831669"
 }

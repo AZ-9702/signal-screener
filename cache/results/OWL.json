@@ -1,25 +1,9 @@
 {
   "ticker": "OWL",
   "name": "BLUE OWL CAPITAL INC.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 106006000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -49706000,
-      "opex": 151427000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 22463000,
-      "ocf": 22787000,
-      "capex": -324000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.21190309982453823
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -295000,
       "gross_margin": null,
       "op_margin": -0.0014407155529272619,
-      "fcf_margin": 0.002698107628622117,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.20920499219591612
+      "fcf_margin": 0.002698107628622117
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.43384770549672214,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.33625203440445395
     },
     {
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5236050312111161,
-      "rev_growth_yoy": 1.7217232986812068,
       "op_leverage_ratio": 0.5536633540521383,
       "fcf_margin_change": 0.08975732571439399
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.27112766643597114,
       "rev_growth_yoy": 1.5500535925487877,
-      "rev_growth_yoy_accel": -0.17166970613241905,
       "fcf_margin_change": -0.252477364775145
     },
     {
@@ -249,7 +229,7 @@
       "fcf_margin": 2.6959670562686306,
       "rev_growth_yoy": -0.7368606901608147,
       "rev_growth_yoy_accel": -0.017805300637336874,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21707911004400104
     },
     {
@@ -290,7 +270,7 @@
       "op_margin": null,
       "fcf_margin": 0.3420910278709398,
       "rev_growth_yoy": 0.39943398863318735,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -2.113311346976053
     },
     {
@@ -398,7 +378,7 @@
       "fcf_margin": 2.989613307722973,
       "rev_growth_yoy": 0.06584416186400087,
       "rev_growth_yoy_accel": -0.037309107499602964,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 2.9575815626491933
     },
     {
@@ -422,6 +402,27 @@
       "rev_growth_yoy_accel": 0.003570663692597273,
       "op_leverage_ratio": 4.75222268283189,
       "fcf_margin_change": -0.18148919262137175
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 146792000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 47667000,
+      "opex": 588598000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 359119000,
+      "ocf": 382850000,
+      "capex": -23731000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 2.446448035315276,
+      "rev_growth_yoy": 0.06695740659979649,
+      "rev_growth_yoy_accel": -0.0024574189568016547,
+      "fcf_margin_change": -0.3616760797863252
     }
   ],
   "signals": [
@@ -516,12 +517,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +155.0% vs prior quarter YoY: +172.2% (decel: -17.2%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +43.4% -> +52.4% (+9.0%)",
@@ -568,5 +563,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:15:58.314629"
+  "last_updated": "2026-02-24T10:23:01.594762"
 }

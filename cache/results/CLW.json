@@ -1,25 +1,9 @@
 {
   "ticker": "CLW",
   "name": "CLEARWATER PAPER CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Paper & Paper Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 452800000,
-      "gross_profit": 76700000,
-      "operating_income": 41900000,
-      "net_income": 22600000,
-      "opex": 410800000,
-      "cogs": 376100000,
-      "rd": null,
-      "sga": 32600000,
-      "fcf": 58800000,
-      "ocf": 70900000,
-      "capex": -12100000,
-      "gross_margin": 0.1693904593639576,
-      "op_margin": 0.09253533568904594,
-      "fcf_margin": 0.12985865724381626
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -11100000,
       "gross_margin": 0.12984268607654378,
       "op_margin": 0.06362996008452688,
-      "fcf_margin": 0.0532988964545668,
-      "fcf_margin_change": -0.07655976078924946
+      "fcf_margin": 0.0532988964545668
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -75,7 +58,7 @@
       "gross_margin": 0.11609322974472808,
       "op_margin": 0.030632630410654827,
       "fcf_margin": 0.016426193118756937,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00559942146521363
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.12392813393221723,
       "op_margin": 0.05634953042057983,
       "fcf_margin": 0.04797876684360964,
-      "incr_op_margin_yoy": -0.3864864864864865,
-      "rev_growth_yoy": 0.08171378091872791,
       "op_leverage_ratio": 1.499847937986664,
       "fcf_margin_change": 0.031552573724852706
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.0680049160180254,
       "incr_op_margin_yoy": 0.09309791332263243,
       "rev_growth_yoy": 0.14627846912420756,
-      "rev_growth_yoy_accel": 0.06456468820547964,
       "fcf_margin_change": 0.02002614917441576
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.39750849377123443,
       "rev_growth_yoy": 0.19600443951165372,
       "rev_growth_yoy_accel": -0.09927115103952736,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12661833794788824
     },
     {
@@ -298,7 +278,7 @@
       "incr_op_margin_yoy": 0.3219178082191781,
       "rev_growth_yoy": -0.055576703464027405,
       "rev_growth_yoy_accel": 0.4345523777812269,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06875845404973556
     },
     {
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": -0.15056526207605345,
       "rev_growth_yoy": -0.33185538881309684,
       "rev_growth_yoy_accel": -0.09404805306138384,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04792765170932729
     },
     {
@@ -435,9 +415,42 @@
       "rev_growth_yoy_accel": 0.34634814243628526,
       "op_leverage_ratio": 0.0971195821392488,
       "fcf_margin_change": 0.1697720564811723
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 386400000,
+      "gross_profit": 17200000,
+      "operating_income": 7500000,
+      "net_income": 38300000,
+      "opex": 378800000,
+      "cogs": 369200000,
+      "rd": null,
+      "sga": 21100000,
+      "fcf": -9900000,
+      "ocf": 5000000,
+      "capex": -14900000,
+      "gross_margin": 0.044513457556935816,
+      "op_margin": 0.019409937888198756,
+      "fcf_margin": -0.02562111801242236,
+      "rev_growth_yoy": -0.0018083182640144665,
+      "rev_growth_yoy_accel": -0.016301071887202874,
+      "fcf_margin_change": -0.06496948893974067
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -4.0% (year-ago) -> +1.9%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -13.9% -> +1.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -601,12 +614,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +14.6% vs prior quarter YoY: +8.2% (accel: +6.5%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +13.0% -> +3.5% -> +11.6% (reversal +8.1%)",
@@ -644,7 +651,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:49:13.316086",
-  "sector": "Basic Materials",
-  "industry": "Paper & Paper Products"
+  "last_updated": "2026-02-24T10:28:22.489737"
 }

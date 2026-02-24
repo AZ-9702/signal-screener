@@ -1,25 +1,9 @@
 {
   "ticker": "AKAM",
-  "name": "Akamai Technologies, Inc",
+  "name": "Akamai Technologies, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 846287000,
-      "gross_profit": 542440000,
-      "operating_income": 134617000,
-      "net_income": 113370000,
-      "opex": 711670000,
-      "cogs": 303847000,
-      "rd": 67228000,
-      "sga": null,
-      "fcf": 172573000,
-      "ocf": 291093000,
-      "capex": -118520000,
-      "gross_margin": 0.6409645900267876,
-      "op_margin": 0.1590677866964753,
-      "fcf_margin": 0.20391781984125953
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -87222000,
       "gross_margin": 0.6360696706332443,
       "op_margin": 0.21640236001082225,
-      "fcf_margin": 0.19291498360048795,
-      "fcf_margin_change": -0.011002836240771585
+      "fcf_margin": 0.19291498360048795
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.6247760381977994,
       "op_margin": 0.23385129874393779,
       "fcf_margin": 0.31765288031293676,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12473789671244881
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.640580853098995,
       "op_margin": 0.21658283242650975,
       "fcf_margin": 0.3568334294279169,
-      "incr_op_margin_yoy": 1.0405782871459768,
-      "rev_growth_yoy": 0.06980019780523629,
       "op_leverage_ratio": 0.6324616196515588,
       "fcf_margin_change": -0.014021809183179024
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.18972674064098038,
       "incr_op_margin_yoy": -0.1484271156402304,
       "rev_growth_yoy": 0.07231330425248128,
-      "rev_growth_yoy_accel": 0.002513106447244992,
       "fcf_margin_change": -0.16710668878693652
     },
     {
@@ -231,7 +211,7 @@
       "incr_op_margin_yoy": -0.7798017845564852,
       "rev_growth_yoy": 0.035855034472375605,
       "rev_growth_yoy_accel": 0.022519074744738597,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17120454518581119
     },
     {
@@ -367,7 +347,7 @@
       "incr_op_margin_yoy": -1.4736377497793114,
       "rev_growth_yoy": 0.025046808245487263,
       "rev_growth_yoy_accel": -0.015549410852913125,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03243815205295614
     },
     {
@@ -435,8 +415,31 @@
       "incr_op_margin_yoy": 1.909611419190807,
       "rev_growth_yoy": 0.049718367757263765,
       "rev_growth_yoy_accel": -0.01552796230255779,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.011465796104144665
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1094912000,
+      "gross_profit": 642411000,
+      "operating_income": 94876000,
+      "net_income": 85072000,
+      "opex": 1000036000,
+      "cogs": 452501000,
+      "rd": 139453000,
+      "sga": null,
+      "fcf": 234890000,
+      "ocf": 366584000,
+      "capex": -131694000,
+      "gross_margin": 0.5867238645662848,
+      "op_margin": 0.08665171264905308,
+      "fcf_margin": 0.2145286561842413,
+      "incr_op_margin_yoy": -0.7093753751350487,
+      "rev_growth_yoy": 0.07350733720349943,
+      "rev_growth_yoy_accel": 0.023788969446235667,
+      "op_leverage_ratio": 0.3045916649452269,
+      "fcf_margin_change": -0.09747839842258763
     }
   ],
   "signals": [
@@ -501,12 +504,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +104.1% vs year-ago OPM: +15.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +31.8% -> +37.1% (+5.3%)",
@@ -544,7 +541,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:26:35.974582",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:17:26.382888"
 }

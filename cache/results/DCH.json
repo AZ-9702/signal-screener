@@ -1,25 +1,9 @@
 {
   "ticker": "DCH",
   "name": "DAUCH CORPORATION",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1437900000,
-      "gross_profit": 236500000,
-      "operating_income": 103000000,
-      "net_income": 36000000,
-      "opex": 133500000,
-      "cogs": 1201400000,
-      "rd": null,
-      "sga": 83300000,
-      "fcf": 139000000,
-      "ocf": 208300000,
-      "capex": -69300000,
-      "gross_margin": 0.16447597190347032,
-      "op_margin": 0.07163224146324501,
-      "fcf_margin": 0.09666875304263162
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -39600000,
       "gross_margin": 0.15935723808855518,
       "op_margin": 0.06701284120412603,
-      "fcf_margin": 0.09788786751806891,
-      "fcf_margin_change": 0.001219114475437294
+      "fcf_margin": 0.09788786751806891
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,9 +77,7 @@
       "gross_margin": 0.11335114565622217,
       "op_margin": 0.026232693709011417,
       "fcf_margin": 0.029957088494858716,
-      "incr_op_margin_yoy": 0.34812623274161736,
-      "rev_growth_yoy": -0.14103901523054455,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01653536884583867
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.027781646010304972,
       "incr_op_margin_yoy": -2.27027027027027,
       "rev_growth_yoy": 0.00778892709283559,
-      "rev_growth_yoy_accel": 0.14882794232338015,
       "op_leverage_ratio": 1.968485470402706,
       "fcf_margin_change": -0.002175442484553744
     },
@@ -164,7 +144,7 @@
       "incr_op_margin_yoy": 0.04967401428127911,
       "rev_growth_yoy": 0.26551809413898275,
       "rev_growth_yoy_accel": 0.1447357361556585,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.047298946156869734
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.0007552870090634441,
       "rev_growth_yoy": 0.09205311826461796,
       "rev_growth_yoy_accel": 0.05187765523718445,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06617777514554818
     },
     {
@@ -299,7 +279,7 @@
       "incr_op_margin_yoy": 0.36194690265486723,
       "rev_growth_yoy": 0.07564093982194256,
       "rev_growth_yoy_accel": 0.02516345005386616,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01667501738806081
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy": 0.0002657983919197289,
       "rev_growth_yoy_accel": 0.059139779890418784,
       "fcf_margin_change": 0.03009098788758304
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1383900000,
+      "gross_profit": 140900000,
+      "operating_income": -33800000,
+      "net_income": -75300000,
+      "opex": 174700000,
+      "cogs": 1243000000,
+      "rd": null,
+      "sga": 98500000,
+      "fcf": 54700000,
+      "ocf": 120500000,
+      "capex": -65800000,
+      "gross_margin": 0.10181371486379073,
+      "op_margin": -0.024423730038297564,
+      "fcf_margin": 0.03952597731049931,
+      "incr_op_margin_yoy": -22.580645161290324,
+      "rev_growth_yoy": 0.0022450753186558517,
+      "rev_growth_yoy_accel": 0.001979276926736123,
+      "fcf_margin_change": -0.013088119547269905
     }
   ],
   "signals": [
@@ -557,18 +559,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +16.3% vs OpEx growth +8.3% (leverage: 2.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +0.8% vs prior quarter YoY: -14.1% (accel: +14.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +34.8% vs year-ago OPM: +7.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -596,5 +586,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:38:18.010864"
+  "last_updated": "2026-02-24T10:47:10.745792"
 }

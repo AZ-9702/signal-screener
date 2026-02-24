@@ -1,25 +1,9 @@
 {
   "ticker": "SPSC",
   "name": "SPS COMMERCE, INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 83308000,
-      "gross_profit": 56387000,
-      "operating_income": 13557000,
-      "net_income": 13470000,
-      "opex": 42830000,
-      "cogs": 26921000,
-      "rd": 7937000,
-      "sga": null,
-      "fcf": 18205000,
-      "ocf": 23033000,
-      "capex": -4828000,
-      "gross_margin": 0.6768497623277476,
-      "op_margin": 0.16273347097517646,
-      "fcf_margin": 0.21852643203533875
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3263000,
       "gross_margin": 0.6673474371212289,
       "op_margin": 0.14054210047283947,
-      "fcf_margin": 0.20358736430838903,
-      "op_leverage_ratio": 0.7531936859064222,
-      "fcf_margin_change": -0.014939067726949723
+      "fcf_margin": 0.20358736430838903
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6532075985830511,
       "op_margin": 0.1496068356105726,
       "fcf_margin": 0.26571684378527777,
-      "incr_op_margin_yoy": 0.09337721102426985,
-      "rev_growth_yoy": 0.233446967878235,
       "op_leverage_ratio": 1.4424321389214982,
       "fcf_margin_change": 0.06057213611214446
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -7.605068778340764e-05,
       "incr_op_margin_yoy": 0.25485131465659977,
       "rev_growth_yoy": 0.1675916265234089,
-      "rev_growth_yoy_accel": -0.0658553413548261,
       "op_leverage_ratio": 0.7938389775963325,
       "fcf_margin_change": -0.26579289447306115
     },
@@ -329,7 +308,7 @@
       "incr_op_margin_yoy": 0.2645383951682485,
       "rev_growth_yoy": 0.17773892773892774,
       "rev_growth_yoy_accel": -0.010617127811331256,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045369347000968424
     },
     {
@@ -444,11 +423,46 @@
       "incr_op_margin_yoy": 0.2143565489358456,
       "rev_growth_yoy": 0.16017252544505944,
       "rev_growth_yoy_accel": -0.05991133090536635,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15036104092767244
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 192652000,
+      "gross_profit": 135695000,
+      "operating_income": 34686000,
+      "net_income": 25841000,
+      "opex": 101009000,
+      "cogs": 56957000,
+      "rd": 16694000,
+      "sga": null,
+      "fcf": 38220000,
+      "ocf": 45871000,
+      "capex": -7651000,
+      "gross_margin": 0.704352926520358,
+      "op_margin": 0.18004484770466955,
+      "fcf_margin": 0.1983888046840936,
+      "incr_op_margin_yoy": 0.45720855369050356,
+      "rev_growth_yoy": 0.12723293955192005,
+      "rev_growth_yoy_accel": -0.03293958589313939,
+      "op_leverage_ratio": 6.3962647609207535,
+      "fcf_margin_change": -0.08888792461070799
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +1.4% vs OpEx growth +0.2% (leverage: 6.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +45.7% vs year-ago OPM: +14.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -517,12 +531,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +16.8% vs prior quarter YoY: +23.3% (decel: -6.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +25.5% vs year-ago OPM: +14.1%",
       "severity": "MEDIUM"
@@ -571,5 +579,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:17:51.304238"
+  "last_updated": "2026-02-24T10:18:45.711510"
 }

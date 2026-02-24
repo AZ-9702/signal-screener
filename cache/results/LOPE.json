@@ -1,25 +1,9 @@
 {
   "ticker": "LOPE",
   "name": "GRAND CANYON EDUCATION,\u00a0INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 238289000,
-      "gross_profit": null,
-      "operating_income": 97292000,
-      "net_income": 86755000,
-      "opex": 140997000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 128740000,
-      "ocf": 128740000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.40829413023681327,
-      "fcf_margin": 0.5402683296333444
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.35548296149982694,
-      "fcf_margin": 0.379122456042611,
-      "fcf_margin_change": -0.16114587359073335
+      "fcf_margin": 0.379122456042611
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +78,7 @@
       "gross_margin": null,
       "op_margin": 0.40735790210680417,
       "fcf_margin": 0.4146139647380816,
-      "incr_op_margin_yoy": 0.39031099564453275,
-      "rev_growth_yoy": 0.05492070552983982,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.42154930741849
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.2877939483805958,
       "incr_op_margin_yoy": -0.939158216418947,
       "rev_growth_yoy": 0.030383988790127207,
-      "rev_growth_yoy_accel": -0.02453671673971261,
       "fcf_margin_change": -0.1268200163574858
     },
     {
@@ -187,7 +167,7 @@
       "incr_op_margin_yoy": -1.6004915346805024,
       "rev_growth_yoy": 0.029135637451467127,
       "rev_growth_yoy_accel": 0.019690223047814707,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5972064560352253
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": 0.36361315359477125,
       "rev_growth_yoy": 0.07570158484731349,
       "rev_growth_yoy_accel": 0.012492500907106505,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5527405088543877
     },
     {
@@ -436,9 +416,44 @@
       "rev_growth_yoy_accel": 0.007810699312857869,
       "op_leverage_ratio": 0.22753699168398273,
       "fcf_margin_change": -0.6872764603668845
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 308119000,
+      "gross_profit": null,
+      "operating_income": 108079000,
+      "net_income": 86732000,
+      "opex": 200040000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 130485000,
+      "ocf": 130485000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.35077031925976654,
+      "fcf_margin": 0.4234889766616145,
+      "incr_op_margin_yoy": 0.5179467387109224,
+      "rev_growth_yoy": 0.05313545679198012,
+      "rev_growth_yoy_accel": -0.04275989804727105,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.60972098836406
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -18.6% -> +42.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +51.8% vs year-ago OPM: +34.2%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -581,7 +596,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:05:05.597294",
-  "sector": "Consumer Defensive",
-  "industry": "Education & Training Services"
+  "last_updated": "2026-02-24T10:30:27.585338"
 }

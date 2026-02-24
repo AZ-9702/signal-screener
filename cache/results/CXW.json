@@ -1,25 +1,9 @@
 {
   "ticker": "CXW",
   "name": "CORECIVIC, INC.",
+  "sector": "Industrials",
+  "industry": "Security & Protection Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 473477000,
-      "gross_profit": null,
-      "operating_income": 19244000,
-      "net_income": -26803000,
-      "opex": 454233000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 74017000,
-      "ocf": 74017000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.04064400171497243,
-      "fcf_margin": 0.15632649526798556
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.01438034122247195,
-      "fcf_margin": 0.21902805694958194,
-      "fcf_margin_change": 0.06270156168159638
+      "fcf_margin": 0.21902805694958194
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.037174081033900096,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.256202137983482
     },
     {
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.044288367896334294,
-      "rev_growth_yoy": -0.002838575052220066,
       "fcf_margin_change": -0.47259390659164874
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.21569445548226443,
       "rev_growth_yoy": -0.00380455579062188,
-      "rev_growth_yoy_accel": -0.000965980738401814,
       "fcf_margin_change": 0.25998282337859874
     },
     {
@@ -182,7 +163,7 @@
       "fcf_margin": 0.07507747654491731,
       "rev_growth_yoy": -0.0014826330716132955,
       "rev_growth_yoy_accel": 0.01333716514313477,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.023646123130198572
     },
     {
@@ -269,7 +250,7 @@
       "fcf_margin": 0.04544362702189941,
       "rev_growth_yoy": 0.042027180956784954,
       "rev_growth_yoy_accel": 3.334625661628038e-05,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1276143318579964
     },
     {
@@ -376,7 +357,7 @@
       "fcf_margin": 0.09103876781266693,
       "rev_growth_yoy": -0.024084955441134762,
       "rev_growth_yoy_accel": 0.0002470492978351238,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.009099327845882521
     },
     {
@@ -422,9 +403,37 @@
       "rev_growth_yoy_accel": 0.08275915181465454,
       "op_leverage_ratio": 0.659420941878122,
       "fcf_margin_change": -0.08706125370579061
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 603953000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": null,
+      "opex": 548178000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -376000,
+      "ocf": -376000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.0006225650009189456,
+      "rev_growth_yoy": 0.26009142633003196,
+      "rev_growth_yoy_accel": 0.07928061661886868,
+      "op_leverage_ratio": 1.162315481574244,
+      "fcf_margin_change": -0.0932682784892045
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +26.0% vs prior quarter YoY: +18.1% (accel: +7.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -490,12 +499,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.7% -> +42.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +15.6% -> +21.9% (+6.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -510,7 +513,7 @@
         20
       ],
       "op_income": [
-        2,
+        1,
         20
       ],
       "fcf": [
@@ -521,12 +524,10 @@
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 2/20Q"
+      "op_income: 1/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:36:53.006209",
-  "sector": "Industrials",
-  "industry": "Security & Protection Services"
+  "last_updated": "2026-02-24T10:12:19.539368"
 }

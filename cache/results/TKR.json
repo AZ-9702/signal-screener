@@ -1,25 +1,9 @@
 {
   "ticker": "TKR",
   "name": "TIMKEN CO",
+  "sector": "Industrials",
+  "industry": "Tools & Accessories",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 891700000,
-      "gross_profit": 237000000,
-      "operating_income": 98800000,
-      "net_income": 53100000,
-      "opex": 138200000,
-      "cogs": 654700000,
-      "rd": null,
-      "sga": 135700000,
-      "fcf": 120400000,
-      "ocf": 120400000,
-      "capex": null,
-      "gross_margin": 0.26578445665582595,
-      "op_margin": 0.1107995962767747,
-      "fcf_margin": 0.13502298979477403
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.2917885703140238,
       "op_margin": 0.14696703725375462,
-      "fcf_margin": 0.030914764969767895,
-      "op_leverage_ratio": 2.0117937701630244,
-      "fcf_margin_change": -0.10410822482500615
+      "fcf_margin": 0.030914764969767895
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.231410701876303,
       "op_margin": 0.08547602501737317,
       "fcf_margin": 0.10195572322049042,
-      "incr_op_margin_yoy": -0.10986159169550173,
-      "rev_growth_yoy": 0.12964001345744083,
       "fcf_margin_change": -3.9842189709135556e-05
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.0010670460608216254,
       "incr_op_margin_yoy": 0.21774193548387097,
       "rev_growth_yoy": 0.09674273454261752,
-      "rev_growth_yoy_accel": -0.032897278914823316,
       "op_leverage_ratio": 2.113350320438576,
       "fcf_margin_change": -0.10302276928131204
     },
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": 2.1797752808988764,
       "rev_growth_yoy": -0.007527700245284615,
       "rev_growth_yoy_accel": 0.034478516674819555,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.043462580103516814
     },
     {
@@ -435,6 +414,28 @@
       "rev_growth_yoy": 0.02689030883919063,
       "rev_growth_yoy_accel": 0.034418009084475246,
       "fcf_margin_change": 0.07894399517127396
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1111000000,
+      "gross_profit": 325300000,
+      "operating_income": 109400000,
+      "net_income": 62300000,
+      "opex": 215900000,
+      "cogs": 785700000,
+      "rd": null,
+      "sga": 187400000,
+      "fcf": 183300000,
+      "ocf": 183300000,
+      "capex": null,
+      "gross_margin": 0.2927992799279928,
+      "op_margin": 0.09846984698469848,
+      "fcf_margin": 0.16498649864986498,
+      "incr_op_margin_yoy": -0.0962566844919786,
+      "rev_growth_yoy": 0.03483606557377049,
+      "rev_growth_yoy_accel": 0.00794575673457986,
+      "fcf_margin_change": -0.00881006171656834
     }
   ],
   "signals": [
@@ -593,12 +594,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +3.7% vs OpEx growth +1.2% (leverage: 3.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +15.0% vs OpEx growth +7.5% (leverage: 2.0x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -626,5 +621,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:31.113859"
+  "last_updated": "2026-02-24T10:40:55.413500"
 }

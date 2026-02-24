@@ -1,25 +1,9 @@
 {
   "ticker": "DT",
   "name": "Dynatrace, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 182911000,
-      "gross_profit": 149791000,
-      "operating_income": 24107000,
-      "net_income": 18416000,
-      "opex": 125684000,
-      "cogs": 33120000,
-      "rd": 28730000,
-      "sga": null,
-      "fcf": 71248000,
-      "ocf": 73716000,
-      "capex": -2468000,
-      "gross_margin": 0.8189283312649321,
-      "op_margin": 0.1317963381097911,
-      "fcf_margin": 0.38952277337065566
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -5208000,
       "gross_margin": 0.8201817774701787,
       "op_margin": 0.10611488824654969,
-      "fcf_margin": 0.41049037169726826,
-      "op_leverage_ratio": 0.6382959873544614,
-      "fcf_margin_change": 0.020967598326612602
+      "fcf_margin": 0.41049037169726826
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.8153393751609447,
       "op_margin": 0.08811460089879801,
       "fcf_margin": 0.23544852678534345,
-      "incr_op_margin_yoy": -0.04998703655690952,
-      "rev_growth_yoy": 0.31630137061193697,
       "op_leverage_ratio": 0.892835657962848,
       "fcf_margin_change": 0.17519776912256746
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.3261397153433498,
       "incr_op_margin_yoy": -0.05747044453558246,
       "rev_growth_yoy": 0.28539368155355616,
-      "rev_growth_yoy_accel": -0.030907689058380816,
       "op_leverage_ratio": 0.7193128803250742,
       "fcf_margin_change": 0.09069118855800634
     },
@@ -329,7 +308,7 @@
       "incr_op_margin_yoy": 0.1166973196249284,
       "rev_growth_yoy": 0.19926941956105093,
       "rev_growth_yoy_accel": -0.011790283118017358,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24955609540460805
     },
     {
@@ -446,9 +425,38 @@
       "rev_growth_yoy_accel": -0.014611685060261281,
       "op_leverage_ratio": 8.675726386917104,
       "fcf_margin_change": -0.4929513390691578
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 515473000,
+      "gross_profit": 419637000,
+      "operating_income": 72738000,
+      "net_income": 40055000,
+      "opex": 346899000,
+      "cogs": 95836000,
+      "rd": 120569000,
+      "sga": null,
+      "fcf": 27234000,
+      "ocf": 33780000,
+      "capex": -6546000,
+      "gross_margin": 0.8140814358850997,
+      "op_margin": 0.141109233655303,
+      "fcf_margin": 0.052833029082027576,
+      "incr_op_margin_yoy": 0.3186976697266216,
+      "rev_growth_yoy": 0.1818194323759827,
+      "rev_growth_yoy_accel": 0.0007269943963161274,
+      "op_leverage_ratio": 0.9186127404796649,
+      "fcf_margin_change": -0.0035202286951472317
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +31.9% vs year-ago OPM: +10.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -595,7 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:32:35.053930",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T11:07:19.263844"
 }

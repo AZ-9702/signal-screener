@@ -1,25 +1,9 @@
 {
   "ticker": "CSL",
   "name": "CARLISLE COMPANIES INCORPORATED",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1064100000,
-      "gross_profit": 292500000,
-      "operating_income": 111800000,
-      "net_income": 80600000,
-      "opex": 180700000,
-      "cogs": 771600000,
-      "rd": 12600000,
-      "sga": 164200000,
-      "fcf": 233700000,
-      "ocf": 256500000,
-      "capex": -22800000,
-      "gross_margin": 0.27488018043416973,
-      "op_margin": 0.10506531341039375,
-      "fcf_margin": 0.21962221595714687
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -20000000,
       "gross_margin": 0.2543245869776482,
       "op_margin": 0.08697764820213799,
-      "fcf_margin": 0.04625850340136054,
-      "fcf_margin_change": -0.17336371255578634
+      "fcf_margin": 0.04625850340136054
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.28379360465116277,
       "op_margin": 0.13263081395348839,
       "fcf_margin": 0.06678779069767442,
-      "incr_op_margin_yoy": 0.2266752164155178,
-      "rev_growth_yoy": 0.29311154966638475,
       "op_leverage_ratio": 3.2469883939149304,
       "fcf_margin_change": 0.007043187474810322
     },
@@ -120,8 +101,7 @@
       "fcf_margin": 0.008821760342177371,
       "incr_op_margin_yoy": 0.40188315857051143,
       "rev_growth_yoy": 0.4541302235179786,
-      "rev_growth_yoy_accel": 0.16101867385159385,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05796603035549705
     },
     {
@@ -144,7 +124,7 @@
       "incr_op_margin_yoy": 0.41369003138544314,
       "rev_growth_yoy": 0.5680930548480218,
       "rev_growth_yoy_accel": 0.11396283133004315,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06026698295740572
     },
     {
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": 0.42929133858267715,
       "rev_growth_yoy": -0.21219006883646327,
       "rev_growth_yoy_accel": -0.04787320837134698,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21965570957572533
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy": 0.009973005398920216,
       "rev_growth_yoy_accel": 0.010731312306406773,
       "fcf_margin_change": 0.11387872618254821
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1127700000,
+      "gross_profit": 380600000,
+      "operating_income": 190000000,
+      "net_income": 127400000,
+      "opex": 190600000,
+      "cogs": 747100000,
+      "rd": 12900000,
+      "sga": 176600000,
+      "fcf": 346100000,
+      "ocf": 386000000,
+      "capex": -39900000,
+      "gross_margin": 0.33750110845082915,
+      "op_margin": 0.16848452602642547,
+      "fcf_margin": 0.30690786556708344,
+      "incr_op_margin_yoy": -7.083333333333333,
+      "rev_growth_yoy": 0.004274646005877639,
+      "rev_growth_yoy_accel": -0.005698359393042578,
+      "fcf_margin_change": 0.014829760288295135
     }
   ],
   "signals": [
@@ -608,12 +610,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +45.4% vs prior quarter YoY: +29.3% (accel: +16.1%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +40.2% vs year-ago OPM: +8.7%",
       "severity": "HIGH"
@@ -622,12 +618,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.6% vs OpEx growth +1.4% (leverage: 3.2x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +22.7% vs year-ago OPM: +10.5%",
       "severity": "MEDIUM"
     },
     {
@@ -662,7 +652,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:26:54.376627",
-  "sector": "Industrials",
-  "industry": "Building Products & Equipment"
+  "last_updated": "2026-02-24T10:41:03.083915"
 }

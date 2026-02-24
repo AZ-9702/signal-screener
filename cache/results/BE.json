@@ -1,25 +1,9 @@
 {
   "ticker": "BE",
   "name": "BLOOM ENERGY CORPORATION",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 249387000,
-      "gross_profit": 63626000,
-      "operating_income": -4518000,
-      "net_income": -27138000,
-      "opex": 68144000,
-      "cogs": 185761000,
-      "rd": 21690000,
-      "sga": null,
-      "fcf": -23654000,
-      "ocf": -18807000,
-      "capex": -4847000,
-      "gross_margin": 0.25512957772458067,
-      "op_margin": -0.01811642146543324,
-      "fcf_margin": -0.09484856869042893
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -12932000,
       "gross_margin": 0.28169602127758275,
       "op_margin": -0.07420866257403083,
-      "fcf_margin": -0.5255841284077378,
-      "fcf_margin_change": -0.4307355597173089
+      "fcf_margin": -0.5255841284077378
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.20060968665960038,
       "op_margin": -0.03943399587118325,
       "fcf_margin": 0.12290091715794914,
-      "incr_op_margin_yoy": -0.096547204675347,
-      "rev_growth_yoy": 0.37325121197175476,
       "op_leverage_ratio": 36.70901716425217,
       "fcf_margin_change": 0.5225525086417254
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.5518978904590651,
       "incr_op_margin_yoy": -7.289817974971559,
       "rev_growth_yoy": 0.036246114830908165,
-      "rev_growth_yoy_accel": -0.3370050971408466,
       "fcf_margin_change": -0.6747988076170143
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 0.824711799374341,
       "rev_growth_yoy": 0.2378718610731964,
       "rev_growth_yoy_accel": -0.13097199509401491,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 1.0207688577268665
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": -0.47332259199585164,
       "rev_growth_yoy": 0.36949574714138106,
       "rev_growth_yoy_accel": 0.13162388606818465,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.16659886491935755
     },
     {
@@ -438,9 +418,50 @@
       "rev_growth_yoy_accel": 0.3759719822229045,
       "op_leverage_ratio": 0.9782298429719125,
       "fcf_margin_change": 0.5633800001934945
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 777683000,
+      "gross_profit": 239895000,
+      "operating_income": 87529000,
+      "net_income": null,
+      "opex": 152366000,
+      "cogs": 537788000,
+      "rd": 55889000,
+      "sga": null,
+      "fcf": 395119000,
+      "ocf": 418073000,
+      "capex": -22954000,
+      "gross_margin": 0.3084740183339484,
+      "op_margin": 0.11255100085767594,
+      "fcf_margin": 0.5080720550661387,
+      "incr_op_margin_yoy": -0.08367187880559208,
+      "rev_growth_yoy": 0.35865218477514577,
+      "rev_growth_yoy_accel": -0.21232109298901208,
+      "op_leverage_ratio": 8.39500488827098,
+      "fcf_margin_change": 0.49387683612684985
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +1.4% -> +50.8% (+49.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +49.8% vs OpEx growth +5.9% (leverage: 8.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +35.9% vs prior quarter YoY: +57.1% (decel: -21.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -664,12 +685,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.6% vs prior quarter YoY: +37.3% (decel: -33.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -40.0% -> +12.3%",
@@ -713,7 +728,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:05:55.583649",
-  "sector": "Industrials",
-  "industry": "Electrical Equipment & Parts"
+  "last_updated": "2026-02-24T11:06:57.394452"
 }

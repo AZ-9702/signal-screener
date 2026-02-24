@@ -1,25 +1,9 @@
 {
   "ticker": "SHW",
   "name": "THE SHERWIN-WILLIAMS COMPANY",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4488800000,
-      "gross_profit": 2128700000,
-      "operating_income": 752800000,
-      "net_income": 407000000,
-      "opex": 1375900000,
-      "cogs": 2360100000,
-      "rd": null,
-      "sga": 1472200000,
-      "fcf": 844800000,
-      "ocf": 844800000,
-      "capex": null,
-      "gross_margin": 0.4742247371235074,
-      "op_margin": 0.1677062912136874,
-      "fcf_margin": 0.188201746569239
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.4536082474226804,
       "op_margin": 0.16484106529209622,
-      "fcf_margin": 0.04203178694158076,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.14616995962765822
+      "fcf_margin": 0.04203178694158076
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3947208164465257,
       "op_margin": 0.10575166418176855,
       "fcf_margin": 0.040717330589445835,
-      "incr_op_margin_yoy": -0.9118185144529821,
-      "rev_growth_yoy": 0.06088486900730707,
       "fcf_margin_change": -0.12432046061656966
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.0052613679556684735,
       "incr_op_margin_yoy": -0.3288590604026846,
       "rev_growth_yoy": 0.07360395189003437,
-      "rev_growth_yoy_accel": 0.012719082882727294,
       "op_leverage_ratio": 3.1077318829927973,
       "fcf_margin_change": -0.035455962633777365
     },
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": -0.5978695073235686,
       "rev_growth_yoy": -0.013799059238571219,
       "rev_growth_yoy_accel": -0.017947802188575997,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.185871998150831
     },
     {
@@ -432,6 +411,27 @@
       "rev_growth_yoy": 0.03175659229208925,
       "rev_growth_yoy_accel": 0.024900178356029295,
       "fcf_margin_change": 0.029458048365360673
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5595900000,
+      "gross_profit": 2712600000,
+      "operating_income": null,
+      "net_income": 476800000,
+      "opex": null,
+      "cogs": 2883300000,
+      "rd": null,
+      "sga": 1936800000,
+      "fcf": 1092500000,
+      "ocf": 1092500000,
+      "capex": null,
+      "gross_margin": 0.4847477617541414,
+      "op_margin": null,
+      "fcf_margin": 0.1952322235922729,
+      "rev_growth_yoy": 0.05638828060107227,
+      "rev_growth_yoy_accel": 0.02463168830898302,
+      "fcf_margin_change": -0.010423465124659553
     }
   ],
   "signals": [
@@ -586,7 +586,7 @@
         20
       ],
       "op_income": [
-        16,
+        15,
         20
       ],
       "fcf": [
@@ -595,9 +595,11 @@
       ]
     },
     "gaps": [],
-    "warnings": []
+    "warnings": [
+      "op_income: 15/20Q"
+    ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:16.310171"
+  "last_updated": "2026-02-24T10:19:30.396299"
 }

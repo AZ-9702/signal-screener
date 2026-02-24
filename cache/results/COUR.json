@@ -1,25 +1,9 @@
 {
   "ticker": "COUR",
   "name": "COURSERA, INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Education & Training Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 83262000,
-      "gross_profit": 43498000,
-      "operating_income": -26190000,
-      "net_income": -26718000,
-      "opex": 69688000,
-      "cogs": 39764000,
-      "rd": 23335000,
-      "sga": null,
-      "fcf": -17533000,
-      "ocf": -17533000,
-      "capex": null,
-      "gross_margin": 0.5224231942542816,
-      "op_margin": -0.3145492541615623,
-      "fcf_margin": -0.21057625327280152
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.5606029741291505,
       "op_margin": -0.20779294266766257,
-      "fcf_margin": -0.04919535546954573,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.1613808978032558
+      "fcf_margin": -0.04919535546954573
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.6162904987258828,
       "op_margin": -0.2860120131052057,
       "fcf_margin": 0.09775209319257372,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15116627101780464
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.6201242214412471,
       "op_margin": -0.41311458297087583,
       "fcf_margin": 0.007002679285987682,
-      "incr_op_margin_yoy": -0.6720514923960371,
-      "rev_growth_yoy": 0.38065383968677186,
       "op_leverage_ratio": 0.23329704309569096,
       "fcf_margin_change": -0.09074941390658604
     },
@@ -121,8 +101,7 @@
       "fcf_margin": -0.31766210257985766,
       "incr_op_margin_yoy": -0.5864799975055346,
       "rev_growth_yoy": 0.36295013693669226,
-      "rev_growth_yoy_accel": -0.017703702750079597,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.32466478186584535
     },
     {
@@ -168,7 +147,7 @@
       "incr_op_margin_yoy": -0.18567279037308085,
       "rev_growth_yoy": 0.24125409537677467,
       "rev_growth_yoy_accel": 0.019241929521491535,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02825794707745704
     },
     {
@@ -214,7 +193,7 @@
       "incr_op_margin_yoy": -0.07008710353191959,
       "rev_growth_yoy": 0.2259264487308296,
       "rev_growth_yoy_accel": -0.01089459584274638,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07005500043465669
     },
     {
@@ -274,17 +253,17 @@
       "cogs": 79551000,
       "rd": 37366000,
       "sga": null,
-      "fcf": 11568000,
-      "ocf": 11568000,
+      "fcf": 11629000,
+      "ocf": 11629000,
       "capex": null,
       "gross_margin": 0.5289495499763145,
       "op_margin": -0.169108242539081,
-      "fcf_margin": 0.06849834201800095,
+      "fcf_margin": 0.06885954523922312,
       "incr_op_margin_yoy": 1.0287265917602997,
       "rev_growth_yoy": 0.18779012519341678,
       "rev_growth_yoy_accel": -0.025944120236933182,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.05080817000326279
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.05044696678204062
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -306,7 +285,7 @@
       "incr_op_margin_yoy": 0.4356856156072062,
       "rev_growth_yoy": 0.1451213069451782,
       "rev_growth_yoy_accel": -0.042668818248238594,
-      "fcf_margin_change": 0.07641376435339992
+      "fcf_margin_change": 0.07605256113217775
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -350,7 +329,7 @@
       "incr_op_margin_yoy": 1.688690871172623,
       "rev_growth_yoy": 0.06372477950948412,
       "rev_growth_yoy_accel": -0.0445041309796442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01871958606676047
     },
     {
@@ -364,17 +343,17 @@
       "cogs": 83672000,
       "rd": 32122000,
       "sga": null,
-      "fcf": 19161000,
-      "ocf": 19161000,
+      "fcf": 19200000,
+      "ocf": 19200000,
       "capex": null,
       "gross_margin": 0.5330282397589017,
       "op_margin": -0.1702087286527514,
-      "fcf_margin": 0.10693715816497378,
+      "fcf_margin": 0.10715481638575734,
       "incr_op_margin_yoy": -0.18825242718446603,
       "rev_growth_yoy": 0.060990052108005684,
       "rev_growth_yoy_accel": -0.002734727401478433,
       "op_leverage_ratio": 0.25882546897164416,
-      "fcf_margin_change": -0.0515054475628116
+      "fcf_margin_change": -0.05128778934202803
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -396,7 +375,7 @@
       "incr_op_margin_yoy": 1.4994136043784208,
       "rev_growth_yoy": 0.06052002744457851,
       "rev_growth_yoy_accel": -0.00047002466342717375,
-      "fcf_margin_change": 0.07990054401015172
+      "fcf_margin_change": 0.07968288578936815
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -443,6 +422,29 @@
       "rev_growth_yoy_accel": 0.004440601589222312,
       "op_leverage_ratio": 1.176376269374666,
       "fcf_margin_change": -0.015175801063552818
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 196900000,
+      "gross_profit": 106800000,
+      "operating_income": -32300000,
+      "net_income": -26800000,
+      "opex": 139100000,
+      "cogs": 90100000,
+      "rd": 32800000,
+      "sga": null,
+      "fcf": 5800000,
+      "ocf": 5800000,
+      "capex": null,
+      "gross_margin": 0.5424073133570341,
+      "op_margin": -0.16404266124936517,
+      "fcf_margin": 0.029456576942610464,
+      "incr_op_margin_yoy": -0.10169300225733634,
+      "rev_growth_yoy": 0.09889496595602187,
+      "rev_growth_yoy_accel": -0.00395643305243408,
+      "op_leverage_ratio": 0.09660732676180667,
+      "fcf_margin_change": -0.14510572995749252
     }
   ],
   "signals": [
@@ -455,7 +457,7 @@
     {
       "quarter": "2024-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.8% -> +14.5% (+7.6%)",
+      "detail": "FCF margin: +6.9% -> +14.5% (+7.6%)",
       "severity": "MEDIUM"
     },
     {
@@ -505,12 +507,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -5.3% -> +9.8%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -21.1% -> -4.9% (+16.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -538,7 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:00:08.416061",
-  "sector": "Consumer Defensive",
-  "industry": "Education & Training Services"
+  "last_updated": "2026-02-24T10:06:09.587586"
 }

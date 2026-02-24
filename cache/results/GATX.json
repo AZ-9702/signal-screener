@@ -1,25 +1,9 @@
 {
   "ticker": "GATX",
   "name": "GATX Corporation",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 304900000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 17800000,
-      "opex": 231300000,
-      "cogs": null,
-      "rd": null,
-      "sga": 46200000,
-      "fcf": -84700000,
-      "ocf": 134700000,
-      "capex": -219400000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.27779599868809446
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -509500000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -1.4162851536952257,
-      "fcf_margin_change": -1.1384891550071312
+      "fcf_margin": -1.4162851536952257
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5208722741433022,
-      "rev_growth_yoy": 0.05280419809773696,
       "op_leverage_ratio": 0.3827751196172249,
       "fcf_margin_change": 0.06983559152767221
     },
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.31648768161718255,
       "rev_growth_yoy": 0.03531720078482668,
-      "rev_growth_yoy_accel": -0.017486997312910278,
       "fcf_margin_change": -0.20438459252611962
     },
     {
@@ -291,7 +272,7 @@
       "fcf_margin": 0.2569097130823901,
       "rev_growth_yoy": 0.12097964001180289,
       "rev_growth_yoy_accel": -0.021567617502916664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06937181661655217
     },
     {
@@ -379,7 +360,7 @@
       "fcf_margin": 0.29459203036053133,
       "rev_growth_yoy": 0.10976572782311135,
       "rev_growth_yoy_accel": -0.01174227326178151,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2035941848752607
     },
     {
@@ -425,9 +406,37 @@
       "rev_growth_yoy_accel": -0.029644982801994638,
       "op_leverage_ratio": 0.3171112708859515,
       "fcf_margin_change": 0.12224632525665768
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 449000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 97000000,
+      "opex": 313700000,
+      "cogs": null,
+      "rd": null,
+      "sga": 71600000,
+      "fcf": 144300000,
+      "ocf": 144300000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.32138084632516706,
+      "rev_growth_yoy": 0.08585247883917775,
+      "rev_growth_yoy_accel": 0.002231363890978444,
+      "op_leverage_ratio": 4.307093671750513,
+      "fcf_margin_change": -0.17554608288038726
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +2.2% vs OpEx growth +0.5% (leverage: 4.3x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -541,7 +550,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:26.893549",
-  "sector": "Industrials",
-  "industry": "Rental & Leasing Services"
+  "last_updated": "2026-02-24T10:17:30.110294"
 }

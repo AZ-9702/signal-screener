@@ -1,25 +1,9 @@
 {
   "ticker": "DFIN",
   "name": "Donnelley Financial Solutions, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 210300000,
-      "gross_profit": 100600000,
-      "operating_income": -27400000,
-      "net_income": -35800000,
-      "opex": 128000000,
-      "cogs": 109700000,
-      "rd": null,
-      "sga": 72800000,
-      "fcf": 95100000,
-      "ocf": 101700000,
-      "capex": -6600000,
-      "gross_margin": 0.47836424155967666,
-      "op_margin": -0.1302900618164527,
-      "fcf_margin": 0.4522111269614836
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -8000000,
       "gross_margin": 0.550346514472075,
       "op_margin": 0.207501019160212,
-      "fcf_margin": -0.18874847125968203,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.6409595982211655
+      "fcf_margin": -0.18874847125968203
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6039518900343642,
       "op_margin": 0.17783505154639176,
       "fcf_margin": 0.2693298969072165,
-      "incr_op_margin_yoy": 3.057777777777778,
-      "rev_growth_yoy": 0.10699001426533523,
       "fcf_margin_change": -0.13599913014163295
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.2943127962085308,
       "incr_op_margin_yoy": 0.45481049562682213,
       "rev_growth_yoy": -0.13982878108438646,
-      "rev_growth_yoy_accel": -0.24681879534972168,
       "fcf_margin_change": -0.5636426931157472
     },
     {
@@ -232,7 +211,7 @@
       "incr_op_margin_yoy": 0.42738589211618255,
       "rev_growth_yoy": -0.09053343350864013,
       "rev_growth_yoy_accel": -0.03176566099679178,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.34160249378861446
     },
     {
@@ -299,7 +278,7 @@
       "incr_op_margin_yoy": 6.208333333333333,
       "rev_growth_yoy": 0.02416918429003021,
       "rev_growth_yoy_accel": -0.028305472835789706,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5149205712518907
     },
     {
@@ -387,7 +366,7 @@
       "incr_op_margin_yoy": -0.5217391304347826,
       "rev_growth_yoy": -0.011307767944936086,
       "rev_growth_yoy_accel": 0.10313982412305259,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5178406162141491
     },
     {
@@ -434,9 +413,43 @@
       "rev_growth_yoy": -0.0233983286908078,
       "rev_growth_yoy_accel": 0.07796137464664585,
       "fcf_margin_change": 0.1006595623197071
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 172500000,
+      "gross_profit": 109600000,
+      "operating_income": 14300000,
+      "net_income": 6200000,
+      "opex": 95300000,
+      "cogs": 62900000,
+      "rd": null,
+      "sga": 74800000,
+      "fcf": 47900000,
+      "ocf": 59800000,
+      "capex": -11900000,
+      "gross_margin": 0.6353623188405797,
+      "op_margin": 0.08289855072463768,
+      "fcf_margin": 0.27768115942028987,
+      "incr_op_margin_yoy": 0.30864197530864196,
+      "rev_growth_yoy": 0.1036468330134357,
+      "rev_growth_yoy_accel": 0.12704516170424351,
+      "fcf_margin_change": -0.06002562894251673
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +10.4% vs prior quarter YoY: -2.3% (accel: +12.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +30.9% vs year-ago OPM: +6.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -607,20 +620,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -14.0% vs prior quarter YoY: +10.7% (decel: -24.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +45.5% vs year-ago OPM: +20.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -13.0% (year-ago) -> +17.8%",
       "severity": "HIGH"
     },
     {
@@ -640,12 +641,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.1% vs OpEx growth +4.6% (leverage: 2.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -13.0% -> +20.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -673,7 +668,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:50:11.877915",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:40:13.781097"
 }

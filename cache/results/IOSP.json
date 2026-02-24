@@ -1,25 +1,9 @@
 {
   "ticker": "IOSP",
   "name": "INNOSPEC INC.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 310800000,
-      "gross_profit": 91000000,
-      "operating_income": 29400000,
-      "net_income": null,
-      "opex": 61600000,
-      "cogs": 219800000,
-      "rd": 6500000,
-      "sga": 54900000,
-      "fcf": 58200000,
-      "ocf": 58200000,
-      "capex": null,
-      "gross_margin": 0.2927927927927928,
-      "op_margin": 0.0945945945945946,
-      "fcf_margin": 0.18725868725868725
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.2968197879858657,
       "op_margin": 0.08303886925795052,
-      "fcf_margin": 0.06684334511189635,
-      "op_leverage_ratio": 0.5189189189189188,
-      "fcf_margin_change": -0.1204153421467909
+      "fcf_margin": 0.06684334511189635
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.3055007052186178,
       "op_margin": 0.10437235543018336,
       "fcf_margin": -0.0031029619181946405,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.069946307030091
     },
     {
@@ -97,9 +79,7 @@
       "gross_margin": 0.27323330106485966,
       "op_margin": 0.08591481122942884,
       "fcf_margin": 0.1665053242981607,
-      "incr_op_margin_yoy": 0.0595703125,
-      "rev_growth_yoy": 0.32947232947232946,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.159060495795103
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": -0.06138865368331922,
       "incr_op_margin_yoy": 0.12123493975903614,
       "rev_growth_yoy": 0.3910482921083628,
-      "rev_growth_yoy_accel": 0.06157596263603332,
       "op_leverage_ratio": 0.6300712839919036,
       "fcf_margin_change": -0.22789397798147992
     },
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": -1.0106382978723405,
       "rev_growth_yoy": -0.018445839874411302,
       "rev_growth_yoy_accel": 0.01288370780524407,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.014784221746918763
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": -0.178743961352657,
       "rev_growth_yoy": -0.04460245636716225,
       "rev_growth_yoy_accel": 0.049902123149906864,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15495994898355966
     },
     {
@@ -437,6 +416,29 @@
       "rev_growth_yoy": -0.0033829499323410014,
       "rev_growth_yoy_accel": -0.014187547633490427,
       "fcf_margin_change": 0.06778336337140317
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 455600000,
+      "gross_profit": 127400000,
+      "operating_income": 46800000,
+      "net_income": null,
+      "opex": 80600000,
+      "cogs": 328200000,
+      "rd": 11000000,
+      "sga": 69300000,
+      "fcf": 61400000,
+      "ocf": 61400000,
+      "capex": null,
+      "gross_margin": 0.2796312554872695,
+      "op_margin": 0.10272168568920105,
+      "fcf_margin": 0.13476733977172958,
+      "incr_op_margin_yoy": -0.5089285714285714,
+      "rev_growth_yoy": -0.023993144815766924,
+      "rev_growth_yoy_accel": -0.02061019488342592,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.04583319177444513
     }
   ],
   "signals": [
@@ -543,12 +545,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +39.1% vs prior quarter YoY: +32.9% (accel: +6.2%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.7% -> +16.7% (+15.9%)",
@@ -586,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:37:31.123903",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:28:26.156020"
 }

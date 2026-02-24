@@ -1,6 +1,8 @@
 {
   "ticker": "MBC",
   "name": "MasterBrand, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Furnishings, Fixtures & Appliances",
   "quarters": [
     {
       "date": "2022-03-27T00:00:00",
@@ -322,6 +324,28 @@
       "rev_growth_yoy": -0.02673722322796268,
       "rev_growth_yoy_accel": -0.10715111827600407,
       "fcf_margin_change": -0.03473996948589207
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 644600000,
+      "gross_profit": 167500000,
+      "operating_income": -27100000,
+      "net_income": -42000000,
+      "opex": 194600000,
+      "cogs": 477100000,
+      "rd": null,
+      "sga": 186900000,
+      "fcf": 52500000,
+      "ocf": 86900000,
+      "capex": -34400000,
+      "gross_margin": 0.2598510704312752,
+      "op_margin": -0.042041576171269,
+      "fcf_margin": 0.08144585789636984,
+      "incr_op_margin_yoy": 2.7965367965367967,
+      "rev_growth_yoy": -0.03459637561779242,
+      "rev_growth_yoy_accel": -0.007859152389829739,
+      "fcf_margin_change": 0.02492847343507351
     }
   ],
   "signals": [
@@ -429,23 +453,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        15,
-        15
+        16,
+        16
       ]
     },
     "gaps": [],
@@ -453,7 +477,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:47:50.441314",
-  "sector": "Consumer Cyclical",
-  "industry": "Furnishings, Fixtures & Appliances"
+  "last_updated": "2026-02-24T10:42:10.590048"
 }

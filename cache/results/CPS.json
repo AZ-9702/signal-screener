@@ -1,25 +1,9 @@
 {
   "ticker": "CPS",
   "name": "COOPER-STANDARD HOLDINGS INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 0,
-      "gross_profit": 80289000,
-      "operating_income": -18679000,
-      "net_income": -27179000,
-      "opex": 98968000,
-      "cogs": 616593000,
-      "rd": null,
-      "sga": 64610000,
-      "fcf": 10598000,
-      "ocf": 10598000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -311,7 +295,7 @@
       "op_margin": 0.011837244878922428,
       "fcf_margin": 0.027880302973769637,
       "incr_op_margin_yoy": 0.013502854371105556,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -1.6301961165001027
     },
     {
@@ -377,9 +361,37 @@
       "rev_growth_yoy": 40.39400071420069,
       "rev_growth_yoy_accel": 0.47277418973975927,
       "fcf_margin_change": 0.07760857230203422
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 672371000,
+      "gross_profit": 70154000,
+      "operating_income": 595000,
+      "net_income": 3328000,
+      "opex": 69559000,
+      "cogs": 602217000,
+      "rd": null,
+      "sga": 56569000,
+      "fcf": 56245000,
+      "ocf": 56245000,
+      "capex": null,
+      "gross_margin": 0.10433822993555641,
+      "op_margin": 0.0008849281126044996,
+      "fcf_margin": 0.08365173393855475,
+      "incr_op_margin_yoy": 0.015505080615959625,
+      "rev_growth_yoy": -0.7491246595276295,
+      "rev_growth_yoy_accel": -41.143125373728324,
+      "fcf_margin_change": 0.02811199429725969
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -74.9% vs prior quarter YoY: +4039.4% (decel: -4114.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -436,7 +448,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:21:21.459284",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:44:55.302553"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "EVR",
   "name": "EVERCORE INC.",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 932350000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 220377000,
-      "opex": 600593000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 695176000,
-      "ocf": 695176000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.745616989328042
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.4950080974088292,
-      "fcf_margin_change": -1.240625086736871
+      "fcf_margin": -0.4950080974088292
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.7633288872461579,
-      "rev_growth_yoy": 0.20135785917305732,
       "op_leverage_ratio": 2.5101993073174342,
       "fcf_margin_change": 0.26155099781348823
     },
@@ -118,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": -0.66870764017252,
       "rev_growth_yoy": 0.09030710172744721,
-      "rev_growth_yoy_accel": -0.1110507574456101,
       "fcf_margin_change": -1.432036527418678
     },
     {
@@ -422,9 +403,43 @@
       "rev_growth_yoy_accel": 0.2079572193260058,
       "op_leverage_ratio": 1.218004524780745,
       "fcf_margin_change": 0.013914517772114388
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1297028000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 203954000,
+      "opex": 976114000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 807467000,
+      "ocf": 807467000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.62255171052591,
+      "rev_growth_yoy": 0.32413976161915214,
+      "rev_growth_yoy_accel": -0.09239012652038903,
+      "op_leverage_ratio": 1.2867849366757935,
+      "fcf_margin_change": 0.08630293663236943
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +53.6% -> +62.3% (+8.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +32.4% vs prior quarter YoY: +41.7% (decel: -9.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -516,12 +531,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +9.0% vs prior quarter YoY: +20.1% (decel: -11.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +50.2% -> +76.3% (+26.2%)",
@@ -568,7 +577,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:15.666343",
-  "sector": "Financial Services",
-  "industry": "Capital Markets"
+  "last_updated": "2026-02-24T10:15:30.874858"
 }

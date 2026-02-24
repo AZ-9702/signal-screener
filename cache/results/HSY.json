@@ -1,25 +1,9 @@
 {
   "ticker": "HSY",
-  "name": "HERSHEY CO",
+  "name": "THE HERSHEY COMPANY",
+  "sector": "Consumer Defensive",
+  "industry": "Confectioners",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2185244000,
-      "gross_profit": 962071000,
-      "operating_income": 405115000,
-      "net_income": 291387000,
-      "opex": 556956000,
-      "cogs": 1223173000,
-      "rd": null,
-      "sga": 537978000,
-      "fcf": 454816000,
-      "ocf": 604391000,
-      "capex": -149575000,
-      "gross_margin": 0.44025793000690083,
-      "op_margin": 0.18538662044147014,
-      "fcf_margin": 0.20813053370699108
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -114471000,
       "gross_margin": 0.4568705388798004,
       "op_margin": 0.24087827773102874,
-      "fcf_margin": 0.21567082529743706,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.007540291590445974
+      "fcf_margin": 0.21567082529743706
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.4354304664231719,
       "op_margin": 0.19739756367663344,
       "fcf_margin": 0.22816457219895037,
-      "incr_op_margin_yoy": 0.3836986456943301,
-      "rev_growth_yoy": 0.06447060374036034,
       "fcf_margin_change": 0.11535094381159004
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.19330880673432546,
       "incr_op_margin_yoy": 0.45357344445854814,
       "rev_growth_yoy": 0.16127238073336156,
-      "rev_growth_yoy_accel": 0.09680177699300122,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.034855765464624905
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": 0.2455996241361822,
       "rev_growth_yoy": 0.12054252066876676,
       "rev_growth_yoy_accel": -0.019694817947164947,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03538826874178336
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": 0.9737529937578969,
       "rev_growth_yoy": 0.08874473074500254,
       "rev_growth_yoy_accel": 0.08694518634304473,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0920055651479145
     },
     {
@@ -434,8 +413,30 @@
       "incr_op_margin_yoy": -0.9208813762092366,
       "rev_growth_yoy": 0.06491192953023504,
       "rev_growth_yoy_accel": -0.19550899523163295,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22725288607691696
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3091021000,
+      "gross_profit": 1144817000,
+      "operating_income": 444913000,
+      "net_income": 320017000,
+      "opex": 699904000,
+      "cogs": 1946204000,
+      "rd": null,
+      "sga": 698150000,
+      "fcf": 788468000,
+      "ocf": 926553000,
+      "capex": -138085000,
+      "gross_margin": 0.37036856106768606,
+      "op_margin": 0.14393722980206217,
+      "fcf_margin": 0.25508335271743543,
+      "incr_op_margin_yoy": -2.4288950811132244,
+      "rev_growth_yoy": 0.07046863420073834,
+      "rev_growth_yoy_accel": 0.005556704670503301,
+      "fcf_margin_change": 0.017455351618554354
     }
   ],
   "signals": [
@@ -615,12 +616,6 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +16.1% vs prior quarter YoY: +6.4% (accel: +9.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +45.4% vs year-ago OPM: +24.1%",
       "severity": "HIGH"
@@ -629,12 +624,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +11.3% -> +22.8% (+11.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +38.4% vs year-ago OPM: +18.5%",
       "severity": "MEDIUM"
     },
     {
@@ -669,7 +658,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:04:05.821735",
-  "sector": "Consumer Defensive",
-  "industry": "Confectioners"
+  "last_updated": "2026-02-24T10:35:42.397654"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "UVSP",
   "name": "UNIVEST FINANCIAL CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2019-03-31T00:00:00",
-      "quarter_label": "2019-03 (Q1)",
-      "revenue": 0,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2019-06-30T00:00:00",
       "quarter_label": "2019-06 (Q2)",
@@ -134,13 +118,13 @@
       "revenue": 0,
       "gross_profit": null,
       "operating_income": null,
-      "net_income": 25874000,
+      "net_income": null,
       "opex": null,
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 5088000,
-      "ocf": 5088000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
@@ -372,6 +356,27 @@
       "rev_growth_yoy": 0.1348665376121275,
       "rev_growth_yoy_accel": 0.009392625353597084,
       "fcf_margin_change": 0.09725606089943684
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 84571000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 22745000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 30670000,
+      "ocf": 30670000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.36265386479999057,
+      "rev_growth_yoy": 0.10115621989010704,
+      "rev_growth_yoy_accel": -0.03371031772202046,
+      "fcf_margin_change": -0.02155217265481263
     }
   ],
   "signals": [
@@ -436,5 +441,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:02:45.891497"
+  "last_updated": "2026-02-24T10:06:45.339528"
 }

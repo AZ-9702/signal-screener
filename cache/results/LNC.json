@@ -1,25 +1,9 @@
 {
   "ticker": "LNC",
   "name": "LINCOLN NATIONAL CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Insurance - Life",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4135000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 143000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 193000000,
-      "ocf": 193000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.046674727932285366
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.13740626378473753,
-      "fcf_margin_change": -0.18408099171702288
+      "fcf_margin": -0.13740626378473753
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.06540447504302926,
-      "rev_growth_yoy": 0.26457073760580413,
       "fcf_margin_change": -0.12989598429698843
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.10155749946660977,
       "rev_growth_yoy": 0.0337450374944861,
-      "rev_growth_yoy_accel": -0.23082570011131803,
       "fcf_margin_change": 0.16696197450963904
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 0.10800291899781075,
       "rev_growth_yoy_accel": 0.32321735718915556,
       "fcf_margin_change": -0.5009885225201163
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4922000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 754000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 233000000,
+      "ocf": 233000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.047338480292563996,
+      "rev_growth_yoy": -0.02765705254839984,
+      "rev_growth_yoy_accel": -0.1356599715462106,
+      "fcf_margin_change": 0.2978324429709394
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -25.0% -> +4.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -2.8% vs prior quarter YoY: +10.8% (decel: -13.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -535,12 +549,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.4% vs prior quarter YoY: +26.5% (decel: -23.1%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -13.7% -> +8.5%",
@@ -575,7 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:47:10.343861",
-  "sector": "Financial Services",
-  "industry": "Insurance - Life"
+  "last_updated": "2026-02-24T10:19:37.890351"
 }

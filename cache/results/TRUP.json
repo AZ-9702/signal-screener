@@ -1,25 +1,9 @@
 {
   "ticker": "TRUP",
   "name": "TRUPANION, INC.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 142687000,
-      "gross_profit": 23593000,
-      "operating_income": -3169000,
-      "net_income": null,
-      "opex": 26720000,
-      "cogs": 119094000,
-      "rd": null,
-      "sga": null,
-      "fcf": 1025000,
-      "ocf": 3964000,
-      "capex": -2939000,
-      "gross_margin": 0.16534792938389622,
-      "op_margin": -0.02220945145668491,
-      "fcf_margin": 0.007183555614737152
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2883000,
       "gross_margin": 0.13640624494941334,
       "op_margin": -0.08228981478488541,
-      "fcf_margin": -0.029854219866179657,
-      "op_leverage_ratio": 0.3198721294373672,
-      "fcf_margin_change": -0.03703777548091681
+      "fcf_margin": -0.029854219866179657
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.15709001486786123,
       "op_margin": -0.02964826447301406,
       "fcf_margin": 0.006883459632985044,
-      "incr_op_margin_yoy": -0.05018184632051381,
-      "rev_growth_yoy": 0.3622754700848711,
       "op_leverage_ratio": 2.501842920686423,
       "fcf_margin_change": -0.01214586324899132
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.03467492560643498,
       "incr_op_margin_yoy": 0.07044861051564875,
       "rev_growth_yoy": 0.3317322300158386,
-      "rev_growth_yoy_accel": -0.030543240069032473,
       "op_leverage_ratio": 0.8143385817855052,
       "fcf_margin_change": -0.04155838523942003
     },
@@ -237,7 +216,7 @@
       "incr_op_margin_yoy": -0.006235949565047405,
       "rev_growth_yoy": 0.23314692517695101,
       "rev_growth_yoy_accel": -0.011174649199623632,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.016909211586816162
     },
     {
@@ -260,7 +239,7 @@
       "incr_op_margin_yoy": 0.1614036434837694,
       "rev_growth_yoy": 0.22284822039698837,
       "rev_growth_yoy_accel": -0.010298704779962642,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0545976800375952
     },
     {
@@ -398,7 +377,7 @@
       "incr_op_margin_yoy": 0.13008311485468846,
       "rev_growth_yoy": 0.1171236210518063,
       "rev_growth_yoy_accel": -0.0229778468870966,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.023716060126420024
     },
     {
@@ -446,9 +425,38 @@
       "rev_growth_yoy_accel": -0.00259930934511772,
       "op_leverage_ratio": 1.1800091270158217,
       "fcf_margin_change": 0.031152832693372795
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 376853000,
+      "gross_profit": 65027000,
+      "operating_income": 7137000,
+      "net_income": null,
+      "opex": 57890000,
+      "cogs": 311826000,
+      "rd": null,
+      "sga": null,
+      "fcf": 25339000,
+      "ocf": 29262000,
+      "capex": -3923000,
+      "gross_margin": 0.17255269295985437,
+      "op_margin": 0.018938418959116684,
+      "fcf_margin": 0.06723841922447214,
+      "incr_op_margin_yoy": 0.17167349415870126,
+      "rev_growth_yoy": 0.11724037746029581,
+      "rev_growth_yoy_accel": -0.0032765774893768196,
+      "op_leverage_ratio": 0.3970578883105047,
+      "fcf_margin_change": 0.002006216019413823
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +17.2% vs year-ago OPM: +0.1%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -571,5 +579,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:51:55.250741"
+  "last_updated": "2026-02-24T10:46:58.215721"
 }

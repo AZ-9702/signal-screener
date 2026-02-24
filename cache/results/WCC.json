@@ -1,25 +1,9 @@
 {
   "ticker": "WCC",
   "name": "WESCO International, Inc.",
+  "sector": "Industrials",
+  "industry": "Industrial Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4128841000,
-      "gross_profit": 771951000,
-      "operating_income": 92763000,
-      "net_income": 19982000,
-      "opex": 679188000,
-      "cogs": 3356890000,
-      "rd": null,
-      "sga": 637914000,
-      "fcf": 124993000,
-      "ocf": 124993000,
-      "capex": null,
-      "gross_margin": 0.1869655431148838,
-      "op_margin": 0.022467079744654735,
-      "fcf_margin": 0.030273144449011236
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.20067811842056754,
       "op_margin": 0.032970866839029396,
-      "fcf_margin": 0.02981335783922561,
-      "fcf_margin_change": -0.000459786609785625
+      "fcf_margin": 0.02981335783922561
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.2077284868670547,
       "op_margin": 0.04540140810235948,
       "fcf_margin": -0.021758396675955086,
-      "incr_op_margin_yoy": 0.17635832322609285,
-      "rev_growth_yoy": 0.17512880733358344,
       "op_leverage_ratio": 2.243427782156061,
       "fcf_margin_change": -0.03653635715878992
     },
@@ -120,8 +101,7 @@
       "fcf_margin": -0.034873010540367434,
       "incr_op_margin_yoy": 0.1692795810954032,
       "rev_growth_yoy": 0.220390713593075,
-      "rev_growth_yoy_accel": 0.04526190625949156,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.013114613864412348
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 0.15161775771256583,
       "rev_growth_yoy": -0.04626229222870072,
       "rev_growth_yoy_accel": -0.015131703119879481,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.18033697901805457
     },
     {
@@ -437,9 +417,37 @@
       "rev_growth_yoy_accel": 0.052657249546228885,
       "op_leverage_ratio": 0.9073833868611793,
       "fcf_margin_change": -0.03161307147200824
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6068500000,
+      "gross_profit": 1286300000,
+      "operating_income": 324500000,
+      "net_income": 159900000,
+      "opex": 961800000,
+      "cogs": 4782200000,
+      "rd": null,
+      "sga": 910000000,
+      "fcf": 71900000,
+      "ocf": 71900000,
+      "capex": null,
+      "gross_margin": 0.21196341764851281,
+      "op_margin": 0.053472851610776966,
+      "fcf_margin": 0.011848067891571229,
+      "incr_op_margin_yoy": 0.04113924050632911,
+      "rev_growth_yoy": 0.1034238231176246,
+      "rev_growth_yoy_accel": -0.025861708998817984,
+      "fcf_margin_change": 0.025188714114410028
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.3% -> +1.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -561,12 +569,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +17.6% vs year-ago OPM: +2.2%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.4% -> +1.5%",
@@ -598,5 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:27.036127"
+  "last_updated": "2026-02-24T10:48:24.059049"
 }

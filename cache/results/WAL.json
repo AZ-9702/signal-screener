@@ -1,6 +1,8 @@
 {
   "ticker": "WAL",
   "name": "WESTERN ALLIANCE BANCORPORATION",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
     {
       "date": "2023-06-30T00:00:00",
@@ -201,9 +203,42 @@
       "rev_growth_yoy": 0.6118421052631579,
       "rev_growth_yoy_accel": 0.22130956088445963,
       "fcf_margin_change": -9.162396873643074
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 64800000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 286100000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -69800000,
+      "ocf": -69800000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -1.0771604938271604,
+      "rev_growth_yoy": 1.9321266968325792,
+      "rev_growth_yoy_accel": 1.3202845915694215,
+      "fcf_margin_change": 23.306512975560594
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -2438.4% -> -107.7% (+2330.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +193.2% vs prior quarter YoY: +61.2% (accel: +132.0%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -254,23 +289,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 10,
+    "n_quarters": 11,
     "coverage": {
       "revenue": [
-        10,
-        10
+        11,
+        11
       ],
       "gross_profit": [
         0,
-        10
+        11
       ],
       "op_income": [
         0,
-        10
+        11
       ],
       "fcf": [
-        10,
-        10
+        11,
+        11
       ]
     },
     "gaps": [],
@@ -281,5 +316,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:38:47.498229"
+  "last_updated": "2026-02-24T10:05:37.029833"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "RM",
   "name": "Regional Management Corp.",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 97444000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 14347000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 39467000,
-      "ocf": 39836000,
-      "capex": -369000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.40502237182381673
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -411000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.35404324114150065,
-      "fcf_margin_change": -0.050979130682316076
+      "fcf_margin": 0.35404324114150065
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.4608315757758361,
-      "rev_growth_yoy": 0.2261811912483067,
       "fcf_margin_change": 0.043874819989006775
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.36956341850920166,
       "rev_growth_yoy": 0.23653702509950783,
-      "rev_growth_yoy_accel": 0.010355833851201118,
       "fcf_margin_change": -0.09126815726663445
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.13085459689212645,
       "rev_growth_yoy_accel": 0.030054037549354207,
       "fcf_margin_change": 0.024550189047749582
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 169702000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 12909000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 78607000,
+      "ocf": 80063000,
+      "capex": -1456000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4632060906765978,
+      "rev_growth_yoy": 0.09603957838172987,
+      "rev_growth_yoy_accel": -0.034815018510396575,
+      "fcf_margin_change": -0.05447807786836345
     }
   ],
   "signals": [
@@ -491,5 +493,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:38:16.219009"
+  "last_updated": "2026-02-24T10:13:58.214163"
 }

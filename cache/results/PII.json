@@ -1,25 +1,9 @@
 {
   "ticker": "PII",
   "name": "POLARIS INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Recreational Vehicles",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2156300000,
-      "gross_profit": 550000000,
-      "operating_income": 262800000,
-      "net_income": 198800000,
-      "opex": 304400000,
-      "cogs": 1606300000,
-      "rd": 73200000,
-      "sga": null,
-      "fcf": 270400000,
-      "ocf": 342900000,
-      "capex": -72500000,
-      "gross_margin": 0.25506654918146826,
-      "op_margin": 0.12187543477252702,
-      "fcf_margin": 0.12539999072485275
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -45400000,
       "gross_margin": 0.2462713341192148,
       "op_margin": 0.09440828250730357,
-      "fcf_margin": 0.005432832761006611,
-      "fcf_margin_change": -0.11996715796384613
+      "fcf_margin": 0.005432832761006611
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +78,7 @@
       "gross_margin": 0.20512347954294138,
       "op_margin": 0.07136933284187247,
       "fcf_margin": 0.021516771102100995,
-      "incr_op_margin_yoy": -7.652482269503546,
-      "rev_growth_yoy": 0.00653897880628855,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08393065219421633
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.053607931316434994,
       "incr_op_margin_yoy": -15.68421052631579,
       "rev_growth_yoy": 0.002921428937522423,
-      "rev_growth_yoy_accel": -0.0036175498687661266,
       "fcf_margin_change": -0.07512470241853599
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.3952205882352941,
       "rev_growth_yoy": -0.025694313243907047,
       "rev_growth_yoy_accel": -0.02861574218142947,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.018946306340673895
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": 0.5801526717557252,
       "rev_growth_yoy": -0.03917798854994446,
       "rev_growth_yoy_accel": -0.1137368405957075,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08489954728867477
     },
     {
@@ -438,6 +418,29 @@
       "rev_growth_yoy": 0.06920575940548072,
       "rev_growth_yoy_accel": 0.12452903087192985,
       "fcf_margin_change": -0.08765402181248426
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1921900000,
+      "gross_profit": 384200000,
+      "operating_income": -320100000,
+      "net_income": -303600000,
+      "opex": 724000000,
+      "cogs": 1537700000,
+      "rd": 105900000,
+      "sga": null,
+      "fcf": 114000000,
+      "ocf": 178700000,
+      "capex": -64700000,
+      "gross_margin": 0.19990634268172122,
+      "op_margin": -0.16655393100577554,
+      "fcf_margin": 0.05931630157656486,
+      "incr_op_margin_yoy": -2.3177177177177177,
+      "rev_growth_yoy": 0.0948501765979264,
+      "rev_growth_yoy_accel": 0.025644417192445673,
+      "op_leverage_ratio": 0.04805994837595142,
+      "fcf_margin_change": -0.004052508154104122
     }
   ],
   "signals": [
@@ -653,5 +656,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:15:24.635315"
+  "last_updated": "2026-02-24T10:43:52.169041"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "JANL",
   "name": "JANEL CORPORATION",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 26478000,
-      "gross_profit": 6449000,
-      "operating_income": 489000,
-      "net_income": 255000,
-      "opex": 5960000,
-      "cogs": 20029000,
-      "rd": null,
-      "sga": 5709000,
-      "fcf": -867000,
-      "ocf": -812000,
-      "capex": -55000,
-      "gross_margin": 0.24356069189515825,
-      "op_margin": 0.01846816224790392,
-      "fcf_margin": -0.03274416496714253
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -30000,
       "gross_margin": 0.25044788003450336,
       "op_margin": 0.02790126733461615,
-      "fcf_margin": 0.04963174308274169,
-      "op_leverage_ratio": 1.1025922842614169,
-      "fcf_margin_change": 0.08237590804988422
+      "fcf_margin": 0.04963174308274169
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.18591113138248075,
       "op_margin": 0.031711357034832084,
       "fcf_margin": 0.06147826295700603,
-      "incr_op_margin_yoy": 0.03788092054331762,
-      "rev_growth_yoy": 2.146536747488481,
       "op_leverage_ratio": 0.9631775272398535,
       "fcf_margin_change": 0.06795416931103437
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.007408690059492152,
       "incr_op_margin_yoy": 0.025754796978840047,
       "rev_growth_yoy": 1.682336938491142,
-      "rev_growth_yoy_accel": -0.46419980899733915,
       "fcf_margin_change": -0.05406957289751388
     },
     {
@@ -358,16 +337,16 @@
       "cogs": 36212000,
       "rd": null,
       "sga": 13292000,
-      "fcf": 1754000,
+      "fcf": 1663000,
       "ocf": 1754000,
-      "capex": null,
+      "capex": -91000,
       "gross_margin": 0.2948553179888616,
       "op_margin": 0.023542469914709662,
-      "fcf_margin": 0.0341550804221677,
+      "fcf_margin": 0.03238306655761966,
       "incr_op_margin_yoy": 0.02006008334140905,
       "rev_growth_yoy": 0.25146825880346046,
       "rev_growth_yoy_accel": -0.03387054032844211,
-      "fcf_margin_change": 0.025206240769615314
+      "fcf_margin_change": 0.023434226905067274
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -389,7 +368,7 @@
       "incr_op_margin_yoy": 0.18469044023696132,
       "rev_growth_yoy": 0.20438250795308865,
       "rev_growth_yoy_accel": -0.04708575085037181,
-      "fcf_margin_change": 0.07057378358603242
+      "fcf_margin_change": 0.07234579745058045
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -435,6 +414,28 @@
       "rev_growth_yoy_accel": 0.002778636974854351,
       "op_leverage_ratio": 1.0922410280608257,
       "fcf_margin_change": 0.23748152540674736
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 56039000,
+      "gross_profit": 18117000,
+      "operating_income": 978000,
+      "net_income": 419000,
+      "opex": 17139000,
+      "cogs": 37922000,
+      "rd": null,
+      "sga": 16310000,
+      "fcf": -14615000,
+      "ocf": -14527000,
+      "capex": -88000,
+      "gross_margin": 0.32329270686486195,
+      "op_margin": 0.0174521315512411,
+      "fcf_margin": -0.2608005139278003,
+      "incr_op_margin_yoy": -0.049306296691568836,
+      "rev_growth_yoy": 0.09122950500447871,
+      "rev_growth_yoy_accel": 0.0366359549228698,
+      "fcf_margin_change": -0.7132581304933634
     }
   ],
   "signals": [
@@ -465,7 +466,7 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +3.4% -> +10.5% (+7.1%)",
+      "detail": "FCF margin: +3.2% -> +10.5% (+7.2%)",
       "severity": "MEDIUM"
     },
     {
@@ -559,12 +560,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +168.2% vs prior quarter YoY: +214.7% (decel: -46.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.6% -> +6.1%",
@@ -575,12 +570,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +57.9% vs OpEx growth +12.4% (leverage: 4.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -3.3% -> +5.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -608,7 +597,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:42:24.459723",
-  "sector": "Industrials",
-  "industry": "Integrated Freight & Logistics"
+  "last_updated": "2026-02-24T10:44:20.573236"
 }

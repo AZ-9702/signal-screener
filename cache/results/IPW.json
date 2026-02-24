@@ -1,25 +1,9 @@
 {
   "ticker": "IPW",
   "name": "iPower Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 11254317,
-      "gross_profit": 4947591,
-      "operating_income": 853106,
-      "net_income": 575476,
-      "opex": 4094485,
-      "cogs": 6306726,
-      "rd": null,
-      "sga": 1309736,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.439617170904285,
-      "op_margin": 0.07580255647677242,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -5747,
       "gross_margin": 0.43892325372916596,
       "op_margin": 0.06005328804798452,
-      "fcf_margin": -0.2531431253255887,
-      "op_leverage_ratio": 0.7756971673481166
+      "fcf_margin": -0.2531431253255887
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.42113208763981086,
       "op_margin": 0.07429794783311687,
       "fcf_margin": -0.3028547918970516,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2383590566643869
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.441303323555999,
       "op_margin": 0.06629144810335226,
       "fcf_margin": -0.4110707421954992,
-      "incr_op_margin_yoy": 0.048060359583645726,
-      "rev_growth_yoy": 0.5216972296053151,
       "fcf_margin_change": -0.1082159502984476
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.1097070555370973,
       "incr_op_margin_yoy": 0.06080587436088478,
       "rev_growth_yoy": 0.7365908471069755,
-      "rev_growth_yoy_accel": 0.21489361750166047,
       "op_leverage_ratio": 1.5110056177187072,
       "fcf_margin_change": 0.3013636866584019
     },
@@ -210,7 +190,7 @@
       "incr_op_margin_yoy": 1.2344897283546201,
       "rev_growth_yoy": -0.11323091759837048,
       "rev_growth_yoy_accel": -0.2375430099243727,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3811675029440764
     },
     {
@@ -300,7 +280,7 @@
       "incr_op_margin_yoy": 1.106907838718812,
       "rev_growth_yoy": 0.1524249517406612,
       "rev_growth_yoy_accel": 0.2798993877063193,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.054572578988293985
     },
     {
@@ -433,11 +413,45 @@
       "incr_op_margin_yoy": -0.15037146044072897,
       "rev_growth_yoy": -0.36778526851194787,
       "rev_growth_yoy_accel": 0.04150203141653647,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14720630757302727
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7133602,
+      "gross_profit": 3138922,
+      "operating_income": -2437977,
+      "net_income": null,
+      "opex": 5576899,
+      "cogs": 3994680,
+      "rd": null,
+      "sga": 2501738,
+      "fcf": -922557,
+      "ocf": -922557,
+      "capex": null,
+      "gross_margin": 0.4400192217059488,
+      "op_margin": -0.3417596047550732,
+      "fcf_margin": -0.12932554970125892,
+      "incr_op_margin_yoy": 0.26146177278791827,
+      "rev_growth_yoy": -0.6259758582102014,
+      "rev_growth_yoy_accel": -0.25819058969825354,
+      "fcf_margin_change": -0.2696598647445205
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +43.0% -> +40.0% -> +44.0% (reversal +4.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -62.6% vs prior quarter YoY: -36.8% (decel: -25.8%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -607,12 +621,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +73.7% vs prior quarter YoY: +52.2% (accel: +21.5%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +44.4% -> +42.1% -> +44.1% (reversal +2.0%)",
@@ -641,7 +649,7 @@
         20
       ],
       "fcf": [
-        19,
+        20,
         20
       ]
     },
@@ -650,7 +658,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:20:33.549110",
-  "sector": "Consumer Cyclical",
-  "industry": "Internet Retail"
+  "last_updated": "2026-02-24T10:14:49.343850"
 }

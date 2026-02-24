@@ -1,6 +1,8 @@
 {
   "ticker": "BG",
   "name": "BUNGE GLOBAL SA",
+  "sector": "Consumer Defensive",
+  "industry": "Farm Products",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -302,6 +304,27 @@
       "rev_growth_yoy": 0.7163774403470716,
       "rev_growth_yoy_accel": 0.7520242948142569,
       "fcf_margin_change": 0.13312664694324736
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 23762000000,
+      "gross_profit": 1011000000,
+      "operating_income": null,
+      "net_income": 95000000,
+      "opex": null,
+      "cogs": 22751000000,
+      "rd": null,
+      "sga": 637000000,
+      "fcf": 809000000,
+      "ocf": 1347000000,
+      "capex": -538000000,
+      "gross_margin": 0.04254692365962461,
+      "op_margin": null,
+      "fcf_margin": 0.03404595572763235,
+      "rev_growth_yoy": 0.7546891153448531,
+      "rev_growth_yoy_accel": 0.03831167499778143,
+      "fcf_margin_change": 0.016668388587032037
     }
   ],
   "signals": [
@@ -349,34 +372,32 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
         0,
-        15
+        16
       ],
       "fcf": [
-        11,
-        15
+        12,
+        16
       ]
     },
     "gaps": [],
     "warnings": [
       "op_income: no data",
-      "fcf: 11/15Q"
+      "fcf: 12/16Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:16:21.107514",
-  "sector": "Consumer Defensive",
-  "industry": "Farm Products"
+  "last_updated": "2026-02-24T10:21:13.893210"
 }

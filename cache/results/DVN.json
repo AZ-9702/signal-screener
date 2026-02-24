@@ -1,25 +1,9 @@
 {
   "ticker": "DVN",
   "name": "DEVON ENERGY CORP/DE",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1280000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -102000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -93,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.37818862625789845,
-      "rev_growth_yoy": 2.33828125,
       "fcf_margin_change": 0.05389549296303403
     },
     {
@@ -114,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.48189926547743966,
       "rev_growth_yoy": 1.1634506242905789,
-      "rev_growth_yoy_accel": -1.1748306257094212,
       "fcf_margin_change": 0.10371063921954121
     },
     {
@@ -415,9 +397,36 @@
       "rev_growth_yoy_accel": -0.017401907168172984,
       "op_leverage_ratio": 0.13630827484745434,
       "fcf_margin_change": 0.0295658554347622
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4121000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 562000000,
+      "opex": 3559000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1534000000,
+      "ocf": 1534000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3722397476340694,
+      "rev_growth_yoy": -0.06404724051782876,
+      "rev_growth_yoy_accel": -0.14033948703870353,
+      "fcf_margin_change": -0.01797036550377401
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -6.4% vs prior quarter YoY: +7.6% (decel: -14.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -509,12 +518,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +116.3% vs prior quarter YoY: +233.8% (decel: -117.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +32.4% -> +37.8% (+5.4%)",
@@ -549,7 +552,7 @@
         20
       ],
       "fcf": [
-        19,
+        20,
         20
       ]
     },
@@ -561,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:13:10.293345",
-  "sector": "Energy",
-  "industry": "Oil & Gas E&P"
+  "last_updated": "2026-02-24T10:30:42.407449"
 }

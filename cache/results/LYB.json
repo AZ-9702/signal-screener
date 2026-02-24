@@ -1,25 +1,9 @@
 {
   "ticker": "LYB",
-  "name": "LYONDELLBASELL INDUSTRIES N.V.",
+  "name": "LyondellBasell Industries N.V.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 7937000000,
-      "gross_profit": 1225000000,
-      "operating_income": 893000000,
-      "net_income": null,
-      "opex": 7044000000,
-      "cogs": 6712000000,
-      "rd": 34000000,
-      "sga": 298000000,
-      "fcf": 469000000,
-      "ocf": 743000000,
-      "capex": -274000000,
-      "gross_margin": 0.1543404308932846,
-      "op_margin": 0.11251102431649238,
-      "fcf_margin": 0.05909033639914325
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -340000000,
       "gross_margin": 0.15459149966967628,
       "op_margin": 0.11979740145342435,
-      "fcf_margin": 0.025434926227703148,
-      "op_leverage_ratio": 1.0696577654290698,
-      "fcf_margin_change": -0.03365541017144011
+      "fcf_margin": 0.025434926227703148
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.14777864380358535,
       "op_margin": 0.07100545596258769,
       "fcf_margin": 0.18745128604832423,
-      "incr_op_margin_yoy": 0.003678724708767627,
-      "rev_growth_yoy": 0.6164797782537482,
       "op_leverage_ratio": 0.07293045424536657,
       "fcf_margin_change": 0.059183569512891165
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.08026145777912898,
       "incr_op_margin_yoy": 0.14061349693251535,
       "rev_growth_yoy": 0.44868971592160317,
-      "rev_growth_yoy_accel": -0.16779006233214505,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10718982826919525
     },
     {
@@ -435,9 +414,37 @@
       "rev_growth_yoy": -0.25140476651811666,
       "rev_growth_yoy_accel": 0.023268467048846775,
       "fcf_margin_change": 0.09922271448948838
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7091000000,
+      "gross_profit": 335000000,
+      "operating_income": -88000000,
+      "net_income": null,
+      "opex": 7179000000,
+      "cogs": 6756000000,
+      "rd": 33000000,
+      "sga": 373000000,
+      "fcf": 1057000000,
+      "ocf": 1507000000,
+      "capex": -450000000,
+      "gross_margin": 0.04724298406430687,
+      "op_margin": -0.01241009730644479,
+      "fcf_margin": 0.14906219151036526,
+      "incr_op_margin_yoy": -0.2373233582709892,
+      "rev_growth_yoy": -0.25334316099820997,
+      "rev_growth_yoy_accel": -0.0019383944800933084,
+      "fcf_margin_change": 0.07438896774952665
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +7.5% -> +14.9% (+7.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -589,12 +596,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +44.9% vs prior quarter YoY: +61.6% (decel: -16.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.8% -> +18.7% (+5.9%)",
@@ -638,7 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:24:02.489628",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:10:33.719313"
 }

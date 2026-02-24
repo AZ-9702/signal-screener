@@ -1,25 +1,9 @@
 {
   "ticker": "GPI",
   "name": "Group 1 Automotive, Inc",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2922000000,
-      "gross_profit": 471100000,
-      "operating_income": 150100000,
-      "net_income": 100100000,
-      "opex": 321000000,
-      "cogs": 2508500000,
-      "rd": null,
-      "sga": 298400000,
-      "fcf": 68300000,
-      "ocf": 92700000,
-      "capex": -24400000,
-      "gross_margin": 0.1612251882272416,
-      "op_margin": 0.05136892539356605,
-      "fcf_margin": 0.023374401095140315
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -37300000,
       "gross_margin": 0.1630232558139535,
       "op_margin": 0.050730897009966774,
-      "fcf_margin": 0.06710963455149502,
-      "op_leverage_ratio": 0.5686677134919677,
-      "fcf_margin_change": 0.0437352334563547
+      "fcf_margin": 0.06710963455149502
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.19234296194406236,
       "op_margin": 0.06278656579550665,
       "fcf_margin": 0.02490256762952774,
-      "incr_op_margin_yoy": 0.12156448202959831,
-      "rev_growth_yoy": 0.1942505133470226,
       "fcf_margin_change": -0.07221358419994907
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.05017688065757986,
       "incr_op_margin_yoy": 0.15855704697986578,
       "rev_growth_yoy": 0.2772093023255814,
-      "rev_growth_yoy_accel": 0.0829587889785588,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02527431302805212
     },
     {
@@ -439,9 +418,37 @@
       "rev_growth_yoy_accel": -0.10694094406910123,
       "op_leverage_ratio": 0.073443101002639,
       "fcf_margin_change": -0.016549039240994805
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5579900000,
+      "gross_profit": 874400000,
+      "operating_income": 139300000,
+      "net_income": 43600000,
+      "opex": 735100000,
+      "cogs": 4705400000,
+      "rd": null,
+      "sga": 627300000,
+      "fcf": 51400000,
+      "ocf": 129200000,
+      "capex": -77800000,
+      "gross_margin": 0.1567053172995932,
+      "op_margin": 0.02496460510044983,
+      "fcf_margin": 0.009211634617107833,
+      "incr_op_margin_yoy": -1.6047197640117994,
+      "rev_growth_yoy": 0.006112513523260007,
+      "rev_growth_yoy_accel": -0.10138739071698208,
+      "fcf_margin_change": -0.0057813617340775995
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +0.6% vs prior quarter YoY: +10.7% (decel: -10.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -510,12 +517,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +27.7% vs prior quarter YoY: +19.4% (accel: +8.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +15.9% vs year-ago OPM: +5.1%",
       "severity": "MEDIUM"
@@ -552,7 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:03:48.184667",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto & Truck Dealerships"
+  "last_updated": "2026-02-24T10:42:14.382138"
 }

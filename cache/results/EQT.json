@@ -1,25 +1,9 @@
 {
   "ticker": "EQT",
   "name": "EQT CORPORATION",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1252585000,
-      "gross_profit": 815012000,
-      "operating_income": 146083000,
-      "net_income": 63688000,
-      "opex": 1106502000,
-      "cogs": 437573000,
-      "rd": null,
-      "sga": 40160000,
-      "fcf": 152277000,
-      "ocf": 406124000,
-      "capex": -253847000,
-      "gross_margin": 0.6506640267925929,
-      "op_margin": 0.11662521904701079,
-      "fcf_margin": 0.12157019284120439
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -251277000,
       "gross_margin": 0.5307156474787956,
       "op_margin": 0.009311281019619484,
-      "fcf_margin": 0.1564737352395931,
-      "fcf_margin_change": 0.03490354239838871
+      "fcf_margin": 0.1564737352395931
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.8600232206003916,
       "op_margin": 0.6399851133970572,
       "fcf_margin": 0.21427645015462168,
-      "incr_op_margin_yoy": 0.8933771248138366,
-      "rev_growth_yoy": 2.065415919877693,
       "fcf_margin_change": 0.08554480884001897
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -1.2587211410612837,
       "incr_op_margin_yoy": 1.2407260013354846,
       "rev_growth_yoy": -1.6096388865202758,
-      "rev_growth_yoy_accel": -3.6750548063979687,
       "fcf_margin_change": -1.4729975912159055
     },
     {
@@ -357,7 +337,7 @@
       "incr_op_margin_yoy": -0.1404062428276337,
       "rev_growth_yoy": -0.20473431460318875,
       "rev_growth_yoy_accel": -0.28710497075249125,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08304515843003914
     },
     {
@@ -427,9 +407,50 @@
       "rev_growth_yoy": 0.5256020788252395,
       "rev_growth_yoy_accel": -1.1596333827752443,
       "fcf_margin_change": -0.07078964733076124
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2388071000,
+      "gross_profit": 2000439000,
+      "operating_income": 1016121000,
+      "net_income": 677099000,
+      "opex": 1371950000,
+      "cogs": 387632000,
+      "rd": null,
+      "sga": 108296000,
+      "fcf": 512653000,
+      "ocf": 1125387000,
+      "capex": -612734000,
+      "gross_margin": 0.8376798679771247,
+      "op_margin": 0.42549865560948563,
+      "fcf_margin": 0.21467242808107465,
+      "incr_op_margin_yoy": 0.30743151187406986,
+      "rev_growth_yoy": 0.4698290851324561,
+      "rev_growth_yoy_accel": -0.05577299369278338,
+      "op_leverage_ratio": 17.916724927930677,
+      "fcf_margin_change": 0.014885440527393934
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +21.9% vs OpEx growth +1.2% (leverage: 17.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +84.8% -> +80.7% -> +83.8% (reversal +3.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +47.0% vs prior quarter YoY: +52.6% (decel: -5.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -624,12 +645,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -161.0% vs prior quarter YoY: +206.5% (decel: -367.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +124.1% vs year-ago OPM: +0.9%",
       "severity": "HIGH"
@@ -639,12 +654,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.9% -> +21.4% (+8.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +89.3% vs year-ago OPM: +11.7%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -657,12 +666,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +15.6% -> +67.5% (+51.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +65.1% -> +53.1% -> +278.4% (reversal +225.3%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -690,7 +693,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:10.916011",
-  "sector": "Energy",
-  "industry": "Oil & Gas E&P"
+  "last_updated": "2026-02-24T10:29:40.760026"
 }

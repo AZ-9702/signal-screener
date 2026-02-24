@@ -1,25 +1,9 @@
 {
   "ticker": "APP",
   "name": "AppLovin Corporation",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 509837000,
-      "gross_profit": 311823000,
-      "operating_income": -4958000,
-      "net_income": -18772000,
-      "opex": 514795000,
-      "cogs": 198014000,
-      "rd": 80702000,
-      "sga": null,
-      "fcf": 99758000,
-      "ocf": 100157000,
-      "capex": -399000,
-      "gross_margin": 0.611613123410031,
-      "op_margin": -0.009724676710399598,
-      "fcf_margin": 0.19566645810327615
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -121000,
       "gross_margin": 0.6306184868772945,
       "op_margin": 0.01898565436338857,
-      "fcf_margin": 0.1021698127267639,
-      "op_leverage_ratio": 1.2233725678375353,
-      "fcf_margin_change": -0.09349664537651226
+      "fcf_margin": 0.1021698127267639
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6658613432139842,
       "op_margin": 0.07375830214122778,
       "fcf_margin": 0.10660390436941536,
-      "incr_op_margin_yoy": 0.2238209235173622,
-      "rev_growth_yoy": 0.5563209417912,
       "op_leverage_ratio": 1.176368219849157,
       "fcf_margin_change": -0.06431683169119945
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.05117193058755622,
       "incr_op_margin_yoy": -6.47289268473821,
       "rev_growth_yoy": 0.0356761393462576,
-      "rev_growth_yoy_accel": -0.5206448024449424,
       "fcf_margin_change": -0.1577758349569716
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.17106818710728416,
       "rev_growth_yoy": 0.16062206379727453,
       "rev_growth_yoy_accel": 0.12494592445101693,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1886258586064063
     },
     {
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 2.100751244665718,
       "rev_growth_yoy": 0.14387748412669227,
       "rev_growth_yoy_accel": 0.2587690364223052,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17107947139830534
     },
     {
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": -2.991368065679429,
       "rev_growth_yoy": -0.0335802100148023,
       "rev_growth_yoy_accel": -0.17745769414149457,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10206963602227526
     },
     {
@@ -326,7 +305,7 @@
       "incr_op_margin_yoy": 0.7869521205986288,
       "rev_growth_yoy": 0.439841901448348,
       "rev_growth_yoy_accel": -0.03920143763930167,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04960562273304825
     },
     {
@@ -349,7 +328,7 @@
       "incr_op_margin_yoy": 1.0438261088272016,
       "rev_growth_yoy": 0.3864352691795024,
       "rev_growth_yoy_accel": -0.05340663226884562,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03878235389004736
     },
     {
@@ -442,9 +421,38 @@
       "rev_growth_yoy_accel": 0.00721097106939822,
       "op_leverage_ratio": 1.4015162783364603,
       "fcf_margin_change": 0.1362580892069375
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1657944000,
+      "gross_profit": 1474415000,
+      "operating_income": 1275243000,
+      "net_income": 1102256000,
+      "opex": 382701000,
+      "cogs": 183529000,
+      "rd": 82220000,
+      "sga": null,
+      "fcf": 1313734000,
+      "ocf": 1313734000,
+      "capex": null,
+      "gross_margin": 0.8893032575286017,
+      "op_margin": 0.7691713350993761,
+      "fcf_margin": 0.7923874389002282,
+      "incr_op_margin_yoy": 2.339918994266477,
+      "rev_growth_yoy": 0.20772826507398495,
+      "rev_growth_yoy_accel": 0.035132739154611875,
+      "op_leverage_ratio": 1.0356798680344632,
+      "fcf_margin_change": 0.04264490396362475
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +234.0% vs year-ago OPM: +44.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -668,28 +676,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.6% vs prior quarter YoY: +55.6% (decel: -52.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -1.0% (year-ago) -> +7.4%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.8% vs OpEx growth +7.0% (leverage: 1.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -1.0% -> +1.9%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -717,7 +707,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:12.263591",
-  "sector": "Communication Services",
-  "industry": "Advertising Agencies"
+  "last_updated": "2026-02-24T10:22:08.670676"
 }

@@ -1,42 +1,26 @@
 {
   "ticker": "PTN",
   "name": "PALATIN TECHNOLOGIES, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-09-30T00:00:00",
-      "quarter_label": "2020-09 (Q3)",
-      "revenue": -288560,
-      "gross_profit": -313760,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": 25200,
-      "rd": null,
-      "sga": 2331606,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 1.0873301912947047,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2020-12-31T00:00:00",
       "quarter_label": "2020-12 (Q4)",
       "revenue": -163971,
       "gross_profit": -193371,
-      "operating_income": -9249702,
-      "net_income": -9991775,
-      "opex": 9085731,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
       "cogs": 29400,
-      "rd": 4011418,
+      "rd": null,
       "sga": 5044913,
-      "fcf": -14420082,
-      "ocf": -14420082,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": 1.1792999981704082,
-      "op_margin": 56.41059699581024,
-      "fcf_margin": 87.94288014344
+      "op_margin": null,
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -54,8 +38,7 @@
       "capex": -5721,
       "gross_margin": 0.37526058980629023,
       "op_margin": -73.09185156804634,
-      "fcf_margin": -39.555436607655984,
-      "fcf_margin_change": -127.49831675109598
+      "fcf_margin": -39.555436607655984
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -177,7 +160,7 @@
       "fcf_margin": -10.029906146582434,
       "rev_growth_yoy": 4.45299156017607,
       "rev_growth_yoy_accel": 1.053626288732576,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.033129541290747966
     },
     {
@@ -199,7 +182,7 @@
       "fcf_margin": -9.54717482969868,
       "rev_growth_yoy": 3.105664,
       "rev_growth_yoy_accel": -1.34732756017607,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.48273131688375415
     },
     {
@@ -266,7 +249,7 @@
       "incr_op_margin_yoy": 2.138416902379071,
       "rev_growth_yoy": 1.4216263019545705,
       "rev_growth_yoy_accel": 0.13559265627990547,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 2.6769848149990745
     },
     {
@@ -409,6 +392,25 @@
       "op_margin": 0.5268184977762206,
       "fcf_margin": -0.18303168673813655,
       "incr_op_margin_yoy": 1.4044269882622873
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 116036,
+      "gross_profit": null,
+      "operating_income": -7328548,
+      "net_income": -7263861,
+      "opex": 7444584,
+      "cogs": null,
+      "rd": 4319767,
+      "sga": null,
+      "fcf": -4806845,
+      "ocf": -4806845,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -63.157537316005374,
+      "fcf_margin": -41.4254627874108,
+      "fcf_margin_change": -41.24243110067266
     }
   ],
   "signals": [
@@ -565,7 +567,7 @@
         20
       ],
       "gross_profit": [
-        16,
+        15,
         20
       ],
       "op_income": [
@@ -585,10 +587,11 @@
       ]
     ],
     "warnings": [
+      "gross_profit: 15/20Q",
       "gap: 1Q missing between 2024-09 (Q3) and 2025-03 (Q1)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T01:00:42.221296"
+  "last_updated": "2026-02-24T10:36:40.887786"
 }

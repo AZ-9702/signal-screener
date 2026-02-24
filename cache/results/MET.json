@@ -1,25 +1,9 @@
 {
   "ticker": "MET",
   "name": "MetLife, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Life",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 19418000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 158000000,
-      "opex": 3424000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 5153000000,
-      "ocf": 5153000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.26537233494695645
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.09613160262177098,
-      "fcf_margin_change": -0.16924073232518547
+      "fcf_margin": 0.09613160262177098
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.12167998272511336,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.025548380103342386
     },
     {
@@ -95,8 +78,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.2534222708945194,
-      "rev_growth_yoy": 0.034555566999691006,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.046028008841872275
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.12947448591012947,
       "rev_growth_yoy": 0.012466263976352653,
-      "rev_growth_yoy_accel": -0.022089303023338353,
       "fcf_margin_change": -0.12394778498438994
     },
     {
@@ -160,7 +141,7 @@
       "fcf_margin": 0.1935339021104625,
       "rev_growth_yoy": 0.3173617272996155,
       "rev_growth_yoy_accel": 0.47758630082585174,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08886517220169998
     },
     {
@@ -310,7 +291,7 @@
       "fcf_margin": 0.19581439712730742,
       "rev_growth_yoy": 0.07218913553510196,
       "rev_growth_yoy_accel": 0.02871370013089089,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05083090083285641
     },
     {
@@ -422,9 +403,50 @@
       "rev_growth_yoy": -0.05851409978308026,
       "rev_growth_yoy_accel": -0.031414284937094736,
       "fcf_margin_change": 0.07933594747324724
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 23814000000,
+      "gross_profit": null,
+      "operating_income": 1679000000,
+      "net_income": 809000000,
+      "opex": 3682000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 7076000000,
+      "ocf": 7076000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.07050474510791971,
+      "fcf_margin": 0.2971361384059797,
+      "incr_op_margin_yoy": 0.03651903651903652,
+      "rev_growth_yoy": 0.2757955641272903,
+      "rev_growth_yoy_accel": 0.33430966391037054,
+      "op_leverage_ratio": 7.539181402206061,
+      "fcf_margin_change": 0.09167562345868402
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.5% -> +29.7% (+9.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +37.2% vs OpEx growth +4.9% (leverage: 7.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +27.6% vs prior quarter YoY: -5.9% (accel: +33.4%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -564,7 +586,7 @@
         20
       ],
       "op_income": [
-        7,
+        8,
         20
       ],
       "fcf": [
@@ -575,12 +597,10 @@
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 7/20Q"
+      "op_income: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:25.229370",
-  "sector": "Financial Services",
-  "industry": "Insurance - Life"
+  "last_updated": "2026-02-24T10:22:20.026952"
 }

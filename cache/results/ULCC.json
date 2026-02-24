@@ -1,25 +1,9 @@
 {
   "ticker": "ULCC",
   "name": "Frontier Group Holdings, Inc.",
+  "sector": "Industrials",
+  "industry": "Airlines",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 267000000,
-      "gross_profit": null,
-      "operating_income": -184000000,
-      "net_income": -127000000,
-      "opex": 451000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -191000000,
-      "ocf": -191000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.6891385767790262,
-      "fcf_margin": -0.7153558052434457
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": -0.33948339483394835,
-      "fcf_margin": 0.11070110701107011,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.8260569122545158
+      "fcf_margin": 0.11070110701107011
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.1412151067323481,
       "fcf_margin": 0.19704433497536947,
-      "incr_op_margin_yoy": 0.28654970760233917,
-      "rev_growth_yoy": 1.2808988764044944,
       "fcf_margin_change": 0.42879036672140125
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.14380165289256197,
       "incr_op_margin_yoy": -0.18263473053892215,
       "rev_growth_yoy": 1.2324723247232472,
-      "rev_growth_yoy_accel": -0.04842655168124721,
       "fcf_margin_change": -0.3408459878679314
     },
     {
@@ -435,9 +414,44 @@
       "rev_growth_yoy": -0.052406417112299465,
       "rev_growth_yoy_accel": -0.00718545102802403,
       "fcf_margin_change": -0.09949896366636132
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 997000000,
+      "gross_profit": null,
+      "operating_income": 49000000,
+      "net_income": 53000000,
+      "opex": 948000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -91000000,
+      "ocf": -91000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.04914744232698094,
+      "fcf_margin": -0.09127382146439318,
+      "incr_op_margin_yoy": -0.8,
+      "rev_growth_yoy": -0.00499001996007984,
+      "rev_growth_yoy_accel": 0.047416397152219625,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.15138983542048268
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -24.3% -> -9.1% (+15.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -8.7% -> +4.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -611,12 +625,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -33.9% -> +3.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -71.5% -> +11.1%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -646,5 +654,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:57:26.618225"
+  "last_updated": "2026-02-24T10:28:10.548849"
 }

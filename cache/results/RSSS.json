@@ -1,25 +1,9 @@
 {
   "ticker": "RSSS",
   "name": "RESEARCH SOLUTIONS,\u00a0INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 7449735,
-      "gross_profit": 2391582,
-      "operating_income": -261005,
-      "net_income": -260606,
-      "opex": 2652587,
-      "cogs": 5058153,
-      "rd": null,
-      "sga": 2649548,
-      "fcf": -40825,
-      "ocf": -38995,
-      "capex": -1830,
-      "gross_margin": 0.3210291372780374,
-      "op_margin": -0.03503547441620407,
-      "fcf_margin": -0.00548006070014571
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -5719,
       "gross_margin": 0.32403688397814434,
       "op_margin": 0.00600321418345976,
-      "fcf_margin": 0.1594453447334055,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.1649254054335512
+      "fcf_margin": 0.1594453447334055
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": 0.36046195978373247,
       "op_margin": -0.06120826133498436,
       "fcf_margin": -0.03404347427882139,
-      "rev_growth_yoy": 0.056720406833263196,
       "op_leverage_ratio": 0.17338802265669093,
       "fcf_margin_change": -0.024241735719822903
     },
@@ -117,7 +98,6 @@
       "op_margin": -0.03881824094772027,
       "fcf_margin": -0.01062787015983827,
       "rev_growth_yoy": 0.049975229397836975,
-      "rev_growth_yoy_accel": -0.006745177435426221,
       "op_leverage_ratio": 1.441320937286623,
       "fcf_margin_change": 0.023415604118983115
     },
@@ -161,7 +141,7 @@
       "fcf_margin": 0.01211310585823735,
       "rev_growth_yoy": 0.12168401850357455,
       "rev_growth_yoy_accel": 0.07977959640154614,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.014977620483251176
     },
     {
@@ -273,7 +253,7 @@
       "incr_op_margin_yoy": -0.0566998690106169,
       "rev_growth_yoy": 0.18322097003602064,
       "rev_growth_yoy_accel": 0.02474260771300979,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10820260188369923
     },
     {
@@ -384,7 +364,7 @@
       "fcf_margin": 0.22798422255171105,
       "rev_growth_yoy": 0.0450400935251466,
       "rev_growth_yoy_accel": -0.11013898696765612,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14166937472156793
     },
     {
@@ -428,6 +408,27 @@
       "rev_growth_yoy": 0.022226194534559478,
       "rev_growth_yoy_accel": -0.0028615912462126893,
       "fcf_margin_change": -0.09250087550671382
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 11792651,
+      "gross_profit": 6176950,
+      "operating_income": 739350,
+      "net_income": 546919,
+      "opex": 5437600,
+      "cogs": 5615701,
+      "rd": null,
+      "sga": 5121175,
+      "fcf": 1377035,
+      "ocf": 1384057,
+      "capex": -7022,
+      "gross_margin": 0.5237965577036071,
+      "op_margin": 0.06269582640917636,
+      "fcf_margin": 0.11677060569332544,
+      "rev_growth_yoy": -0.010203606295972905,
+      "rev_growth_yoy_accel": -0.03242980083053238,
+      "fcf_margin_change": 0.028274534524804176
     }
   ],
   "signals": [
@@ -550,18 +551,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -5.2% -> +2.1%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -0.5% -> +15.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -3.5% -> +0.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -589,5 +578,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:22:31.675058"
+  "last_updated": "2026-02-24T10:44:38.072225"
 }

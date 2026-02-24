@@ -1,25 +1,9 @@
 {
   "ticker": "HASI",
   "name": "HA SUSTAINABLE INFRASTRUCTURE CAPITAL, INC.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 48889000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 24925000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 21420000,
-      "ocf": 21420000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.4381353678741639
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.35165876777251187,
-      "fcf_margin_change": -0.7897941356466758
+      "fcf_margin": -0.35165876777251187
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.15600789630512515,
-      "rev_growth_yoy": 0.09832477653459878,
       "fcf_margin_change": -0.6445108217173423
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.5462582940009577,
       "rev_growth_yoy": 0.13117322758487282,
-      "rev_growth_yoy_accel": 0.032848451050274036,
       "fcf_margin_change": -0.3902503976958326
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 0.2574147501982553,
       "rev_growth_yoy_accel": 0.35085825771542156,
       "fcf_margin_change": -2.110493792596659
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 114812000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -53767000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 246673000,
+      "ocf": 246673000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 2.1484949308434658,
+      "rev_growth_yoy": 0.13341954845651896,
+      "rev_growth_yoy_accel": -0.12399520174173637,
+      "fcf_margin_change": 3.3303431028530905
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -118.2% -> +214.8%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +13.3% vs prior quarter YoY: +25.7% (decel: -12.4%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -557,7 +571,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:10:30.679589",
-  "sector": "Financial Services",
-  "industry": "Asset Management"
+  "last_updated": "2026-02-24T10:40:42.912625"
 }

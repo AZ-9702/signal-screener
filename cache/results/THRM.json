@@ -1,25 +1,9 @@
 {
   "ticker": "THRM",
-  "name": "Gentherm Inc",
+  "name": "GENTHERM INCORPORATED",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 288884000,
-      "gross_profit": 92697000,
-      "operating_income": 41907000,
-      "net_income": null,
-      "opex": 50790000,
-      "cogs": 196187000,
-      "rd": 16869000,
-      "sga": 31570000,
-      "fcf": 31788000,
-      "ocf": 37394000,
-      "capex": -5606000,
-      "gross_margin": 0.3208796610404176,
-      "op_margin": 0.14506514725633818,
-      "fcf_margin": 0.11003724678417635
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -9913000,
       "gross_margin": 0.3038418216160951,
       "op_margin": 0.1412272341310413,
-      "fcf_margin": 0.10312093853431993,
-      "fcf_margin_change": -0.006916308249856423
+      "fcf_margin": 0.10312093853431993
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,9 +77,7 @@
       "gross_margin": 0.2713736675448986,
       "op_margin": 0.0881495089152627,
       "fcf_margin": 0.06883646354531757,
-      "incr_op_margin_yoy": 0.4925475921097939,
-      "rev_growth_yoy": -0.14074161255036624,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.029066438864043767
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -0.023698240658753554,
       "incr_op_margin_yoy": 1.272104607721046,
       "rev_growth_yoy": -0.07235863933318315,
-      "rev_growth_yoy_accel": 0.06838297321718309,
       "op_leverage_ratio": 0.8014922616687201,
       "fcf_margin_change": -0.09253470420407112
     },
@@ -210,7 +190,7 @@
       "incr_op_margin_yoy": 0.03630376792264088,
       "rev_growth_yoy": 0.3585484407282455,
       "rev_growth_yoy_accel": -0.024554054578450835,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08662557183057851
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 8.531845238095238,
       "rev_growth_yoy": 0.009024422342965651,
       "rev_growth_yoy_accel": 0.0299525763477783,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1080687955831579
     },
     {
@@ -410,7 +390,7 @@
       "fcf_margin": 0.09647817857047641,
       "rev_growth_yoy": -0.0015784584343715314,
       "rev_growth_yoy_accel": 0.004491510527610407,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17621445398349986
     },
     {
@@ -435,6 +415,28 @@
       "rev_growth_yoy_accel": 0.0429176345578884,
       "op_leverage_ratio": 0.37295020780106986,
       "fcf_margin_change": 0.023637105633519756
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 382788000,
+      "gross_profit": 90801000,
+      "operating_income": 17772000,
+      "net_income": null,
+      "opex": 73029000,
+      "cogs": 291987000,
+      "rd": 23556000,
+      "sga": 47605000,
+      "fcf": 6676000,
+      "ocf": 28971000,
+      "capex": -22295000,
+      "gross_margin": 0.23720963039593718,
+      "op_margin": 0.04642778770494373,
+      "fcf_margin": 0.01744046312841573,
+      "incr_op_margin_yoy": -0.19645845886054764,
+      "rev_growth_yoy": 0.08464951801288699,
+      "rev_growth_yoy_accel": 0.04331034188937012,
+      "fcf_margin_change": -0.10267482107558044
     }
   ],
   "signals": [
@@ -554,20 +556,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -7.2% vs prior quarter YoY: -14.1% (accel: +6.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +127.2% vs year-ago OPM: +14.1%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +49.3% vs year-ago OPM: +14.5%",
       "severity": "HIGH"
     }
   ],
@@ -596,5 +586,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:57:44.331199"
+  "last_updated": "2026-02-24T10:20:41.906459"
 }

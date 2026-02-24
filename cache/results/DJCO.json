@@ -1,25 +1,9 @@
 {
   "ticker": "DJCO",
   "name": "DAILY JOURNAL CORPORATION",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 10420000,
-      "gross_profit": null,
-      "operating_income": -315000,
-      "net_income": 59270000,
-      "opex": 10735000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -2783000,
-      "ocf": -2783000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.030230326295585412,
-      "fcf_margin": -0.26708253358925144
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -29000,
       "gross_margin": null,
       "op_margin": 0.09341445955619183,
-      "fcf_margin": -0.03035075161059413,
-      "op_leverage_ratio": 1.8949832426680457,
-      "fcf_margin_change": 0.2367317819786573
+      "fcf_margin": -0.03035075161059413
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.004857737682165163,
       "fcf_margin": 0.028192227619708535,
-      "incr_op_margin_yoy": 0.3348375451263538,
-      "rev_growth_yoy": 0.10633397312859885,
       "fcf_margin_change": -0.2571972976054379
     },
     {
@@ -118,7 +98,6 @@
       "fcf_margin": -1.2553886348791639,
       "incr_op_margin_yoy": 0.28650476483246234,
       "rev_growth_yoy": -0.23285612025769506,
-      "rev_growth_yoy_accel": -0.3391900933862939,
       "fcf_margin_change": -1.2835808624988725
     },
     {
@@ -436,9 +415,37 @@
       "rev_growth_yoy_accel": 0.0918346591745891,
       "op_leverage_ratio": 1.188600540691971,
       "fcf_margin_change": -0.1476020641830135
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19538000,
+      "gross_profit": null,
+      "operating_income": 477000,
+      "net_income": -7977000,
+      "opex": 19061000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -1945000,
+      "ocf": -1938000,
+      "capex": -7000,
+      "gross_margin": null,
+      "op_margin": 0.02441396253454806,
+      "fcf_margin": -0.09954959565973999,
+      "incr_op_margin_yoy": -0.1444929116684842,
+      "rev_growth_yoy": 0.1035924084952553,
+      "rev_growth_yoy_accel": -0.32618668877239426,
+      "fcf_margin_change": -0.25845013764608477
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +10.4% vs prior quarter YoY: +43.0% (decel: -32.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -639,21 +646,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -23.3% vs prior quarter YoY: +10.6% (decel: -33.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +28.7% vs year-ago OPM: +9.3%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -3.0% (year-ago) -> +0.5%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-12 (Q4)",
@@ -665,24 +660,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.0% -> +23.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -26.7% -> -3.0% (+23.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +34.1% vs OpEx growth +18.0% (leverage: 1.9x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -3.0% -> +9.3%",
       "severity": "HIGH"
     }
   ],
@@ -713,7 +690,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:08:37.848156",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:37:42.756145"
 }

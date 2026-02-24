@@ -1,25 +1,9 @@
 {
   "ticker": "PDM",
   "name": "Piedmont Realty Trust, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 131529000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 22609000,
-      "opex": 112277000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 54474000,
-      "ocf": 54474000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.41415961498985016
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.36222409618047763,
-      "fcf_margin_change": -0.05193551880937253
+      "fcf_margin": 0.36222409618047763
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5585318896384007,
-      "rev_growth_yoy": 0.050445148978552255,
       "op_leverage_ratio": 0.12054698078060479,
       "fcf_margin_change": 0.06382291511314342
     },
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.29268668884824717,
       "rev_growth_yoy": 0.05332012966415745,
-      "rev_growth_yoy_accel": 0.002874980685605197,
       "fcf_margin_change": -0.26584520079015356
     },
     {
@@ -416,9 +397,37 @@
       "rev_growth_yoy": -0.0009332845153740676,
       "rev_growth_yoy_accel": 0.01979796312880234,
       "fcf_margin_change": -0.09980236169867435
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 142853000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -43246000,
+      "opex": 123945000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 50937000,
+      "ocf": 50937000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3565693405108748,
+      "rev_growth_yoy": -0.0026390934923305708,
+      "rev_growth_yoy_accel": -0.0017058089769565032,
+      "op_leverage_ratio": 1.0224739751424228,
+      "fcf_margin_change": 0.09923800962551016
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +25.7% -> +35.7% (+9.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -514,5 +523,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:00:10.936363"
+  "last_updated": "2026-02-24T10:39:36.224124"
 }

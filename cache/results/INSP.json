@@ -1,25 +1,9 @@
 {
   "ticker": "INSP",
-  "name": "INSPIRE MEDICAL SYSTEMS,\u00a0INC.",
+  "name": "Inspire Medical Systems,\u00a0Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 46009000,
-      "gross_profit": 38848000,
-      "operating_income": -7062000,
-      "net_income": -7484000,
-      "opex": 45910000,
-      "cogs": 7161000,
-      "rd": 7285000,
-      "sga": null,
-      "fcf": -4714000,
-      "ocf": -4110000,
-      "capex": -604000,
-      "gross_margin": 0.8443565389380339,
-      "op_margin": -0.15349170814405877,
-      "fcf_margin": -0.10245821469712448
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1321000,
       "gross_margin": 0.8517793417922284,
       "op_margin": -0.38880352894528153,
-      "fcf_margin": -0.2904936558287074,
-      "fcf_margin_change": -0.18803544113158294
+      "fcf_margin": -0.2904936558287074
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.8577004515421311,
       "op_margin": -0.023227633357993827,
       "fcf_margin": 0.0025638409143090386,
-      "incr_op_margin_yoy": 0.16181419617771467,
-      "rev_growth_yoy": 0.7039709622030472,
       "op_leverage_ratio": 2.7442060805484894,
       "fcf_margin_change": 0.026702610469306203
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.20124816234758294,
       "incr_op_margin_yoy": -0.012642094385118843,
       "rev_growth_yoy": 0.719419111816019,
-      "rev_growth_yoy_accel": 0.015448149612971807,
       "fcf_margin_change": -0.20381200326189197
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 0.08439497665140318,
       "rev_growth_yoy": 0.4040187566399238,
       "rev_growth_yoy_accel": -0.24931982913907957,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.023420872287499932
     },
     {
@@ -348,7 +328,7 @@
       "incr_op_margin_yoy": 0.5570165768004971,
       "rev_growth_yoy": 0.32542954429818266,
       "rev_growth_yoy_accel": 0.02896778589932636,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.28156825744775005
     },
     {
@@ -439,11 +419,46 @@
       "incr_op_margin_yoy": -0.21933364617550447,
       "rev_growth_yoy": 0.10487669237318582,
       "rev_growth_yoy_accel": -0.0033551783672996632,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.28781890927843384
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 269077000,
+      "gross_profit": 233006000,
+      "operating_income": 46111000,
+      "net_income": 136090000,
+      "opex": 186895000,
+      "cogs": 36071000,
+      "rd": 24942000,
+      "sga": 161953000,
+      "fcf": 41813000,
+      "ocf": 52469000,
+      "capex": -10656000,
+      "gross_margin": 0.8659454356931288,
+      "op_margin": 0.17136730378293202,
+      "fcf_margin": 0.15539418084786139,
+      "incr_op_margin_yoy": 0.48458734970537143,
+      "rev_growth_yoy": 0.12247307252688576,
+      "rev_growth_yoy_accel": 0.017596380153699936,
+      "op_leverage_ratio": 9.538811319933751,
+      "fcf_margin_change": -0.1033440875785599
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +19.9% vs OpEx growth +2.1% (leverage: 9.5x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +48.5% vs year-ago OPM: +13.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -656,7 +671,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:29:59.689155",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:44:09.864416"
 }

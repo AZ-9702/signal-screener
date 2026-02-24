@@ -1,25 +1,9 @@
 {
   "ticker": "KEX",
   "name": "KIRBY CORPORATION",
+  "sector": "Industrials",
+  "industry": "Marine Shipping",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 489756000,
-      "gross_profit": null,
-      "operating_income": 24774000,
-      "net_income": 22204000,
-      "opex": 464982000,
-      "cogs": null,
-      "rd": null,
-      "sga": 58860000,
-      "fcf": 85177000,
-      "ocf": 85177000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.05058437262636905,
-      "fcf_margin": 0.17391721591976414
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.006368119150649089,
-      "fcf_margin": 0.20641642346784744,
-      "op_leverage_ratio": 0.23464166877747136,
-      "fcf_margin_change": 0.0324992075480833
+      "fcf_margin": 0.20641642346784744
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.05344633379900079,
       "fcf_margin": 0.06970466761153186,
-      "incr_op_margin_yoy": 0.06725445768889765,
-      "rev_growth_yoy": 0.20726647555109073,
       "fcf_margin_change": -0.06811674426317595
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.052755320228821415,
       "incr_op_margin_yoy": 0.23285819611698205,
       "rev_growth_yoy": 0.22930864446009863,
-      "rev_growth_yoy_accel": 0.022042168909007898,
       "op_leverage_ratio": 0.8622947929598422,
       "fcf_margin_change": -0.01694934738271045
     },
@@ -303,7 +282,7 @@
       "incr_op_margin_yoy": 0.6959776303449234,
       "rev_growth_yoy": 0.07672524532143637,
       "rev_growth_yoy_accel": -0.01778900830616835,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11769963401737615
     },
     {
@@ -326,7 +305,7 @@
       "incr_op_margin_yoy": 0.7042128038691613,
       "rev_growth_yoy": 0.060652455844209315,
       "rev_growth_yoy_accel": -0.01607278947722706,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06493719052192254
     },
     {
@@ -440,9 +419,43 @@
       "rev_growth_yoy_accel": 0.01045817850595114,
       "op_leverage_ratio": 0.7246676018242991,
       "fcf_margin_change": 0.15138947791049975
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 851775000,
+      "gross_profit": null,
+      "operating_income": 129673000,
+      "net_income": 91810000,
+      "opex": 722102000,
+      "cogs": null,
+      "rd": null,
+      "sga": 87360000,
+      "fcf": 312210000,
+      "ocf": 312210000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.15223856065275454,
+      "fcf_margin": 0.366540459628423,
+      "incr_op_margin_yoy": 1.6079053780832997,
+      "rev_growth_yoy": 0.06164661012195958,
+      "rev_growth_yoy_accel": 0.013506024017662994,
+      "fcf_margin_change": 0.10535911657013641
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +26.1% -> +36.7% (+10.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +160.8% vs year-ago OPM: +6.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -633,7 +646,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:50:04.156630",
-  "sector": "Industrials",
-  "industry": "Marine Shipping"
+  "last_updated": "2026-02-24T10:32:27.190005"
 }

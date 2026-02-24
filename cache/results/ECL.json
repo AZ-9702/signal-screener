@@ -1,25 +1,9 @@
 {
   "ticker": "ECL",
   "name": "ECOLAB INC.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3065300000,
-      "gross_profit": 1285000000,
-      "operating_income": 416100000,
-      "net_income": null,
-      "opex": 868900000,
-      "cogs": 1780300000,
-      "rd": null,
-      "sga": 809600000,
-      "fcf": 523100000,
-      "ocf": 649800000,
-      "capex": -126700000,
-      "gross_margin": 0.41920856033667175,
-      "op_margin": 0.13574527778683979,
-      "fcf_margin": 0.17065213845300622
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -102100000,
       "gross_margin": 0.4065857885615251,
       "op_margin": 0.10305025996533795,
-      "fcf_margin": 0.06696707105719238,
-      "fcf_margin_change": -0.10368506739581385
+      "fcf_margin": 0.06696707105719238
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.41695386853005345,
       "op_margin": 0.14158788377019635,
       "fcf_margin": 0.1136687007936257,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.046701629736433325
     },
     {
@@ -76,7 +59,7 @@
       "gross_margin": 0.3927065767284992,
       "op_margin": 0.14026740544447122,
       "fcf_margin": 0.1338532883642496,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.020184587570623885
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.39276585626820426,
       "op_margin": 0.1152291505676752,
       "fcf_margin": 0.12533436366878678,
-      "incr_op_margin_yoy": -0.09488807216839291,
-      "rev_growth_yoy": 0.0976413401624637,
       "op_leverage_ratio": 0.11577838431665365,
       "fcf_margin_change": -0.00851892469546281
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.00655095356169835,
       "incr_op_margin_yoy": -0.11212994498297092,
       "rev_growth_yoy": 0.1323050259965338,
-      "rev_growth_yoy_accel": 0.03466368583407009,
       "fcf_margin_change": -0.11878341010708843
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.049354375896700144,
       "rev_growth_yoy": 0.10494459166465912,
       "rev_growth_yoy_accel": -0.027189344529099366,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.023654365066431246
     },
     {
@@ -323,7 +303,7 @@
       "incr_op_margin_yoy": 1.287958115183246,
       "rev_growth_yoy": 0.03470834090496093,
       "rev_growth_yoy_accel": -0.015773235979348627,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.015460602241290894
     },
     {
@@ -437,9 +417,43 @@
       "rev_growth_yoy_accel": 0.031755523153838616,
       "op_leverage_ratio": 2.895945239646714,
       "fcf_margin_change": 0.006663120778471393
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4196000000,
+      "gross_profit": 1847600000,
+      "operating_income": 712000000,
+      "net_income": 563900000,
+      "opex": 1135600000,
+      "cogs": 2348400000,
+      "rd": null,
+      "sga": 1061000000,
+      "fcf": 758000000,
+      "ocf": 1090100000,
+      "capex": -332100000,
+      "gross_margin": 0.440324118207817,
+      "op_margin": 0.16968541468064824,
+      "fcf_margin": 0.18064823641563393,
+      "incr_op_margin_yoy": 0.6771488469601677,
+      "rev_growth_yoy": 0.04763807050833916,
+      "rev_growth_yoy_accel": 0.005997455277627642,
+      "fcf_margin_change": 0.05346936486701448
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +12.7% -> +18.1% (+5.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +67.7% vs year-ago OPM: +14.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -556,7 +570,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:53:13.536108",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:07:52.158667"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "CRK",
   "name": "COMSTOCK RESOURCES, INC.",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 274771000,
-      "gross_profit": null,
-      "operating_income": 102739000,
-      "net_income": 81923000,
-      "opex": 172032000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 8684000,
-      "ocf": 185746000,
-      "capex": -177062000,
-      "gross_margin": null,
-      "op_margin": 0.37390772679795176,
-      "fcf_margin": 0.0316044997470621
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -165751000,
       "gross_margin": null,
       "op_margin": 0.46911317679192915,
-      "fcf_margin": 0.08082881771590525,
-      "op_leverage_ratio": 4.714452577197135,
-      "fcf_margin_change": 0.04922431796884315
+      "fcf_margin": 0.08082881771590525
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.45593064134176414,
       "fcf_margin": 0.09068534703742584,
-      "incr_op_margin_yoy": 0.5151456234153519,
-      "rev_growth_yoy": 1.3851716520302362,
       "op_leverage_ratio": 0.4305770455480253,
       "fcf_margin_change": -0.033925354560458254
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.13783412500166717,
       "incr_op_margin_yoy": 0.9603484562476947,
       "rev_growth_yoy": 0.5414511652495705,
-      "rev_growth_yoy_accel": -0.8437204867806657,
       "fcf_margin_change": 0.04714877796424133
     },
     {
@@ -437,9 +416,56 @@
       "rev_growth_yoy": 0.4774823300664757,
       "rev_growth_yoy_accel": -0.4277236821686659,
       "fcf_margin_change": -0.4256885755307756
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 787321000,
+      "gross_profit": null,
+      "operating_income": 380025000,
+      "net_income": 280919000,
+      "opex": 407296000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -141248000,
+      "ocf": 224204000,
+      "capex": -365452000,
+      "gross_margin": null,
+      "op_margin": 0.4826811427613388,
+      "fcf_margin": -0.1794033183415659,
+      "incr_op_margin_yoy": 0.909570414821165,
+      "rev_growth_yoy": 1.1430640125646128,
+      "rev_growth_yoy_accel": 0.6655816824981371,
+      "op_leverage_ratio": 39.15375738638733,
+      "fcf_margin_change": 0.23941887206772425
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -41.9% -> -17.9% (+23.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +75.0% vs OpEx growth +1.9% (leverage: 39.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +114.3% vs prior quarter YoY: +47.7% (accel: +66.6%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.5% (year-ago) -> +48.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -640,21 +666,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +54.1% vs prior quarter YoY: +138.5% (decel: -84.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +96.0% vs year-ago OPM: +46.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +51.5% vs year-ago OPM: +37.4%",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -666,12 +680,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +48.7% vs OpEx growth +9.2% (leverage: 5.3x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +23.9% vs OpEx growth +5.1% (leverage: 4.7x)",
       "severity": "MEDIUM"
     }
   ],
@@ -702,7 +710,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:12.220765",
-  "sector": "Energy",
-  "industry": "Oil & Gas E&P"
+  "last_updated": "2026-02-24T10:24:45.455306"
 }

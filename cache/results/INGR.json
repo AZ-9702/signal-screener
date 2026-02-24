@@ -1,25 +1,9 @@
 {
   "ticker": "INGR",
   "name": "INGREDION INCORPORATED",
+  "sector": "Consumer Defensive",
+  "industry": "Packaged Foods",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1593000000,
-      "gross_profit": 352000000,
-      "operating_income": 163000000,
-      "net_income": 115000000,
-      "opex": 189000000,
-      "cogs": 1241000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 267000000,
-      "ocf": 267000000,
-      "capex": null,
-      "gross_margin": 0.22096672944130571,
-      "op_margin": 0.10232266164469554,
-      "fcf_margin": 0.16760828625235405
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -65000000,
       "gross_margin": 0.2174721189591078,
       "op_margin": -0.10532837670384139,
-      "fcf_margin": -0.02664188351920694,
-      "op_leverage_ratio": 0.007504594649785584,
-      "fcf_margin_change": -0.19425016977156098
+      "fcf_margin": -0.02664188351920694
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.20828603859250852,
       "op_margin": 0.12599318955732122,
       "fcf_margin": 0.031214528944381384,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05785641246358832
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.16524216524216523,
       "op_margin": 0.049002849002849,
       "fcf_margin": 0.020512820512820513,
-      "incr_op_margin_yoy": -0.47530864197530864,
-      "rev_growth_yoy": 0.1016949152542373,
       "fcf_margin_change": -0.004444638364093839
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.07241014799154334,
       "incr_op_margin_yoy": 1.3669064748201438,
       "rev_growth_yoy": 0.17224287484510534,
-      "rev_growth_yoy_accel": 0.07054795959086804,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09292296850436385
     },
     {
@@ -268,16 +247,16 @@
       "cogs": 1521000000,
       "rd": null,
       "sga": null,
-      "fcf": 327000000,
+      "fcf": 329000000,
       "ocf": 410000000,
-      "capex": -83000000,
+      "capex": -81000000,
       "gross_margin": 0.20822488287350338,
       "op_margin": 0.10515356585111921,
-      "fcf_margin": 0.17022384174908903,
+      "fcf_margin": 0.17126496616345654,
       "incr_op_margin_yoy": -0.6818181818181818,
       "rev_growth_yoy": -0.03321590337191746,
       "rev_growth_yoy_accel": -0.03815905710399853,
-      "fcf_margin_change": 0.02806939019965468
+      "fcf_margin_change": 0.029110514614022198
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -299,7 +278,7 @@
       "incr_op_margin_yoy": 0.3058823529411765,
       "rev_growth_yoy": -0.11932615816565278,
       "rev_growth_yoy_accel": -0.08611025479373532,
-      "fcf_margin_change": -0.09370949530913153
+      "fcf_margin_change": -0.09475061972349905
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -356,16 +335,16 @@
       "cogs": 1351000000,
       "rd": null,
       "sga": null,
-      "fcf": 305000000,
+      "fcf": 311000000,
       "ocf": 436000000,
-      "capex": -131000000,
+      "capex": -125000000,
       "gross_margin": 0.24944444444444444,
       "op_margin": 0.09,
-      "fcf_margin": 0.16944444444444445,
+      "fcf_margin": 0.17277777777777778,
       "incr_op_margin_yoy": 0.3305785123966942,
       "rev_growth_yoy": -0.06298802706923477,
       "rev_growth_yoy_accel": 0.017189051140307776,
-      "fcf_margin_change": -0.05996732026143789
+      "fcf_margin_change": -0.05663398692810456
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -387,7 +366,7 @@
       "incr_op_margin_yoy": -0.9130434782608695,
       "rev_growth_yoy": -0.036663124335812966,
       "rev_growth_yoy_accel": 0.026324902733421807,
-      "fcf_margin_change": -0.17771802414659557
+      "fcf_margin_change": -0.1810513574799289
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -433,9 +412,37 @@
       "rev_growth_yoy": -0.028877005347593583,
       "rev_growth_yoy_accel": -0.004915344005740549,
       "fcf_margin_change": 0.048887142476044906
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1757000000,
+      "gross_profit": 430000000,
+      "operating_income": 220000000,
+      "net_income": 165000000,
+      "opex": 210000000,
+      "cogs": 1327000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 270000000,
+      "ocf": 405000000,
+      "capex": -135000000,
+      "gross_margin": 0.24473534433693797,
+      "op_margin": 0.12521343198634036,
+      "fcf_margin": 0.15367103016505407,
+      "incr_op_margin_yoy": -1.3488372093023255,
+      "rev_growth_yoy": -0.02388888888888889,
+      "rev_growth_yoy_accel": 0.004988116458704693,
+      "fcf_margin_change": 0.05895737377738887
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.5% -> +15.4% (+5.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -552,12 +559,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +17.2% vs prior quarter YoY: +10.2% (accel: +7.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -10.5% (year-ago) -> +11.1%",
       "severity": "HIGH"
@@ -600,7 +601,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:48:22.504692",
-  "sector": "Consumer Defensive",
-  "industry": "Packaged Foods"
+  "last_updated": "2026-02-24T10:35:52.287138"
 }

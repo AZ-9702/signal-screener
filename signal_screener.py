@@ -1364,66 +1364,55 @@ def _run_scan_mode(args):
 # ══════════════════════════════════════════════════════════════════════
 
 def _fetch_recent_filers(days=3):
-    """Fetch recent 10-Q/10-K filers from SEC daily index files.
+    """Fetch recent 10-Q/10-K filers from EDGAR full-text search (EFTS) API.
 
     Returns list of {cik, ticker, form_type, filed_date}.
-    Uses daily index files instead of RSS feed to get ALL filings in date range.
+    Uses efts.sec.gov search API (data.sec.gov subdomain, not www.sec.gov).
     """
-    import re
-
     cik_to_ticker = _build_cik_to_ticker_map()
     filers = []
     seen_ciks = set()
-    target_forms = {"10-Q", "10-K", "10-Q/A", "10-K/A"}
 
     today = datetime.now()
+    start_date = (today - timedelta(days=days)).strftime("%Y-%m-%d")
+    end_date = today.strftime("%Y-%m-%d")
 
-    # Iterate through each day in the range
-    for i in range(days + 1):
-        d = today - timedelta(days=i)
-        # Skip weekends (no filings)
-        if d.weekday() >= 5:
-            continue
+    page_size = 100
+    offset = 0
 
-        year = d.year
-        qtr = (d.month - 1) // 3 + 1
-        date_str = d.strftime("%Y%m%d")
-        url = f"https://www.sec.gov/Archives/edgar/daily-index/{year}/QTR{qtr}/company.{date_str}.idx"
+    while True:
+        url = (
+            f"https://efts.sec.gov/LATEST/search-index?"
+            f"q=&forms=10-Q,10-K"
+            f"&dateRange=custom&startdt={start_date}&enddt={end_date}"
+            f"&from={offset}&size={page_size}"
+        )
 
         try:
             _rate_limiter.wait()
             req = urllib.request.Request(url, headers={"User-Agent": SEC_UA})
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                content = resp.read().decode("utf-8", errors="ignore")
-        except urllib.error.HTTPError as e:
-            # 403/404 = today's file not yet available or holiday
-            continue
-        except Exception:
-            continue
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except Exception as e:
+            print(f"  {DIM}EFTS API error: {e}{RESET}")
+            break
 
-        # Parse fixed-width index file
-        # Format: Company Name | Form Type | CIK | Date Filed | Filename
-        for line in content.strip().split("\n"):
-            if not line or line.startswith("Company Name") or line.startswith("-"):
+        hits = data.get("hits", {}).get("hits", [])
+        total = data.get("hits", {}).get("total", {}).get("value", 0)
+
+        if not hits:
+            break
+
+        for hit in hits:
+            src = hit.get("_source", {})
+            cik_list = src.get("ciks", [])
+            form_type = src.get("form", "")
+            filed_date = src.get("file_date", "")
+
+            if not cik_list:
                 continue
 
-            # Split by multiple spaces (fields are space-padded)
-            parts = re.split(r"\s{2,}", line.strip())
-            if len(parts) < 4:
-                continue
-
-            # Parts: [Company Name, Form Type, CIK, Date, Filename]
-            # Form type is at index 1, CIK at index 2
-            form_type = parts[1] if len(parts) > 1 else None
-            cik_raw = parts[2] if len(parts) > 2 else None
-            filed_date = d.strftime("%Y-%m-%d")
-
-            if form_type not in target_forms:
-                continue
-            if not cik_raw or not cik_raw.isdigit():
-                continue
-
-            cik_padded = cik_raw.zfill(10)
+            cik_padded = cik_list[0]  # already zero-padded in EFTS response
 
             if cik_padded in seen_ciks:
                 continue
@@ -1439,6 +1428,10 @@ def _fetch_recent_filers(days=3):
                 "form_type": form_type,
                 "filed_date": filed_date,
             })
+
+        offset += page_size
+        if offset >= total:
+            break
 
     return filers
 
@@ -1456,7 +1449,7 @@ def _run_update_mode(args):
         print(f"  Mode: Show ALL signals from recent filers")
     print()
 
-    print(f"{DIM}Fetching recent filers from SEC RSS feed...{RESET}")
+    print(f"{DIM}Fetching recent filers from EDGAR EFTS API...{RESET}")
     filers = _fetch_recent_filers(days)
     print(f"  Found {len(filers)} companies with recent 10-Q/10-K filings")
 

@@ -1,25 +1,9 @@
 {
   "ticker": "HCIL",
   "name": "Hongchang International Co., Ltd",
+  "sector": "Consumer Defensive",
+  "industry": "Food Distribution",
   "quarters": [
-    {
-      "date": "2020-06-30T00:00:00",
-      "quarter_label": "2020-06 (Q2)",
-      "revenue": 34388,
-      "gross_profit": 17489,
-      "operating_income": null,
-      "net_income": -85826,
-      "opex": null,
-      "cogs": 16899,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": 0.5085785739211353,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2020-09-30T00:00:00",
       "quarter_label": "2020-09 (Q3)",
@@ -43,18 +27,18 @@
       "quarter_label": "2020-12 (Q4)",
       "revenue": 170318,
       "gross_profit": 74525,
-      "operating_income": -21773,
+      "operating_income": null,
       "net_income": -301745,
-      "opex": 96298,
+      "opex": null,
       "cogs": 95793,
       "rd": null,
       "sga": null,
-      "fcf": 76281,
-      "ocf": 76281,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": 0.4375638511490271,
-      "op_margin": -0.12783733956481405,
-      "fcf_margin": 0.44787397691377306
+      "op_margin": null,
+      "fcf_margin": null
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -72,9 +56,7 @@
       "capex": null,
       "gross_margin": 0.6877249920728181,
       "op_margin": -0.2057523361871188,
-      "fcf_margin": -0.4241322067409024,
-      "rev_growth_yoy": 0.5590613004536467,
-      "fcf_margin_change": -0.8720061836546755
+      "fcf_margin": -0.4241322067409024
     },
     {
       "date": "2021-09-30T00:00:00",
@@ -94,7 +76,6 @@
       "op_margin": 0.3493786313750807,
       "fcf_margin": -1.1810442220787605,
       "rev_growth_yoy": 0.49301204819277106,
-      "rev_growth_yoy_accel": -0.0660492522608756,
       "fcf_margin_change": -0.7569120153378581
     },
     {
@@ -238,7 +219,7 @@
       "gross_margin": -0.22487693834270484,
       "op_margin": -2.8941572465318988,
       "fcf_margin": 1.7557055859291397,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -294.54361306404707
     },
     {
@@ -332,23 +313,23 @@
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
       "revenue": 46392,
-      "gross_profit": 33054,
-      "operating_income": -204315,
+      "gross_profit": 30737,
+      "operating_income": -206661,
       "net_income": null,
-      "opex": 237369,
-      "cogs": 13338,
+      "opex": 237398,
+      "cogs": 15655,
       "rd": null,
       "sga": null,
-      "fcf": 2172538,
-      "ocf": -4661728,
-      "capex": 6834266,
-      "gross_margin": 0.7124935333678221,
-      "op_margin": -4.404099844800828,
-      "fcf_margin": 46.83001379548198,
-      "incr_op_margin_yoy": 0.055875035718583425,
+      "fcf": 2172630,
+      "ocf": 2259352,
+      "capex": -86722,
+      "gross_margin": 0.6625495775133644,
+      "op_margin": -4.454668908432488,
+      "fcf_margin": 46.831996896016555,
+      "incr_op_margin_yoy": 0.05679460550417001,
       "rev_growth_yoy": -0.9821403341950311,
       "rev_growth_yoy_accel": -15.948208392642023,
-      "fcf_margin_change": 51.99205949818047
+      "fcf_margin_change": 51.99404259871504
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -370,8 +351,8 @@
       "incr_op_margin_yoy": 0.25047252810348447,
       "rev_growth_yoy": 377.91062403867284,
       "rev_growth_yoy_accel": 378.8927643728679,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -46.445894128735624
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -46.4478772292702
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -416,9 +397,50 @@
       "rev_growth_yoy": 3.229416481438153,
       "rev_growth_yoy_accel": 2.2897868940426362,
       "fcf_margin_change": -0.052350782623074174
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4017635,
+      "gross_profit": 718842,
+      "operating_income": 340710,
+      "net_income": null,
+      "opex": 378132,
+      "cogs": 3298793,
+      "rd": null,
+      "sga": null,
+      "fcf": -621206,
+      "ocf": -315965,
+      "capex": -305241,
+      "gross_margin": 0.17892167904749934,
+      "op_margin": 0.08480362203136921,
+      "fcf_margin": -0.15461981986915188,
+      "incr_op_margin_yoy": 0.13783367071720365,
+      "rev_growth_yoy": 85.60189256768409,
+      "rev_growth_yoy_accel": 82.37247608624594,
+      "op_leverage_ratio": 2.4129112791261087,
+      "fcf_margin_change": -0.007212083143374071
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +15.8% vs OpEx growth +6.5% (leverage: 2.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +8560.2% vs prior quarter YoY: +322.9% (accel: +8237.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -445.5% (year-ago) -> +8.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -458,13 +480,13 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -440.4% -> +23.5%",
+      "detail": "Op margin: -445.5% -> +23.5%",
       "severity": "HIGH"
     },
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -516.2% -> +4683.0%",
+      "detail": "FCF margin: -516.2% -> +4683.2%",
       "severity": "HIGH"
     },
     {
@@ -577,12 +599,6 @@
     },
     {
       "quarter": "2021-09 (Q3)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +49.3% vs prior quarter YoY: +55.9% (decel: -6.6%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -20.6% -> +34.9%",
       "severity": "HIGH"
@@ -633,7 +649,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:59:41.602058",
-  "sector": "Consumer Defensive",
-  "industry": "Food Distribution"
+  "last_updated": "2026-02-24T10:45:29.720785"
 }

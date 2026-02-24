@@ -1,25 +1,9 @@
 {
   "ticker": "ELTP",
-  "name": "Elite Pharmaceuticals, Inc.",
+  "name": "ELITE PHARMACEUTICALS INC /NV/",
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - Specialty & Generic",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6046582,
-      "gross_profit": 3403407,
-      "operating_income": 1001169,
-      "net_income": 2012133,
-      "opex": 2402238,
-      "cogs": 2643175,
-      "rd": 1245669,
-      "sga": null,
-      "fcf": 1235287,
-      "ocf": 1235287,
-      "capex": null,
-      "gross_margin": 0.5628646068142299,
-      "op_margin": 0.1655760229498252,
-      "fcf_margin": 0.20429508770409463
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.4245086657334461,
       "op_margin": -0.24286098767134165,
-      "fcf_margin": -0.17048406665770302,
-      "fcf_margin_change": -0.37477915436179765
+      "fcf_margin": -0.17048406665770302
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.5035614640029622,
       "op_margin": 0.1367701372394725,
       "fcf_margin": 0.24309342393544714,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4135774905931502
     },
     {
@@ -76,7 +59,7 @@
       "gross_margin": 0.44028450976059774,
       "op_margin": 0.16621917473053796,
       "fcf_margin": 0.017968809973685627,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2251246139617615
     },
     {
@@ -96,9 +79,7 @@
       "gross_margin": 0.44765986236594985,
       "op_margin": 0.2040487970001384,
       "fcf_margin": 0.3380275067539004,
-      "incr_op_margin_yoy": 0.2834922232937827,
-      "rev_growth_yoy": 0.484278886815725,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3200586967802148
     },
     {
@@ -120,7 +101,6 @@
       "fcf_margin": 0.2092440986940557,
       "incr_op_margin_yoy": 0.5857330685826704,
       "rev_growth_yoy": 0.7454257517464898,
-      "rev_growth_yoy_accel": 0.26114686493076483,
       "fcf_margin_change": -0.12878340805984473
     },
     {
@@ -163,7 +143,7 @@
       "fcf_margin": -0.42042681588112785,
       "rev_growth_yoy": 0.0031924038501872014,
       "rev_growth_yoy_accel": -0.0841162856968575,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.33543778694972404
     },
     {
@@ -229,7 +209,7 @@
       "incr_op_margin_yoy": 0.4432024039756175,
       "rev_growth_yoy": 0.17036148485033314,
       "rev_growth_yoy_accel": 0.0439953775413959,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5832437716570364
     },
     {
@@ -275,7 +255,7 @@
       "incr_op_margin_yoy": 0.2502182474246804,
       "rev_growth_yoy": 0.6798582842544042,
       "rev_growth_yoy_accel": 0.030944262285710233,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1370696292720256
     },
     {
@@ -411,7 +391,7 @@
       "incr_op_margin_yoy": 0.833128861809543,
       "rev_growth_yoy": 1.1385397155771908,
       "rev_growth_yoy_accel": 0.3559248866281429,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.26314631376577563
     },
     {
@@ -435,9 +415,49 @@
       "rev_growth_yoy": 0.9237839139062343,
       "rev_growth_yoy_accel": -0.21475580167095654,
       "fcf_margin_change": -0.22434576980671245
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 31589251,
+      "gross_profit": 12953175,
+      "operating_income": 9012943,
+      "net_income": 18593806,
+      "opex": 3940232,
+      "cogs": 18636076,
+      "rd": 1040665,
+      "sga": null,
+      "fcf": -5484472,
+      "ocf": -5278400,
+      "capex": -206072,
+      "gross_margin": 0.4100500831754447,
+      "op_margin": 0.28531676803606393,
+      "fcf_margin": -0.1736182981989665,
+      "incr_op_margin_yoy": 0.459514172508417,
+      "rev_growth_yoy": 1.1991580067400673,
+      "rev_growth_yoy_accel": 0.2753740928338331,
+      "fcf_margin_change": -0.31130289030951286
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +67.7% -> +38.7% -> +41.0% (reversal +2.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +119.9% vs prior quarter YoY: +92.4% (accel: +27.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +46.0% vs year-ago OPM: +7.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -608,12 +628,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +74.5% vs prior quarter YoY: +48.4% (accel: +26.1%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -24.3% (year-ago) -> +11.1%",
       "severity": "HIGH"
@@ -625,21 +639,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +28.3% vs year-ago OPM: +16.6%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -17.0% -> +24.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +56.3% -> +42.5% -> +50.4% (reversal +7.9%)",
       "severity": "HIGH"
     },
     {
@@ -674,7 +676,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:29:45.830848",
-  "sector": "Healthcare",
-  "industry": "Drug Manufacturers - Specialty & Generic"
+  "last_updated": "2026-02-24T10:33:44.933256"
 }

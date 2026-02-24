@@ -1,25 +1,9 @@
 {
   "ticker": "FE",
   "name": "FIRSTENERGY CORP.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2537000000,
-      "gross_profit": null,
-      "operating_income": 394000000,
-      "net_income": 242000000,
-      "opex": 2143000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 572000000,
-      "ocf": 572000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.15530153724871895,
-      "fcf_margin": 0.2254631454473788
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.20506236243580336,
-      "fcf_margin": 0.19552457813646368,
-      "op_leverage_ratio": 6.652000394166338,
-      "fcf_margin_change": -0.029938567310915126
+      "fcf_margin": 0.19552457813646368
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.08421052631578947,
       "fcf_margin": 0.2657894736842105,
-      "incr_op_margin_yoy": -1.3821138211382114,
-      "rev_growth_yoy": 0.048482459597950334,
       "fcf_margin_change": 0.023471932070894264
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.11876881900301103,
       "incr_op_margin_yoy": 0.0,
       "rev_growth_yoy": 0.09647835656639765,
-      "rev_growth_yoy_accel": 0.04799589696844732,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1470206546811995
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -0.03305785123966942,
       "rev_growth_yoy": 0.08096353295416528,
       "rev_growth_yoy_accel": -0.11339736930147382,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.30095314249440835
     },
     {
@@ -437,9 +416,43 @@
       "rev_growth_yoy_accel": 0.08187475881194854,
       "op_leverage_ratio": 1.0637270000810568,
       "fcf_margin_change": -0.11640571060124505
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3797000000,
+      "gross_profit": null,
+      "operating_income": -24000000,
+      "net_income": -49000000,
+      "opex": 3821000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1136000000,
+      "ocf": 1136000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.006320779562812747,
+      "fcf_margin": 0.29918356597313667,
+      "incr_op_margin_yoy": -1.0257648953301126,
+      "rev_growth_yoy": 0.19552896725440805,
+      "rev_growth_yoy_accel": 0.08316640356441073,
+      "fcf_margin_change": 0.09547093337911544
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.4% -> +29.9% (+9.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +19.6% vs prior quarter YoY: +11.2% (accel: +8.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -589,12 +602,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.6% -> +31.0% (+11.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +7.4% vs OpEx growth +1.1% (leverage: 6.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -624,7 +631,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:11:00.595693",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:28:14.513003"
 }

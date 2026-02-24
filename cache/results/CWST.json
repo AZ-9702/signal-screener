@@ -1,25 +1,9 @@
 {
   "ticker": "CWST",
-  "name": "CASELLA WASTE SYSTEMS, INC.",
+  "name": "CASELLA WASTE SYSTEMS,\u00a0INC.",
+  "sector": "Industrials",
+  "industry": "Waste Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 200240000,
-      "gross_profit": 66980000,
-      "operating_income": 14208000,
-      "net_income": 62917000,
-      "opex": 186032000,
-      "cogs": 133260000,
-      "rd": null,
-      "sga": null,
-      "fcf": -2830000,
-      "ocf": 28007000,
-      "capex": -30837000,
-      "gross_margin": 0.3344986016779864,
-      "op_margin": 0.07095485417499,
-      "fcf_margin": -0.014133040351578106
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -26832000,
       "gross_margin": 0.32919506996180065,
       "op_margin": 0.06336133212333538,
-      "fcf_margin": 0.02804275795116392,
-      "fcf_margin_change": 0.042175798302742026
+      "fcf_margin": 0.02804275795116392
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.3267338196132917,
       "op_margin": 0.06747134421674192,
       "fcf_margin": 0.02865578325807572,
-      "incr_op_margin_yoy": 0.050701990576016924,
-      "rev_growth_yoy": 0.2077307231322413,
       "fcf_margin_change": -0.09354168831886182
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.050438624603144085,
       "incr_op_margin_yoy": -0.04137543544218451,
       "rev_growth_yoy": 0.23476246755165356,
-      "rev_growth_yoy_accel": 0.02703174441941225,
       "fcf_margin_change": 0.021782841345068363
     },
     {
@@ -439,9 +419,37 @@
       "rev_growth_yoy_accel": -0.05467035929314626,
       "op_leverage_ratio": 1.934272950511301,
       "fcf_margin_change": 0.0072594359033116285
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 469055000,
+      "gross_profit": 156233000,
+      "operating_income": 11884000,
+      "net_income": -2511000,
+      "opex": 457171000,
+      "cogs": 312822000,
+      "rd": null,
+      "sga": null,
+      "fcf": 39295000,
+      "ocf": 96563000,
+      "capex": -57268000,
+      "gross_margin": 0.33308034239055123,
+      "op_margin": 0.02533604801142723,
+      "fcf_margin": 0.0837748238479496,
+      "incr_op_margin_yoy": -0.15985469941542976,
+      "rev_growth_yoy": 0.09724061138844313,
+      "rev_growth_yoy_accel": -0.08186328607212189,
+      "fcf_margin_change": 0.026826347384524156
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +9.7% vs prior quarter YoY: +17.9% (decel: -8.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -561,18 +569,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +13.9% vs OpEx growth +9.2% (leverage: 1.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +33.4% -> +32.9% -> +35.8% (reversal +2.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.4% -> +2.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -600,7 +596,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:52:28.060668",
-  "sector": "Industrials",
-  "industry": "Waste Management"
+  "last_updated": "2026-02-24T10:12:03.063465"
 }

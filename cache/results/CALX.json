@@ -1,25 +1,9 @@
 {
   "ticker": "CALX",
-  "name": "CALIX, INC",
+  "name": "Calix, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 170026000,
-      "gross_profit": 89015000,
-      "operating_income": 24774000,
-      "net_income": null,
-      "opex": 64241000,
-      "cogs": 81011000,
-      "rd": 23288000,
-      "sga": null,
-      "fcf": 28271000,
-      "ocf": 30473000,
-      "capex": -2202000,
-      "gross_margin": 0.5235375766059308,
-      "op_margin": 0.14570712714526013,
-      "fcf_margin": 0.16627456977168198
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -2274000,
       "gross_margin": 0.5321149598331626,
       "op_margin": 0.128348778952824,
-      "fcf_margin": 0.047040240877623804,
-      "fcf_margin_change": -0.11923432889405818
+      "fcf_margin": 0.047040240877623804
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5171381767269966,
       "op_margin": 0.08284821929610756,
       "fcf_margin": 0.053429619258696624,
-      "incr_op_margin_yoy": -1.5889253871421867,
-      "rev_growth_yoy": 0.03760013174455672,
       "op_leverage_ratio": 0.3399130993870317,
       "fcf_margin_change": 0.010028605503913803
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.022352228734563228,
       "incr_op_margin_yoy": -0.4786657340211594,
       "rev_growth_yoy": 0.14113306267507436,
-      "rev_growth_yoy_accel": 0.10353293093051764,
       "op_leverage_ratio": 0.6959900501555902,
       "fcf_margin_change": -0.031077390524133396
     },
@@ -259,7 +239,7 @@
       "incr_op_margin_yoy": -0.14821279226209955,
       "rev_growth_yoy": 0.11636497499301836,
       "rev_growth_yoy_accel": -0.17552483009701242,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0004901974639181725
     },
     {
@@ -394,7 +374,7 @@
       "incr_op_margin_yoy": 0.6672709294660514,
       "rev_growth_yoy": -0.026812778931554062,
       "rev_growth_yoy_accel": 0.1945792598696577,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.009028318993327678
     },
     {
@@ -440,11 +420,40 @@
       "incr_op_margin_yoy": 0.43882962227873223,
       "rev_growth_yoy": 0.3209435417651596,
       "rev_growth_yoy_accel": 0.1001742838199797,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04682197926272848
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 272449000,
+      "gross_profit": 157303000,
+      "operating_income": 9275000,
+      "net_income": 7212000,
+      "opex": 148028000,
+      "cogs": 115146000,
+      "rd": 53534000,
+      "sga": null,
+      "fcf": 40281000,
+      "ocf": 46046000,
+      "capex": -5765000,
+      "gross_margin": 0.5773667732309533,
+      "op_margin": 0.034043068611006096,
+      "fcf_margin": 0.1478478540937937,
+      "incr_op_margin_yoy": 0.42254052016585,
+      "rev_growth_yoy": 0.3217723312181017,
+      "rev_growth_yoy_accel": 0.0008287894529421247,
+      "op_leverage_ratio": 0.26490615515326077,
+      "fcf_margin_change": 0.047300454899257896
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -9.1% (year-ago) -> +3.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -542,12 +551,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +14.1% vs prior quarter YoY: +3.8% (accel: +10.4%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.7% -> +12.9% (+8.2%)",
@@ -579,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:15:37.719678",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:17:07.471857"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "INSG",
   "name": "INSEEGO CORP.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 86063000,
-      "gross_profit": 26447000,
-      "operating_income": -8619000,
-      "net_income": -12745000,
-      "opex": 35065000,
-      "cogs": 59617000,
-      "rd": 15505000,
-      "sga": null,
-      "fcf": 2686000,
-      "ocf": 3338000,
-      "capex": -652000,
-      "gross_margin": 0.3072981420587244,
-      "op_margin": -0.1001475663176975,
-      "fcf_margin": 0.031209695223266675
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1324000,
       "gross_margin": 0.32072851016546,
       "op_margin": -0.2811952011389482,
-      "fcf_margin": -0.006094067399343716,
-      "fcf_margin_change": -0.03730376262261039
+      "fcf_margin": -0.006094067399343716
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.30975903064253424,
       "op_margin": -0.16013882757675857,
       "fcf_margin": -0.21515229933174007,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.20905823193239637
     },
     {
@@ -95,9 +78,7 @@
       "gross_margin": 0.24913570762223564,
       "op_margin": -0.13488448663776545,
       "fcf_margin": -0.15206058278000328,
-      "incr_op_margin_yoy": 0.09209627211297548,
-      "rev_growth_yoy": -0.1530390527869119,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08302997130560849
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.022823537078065944,
       "incr_op_margin_yoy": -1.4710852917876946,
       "rev_growth_yoy": 0.06574995225445769,
-      "rev_growth_yoy_accel": 0.2187890050413696,
       "fcf_margin_change": 0.12923704570193734
     },
     {
@@ -298,7 +278,7 @@
       "incr_op_margin_yoy": -0.3296456352636128,
       "rev_growth_yoy": -0.11389140449659409,
       "rev_growth_yoy_accel": 0.07813354117098599,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4969001797193487
     },
     {
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": 0.05648314488005918,
       "rev_growth_yoy": -0.3199715971529527,
       "rev_growth_yoy_accel": -0.023675300856656423,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.005306886811484876
     },
     {
@@ -435,9 +415,43 @@
       "rev_growth_yoy_accel": 0.16933863890598794,
       "op_leverage_ratio": 1.26776177356691,
       "fcf_margin_change": 0.18271784215761602
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 48399000,
+      "gross_profit": 20414000,
+      "operating_income": 1305000,
+      "net_income": 469000,
+      "opex": 19109000,
+      "cogs": 27985000,
+      "rd": 5568000,
+      "sga": null,
+      "fcf": 11618000,
+      "ocf": 11958000,
+      "capex": -340000,
+      "gross_margin": 0.42178557408210915,
+      "op_margin": 0.026963367011715117,
+      "fcf_margin": 0.24004628194797414,
+      "rev_growth_yoy": 0.006488240064882401,
+      "rev_growth_yoy_accel": 0.15712119831184718,
+      "op_leverage_ratio": 0.4240425425156282,
+      "fcf_margin_change": 0.17310796891548552
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +6.7% -> +24.0% (+17.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +0.6% vs prior quarter YoY: -15.1% (accel: +15.7%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -619,12 +633,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +6.6% vs prior quarter YoY: -15.3% (accel: +21.9%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -21.5% -> -6.9% (+14.6%)",
@@ -656,7 +664,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:06:38.015652",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-24T10:11:55.722036"
 }

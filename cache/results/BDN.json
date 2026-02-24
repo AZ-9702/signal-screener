@@ -1,25 +1,9 @@
 {
   "ticker": "BDN",
   "name": "Brandywine Realty Trust",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 126821000,
-      "gross_profit": 79756000,
-      "operating_income": 45446000,
-      "net_income": 18988000,
-      "opex": 96349000,
-      "cogs": 47065000,
-      "rd": null,
-      "sga": null,
-      "fcf": 63342000,
-      "ocf": 63342000,
-      "capex": null,
-      "gross_margin": 0.6288863831699797,
-      "op_margin": 0.3583475922757272,
-      "fcf_margin": 0.49945986863374364
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.6135266500509237,
       "op_margin": 0.24207371096887445,
-      "fcf_margin": 0.34094842219443733,
-      "fcf_margin_change": -0.1585114464393063
+      "fcf_margin": 0.34094842219443733
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,9 +77,7 @@
       "gross_margin": 0.6243288456942564,
       "op_margin": 0.18667250856368994,
       "fcf_margin": 0.39954592527682625,
-      "incr_op_margin_yoy": 17.051123160340822,
-      "rev_growth_yoy": -0.010179702099809968,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11194737306727515
     },
     {
@@ -118,8 +99,7 @@
       "fcf_margin": 0.223638288694561,
       "incr_op_margin_yoy": -0.37603919239904987,
       "rev_growth_yoy": 0.055775902756502085,
-      "rev_growth_yoy_accel": 0.06595560485631205,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.17590763658226524
     },
     {
@@ -164,7 +144,7 @@
       "incr_op_margin_yoy": 3.496796738497379,
       "rev_growth_yoy": 0.042775996943978475,
       "rev_growth_yoy_accel": 0.009970548242041785,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15189848762432856
     },
     {
@@ -187,7 +167,7 @@
       "incr_op_margin_yoy": 1.7895193977996526,
       "rev_growth_yoy": 0.02751533497968613,
       "rev_growth_yoy_accel": -0.015260661964292346,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0807674212503508
     },
     {
@@ -342,7 +322,7 @@
       "incr_op_margin_yoy": -9.84688796680498,
       "rev_growth_yoy": 0.01862845128775933,
       "rev_growth_yoy_accel": 0.022886407151186984,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.012143039445606796
     },
     {
@@ -432,9 +412,36 @@
       "rev_growth_yoy": -0.078652623271767,
       "rev_growth_yoy_accel": -0.0405580689979968,
       "fcf_margin_change": 0.10569117758361335
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 120950000,
+      "gross_profit": 74112000,
+      "operating_income": 27628000,
+      "net_income": -36684000,
+      "opex": 46838000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 28534000,
+      "ocf": 28534000,
+      "capex": null,
+      "gross_margin": 0.61274906986358,
+      "op_margin": 0.22842496899545267,
+      "fcf_margin": 0.23591566763125257,
+      "rev_growth_yoy": -0.007833969074279152,
+      "rev_growth_yoy_accel": 0.07081865419748785,
+      "fcf_margin_change": -0.1549933484043932
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -0.8% vs prior quarter YoY: -7.9% (accel: +7.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -568,18 +575,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +5.6% vs prior quarter YoY: -1.0% (accel: +6.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +1705.1% vs year-ago OPM: +35.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +31.6% -> +51.1% (+19.6%)",
@@ -611,7 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:25:55.909041",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-24T10:09:09.253074"
 }

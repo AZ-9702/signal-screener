@@ -1,25 +1,9 @@
 {
   "ticker": "MLM",
-  "name": "MARTIN MARIETTA MATERIALS, INC.",
+  "name": "MARTIN MARIETTA MATERIALS, INC",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1179600000,
-      "gross_profit": 325400000,
-      "operating_income": 240600000,
-      "net_income": 183000000,
-      "opex": 84800000,
-      "cogs": 854200000,
-      "rd": null,
-      "sga": 84900000,
-      "fcf": 257200000,
-      "ocf": 366100000,
-      "capex": -108900000,
-      "gross_margin": 0.27585622244828756,
-      "op_margin": 0.20396744659206512,
-      "fcf_margin": 0.21804001356391997
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -110300000,
       "gross_margin": 0.1778298045602606,
       "op_margin": 0.10107899022801303,
-      "fcf_margin": 0.08306188925081433,
-      "fcf_margin_change": -0.13497812431310563
+      "fcf_margin": 0.08306188925081433
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.23168938786420742,
       "op_margin": 0.14040363539160652,
       "fcf_margin": 0.17080994386527668,
-      "incr_op_margin_yoy": -0.09627525252525253,
-      "rev_growth_yoy": 0.2685656154628688,
       "fcf_margin_change": 0.02260471686983584
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.024455638609034776,
       "incr_op_margin_yoy": -0.15861513687600645,
       "rev_growth_yoy": 0.2528501628664495,
-      "rev_growth_yoy_accel": -0.015715452596419266,
       "fcf_margin_change": -0.1463543052562419
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.6485974222896134,
       "rev_growth_yoy": 0.19145075840046447,
       "rev_growth_yoy_accel": -0.06139940446598505,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.002892624660079425
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.19261006289308177,
       "rev_growth_yoy": 0.16335966095164708,
       "rev_growth_yoy_accel": -0.02809109744881738,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08115818713290147
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": -0.08542713567839195,
       "rev_growth_yoy": 0.10909423158920631,
       "rev_growth_yoy_accel": 0.00891548605784459,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14086145682142978
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 1.1496478873239437,
       "rev_growth_yoy": -0.031195079086115993,
       "rev_growth_yoy_accel": 0.044944053917354954,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.055849198192466434
     },
     {
@@ -345,30 +325,30 @@
       "incr_op_margin_yoy": 0.7383444338725024,
       "rev_growth_yoy": -0.052705481169449876,
       "rev_growth_yoy_accel": -0.021510402083333883,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24604495053712327
     },
     {
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
-      "revenue": 1631000000,
-      "gross_profit": 490000000,
+      "revenue": 1412000000,
+      "gross_profit": 424000000,
       "operating_income": 399000000,
       "net_income": 294000000,
-      "opex": 91000000,
+      "opex": 25000000,
       "cogs": 1141000000,
       "rd": null,
       "sga": 106000000,
       "fcf": 453000000,
       "ocf": 686000000,
       "capex": -233000000,
-      "gross_margin": 0.30042918454935624,
-      "op_margin": 0.2446351931330472,
-      "fcf_margin": 0.27774371551195587,
-      "incr_op_margin_yoy": 1.2675438596491229,
-      "rev_growth_yoy": 0.014177341126725532,
-      "rev_growth_yoy_accel": 0.06688282229617541,
-      "fcf_margin_change": 0.1099300574918394
+      "gross_margin": 0.3002832861189802,
+      "op_margin": 0.28257790368271957,
+      "fcf_margin": 0.32082152974504247,
+      "incr_op_margin_yoy": -0.1472986748216106,
+      "rev_growth_yoy": -0.12199975127471707,
+      "rev_growth_yoy_accel": -0.0692942701052672,
+      "fcf_margin_change": 0.153007871724926
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -389,8 +369,8 @@
       "fcf_margin": -0.011086474501108648,
       "incr_op_margin_yoy": -12.029411764705882,
       "rev_growth_yoy": 0.0815347721822542,
-      "rev_growth_yoy_accel": 0.06735743105552867,
-      "fcf_margin_change": -0.28883019001306454
+      "rev_growth_yoy_accel": 0.20353452345697126,
+      "fcf_margin_change": -0.33190800424615113
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": 1.2765957446808511,
       "rev_growth_yoy": 0.026643990929705215,
       "rev_growth_yoy_accel": -0.05489078125254899,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1259401465055261
     },
     {
@@ -437,9 +417,43 @@
       "rev_growth_yoy_accel": -0.04940735779047811,
       "op_leverage_ratio": 0.0831032578685809,
       "fcf_margin_change": 0.08070429115917953
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1534000000,
+      "gross_profit": 468000000,
+      "operating_income": 341000000,
+      "net_income": 279000000,
+      "opex": 127000000,
+      "cogs": 1066000000,
+      "rd": null,
+      "sga": 103000000,
+      "fcf": 424000000,
+      "ocf": 629000000,
+      "capex": -205000000,
+      "gross_margin": 0.3050847457627119,
+      "op_margin": 0.22229465449804434,
+      "fcf_margin": 0.27640156453715775,
+      "incr_op_margin_yoy": -0.47540983606557374,
+      "rev_growth_yoy": 0.08640226628895184,
+      "rev_growth_yoy_accel": 0.10916563314972473,
+      "fcf_margin_change": 0.08084360137356078
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +19.6% -> +27.6% (+8.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +8.6% vs prior quarter YoY: -2.3% (accel: +10.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -473,26 +487,20 @@
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +8.2% vs prior quarter YoY: +1.4% (accel: +6.7%)",
-      "severity": "MEDIUM"
+      "detail": "YoY growth: +8.2% vs prior quarter YoY: -12.2% (accel: +20.4%)",
+      "severity": "HIGH"
     },
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +16.8% -> +27.8% (+11.0%)",
+      "detail": "FCF margin: +16.8% -> +32.1% (+15.3%)",
       "severity": "MEDIUM"
     },
     {
       "quarter": "2024-12 (Q4)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +1.4% vs prior quarter YoY: -5.3% (accel: +6.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2024-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +126.8% vs year-ago OPM: +23.0%",
-      "severity": "HIGH"
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -12.2% vs prior quarter YoY: -5.3% (decel: -6.9%)",
+      "severity": "WARNING"
     },
     {
       "quarter": "2024-09 (Q3)",
@@ -607,12 +615,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +40.3% vs OpEx growth +2.9% (leverage: 13.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +27.6% -> +17.8% -> +27.9% (reversal +10.2%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -640,7 +642,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:03:52.221255",
-  "sector": "Basic Materials",
-  "industry": "Building Materials"
+  "last_updated": "2026-02-24T10:19:14.687515"
 }

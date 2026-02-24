@@ -1,25 +1,9 @@
 {
   "ticker": "RMBS",
   "name": "RAMBUS INC",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 61913000,
-      "gross_profit": 48462000,
-      "operating_income": -11004000,
-      "net_income": -12066000,
-      "opex": 59466000,
-      "cogs": 13451000,
-      "rd": 34752000,
-      "sga": 21232000,
-      "fcf": 33138000,
-      "ocf": 42067000,
-      "capex": -8929000,
-      "gross_margin": 0.7827435272075332,
-      "op_margin": -0.17773327088010596,
-      "fcf_margin": 0.5352349264290214
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3517000,
       "gross_margin": 0.7534596913983689,
       "op_margin": -0.049487084765991306,
-      "fcf_margin": 0.5106561336705407,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.024578792758480628
+      "fcf_margin": 0.5106561336705407
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.8011053630139408,
       "op_margin": 0.16614619545363485,
       "fcf_margin": 0.5873743503930049,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07671821672246415
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.806735598871226,
       "op_margin": 0.09773264619038799,
       "fcf_margin": 0.718046218716292,
-      "incr_op_margin_yoy": 0.6687424668541583,
-      "rev_growth_yoy": 0.4824188781031447,
       "op_leverage_ratio": 1.086880232340972,
       "fcf_margin_change": 0.17995660477962705
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.4132357395254922,
       "incr_op_margin_yoy": 0.4117482907771732,
       "rev_growth_yoy": 0.40732005342275013,
-      "rev_growth_yoy_accel": -0.07509882468039458,
       "op_leverage_ratio": 1.5823587543865556,
       "fcf_margin_change": -0.30481047919079984
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.59165219309128,
       "rev_growth_yoy": 0.42745024098799184,
       "rev_growth_yoy_accel": 0.02013018756524171,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.013975897366493406
     },
     {
@@ -278,7 +257,7 @@
       "fcf_margin": 0.44233176518715484,
       "rev_growth_yoy": -0.0011604435836459176,
       "rev_growth_yoy_accel": 0.06072259693522369,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02806938603465431
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": -1.2476936466492603,
       "rev_growth_yoy": 0.38191608577560826,
       "rev_growth_yoy_accel": 0.2792223144958166,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08844081629418121
     },
     {
@@ -392,7 +371,7 @@
       "incr_op_margin_yoy": 0.6765929539073228,
       "rev_growth_yoy": 0.41395254133756393,
       "rev_growth_yoy_accel": 0.09587522491293721,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09140921430718363
     },
     {
@@ -440,9 +419,38 @@
       "rev_growth_yoy_accel": -0.07646728529286329,
       "op_leverage_ratio": 0.6457869679406146,
       "fcf_margin_change": -0.0480915685455669
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 190244000,
+      "gross_profit": 150033000,
+      "operating_income": 70826000,
+      "net_income": 63840000,
+      "opex": 79207000,
+      "cogs": 40211000,
+      "rd": 49246000,
+      "sga": 29961000,
+      "fcf": 93300000,
+      "ocf": 99817000,
+      "capex": -6517000,
+      "gross_margin": 0.7886345955720022,
+      "op_margin": 0.372290321902399,
+      "fcf_margin": 0.4904228254241921,
+      "incr_op_margin_yoy": 0.44489053599615674,
+      "rev_growth_yoy": 0.18089160904271828,
+      "rev_growth_yoy_accel": -0.0458922521930476,
+      "op_leverage_ratio": 9.555534588662328,
+      "fcf_margin_change": 0.02836684070599227
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +6.6% vs OpEx growth +0.7% (leverage: 9.6x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -619,12 +627,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +40.7% vs prior quarter YoY: +48.2% (decel: -7.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -4.9% (year-ago) -> +8.4%",
       "severity": "HIGH"
@@ -642,21 +644,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -17.8% (year-ago) -> +9.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +51.1% -> +58.7% (+7.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +78.3% -> +75.3% -> +80.1% (reversal +4.8%)",
       "severity": "MEDIUM"
     },
     {
@@ -691,5 +681,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:32:15.374662"
+  "last_updated": "2026-02-24T10:27:18.471761"
 }

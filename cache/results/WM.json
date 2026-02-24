@@ -1,25 +1,9 @@
 {
   "ticker": "WM",
-  "name": "WASTE MANAGEMENT INC",
+  "name": "Waste Management, Inc",
+  "sector": "Industrials",
+  "industry": "Waste Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4067000000,
-      "gross_profit": 1567000000,
-      "operating_income": 654000000,
-      "net_income": 438000000,
-      "opex": 3413000000,
-      "cogs": 2500000000,
-      "rd": null,
-      "sga": 510000000,
-      "fcf": 753000000,
-      "ocf": 753000000,
-      "capex": null,
-      "gross_margin": 0.38529628718957465,
-      "op_margin": 0.16080649127120727,
-      "fcf_margin": 0.1851487582985001
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.38861867704280156,
       "op_margin": 0.1580739299610895,
-      "fcf_margin": 0.2723735408560311,
-      "op_leverage_ratio": 0.7706879161795035,
-      "fcf_margin_change": 0.087224782557531
+      "fcf_margin": 0.2723735408560311
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.36831979478409577,
       "op_margin": 0.15348439504061565,
       "fcf_margin": 0.21184266780675504,
-      "incr_op_margin_yoy": 0.10474631751227496,
-      "rev_growth_yoy": 0.15023358741086795,
       "fcf_margin_change": -0.0419622625255065
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.2698991632696846,
       "incr_op_margin_yoy": 0.21493624772313297,
       "rev_growth_yoy": 0.13351167315175097,
-      "rev_growth_yoy_accel": -0.016721914259116982,
       "fcf_margin_change": 0.05805649546292957
     },
     {
@@ -255,7 +234,7 @@
       "incr_op_margin_yoy": 0.6422764227642277,
       "rev_growth_yoy": 0.024236453201970442,
       "rev_growth_yoy_accel": 0.0059352795397464506,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04176689443044687
     },
     {
@@ -438,9 +417,43 @@
       "rev_growth_yoy": 0.14868960599037262,
       "rev_growth_yoy_accel": -0.0416102829396533,
       "fcf_margin_change": 0.006809927178132724
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6313000000,
+      "gross_profit": 2620000000,
+      "operating_income": 1155000000,
+      "net_income": 742000000,
+      "opex": 5158000000,
+      "cogs": 3693000000,
+      "rd": null,
+      "sga": 674000000,
+      "fcf": 1698000000,
+      "ocf": 1698000000,
+      "capex": null,
+      "gross_margin": 0.4150166323459528,
+      "op_margin": 0.182955805480754,
+      "fcf_margin": 0.26896879455092665,
+      "incr_op_margin_yoy": 0.5619047619047619,
+      "rev_growth_yoy": 0.07127099949092143,
+      "rev_growth_yoy_accel": -0.07741860649945119,
+      "fcf_margin_change": 0.021878929581192058
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +7.1% vs prior quarter YoY: +14.9% (decel: -7.7%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +56.2% vs year-ago OPM: +15.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "OPERATING LEVERAGE",
@@ -500,12 +513,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +21.2% -> +27.0% (+5.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +18.5% -> +27.2% (+8.7%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -533,5 +540,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:10.037959"
+  "last_updated": "2026-02-24T11:09:31.208298"
 }

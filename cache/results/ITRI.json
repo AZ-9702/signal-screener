@@ -1,25 +1,9 @@
 {
   "ticker": "ITRI",
   "name": "Itron, Inc.",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 525157000,
-      "gross_profit": 148833000,
-      "operating_income": 32602000,
-      "net_income": 21520000,
-      "opex": 116231000,
-      "cogs": 376324000,
-      "rd": 45102000,
-      "sga": 61902000,
-      "fcf": 29032000,
-      "ocf": 38943000,
-      "capex": -9911000,
-      "gross_margin": 0.28340667647960516,
-      "op_margin": 0.0620804825985372,
-      "fcf_margin": 0.05528251551440807
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -11412000,
       "gross_margin": 0.32150184574285856,
       "op_margin": 0.05954878419628388,
-      "fcf_margin": 0.07418192596242307,
-      "fcf_margin_change": 0.018899410448015
+      "fcf_margin": 0.07418192596242307
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.2497482687686482,
       "op_margin": -0.2212969769601575,
       "fcf_margin": 0.013891033838031287,
-      "incr_op_margin_yoy": 3.544331983805668,
-      "rev_growth_yoy": -0.07525368604055549,
       "fcf_margin_change": -0.009031284515636138
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.004674637252777538,
       "incr_op_margin_yoy": 0.5451935899464322,
       "rev_growth_yoy": -0.08515245181629566,
-      "rev_growth_yoy_accel": -0.00989876577574017,
       "fcf_margin_change": -0.00921639658525375
     },
     {
@@ -230,7 +210,7 @@
       "incr_op_margin_yoy": 0.6285214492435066,
       "rev_growth_yoy": 0.2528190570572518,
       "rev_growth_yoy_accel": 0.21224312155125702,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0775333990936649
     },
     {
@@ -253,7 +233,7 @@
       "incr_op_margin_yoy": 0.3430870833095088,
       "rev_growth_yoy": 0.33244309271491707,
       "rev_growth_yoy_accel": 0.07962403565766529,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.016036033065865346
     },
     {
@@ -299,7 +279,7 @@
       "incr_op_margin_yoy": 0.6725814158641477,
       "rev_growth_yoy": 0.22001625496848073,
       "rev_growth_yoy_accel": -0.014602165493089653,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.011502931726095844
     },
     {
@@ -344,7 +324,7 @@
       "incr_op_margin_yoy": 0.3481989394770525,
       "rev_growth_yoy": 0.09752626735999657,
       "rev_growth_yoy_accel": -0.028148783927267537,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.022101753508661323
     },
     {
@@ -434,6 +414,28 @@
       "rev_growth_yoy": -0.05497821148990514,
       "rev_growth_yoy_accel": -0.05118882145363667,
       "fcf_margin_change": 0.0455552292425882
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 571657000,
+      "gross_profit": 231736000,
+      "operating_income": 78659000,
+      "net_income": 101628000,
+      "opex": 153077000,
+      "cogs": 339921000,
+      "rd": 53109000,
+      "sga": 95300000,
+      "fcf": 111507000,
+      "ocf": 119321000,
+      "capex": -7814000,
+      "gross_margin": 0.4053759509636023,
+      "op_margin": 0.13759824510152066,
+      "fcf_margin": 0.19505927505479684,
+      "incr_op_margin_yoy": -0.3865605358312908,
+      "rev_growth_yoy": -0.06723677683792816,
+      "rev_growth_yoy_accel": -0.012258565348023012,
+      "fcf_margin_change": 7.453402750262628e-05
     }
   ],
   "signals": [
@@ -613,7 +615,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:08:57.848784",
-  "sector": "Technology",
-  "industry": "Scientific & Technical Instruments"
+  "last_updated": "2026-02-24T10:36:21.877715"
 }

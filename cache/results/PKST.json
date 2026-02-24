@@ -1,25 +1,9 @@
 {
   "ticker": "PKST",
   "name": "Peakstone Realty Trust",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 96295000,
-      "gross_profit": null,
-      "operating_income": 13453000,
-      "net_income": -8389000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 35585000,
-      "ocf": 35585000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.13970611142842307,
-      "fcf_margin": 0.36954151305882965
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.17341029056287308,
-      "fcf_margin": 0.3624981500665976,
-      "fcf_margin_change": -0.007043362992232072
+      "fcf_margin": 0.3624981500665976
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.208,
       "fcf_margin": 0.4130283315844701,
-      "incr_op_margin_yoy": 0.49605781865965837,
-      "rev_growth_yoy": 0.23708396074562543,
       "fcf_margin_change": -0.09211399473760545
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": 0.4812503765416692,
       "incr_op_margin_yoy": 0.6472967507078333,
       "rev_growth_yoy": 0.14635686448621182,
-      "rev_growth_yoy_accel": -0.09072709625941361,
       "fcf_margin_change": 0.06822204495719908
     },
     {
@@ -364,7 +344,7 @@
       "incr_op_margin_yoy": -1.7162926829268292,
       "rev_growth_yoy": -0.0812743823146944,
       "rev_growth_yoy_accel": 0.0281515085024754,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14283333114740204
     },
     {
@@ -432,6 +412,28 @@
       "rev_growth_yoy": -0.5305676855895196,
       "rev_growth_yoy_accel": -0.49614532356492713,
       "fcf_margin_change": 0.7474168925843054
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 25988000,
+      "gross_profit": null,
+      "operating_income": -1402000,
+      "net_income": 3476000,
+      "opex": 27390000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 374000,
+      "ocf": 374000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.053947975988917964,
+      "fcf_margin": 0.014391257503463137,
+      "incr_op_margin_yoy": 0.3531382062920645,
+      "rev_growth_yoy": -0.551412838969154,
+      "rev_growth_yoy_accel": -0.02084515337963444,
+      "fcf_margin_change": -1.09440719210894
     }
   ],
   "signals": [
@@ -581,20 +583,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +14.6% vs prior quarter YoY: +23.7% (decel: -9.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +64.7% vs year-ago OPM: +17.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +49.6% vs year-ago OPM: +14.0%",
       "severity": "HIGH"
     },
     {
@@ -637,5 +627,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:21:35.571403"
+  "last_updated": "2026-02-24T10:27:56.998085"
 }

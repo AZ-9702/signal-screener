@@ -1,6 +1,8 @@
 {
   "ticker": "KNF",
   "name": "Knife River Corporation",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
   "quarters": [
     {
       "date": "2022-03-31T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.14517998406884955,
       "op_margin": 0.08486498560717491,
       "fcf_margin": -0.10065284000151725,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14506120605514702
     },
     {
@@ -57,7 +59,7 @@
       "gross_margin": 0.189134410740721,
       "op_margin": 0.14651517077631562,
       "fcf_margin": 0.19192395543289714,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2925767954344144
     },
     {
@@ -143,7 +145,7 @@
       "incr_op_margin_yoy": 0.5855547048997772,
       "rev_growth_yoy": 0.1178395535088187,
       "rev_growth_yoy_accel": 0.014756299901480807,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19346095425944881
     },
     {
@@ -210,7 +212,7 @@
       "incr_op_margin_yoy": 1.0688861260763458,
       "rev_growth_yoy": 0.027658309018592977,
       "rev_growth_yoy_accel": -0.0427866406403872,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07339171502848171
     },
     {
@@ -300,7 +302,7 @@
       "incr_op_margin_yoy": -1.0676646929579563,
       "rev_growth_yoy": 0.03327896929753899,
       "rev_growth_yoy_accel": -0.03917771931558641,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3033615377099853
     },
     {
@@ -323,11 +325,51 @@
       "incr_op_margin_yoy": 0.061651629683816954,
       "rev_growth_yoy": 0.08904788142148734,
       "rev_growth_yoy_accel": 0.05576891212394835,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2591051599543752
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 755064000,
+      "gross_profit": 145344000,
+      "operating_income": 65245000,
+      "net_income": 32030000,
+      "opex": 80099000,
+      "cogs": 609720000,
+      "rd": null,
+      "sga": 80099000,
+      "fcf": 195892000,
+      "ocf": 195892000,
+      "capex": null,
+      "gross_margin": 0.1924922920441181,
+      "op_margin": 0.08640989373086255,
+      "fcf_margin": 0.25943761058665227,
+      "incr_op_margin_yoy": 0.2167238982912272,
+      "rev_growth_yoy": 0.14888255915863277,
+      "rev_growth_yoy_accel": 0.05983467773714543,
+      "fcf_margin_change": 0.05139037024693788
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.8% -> +25.9% (+5.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +14.9% vs prior quarter YoY: +8.9% (accel: +6.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +21.7% vs year-ago OPM: +6.7%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -498,23 +540,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 15,
+    "n_quarters": 16,
     "coverage": {
       "revenue": [
-        15,
-        15
+        16,
+        16
       ],
       "gross_profit": [
-        15,
-        15
+        16,
+        16
       ],
       "op_income": [
-        15,
-        15
+        16,
+        16
       ],
       "fcf": [
-        15,
-        15
+        16,
+        16
       ]
     },
     "gaps": [],
@@ -522,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:14:09.449419",
-  "sector": "Basic Materials",
-  "industry": "Building Materials"
+  "last_updated": "2026-02-24T10:12:35.369653"
 }

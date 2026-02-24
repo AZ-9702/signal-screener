@@ -1,25 +1,9 @@
 {
   "ticker": "CLF",
   "name": "CLEVELAND-CLIFFS INC.",
+  "sector": "Basic Materials",
+  "industry": "Steel",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2256200000,
-      "gross_profit": 243100000,
-      "operating_income": 107200000,
-      "net_income": 64000000,
-      "opex": 2149000000,
-      "cogs": 2013100000,
-      "rd": null,
-      "sga": 94800000,
-      "fcf": -353000000,
-      "ocf": -207000000,
-      "capex": -146000000,
-      "gross_margin": 0.10774754011169223,
-      "op_margin": 0.04751351830511479,
-      "fcf_margin": -0.15645776083680524
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -136000000,
       "gross_margin": 0.0711286737466041,
       "op_margin": 0.043714497406767104,
-      "fcf_margin": -0.12719189923437885,
-      "op_leverage_ratio": 0.9910724111332502,
-      "fcf_margin_change": 0.02926586160242639
+      "fcf_margin": -0.12719189923437885
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.23830901608679386,
       "op_margin": 0.20931537598204264,
       "fcf_margin": 0.16928544706322485,
-      "incr_op_margin_yoy": 0.32746456081299763,
-      "rev_growth_yoy": 1.3694707915964897,
       "fcf_margin_change": -0.05406565220393039
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.04987405541561713,
       "incr_op_margin_yoy": 0.48111227701993703,
       "rev_growth_yoy": 0.47073351444801187,
-      "rev_growth_yoy_accel": -0.8987372771484778,
       "op_leverage_ratio": 0.7595062082443785,
       "fcf_margin_change": -0.11941139164760772
     },
@@ -437,6 +416,28 @@
       "rev_growth_yoy": 0.03611293499671701,
       "rev_growth_yoy_accel": 0.06714200019703123,
       "fcf_margin_change": -0.04979211009919018
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4313000000,
+      "gross_profit": -206000000,
+      "operating_income": -331000000,
+      "net_income": -243000000,
+      "opex": 4644000000,
+      "cogs": 4519000000,
+      "rd": null,
+      "sga": 144000000,
+      "fcf": -153000000,
+      "ocf": -13000000,
+      "capex": -140000000,
+      "gross_margin": -0.047762578251796896,
+      "op_margin": -0.07674472524924647,
+      "fcf_margin": -0.035474147924878276,
+      "incr_op_margin_yoy": -11.166666666666666,
+      "rev_growth_yoy": -0.0027745664739884392,
+      "rev_growth_yoy_accel": -0.038887501470705445,
+      "fcf_margin_change": 0.027897208222143276
     }
   ],
   "signals": [
@@ -574,20 +575,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +47.1% vs prior quarter YoY: +136.9% (decel: -89.9%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +48.1% vs year-ago OPM: +4.4%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +32.7% vs year-ago OPM: +4.8%",
       "severity": "HIGH"
     },
     {
@@ -613,12 +602,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +24.6% vs OpEx growth +2.7% (leverage: 9.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +10.8% -> +7.1% -> +23.7% (reversal +16.6%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -646,7 +629,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:04.195652",
-  "sector": "Basic Materials",
-  "industry": "Steel"
+  "last_updated": "2026-02-24T11:08:31.709657"
 }

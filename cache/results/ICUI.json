@@ -1,25 +1,9 @@
 {
   "ticker": "ICUI",
   "name": "ICU MEDICAL INC/DE",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 320451000,
-      "gross_profit": 119874000,
-      "operating_income": 27019000,
-      "net_income": 26142000,
-      "opex": 92855000,
-      "cogs": 200577000,
-      "rd": 11797000,
-      "sga": 73552000,
-      "fcf": 48883000,
-      "ocf": 78526000,
-      "capex": -29643000,
-      "gross_margin": 0.37407903236376233,
-      "op_margin": 0.08431554278189177,
-      "fcf_margin": 0.15254438276054685
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -14028000,
       "gross_margin": 0.35428837337995134,
       "op_margin": 0.08354137451815147,
-      "fcf_margin": 0.11725347905648868,
-      "fcf_margin_change": -0.03529090370405817
+      "fcf_margin": 0.11725347905648868
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.3743924821966082,
       "op_margin": 0.06996549445708831,
       "fcf_margin": 0.1777931135746274,
-      "incr_op_margin_yoy": -0.15911128823353593,
-      "rev_growth_yoy": 0.06264296257462139,
       "op_leverage_ratio": 0.08334102508020104,
       "fcf_margin_change": -0.006888193334853049
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.04593443093816859,
       "incr_op_margin_yoy": -0.3053679645986245,
       "rev_growth_yoy": 0.7076837941681392,
-      "rev_growth_yoy_accel": 0.6450408315935178,
       "op_leverage_ratio": 0.5746763921532524,
       "fcf_margin_change": -0.223727544512796
     },
@@ -144,7 +124,7 @@
       "incr_op_margin_yoy": -0.14422944339752725,
       "rev_growth_yoy": 0.7439978612086037,
       "rev_growth_yoy_accel": 0.03631406704046447,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10703774038324801
     },
     {
@@ -368,7 +348,7 @@
       "incr_op_margin_yoy": 1.1889198789005697,
       "rev_growth_yoy": 0.07135931248469013,
       "rev_growth_yoy_accel": 0.006621759824432152,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0018951284189969511
     },
     {
@@ -436,9 +416,43 @@
       "rev_growth_yoy": -0.08850493353770214,
       "rev_growth_yoy_accel": -0.008718528863418243,
       "fcf_margin_change": 0.06691261880866374
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 540704000,
+      "gross_profit": 202985000,
+      "operating_income": 5635000,
+      "net_income": null,
+      "opex": 197350000,
+      "cogs": 337719000,
+      "rd": 21086000,
+      "sga": 155812000,
+      "fcf": 35953000,
+      "ocf": 60599000,
+      "capex": -24646000,
+      "gross_margin": 0.3754087264011363,
+      "op_margin": 0.010421598508610996,
+      "fcf_margin": 0.06649294253417766,
+      "incr_op_margin_yoy": 0.3597714952694134,
+      "rev_growth_yoy": -0.14147394828558046,
+      "rev_growth_yoy_accel": -0.052969014747878324,
+      "fcf_margin_change": 0.01503947040248061
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -14.1% vs prior quarter YoY: -8.9% (decel: -5.3%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +36.0% vs year-ago OPM: +6.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -584,12 +598,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +70.8% vs prior quarter YoY: +6.3% (accel: +64.5%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.2% -> +18.5% (+6.3%)",
@@ -599,12 +607,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.5% vs OpEx growth +0.4% (leverage: 11.3x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +37.4% -> +35.4% -> +38.4% (reversal +3.0%)",
       "severity": "MEDIUM"
     }
   ],
@@ -633,7 +635,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:16:04.061597",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-24T10:24:02.737947"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "MNTN",
   "name": "MNTN, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
     {
       "date": "2024-06-30T00:00:00",
@@ -40,6 +42,26 @@
       "op_leverage_ratio": 11.185749026256746
     },
     {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 69812000,
+      "gross_profit": 53632000,
+      "operating_income": 9870000,
+      "net_income": -4020000,
+      "opex": 43762000,
+      "cogs": 16180000,
+      "rd": 8901000,
+      "sga": null,
+      "fcf": 26976000,
+      "ocf": 26976000,
+      "capex": null,
+      "gross_margin": 0.7682346874462843,
+      "op_margin": 0.14137970549475734,
+      "fcf_margin": 0.38640921331576233,
+      "op_leverage_ratio": 2.8241306711828833,
+      "fcf_margin_change": 0.1659355318691609
+    },
+    {
       "date": "2025-06-30T00:00:00",
       "quarter_label": "2025-06 (Q2)",
       "revenue": 68460000,
@@ -57,8 +79,7 @@
       "op_margin": 0.05427987145778557,
       "fcf_margin": null,
       "incr_op_margin_yoy": 0.4394017156683041,
-      "rev_growth_yoy": 0.24879152149723646,
-      "op_leverage_ratio": 0.9728969981361295
+      "rev_growth_yoy": 0.24879152149723646
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -80,10 +101,57 @@
       "incr_op_margin_yoy": 0.5549007444168734,
       "rev_growth_yoy": 0.22574264358359444,
       "rev_growth_yoy_accel": -0.02304887791364202,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 87098000,
+      "gross_profit": 71468000,
+      "operating_income": 20522000,
+      "net_income": 34477000,
+      "opex": 50946000,
+      "cogs": 15630000,
+      "rd": 15185000,
+      "sga": null,
+      "fcf": 29551000,
+      "ocf": 29551000,
+      "capex": null,
+      "gross_margin": 0.8205469700796804,
+      "op_margin": 0.2356196468346001,
+      "fcf_margin": 0.33928448414429724,
+      "incr_op_margin_yoy": 0.6162212194839755,
+      "rev_growth_yoy": 0.2476078611127027,
+      "rev_growth_yoy_accel": 0.02186521752910825,
+      "op_leverage_ratio": 3.5880772513954016,
+      "fcf_margin_change": 0.20599970628559366
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +13.3% -> +33.9% (+20.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +24.4% vs OpEx growth +6.8% (leverage: 3.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +61.6% vs year-ago OPM: +14.1%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-09 (Q3)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +76.8% -> +76.8% -> +78.9% (reversal +2.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -95,6 +163,18 @@
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -4.2% (year-ago) -> +5.4%",
       "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +22.0% -> +38.6% (+16.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +22.2% vs OpEx growth +7.9% (leverage: 2.8x)",
+      "severity": "MEDIUM"
     },
     {
       "quarter": "2024-09 (Q3)",
@@ -110,40 +190,38 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 4,
+    "n_quarters": 6,
     "coverage": {
       "revenue": [
-        4,
-        4
+        6,
+        6
       ],
       "gross_profit": [
-        4,
-        4
+        6,
+        6
       ],
       "op_income": [
-        4,
-        4
+        6,
+        6
       ],
       "fcf": [
-        2,
-        4
+        4,
+        6
       ]
     },
     "gaps": [
       [
-        "2024-09 (Q3)",
+        "2024-12 (Q4)",
         "2025-06 (Q2)",
-        273
+        181
       ]
     ],
     "warnings": [
-      "fcf: 2/4Q",
-      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+      "fcf: 4/6Q",
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:12:00.860703",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:23:48.228481"
 }

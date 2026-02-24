@@ -1,25 +1,9 @@
 {
   "ticker": "XOM",
   "name": "Exxon Mobil Corporation",
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 46540000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -20070000000,
-      "opex": 73153000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 2736000000,
-      "fcf": 376000000,
-      "ocf": 4005000000,
-      "capex": -3629000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.008079071766222605
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2400000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.11604984191928584,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.10797077015306324
+      "fcf_margin": 0.11604984191928584
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.15341611251691872,
-      "rev_growth_yoy": 0.8256338633433605,
       "op_leverage_ratio": 1.0737230776443654,
       "fcf_margin_change": 0.02804002491222407
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.1201878453038674,
       "rev_growth_yoy": 0.5300860567738008,
-      "rev_growth_yoy_accel": -0.2955478065695597,
       "op_leverage_ratio": 0.5478778705414679,
       "fcf_margin_change": -0.03322826721305132
     },
@@ -420,6 +400,27 @@
       "rev_growth_yoy_accel": 0.07169911728184111,
       "op_leverage_ratio": 0.924033695284693,
       "fcf_margin_change": 0.0064390885176948826
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 82308000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 6501000000,
+      "opex": 74277000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 3028000000,
+      "fcf": 5229000000,
+      "ocf": 12679000000,
+      "capex": -7450000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.06352966904796617,
+      "rev_growth_yoy": -0.013401097979047299,
+      "rev_growth_yoy_accel": 0.03905624293812299,
+      "fcf_margin_change": -0.0075304289659621215
     }
   ],
   "signals": [
@@ -514,21 +515,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +53.0% vs prior quarter YoY: +82.6% (decel: -29.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +8.9% vs OpEx growth +4.5% (leverage: 2.0x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +0.8% -> +11.6% (+10.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -560,5 +549,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:04.539531"
+  "last_updated": "2026-02-24T10:30:52.790674"
 }

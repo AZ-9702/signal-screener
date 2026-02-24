@@ -1,25 +1,9 @@
 {
   "ticker": "GEL",
   "name": "GENESIS ENERGY LP",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 453140000,
-      "gross_profit": null,
-      "operating_income": -30932000,
-      "net_income": -85156000,
-      "opex": 484072000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1117000,
-      "ocf": 1117000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": -0.06826146444807345,
-      "fcf_margin": 0.0024650218475526326
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.053760511416506306,
-      "fcf_margin": 0.14803566255259307,
-      "op_leverage_ratio": 7.96911815013811,
-      "fcf_margin_change": 0.14557064070504044
+      "fcf_margin": 0.14803566255259307
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": -0.02124553587548424,
       "fcf_margin": 0.16436919362909036,
-      "incr_op_margin_yoy": 0.14462671576832942,
-      "rev_growth_yoy": 0.2834466169395772,
       "op_leverage_ratio": 0.5345076080886384,
       "fcf_margin_change": 0.05995360520842119
     },
@@ -120,8 +100,7 @@
       "fcf_margin": 0.08583789463356896,
       "incr_op_margin_yoy": 0.2135864460660357,
       "rev_growth_yoy": 0.21244045209403342,
-      "rev_growth_yoy_accel": -0.07100616484554376,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0785312989955214
     },
     {
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": 0.07474347999083641,
       "rev_growth_yoy": 0.11491496068447123,
       "rev_growth_yoy_accel": -0.13615830970054527,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07241740412124952
     },
     {
@@ -436,9 +415,38 @@
       "rev_growth_yoy_accel": 0.08062693813625182,
       "op_leverage_ratio": 1.1667621805225055,
       "fcf_margin_change": 0.04517139974729467
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 440755000,
+      "gross_profit": null,
+      "operating_income": 89911000,
+      "net_income": 19871000,
+      "opex": 350844000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 110782000,
+      "ocf": 110782000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.2039931481208381,
+      "fcf_margin": 0.2513459858651632,
+      "incr_op_margin_yoy": -0.20298948728572533,
+      "rev_growth_yoy": -0.39252542543411717,
+      "rev_growth_yoy_accel": 0.027882332123313425,
+      "op_leverage_ratio": 1.4043806704422468,
+      "fcf_margin_change": 0.08165557448934527
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +17.0% -> +25.1% (+8.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -555,12 +563,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +21.2% vs prior quarter YoY: +28.3% (decel: -7.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +21.4% vs year-ago OPM: +5.4%",
       "severity": "MEDIUM"
@@ -588,24 +590,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +14.8% -> +22.0% (+7.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +0.2% -> +14.8% (+14.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +15.0% vs OpEx growth +1.9% (leverage: 8.0x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -6.8% -> +5.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -635,7 +619,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:34:59.192438",
-  "sector": "Energy",
-  "industry": "Oil & Gas Midstream"
+  "last_updated": "2026-02-24T10:28:18.529792"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "ALX",
   "name": "ALEXANDERS INC",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 56055000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 18432000,
-      "opex": 35011000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 22545000,
-      "ocf": 22545000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.4021942734814022
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.9610528377824872,
-      "fcf_margin_change": 0.558858564301085
+      "fcf_margin": 0.9610528377824872
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5547254163562035,
-      "rev_growth_yoy": -0.11413790027651413,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.025458444726533913
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.6539672863964239,
       "rev_growth_yoy": -0.12355528644952184,
-      "rev_growth_yoy_accel": -0.009417386173007705,
       "fcf_margin_change": 0.09924187004022034
     },
     {
@@ -332,7 +313,7 @@
       "fcf_margin": -0.09036371800628648,
       "rev_growth_yoy": 0.004728132387706856,
       "rev_growth_yoy_accel": 0.009963539389365044,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.30578924992118006
     },
     {
@@ -419,9 +400,36 @@
       "rev_growth_yoy_accel": -0.006661969207020016,
       "op_leverage_ratio": 2.8053987384372907,
       "fcf_margin_change": -1.0179631005443066
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 53255000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 3824000,
+      "opex": 38582000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 23424000,
+      "ocf": 23424000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4398460238475261,
+      "rev_growth_yoy": -0.047487032731175105,
+      "rev_growth_yoy_accel": -0.007055959538539269,
+      "fcf_margin_change": 0.6133073895258729
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -17.3% -> +44.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -523,12 +531,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +16.6% -> +58.0% (+41.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +40.2% -> +96.1% (+55.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -559,7 +561,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:55:13.502992",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-24T11:09:27.078299"
 }

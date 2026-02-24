@@ -1,25 +1,9 @@
 {
   "ticker": "SEM",
   "name": "SELECT MEDICAL HOLDINGS CORP",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1460494000,
-      "gross_profit": 213900000,
-      "operating_income": 163329000,
-      "net_income": 77274000,
-      "opex": 1333349000,
-      "cogs": 1246594000,
-      "rd": null,
-      "sga": null,
-      "fcf": 207438000,
-      "ocf": 207438000,
-      "capex": null,
-      "gross_margin": 0.14645729458662618,
-      "op_margin": 0.11183133925918216,
-      "fcf_margin": 0.1420327642564776
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.16360818202569347,
       "op_margin": 0.13062840818047378,
-      "fcf_margin": 0.15512042641822016,
-      "op_leverage_ratio": 1.7393539645477782,
-      "fcf_margin_change": 0.013087662161742564
+      "fcf_margin": 0.15512042641822016
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.17427654377821256,
       "op_margin": 0.18156289561514558,
       "fcf_margin": 0.07873172977327655,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0763886966449436
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.10080772606424752,
       "op_margin": 0.04971050979894359,
       "fcf_margin": -0.0389483084809634,
-      "incr_op_margin_yoy": -0.8637997523082654,
-      "rev_growth_yoy": 0.06800233345703577,
       "op_leverage_ratio": 0.21647557671727383,
       "fcf_margin_change": -0.1034461872089954
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.003961746669525809,
       "incr_op_margin_yoy": -1.8466392886745535,
       "rev_growth_yoy": 0.034326071816784494,
-      "rev_growth_yoy_accel": -0.033676261640251275,
       "op_leverage_ratio": 12.268576217316756,
       "fcf_margin_change": 0.042910055150489214
     },
@@ -435,9 +414,44 @@
       "rev_growth_yoy_accel": 0.012877835989875519,
       "op_leverage_ratio": 0.623559096649082,
       "fcf_margin_change": 0.046243180138450427
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1396634000,
+      "gross_profit": 145834000,
+      "operating_income": 63936000,
+      "net_income": 20174000,
+      "opex": 1332698000,
+      "cogs": 1250800000,
+      "rd": null,
+      "sga": null,
+      "fcf": 64325000,
+      "ocf": 64325000,
+      "capex": null,
+      "gross_margin": 0.10441819402935916,
+      "op_margin": 0.045778636349967136,
+      "fcf_margin": 0.04605716315083264,
+      "incr_op_margin_yoy": 3.4319138812894017,
+      "rev_growth_yoy": 0.06405021012308733,
+      "rev_growth_yoy_accel": 0.2899021763737545,
+      "op_leverage_ratio": 0.7441912107494721,
+      "fcf_margin_change": -0.08251934708610395
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +6.4% vs prior quarter YoY: -22.6% (accel: +29.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -17.1% (year-ago) -> +4.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -563,12 +577,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +2.5% vs OpEx growth +0.2% (leverage: 12.3x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +5.9% vs OpEx growth +3.4% (leverage: 1.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -596,5 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:40:13.745627"
+  "last_updated": "2026-02-24T10:18:22.889082"
 }

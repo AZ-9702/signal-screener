@@ -1,25 +1,9 @@
 {
   "ticker": "DHTI",
-  "name": "Dalrada Technology Group, Inc.",
+  "name": "DALRADA TECHNOLOGY GROUP, INC.",
+  "sector": "Healthcare",
+  "industry": "Pharmaceutical Retailers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1055517,
-      "gross_profit": 596684,
-      "operating_income": -1077904,
-      "net_income": -1199901,
-      "opex": 1674588,
-      "cogs": 458833,
-      "rd": 255679,
-      "sga": 1418909,
-      "fcf": -1681486,
-      "ocf": -1647062,
-      "capex": -34424,
-      "gross_margin": 0.565300227281986,
-      "op_margin": -1.0212095115474218,
-      "fcf_margin": -1.5930449249040992
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -36558,
       "gross_margin": 0.46183001128859325,
       "op_margin": -1.4543088994786344,
-      "fcf_margin": -1.0695901164053543,
-      "op_leverage_ratio": 0.6175245344266732,
-      "fcf_margin_change": 0.5234548084987449
+      "fcf_margin": -1.0695901164053543
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6224998457941454,
       "op_margin": -0.33843430390008633,
       "fcf_margin": -0.29855685349562644,
-      "incr_op_margin_yoy": -0.1743354068437913,
-      "rev_growth_yoy": 4.160754398081698,
       "op_leverage_ratio": 0.8557497658360174,
       "fcf_margin_change": 0.426200895421069
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.5446799531486101,
       "incr_op_margin_yoy": -0.08235183341113402,
       "rev_growth_yoy": 2.5207756075724865,
-      "rev_growth_yoy_accel": -1.6399787905092116,
       "op_leverage_ratio": 0.11377444752647785,
       "fcf_margin_change": -0.24612309965298362
     },
@@ -165,7 +144,7 @@
       "fcf_margin": -0.3638559836646768,
       "rev_growth_yoy": -0.07487170149703858,
       "rev_growth_yoy_accel": -1051.5700821514245,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4586144135888193
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -0.2574541994769923,
       "rev_growth_yoy": 0.6942844880770366,
       "rev_growth_yoy_accel": 0.729925132628136,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.22026813357549757
     },
     {
@@ -354,7 +333,7 @@
       "net_income": -6709601,
       "opex": 5888287,
       "cogs": 2279976,
-      "rd": null,
+      "rd": 0,
       "sga": 5888287,
       "fcf": -2818263,
       "ocf": -2990397,
@@ -387,7 +366,7 @@
       "incr_op_margin_yoy": 0.287714679277643,
       "rev_growth_yoy": -0.5561450838659546,
       "rev_growth_yoy_accel": -0.06864590242383828,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5268621857207958
     },
     {
@@ -431,9 +410,48 @@
       "incr_op_margin_yoy": -0.20850792677971436,
       "rev_growth_yoy": -0.32034148861110445,
       "fcf_margin_change": 0.781287837252336
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3259933,
+      "gross_profit": 1124897,
+      "operating_income": -3573312,
+      "net_income": -4417607,
+      "opex": 4698209,
+      "cogs": 2135036,
+      "rd": 0,
+      "sga": 4698209,
+      "fcf": 955057,
+      "ocf": 955057,
+      "capex": null,
+      "gross_margin": 0.34506752132635854,
+      "op_margin": -1.09613050329562,
+      "fcf_margin": 0.2929682910661047,
+      "rev_growth_yoy": 0.04657515687713533,
+      "rev_growth_yoy_accel": 0.36691664548823977,
+      "fcf_margin_change": 1.3217716977333471
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -102.9% -> +29.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +28.8% -> +13.7% -> +34.5% (reversal +20.8%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +4.7% vs prior quarter YoY: -32.0% (accel: +36.7%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -585,12 +603,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +252.1% vs prior quarter YoY: +416.1% (decel: -164.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -72.5% -> -29.9% (+42.6%)",
@@ -613,12 +625,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +46.2% -> -26748.0% -> +73.8% (reversal +26821.8%)",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -159.3% -> -107.0% (+52.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -646,7 +652,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T01:07:47.493760",
-  "sector": "Healthcare",
-  "industry": "Pharmaceutical Retailers"
+  "last_updated": "2026-02-24T10:08:12.676461"
 }

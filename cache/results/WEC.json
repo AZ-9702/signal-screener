@@ -1,25 +1,9 @@
 {
   "ticker": "WEC",
   "name": "WEC ENERGY GROUP, INC.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1933400000,
-      "gross_profit": 1275900000,
-      "operating_income": 370500000,
-      "net_income": null,
-      "opex": 1562900000,
-      "cogs": 657500000,
-      "rd": null,
-      "sga": null,
-      "fcf": -1009300000,
-      "ocf": 246300000,
-      "capex": -1255600000,
-      "gross_margin": 0.6599255198096617,
-      "op_margin": 0.1916313230578256,
-      "fcf_margin": -0.5220337229750698
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -470600000,
       "gross_margin": 0.5297614624359069,
       "op_margin": 0.2338188303485175,
-      "fcf_margin": -0.028015159396596566,
-      "op_leverage_ratio": 1.2274508355812663,
-      "fcf_margin_change": 0.49401856357847324
+      "fcf_margin": -0.028015159396596566
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.5645578818293292,
       "op_margin": 0.14841727598891866,
       "fcf_margin": -0.326445342658613,
-      "incr_op_margin_yoy": -0.162756052141527,
-      "rev_growth_yoy": 0.13887452156822178,
       "op_leverage_ratio": 0.6820429465619576,
       "fcf_margin_change": -0.4196030867181607
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.2384030810494825,
       "incr_op_margin_yoy": 0.47115828334102444,
       "rev_growth_yoy": 0.08051571672735379,
-      "rev_growth_yoy_accel": -0.05835880484086799,
       "op_leverage_ratio": 1.9939911130524723,
       "fcf_margin_change": 0.5648484237080955
     },
@@ -302,7 +281,7 @@
       "incr_op_margin_yoy": -0.6931216931216931,
       "rev_growth_yoy": -0.07198504206918042,
       "rev_growth_yoy_accel": 0.061262300019625085,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06009104976012239
     },
     {
@@ -440,9 +419,38 @@
       "rev_growth_yoy_accel": -0.004971121599989331,
       "op_leverage_ratio": 1.5152393600278198,
       "fcf_margin_change": -0.30927943740616104
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2537100000,
+      "gross_profit": 1615600000,
+      "operating_income": 452900000,
+      "net_income": null,
+      "opex": 2084200000,
+      "cogs": 921500000,
+      "rd": null,
+      "sga": null,
+      "fcf": 424600000,
+      "ocf": 424600000,
+      "capex": null,
+      "gross_margin": 0.636790035867723,
+      "op_margin": 0.17851089826967798,
+      "fcf_margin": 0.16735643057033622,
+      "incr_op_margin_yoy": -0.5456702253855279,
+      "rev_growth_yoy": 0.1107171000788022,
+      "rev_growth_yoy_accel": -0.01834112369366897,
+      "op_leverage_ratio": 0.7923490809236589,
+      "fcf_margin_change": 0.46474236212927156
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -29.7% -> +16.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -601,12 +609,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +8.1% vs prior quarter YoY: +13.9% (decel: -5.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +47.1% vs year-ago OPM: +23.4%",
       "severity": "HIGH"
@@ -616,18 +618,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.8% -> +17.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +66.0% -> +53.0% -> +68.6% (reversal +15.6%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -52.2% -> -2.8% (+49.4%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -655,5 +645,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:05:43.530271"
+  "last_updated": "2026-02-24T10:16:06.741031"
 }

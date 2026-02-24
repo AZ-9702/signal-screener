@@ -1,25 +1,9 @@
 {
   "ticker": "SLG",
-  "name": "SL GREEN REALTY CORP",
+  "name": "SL\u00a0GREEN REALTY\u00a0CORP",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 234898000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 174738000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 25144000,
-      "fcf": 226293000,
-      "ocf": 226293000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.9633670784766154
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.08227260263067111,
-      "fcf_margin_change": -0.8810944758459442
+      "fcf_margin": 0.08227260263067111
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.33388151977839564,
-      "rev_growth_yoy": -0.17163619954192882,
       "fcf_margin_change": -0.09373822866337611
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.43307229043859463,
       "rev_growth_yoy": -0.1686760842451637,
-      "rev_growth_yoy_accel": 0.0029601152967651256,
       "fcf_margin_change": 0.09919077066019899
     },
     {
@@ -414,9 +395,49 @@
       "rev_growth_yoy": 0.06585369039274504,
       "rev_growth_yoy_accel": -0.01984777267161185,
       "fcf_margin_change": -0.2529211914673835
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 276467000,
+      "gross_profit": null,
+      "operating_income": 177381000,
+      "net_income": -100830000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 22306000,
+      "fcf": 28486000,
+      "ocf": 28486000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6415991782021001,
+      "fcf_margin": 0.10303580535832486,
+      "incr_op_margin_yoy": 0.9930691774552112,
+      "rev_growth_yoy": 0.12440265333761728,
+      "rev_growth_yoy_accel": 0.058548962944872246,
+      "fcf_margin_change": 0.13072179121715002
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -2.8% -> +10.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +12.4% vs prior quarter YoY: +6.6% (accel: +5.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +99.3% vs year-ago OPM: +59.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -562,7 +583,7 @@
         20
       ],
       "op_income": [
-        7,
+        8,
         20
       ],
       "fcf": [
@@ -573,10 +594,10 @@
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 7/20Q"
+      "op_income: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:18:18.966841"
+  "last_updated": "2026-02-24T10:37:02.288515"
 }

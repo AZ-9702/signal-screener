@@ -1,25 +1,9 @@
 {
   "ticker": "HUN",
   "name": "Huntsman Corporation",
+  "sector": "Basic Materials",
+  "industry": "Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1668000000,
-      "gross_profit": 362000000,
-      "operating_income": 389000000,
-      "net_income": 343000000,
-      "opex": -27000000,
-      "cogs": 1306000000,
-      "rd": 34000000,
-      "sga": 212000000,
-      "fcf": 98000000,
-      "ocf": 165000000,
-      "capex": -67000000,
-      "gross_margin": 0.2170263788968825,
-      "op_margin": 0.23321342925659472,
-      "fcf_margin": 0.05875299760191847
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -98000000,
       "gross_margin": 0.21339139902014154,
       "op_margin": 0.06859009254218836,
-      "fcf_margin": -0.06260206859009254,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.121355066192011
+      "fcf_margin": -0.06260206859009254
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.21294466403162055,
       "op_margin": 0.10326086956521739,
       "fcf_margin": -0.04100790513833992,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02159416345175262
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.20329432162982228,
       "op_margin": 0.09319462505418293,
       "fcf_margin": 0.305591677503251,
-      "incr_op_margin_yoy": -0.27230046948356806,
-      "rev_growth_yoy": 0.3830935251798561,
       "fcf_margin_change": 0.25351290288618317
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.008790288823775638,
       "incr_op_margin_yoy": 0.322463768115942,
       "rev_growth_yoy": 0.3004899292324442,
-      "rev_growth_yoy_accel": -0.0826035959474119,
       "op_leverage_ratio": 1.289739302743204,
       "fcf_margin_change": -0.29680138867947536
     },
@@ -321,7 +300,7 @@
       "incr_op_margin_yoy": 0.7272727272727273,
       "rev_growth_yoy": -0.013784461152882205,
       "rev_growth_yoy_accel": 0.07089797969394221,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07024781958526741
     },
     {
@@ -434,6 +413,28 @@
       "rev_growth_yoy": -0.05194805194805195,
       "rev_growth_yoy_accel": 0.0217495338206901,
       "fcf_margin_change": 0.06775748351090817
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1355000000,
+      "gross_profit": 164000000,
+      "operating_income": -59000000,
+      "net_income": -96000000,
+      "opex": 223000000,
+      "cogs": 1191000000,
+      "rd": 26000000,
+      "sga": 181000000,
+      "fcf": 19000000,
+      "ocf": 76000000,
+      "capex": -57000000,
+      "gross_margin": 0.12103321033210332,
+      "op_margin": -0.043542435424354244,
+      "fcf_margin": 0.014022140221402213,
+      "incr_op_margin_yoy": -0.041237113402061855,
+      "rev_growth_yoy": -0.06680440771349862,
+      "rev_growth_yoy_accel": -0.014856355765446666,
+      "fcf_margin_change": -0.09077238032654299
     }
   ],
   "signals": [
@@ -625,12 +626,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +30.0% vs prior quarter YoY: +38.3% (decel: -8.3%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +32.2% vs year-ago OPM: +6.9%",
       "severity": "HIGH"
@@ -679,7 +674,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:37:37.577522",
-  "sector": "Basic Materials",
-  "industry": "Chemicals"
+  "last_updated": "2026-02-24T10:27:01.907988"
 }

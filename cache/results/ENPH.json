@@ -1,25 +1,9 @@
 {
   "ticker": "ENPH",
-  "name": "ENPHASE ENERGY, INC.",
+  "name": "Enphase Energy, Inc.",
+  "sector": "Technology",
+  "industry": "Solar",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 264839000,
-      "gross_profit": 121938000,
-      "operating_income": 79114000,
-      "net_income": 72991000,
-      "opex": 42824000,
-      "cogs": 142901000,
-      "rd": 15801000,
-      "sga": null,
-      "fcf": 75329000,
-      "ocf": 84180000,
-      "capex": -8851000,
-      "gross_margin": 0.4604231249929202,
-      "op_margin": 0.2987248856852654,
-      "fcf_margin": 0.2844331839343903
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -9940000,
       "gross_margin": 0.40744778859600866,
       "op_margin": 0.20343060903915108,
-      "fcf_margin": 0.21839312817725698,
-      "op_leverage_ratio": 0.31853836939228763,
-      "fcf_margin_change": -0.06604005575713334
+      "fcf_margin": 0.21839312817725698
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3957026451411251,
       "op_margin": 0.1397924495843419,
       "fcf_margin": 0.20344350514514717,
-      "incr_op_margin_yoy": -0.14484041114417096,
-      "rev_growth_yoy": 0.5583769762006351,
       "op_leverage_ratio": 6.865879614740676,
       "fcf_margin_change": -0.08294784212199915
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.2041006861669824,
       "incr_op_margin_yoy": 0.0031389298972322953,
       "rev_growth_yoy": 0.4624230333317868,
-      "rev_growth_yoy_accel": -0.09595394286884829,
       "op_leverage_ratio": 0.7672740836982125,
       "fcf_margin_change": 0.0006571810218352347
     },
@@ -324,7 +303,7 @@
       "incr_op_margin_yoy": 0.4133861551292744,
       "rev_growth_yoy": -0.5732663214825107,
       "rev_growth_yoy_accel": 0.0640157769836388,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2281149620677276
     },
     {
@@ -347,7 +326,7 @@
       "incr_op_margin_yoy": 0.40068974026050325,
       "rev_growth_yoy": -0.30886329076253627,
       "rev_growth_yoy_accel": 0.2644030307199744,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.037341893676328675
     },
     {
@@ -414,7 +393,7 @@
       "incr_op_margin_yoy": 0.5897981405477846,
       "rev_growth_yoy": 0.19671585524191157,
       "rev_growth_yoy_accel": -0.15547276854719674,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04435353322643292
     },
     {
@@ -437,11 +416,51 @@
       "incr_op_margin_yoy": 0.5539351695202003,
       "rev_growth_yoy": 0.07759541894542275,
       "rev_growth_yoy_accel": -0.11912043629648882,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03624357799965976
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 343321000,
+      "gross_profit": 152031000,
+      "operating_income": 22438000,
+      "net_income": 38713000,
+      "opex": 129593000,
+      "cogs": 191290000,
+      "rd": 46214000,
+      "sga": null,
+      "fcf": 37839000,
+      "ocf": 47579000,
+      "capex": -9740000,
+      "gross_margin": 0.44282464515715614,
+      "op_margin": 0.0653557457889264,
+      "fcf_margin": 0.11021463877828622,
+      "incr_op_margin_yoy": 0.8216389114541024,
+      "rev_growth_yoy": -0.1029283039771317,
+      "rev_growth_yoy_accel": -0.18052372292255445,
+      "fcf_margin_change": 0.09587347701261291
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +1.4% -> +11.0% (+9.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -10.3% vs prior quarter YoY: +7.8% (decel: -18.1%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +82.2% vs year-ago OPM: +14.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -617,12 +636,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +46.2% vs prior quarter YoY: +55.8% (decel: -9.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +17.4% vs OpEx growth +2.5% (leverage: 6.9x)",
@@ -660,7 +673,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:01:47.081001",
-  "sector": "Technology",
-  "industry": "Solar"
+  "last_updated": "2026-02-24T10:38:30.680131"
 }

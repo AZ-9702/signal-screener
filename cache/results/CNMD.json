@@ -1,25 +1,9 @@
 {
   "ticker": "CNMD",
   "name": "CONMED CORPORATION",
+  "sector": "Healthcare",
+  "industry": "Medical Devices",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 252828000,
-      "gross_profit": 135514000,
-      "operating_income": 24701000,
-      "net_income": 24140000,
-      "opex": 110813000,
-      "cogs": 117314000,
-      "rd": 11717000,
-      "sga": 99096000,
-      "fcf": 16996000,
-      "ocf": 20145000,
-      "capex": -3149000,
-      "gross_margin": 0.5359928488933188,
-      "op_margin": 0.09769883082569969,
-      "fcf_margin": 0.06722356700998307
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3109000,
       "gross_margin": 0.5520485479871238,
       "op_margin": 0.08630848773192022,
-      "fcf_margin": 0.08266824825831517,
-      "fcf_margin_change": 0.015444681248332107
+      "fcf_margin": 0.08266824825831517
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5688798043581414,
       "op_margin": 0.13583969047705954,
       "fcf_margin": 0.11168011096105412,
-      "incr_op_margin_yoy": 0.5919496736354176,
-      "rev_growth_yoy": 0.08362206717610392,
       "op_leverage_ratio": 3.835935925648859,
       "fcf_margin_change": 0.048234423796879825
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.013861435168181837,
       "incr_op_margin_yoy": 0.24476683937823834,
       "rev_growth_yoy": 0.041473802739419884,
-      "rev_growth_yoy_accel": -0.042148264436684034,
       "fcf_margin_change": -0.12554154612923596
     },
     {
@@ -277,7 +257,7 @@
       "incr_op_margin_yoy": 0.673186484286802,
       "rev_growth_yoy": 0.3036589108970092,
       "rev_growth_yoy_accel": 0.19645685191951834,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02385713430862163
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 1.3630321910695742,
       "rev_growth_yoy": 0.04547429262211477,
       "rev_growth_yoy_accel": -0.01140157887666006,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.032853358481713155
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": -0.8729508196721312,
       "rev_growth_yoy": 0.030858454005907913,
       "rev_growth_yoy_accel": 0.0020919580232260926,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04915639074431277
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy": 0.06701904951357905,
       "rev_growth_yoy_accel": 0.03616059550767114,
       "fcf_margin_change": 0.07515288102797187
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 373198000,
+      "gross_profit": 218285000,
+      "operating_income": 36624000,
+      "net_income": 16739000,
+      "opex": 181661000,
+      "cogs": 154913000,
+      "rd": 14899000,
+      "sga": 166762000,
+      "fcf": 41224000,
+      "ocf": 46335000,
+      "capex": -5111000,
+      "gross_margin": 0.5849039919828081,
+      "op_margin": 0.09813557414562779,
+      "fcf_margin": 0.11046147085461337,
+      "incr_op_margin_yoy": -0.582483305202906,
+      "rev_growth_yoy": 0.07878153689614505,
+      "rev_growth_yoy_accel": 0.011762487382565995,
+      "op_leverage_ratio": 0.5871136884128345,
+      "fcf_margin_change": -0.03305811627392956
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +55.0% -> +49.2% -> +58.5% (reversal +9.3%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -552,12 +561,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.1% vs OpEx growth +2.6% (leverage: 3.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +59.2% vs year-ago OPM: +9.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -585,7 +588,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:55:26.579955",
-  "sector": "Healthcare",
-  "industry": "Medical Devices"
+  "last_updated": "2026-02-24T10:34:17.030408"
 }

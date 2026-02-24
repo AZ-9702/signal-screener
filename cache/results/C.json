@@ -1,25 +1,9 @@
 {
   "ticker": "C",
-  "name": "Citigroup\u00a0Inc.",
+  "name": "Citigroup\u00a0Inc",
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 16499000000,
-      "gross_profit": 16545000000,
-      "operating_income": null,
-      "net_income": 4309000000,
-      "opex": null,
-      "cogs": -46000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -2380000000,
-      "ocf": -1234000000,
-      "capex": -1146000000,
-      "gross_margin": 1.0027880477604703,
-      "op_margin": null,
-      "fcf_margin": -0.14425116673737803
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -830000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 1.157344647384488,
-      "fcf_margin_change": 1.301595814121866
+      "fcf_margin": 1.157344647384488
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.787624140565317,
-      "rev_growth_yoy": 0.031395842172252865,
       "fcf_margin_change": -2.8035970914805555
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.5460231418742834,
       "rev_growth_yoy": -0.007295493351270244,
-      "rev_growth_yoy_accel": -0.03869133552352311,
       "fcf_margin_change": 0.24160099869103369
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 0.08737386167856263,
       "rev_growth_yoy_accel": 0.011451521939747397,
       "fcf_margin_change": 1.7457484122090032
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19871000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 2471000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 24924000000,
+      "ocf": 26555000000,
+      "capex": -1631000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.2542901716068642,
+      "rev_growth_yoy": 0.014810275266840305,
+      "rev_growth_yoy_accel": -0.07256358641172234,
+      "fcf_margin_change": 1.277694426926013
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -2.3% -> +125.4%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +1.5% vs prior quarter YoY: +8.7% (decel: -7.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -515,12 +529,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.3% -> +201.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -14.4% -> +115.7%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -531,7 +539,7 @@
         20
       ],
       "gross_profit": [
-        1,
+        0,
         20
       ],
       "op_income": [
@@ -545,13 +553,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 1/20Q",
+      "gross_profit: no data",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:11.187581",
-  "sector": "Financial Services",
-  "industry": "Banks - Diversified"
+  "last_updated": "2026-02-24T10:11:52.030032"
 }

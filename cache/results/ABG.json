@@ -1,25 +1,9 @@
 {
   "ticker": "ABG",
-  "name": "ASBURY AUTOMOTIVE GROUP, INC.",
+  "name": "ASBURY AUTOMOTIVE GROUP,\u00a0INC",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto & Truck Dealerships",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2234000000,
-      "gross_profit": 372300000,
-      "operating_income": 134500000,
-      "net_income": 89100000,
-      "opex": 237800000,
-      "cogs": 1861700000,
-      "rd": null,
-      "sga": 228500000,
-      "fcf": 27300000,
-      "ocf": 27300000,
-      "capex": null,
-      "gross_margin": 0.16665174574753805,
-      "op_margin": 0.060205908683974935,
-      "fcf_margin": 0.012220232766338407
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.17451776186784623,
       "op_margin": 0.062155137033152445,
-      "fcf_margin": 0.0961284144283825,
-      "fcf_margin_change": 0.0839081816620441
+      "fcf_margin": 0.0961284144283825
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.20427150821154136,
       "op_margin": 0.08893325297574205,
       "fcf_margin": 0.07725629049269248,
-      "incr_op_margin_yoy": 0.2414448669201521,
-      "rev_growth_yoy": 0.1883616830796777,
       "op_leverage_ratio": 1.0606938536012909,
       "fcf_margin_change": -0.07706623652310138
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.10455544762002147,
       "incr_op_margin_yoy": 0.10733608703240445,
       "rev_growth_yoy": 0.7838478726800128,
-      "rev_growth_yoy_accel": 0.5954861896003351,
       "op_leverage_ratio": 0.8786677989781801,
       "fcf_margin_change": 0.027299157127329
     },
@@ -299,7 +279,7 @@
       "incr_op_margin_yoy": -0.022136047826789466,
       "rev_growth_yoy": 0.17276609999162548,
       "rev_growth_yoy_accel": 0.1442170295903734,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.022950592790777723
     },
     {
@@ -437,9 +417,37 @@
       "rev_growth_yoy_accel": 0.10328413922979257,
       "op_leverage_ratio": 0.7396732609852688,
       "fcf_margin_change": 0.04302500860380257
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 4676500000,
+      "gross_profit": 793100000,
+      "operating_income": 126300000,
+      "net_income": 60000000,
+      "opex": 666800000,
+      "cogs": 3883500000,
+      "rd": null,
+      "sga": 528700000,
+      "fcf": 151900000,
+      "ocf": 151900000,
+      "capex": null,
+      "gross_margin": 0.16959264407142094,
+      "op_margin": 0.027007377312092375,
+      "fcf_margin": 0.03248155671976906,
+      "incr_op_margin_yoy": -0.6587209302325582,
+      "rev_growth_yoy": 0.038184038184038184,
+      "rev_growth_yoy_accel": -0.09498564576809437,
+      "fcf_margin_change": -0.031443957246362286
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +3.8% vs prior quarter YoY: +13.3% (decel: -9.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -535,24 +543,6 @@
       "signal": "YoY REVENUE GROWTH DECELERATION",
       "detail": "YoY growth: +52.9% vs prior quarter YoY: +78.4% (decel: -25.5%)",
       "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +78.4% vs prior quarter YoY: +18.8% (accel: +59.5%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +24.1% vs year-ago OPM: +6.0%",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +1.2% -> +9.6% (+8.4%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -580,7 +570,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:06:35.229250",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto & Truck Dealerships"
+  "last_updated": "2026-02-24T10:11:59.446973"
 }

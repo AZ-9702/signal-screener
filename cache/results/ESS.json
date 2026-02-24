@@ -1,25 +1,9 @@
 {
   "ticker": "ESS",
   "name": "ESSEX PROPERTY TRUST, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 362073000,
-      "gross_profit": null,
-      "operating_income": 111931000,
-      "net_income": null,
-      "opex": 275858000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 149671000,
-      "ocf": 149671000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.309139317209513,
-      "fcf_margin": 0.41337244146898555
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.5558071101724745,
-      "fcf_margin": 0.5498514607532559,
-      "fcf_margin_change": 0.1364790192842703
+      "fcf_margin": 0.5498514607532559
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.272505624387776,
       "fcf_margin": 0.5527023972270961,
-      "incr_op_margin_yoy": -1.1203402289194582,
-      "rev_growth_yoy": 0.026301325975701034,
       "op_leverage_ratio": 2.528126365181843,
       "fcf_margin_change": -0.19636955122642685
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.8251868920281222,
       "incr_op_margin_yoy": -3.268521284540702,
       "rev_growth_yoy": 0.07541006687785991,
-      "rev_growth_yoy_accel": 0.04910874090215887,
       "op_leverage_ratio": 4.3577800802942575,
       "fcf_margin_change": 0.2724844948010261
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.7193265306122449,
       "rev_growth_yoy": 0.13960989007858043,
       "rev_growth_yoy_accel": 0.06419982320072053,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.33915516028287623
     },
     {
@@ -391,7 +371,7 @@
       "incr_op_margin_yoy": 3.312229451600053,
       "rev_growth_yoy": 0.08819988382115954,
       "rev_growth_yoy_accel": 0.010615639201149482,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1255325724516606
     },
     {
@@ -414,7 +394,7 @@
       "incr_op_margin_yoy": 5.176868767741466,
       "rev_growth_yoy": 0.062117530038091576,
       "rev_growth_yoy_accel": -0.02608235378306796,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14591378727535453
     },
     {
@@ -438,9 +418,38 @@
       "rev_growth_yoy": 0.050155536523348226,
       "rev_growth_yoy_accel": -0.01196199351474335,
       "fcf_margin_change": 0.26381357611464695
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 479626000,
+      "gross_profit": 335823000,
+      "operating_income": 152136000,
+      "net_income": null,
+      "opex": 327490000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 234202000,
+      "ocf": 234202000,
+      "capex": null,
+      "gross_margin": 0.7001768044267825,
+      "op_margin": 0.3171971494456097,
+      "fcf_margin": 0.4883013014306981,
+      "incr_op_margin_yoy": -6.056366021385698,
+      "rev_growth_yoy": 0.055354710662333405,
+      "rev_growth_yoy_accel": 0.005199174138985178,
+      "op_leverage_ratio": 1.9173729938638453,
+      "fcf_margin_change": -0.23552466206414563
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +1.3% vs OpEx growth +0.7% (leverage: 1.9x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -566,12 +575,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +55.0% -> +66.3% (+11.3%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +41.3% -> +55.0% (+13.6%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -582,7 +585,7 @@
         20
       ],
       "gross_profit": [
-        7,
+        8,
         20
       ],
       "op_income": [
@@ -596,12 +599,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 7/20Q"
+      "gross_profit: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:21:51.839986",
-  "sector": "Real Estate",
-  "industry": "REIT - Residential"
+  "last_updated": "2026-02-24T10:13:32.043839"
 }

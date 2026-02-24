@@ -1,25 +1,9 @@
 {
   "ticker": "MIR",
   "name": "Mirion Technologies, Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2019-06-30T00:00:00",
-      "quarter_label": "2019-06 (Q2)",
-      "revenue": 0,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2020-06-30T00:00:00",
       "quarter_label": "2020-06 (Q2)",
@@ -358,7 +342,7 @@
       "incr_op_margin_yoy": 0.6527196652719666,
       "rev_growth_yoy": 0.1037326388888889,
       "rev_growth_yoy_accel": 0.022142680729893074,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17422023972964812
     },
     {
@@ -427,9 +411,44 @@
       "rev_growth_yoy": 0.0788201160541586,
       "rev_growth_yoy_accel": 0.0025284695065970336,
       "fcf_margin_change": 0.042119093912826304
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 277400000,
+      "gross_profit": 135500000,
+      "operating_income": 25500000,
+      "net_income": 17300000,
+      "opex": 110000000,
+      "cogs": 141900000,
+      "rd": 10100000,
+      "sga": 99900000,
+      "fcf": 63200000,
+      "ocf": 73000000,
+      "capex": -9800000,
+      "gross_margin": 0.4884643114635905,
+      "op_margin": 0.09192501802451333,
+      "fcf_margin": 0.22782984859408795,
+      "incr_op_margin_yoy": -0.15151515151515152,
+      "rev_growth_yoy": 0.09083759339362957,
+      "rev_growth_yoy_accel": 0.012017477339470964,
+      "op_leverage_ratio": 1.832018179354341,
+      "fcf_margin_change": 0.16956001443900054
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +5.8% -> +22.8% (+17.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +24.3% vs OpEx growth +13.3% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -601,24 +620,19 @@
         20
       ],
       "gross_profit": [
-        18,
+        19,
         20
       ],
       "op_income": [
-        18,
+        19,
         20
       ],
       "fcf": [
-        18,
+        19,
         20
       ]
     },
     "gaps": [
-      [
-        "2019-06 (Q2)",
-        "2020-06 (Q2)",
-        366
-      ],
       [
         "2020-06 (Q2)",
         "2021-03 (Q1)",
@@ -631,14 +645,11 @@
       ]
     ],
     "warnings": [
-      "gap: 3Q missing between 2019-06 (Q2) and 2020-06 (Q2)",
       "gap: 2Q missing between 2020-06 (Q2) and 2021-03 (Q1)",
       "gap: 1Q missing between 2021-09 (Q3) and 2022-03 (Q1)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:19.465467",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:20:03.971117"
 }

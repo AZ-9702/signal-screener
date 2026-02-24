@@ -1,25 +1,9 @@
 {
   "ticker": "BKD",
-  "name": "Brookdale Senior Living Inc.",
+  "name": "BROOKDALE SENIOR LIVING INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 852167000,
-      "gross_profit": 189168000,
-      "operating_income": 2502000,
-      "net_income": -44120000,
-      "opex": 849665000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 28318000,
-      "ocf": 73499000,
-      "capex": -45181000,
-      "gross_margin": 0.22198465793676592,
-      "op_margin": 0.0029360442260730583,
-      "fcf_margin": 0.03323057569701714
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -40361000,
       "gross_margin": 0.16991106752330057,
       "op_margin": -0.08218081380221363,
-      "fcf_margin": -0.085687408682425,
-      "fcf_margin_change": -0.11891798437944213
+      "fcf_margin": -0.085687408682425
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.18760367031751848,
       "op_margin": -0.083861909583952,
       "fcf_margin": -0.20536352171563116,
-      "incr_op_margin_yoy": 0.27123509954440495,
-      "rev_growth_yoy": -0.2444344829123869,
       "fcf_margin_change": -0.1444599818015965
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.09325632173733439,
       "incr_op_margin_yoy": -0.11247469458987784,
       "rev_growth_yoy": -0.09557072233452756,
-      "rev_growth_yoy_accel": 0.14886376057785933,
       "op_leverage_ratio": 1.0988139610090875,
       "fcf_margin_change": 0.11210719997829677
     },
@@ -141,7 +121,7 @@
       "incr_op_margin_yoy": -0.5461570345807674,
       "rev_growth_yoy": -0.04669759930982231,
       "rev_growth_yoy_accel": 0.04887312302470524,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02753195856084538
     },
     {
@@ -297,7 +277,7 @@
       "incr_op_margin_yoy": 0.38636363636363635,
       "rev_growth_yoy": 0.03925322231411871,
       "rev_growth_yoy_accel": -0.037679626662094026,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01946328446857514
     },
     {
@@ -386,7 +366,7 @@
       "incr_op_margin_yoy": 0.332871459414172,
       "rev_growth_yoy": 0.0396420172425466,
       "rev_growth_yoy_accel": 0.00456501749570009,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.016078179124185493
     },
     {
@@ -432,9 +412,49 @@
       "rev_growth_yoy": 0.03697936791525275,
       "rev_growth_yoy_accel": -0.008552636184852587,
       "fcf_margin_change": 0.007169626910519887
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 754093000,
+      "gross_profit": 187689000,
+      "operating_income": 22850000,
+      "net_income": -39963000,
+      "opex": 164839000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -29114000,
+      "ocf": 34539000,
+      "capex": -63653000,
+      "gross_margin": 0.24889370409220082,
+      "op_margin": 0.030301302359258077,
+      "fcf_margin": -0.038607970104483136,
+      "incr_op_margin_yoy": -0.9305157326382424,
+      "rev_growth_yoy": -0.03438769290656996,
+      "rev_growth_yoy_accel": -0.0713670608218227,
+      "fcf_margin_change": -0.08157096039550649
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -3.4% vs prior quarter YoY: +3.7% (decel: -7.1%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -0.3% (year-ago) -> +3.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -6.6% -> +3.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -572,12 +592,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -20.5% -> -9.3% (+11.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -9.6% vs prior quarter YoY: -24.4% (accel: +14.9%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -605,7 +619,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:21:53.970405",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-24T10:22:15.702650"
 }

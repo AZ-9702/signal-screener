@@ -1,25 +1,9 @@
 {
   "ticker": "CAT",
-  "name": "CATERPILLAR INC.",
+  "name": "CATERPILLAR INC",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 11235000000,
-      "gross_profit": 2786000000,
-      "operating_income": 1380000000,
-      "net_income": null,
-      "opex": 9855000000,
-      "cogs": 7784000000,
-      "rd": 374000000,
-      "sga": 1216000000,
-      "fcf": 1780000000,
-      "ocf": 2072000000,
-      "capex": -292000000,
-      "gross_margin": 0.24797507788161993,
-      "op_margin": 0.12283044058744993,
-      "fcf_margin": 0.1584334668446818
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -252000000,
       "gross_margin": 0.32598637166652644,
       "op_margin": 0.15260368469756877,
-      "fcf_margin": 0.14099436359047698,
-      "op_leverage_ratio": 2.6234612510870763,
-      "fcf_margin_change": -0.017439103254204807
+      "fcf_margin": 0.14099436359047698
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.27503986084939847,
       "op_margin": 0.1167560516016814,
       "fcf_margin": 0.07189447746050152,
-      "incr_op_margin_yoy": 0.09012875536480687,
-      "rev_growth_yoy": 0.22812639074321317,
       "op_leverage_ratio": 0.8342155038396719,
       "fcf_margin_change": -0.04797323246932021
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.002428434763411583,
       "incr_op_margin_yoy": 0.02408930669800235,
       "rev_growth_yoy": 0.1431816269874653,
-      "rev_growth_yoy_accel": -0.08494476375574786,
       "fcf_margin_change": -0.0743229122239131
     },
     {
@@ -438,9 +417,38 @@
       "rev_growth_yoy_accel": 0.10231019602985694,
       "op_leverage_ratio": 1.0085271412254604,
       "fcf_margin_change": 0.019638399994371836
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 19133000000,
+      "gross_profit": 5826000000,
+      "operating_income": 2660000000,
+      "net_income": null,
+      "opex": 16473000000,
+      "cogs": 13307000000,
+      "rd": 562000000,
+      "sga": 1876000000,
+      "fcf": 2693000000,
+      "ocf": 3591000000,
+      "capex": -898000000,
+      "gross_margin": 0.3045000783985784,
+      "op_margin": 0.13902681231380337,
+      "fcf_margin": 0.14075158103799718,
+      "incr_op_margin_yoy": -0.09047292666209733,
+      "rev_growth_yoy": 0.1799568300955905,
+      "rev_growth_yoy_accel": 0.08483699897675279,
+      "op_leverage_ratio": 0.6551732592099981,
+      "fcf_margin_change": -0.033814696317712084
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +18.0% vs prior quarter YoY: +9.5% (accel: +8.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -572,18 +580,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +30.5% -> +27.5% -> +29.7% (reversal +2.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +14.3% vs prior quarter YoY: +22.8% (decel: -8.5%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +5.8% vs OpEx growth +2.2% (leverage: 2.6x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -611,7 +607,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:06.226560",
-  "sector": "Industrials",
-  "industry": "Farm & Heavy Construction Machinery"
+  "last_updated": "2026-02-24T10:46:23.513222"
 }

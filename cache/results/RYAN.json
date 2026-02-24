@@ -1,25 +1,9 @@
 {
   "ticker": "RYAN",
   "name": "RYAN SPECIALTY HOLDINGS, INC.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 326947000,
-      "gross_profit": null,
-      "operating_income": 48504000,
-      "net_income": -4366000,
-      "opex": 278443000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 133129000,
-      "ocf": 133129000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.14835432042502303,
-      "fcf_margin": 0.4071883210428602
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.12792415028671603,
-      "fcf_margin": -0.2401768456742161,
-      "fcf_margin_change": -0.6473651667170763
+      "fcf_margin": -0.2401768456742161
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,9 +78,7 @@
       "gross_margin": null,
       "op_margin": 0.14595479942409553,
       "fcf_margin": 0.31468160143711943,
-      "incr_op_margin_yoy": 0.1307474606497635,
-      "rev_growth_yoy": 0.15778704193646065,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18241261859863725
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.16922122567137945,
       "incr_op_margin_yoy": 0.04700922685332485,
       "rev_growth_yoy": 0.24218995819661077,
-      "rev_growth_yoy_accel": 0.08440291626015012,
       "op_leverage_ratio": 0.35298281725509184,
       "fcf_margin_change": -0.48390282710849886
     },
@@ -440,9 +420,43 @@
       "rev_growth_yoy": 0.24786586273387862,
       "rev_growth_yoy_accel": 0.018185702950374333,
       "fcf_margin_change": -0.18862497002269848
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 751213000,
+      "gross_profit": null,
+      "operating_income": 91562000,
+      "net_income": 7980000,
+      "opex": 659651000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 263246000,
+      "ocf": 263246000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.12188553712462377,
+      "fcf_margin": 0.3504279079302408,
+      "incr_op_margin_yoy": -0.20249988595410792,
+      "rev_growth_yoy": 0.13214795434713478,
+      "rev_growth_yoy_accel": -0.11571790838674384,
+      "fcf_margin_change": 0.12558538026242164
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +22.5% -> +35.0% (+12.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +13.2% vs prior quarter YoY: +24.8% (decel: -11.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -552,12 +566,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +24.2% vs prior quarter YoY: +15.8% (accel: +8.4%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +13.2% -> +31.5% (+18.2%)",
@@ -609,5 +617,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:32:28.294873"
+  "last_updated": "2026-02-24T10:45:53.793589"
 }

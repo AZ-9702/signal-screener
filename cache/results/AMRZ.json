@@ -1,6 +1,8 @@
 {
   "ticker": "AMRZ",
   "name": "Amrize Ltd",
+  "sector": "Basic Materials",
+  "industry": "Building Materials",
   "quarters": [
     {
       "date": "2024-06-30T00:00:00",
@@ -37,7 +39,26 @@
       "gross_margin": 0.3023795705165409,
       "op_margin": 0.24492164828787,
       "fcf_margin": 0.11665699361578642,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 2849000000,
+      "gross_profit": 777000000,
+      "operating_income": 537000000,
+      "net_income": 291000000,
+      "opex": 240000000,
+      "cogs": 2072000000,
+      "rd": null,
+      "sga": 262000000,
+      "fcf": 1643000000,
+      "ocf": 1727000000,
+      "capex": -84000000,
+      "gross_margin": 0.2727272727272727,
+      "op_margin": 0.18848718848718848,
+      "fcf_margin": 0.5766935766935767,
+      "fcf_margin_change": 0.4600365830777903
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -57,7 +78,8 @@
       "op_margin": 0.2077639751552795,
       "fcf_margin": null,
       "incr_op_margin_yoy": 3.6956521739130435,
-      "rev_growth_yoy": -0.0070921985815602835
+      "rev_growth_yoy": -0.0070921985815602835,
+      "op_leverage_ratio": 0.5482994956679167
     },
     {
       "date": "2025-09-30T00:00:00",
@@ -80,9 +102,49 @@
       "rev_growth_yoy": 0.06645385954730122,
       "rev_growth_yoy_accel": 0.0735460581288615,
       "op_leverage_ratio": 3.8152173913043477
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2839000000,
+      "gross_profit": 760000000,
+      "operating_income": 475000000,
+      "net_income": 298000000,
+      "opex": 285000000,
+      "cogs": 2079000000,
+      "rd": null,
+      "sga": 278000000,
+      "fcf": 1647000000,
+      "ocf": 1804000000,
+      "capex": -157000000,
+      "gross_margin": 0.2676998943289891,
+      "op_margin": 0.16731243395561818,
+      "fcf_margin": 0.5801338499471645,
+      "incr_op_margin_yoy": 6.2,
+      "rev_growth_yoy": -0.00351000351000351,
+      "rev_growth_yoy_accel": -0.06996386305730473,
+      "fcf_margin_change": 0.398093033620634
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +18.2% -> +58.0% (+39.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.4% vs prior quarter YoY: +6.6% (decel: -7.0%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +620.0% vs year-ago OPM: +18.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -97,46 +159,56 @@
     },
     {
       "quarter": "2025-06 (Q2)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +30.2% -> +27.3% -> +30.0% (reversal +2.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-06 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +369.6% vs year-ago OPM: +23.3%",
       "severity": "HIGH"
+    },
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.7% -> +57.7% (+46.0%)",
+      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
-    "n_quarters": 4,
+    "n_quarters": 6,
     "coverage": {
       "revenue": [
-        4,
-        4
+        6,
+        6
       ],
       "gross_profit": [
-        4,
-        4
+        6,
+        6
       ],
       "op_income": [
-        4,
-        4
+        6,
+        6
       ],
       "fcf": [
-        2,
-        4
+        4,
+        6
       ]
     },
     "gaps": [
       [
-        "2024-09 (Q3)",
+        "2024-12 (Q4)",
         "2025-06 (Q2)",
-        273
+        181
       ]
     ],
     "warnings": [
-      "fcf: 2/4Q",
-      "gap: 2Q missing between 2024-09 (Q3) and 2025-06 (Q2)"
+      "fcf: 4/6Q",
+      "gap: 1Q missing between 2024-12 (Q4) and 2025-06 (Q2)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:05.680892",
-  "sector": "Basic Materials",
-  "industry": "Building Materials"
+  "last_updated": "2026-02-24T10:30:38.417187"
 }

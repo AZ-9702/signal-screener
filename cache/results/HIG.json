@@ -1,25 +1,9 @@
 {
   "ticker": "HIG",
   "name": "The Hartford Insurance Group, Inc.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5328000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 537000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 1086000000,
-      "fcf": 1180000000,
-      "ocf": 1216000000,
-      "capex": -36000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.22147147147147148
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -23000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.13889413096810718,
-      "fcf_margin_change": -0.0825773405033643
+      "fcf_margin": 0.13889413096810718
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.1999656121045392,
-      "rev_growth_yoy": 0.0915915915915916,
       "fcf_margin_change": -0.01934497530312876
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.07379936955312442,
       "rev_growth_yoy": 0.01773919607473108,
-      "rev_growth_yoy_accel": -0.07385239551686051,
       "fcf_margin_change": -0.1261662425514148
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.07124870389571915,
       "rev_growth_yoy_accel": -0.005994589351274379,
       "fcf_margin_change": 0.0688790837535195
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7339000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1131000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 1481000000,
+      "fcf": 1762000000,
+      "ocf": 1808000000,
+      "capex": -46000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.24008720534132716,
+      "rev_growth_yoy": 0.06687018461985754,
+      "rev_growth_yoy_accel": -0.004378519275861609,
+      "fcf_margin_change": -0.007838679614425054
     }
   ],
   "signals": [
@@ -463,12 +465,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +1.8% vs prior quarter YoY: +9.2% (decel: -7.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +14.6% -> +21.9% (+7.4%)",
@@ -503,7 +499,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:05:30.626970",
-  "sector": "Financial Services",
-  "industry": "Insurance - Diversified"
+  "last_updated": "2026-02-24T10:14:30.848362"
 }

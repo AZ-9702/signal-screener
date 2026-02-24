@@ -1,25 +1,9 @@
 {
   "ticker": "DTM",
   "name": "DT Midstream, Inc.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Midstream",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 208000000,
-      "gross_profit": null,
-      "operating_income": 94000000,
-      "net_income": 69000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 65000000,
-      "ocf": 143000000,
-      "capex": -78000000,
-      "gross_margin": null,
-      "op_margin": 0.4519230769230769,
-      "fcf_margin": 0.3125
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -27000000,
       "gross_margin": null,
       "op_margin": 0.5076142131979695,
-      "fcf_margin": 0.6903553299492385,
-      "fcf_margin_change": 0.37785532994923854
+      "fcf_margin": 0.6903553299492385
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.49327354260089684,
       "fcf_margin": 0.28699551569506726,
-      "incr_op_margin_yoy": 1.0666666666666667,
-      "rev_growth_yoy": 0.07211538461538461,
       "fcf_margin_change": -0.18470259751247992
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.9953488372093023,
       "incr_op_margin_yoy": 0.2222222222222222,
       "rev_growth_yoy": 0.09137055837563451,
-      "rev_growth_yoy_accel": 0.019255173760249905,
       "fcf_margin_change": 0.708353321514235
     },
     {
@@ -425,9 +405,37 @@
       "rev_growth_yoy": 0.2661290322580645,
       "rev_growth_yoy_accel": -0.00026441036488633607,
       "fcf_margin_change": 0.08062787294127349
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 317000000,
+      "gross_profit": null,
+      "operating_income": 156000000,
+      "net_income": 111000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 30000000,
+      "ocf": 161000000,
+      "capex": -131000000,
+      "gross_margin": null,
+      "op_margin": 0.4921135646687697,
+      "fcf_margin": 0.0946372239747634,
+      "incr_op_margin_yoy": 0.6323529411764706,
+      "rev_growth_yoy": 0.27309236947791166,
+      "rev_growth_yoy_accel": 0.006963337219847154,
+      "fcf_margin_change": -0.322560228254536
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +63.2% vs year-ago OPM: +45.4%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -523,18 +531,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +28.7% -> +99.5% (+70.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +106.7% vs year-ago OPM: +45.2%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +31.2% -> +69.0% (+37.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -564,7 +560,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:32:04.662628",
-  "sector": "Energy",
-  "industry": "Oil & Gas Midstream"
+  "last_updated": "2026-02-24T10:22:23.103113"
 }

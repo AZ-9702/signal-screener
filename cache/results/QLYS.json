@@ -1,25 +1,9 @@
 {
   "ticker": "QLYS",
   "name": "QUALYS, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 94801000,
-      "gross_profit": 73580000,
-      "operating_income": 24412000,
-      "net_income": 23816000,
-      "opex": 49168000,
-      "cogs": 21221000,
-      "rd": 18643000,
-      "sga": null,
-      "fcf": 31494000,
-      "ocf": 38789000,
-      "capex": -7295000,
-      "gross_margin": 0.7761521502937733,
-      "op_margin": 0.25750783219586293,
-      "fcf_margin": 0.3322116855307434
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6259000,
       "gross_margin": 0.7759312084005127,
       "op_margin": -0.02795692256810947,
-      "fcf_margin": 0.5332485840671379,
-      "op_leverage_ratio": 0.03543667710066804,
-      "fcf_margin_change": 0.20103689853639456
+      "fcf_margin": 0.5332485840671379
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.7838358307757116,
       "op_margin": 0.2944976028565124,
       "fcf_margin": 0.47876672484002325,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05448185922711468
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.7838586263435963,
       "op_margin": 0.2646110402623429,
       "fcf_margin": 0.32373838586263437,
-      "incr_op_margin_yoy": 0.30956672675078445,
-      "rev_growth_yoy": 0.15800466239807598,
       "op_leverage_ratio": 0.3572636286541579,
       "fcf_margin_change": -0.07006152646320857
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.6295274202080762,
       "incr_op_margin_yoy": 2.1747479596735477,
       "rev_growth_yoy": 0.17222704535119268,
-      "rev_growth_yoy_accel": 0.014222382953116702,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3057890343454418
     },
     {
@@ -236,7 +215,7 @@
       "incr_op_margin_yoy": 0.567914067914068,
       "rev_growth_yoy": 0.14442878233091172,
       "rev_growth_yoy_accel": -0.007775414459777752,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11525399205969211
     },
     {
@@ -441,11 +420,40 @@
       "incr_op_margin_yoy": 0.9366843584139869,
       "rev_growth_yoy": 0.10408339669974719,
       "rev_growth_yoy_accel": 0.0008340758831132389,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3289699248106672
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 175282000,
+      "gross_profit": 146115000,
+      "operating_income": 58835000,
+      "net_income": 53150000,
+      "opex": 87280000,
+      "cogs": 29167000,
+      "rd": 28954000,
+      "sga": null,
+      "fcf": 74935000,
+      "ocf": 75659000,
+      "capex": -724000,
+      "gross_margin": 0.8335995709770542,
+      "op_margin": 0.3356591093209799,
+      "fcf_margin": 0.4275110964046508,
+      "incr_op_margin_yoy": 0.5855447144366416,
+      "rev_growth_yoy": 0.10107983491529043,
+      "rev_growth_yoy_accel": -0.0030035617844567514,
+      "op_leverage_ratio": 0.5068172401032868,
+      "fcf_margin_change": -0.09921333584832481
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +58.6% vs year-ago OPM: +31.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -565,12 +573,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -2.8% -> +29.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +33.2% -> +53.3% (+20.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -598,5 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:06:04.921606"
+  "last_updated": "2026-02-24T10:17:11.305452"
 }

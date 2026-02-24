@@ -1,25 +1,9 @@
 {
   "ticker": "PPG",
   "name": "PPG INDUSTRIES, INC.",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3757000000,
-      "gross_profit": 1617000000,
-      "operating_income": 581000000,
-      "net_income": 272000000,
-      "opex": 1036000000,
-      "cogs": 2140000000,
-      "rd": null,
-      "sga": 882000000,
-      "fcf": 832000000,
-      "ocf": 966000000,
-      "capex": -134000000,
-      "gross_margin": 0.4303965930263508,
-      "op_margin": 0.15464466329518234,
-      "fcf_margin": 0.22145328719723184
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -80000000,
       "gross_margin": 0.4248904921412007,
       "op_margin": 0.16258696212316412,
-      "fcf_margin": -0.026539551661942797,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.24799283885917464
+      "fcf_margin": -0.026539551661942797
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3575178997613365,
       "op_margin": 0.08305489260143198,
       "fcf_margin": 0.07279236276849642,
-      "incr_op_margin_yoy": -0.5381062355658198,
-      "rev_growth_yoy": 0.11525153047644397,
       "fcf_margin_change": -0.02944917428548345
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.11559888579387187,
       "incr_op_margin_yoy": -0.4028103044496487,
       "rev_growth_yoy": 0.11002318989951043,
-      "rev_growth_yoy_accel": -0.005228340576933541,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.18839124856236827
     },
     {
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": -0.12650602409638553,
       "rev_growth_yoy": 0.07616425785730672,
       "rev_growth_yoy_accel": -0.03385893204220371,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13648995379642997
     },
     {
@@ -434,9 +413,36 @@
       "rev_growth_yoy": -0.10775956284153006,
       "rev_growth_yoy_accel": 0.017188288639487875,
       "fcf_margin_change": 0.06838931814372701
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3914000000,
+      "gross_profit": 1598000000,
+      "operating_income": null,
+      "net_income": 300000000,
+      "opex": null,
+      "cogs": 2316000000,
+      "rd": null,
+      "sga": 905000000,
+      "fcf": 586000000,
+      "ocf": 887000000,
+      "capex": -301000000,
+      "gross_margin": 0.40827797649463465,
+      "op_margin": null,
+      "fcf_margin": 0.14971895758814513,
+      "rev_growth_yoy": 0.8078521939953811,
+      "rev_growth_yoy_accel": 0.9156117568369112,
+      "fcf_margin_change": 0.017920819420580214
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +80.8% vs prior quarter YoY: -10.8% (accel: +91.6%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -594,7 +600,7 @@
         20
       ],
       "op_income": [
-        19,
+        18,
         20
       ],
       "fcf": [
@@ -607,5 +613,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:13:23.983392"
+  "last_updated": "2026-02-24T10:19:10.788445"
 }

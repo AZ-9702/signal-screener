@@ -1,25 +1,9 @@
 {
   "ticker": "GTX",
   "name": "Garrett Motion Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1008000000,
-      "gross_profit": 178000000,
-      "operating_income": null,
-      "net_income": 26000000,
-      "opex": null,
-      "cogs": 830000000,
-      "rd": null,
-      "sga": 62000000,
-      "fcf": 160000000,
-      "ocf": 161000000,
-      "capex": -1000000,
-      "gross_margin": 0.1765873015873016,
-      "op_margin": null,
-      "fcf_margin": 0.15873015873015872
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -18000000,
       "gross_margin": 0.19658976930792377,
       "op_margin": null,
-      "fcf_margin": 0.014042126379137413,
-      "fcf_margin_change": -0.14468803235102132
+      "fcf_margin": 0.014042126379137413
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.17981438515081208,
       "op_margin": null,
       "fcf_margin": 0.16009280742459397,
-      "rev_growth_yoy": -0.14484126984126985,
       "fcf_margin_change": 0.2661714725020672
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.048834628190899,
       "rev_growth_yoy": -0.09628886659979939,
-      "rev_growth_yoy_accel": 0.04855240324147046,
       "fcf_margin_change": -0.11125817923369496
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.09200968523002422,
       "rev_growth_yoy_accel": 0.06616698860081073,
       "fcf_margin_change": -0.056848235514118564
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 891000000,
+      "gross_profit": 185000000,
+      "operating_income": null,
+      "net_income": 84000000,
+      "opex": null,
+      "cogs": 706000000,
+      "rd": null,
+      "sga": 65000000,
+      "fcf": 78000000,
+      "ocf": 99000000,
+      "capex": -21000000,
+      "gross_margin": 0.20763187429854096,
+      "op_margin": null,
+      "fcf_margin": 0.08754208754208755,
+      "rev_growth_yoy": 0.05568720379146919,
+      "rev_growth_yoy_accel": -0.03632248143855502,
+      "fcf_margin_change": -0.01223618296789028
     }
   ],
   "signals": [
@@ -544,7 +546,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:15:42.091105",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:25:13.373660"
 }

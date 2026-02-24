@@ -1,25 +1,9 @@
 {
   "ticker": "DEA",
   "name": "EASTERLY GOVERNMENT PROPERTIES, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 65203000,
-      "gross_profit": 51259000,
-      "operating_income": null,
-      "net_income": 2334000,
-      "opex": 49637000,
-      "cogs": 13944000,
-      "rd": null,
-      "sga": null,
-      "fcf": 36572000,
-      "ocf": 36572000,
-      "capex": null,
-      "gross_margin": 0.7861448092879162,
-      "op_margin": null,
-      "fcf_margin": 0.5608944373725135
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.813941323979631,
       "op_margin": null,
-      "fcf_margin": 0.40017845879294167,
-      "fcf_margin_change": -0.16071597857957187
+      "fcf_margin": 0.40017845879294167
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": 0.7890056814216118,
       "op_margin": null,
       "fcf_margin": 0.3334170889344892,
-      "rev_growth_yoy": 0.09867644126803982,
       "op_leverage_ratio": 1.2182104719825602,
       "fcf_margin_change": -0.20879070327330307
     },
@@ -118,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.3334900832618738,
       "rev_growth_yoy": 0.11232134890232458,
-      "rev_growth_yoy_accel": 0.013644907634284761,
       "fcf_margin_change": 7.299432738461231e-05
     },
     {
@@ -419,6 +400,28 @@
       "rev_growth_yoy_accel": 0.046915460496166114,
       "op_leverage_ratio": 0.7089047775801672,
       "fcf_margin_change": 1.3463183093984097
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 87039000,
+      "gross_profit": 67267000,
+      "operating_income": null,
+      "net_income": 4592000,
+      "opex": 65749000,
+      "cogs": 19772000,
+      "rd": null,
+      "sga": null,
+      "fcf": 41931000,
+      "ocf": 41931000,
+      "capex": null,
+      "gross_margin": 0.772837463665713,
+      "op_margin": null,
+      "fcf_margin": 0.4817495605418261,
+      "rev_growth_yoy": 0.11231948881789137,
+      "rev_growth_yoy_accel": -0.0397244795698007,
+      "op_leverage_ratio": 0.7677714193143454,
+      "fcf_margin_change": -1.3170107556471908
     }
   ],
   "signals": [
@@ -504,7 +507,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:55:55.682468",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-24T10:06:27.301584"
 }

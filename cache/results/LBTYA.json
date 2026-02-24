@@ -1,25 +1,9 @@
 {
   "ticker": "LBTYA",
   "name": "Liberty Global Ltd.",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3311700000,
-      "gross_profit": 2265100000,
-      "operating_income": 624800000,
-      "net_income": -1030500000,
-      "opex": 2778700000,
-      "cogs": 1046600000,
-      "rd": null,
-      "sga": 653000000,
-      "fcf": 1493500000,
-      "ocf": 1493500000,
-      "capex": null,
-      "gross_margin": 0.6839689585409306,
-      "op_margin": 0.18866443216474924,
-      "fcf_margin": 0.4509768396895854
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.6928055763007219,
       "op_margin": 0.1729593671341244,
-      "fcf_margin": 0.2271457417088485,
-      "op_leverage_ratio": 1.2055714183250907,
-      "fcf_margin_change": -0.22383109798073691
+      "fcf_margin": 0.2271457417088485
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.702259475218659,
       "op_margin": 0.04211786755518534,
       "fcf_margin": 0.5160870470637234,
-      "incr_op_margin_yoy": 0.3910417715148465,
-      "rev_growth_yoy": -0.41999577256394,
       "op_leverage_ratio": 0.4650505357145234,
       "fcf_margin_change": 0.19390339291414943
     },
@@ -119,7 +99,6 @@
       "fcf_margin": 0.35434090541196783,
       "incr_op_margin_yoy": 0.3215096481271283,
       "rev_growth_yoy": -0.487373108732332,
-      "rev_growth_yoy_accel": -0.06737733616839203,
       "fcf_margin_change": -0.1617461416517556
     },
     {
@@ -209,7 +188,7 @@
       "incr_op_margin_yoy": -1.4172185430463575,
       "rev_growth_yoy": 0.008147628554470404,
       "rev_growth_yoy_accel": 0.049224263289997267,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.31476497471980897
     },
     {
@@ -298,7 +277,7 @@
       "incr_op_margin_yoy": -0.19295958279009126,
       "rev_growth_yoy": 0.041051166773710124,
       "rev_growth_yoy_accel": 0.4851577957980871,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.6932938771785764
     },
     {
@@ -343,7 +322,7 @@
       "incr_op_margin_yoy": 1.5947955390334572,
       "rev_growth_yoy": 0.04351577244540308,
       "rev_growth_yoy_accel": 0.029608846038476667,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.059179675309344426
     },
     {
@@ -388,7 +367,7 @@
       "incr_op_margin_yoy": -0.04923116681741827,
       "rev_growth_yoy": -0.39787157472623513,
       "rev_growth_yoy_accel": -0.49485370188709066,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5944578721218066
     },
     {
@@ -435,9 +414,44 @@
       "rev_growth_yoy": -0.37624018189334435,
       "rev_growth_yoy_accel": -0.05356312580112038,
       "fcf_margin_change": 0.13245708302675668
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1231100000,
+      "gross_profit": 822200000,
+      "operating_income": -105600000,
+      "net_income": -2917200000,
+      "opex": 1336700000,
+      "cogs": 408900000,
+      "rd": null,
+      "sga": 329700000,
+      "fcf": 630900000,
+      "ocf": 630900000,
+      "capex": null,
+      "gross_margin": 0.6678580131589635,
+      "op_margin": -0.08577694744537405,
+      "fcf_margin": 0.5124685240841523,
+      "incr_op_margin_yoy": -0.5319740500463392,
+      "rev_growth_yoy": 0.09606481481481481,
+      "rev_growth_yoy_accel": 0.4723049967081592,
+      "op_leverage_ratio": 0.19867647122943638,
+      "fcf_margin_change": 0.26244781328968625
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +25.0% -> +51.2% (+26.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +9.6% vs prior quarter YoY: -37.6% (accel: +47.2%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -578,12 +592,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -48.7% vs prior quarter YoY: -42.0% (decel: -6.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +32.2% vs year-ago OPM: +17.3%",
       "severity": "MEDIUM"
@@ -593,12 +601,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +32.2% -> +51.6% (+19.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +39.1% vs year-ago OPM: +18.9%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-06 (Q2)",
@@ -632,7 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:16:01.155705",
-  "sector": "Communication Services",
-  "industry": "Telecom Services"
+  "last_updated": "2026-02-24T10:30:16.493654"
 }

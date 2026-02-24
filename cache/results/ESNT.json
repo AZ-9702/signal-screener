@@ -1,25 +1,9 @@
 {
   "ticker": "ESNT",
   "name": "ESSENT GROUP LTD.",
+  "sector": "Financial Services",
+  "industry": "Insurance - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 247199000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 123602000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 178333000,
-      "ocf": 179425000,
-      "capex": -1092000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.7214147306421143
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -574000,
       "gross_margin": null,
       "op_margin": -0.3129613516505513,
-      "fcf_margin": 0.7647029988112599,
-      "fcf_margin_change": 0.04328826816914566
+      "fcf_margin": 0.7647029988112599
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.7406545329991125,
-      "rev_growth_yoy": 0.03930841144179386,
       "fcf_margin_change": 0.11483629475070667
     },
     {
@@ -116,7 +98,6 @@
       "fcf_margin": 0.6799150451039451,
       "incr_op_margin_yoy": 7.088321388916928,
       "rev_growth_yoy": 0.08094053440197388,
-      "rev_growth_yoy_accel": 0.04163212296018002,
       "fcf_margin_change": -0.06073948789516748
     },
     {
@@ -412,9 +393,36 @@
       "rev_growth_yoy": -0.014997883617939339,
       "rev_growth_yoy_accel": -0.03481305703665591,
       "fcf_margin_change": 0.08378649162225771
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 312404000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 154982000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 227952000,
+      "ocf": 229092000,
+      "capex": -1140000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.7296705547944329,
+      "rev_growth_yoy": -0.008326270446660127,
+      "rev_growth_yoy_accel": 0.006671613171279211,
+      "fcf_margin_change": 0.05431539332824942
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +67.5% -> +73.0% (+5.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -534,7 +542,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:55:31.838895",
-  "sector": "Financial Services",
-  "industry": "Insurance - Specialty"
+  "last_updated": "2026-02-24T10:30:12.518724"
 }

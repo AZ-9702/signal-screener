@@ -1,25 +1,9 @@
 {
   "ticker": "PANW",
-  "name": "Palo Alto Networks Inc",
+  "name": "PALO ALTO NETWORKS, INC",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2021-01-31T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 1016900000,
-      "gross_profit": 709300000,
-      "operating_income": -88800000,
-      "net_income": -142300000,
-      "opex": 798100000,
-      "cogs": 307600000,
-      "rd": 266700000,
-      "sga": null,
-      "fcf": 364500000,
-      "ocf": 364500000,
-      "capex": null,
-      "gross_margin": 0.6975120464155767,
-      "op_margin": -0.08732422067066575,
-      "fcf_margin": 0.3584423247123611
-    },
     {
       "date": "2021-04-30T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.6921501070863209,
       "op_margin": -0.10280286805102896,
-      "fcf_margin": 0.2586833038457957,
-      "op_leverage_ratio": 0.8045983313653925,
-      "fcf_margin_change": -0.0997590208665654
+      "fcf_margin": 0.2586833038457957
     },
     {
       "date": "2021-07-31T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6922317563976004,
       "op_margin": -0.05611663755790113,
       "fcf_margin": 0.3664667021034247,
-      "incr_op_margin_yoy": 0.049666666666666665,
-      "rev_growth_yoy": 0.29501425902251943,
       "op_leverage_ratio": 1.4695065736732402,
       "fcf_margin_change": -0.10563526999854739
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.28088267108963727,
       "incr_op_margin_yoy": 0.20076726342711,
       "rev_growth_yoy": 0.29127479281124874,
-      "rev_growth_yoy_accel": -0.0037394662112706922,
       "op_leverage_ratio": 6.293339505794458,
       "fcf_margin_change": -0.08558403101378742
     },
@@ -362,17 +341,17 @@
       "cogs": 599200000,
       "rd": 505700000,
       "sga": null,
-      "fcf": 556500000,
-      "ocf": 556500000,
+      "fcf": 557000000,
+      "ocf": 557000000,
       "capex": null,
       "gross_margin": 0.734561885354833,
       "op_margin": 0.10649419686364844,
-      "fcf_margin": 0.2465225480641446,
+      "fcf_margin": 0.24674404181802073,
       "incr_op_margin_yoy": 0.6617074034714843,
       "rev_growth_yoy": 0.14292947192547212,
       "rev_growth_yoy_accel": 0.004118971952094763,
       "op_leverage_ratio": 0.6019008252056446,
-      "fcf_margin_change": -0.45948081830952286
+      "fcf_margin_change": -0.4592593245556467
     },
     {
       "date": "2025-04-30T00:00:00",
@@ -385,17 +364,17 @@
       "cogs": 619300000,
       "rd": 494500000,
       "sga": null,
-      "fcf": 628700000,
-      "ocf": 628700000,
+      "fcf": 628200000,
+      "ocf": 628200000,
       "capex": null,
       "gross_margin": 0.7294451725644386,
       "op_margin": 0.09558759283529926,
-      "fcf_margin": 0.2746614242027086,
+      "fcf_margin": 0.2744429882044561,
       "incr_op_margin_yoy": 0.1383957922419461,
       "rev_growth_yoy": 0.15326481257557437,
       "rev_growth_yoy_accel": 0.010335340650102248,
       "op_leverage_ratio": 0.5996054065353907,
-      "fcf_margin_change": 0.02813887613856403
+      "fcf_margin_change": 0.027698946386435386
     },
     {
       "date": "2025-07-31T00:00:00",
@@ -417,8 +396,8 @@
       "incr_op_margin_yoy": 0.7462514417531718,
       "rev_growth_yoy": 0.1583923270153003,
       "rev_growth_yoy_accel": 0.005127514439725922,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.12781462358343654
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.12803305958168903
     },
     {
       "date": "2025-10-31T00:00:00",
@@ -441,9 +420,38 @@
       "rev_growth_yoy": 0.15672339629698898,
       "rev_growth_yoy_accel": -0.0016689307183113122,
       "fcf_margin_change": 0.313368737985884
+    },
+    {
+      "date": "2026-01-31T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 2594000000,
+      "gross_profit": 1909000000,
+      "operating_income": 397000000,
+      "net_income": 432000000,
+      "opex": 1512000000,
+      "cogs": 685000000,
+      "rd": 511000000,
+      "sga": null,
+      "fcf": 554000000,
+      "ocf": 554000000,
+      "capex": null,
+      "gross_margin": 0.735929067077872,
+      "op_margin": 0.1530454895913647,
+      "fcf_margin": 0.2135697764070933,
+      "incr_op_margin_yoy": 0.46524064171123,
+      "rev_growth_yoy": 0.1491095951094179,
+      "rev_growth_yoy_accel": -0.007613801187571073,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.5022750093649359
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +46.5% vs year-ago OPM: +10.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
@@ -453,7 +461,7 @@
     {
       "quarter": "2025-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +27.5% -> +40.2% (+12.8%)",
+      "detail": "FCF margin: +27.4% -> +40.2% (+12.8%)",
       "severity": "MEDIUM"
     },
     {
@@ -620,5 +628,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:48:18.998301"
+  "last_updated": "2026-02-24T10:31:55.749255"
 }

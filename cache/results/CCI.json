@@ -1,25 +1,9 @@
 {
   "ticker": "CCI",
-  "name": "Crown Castle Inc",
+  "name": "CROWN CASTLE INC",
+  "sector": "Real Estate",
+  "industry": "REIT - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1493000000,
-      "gross_profit": -110000000,
-      "operating_income": 682000000,
-      "net_income": null,
-      "opex": 1173000000,
-      "cogs": 1603000000,
-      "rd": null,
-      "sga": 185000000,
-      "fcf": 985000000,
-      "ocf": 985000000,
-      "capex": null,
-      "gross_margin": -0.07367716008037509,
-      "op_margin": 0.45679839249832555,
-      "fcf_margin": 0.6597454789015406
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.9454545454545454,
       "op_margin": 0.30168350168350166,
-      "fcf_margin": 0.39326599326599326,
-      "fcf_margin_change": -0.2664794856355473
+      "fcf_margin": 0.39326599326599326
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.0012091898428053204,
       "op_margin": 0.3162031438935913,
       "fcf_margin": 0.4437726723095526,
-      "incr_op_margin_yoy": -0.9875776397515528,
-      "rev_growth_yoy": 0.10783657066309445,
       "op_leverage_ratio": 0.622991347342398,
       "fcf_margin_change": 0.021028543755782503
     },
@@ -120,8 +101,7 @@
       "fcf_margin": 0.3203214695752009,
       "incr_op_margin_yoy": 0.6614785992217899,
       "rev_growth_yoy": 0.17306397306397306,
-      "rev_growth_yoy_accel": 0.06522740240087861,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12345120273435167
     },
     {
@@ -264,7 +244,7 @@
       "revenue": 1674000000,
       "gross_profit": 7000000,
       "operating_income": 588000000,
-      "net_income": null,
+      "net_income": 363000000,
       "opex": 1086000000,
       "cogs": 1667000000,
       "rd": null,
@@ -344,7 +324,7 @@
       "incr_op_margin_yoy": -3.8666666666666667,
       "rev_growth_yoy": -0.008998200359928014,
       "rev_growth_yoy_accel": 0.12008589176647799,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04920123656442377
     },
     {
@@ -353,7 +333,7 @@
       "revenue": 1649000000,
       "gross_profit": -66000000,
       "operating_income": -4505000000,
-      "net_income": null,
+      "net_income": -4768000000,
       "opex": 6154000000,
       "cogs": 1715000000,
       "rd": null,
@@ -433,11 +413,45 @@
       "incr_op_margin_yoy": 0.032758620689655175,
       "rev_growth_yoy": -0.35108958837772397,
       "rev_growth_yoy_accel": -0.0029961074429146195,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1188608842579556
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1071000000,
+      "gross_profit": 1042000000,
+      "operating_income": 523000000,
+      "net_income": 294000000,
+      "opex": 548000000,
+      "cogs": 29000000,
+      "rd": null,
+      "sga": 94000000,
+      "fcf": 870000000,
+      "ocf": 870000000,
+      "capex": null,
+      "gross_margin": 0.972922502334267,
+      "op_margin": 0.488328664799253,
+      "fcf_margin": 0.8123249299719888,
+      "incr_op_margin_yoy": -8.698961937716263,
+      "rev_growth_yoy": -0.35051546391752575,
+      "rev_growth_yoy_accel": 0.000574124460198222,
+      "fcf_margin_change": 0.14628015385258586
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +66.6% -> +81.2% (+14.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -273.2% (year-ago) -> +48.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -596,12 +610,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +17.3% vs prior quarter YoY: +10.8% (accel: +6.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +66.1% vs year-ago OPM: +30.2%",
       "severity": "HIGH"
@@ -650,7 +658,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:04:25.725358",
-  "sector": "Real Estate",
-  "industry": "REIT - Specialty"
+  "last_updated": "2026-02-24T10:10:03.428962"
 }

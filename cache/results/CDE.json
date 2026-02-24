@@ -1,25 +1,9 @@
 {
   "ticker": "CDE",
   "name": "Coeur Mining, Inc.",
+  "sector": "Basic Materials",
+  "industry": "Gold",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 228317000,
-      "gross_profit": 74553000,
-      "operating_income": null,
-      "net_income": 11880000,
-      "opex": 189170000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 67289000,
-      "ocf": 67289000,
-      "capex": null,
-      "gross_margin": 0.3265328468751779,
-      "op_margin": null,
-      "fcf_margin": 0.29471743234187553
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.021566716307881078,
-      "fcf_margin_change": -0.3162841486497566
+      "fcf_margin": -0.021566716307881078
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.16805526158819342,
-      "rev_growth_yoy": -0.0894939930009592,
       "fcf_margin_change": 0.06301075976340223
     },
     {
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": -0.03411286384577822,
       "rev_growth_yoy": -0.06784684118604571,
-      "rev_growth_yoy_accel": 0.021647151814913487,
       "fcf_margin_change": -0.20216812543397164
     },
     {
@@ -181,7 +162,7 @@
       "fcf_margin": 0.1357155095280702,
       "rev_growth_yoy": 0.01073675703757865,
       "rev_growth_yoy_accel": 0.13083157886198518,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.24018398646434647
     },
     {
@@ -310,7 +291,7 @@
       "fcf_margin": 0.06868114545143361,
       "rev_growth_yoy": 0.252720963692273,
       "rev_growth_yoy_accel": 0.11517544799002308,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14317189922971202
     },
     {
@@ -424,9 +405,50 @@
       "rev_growth_yoy_accel": -0.3957473700033167,
       "op_leverage_ratio": 1.4177925532950006,
       "fcf_margin_change": -0.0019313496167734368
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 674847000,
+      "gross_profit": null,
+      "operating_income": 327662000,
+      "net_income": 214969000,
+      "opex": 347185000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 374587000,
+      "ocf": 374587000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.4855352398395488,
+      "fcf_margin": 0.5550695194614483,
+      "incr_op_margin_yoy": 0.7070895471883011,
+      "rev_growth_yoy": 1.2093968125090033,
+      "rev_growth_yoy_accel": 0.44030763183807475,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.12643600899292062
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +42.9% -> +55.5% (+12.6%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +120.9% vs prior quarter YoY: +76.9% (accel: +44.0%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +70.7% vs year-ago OPM: +21.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -598,11 +620,11 @@
         20
       ],
       "gross_profit": [
-        1,
+        0,
         20
       ],
       "op_income": [
-        7,
+        8,
         20
       ],
       "fcf": [
@@ -612,13 +634,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 1/20Q",
-      "op_income: 7/20Q"
+      "gross_profit: no data",
+      "op_income: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:23:32.470391",
-  "sector": "Basic Materials",
-  "industry": "Gold"
+  "last_updated": "2026-02-24T10:29:05.369273"
 }

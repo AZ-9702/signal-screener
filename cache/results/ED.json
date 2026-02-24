@@ -1,25 +1,9 @@
 {
   "ticker": "ED",
   "name": "Consolidated Edison, Inc.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2960000000,
-      "gross_profit": null,
-      "operating_income": 507000000,
-      "net_income": 43000000,
-      "opex": 2453000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 830000000,
-      "ocf": 830000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.17128378378378378,
-      "fcf_margin": 0.28040540540540543
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.23388632036986673,
-      "fcf_margin": 0.0785966820777808,
-      "op_leverage_ratio": 1.6323888105138105,
-      "fcf_margin_change": -0.20180872332762462
+      "fcf_margin": 0.0785966820777808
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.204099560761347,
       "fcf_margin": 0.29897510980966324,
-      "incr_op_margin_yoy": 0.4175824175824176,
-      "rev_growth_yoy": 0.15371621621621623,
       "fcf_margin_change": 0.21068283192424947
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.1165024630541872,
       "incr_op_margin_yoy": -0.15926892950391644,
       "rev_growth_yoy": 0.10416100081588252,
-      "rev_growth_yoy_accel": -0.04955521540033371,
       "op_leverage_ratio": 0.9454065990956376,
       "fcf_margin_change": -0.18247264675547603
     },
@@ -437,9 +416,37 @@
       "rev_growth_yoy_accel": -0.009421504162037117,
       "op_leverage_ratio": 2.616988743855769,
       "fcf_margin_change": -0.4392285090587553
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3994000000,
+      "gross_profit": null,
+      "operating_income": 487000000,
+      "net_income": 297000000,
+      "opex": 3511000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 1480000000,
+      "ocf": 1480000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.12193289934902353,
+      "fcf_margin": 0.37055583375062595,
+      "incr_op_margin_yoy": 0.03076923076923077,
+      "rev_growth_yoy": 0.08857999454892342,
+      "rev_growth_yoy_accel": -0.01845812861823201,
+      "fcf_margin_change": 0.2592975556049306
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.1% -> +37.1% (+25.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -603,12 +610,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +41.8% vs year-ago OPM: +17.1%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +21.6% vs OpEx growth +8.2% (leverage: 2.6x)",
@@ -618,12 +619,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +7.9% -> +37.2% (+29.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +24.2% vs OpEx growth +14.8% (leverage: 1.6x)",
       "severity": "MEDIUM"
     }
   ],
@@ -654,7 +649,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:04:18.202198",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:19:42.100676"
 }

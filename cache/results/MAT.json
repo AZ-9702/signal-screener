@@ -1,25 +1,9 @@
 {
   "ticker": "MAT",
   "name": "MATTEL INC /DE/",
+  "sector": "Consumer Cyclical",
+  "industry": "Leisure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1625763000,
-      "gross_profit": 835179000,
-      "operating_income": 192680000,
-      "net_income": 130547000,
-      "opex": 642499000,
-      "cogs": 790584000,
-      "rd": 52885000,
-      "sga": null,
-      "fcf": 727706000,
-      "ocf": 727706000,
-      "capex": null,
-      "gross_margin": 0.5137150986951973,
-      "op_margin": 0.11851665956231013,
-      "fcf_margin": 0.44760890732536046
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.46786518293464135,
       "op_margin": 0.03550478613393854,
-      "fcf_margin": -0.04086516463202591,
-      "fcf_margin_change": -0.48847407195738635
+      "fcf_margin": -0.04086516463202591
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.49266584581784956,
       "op_margin": 0.1434494592983414,
       "fcf_margin": 0.41302753929210145,
-      "incr_op_margin_yoy": 0.3831203769948027,
-      "rev_growth_yoy": 0.10402930808488076,
       "op_leverage_ratio": 0.04838876036845886,
       "fcf_margin_change": 0.42125886064445317
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.1380926360389551,
       "incr_op_margin_yoy": 0.2933953287973718,
       "rev_growth_yoy": 0.1911582352618189,
-      "rev_growth_yoy_accel": 0.08712892717693815,
       "fcf_margin_change": -0.5511201753310566
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 0.41949731691387865,
       "rev_growth_yoy": -0.12019467713102104,
       "rev_growth_yoy_accel": 0.09753487465083648,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14371387837027108
     },
     {
@@ -413,7 +393,7 @@
       "incr_op_margin_yoy": 0.07697086616747867,
       "rev_growth_yoy": -0.056649452454692294,
       "rev_growth_yoy_accel": -0.07779933608771383,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.32463168957640487
     },
     {
@@ -438,9 +418,44 @@
       "rev_growth_yoy_accel": -0.0018850482568414928,
       "op_leverage_ratio": 6.4696513039052235,
       "fcf_margin_change": 0.3360708522268991
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1766460000,
+      "gross_profit": 810358000,
+      "operating_income": 141056000,
+      "net_income": 106194000,
+      "opex": 669302000,
+      "cogs": 956102000,
+      "rd": 76712000,
+      "sga": null,
+      "fcf": 796554000,
+      "ocf": 796554000,
+      "capex": null,
+      "gross_margin": 0.4587468722756247,
+      "op_margin": 0.07985236008740645,
+      "fcf_margin": 0.4509323732210183,
+      "incr_op_margin_yoy": -0.14323435092249387,
+      "rev_growth_yoy": 0.07291948214442984,
+      "rev_growth_yoy_accel": 0.13145398285596363,
+      "op_leverage_ratio": 0.047416378014377966,
+      "fcf_margin_change": 0.4094749073171904
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +4.1% -> +45.1% (+40.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +7.3% vs prior quarter YoY: -5.9% (accel: +13.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -647,12 +662,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +19.1% vs prior quarter YoY: +10.4% (accel: +8.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +29.3% vs year-ago OPM: +3.6%",
       "severity": "HIGH"
@@ -661,12 +670,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -0.8% -> +41.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +38.3% vs year-ago OPM: +11.9%",
       "severity": "HIGH"
     },
     {
@@ -707,7 +710,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:42.116210",
-  "sector": "Consumer Cyclical",
-  "industry": "Leisure"
+  "last_updated": "2026-02-24T10:08:17.357544"
 }

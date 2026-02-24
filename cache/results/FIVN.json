@@ -1,25 +1,9 @@
 {
   "ticker": "FIVN",
   "name": "FIVE9, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 127885000,
-      "gross_profit": 76652000,
-      "operating_income": 2665000,
-      "net_income": -7210000,
-      "opex": 73987000,
-      "cogs": 51233000,
-      "rd": 18676000,
-      "sga": null,
-      "fcf": 9302000,
-      "ocf": 19312000,
-      "capex": -10010000,
-      "gross_margin": 0.5993822574969699,
-      "op_margin": 0.020839035070571218,
-      "fcf_margin": 0.07273722485045157
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -8229000,
       "gross_margin": 0.5662740604284823,
       "op_margin": -0.08040208294048534,
-      "fcf_margin": 0.04015027342220159,
-      "op_leverage_ratio": 0.38105788605855234,
-      "fcf_margin_change": -0.03258695142824998
+      "fcf_margin": 0.04015027342220159
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,9 +79,7 @@
       "gross_margin": 0.5405273071849492,
       "op_margin": -0.06900385370883473,
       "fcf_margin": -0.029314684992425073,
-      "incr_op_margin_yoy": -0.3203395021218883,
-      "rev_growth_yoy": 0.35746178206982837,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.060163569115708256
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": 0.089321960640562,
       "incr_op_margin_yoy": -0.43998218064372424,
       "rev_growth_yoy": 0.3256045024006034,
-      "rev_growth_yoy_accel": -0.03185727966922497,
       "op_leverage_ratio": 0.29544636887684966,
       "fcf_margin_change": 0.11863664563298706
     },
@@ -145,7 +124,7 @@
       "incr_op_margin_yoy": -0.16594298245614036,
       "rev_growth_yoy": 0.31714679167072374,
       "rev_growth_yoy_accel": -0.008457710729879664,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2223916293524776
     },
     {
@@ -191,7 +170,7 @@
       "incr_op_margin_yoy": -0.03660853047832844,
       "rev_growth_yoy": 0.2001509225283556,
       "rev_growth_yoy_accel": -0.08504683808540214,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.031520715210217765
     },
     {
@@ -329,7 +308,7 @@
       "incr_op_margin_yoy": 0.20127379810984797,
       "rev_growth_yoy": 0.13102897497330426,
       "rev_growth_yoy_accel": 0.00023273437524257146,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.030601685599083363
     },
     {
@@ -375,7 +354,7 @@
       "incr_op_margin_yoy": 0.5752310722763776,
       "rev_growth_yoy": 0.1656390392450494,
       "rev_growth_yoy_accel": 0.01754577747324959,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0441799351592099
     },
     {
@@ -420,7 +399,7 @@
       "incr_op_margin_yoy": 0.5709521213481705,
       "rev_growth_yoy": 0.12369984846441294,
       "rev_growth_yoy_accel": -0.008663213759788499,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.04465478236847924
     },
     {
@@ -444,9 +423,44 @@
       "rev_growth_yoy": 0.08195107918026209,
       "rev_growth_yoy_accel": -0.04174876928415085,
       "fcf_margin_change": 0.05891357083910069
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 300282000,
+      "gross_profit": 166438000,
+      "operating_income": 19796000,
+      "net_income": 19713000,
+      "opex": 146642000,
+      "cogs": 133844000,
+      "rd": 36104000,
+      "sga": null,
+      "fcf": 77325000,
+      "ocf": 83566000,
+      "capex": -6241000,
+      "gross_margin": 0.5542723173550196,
+      "op_margin": 0.06592469745106266,
+      "fcf_margin": 0.25750794253401804,
+      "incr_op_margin_yoy": 0.7222273610211821,
+      "rev_growth_yoy": 0.07759276537716213,
+      "rev_growth_yoy_accel": -0.004358313803099964,
+      "op_leverage_ratio": 1.3210211925526647,
+      "fcf_margin_change": 0.08715612748181956
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +17.0% -> +25.8% (+8.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +72.2% vs year-ago OPM: +1.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -569,7 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:50:06.171840",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:14:53.114241"
 }

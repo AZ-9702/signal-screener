@@ -1,25 +1,9 @@
 {
   "ticker": "ROG",
   "name": "ROGERS CORP",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 210672000,
-      "gross_profit": 80703000,
-      "operating_income": 19973000,
-      "net_income": 15205000,
-      "opex": 60730000,
-      "cogs": 129969000,
-      "rd": 7135000,
-      "sga": 50029000,
-      "fcf": 39942000,
-      "ocf": 51383000,
-      "capex": -11441000,
-      "gross_margin": 0.38307416267942584,
-      "op_margin": 0.09480614414824941,
-      "fcf_margin": 0.1895933014354067
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3602000,
       "gross_margin": 0.3903735851525527,
       "op_margin": 0.16222711709157525,
-      "fcf_margin": 0.14358493446448434,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.046008366970922365
+      "fcf_margin": 0.14358493446448434
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.33912918959262667,
       "op_margin": 0.04532397202020377,
       "fcf_margin": -0.0408067623626612,
-      "incr_op_margin_yoy": -0.48169868554095047,
-      "rev_growth_yoy": 0.09389002810055441,
       "fcf_margin_change": -0.11598838938825896
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": -0.16906060435178397,
       "incr_op_margin_yoy": -0.9105836534919215,
       "rev_growth_yoy": 0.08287789239526312,
-      "rev_growth_yoy_accel": -0.01101213570529129,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12825384198912276
     },
     {
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": -0.7236872948898265,
       "rev_growth_yoy": 0.07264182268652142,
       "rev_growth_yoy_accel": -0.010236069708741705,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07814105043663534
     },
     {
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 4.558271102059289,
       "rev_growth_yoy": -0.017799457033987737,
       "rev_growth_yoy_accel": 0.011482128719227682,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4973534934039912
     },
     {
@@ -434,11 +413,45 @@
       "incr_op_margin_yoy": 0.19298245614035087,
       "rev_growth_yoy": 0.02710413694721826,
       "rev_growth_yoy_accel": 0.08032542546262442,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0705347359193513
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 201500000,
+      "gross_profit": 63500000,
+      "operating_income": 7100000,
+      "net_income": 4600000,
+      "opex": 56400000,
+      "cogs": 138000000,
+      "rd": 6600000,
+      "sga": 42000000,
+      "fcf": 42200000,
+      "ocf": 46900000,
+      "capex": -4700000,
+      "gross_margin": 0.315136476426799,
+      "op_margin": 0.03523573200992556,
+      "fcf_margin": 0.20942928039702233,
+      "incr_op_margin_yoy": 2.129032258064516,
+      "rev_growth_yoy": 0.04838709677419355,
+      "rev_growth_yoy_accel": 0.021282959826975287,
+      "fcf_margin_change": 0.11128113224887418
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.8% -> +20.9% (+11.1%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -6.6% (year-ago) -> +3.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -585,5 +598,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:41:40.167023"
+  "last_updated": "2026-02-24T10:22:00.150972"
 }

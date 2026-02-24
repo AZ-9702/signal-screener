@@ -1,6 +1,8 @@
 {
   "ticker": "MTB",
   "name": "M&T BANK CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
     {
       "date": "2022-06-30T00:00:00",
@@ -221,6 +223,27 @@
       "rev_growth_yoy": 0.07360406091370558,
       "rev_growth_yoy_accel": -0.0011382071275315292,
       "fcf_margin_change": 0.3424494446995596
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 420000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 759000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 523000000,
+      "ocf": 523000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 1.2452380952380953,
+      "rev_growth_yoy": 0.07142857142857142,
+      "rev_growth_yoy_accel": -0.0021754894851341577,
+      "fcf_margin_change": -1.121192164809186
     }
   ],
   "signals": [
@@ -286,23 +309,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
         0,
-        11
+        12
       ],
       "op_income": [
         0,
-        11
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [
@@ -320,7 +343,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:07:03.548355",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-24T10:26:40.707612"
 }

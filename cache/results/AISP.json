@@ -1,6 +1,8 @@
 {
   "ticker": "AISP",
-  "name": "Airship AI Holdings, Inc.",
+  "name": "AIRSHIP AI HOLDINGS, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -75,7 +77,7 @@
       "gross_margin": 0.4005072489435087,
       "op_margin": -0.7751735184577236,
       "fcf_margin": -0.1824018515608638,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5670403458291233
     },
     {
@@ -163,7 +165,7 @@
       "incr_op_margin_yoy": -1.7692759187877152,
       "rev_growth_yoy": -0.23774352430328152,
       "rev_growth_yoy_accel": -0.44043683016868085,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5690147842618459
     },
     {
@@ -232,9 +234,44 @@
       "rev_growth_yoy": -0.58940232922509,
       "rev_growth_yoy_accel": 0.07520013872108933,
       "fcf_margin_change": 0.3525429637742914
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 6493981,
+      "gross_profit": 3326409,
+      "operating_income": -612767,
+      "net_income": 22960556,
+      "opex": 3939176,
+      "cogs": 3167572,
+      "rd": 863284,
+      "sga": 3075892,
+      "fcf": -3502403,
+      "ocf": -3502403,
+      "capex": null,
+      "gross_margin": 0.5122295553374733,
+      "op_margin": -0.09435922279415354,
+      "fcf_margin": -0.5393306509520124,
+      "incr_op_margin_yoy": 0.2672711449528101,
+      "rev_growth_yoy": 1.0252438938437272,
+      "rev_growth_yoy_accel": 1.6146462230688172,
+      "op_leverage_ratio": 33.44477527094386,
+      "fcf_margin_change": -0.04368157880457513
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +451.5% vs OpEx growth +13.5% (leverage: 33.4x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +102.5% vs prior quarter YoY: -58.9% (accel: +161.5%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -333,23 +370,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
-        11,
-        11
+        12,
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [],
@@ -357,7 +394,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:17:14.932817",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:39:23.903495"
 }

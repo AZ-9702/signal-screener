@@ -1,25 +1,9 @@
 {
   "ticker": "WMG",
   "name": "Warner Music Group Corp.",
+  "sector": "Communication Services",
+  "industry": "Entertainment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1335000000,
-      "gross_profit": 649000000,
-      "operating_income": 196000000,
-      "net_income": 98000000,
-      "opex": 1139000000,
-      "cogs": 686000000,
-      "rd": null,
-      "sga": 401000000,
-      "fcf": 151000000,
-      "ocf": 169000000,
-      "capex": -18000000,
-      "gross_margin": 0.4861423220973783,
-      "op_margin": 0.14681647940074907,
-      "fcf_margin": 0.11310861423220973
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -20000000,
       "gross_margin": 0.5016,
       "op_margin": 0.1208,
-      "fcf_margin": 0.104,
-      "fcf_margin_change": -0.009108614232209739
+      "fcf_margin": 0.104
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.49318463444857497,
       "op_margin": 0.14807930607187111,
       "fcf_margin": 0.05885997521685254,
-      "incr_op_margin_yoy": 0.15412186379928317,
-      "rev_growth_yoy": 0.20898876404494382,
       "op_leverage_ratio": 2.229328165374677,
       "fcf_margin_change": -0.1068376992017521
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.011627906976744186,
       "incr_op_margin_yoy": 0.11904761904761904,
       "rev_growth_yoy": 0.1008,
-      "rev_growth_yoy_accel": -0.10818876404494382,
       "fcf_margin_change": -0.04723206824010835
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": 0.550561797752809,
       "rev_growth_yoy": 0.05945223780895124,
       "rev_growth_yoy_accel": -0.03272653314076943,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11690446780170483
     },
     {
@@ -324,7 +304,7 @@
       "incr_op_margin_yoy": -1.8,
       "rev_growth_yoy": -0.00639386189258312,
       "rev_growth_yoy_accel": -0.07429950878321928,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14111271340187004
     },
     {
@@ -370,7 +350,7 @@
       "incr_op_margin_yoy": 1.7073170731707317,
       "rev_growth_yoy": -0.04691075514874142,
       "rev_growth_yoy_accel": -0.07465350420296589,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.011413399715714506
     },
     {
@@ -440,9 +420,43 @@
       "rev_growth_yoy_accel": 0.05913968306606342,
       "op_leverage_ratio": 0.7858019610391486,
       "fcf_margin_change": 0.10452791269367351
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1840000000,
+      "gross_profit": 853000000,
+      "operating_income": 288000000,
+      "net_income": 176000000,
+      "opex": 1547000000,
+      "cogs": 987000000,
+      "rd": null,
+      "sga": 458000000,
+      "fcf": 420000000,
+      "ocf": 440000000,
+      "capex": -20000000,
+      "gross_margin": 0.46358695652173915,
+      "op_margin": 0.1565217391304348,
+      "fcf_margin": 0.22826086956521738,
+      "incr_op_margin_yoy": 0.42528735632183906,
+      "rev_growth_yoy": 0.10444177671068428,
+      "rev_growth_yoy_accel": -0.04157049322796602,
+      "fcf_margin_change": 0.1195884926915557
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +10.9% -> +22.8% (+12.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +42.5% vs year-ago OPM: +12.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -582,12 +596,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +10.1% vs prior quarter YoY: +20.9% (decel: -10.8%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +17.3% vs OpEx growth +7.8% (leverage: 2.2x)",
@@ -631,5 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:24:37.804474"
+  "last_updated": "2026-02-24T11:07:46.233049"
 }

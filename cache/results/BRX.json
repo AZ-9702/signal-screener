@@ -1,25 +1,9 @@
 {
   "ticker": "BRX",
   "name": "Brixmor Property Group Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 269410000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": 184532000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 119469000,
-      "ocf": 119469000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.44344679113618646
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.3950476503685486,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.04839914076763785
+      "fcf_margin": 0.3950476503685486
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5725967166508724,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1775490662823238
     },
     {
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.4312605394862487,
-      "rev_growth_yoy": 0.09616569540848521,
       "op_leverage_ratio": 0.3104029854069182,
       "fcf_margin_change": -0.08571133372610479
     },
@@ -119,7 +100,6 @@
       "op_margin": null,
       "fcf_margin": 0.3759179450086897,
       "rev_growth_yoy": 0.0675005183273398,
-      "rev_growth_yoy_accel": -0.02866517708114541,
       "op_leverage_ratio": 0.6173429245992067,
       "fcf_margin_change": -0.055342594477559015
     },
@@ -142,7 +122,7 @@
       "fcf_margin": 0.5287148312323809,
       "rev_growth_yoy": 0.06656934611739784,
       "rev_growth_yoy_accel": -0.0009311722099419606,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15279688622369125
     },
     {
@@ -270,7 +250,7 @@
       "fcf_margin": 0.42745153798758234,
       "rev_growth_yoy": 0.025653905609442296,
       "rev_growth_yoy_accel": 0.017223906757943504,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08853862191401668
     },
     {
@@ -292,7 +272,7 @@
       "fcf_margin": 0.40131026320802143,
       "rev_growth_yoy": 0.028245848370814657,
       "rev_growth_yoy_accel": 0.002591942761372361,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.026141274779560908
     },
     {
@@ -423,6 +403,28 @@
       "rev_growth_yoy": 0.06286913515569942,
       "rev_growth_yoy_accel": -0.012531021327421635,
       "fcf_margin_change": -0.04080791360194547
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 353750000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 137125000,
+      "opex": 224469000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 172201000,
+      "ocf": 172201000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4867872791519435,
+      "rev_growth_yoy": 0.07705470067774524,
+      "rev_growth_yoy_accel": 0.01418556552204582,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.006891628732331678
     }
   ],
   "signals": [
@@ -497,7 +499,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:07.777296",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-24T11:07:33.546725"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "LZ",
   "name": "LegalZoom.com, Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 122239000,
-      "gross_profit": 82388000,
-      "operating_income": 15371000,
-      "net_income": 9421000,
-      "opex": 67017000,
-      "cogs": 39851000,
-      "rd": null,
-      "sga": null,
-      "fcf": 8212000,
-      "ocf": 10980000,
-      "capex": -2768000,
-      "gross_margin": 0.6739911157650177,
-      "op_margin": 0.1257454658496879,
-      "fcf_margin": 0.06717986894526297
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2911000,
       "gross_margin": 0.6734803018598847,
       "op_margin": -0.03233258066432943,
-      "fcf_margin": 0.21171786796601105,
-      "op_leverage_ratio": 0.2425881297986533,
-      "fcf_margin_change": 0.1445379990207481
+      "fcf_margin": 0.21171786796601105
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6603417829277387,
       "op_margin": -0.1808466479523277,
       "fcf_margin": -0.06503584569816445,
-      "incr_op_margin_yoy": -2.0643280731731832,
-      "rev_growth_yoy": 0.1627794729996155,
       "fcf_margin_change": -0.17975125491786434
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.05723401357897399,
       "incr_op_margin_yoy": -1.1083925014047096,
       "rev_growth_yoy": 0.1454111949610791,
-      "rev_growth_yoy_accel": -0.01736827803853641,
       "op_leverage_ratio": 2.1347123686323655,
       "fcf_margin_change": 0.12226985927713843
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 1.1813174544101228,
       "rev_growth_yoy": 0.08930945543501383,
       "rev_growth_yoy_accel": -0.05610173952606527,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.023352878268020592
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": 3.2849408462001204,
       "rev_growth_yoy": 0.03043321718222705,
       "rev_growth_yoy_accel": -0.045612927984397464,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09003634307399444
     },
     {
@@ -437,6 +416,28 @@
       "rev_growth_yoy": 0.12787145831232688,
       "rev_growth_yoy_accel": 0.04246985030159177,
       "fcf_margin_change": 0.08291537699544374
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 190266000,
+      "gross_profit": 128535000,
+      "operating_income": 12617000,
+      "net_income": 6057000,
+      "opex": 115918000,
+      "cogs": 61731000,
+      "rd": null,
+      "sga": null,
+      "fcf": 27996000,
+      "ocf": 34129000,
+      "capex": -6133000,
+      "gross_margin": 0.6755542240862792,
+      "op_margin": 0.06631242576182818,
+      "fcf_margin": 0.14714137050234935,
+      "incr_op_margin_yoy": -0.017296918767507004,
+      "rev_growth_yoy": 0.17661682312344626,
+      "rev_growth_yoy_accel": 0.04874536481111938,
+      "fcf_margin_change": -0.09996892725004602
     }
   ],
   "signals": [
@@ -583,12 +584,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.1% -> +11.5% (+7.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.7% -> +21.2% (+14.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -616,7 +611,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:45:50.154740",
-  "sector": "Industrials",
-  "industry": "Specialty Business Services"
+  "last_updated": "2026-02-24T10:05:59.067987"
 }

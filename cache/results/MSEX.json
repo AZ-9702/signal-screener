@@ -1,25 +1,9 @@
 {
   "ticker": "MSEX",
   "name": "MIDDLESEX WATER COMPANY",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Water",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 34589000,
-      "gross_profit": null,
-      "operating_income": 8331000,
-      "net_income": 8307000,
-      "opex": 26295000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -18769000,
-      "ocf": 16065000,
-      "capex": -34834000,
-      "gross_margin": null,
-      "op_margin": 0.24085691983000376,
-      "fcf_margin": -0.5426291595593975
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -22033000,
       "gross_margin": null,
       "op_margin": 0.17333251292148658,
-      "fcf_margin": -0.38736770858971203,
-      "fcf_margin_change": 0.15526145096968547
+      "fcf_margin": -0.38736770858971203
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.26765941198930887,
       "fcf_margin": -0.5271914034800633,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1398236948903513
     },
     {
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.18651797799093744,
       "fcf_margin": -0.11013358441711293,
-      "rev_growth_yoy": -0.017433288039550146,
       "fcf_margin_change": 0.1580960398204432
     },
     {
@@ -118,7 +100,6 @@
       "fcf_margin": -0.0734553902317606,
       "incr_op_margin_yoy": 1.8853311439518337,
       "rev_growth_yoy": 0.11241693330051686,
-      "rev_growth_yoy_accel": 0.12985022134006702,
       "op_leverage_ratio": 1.4514974486188805,
       "fcf_margin_change": 0.03667819418535233
     },
@@ -435,9 +416,36 @@
       "rev_growth_yoy_accel": -0.021262552417062004,
       "op_leverage_ratio": 3.52953291179675,
       "fcf_margin_change": -0.14860992165949644
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 46979000,
+      "gross_profit": null,
+      "operating_income": 11205000,
+      "net_income": 8605000,
+      "opex": 35774000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 18462000,
+      "ocf": 18462000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.23851082398518486,
+      "fcf_margin": 0.392984099278401,
+      "rev_growth_yoy": -0.0027172182478187954,
+      "rev_growth_yoy_accel": 0.01559494146180008,
+      "fcf_margin_change": 0.1702483391704348
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +22.3% -> +39.3% (+17.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -596,12 +604,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +11.2% vs prior quarter YoY: -1.7% (accel: +13.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +188.5% vs year-ago OPM: +17.3%",
       "severity": "HIGH"
@@ -616,12 +618,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -52.7% -> -26.8% (+25.9%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -54.3% -> -38.7% (+15.5%)",
       "severity": "MEDIUM"
     }
   ],
@@ -652,7 +648,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:02:11.719985",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Water"
+  "last_updated": "2026-02-24T10:20:27.087168"
 }

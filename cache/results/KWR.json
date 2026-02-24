@@ -1,25 +1,9 @@
 {
   "ticker": "KWR",
   "name": "QUAKER CHEMICAL CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 385852000,
-      "gross_profit": 142014000,
-      "operating_income": 34707000,
-      "net_income": 48470000,
-      "opex": 107307000,
-      "cogs": 243838000,
-      "rd": null,
-      "sga": 98347000,
-      "fcf": 60624000,
-      "ocf": 66341000,
-      "capex": -5717000,
-      "gross_margin": 0.3680530358790417,
-      "op_margin": 0.08994899598809906,
-      "fcf_margin": 0.15711723666068855
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3934000,
       "gross_margin": 0.3634252634469023,
       "op_margin": 0.10445736569385015,
-      "fcf_margin": -0.03851245861283485,
-      "op_leverage_ratio": 3.059701621950664,
-      "fcf_margin_change": -0.19562969527352342
+      "fcf_margin": -0.03851245861283485
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.3231798019025902,
       "op_margin": 0.08018758684576192,
       "fcf_margin": 0.013868600135390315,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.013845625467259396
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.3106292264020526,
       "op_margin": 0.06877668938643211,
       "fcf_margin": 0.08453363338038346,
-      "incr_op_margin_yoy": -0.06473385739266861,
-      "rev_growth_yoy": 0.15858152866902336,
       "fcf_margin_change": 0.07066503324499314
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.0319420630953812,
       "incr_op_margin_yoy": -0.3489907182121294,
       "rev_growth_yoy": 0.1032800273626458,
-      "rev_growth_yoy_accel": -0.055301501306377565,
       "op_leverage_ratio": 0.7674221437700333,
       "fcf_margin_change": -0.11647569647576467
     },
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": 0.790160526619702,
       "rev_growth_yoy": 0.05478403360812871,
       "rev_growth_yoy_accel": -0.029698150352626573,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06007913484476138
     },
     {
@@ -433,8 +412,30 @@
       "incr_op_margin_yoy": -0.1608274201723264,
       "rev_growth_yoy": 0.0682885042204407,
       "rev_growth_yoy_accel": 0.025505044655803867,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.007508356644052486
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 468478000,
+      "gross_profit": 165524000,
+      "operating_income": 31231000,
+      "net_income": 20701000,
+      "opex": 134293000,
+      "cogs": 302954000,
+      "rd": null,
+      "sga": 130291000,
+      "fcf": 24318000,
+      "ocf": 46544000,
+      "capex": -22226000,
+      "gross_margin": 0.353322888161237,
+      "op_margin": 0.06666481670430628,
+      "fcf_margin": 0.05190852078432712,
+      "incr_op_margin_yoy": 0.09093145293538865,
+      "rev_growth_yoy": 0.05492629805938489,
+      "rev_growth_yoy_accel": -0.013362206161055802,
+      "fcf_margin_change": -0.025132314138583453
     }
   ],
   "signals": [
@@ -541,12 +542,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +10.3% vs prior quarter YoY: +15.9% (decel: -5.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +1.4% -> +8.5% (+7.1%)",
@@ -557,12 +552,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -3.9% -> +0.0%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +11.4% vs OpEx growth +3.7% (leverage: 3.1x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -590,7 +579,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:28:02.065024",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:06:41.074405"
 }

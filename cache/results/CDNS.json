@@ -1,25 +1,9 @@
 {
   "ticker": "CDNS",
   "name": "CADENCE DESIGN SYSTEMS, INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2021-01-02T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 759909000,
-      "gross_profit": null,
-      "operating_income": 184979000,
-      "net_income": 173738000,
-      "opex": 574930000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 104454000,
-      "ocf": 135522000,
-      "capex": -31068000,
-      "gross_margin": null,
-      "op_margin": 0.2434225677021854,
-      "fcf_margin": 0.1374559322234636
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -16968000,
       "gross_margin": null,
       "op_margin": 0.27707777421511137,
-      "fcf_margin": 0.2601449944839055,
-      "fcf_margin_change": 0.12268906226044188
+      "fcf_margin": 0.2601449944839055
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.2531318075742915,
       "fcf_margin": 0.2594135331342913,
-      "incr_op_margin_yoy": 0.8151900662756152,
-      "rev_growth_yoy": 0.017274436807565116,
       "op_leverage_ratio": 0.8011556498583887,
       "fcf_margin_change": -0.11007221387427851
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.3531714435895787,
       "incr_op_margin_yoy": 0.6938179536376691,
       "rev_growth_yoy": 0.225178933410142,
-      "rev_growth_yoy_accel": 0.20790449660257687,
       "op_leverage_ratio": 17.54138704815936,
       "fcf_margin_change": 0.09375791045528742
     },
@@ -437,11 +417,40 @@
       "incr_op_margin_yoy": 0.6107881529767551,
       "rev_growth_yoy": 0.10147190577696896,
       "rev_growth_yoy_accel": -0.1010017880103243,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05461290112251277
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1440114000,
+      "gross_profit": null,
+      "operating_income": 463335000,
+      "net_income": 388136000,
+      "opex": 976779000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 512454000,
+      "ocf": 553495000,
+      "capex": -41041000,
+      "gross_margin": null,
+      "op_margin": 0.321734945983443,
+      "fcf_margin": 0.3558426624558889,
+      "incr_op_margin_yoy": 0.07678318852293392,
+      "rev_growth_yoy": 0.06204585462480669,
+      "rev_growth_yoy_accel": -0.03942605115216227,
+      "op_leverage_ratio": 1.091053365718876,
+      "fcf_margin_change": 0.14896326405219856
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.7% -> +35.6% (+14.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -576,32 +585,14 @@
     },
     {
       "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +22.5% vs prior quarter YoY: +1.7% (accel: +20.8%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-04 (Q2)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +69.4% vs year-ago OPM: +27.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-01 (Q1)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +81.5% vs year-ago OPM: +24.3%",
       "severity": "HIGH"
     },
     {
       "quarter": "2021-07 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +26.0% -> +50.3% (+24.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +13.7% -> +26.0% (+12.3%)",
       "severity": "MEDIUM"
     }
   ],
@@ -632,7 +623,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:52:08.936464",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:20:53.070717"
 }

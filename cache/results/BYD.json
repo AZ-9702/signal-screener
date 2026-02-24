@@ -1,25 +1,9 @@
 {
   "ticker": "BYD",
   "name": "BOYD GAMING CORP",
+  "sector": "Consumer Cyclical",
+  "industry": "Resorts & Casinos",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 635868000,
-      "gross_profit": null,
-      "operating_income": 111299000,
-      "net_income": 83287000,
-      "opex": 524569000,
-      "cogs": null,
-      "rd": null,
-      "sga": 89677000,
-      "fcf": 95066000,
-      "ocf": 165019000,
-      "capex": -69953000,
-      "gross_margin": null,
-      "op_margin": 0.1750347556411079,
-      "fcf_margin": 0.14950587228795914
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -35477000,
       "gross_margin": null,
       "op_margin": 0.2571793438797197,
-      "fcf_margin": 0.24055132900663342,
-      "op_leverage_ratio": 2.767851136538695,
-      "fcf_margin_change": 0.09104545671867428
+      "fcf_margin": 0.24055132900663342
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.24650021992610027,
       "fcf_margin": 0.19596608932750348,
-      "incr_op_margin_yoy": 0.4327610022420514,
-      "rev_growth_yoy": 0.38368497864336626,
       "op_leverage_ratio": 0.6282951273146836,
       "fcf_margin_change": -0.08341734720133198
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.21735407665238057,
       "incr_op_margin_yoy": 0.5335548605681522,
       "rev_growth_yoy": 0.14261914465151657,
-      "rev_growth_yoy_accel": -0.2410658339918497,
       "fcf_margin_change": 0.021387987324877095
     },
     {
@@ -411,7 +390,7 @@
       "incr_op_margin_yoy": 0.22958216767439762,
       "rev_growth_yoy": 0.06871852752213926,
       "rev_growth_yoy_accel": 0.036398567833595234,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.009295644822561983
     },
     {
@@ -435,9 +414,38 @@
       "rev_growth_yoy": 0.044853242562257735,
       "rev_growth_yoy_accel": -0.02386528495988153,
       "fcf_margin_change": 0.01606485456366448
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1062065000,
+      "gross_profit": null,
+      "operating_income": 166385000,
+      "net_income": 140403000,
+      "opex": 895680000,
+      "cogs": null,
+      "rd": null,
+      "sga": 111184000,
+      "fcf": 126959000,
+      "ocf": 275285000,
+      "capex": -148326000,
+      "gross_margin": null,
+      "op_margin": 0.15666178623718888,
+      "fcf_margin": 0.11953976451535452,
+      "incr_op_margin_yoy": -4.487754137115839,
+      "rev_growth_yoy": 0.020318661946460564,
+      "rev_growth_yoy_accel": -0.02453458061579717,
+      "op_leverage_ratio": 1.5981107563547257,
+      "fcf_margin_change": 0.025534720512252043
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +5.7% vs OpEx growth +3.6% (leverage: 1.6x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -506,38 +514,14 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +14.3% vs prior quarter YoY: +38.4% (decel: -24.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +53.4% vs year-ago OPM: +25.7%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +43.3% vs year-ago OPM: +17.5%",
       "severity": "HIGH"
     },
     {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +18.6% vs OpEx growth +12.1% (leverage: 1.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +15.0% -> +24.1% (+9.1%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +18.5% vs OpEx growth +6.7% (leverage: 2.8x)",
       "severity": "MEDIUM"
     }
   ],
@@ -568,7 +552,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:08.517181",
-  "sector": "Consumer Cyclical",
-  "industry": "Resorts & Casinos"
+  "last_updated": "2026-02-24T10:15:53.279294"
 }

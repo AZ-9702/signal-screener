@@ -1,25 +1,9 @@
 {
   "ticker": "CL",
   "name": "COLGATE-PALMOLIVE COMPANY",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4324000000,
-      "gross_profit": 2643000000,
-      "operating_income": 969000000,
-      "net_income": 647000000,
-      "opex": 1674000000,
-      "cogs": 1681000000,
-      "rd": null,
-      "sga": 1633000000,
-      "fcf": 963000000,
-      "ocf": 963000000,
-      "capex": null,
-      "gross_margin": 0.6112395929694727,
-      "op_margin": 0.22409805735430158,
-      "fcf_margin": 0.2227104532839963
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.6070441988950276,
       "op_margin": 0.2311233885819521,
-      "fcf_margin": 0.13766114180478822,
-      "fcf_margin_change": -0.08504931147920808
+      "fcf_margin": 0.13766114180478822
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5811946400181695,
       "op_margin": 0.08289802407449466,
       "fcf_margin": 0.25119236883942764,
-      "incr_op_margin_yoy": -7.6455696202531644,
-      "rev_growth_yoy": 0.018270120259019425,
       "fcf_margin_change": 0.025999799741104113
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.08774721527619914,
       "incr_op_margin_yoy": -2.618181818181818,
       "rev_growth_yoy": 0.012661141804788214,
-      "rev_growth_yoy_accel": -0.0056089784542312105,
       "fcf_margin_change": -0.1634451535632285
     },
     {
@@ -141,7 +121,7 @@
       "incr_op_margin_yoy": -0.5,
       "rev_growth_yoy": 0.05258215962441314,
       "rev_growth_yoy_accel": 0.03992101781962493,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03000479186028615
     },
     {
@@ -209,7 +189,7 @@
       "incr_op_margin_yoy": 0.1320754716981132,
       "rev_growth_yoy": 0.08433734939759036,
       "rev_growth_yoy_accel": 0.033008709833656676,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.008700277577373156
     },
     {
@@ -435,6 +415,29 @@
       "rev_growth_yoy": 0.019471488178025034,
       "rev_growth_yoy_accel": 0.009190744801196249,
       "fcf_margin_change": 0.07276693106366619
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5230000000,
+      "gross_profit": 3146000000,
+      "operating_income": 92000000,
+      "net_income": -37000000,
+      "opex": 3054000000,
+      "cogs": 2084000000,
+      "rd": null,
+      "sga": 2070000000,
+      "fcf": 1453000000,
+      "ocf": 1453000000,
+      "capex": null,
+      "gross_margin": 0.6015296367112811,
+      "op_margin": 0.017590822179732315,
+      "fcf_margin": 0.2778202676864245,
+      "incr_op_margin_yoy": -3.407017543859649,
+      "rev_growth_yoy": 0.057633973710819006,
+      "rev_growth_yoy_accel": 0.03816248553279397,
+      "op_leverage_ratio": 0.036086488878598756,
+      "fcf_margin_change": 0.032059207464245565
     }
   ],
   "signals": [
@@ -530,7 +533,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:55:26.953655",
-  "sector": "Consumer Defensive",
-  "industry": "Household & Personal Products"
+  "last_updated": "2026-02-24T10:09:59.538871"
 }

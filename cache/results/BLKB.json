@@ -1,25 +1,9 @@
 {
   "ticker": "BLKB",
   "name": "Blackbaud, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 242606000,
-      "gross_profit": 123030000,
-      "operating_income": -850000,
-      "net_income": -13621000,
-      "opex": 123880000,
-      "cogs": 119576000,
-      "rd": 27491000,
-      "sga": null,
-      "fcf": 34936000,
-      "ocf": 38790000,
-      "capex": -3854000,
-      "gross_margin": 0.5071185378762273,
-      "op_margin": -0.003503623158536887,
-      "fcf_margin": 0.14400303372546433
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -3470000,
       "gross_margin": 0.528333736330415,
       "op_margin": 0.030311463518118902,
-      "fcf_margin": 0.12150590124594532,
-      "fcf_margin_change": -0.02249713247951901
+      "fcf_margin": 0.12150590124594532
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.5289836122733612,
       "op_margin": 0.0568471059972106,
       "fcf_margin": 0.292717050209205,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1712111489632597
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.49954213747171133,
       "op_margin": -0.02673352400853601,
       "fcf_margin": 0.16354365426739978,
-      "incr_op_margin_yoy": -1.093093661305582,
-      "rev_growth_yoy": 0.02178429222690288,
       "op_leverage_ratio": 0.42913337715884897,
       "fcf_margin_change": -0.12908927223486213
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.07870910533439118,
       "incr_op_margin_yoy": -0.33277093823320064,
       "rev_growth_yoy": 0.17305911282853767,
-      "rev_growth_yoy_accel": 0.1512748206016348,
       "op_leverage_ratio": 0.5234974340063697,
       "fcf_margin_change": -0.0848345489330086
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": -0.3660213599346239,
       "rev_growth_yoy": 0.15466788702928871,
       "rev_growth_yoy_accel": -0.018391225799248956,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12520744526256572
     },
     {
@@ -256,7 +236,7 @@
       "incr_op_margin_yoy": 1.7794108641068038,
       "rev_growth_yoy": 0.06249210668319958,
       "rev_growth_yoy_accel": 0.039410276594156184,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2646660076403252
     },
     {
@@ -270,17 +250,17 @@
       "cogs": 135835000,
       "rd": 38602000,
       "sga": null,
-      "fcf": -3825000,
-      "ocf": -3383000,
+      "fcf": -3791000,
+      "ocf": -3349000,
       "capex": -442000,
       "gross_margin": 0.5395595418475921,
       "op_margin": 0.1095348986986926,
-      "fcf_margin": -0.0129656182311846,
+      "fcf_margin": -0.012850368291351848,
       "incr_op_margin_yoy": 2.3630887725881307,
       "rev_growth_yoy": 0.07371604727086116,
       "rev_growth_yoy_accel": 0.01122394058766158,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.46867581828449373
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.468560568344661
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -302,7 +282,7 @@
       "incr_op_margin_yoy": 1.1811167628736354,
       "rev_growth_yoy": 0.06684546117905048,
       "rev_growth_yoy_accel": -0.006870586091810682,
-      "fcf_margin_change": 0.24322524222402256
+      "fcf_margin_change": 0.2431099922841898
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -324,7 +304,7 @@
       "incr_op_margin_yoy": 2.5731346958877124,
       "rev_growth_yoy": 0.059931671106323005,
       "rev_growth_yoy_accel": -0.006913790072727473,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06317873595791804
     },
     {
@@ -360,17 +340,17 @@
       "cogs": 137869000,
       "rd": 39348000,
       "sga": null,
-      "fcf": 73449000,
-      "ocf": 73614000,
-      "capex": -165000,
+      "fcf": 73375000,
+      "ocf": 73583000,
+      "capex": -208000,
       "gross_margin": 0.5438305672463538,
       "op_margin": -1.2147687868921888,
-      "fcf_margin": 0.24302191693798142,
+      "fcf_margin": 0.24277707191826148,
       "incr_op_margin_yoy": -55.31865392604902,
       "rev_growth_yoy": 0.02447705339800889,
       "rev_growth_yoy_accel": -0.008304458420048497,
       "op_leverage_ratio": 0.014994567528489567,
-      "fcf_margin_change": -0.11568514587786782
+      "fcf_margin_change": -0.11592999089758776
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -392,7 +372,7 @@
       "incr_op_margin_yoy": -1.1306322039818373,
       "rev_growth_yoy": -0.030757385854968667,
       "rev_growth_yoy_accel": -0.05523443925297755,
-      "fcf_margin_change": -0.24039131999198624
+      "fcf_margin_change": -0.2401464749722663
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -414,7 +394,7 @@
       "incr_op_margin_yoy": -2.4718834688346885,
       "rev_growth_yoy": -0.02055094922829515,
       "rev_growth_yoy_accel": 0.010206436626673518,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.232910411362994
     },
     {
@@ -438,9 +418,44 @@
       "rev_growth_yoy": -0.019474970965413094,
       "rev_growth_yoy_accel": 0.0010759782628820547,
       "fcf_margin_change": 0.24729512846126653
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 295256000,
+      "gross_profit": 172284000,
+      "operating_income": 59142000,
+      "net_income": 36689000,
+      "opex": 113142000,
+      "cogs": 122972000,
+      "rd": 33778000,
+      "sga": null,
+      "fcf": 55048000,
+      "ocf": 58010000,
+      "capex": -2962000,
+      "gross_margin": 0.5835071937572818,
+      "op_margin": 0.20030752973690627,
+      "fcf_margin": 0.18644159644511882,
+      "incr_op_margin_yoy": -61.107224770642205,
+      "rev_growth_yoy": -0.023081606183329363,
+      "rev_growth_yoy_accel": -0.0036066352179162688,
+      "op_leverage_ratio": 25.192361514721455,
+      "fcf_margin_change": -0.2963945403251369
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +5.0% vs OpEx growth +0.2% (leverage: 25.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -121.5% (year-ago) -> +20.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -574,22 +589,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +17.3% vs prior quarter YoY: +2.2% (accel: +15.1%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.2% -> +29.3% (+17.1%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -0.4% -> +3.0%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -617,7 +620,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:27:33.926532",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:31:36.347765"
 }

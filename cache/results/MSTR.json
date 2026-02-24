@@ -1,25 +1,9 @@
 {
   "ticker": "MSTR",
   "name": "STRATEGY INC",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 131319000,
-      "gross_profit": 110534000,
-      "operating_income": 390000,
-      "net_income": 2661000,
-      "opex": 110144000,
-      "cogs": 20785000,
-      "rd": 24955000,
-      "sga": null,
-      "fcf": 22833000,
-      "ocf": 25322000,
-      "capex": -2489000,
-      "gross_margin": 0.8417213046093863,
-      "op_margin": 0.002969867269778174,
-      "fcf_margin": 0.17387430607908985
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -447000,
       "gross_margin": 0.8165286162959106,
       "op_margin": -1.4902279865258499,
-      "fcf_margin": 0.5065499340938309,
-      "fcf_margin_change": 0.33267562801474104
+      "fcf_margin": 0.5065499340938309
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.825624638654937,
       "op_margin": -0.3879947497538947,
       "fcf_margin": 0.1044658343359845,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.00014277349083767488
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.8215589339478868,
       "op_margin": -1.0219455079359179,
       "fcf_margin": 0.01801286101921719,
-      "incr_op_margin_yoy": -43.13423028785982,
-      "rev_growth_yoy": 0.02433768152361806,
       "op_leverage_ratio": 0.08542482466904128,
       "fcf_margin_change": -0.08645297331676731
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.3608491159234387,
       "incr_op_margin_yoy": -3.6391724137931036,
       "rev_growth_yoy": -0.029495044832468145,
-      "rev_growth_yoy_accel": -0.0538327263560862,
       "fcf_margin_change": 0.34283625490422154
     },
     {
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": -21.15375854214123,
       "rev_growth_yoy": -0.0205790896448271,
       "rev_growth_yoy_accel": 0.005571479556854577,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1634909421920957
     },
     {
@@ -413,7 +393,7 @@
       "incr_op_margin_yoy": 4672.4438608010505,
       "rev_growth_yoy": 0.027332603506756876,
       "rev_growth_yoy_accel": 0.06360284282091963,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.27708637875169617
     },
     {
@@ -436,11 +416,39 @@
       "incr_op_margin_yoy": 342.5851030110935,
       "rev_growth_yoy": 0.10872655529805034,
       "rev_growth_yoy_accel": 0.08139395179129347,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2369316049715175
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 122988000,
+      "gross_profit": 81305000,
+      "operating_income": -17445805000,
+      "net_income": -12436652000,
+      "opex": 17527110000,
+      "cogs": 41683000,
+      "rd": 22764000,
+      "sga": null,
+      "fcf": -22213000,
+      "ocf": -21629000,
+      "capex": -584000,
+      "gross_margin": 0.6610807558460988,
+      "op_margin": -141.84965199856896,
+      "fcf_margin": -0.18061111653169415,
+      "incr_op_margin_yoy": -7171.272370144042,
+      "rev_growth_yoy": 0.018981416273809622,
+      "rev_growth_yoy_accel": -0.08974513902424072,
+      "fcf_margin_change": -0.09430360473988275
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +1.9% vs prior quarter YoY: +10.9% (decel: -9.0%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -548,18 +556,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +1.8% -> +36.1% (+34.3%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -2.9% vs prior quarter YoY: +2.4% (decel: -5.4%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +17.4% -> +50.7% (+33.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -587,7 +583,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:00:59.014365",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:25:59.840113"
 }

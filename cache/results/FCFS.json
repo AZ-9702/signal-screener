@@ -1,25 +1,9 @@
 {
   "ticker": "FCFS",
   "name": "FIRSTCASH HOLDINGS, INC.",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 392158000,
-      "gross_profit": 225991000,
-      "operating_income": null,
-      "net_income": 32726000,
-      "opex": 182884000,
-      "cogs": 166167000,
-      "rd": null,
-      "sga": null,
-      "fcf": 44898000,
-      "ocf": 44898000,
-      "capex": null,
-      "gross_margin": 0.5762753788014014,
-      "op_margin": null,
-      "fcf_margin": 0.11448956798025285
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.5726076692838881,
       "op_margin": null,
-      "fcf_margin": 0.16956946994526143,
-      "op_leverage_ratio": 1.6597912240885353,
-      "fcf_margin_change": 0.055079901965008574
+      "fcf_margin": 0.16956946994526143
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": 0.45489005010223726,
       "op_margin": null,
       "fcf_margin": 0.17030376225153157,
-      "rev_growth_yoy": 0.27951998939203077,
       "op_leverage_ratio": 20.70790882632892,
       "fcf_margin_change": 0.11000211641017085
     },
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.18208229583277133,
       "rev_growth_yoy": 0.6174942822333731,
-      "rev_growth_yoy_accel": 0.33797429284134234,
       "op_leverage_ratio": 0.9547987142405349,
       "fcf_margin_change": 0.011778533581239758
     },
@@ -184,7 +164,7 @@
       "fcf_margin": 0.19151017423239527,
       "rev_growth_yoy": 0.4933894542164401,
       "rev_growth_yoy_accel": -0.18833865419191276,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04417396750257738
     },
     {
@@ -422,9 +402,49 @@
       "rev_growth_yoy_accel": 0.11781737333683376,
       "op_leverage_ratio": 1.4213871756112695,
       "fcf_margin_change": 0.0044714388191966215
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1058419000,
+      "gross_profit": 529881000,
+      "operating_income": null,
+      "net_income": 104172000,
+      "opex": 387093000,
+      "cogs": 528538000,
+      "rd": null,
+      "sga": null,
+      "fcf": 206645000,
+      "ocf": 206645000,
+      "capex": null,
+      "gross_margin": 0.5006344368345618,
+      "op_margin": null,
+      "fcf_margin": 0.19523931448698484,
+      "rev_growth_yoy": 0.1975626010538452,
+      "rev_growth_yoy_accel": 0.08021453501943308,
+      "op_leverage_ratio": 1.8336999220563277,
+      "fcf_margin_change": 0.050085351005547146
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +14.5% -> +19.5% (+5.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +13.1% vs OpEx growth +7.2% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +19.8% vs prior quarter YoY: +11.7% (accel: +8.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -468,12 +488,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +61.7% vs prior quarter YoY: +28.0% (accel: +33.8%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.0% -> +17.0% (+11.0%)",
@@ -483,18 +497,6 @@
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +25.5% vs OpEx growth +1.2% (leverage: 20.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.4% -> +17.0% (+5.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +4.0% vs OpEx growth +2.4% (leverage: 1.7x)",
       "severity": "MEDIUM"
     }
   ],
@@ -525,7 +527,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:48:32.695222",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-24T11:08:16.364115"
 }

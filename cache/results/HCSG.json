@@ -1,25 +1,9 @@
 {
   "ticker": "HCSG",
   "name": "HEALTHCARE SERVICES GROUP, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 423177000,
-      "gross_profit": 70976000,
-      "operating_income": null,
-      "net_income": 27747000,
-      "opex": null,
-      "cogs": 352201000,
-      "rd": null,
-      "sga": 41959000,
-      "fcf": 74397000,
-      "ocf": 75664000,
-      "capex": -1267000,
-      "gross_margin": 0.16772178072059682,
-      "op_margin": null,
-      "fcf_margin": 0.1758058684663864
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -850000,
       "gross_margin": 0.17444960282132968,
       "op_margin": null,
-      "fcf_margin": 0.006503969334226035,
-      "fcf_margin_change": -0.16930189913216037
+      "fcf_margin": 0.006503969334226035
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.1027882230102724,
       "op_margin": null,
       "fcf_margin": 0.07109576236719492,
-      "rev_growth_yoy": -0.006451201270390404,
       "fcf_margin_change": 0.13178057191506662
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.07401168198570328,
       "rev_growth_yoy": 0.046744213993343976,
-      "rev_growth_yoy_accel": 0.05319541526373438,
       "fcf_margin_change": -0.14510744435289818
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.08452431279764755,
       "rev_growth_yoy_accel": 0.008981487290009527,
       "fcf_margin_change": 0.09083731858100376
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 466682000,
+      "gross_profit": 72071000,
+      "operating_income": null,
+      "net_income": 31244000,
+      "opex": null,
+      "cogs": 394611000,
+      "rd": null,
+      "sga": 46196000,
+      "fcf": 16007000,
+      "ocf": 17387000,
+      "capex": -1380000,
+      "gross_margin": 0.15443278292284682,
+      "op_margin": null,
+      "fcf_margin": 0.03429958729927445,
+      "rev_growth_yoy": 0.0659415456862763,
+      "rev_growth_yoy_accel": -0.018582767111371246,
+      "fcf_margin_change": -0.11636006149104638
     }
   ],
   "signals": [
@@ -493,12 +495,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +4.7% vs prior quarter YoY: -0.6% (accel: +5.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -6.1% -> +7.1%",
@@ -538,7 +534,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:52:30.271552",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-24T10:47:02.045246"
 }

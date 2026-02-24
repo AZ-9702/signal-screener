@@ -1,25 +1,9 @@
 {
   "ticker": "OVV",
   "name": "Ovintiv Inc.",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1528000000,
-      "gross_profit": null,
-      "operating_income": -591000000,
-      "net_income": -614000000,
-      "opex": 2119000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 376000000,
-      "ocf": 719000000,
-      "capex": -343000000,
-      "gross_margin": null,
-      "op_margin": -0.3867801047120419,
-      "fcf_margin": 0.24607329842931938
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -350000000,
       "gross_margin": null,
       "op_margin": 0.10609357997823722,
-      "fcf_margin": 0.25952121871599565,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.013447920286676268
+      "fcf_margin": 0.25952121871599565
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": 0.0,
       "fcf_margin": 0.24986025712688653,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.032957183840834514
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.432764300688829,
       "fcf_margin": 0.09553758610362384,
-      "incr_op_margin_yoy": 1.124240750966317,
-      "rev_growth_yoy": 1.1852094240837696,
       "op_leverage_ratio": 14.761904761904761,
       "fcf_margin_change": -0.1543226710232627
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.11896288764616167,
       "incr_op_margin_yoy": -3.062015503875969,
       "rev_growth_yoy": 0.07018498367791078,
-      "rev_growth_yoy_accel": -1.115024440405859,
       "fcf_margin_change": 0.02342530154253783
     },
     {
@@ -277,7 +256,7 @@
       "incr_op_margin_yoy": -0.5217391304347826,
       "rev_growth_yoy": -0.014321295143212951,
       "rev_growth_yoy_accel": 0.239271266141656,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19455082276366464
     },
     {
@@ -435,9 +414,44 @@
       "rev_growth_yoy": -0.11101549053356283,
       "rev_growth_yoy_accel": -0.12412737864545094,
       "fcf_margin_change": -0.08253267704993203
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2147000000,
+      "gross_profit": null,
+      "operating_income": 436000000,
+      "net_income": 946000000,
+      "opex": 1711000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 489000000,
+      "ocf": 954000000,
+      "capex": -465000000,
+      "gross_margin": null,
+      "op_margin": 0.20307405682347462,
+      "fcf_margin": 0.22775966464834654,
+      "incr_op_margin_yoy": -10.585365853658537,
+      "rev_growth_yoy": -0.018738574040219377,
+      "rev_growth_yoy_accel": 0.09227691649334345,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.09804040036954692
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +13.0% -> +22.8% (+9.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -1.9% vs prior quarter YoY: -11.1% (accel: +9.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -595,28 +609,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.0% vs prior quarter YoY: +118.5% (decel: -111.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +86.6% vs OpEx growth +5.9% (leverage: 14.8x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -38.7% (year-ago) -> +43.3%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -38.7% -> +10.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -646,5 +642,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:35:49.067640"
+  "last_updated": "2026-02-24T10:10:07.201386"
 }

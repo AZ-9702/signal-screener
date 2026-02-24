@@ -1,25 +1,9 @@
 {
   "ticker": "VIRT",
-  "name": "VIRTU FINANCIAL, INC.",
+  "name": "Virtu Financial,\u00a0Inc.",
+  "sector": "Financial Services",
+  "industry": "Capital Markets",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 676696000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 112280000,
-      "opex": 417131000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 570115000,
-      "ocf": 577286000,
-      "capex": -7171000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.8424979606795371
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -3488000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.12878294086741485,
-      "op_leverage_ratio": 1.959620102079651,
-      "fcf_margin_change": -0.7137150198121223
+      "fcf_margin": 0.12878294086741485
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 1.1180038661912348,
-      "rev_growth_yoy": 0.042719330393559296,
       "op_leverage_ratio": 1.4906976175910613,
       "fcf_margin_change": 1.0898158086393925
     },
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": -0.3780940647004971,
       "rev_growth_yoy": -0.30744480392505424,
-      "rev_growth_yoy_accel": -0.35016413431861354,
       "fcf_margin_change": -1.496097930891732
     },
     {
@@ -288,7 +268,7 @@
       "fcf_margin": -0.6194848165714899,
       "rev_growth_yoy": 0.0362020052226055,
       "rev_growth_yoy_accel": -0.04055865436177919,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -1.243772799078202
     },
     {
@@ -420,9 +400,37 @@
       "rev_growth_yoy": 0.16686803236941883,
       "rev_growth_yoy_accel": -0.2755484701522808,
       "fcf_margin_change": -0.15060501446237734
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 969887000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 139865000,
+      "opex": 626304000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 505527000,
+      "ocf": 509384000,
+      "capex": -3857000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5212225754134244,
+      "rev_growth_yoy": 0.16253678299382104,
+      "rev_growth_yoy_accel": -0.004331249375597784,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.6142500042467381
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -9.3% -> +52.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -544,12 +552,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -30.7% vs prior quarter YoY: +4.3% (decel: -35.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.8% -> +111.8% (+109.0%)",
@@ -559,12 +561,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.9% -> +38.7% (+25.8%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +49.6% vs OpEx growth +25.3% (leverage: 2.0x)",
       "severity": "MEDIUM"
     }
   ],
@@ -596,5 +592,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:38.525288"
+  "last_updated": "2026-02-24T10:11:11.180846"
 }

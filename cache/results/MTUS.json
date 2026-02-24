@@ -1,25 +1,9 @@
 {
   "ticker": "MTUS",
   "name": "METALLUS INC.",
+  "sector": "Basic Materials",
+  "industry": "Steel",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 211200000,
-      "gross_profit": 14200000,
-      "operating_income": null,
-      "net_income": -12800000,
-      "opex": null,
-      "cogs": 197000000,
-      "rd": null,
-      "sga": 18600000,
-      "fcf": 52500000,
-      "ocf": 52500000,
-      "capex": null,
-      "gross_margin": 0.06723484848484848,
-      "op_margin": null,
-      "fcf_margin": 0.24857954545454544
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.11220760233918128,
       "op_margin": null,
-      "fcf_margin": 0.04824561403508772,
-      "fcf_margin_change": -0.2003339314194577
+      "fcf_margin": 0.04824561403508772
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.16375997635234998,
       "op_margin": null,
       "fcf_margin": 0.26810523204256576,
-      "rev_growth_yoy": 0.6017992424242424,
       "fcf_margin_change": 0.11157337286304875
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.037784090909090906,
       "rev_growth_yoy": 0.28654970760233917,
-      "rev_growth_yoy_accel": -0.31524953482190327,
       "fcf_margin_change": -0.23032114113347485
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.34639084507042256,
       "rev_growth_yoy_accel": 0.31279736017052434,
       "fcf_margin_change": -0.042329266599082135
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 267300000,
+      "gross_profit": 6000000,
+      "operating_income": null,
+      "net_income": -14300000,
+      "opex": null,
+      "cogs": 261300000,
+      "rd": null,
+      "sga": 22300000,
+      "fcf": -1900000,
+      "ocf": -1900000,
+      "capex": null,
+      "gross_margin": 0.02244668911335578,
+      "op_margin": null,
+      "fcf_margin": -0.00710811821922933,
+      "rev_growth_yoy": 0.11143451143451144,
+      "rev_growth_yoy_accel": -0.23495633363591112,
+      "fcf_margin_change": -0.07902704597339735
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +11.1% vs prior quarter YoY: +34.6% (decel: -23.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -535,12 +543,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +28.7% vs prior quarter YoY: +60.2% (decel: -31.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +15.7% -> +26.8% (+11.2%)",
@@ -580,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:07:59.929298",
-  "sector": "Basic Materials",
-  "industry": "Steel"
+  "last_updated": "2026-02-24T10:11:03.240828"
 }

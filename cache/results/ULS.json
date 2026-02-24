@@ -1,6 +1,8 @@
 {
   "ticker": "ULS",
   "name": "UL Solutions Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Business Services",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -76,7 +78,7 @@
       "gross_margin": 0.46345029239766083,
       "op_margin": 0.12573099415204678,
       "fcf_margin": 0.097953216374269,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01743139901034639
     },
     {
@@ -234,6 +236,28 @@
       "rev_growth_yoy": 0.07113543091655267,
       "rev_growth_yoy_accel": 0.008121732286415675,
       "fcf_margin_change": 0.003898895340416847
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 789000000,
+      "gross_profit": 392000000,
+      "operating_income": 118000000,
+      "net_income": 67000000,
+      "opex": 274000000,
+      "cogs": 397000000,
+      "rd": null,
+      "sga": 239000000,
+      "fcf": 86000000,
+      "ocf": 144000000,
+      "capex": -58000000,
+      "gross_margin": 0.4968314321926489,
+      "op_margin": 0.14955640050697086,
+      "fcf_margin": 0.10899873257287707,
+      "incr_op_margin_yoy": 0.06,
+      "rev_growth_yoy": 0.06765899864682003,
+      "rev_growth_yoy_accel": -0.0034764322697326405,
+      "fcf_margin_change": -0.030209441118055236
     }
   ],
   "signals": [
@@ -305,23 +329,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
-        11,
-        11
+        12,
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [],
@@ -329,5 +353,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:10.366025"
+  "last_updated": "2026-02-24T10:24:27.409835"
 }

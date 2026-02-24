@@ -1,25 +1,9 @@
 {
   "ticker": "FROG",
   "name": "JFrog Ltd.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 42689000,
-      "gross_profit": 34592000,
-      "operating_income": -8032000,
-      "net_income": -3714000,
-      "opex": 42624000,
-      "cogs": 8097000,
-      "rd": 11661000,
-      "sga": null,
-      "fcf": 11905000,
-      "ocf": 12816000,
-      "capex": -911000,
-      "gross_margin": 0.8103258450654736,
-      "op_margin": -0.18815151444165945,
-      "fcf_margin": 0.27887746257818175
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1135000,
       "gross_margin": 0.8130946836116841,
       "op_margin": -0.23536717900947057,
-      "fcf_margin": 0.17024863042562158,
-      "op_leverage_ratio": 0.5151352642207626,
-      "fcf_margin_change": -0.10862883215256017
+      "fcf_margin": 0.17024863042562158
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.7828347626443379,
       "op_margin": -0.3816935647241542,
       "fcf_margin": 0.28062326963333106,
-      "incr_op_margin_yoy": -0.8810056203541428,
-      "rev_growth_yoy": 0.3876174190072384,
       "op_leverage_ratio": 1.1172982680178507,
       "fcf_margin_change": 0.6280712706761034
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.06103993971363979,
       "incr_op_margin_yoy": -0.45821914127572677,
       "rev_growth_yoy": 0.41273537826868056,
-      "rev_growth_yoy_accel": 0.02511795926144217,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.21958332991969126
     },
     {
@@ -237,7 +216,7 @@
       "incr_op_margin_yoy": 0.21408054757685022,
       "rev_growth_yoy": 0.24131726812865928,
       "rev_growth_yoy_accel": -0.011822646465663778,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2099800900487544
     },
     {
@@ -446,9 +425,38 @@
       "rev_growth_yoy_accel": 0.02075235282618121,
       "op_leverage_ratio": 2.0322994912438426,
       "fcf_margin_change": -0.06827191372703326
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 145306000,
+      "gross_profit": 113136000,
+      "operating_income": -21322000,
+      "net_income": -15210000,
+      "opex": 134458000,
+      "cogs": 32170000,
+      "rd": 53163000,
+      "sga": null,
+      "fcf": 49855000,
+      "ocf": 50695000,
+      "capex": -840000,
+      "gross_margin": 0.7786051505099583,
+      "op_margin": -0.14673860680219675,
+      "fcf_margin": 0.343103519469258,
+      "incr_op_margin_yoy": 0.1400369508690297,
+      "rev_growth_yoy": 0.2517962059994142,
+      "rev_growth_yoy_accel": -0.0035863497517594767,
+      "op_leverage_ratio": 1.140919417457879,
+      "fcf_margin_change": 0.13266139452312667
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +21.0% -> +34.3% (+13.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -559,7 +567,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:51:19.004971",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:41:50.676257"
 }

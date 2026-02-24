@@ -1,25 +1,9 @@
 {
   "ticker": "JBGS",
   "name": "JBG SMITH PROPERTIES",
+  "sector": "Real Estate",
+  "industry": "REIT - Office",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 148629000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -45655000,
-      "opex": 166579000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 41166000,
-      "ocf": 41166000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.2769715196899663
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.40233772362347164,
-      "op_leverage_ratio": 15.131310115023982,
-      "fcf_margin_change": 0.12536620393350534
+      "fcf_margin": 0.40233772362347164
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.4015704511235206,
-      "rev_growth_yoy": 0.05905980663262217,
       "fcf_margin_change": 0.20506295535859592
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": 0.42971012255734264,
       "rev_growth_yoy": -0.020110231170858316,
-      "rev_growth_yoy_accel": -0.07917003780348049,
       "op_leverage_ratio": 5.355781393045797,
       "fcf_margin_change": 0.028139671433822067
     },
@@ -161,7 +141,7 @@
       "fcf_margin": 0.153894617041744,
       "rev_growth_yoy": -0.05991517112251787,
       "rev_growth_yoy_accel": -0.0008181482829637959,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10761529670692443
     },
     {
@@ -205,7 +185,7 @@
       "fcf_margin": 0.27870974490396305,
       "rev_growth_yoy": -0.055586083413083076,
       "rev_growth_yoy_accel": -0.013230914964411797,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.037536772277939556
     },
     {
@@ -418,9 +398,49 @@
       "rev_growth_yoy": -0.08936526840456971,
       "rev_growth_yoy_accel": -0.02403124534811095,
       "fcf_margin_change": -0.07714413687746305
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 127563000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -45547000,
+      "opex": 126900000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 32632000,
+      "ocf": 32632000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.25581085424456934,
+      "rev_growth_yoy": -0.02461347891911731,
+      "rev_growth_yoy_accel": 0.0647517894854524,
+      "op_leverage_ratio": 1.7530964518683394,
+      "fcf_margin_change": 0.18417930503975785
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +7.2% -> +25.6% (+18.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3.0% vs OpEx growth +1.7% (leverage: 1.8x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -2.5% vs prior quarter YoY: -8.9% (accel: +6.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
@@ -476,27 +496,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -2.0% vs prior quarter YoY: +5.9% (decel: -7.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.7% -> +40.2% (+20.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +27.7% -> +40.2% (+12.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +11.2% vs OpEx growth +0.7% (leverage: 15.1x)",
       "severity": "MEDIUM"
     }
   ],
@@ -528,7 +530,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:58:59.009930",
-  "sector": "Real Estate",
-  "industry": "REIT - Office"
+  "last_updated": "2026-02-24T10:36:17.541080"
 }

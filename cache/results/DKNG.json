@@ -1,6 +1,8 @@
 {
   "ticker": "DKNG",
   "name": "DRAFTKINGS INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Gambling",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -75,7 +77,7 @@
       "gross_margin": 0.4650990334336872,
       "op_margin": -0.7790756879522527,
       "fcf_margin": -0.3739523583161675,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.017611993968999262
     },
     {
@@ -119,7 +121,7 @@
       "incr_op_margin_yoy": 0.07493178312967137,
       "rev_growth_yoy": 0.5664555367013323,
       "rev_growth_yoy_accel": 0.2304418821137239,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4929246828265679
     },
     {
@@ -210,7 +212,7 @@
       "incr_op_margin_yoy": 0.5868665319443561,
       "rev_growth_yoy": 0.8767806771989661,
       "rev_growth_yoy_accel": 0.03199933469348326,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2478388882215529
     },
     {
@@ -367,7 +369,7 @@
       "incr_op_margin_yoy": 0.3956503143578119,
       "rev_growth_yoy": 0.19898791144820918,
       "rev_growth_yoy_accel": 0.06744135486202574,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.31838615414036664
     },
     {
@@ -390,7 +392,7 @@
       "incr_op_margin_yoy": 0.44853528595864395,
       "rev_growth_yoy": 0.3694774098390045,
       "rev_growth_yoy_accel": 0.17048949839079533,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.19849396331060848
     },
     {
@@ -414,9 +416,62 @@
       "rev_growth_yoy": 0.044298898209933456,
       "rev_growth_yoy_accel": -0.3251785116290711,
       "fcf_margin_change": 0.1352769565830203
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1989193000,
+      "gross_profit": 914687000,
+      "operating_income": 151760000,
+      "net_income": 136426000,
+      "opex": 762927000,
+      "cogs": 1074506000,
+      "rd": null,
+      "sga": null,
+      "fcf": 316517000,
+      "ocf": 320473000,
+      "capex": -3956000,
+      "gross_margin": 0.459828181579163,
+      "op_margin": 0.07629224514664992,
+      "fcf_margin": 0.15911829571087371,
+      "incr_op_margin_yoy": 0.4878081087017392,
+      "rev_growth_yoy": 0.42822586898645293,
+      "rev_growth_yoy_accel": 0.3839269707765195,
+      "op_leverage_ratio": 3.5605769862990586,
+      "fcf_margin_change": -0.0882936790902441
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +73.9% vs OpEx growth +20.7% (leverage: 3.6x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +43.5% -> +31.5% -> +46.0% (reversal +14.5%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +42.8% vs prior quarter YoY: +4.4% (accel: +38.4%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -10.0% (year-ago) -> +7.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -23.8% -> +7.6%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -617,23 +672,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
-        19,
-        19
+        20,
+        20
       ],
       "op_income": [
-        19,
-        19
+        20,
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -641,7 +696,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:26:13.026309",
-  "sector": "Consumer Cyclical",
-  "industry": "Gambling"
+  "last_updated": "2026-02-24T10:41:53.981076"
 }

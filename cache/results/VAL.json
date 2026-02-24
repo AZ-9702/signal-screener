@@ -1,25 +1,9 @@
 {
   "ticker": "VAL",
   "name": "Valaris Limited",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-06-30T00:00:00",
-      "quarter_label": "2020-06 (Q2)",
-      "revenue": 388800000,
-      "gross_profit": null,
-      "operating_income": -1019200000,
-      "net_income": -1107400000,
-      "opex": 370700000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -207500000,
-      "ocf": -176700000,
-      "capex": -30800000,
-      "gross_margin": null,
-      "op_margin": -2.6213991769547325,
-      "fcf_margin": -0.5336934156378601
-    },
     {
       "date": "2020-09-30T00:00:00",
       "quarter_label": "2020-09 (Q3)",
@@ -36,8 +20,7 @@
       "capex": -15800000,
       "gross_margin": null,
       "op_margin": -0.33087977567472837,
-      "fcf_margin": -0.10900806168944971,
-      "fcf_margin_change": 0.4246853539484104
+      "fcf_margin": -0.10900806168944971
     },
     {
       "date": "2020-12-31T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": -0.530522765598651,
       "fcf_margin": 0.45126475548060707,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5602728171700568
     },
     {
@@ -76,7 +59,7 @@
       "gross_margin": null,
       "op_margin": -2.755128622598502,
       "fcf_margin": -0.12276131553239987,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.574026071013007
     },
     {
@@ -160,7 +143,7 @@
       "fcf_margin": 0.07502287282708142,
       "incr_op_margin_yoy": 0.5266968325791855,
       "rev_growth_yoy": 0.33823079277624735,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5006217114430989
     },
     {
@@ -428,9 +411,37 @@
       "rev_growth_yoy": -0.07370548903747473,
       "rev_growth_yoy_accel": -0.08206477440052996,
       "fcf_margin_change": 0.12955111982646328
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 537400000,
+      "gross_profit": 124000000,
+      "operating_income": 39400000,
+      "net_income": 717500000,
+      "opex": 500500000,
+      "cogs": 413400000,
+      "rd": null,
+      "sga": null,
+      "fcf": -34100000,
+      "ocf": 72200000,
+      "capex": -106300000,
+      "gross_margin": 0.23074060290286566,
+      "op_margin": 0.07331596576107183,
+      "fcf_margin": -0.06345366579828805,
+      "incr_op_margin_yoy": 1.6978723404255318,
+      "rev_growth_yoy": -0.08042436687200548,
+      "rev_growth_yoy_accel": -0.006718877834530748,
+      "fcf_margin_change": -0.27883053334906865
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +169.8% vs year-ago OPM: +20.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -652,12 +663,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -10.9% -> +45.1%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2020-09 (Q3)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -53.4% -> -10.9% (+42.5%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -668,7 +673,7 @@
         20
       ],
       "gross_profit": [
-        15,
+        16,
         20
       ],
       "op_income": [
@@ -693,12 +698,11 @@
       ]
     ],
     "warnings": [
-      "gross_profit: 15/20Q",
       "gap: 1Q missing between 2021-03 (Q1) and 2021-09 (Q3)",
       "gap: 1Q missing between 2021-09 (Q3) and 2022-03 (Q1)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:11:50.660858"
+  "last_updated": "2026-02-24T10:13:19.733964"
 }

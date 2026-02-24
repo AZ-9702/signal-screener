@@ -1,25 +1,9 @@
 {
   "ticker": "WELPP",
   "name": "WISCONSIN ELECTRIC POWER COMPANY",
+  "sector": "",
+  "industry": "",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 826300000,
-      "gross_profit": 574300000,
-      "operating_income": 180300000,
-      "net_income": null,
-      "opex": 394000000,
-      "cogs": 252000000,
-      "rd": null,
-      "sga": null,
-      "fcf": -78100000,
-      "ocf": 122700000,
-      "capex": -200800000,
-      "gross_margin": 0.6950260196054702,
-      "op_margin": 0.2182016216870386,
-      "fcf_margin": -0.09451772963814595
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -180600000,
       "gross_margin": 0.5978909669717469,
       "op_margin": 0.2542777556705133,
-      "fcf_margin": 0.02248308794269797,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.11700081758084392
+      "fcf_margin": 0.02248308794269797
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.6290950744558992,
       "op_margin": 0.17434135166093928,
       "fcf_margin": -0.24845360824742269,
-      "incr_op_margin_yoy": -0.6017130620985011,
-      "rev_growth_yoy": 0.0565170035096212,
       "fcf_margin_change": -0.3732971626904765
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.15736940298507462,
       "incr_op_margin_yoy": 0.5014970059880239,
       "rev_growth_yoy": 0.06645443692797454,
-      "rev_growth_yoy_accel": 0.009937433418353334,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4058230112324973
     },
     {
@@ -165,7 +144,7 @@
       "incr_op_margin_yoy": 0.09991876523151909,
       "rev_growth_yoy": 0.12838965373383396,
       "rev_growth_yoy_accel": -0.011791615148341261,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08898195891122279
     },
     {
@@ -210,7 +189,7 @@
       "incr_op_margin_yoy": -1.592964824120603,
       "rev_growth_yoy": 0.018563432835820896,
       "rev_growth_yoy_accel": -0.09586955685490076,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.27675907749333806
     },
     {
@@ -300,7 +279,7 @@
       "incr_op_margin_yoy": -0.3239171374764595,
       "rev_growth_yoy": -0.04863082699880941,
       "rev_growth_yoy_accel": -0.024784594086896573,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3952064144123659
     },
     {
@@ -345,7 +324,7 @@
       "incr_op_margin_yoy": -0.4369747899159664,
       "rev_growth_yoy": -0.021575559786057474,
       "rev_growth_yoy_accel": -0.02346381925512334,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05998659926375044
     },
     {
@@ -437,6 +416,28 @@
       "rev_growth_yoy_accel": -0.007028699516377843,
       "op_leverage_ratio": 3.2176814620844874,
       "fcf_margin_change": -0.22287311018864636
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1101800000,
+      "gross_profit": 730100000,
+      "operating_income": 237000000,
+      "net_income": null,
+      "opex": 493100000,
+      "cogs": 371700000,
+      "rd": null,
+      "sga": null,
+      "fcf": -718600000,
+      "ocf": 133200000,
+      "capex": -851800000,
+      "gross_margin": 0.6626429479034307,
+      "op_margin": 0.21510255944817572,
+      "fcf_margin": -0.6522054819386458,
+      "incr_op_margin_yoy": -0.10492957746478873,
+      "rev_growth_yoy": 0.14794748906022087,
+      "rev_growth_yoy_accel": 0.03435534600453663,
+      "fcf_margin_change": -0.1570727753906801
     }
   ],
   "signals": [
@@ -583,18 +584,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.2% -> +7.7% (+5.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +69.5% -> +59.8% -> +66.6% (reversal +6.8%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -9.5% -> +2.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -622,5 +611,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:56:04.002576"
+  "last_updated": "2026-02-24T10:13:46.735736"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "DLX",
   "name": "DELUXE CORPORATION",
+  "sector": "Industrials",
+  "industry": "Conglomerates",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 454492000,
-      "gross_profit": 262514000,
-      "operating_income": 36584000,
-      "net_income": 24663000,
-      "opex": 225930000,
-      "cogs": 191979000,
-      "rd": null,
-      "sga": 207013000,
-      "fcf": 50742000,
-      "ocf": 50742000,
-      "capex": null,
-      "gross_margin": 0.5775987256101317,
-      "op_margin": 0.08049426612569638,
-      "fcf_margin": 0.11164552951427088
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.5954598607636244,
       "op_margin": 0.08159741107364299,
-      "fcf_margin": 0.08969913702454767,
-      "fcf_margin_change": -0.021946392489723215
+      "fcf_margin": 0.08969913702454767
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5530245804670727,
       "op_margin": 0.0760180519651229,
       "fcf_margin": 0.10794724619900978,
-      "incr_op_margin_yoy": 0.05849263027316661,
-      "rev_growth_yoy": 0.25541263652605545,
       "op_leverage_ratio": 0.8828517064705615,
       "fcf_margin_change": -0.014986337193361787
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.061626035268832674,
       "incr_op_margin_yoy": -0.0446880637205776,
       "rev_growth_yoy": 0.2600506726132202,
-      "rev_growth_yoy_accel": 0.004638036087164732,
       "fcf_margin_change": -0.046321210930177104
     },
     {
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.2972845392213555,
       "rev_growth_yoy": 0.17719398765411445,
       "rev_growth_yoy_accel": -0.08285668495910573,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.005736604241037599
     },
     {
@@ -188,7 +168,7 @@
       "incr_op_margin_yoy": -0.3075635367523969,
       "rev_growth_yoy": -0.011516452701222452,
       "rev_growth_yoy_accel": -0.05454452232938491,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.028465085647778318
     },
     {
@@ -233,7 +213,7 @@
       "incr_op_margin_yoy": 0.29440054963929924,
       "rev_growth_yoy": 0.015512840325924189,
       "rev_growth_yoy_accel": 0.03466699983600935,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10682901501975338
     },
     {
@@ -269,16 +249,16 @@
       "cogs": 253840000,
       "rd": null,
       "sga": 229188000,
-      "fcf": 83461000,
-      "ocf": 83461000,
+      "fcf": 83494000,
+      "ocf": 83494000,
       "capex": null,
       "gross_margin": 0.5276200117611154,
       "op_margin": 0.09483515829121415,
-      "fcf_margin": 0.1553155775228709,
+      "fcf_margin": 0.15537698841009073,
       "incr_op_margin_yoy": -0.20893393393393395,
       "rev_growth_yoy": -0.047233707562357716,
       "rev_growth_yoy_accel": -0.01625564840244434,
-      "fcf_margin_change": 0.02968621287438547
+      "fcf_margin_change": 0.029747623761605307
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -300,7 +280,7 @@
       "incr_op_margin_yoy": -0.9692603266090298,
       "rev_growth_yoy": -0.01908813363527179,
       "rev_growth_yoy_accel": 0.028145573927085926,
-      "fcf_margin_change": -0.10561046213933396
+      "fcf_margin_change": -0.1056718730265538
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -357,16 +337,16 @@
       "cogs": 248291000,
       "rd": null,
       "sga": 213491000,
-      "fcf": 60159000,
-      "ocf": 60159000,
-      "capex": null,
+      "fcf": 35655000,
+      "ocf": 60178000,
+      "capex": -24523000,
       "gross_margin": 0.5230181386467286,
       "op_margin": 0.09041852209026675,
-      "fcf_margin": 0.11556903712640189,
+      "fcf_margin": 0.06849538753539552,
       "incr_op_margin_yoy": 0.23153763824473778,
       "rev_growth_yoy": -0.031297221250400103,
       "rev_growth_yoy_accel": -0.013820034556860712,
-      "fcf_margin_change": -0.012921398946294557
+      "fcf_margin_change": -0.05999504853730092
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -389,7 +369,7 @@
       "rev_growth_yoy": 0.0028338832238225644,
       "rev_growth_yoy_accel": 0.03413110447422267,
       "op_leverage_ratio": 0.8841310181803973,
-      "fcf_margin_change": -0.02184356081920169
+      "fcf_margin_change": 0.025230088771804673
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -433,8 +413,30 @@
       "incr_op_margin_yoy": 2.902228247055833,
       "rev_growth_yoy": 0.022335384638675054,
       "rev_growth_yoy_accel": 0.05311542837110399,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.02627155802532652
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 535220000,
+      "gross_profit": 279280000,
+      "operating_income": 47707000,
+      "net_income": 11974000,
+      "opex": 231573000,
+      "cogs": 255940000,
+      "rd": null,
+      "sga": 221198000,
+      "fcf": 79335000,
+      "ocf": 102079000,
+      "capex": -22744000,
+      "gross_margin": 0.5218041179328127,
+      "op_margin": 0.08913530884496094,
+      "fcf_margin": 0.14822876574119054,
+      "incr_op_margin_yoy": 0.04361455635818454,
+      "rev_growth_yoy": 0.02818963165599198,
+      "rev_growth_yoy_accel": 0.005854247017316926,
+      "fcf_margin_change": 0.023939320357875132
     }
   ],
   "signals": [
@@ -548,7 +550,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:58:19.975837",
-  "sector": "Industrials",
-  "industry": "Conglomerates"
+  "last_updated": "2026-02-24T10:41:16.752954"
 }

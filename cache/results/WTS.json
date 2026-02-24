@@ -1,25 +1,9 @@
 {
   "ticker": "WTS",
   "name": "WATTS WATER TECHNOLOGIES INC",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 403400000,
-      "gross_profit": 169200000,
-      "operating_income": 54400000,
-      "net_income": 29200000,
-      "opex": 114800000,
-      "cogs": 234200000,
-      "rd": 10800000,
-      "sga": 113200000,
-      "fcf": 91400000,
-      "ocf": 101400000,
-      "capex": -10000000,
-      "gross_margin": 0.4194348041646009,
-      "op_margin": 0.13485374318294496,
-      "fcf_margin": 0.22657411998016858
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -4900000,
       "gross_margin": 0.42027582869586255,
       "op_margin": 0.14420517783692233,
-      "fcf_margin": 0.07016694894749577,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.15640717103267282
+      "fcf_margin": 0.07016694894749577
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.42055285925300695,
       "op_margin": 0.1320953787718928,
       "fcf_margin": 0.08187381304072588,
-      "incr_op_margin_yoy": 0.11631205673758865,
-      "rev_growth_yoy": 0.17476450173525038,
       "op_leverage_ratio": 0.7258004158004158,
       "fcf_margin_change": -0.03922508805817522
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.016407599309153715,
       "incr_op_margin_yoy": 0.23847695390781562,
       "rev_growth_yoy": 0.12073554318896686,
-      "rev_growth_yoy_accel": -0.05402895854628352,
       "fcf_margin_change": -0.0982814123498796
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 0.12096774193548387,
       "rev_growth_yoy": 0.21030315878736486,
       "rev_growth_yoy_accel": 0.11944840684474681,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11900469578195447
     },
     {
@@ -438,9 +417,38 @@
       "rev_growth_yoy": 0.12527593818984548,
       "rev_growth_yoy_accel": 0.047593031777657294,
       "fcf_margin_change": 0.08886365807207895
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 625100000,
+      "gross_profit": 309300000,
+      "operating_income": 113700000,
+      "net_income": 83700000,
+      "opex": 195600000,
+      "cogs": 315800000,
+      "rd": 20600000,
+      "sga": 194500000,
+      "fcf": 140300000,
+      "ocf": 154700000,
+      "capex": -14400000,
+      "gross_margin": 0.49480083186690127,
+      "op_margin": 0.18189089745640696,
+      "fcf_margin": 0.22444408894576867,
+      "incr_op_margin_yoy": 0.29161747343565525,
+      "rev_growth_yoy": 0.1567357512953368,
+      "rev_growth_yoy_accel": 0.03145981310549131,
+      "op_leverage_ratio": 0.4763316871395387,
+      "fcf_margin_change": 0.043146067039605523
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +29.2% vs year-ago OPM: +16.5%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -592,12 +600,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +12.1% vs prior quarter YoY: +17.5% (decel: -5.4%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.6% -> +12.1% (+5.5%)",
@@ -629,5 +631,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:38:30.137442"
+  "last_updated": "2026-02-24T10:09:48.632696"
 }

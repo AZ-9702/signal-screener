@@ -1,25 +1,9 @@
 {
   "ticker": "BROS",
   "name": "DUTCH BROS INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 89896000,
-      "gross_profit": 25668000,
-      "operating_income": -4922000,
-      "net_income": -11932000,
-      "opex": 94818000,
-      "cogs": 64228000,
-      "rd": null,
-      "sga": 30590000,
-      "fcf": -4135000,
-      "ocf": 10885000,
-      "capex": -15020000,
-      "gross_margin": 0.2855299457150485,
-      "op_margin": -0.05475215804930141,
-      "fcf_margin": -0.04599759722345822
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -7942000,
       "gross_margin": 0.32673988965936124,
       "op_margin": -0.03754618616186668,
-      "fcf_margin": 0.07637799261021411,
-      "op_leverage_ratio": 1.221429381565951,
-      "fcf_margin_change": 0.12237558983367233
+      "fcf_margin": 0.07637799261021411
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,9 +78,7 @@
       "gross_margin": 0.24154768703597945,
       "op_margin": -0.05428326670474015,
       "fcf_margin": -0.25879497430039977,
-      "incr_op_margin_yoy": -0.05344332855093257,
-      "rev_growth_yoy": 0.5582450832072617,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08067890610474945
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": -0.2677383737742843,
       "incr_op_margin_yoy": -0.19703584343557362,
       "rev_growth_yoy": 0.5402743331477451,
-      "rev_growth_yoy_accel": -0.01797075005951665,
       "op_leverage_ratio": 0.6809394410186898,
       "fcf_margin_change": -0.008943399473884506
     },
@@ -303,7 +282,7 @@
       "incr_op_margin_yoy": 0.33162452461712405,
       "rev_growth_yoy": 0.39455154688822763,
       "rev_growth_yoy_accel": 0.1354385441680762,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0027053575721613862
     },
     {
@@ -395,7 +374,7 @@
       "incr_op_margin_yoy": 0.06861704121019824,
       "rev_growth_yoy": 0.29099705924049163,
       "rev_growth_yoy_accel": -0.057900915362358196,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08119708693424904
     },
     {
@@ -443,9 +422,38 @@
       "rev_growth_yoy_accel": -0.027325947448471166,
       "op_leverage_ratio": 0.32232545018175934,
       "fcf_margin_change": -0.0411557673789801
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 443610000,
+      "gross_profit": 107130000,
+      "operating_income": 33959000,
+      "net_income": 21370000,
+      "opex": 409651000,
+      "cogs": 336480000,
+      "rd": null,
+      "sga": 73171000,
+      "fcf": 8472000,
+      "ocf": 79639000,
+      "capex": -71167000,
+      "gross_margin": 0.24149590856833705,
+      "op_margin": 0.07655147539505422,
+      "fcf_margin": 0.019097856225062555,
+      "incr_op_margin_yoy": 0.18032412917559312,
+      "rev_growth_yoy": 0.29413103218917924,
+      "rev_growth_yoy_accel": 0.0417094741131796,
+      "op_leverage_ratio": 0.655530565600498,
+      "fcf_margin_change": -0.02556860898608801
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +18.0% vs year-ago OPM: +4.6%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -625,12 +633,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -3.8% -> +11.0%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -4.6% -> +7.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -658,7 +660,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:39:56.548414",
-  "sector": "Consumer Cyclical",
-  "industry": "Restaurants"
+  "last_updated": "2026-02-24T10:42:49.072966"
 }

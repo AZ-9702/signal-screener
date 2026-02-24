@@ -1,25 +1,9 @@
 {
   "ticker": "RIG",
-  "name": "Transocean\u00a0Ltd.",
+  "name": "TRANSOCEAN\u00a0LTD.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Drilling",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 690000000,
-      "gross_profit": 225000000,
-      "operating_income": -34000000,
-      "net_income": -37000000,
-      "opex": 704000000,
-      "cogs": 465000000,
-      "rd": null,
-      "sga": null,
-      "fcf": 231000000,
-      "ocf": 278000000,
-      "capex": -47000000,
-      "gross_margin": 0.32608695652173914,
-      "op_margin": -0.04927536231884058,
-      "fcf_margin": 0.3347826086956522
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -59000000,
       "gross_margin": 0.333843797856049,
       "op_margin": -0.10260336906584992,
-      "fcf_margin": 0.05666156202143951,
-      "fcf_margin_change": -0.27812104667421267
+      "fcf_margin": 0.05666156202143951
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.3075684380032206,
       "op_margin": -0.06924315619967794,
       "fcf_margin": 0.18357487922705315,
-      "incr_op_margin_yoy": 0.13043478260869565,
-      "rev_growth_yoy": -0.1,
       "fcf_margin_change": 0.01744069392353878
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": -0.1825938566552901,
       "incr_op_margin_yoy": -0.2537313432835821,
       "rev_growth_yoy": -0.10260336906584992,
-      "rev_growth_yoy_accel": -0.002603369065849917,
       "fcf_margin_change": -0.3661687358823432
     },
     {
@@ -206,7 +186,7 @@
       "incr_op_margin_yoy": -1.6984126984126984,
       "rev_growth_yoy": 0.1075085324232082,
       "rev_growth_yoy_accel": 0.13166312179518888,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1839616165006331
     },
     {
@@ -297,7 +277,7 @@
       "incr_op_margin_yoy": 1.3508771929824561,
       "rev_growth_yoy": 0.17565485362095531,
       "rev_growth_yoy_accel": -0.04711742360676746,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05685172705935623
     },
     {
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": -7.125984251968504,
       "rev_growth_yoy": 0.14750290360046459,
       "rev_growth_yoy_accel": -0.03991518290019072,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14279075171372138
     },
     {
@@ -433,11 +413,52 @@
       "incr_op_margin_yoy": -14.9,
       "rev_growth_yoy": 0.08438818565400844,
       "rev_growth_yoy_accel": -0.06311471794645615,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12333606389514642
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1043000000,
+      "gross_profit": 438000000,
+      "operating_income": 240000000,
+      "net_income": 25000000,
+      "opex": 802000000,
+      "cogs": 605000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 321000000,
+      "ocf": 349000000,
+      "capex": -28000000,
+      "gross_margin": 0.4199424736337488,
+      "op_margin": 0.23010546500479387,
+      "fcf_margin": 0.3077660594439118,
+      "incr_op_margin_yoy": 1.2087912087912087,
+      "rev_growth_yoy": 0.09558823529411764,
+      "rev_growth_yoy_accel": 0.011200049640109205,
+      "op_leverage_ratio": 1.0492571630703926,
+      "fcf_margin_change": 0.07916683765402852
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +22.9% -> +30.8% (+7.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +120.9% vs year-ago OPM: +13.7%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -163.1% -> +23.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -638,5 +659,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:00:08.714433"
+  "last_updated": "2026-02-24T10:08:27.349038"
 }

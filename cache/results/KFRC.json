@@ -1,25 +1,9 @@
 {
   "ticker": "KFRC",
-  "name": "Kforce Inc",
+  "name": "Kforce Inc.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 354048000,
-      "gross_profit": 100461000,
-      "operating_income": 24188000,
-      "net_income": 18285000,
-      "opex": 77571000,
-      "cogs": 253587000,
-      "rd": null,
-      "sga": 75099000,
-      "fcf": 14109000,
-      "ocf": 15288000,
-      "capex": -1179000,
-      "gross_margin": 0.2837496610629067,
-      "op_margin": 0.06831842010122921,
-      "fcf_margin": 0.03985052874186551
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1350000,
       "gross_margin": 0.27168284121412345,
       "op_margin": 0.053550829375731294,
-      "fcf_margin": 0.058024640374423564,
-      "op_leverage_ratio": 0.6827358018158282,
-      "fcf_margin_change": 0.018174111632558054
+      "fcf_margin": 0.058024640374423564
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.29239590796329057,
       "op_margin": 0.060442345464204426,
       "fcf_margin": 0.0281217863426569,
-      "incr_op_margin_yoy": 0.010921683537559936,
-      "rev_growth_yoy": 0.15904623101952278,
       "op_leverage_ratio": 0.32894492246141394,
       "fcf_margin_change": -0.02467354545944131
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.08758726709787586,
       "incr_op_margin_yoy": 0.15431133936213762,
       "rev_growth_yoy": 0.14795787734875077,
-      "rev_growth_yoy_accel": -0.011088353670772017,
       "op_leverage_ratio": 1.811207601825156,
       "fcf_margin_change": 0.05946548075521896
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": 0.022065527931432738,
       "rev_growth_yoy": 0.08151848052842567,
       "rev_growth_yoy_accel": -0.0664393968203251,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01707209697810934
     },
     {
@@ -321,7 +300,7 @@
       "incr_op_margin_yoy": 0.1896142613774641,
       "rev_growth_yoy": -0.084462601814024,
       "rev_growth_yoy_accel": 0.048809318914454294,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01794983610877105
     },
     {
@@ -410,7 +389,7 @@
       "incr_op_margin_yoy": 0.21870739023725116,
       "rev_growth_yoy": -0.061748213674302166,
       "rev_growth_yoy_accel": 0.0003764904227284288,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05436375185210547
     },
     {
@@ -434,9 +413,37 @@
       "rev_growth_yoy": -0.05851369442345303,
       "rev_growth_yoy_accel": 0.0032345192508491383,
       "fcf_margin_change": 0.01702143523271906
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 332018000,
+      "gross_profit": 90208000,
+      "operating_income": 8556000,
+      "net_income": 5163000,
+      "opex": 81652000,
+      "cogs": 241810000,
+      "rd": null,
+      "sga": 80329000,
+      "fcf": 16666000,
+      "ocf": 19708000,
+      "capex": -3042000,
+      "gross_margin": 0.27169611286135087,
+      "op_margin": 0.025769687185634514,
+      "fcf_margin": 0.05019607370684722,
+      "incr_op_margin_yoy": 0.5969058143488609,
+      "rev_growth_yoy": -0.03421935994321983,
+      "rev_growth_yoy_accel": 0.024294334480233194,
+      "fcf_margin_change": -0.009371934229541419
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +59.7% vs year-ago OPM: +4.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -520,12 +527,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +15.4% vs year-ago OPM: +5.4%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +28.4% -> +27.2% -> +29.5% (reversal +2.3%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -553,7 +554,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:16:27.116826",
-  "sector": "Industrials",
-  "industry": "Staffing & Employment Services"
+  "last_updated": "2026-02-24T10:14:05.817508"
 }

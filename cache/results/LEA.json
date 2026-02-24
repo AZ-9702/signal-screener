@@ -1,25 +1,9 @@
 {
   "ticker": "LEA",
   "name": "LEAR CORP",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 5243200000,
-      "gross_profit": 459300000,
-      "operating_income": 296200000,
-      "net_income": 201600000,
-      "opex": 163100000,
-      "cogs": 4783900000,
-      "rd": null,
-      "sga": 146600000,
-      "fcf": 233800000,
-      "ocf": 400800000,
-      "capex": -167000000,
-      "gross_margin": 0.08759917607567898,
-      "op_margin": 0.05649221849252365,
-      "fcf_margin": 0.04459108941104669
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -112900000,
       "gross_margin": 0.09203645599880472,
       "op_margin": 0.05741072762587778,
-      "fcf_margin": 0.025138204093829376,
-      "op_leverage_ratio": 0.15511630866577902,
-      "fcf_margin_change": -0.019452885317217315
+      "fcf_margin": 0.025138204093829376
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -95,9 +77,7 @@
       "gross_margin": 0.055535062912414446,
       "op_margin": 0.02354604696913808,
       "fcf_margin": -0.002602565678921267,
-      "incr_op_margin_yoy": 0.4988992845349477,
-      "rev_growth_yoy": -0.06930881904180652,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03418109019474913
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.017356577835803702,
       "incr_op_margin_yoy": 1.2253424657534246,
       "rev_growth_yoy": -0.027267294187957567,
-      "rev_growth_yoy_accel": 0.04204152485384896,
       "op_leverage_ratio": 0.28486695498538245,
       "fcf_margin_change": 0.01995914351472497
     },
@@ -165,7 +144,7 @@
       "incr_op_margin_yoy": 0.15436793422404932,
       "rev_growth_yoy": 0.22796495009605922,
       "rev_growth_yoy_accel": 0.1627854596849852,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05302163525063085
     },
     {
@@ -279,7 +258,7 @@
       "incr_op_margin_yoy": 0.07144375930257282,
       "rev_growth_yoy": 0.08756446778007411,
       "rev_growth_yoy_accel": -0.015427213514285956,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.021107032138128777
     },
     {
@@ -369,7 +348,7 @@
       "incr_op_margin_yoy": 0.06003159557661927,
       "rev_growth_yoy": -0.021673628706430186,
       "rev_growth_yoy_accel": 0.012334328394417421,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07647474802896298
     },
     {
@@ -438,6 +417,29 @@
       "rev_growth_yoy": 0.017083303488288803,
       "rev_growth_yoy_accel": 0.014089490701381744,
       "fcf_margin_change": 0.02572803634326901
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5988600000,
+      "gross_profit": 342400000,
+      "operating_income": 155100000,
+      "net_income": 82700000,
+      "opex": 187300000,
+      "cogs": 5646200000,
+      "rd": null,
+      "sga": 182500000,
+      "fcf": 281100000,
+      "ocf": 475900000,
+      "capex": -194800000,
+      "gross_margin": 0.05717529973616538,
+      "op_margin": 0.025899208496142672,
+      "fcf_margin": 0.04693918445045587,
+      "incr_op_margin_yoy": -0.2,
+      "rev_growth_yoy": 0.04794736289504077,
+      "rev_growth_yoy_accel": 0.030864059406751968,
+      "op_leverage_ratio": 0.5781255091870744,
+      "fcf_margin_change": -0.007112014535423913
     }
   ],
   "signals": [
@@ -560,12 +562,6 @@
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +122.5% vs year-ago OPM: +5.7%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +49.9% vs year-ago OPM: +5.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -593,7 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:54:07.512651",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:46:12.328155"
 }

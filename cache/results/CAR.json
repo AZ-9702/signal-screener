@@ -1,25 +1,9 @@
 {
   "ticker": "CAR",
   "name": "AVIS BUDGET GROUP, INC.",
+  "sector": "Industrials",
+  "industry": "Rental & Leasing Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1355000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": -90000000,
-      "opex": 6271000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 154000000,
-      "fcf": 59000000,
-      "ocf": 59000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.043542435424354244
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.24489795918367346,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.20135552375931923
+      "fcf_margin": 0.24489795918367346
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.36706889840404827,
-      "rev_growth_yoy": 0.8959409594095941,
       "fcf_margin_change": -0.0637874828022163
     },
     {
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.4720394736842105,
       "rev_growth_yoy": 0.7725947521865889,
-      "rev_growth_yoy_accel": -0.12334620722300516,
       "fcf_margin_change": 0.10497057528016224
     },
     {
@@ -398,7 +378,7 @@
       "fcf_margin": 0.2754195459032576,
       "rev_growth_yoy": -0.002952755905511811,
       "rev_growth_yoy_accel": 0.04447962355352386,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.020687035615191807
     },
     {
@@ -422,6 +402,27 @@
       "rev_growth_yoy_accel": 0.014159652457235949,
       "op_leverage_ratio": 21.71049089114242,
       "fcf_margin_change": 0.12327326455425874
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2664000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": -747000000,
+      "opex": 3404000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 321000000,
+      "fcf": 437000000,
+      "ocf": 437000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.16403903903903905,
+      "rev_growth_yoy": -0.016974169741697416,
+      "rev_growth_yoy_accel": -0.028181066293421556,
+      "fcf_margin_change": -0.23465377141847732
     }
   ],
   "signals": [
@@ -498,12 +499,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +77.3% vs prior quarter YoY: +89.6% (decel: -12.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +26.6% vs OpEx growth +9.9% (leverage: 2.7x)",
@@ -519,12 +514,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +72.8% vs OpEx growth +16.2% (leverage: 4.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +4.4% -> +24.5% (+20.1%)",
       "severity": "MEDIUM"
     }
   ],
@@ -556,7 +545,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:11:59.981367",
-  "sector": "Industrials",
-  "industry": "Rental & Leasing Services"
+  "last_updated": "2026-02-24T10:21:10.914971"
 }

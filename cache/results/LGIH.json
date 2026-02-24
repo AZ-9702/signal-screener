@@ -1,25 +1,9 @@
 {
   "ticker": "LGIH",
   "name": "LGI HOMES, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Residential Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 897398000,
-      "gross_profit": 243329000,
-      "operating_income": 165557000,
-      "net_income": 136428000,
-      "opex": 77772000,
-      "cogs": 654069000,
-      "rd": null,
-      "sga": null,
-      "fcf": 89177000,
-      "ocf": 89177000,
-      "capex": null,
-      "gross_margin": 0.27114947882656304,
-      "op_margin": 0.18448559056293862,
-      "fcf_margin": 0.09937285351649992
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.2690674874956265,
       "op_margin": 0.17344355785725113,
-      "fcf_margin": 0.22761571946007736,
-      "fcf_margin_change": 0.12824286594357742
+      "fcf_margin": 0.22761571946007736
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.2642907789023763,
       "op_margin": 0.1764002416749472,
       "fcf_margin": -0.09910045988145944,
-      "incr_op_margin_yoy": 0.25172857706442975,
-      "rev_growth_yoy": -0.1073347611650572,
       "op_leverage_ratio": 0.6993625807176502,
       "fcf_margin_change": -0.04752437234646779
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.25233403534474863,
       "incr_op_margin_yoy": 0.1671200665403401,
       "rev_growth_yoy": -0.22650658046640498,
-      "rev_growth_yoy_accel": -0.11917181930134778,
       "fcf_margin_change": -0.1532335754632892
     },
     {
@@ -267,16 +247,16 @@
       "cogs": 465785000,
       "rd": null,
       "sga": null,
-      "fcf": -34293000,
+      "fcf": -34888000,
       "ocf": -34293000,
-      "capex": null,
+      "capex": -595000,
       "gross_margin": 0.2344275444023313,
       "op_margin": 0.09835736850236845,
-      "fcf_margin": -0.056364580696696656,
+      "fcf_margin": -0.057342533209294985,
       "incr_op_margin_yoy": 0.15844929755642853,
       "rev_growth_yoy": 0.24608099749724532,
       "rev_growth_yoy_accel": 0.11727758150599002,
-      "fcf_margin_change": 0.1316186883761878
+      "fcf_margin_change": 0.13064073586358949
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -298,7 +278,7 @@
       "incr_op_margin_yoy": 0.0758294821047396,
       "rev_growth_yoy": -0.19801911124699142,
       "rev_growth_yoy_accel": -0.4441001087442368,
-      "fcf_margin_change": -0.2007513023380148
+      "fcf_margin_change": -0.19977334982541645
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -343,7 +323,7 @@
       "incr_op_margin_yoy": -0.05743843800087425,
       "rev_growth_yoy": 0.05556734068617528,
       "rev_growth_yoy_accel": 0.12185432132993682,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11168835410628031
     },
     {
@@ -357,16 +337,16 @@
       "cogs": 429885000,
       "rd": null,
       "sga": null,
-      "fcf": 57008000,
+      "fcf": 56401000,
       "ocf": 57008000,
-      "capex": null,
+      "capex": -607000,
       "gross_margin": 0.22876195738756647,
       "op_margin": 0.08178566046401481,
-      "fcf_margin": 0.10227558145375998,
+      "fcf_margin": 0.10118658906773641,
       "incr_op_margin_yoy": 0.2794111882080834,
       "rev_growth_yoy": -0.083854086197885,
       "rev_growth_yoy_accel": -0.13942142688406028,
-      "fcf_margin_change": 0.12962526405139688
+      "fcf_margin_change": 0.1285362716653733
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -388,7 +368,7 @@
       "incr_op_margin_yoy": 0.47079708858512337,
       "rev_growth_yoy": -0.1008849919790406,
       "rev_growth_yoy_accel": -0.01703090578115561,
-      "fcf_margin_change": -0.46645234999283003
+      "fcf_margin_change": -0.46536335760680647
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": 0.23453937418075488,
       "rev_growth_yoy": -0.1975312740146424,
       "rev_growth_yoy_accel": -0.0966462820356018,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18541837893029212
     },
     {
@@ -434,9 +414,56 @@
       "rev_growth_yoy": -0.3915324597225759,
       "rev_growth_yoy_accel": -0.19400118570793348,
       "fcf_margin_change": 0.1453092478350431
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 473967000,
+      "gross_profit": 84113000,
+      "operating_income": 18515000,
+      "net_income": 17321000,
+      "opex": 65598000,
+      "cogs": 389854000,
+      "rd": null,
+      "sga": null,
+      "fcf": 86776000,
+      "ocf": 86776000,
+      "capex": null,
+      "gross_margin": 0.17746594172168104,
+      "op_margin": 0.039063901073281476,
+      "fcf_margin": 0.18308447634539957,
+      "incr_op_margin_yoy": 0.32449148377662446,
+      "rev_growth_yoy": -0.14967635218049646,
+      "rev_growth_yoy_accel": 0.24185610754207942,
+      "op_leverage_ratio": 6.297532047249004,
+      "fcf_margin_change": 0.2165336181191344
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -3.3% -> +18.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +19.5% vs OpEx growth +3.1% (leverage: 6.3x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -15.0% vs prior quarter YoY: -39.2% (accel: +24.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +32.4% vs year-ago OPM: +8.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -482,7 +509,7 @@
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -2.7% -> +10.2%",
+      "detail": "FCF margin: -2.7% -> +10.1%",
       "severity": "HIGH"
     },
     {
@@ -536,7 +563,7 @@
     {
       "quarter": "2023-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -18.8% -> -5.6% (+13.2%)",
+      "detail": "FCF margin: -18.8% -> -5.7% (+13.1%)",
       "severity": "MEDIUM"
     },
     {
@@ -630,21 +657,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -22.7% vs prior quarter YoY: -10.7% (decel: -11.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +12.1% vs OpEx growth +0.8% (leverage: 14.5x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +9.9% -> +22.8% (+12.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -673,7 +688,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:56:41.709004",
-  "sector": "Consumer Cyclical",
-  "industry": "Residential Construction"
+  "last_updated": "2026-02-24T10:16:27.649209"
 }

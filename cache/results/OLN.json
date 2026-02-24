@@ -1,25 +1,9 @@
 {
   "ticker": "OLN",
   "name": "OLIN CORPORATION",
+  "sector": "Basic Materials",
+  "industry": "Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1654100000,
-      "gross_profit": 196800000,
-      "operating_income": 80400000,
-      "net_income": -33000000,
-      "opex": 116400000,
-      "cogs": 1457300000,
-      "rd": null,
-      "sga": 112900000,
-      "fcf": 52100000,
-      "ocf": 127700000,
-      "capex": -75600000,
-      "gross_margin": 0.11897708723777281,
-      "op_margin": 0.04860649295689499,
-      "fcf_margin": 0.03149749108276404
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -51200000,
       "gross_margin": 0.2579737335834897,
       "op_margin": 0.1986658328121743,
-      "fcf_margin": 0.113925370022931,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.08242787894016695
+      "fcf_margin": 0.113925370022931
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.28216742874236145,
       "op_margin": 0.23460535874535277,
       "fcf_margin": 0.21140122216999274,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.030156005405035297
     },
     {
@@ -97,9 +79,7 @@
       "gross_margin": 0.25913429888084266,
       "op_margin": 0.2162606978275181,
       "fcf_margin": 0.17466260697827518,
-      "incr_op_margin_yoy": 0.5734896302975654,
-      "rev_growth_yoy": 0.4693186627168853,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03673861519171756
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": 0.12440074754204924,
       "incr_op_margin_yoy": 0.30464430519719865,
       "rev_growth_yoy": 0.28278090473212425,
-      "rev_growth_yoy_accel": -0.18653775798476108,
       "op_leverage_ratio": 0.4153380102040817,
       "fcf_margin_change": -0.050261859436225936
     },
@@ -145,7 +124,7 @@
       "incr_op_margin_yoy": 0.4316109422492401,
       "rev_growth_yoy": 0.17773375951019674,
       "rev_growth_yoy_accel": -0.10504714522192751,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0854918406617656
     },
     {
@@ -367,7 +346,7 @@
       "incr_op_margin_yoy": -0.9118165784832452,
       "rev_growth_yoy": 0.03511705685618729,
       "rev_growth_yoy_accel": 0.0841178944773432,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03796112927483427
     },
     {
@@ -412,7 +391,7 @@
       "incr_op_margin_yoy": -0.884514435695538,
       "rev_growth_yoy": 0.06952554744525548,
       "rev_growth_yoy_accel": 0.06408312097916363,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21039008669141201
     },
     {
@@ -436,9 +415,43 @@
       "rev_growth_yoy": 0.0778232148474363,
       "rev_growth_yoy_accel": 0.008297667402180825,
       "fcf_margin_change": -0.10515675501572615
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1665100000,
+      "gross_profit": 31300000,
+      "operating_income": -156500000,
+      "net_income": -143200000,
+      "opex": 187800000,
+      "cogs": 1633800000,
+      "rd": null,
+      "sga": 169000000,
+      "fcf": 321200000,
+      "ocf": 321200000,
+      "capex": null,
+      "gross_margin": 0.018797669809621043,
+      "op_margin": -0.09398834904810521,
+      "fcf_margin": 0.19290132724761275,
+      "incr_op_margin_yoy": 32.87096774193548,
+      "rev_growth_yoy": -0.0037096870699455512,
+      "rev_growth_yoy_accel": -0.08153290191738186,
+      "fcf_margin_change": 0.1773164568296814
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +1.6% -> +19.3% (+17.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -0.4% vs prior quarter YoY: +7.8% (decel: -8.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -615,21 +628,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +28.3% vs prior quarter YoY: +46.9% (decel: -18.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +30.5% vs year-ago OPM: +19.9%",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +57.3% vs year-ago OPM: +4.9%",
-      "severity": "HIGH"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -647,12 +648,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +15.8% vs OpEx growth +0.3% (leverage: 59.8x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +3.1% -> +11.4% (+8.2%)",
       "severity": "MEDIUM"
     }
   ],
@@ -681,7 +676,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:27:59.122924",
-  "sector": "Basic Materials",
-  "industry": "Chemicals"
+  "last_updated": "2026-02-24T10:14:10.156483"
 }

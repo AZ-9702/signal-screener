@@ -1,25 +1,9 @@
 {
   "ticker": "TRAK",
-  "name": "ReposiTrak, Inc.",
+  "name": "REPOSITRAK, INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 10399606,
-      "gross_profit": 8308018,
-      "operating_income": 384585,
-      "net_income": 1622859,
-      "opex": 4789619,
-      "cogs": 2091588,
-      "rd": null,
-      "sga": null,
-      "fcf": 2442373,
-      "ocf": 2532666,
-      "capex": -90293,
-      "gross_margin": 0.7988781498068293,
-      "op_margin": 0.03698072792373096,
-      "fcf_margin": 0.234852454987237
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -2173,
       "gross_margin": 0.5626058108372879,
       "op_margin": 0.1192681161104783,
-      "fcf_margin": -0.06768473102710816,
-      "fcf_margin_change": -0.30253718601434515
+      "fcf_margin": -0.06768473102710816
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.8122897279875193,
       "op_margin": 0.21994943479939646,
       "fcf_margin": 0.44189859993609865,
-      "incr_op_margin_yoy": -0.09477045970249184,
-      "rev_growth_yoy": -0.5813700057482947,
       "fcf_margin_change": 0.19669241537521856
     },
     {
@@ -117,8 +98,7 @@
       "fcf_margin": 0.206377392334258,
       "incr_op_margin_yoy": -0.312442640767908,
       "rev_growth_yoy": -0.24352416090221068,
-      "rev_growth_yoy_accel": 0.337845844846084,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.23552120760184064
     },
     {
@@ -204,7 +184,7 @@
       "fcf_margin": 0.8090228624981111,
       "rev_growth_yoy": 0.05886754467717288,
       "rev_growth_yoy_accel": -0.032304631277964804,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5485886736010382
     },
     {
@@ -377,7 +357,7 @@
       "fcf_margin": 0.24112455552601977,
       "rev_growth_yoy": 0.16300645877393818,
       "rev_growth_yoy_accel": 0.09176675165589832,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3889588478018088
     },
     {
@@ -420,11 +400,38 @@
       "fcf_margin": 0.2556653164121982,
       "rev_growth_yoy": 0.09746575259384886,
       "rev_growth_yoy_accel": -0.014002237066149392,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.030707890186643105
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5856811,
+      "gross_profit": 5003067,
+      "operating_income": 1816933,
+      "net_income": 1686040,
+      "opex": 4039878,
+      "cogs": 853744,
+      "rd": null,
+      "sga": null,
+      "fcf": 2238226,
+      "ocf": 2238225,
+      "capex": 1,
+      "gross_margin": 0.8542305701857206,
+      "op_margin": 0.31022565010207775,
+      "fcf_margin": 0.38215779884309053,
+      "rev_growth_yoy": 0.06663797681549208,
+      "rev_growth_yoy_accel": -0.030827775778356784,
+      "fcf_margin_change": 0.12649248243089234
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +25.6% -> +38.2% (+12.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -510,12 +517,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -24.4% vs prior quarter YoY: -58.1% (accel: +33.8%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +24.5% -> +44.2% (+19.7%)",
@@ -525,12 +526,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -6.8% -> +43.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +79.9% -> +56.3% -> +96.1% (reversal +39.9%)",
       "severity": "HIGH"
     }
   ],
@@ -559,5 +554,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:00:31.649076"
+  "last_updated": "2026-02-24T10:40:10.084766"
 }

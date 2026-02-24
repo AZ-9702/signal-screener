@@ -1,25 +1,9 @@
 {
   "ticker": "RHI",
-  "name": "Robert Half Inc.",
+  "name": "ROBERT HALF INC.",
+  "sector": "Industrials",
+  "industry": "Staffing & Employment Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1304086000,
-      "gross_profit": 514342000,
-      "operating_income": 129723000,
-      "net_income": 94416000,
-      "opex": 384619000,
-      "cogs": 789759000,
-      "rd": null,
-      "sga": 425162000,
-      "fcf": 27388000,
-      "ocf": 31887000,
-      "capex": -4499000,
-      "gross_margin": 0.39440803750672887,
-      "op_margin": 0.09947426780135665,
-      "fcf_margin": 0.021001682404381307
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -9739000,
       "gross_margin": 0.40168695204450866,
       "op_margin": 0.10772250747293297,
-      "fcf_margin": 0.04170325662552382,
-      "op_leverage_ratio": 1.0512373797239982,
-      "fcf_margin_change": 0.020701574221142514
+      "fcf_margin": 0.04170325662552382
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.42042592957748864,
       "op_margin": 0.12577256447618732,
       "fcf_margin": 0.07517697157550325,
-      "incr_op_margin_yoy": 0.1993942009011852,
-      "rev_growth_yoy": 0.3572088037138655,
       "op_leverage_ratio": 0.6888747883362633,
       "fcf_margin_change": -0.05101378545225509
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.02985121504225731,
       "incr_op_margin_yoy": 0.1849279872446897,
       "rev_growth_yoy": 0.297811753600595,
-      "rev_growth_yoy_accel": -0.05939705011327051,
       "op_leverage_ratio": 0.5834741965460986,
       "fcf_margin_change": -0.04532575653324594
     },
@@ -434,9 +413,43 @@
       "rev_growth_yoy": -0.07544484520178785,
       "rev_growth_yoy_accel": -0.005645643287251992,
       "fcf_margin_change": -0.029140175130772508
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1302379000,
+      "gross_profit": 489563000,
+      "operating_income": 22451000,
+      "net_income": 31756000,
+      "opex": 467112000,
+      "cogs": 812816000,
+      "rd": null,
+      "sga": 467112000,
+      "fcf": 170786000,
+      "ocf": 182533000,
+      "capex": -11747000,
+      "gross_margin": 0.3758990278559467,
+      "op_margin": 0.01723845362985736,
+      "fcf_margin": 0.1311338711696058,
+      "incr_op_margin_yoy": 0.6008150713187403,
+      "rev_growth_yoy": -0.05786647877705856,
+      "rev_growth_yoy_accel": 0.017578366424729285,
+      "fcf_margin_change": 0.08420284170214344
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +4.7% -> +13.1% (+8.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +60.1% vs year-ago OPM: +5.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -558,12 +571,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +29.8% vs prior quarter YoY: +35.7% (decel: -5.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.2% -> +10.1% (+5.9%)",
@@ -595,5 +602,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:24:54.475568"
+  "last_updated": "2026-02-24T10:41:20.504961"
 }

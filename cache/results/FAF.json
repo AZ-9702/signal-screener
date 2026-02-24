@@ -1,25 +1,9 @@
 {
   "ticker": "FAF",
-  "name": "First American Financial Corp",
+  "name": "FIRST AMERICAN FINANCIAL CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Insurance - Specialty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2151274000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 280291000,
-      "opex": 1768994000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 403955000,
-      "ocf": 403955000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.18777477903790962
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.11057660268197626,
-      "fcf_margin_change": -0.07719817635593336
+      "fcf_margin": 0.11057660268197626
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.14492497109086067,
-      "rev_growth_yoy": 0.10304498636621834,
       "fcf_margin_change": -0.011182712693659086
     },
     {
@@ -117,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.018829891838741397,
       "rev_growth_yoy": 0.0040750439961594375,
-      "rev_growth_yoy_accel": -0.0989699423700589,
       "fcf_margin_change": -0.12609507925211927
     },
     {
@@ -419,9 +400,43 @@
       "rev_growth_yoy_accel": 0.26533477663310184,
       "op_leverage_ratio": 1.4337149300490417,
       "fcf_margin_change": -0.05878884502725171
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2049700000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 211900000,
+      "opex": 1762300000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 369300000,
+      "ocf": 369300000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.18017270820120018,
+      "rev_growth_yoy": 0.21636698118806005,
+      "rev_growth_yoy_accel": -0.19100091583206655,
+      "op_leverage_ratio": 2.038255569947153,
+      "fcf_margin_change": 0.04246994403929205
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3.6% vs OpEx growth +1.8% (leverage: 2.0x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +21.6% vs prior quarter YoY: +40.7% (decel: -19.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -531,12 +546,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +0.4% vs prior quarter YoY: +10.3% (decel: -9.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +12.8% vs OpEx growth +4.6% (leverage: 2.8x)",
@@ -571,7 +580,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:53:04.791771",
-  "sector": "Financial Services",
-  "industry": "Insurance - Specialty"
+  "last_updated": "2026-02-24T10:29:46.146145"
 }

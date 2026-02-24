@@ -1,25 +1,9 @@
 {
   "ticker": "BLDR",
   "name": "BUILDERS FIRSTSOURCE, INC.",
+  "sector": "Industrials",
+  "industry": "Building Products & Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2530760000,
-      "gross_profit": 669188000,
-      "operating_income": 213894000,
-      "net_income": 139914000,
-      "opex": 455294000,
-      "cogs": 1861572000,
-      "rd": null,
-      "sga": 455294000,
-      "fcf": 76347000,
-      "ocf": 104921000,
-      "capex": -28574000,
-      "gross_margin": 0.2644217547298045,
-      "op_margin": 0.08451769428946246,
-      "fcf_margin": 0.0301676176326479
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -39263000,
       "gross_margin": 0.2562557876263095,
       "op_margin": 0.05940808979880324,
-      "fcf_margin": -0.057447035357679796,
-      "op_leverage_ratio": 0.8069392358925607,
-      "fcf_margin_change": -0.0876146529903277
+      "fcf_margin": -0.057447035357679796
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.3205739438237908,
       "op_margin": 0.13415655316109035,
       "fcf_margin": 0.16669942601733967,
-      "incr_op_margin_yoy": 0.19386240529569415,
-      "rev_growth_yoy": 0.831390175283314,
       "fcf_margin_change": -0.023023715476218565
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.022767825631903226,
       "incr_op_margin_yoy": 0.40856240994164617,
       "rev_growth_yoy": 0.36114931926134014,
-      "rev_growth_yoy_accel": -0.4702408560219739,
       "op_leverage_ratio": 1.8654789834732357,
       "fcf_margin_change": -0.14393160038543645
     },
@@ -434,9 +413,43 @@
       "rev_growth_yoy": -0.06882561440134351,
       "rev_growth_yoy_accel": -0.01894701447404891,
       "fcf_margin_change": 0.05761125096629771
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3357888000,
+      "gross_profit": 1002012000,
+      "operating_income": 61780000,
+      "net_income": 31480000,
+      "opex": 940232000,
+      "cogs": 2355876000,
+      "rd": null,
+      "sga": 940232000,
+      "fcf": 106723000,
+      "ocf": 194794000,
+      "capex": -88071000,
+      "gross_margin": 0.29840542626793987,
+      "op_margin": 0.01839846951417081,
+      "fcf_margin": 0.03178277536356186,
+      "incr_op_margin_yoy": 0.5241275209875048,
+      "rev_growth_yoy": -0.12104213641525051,
+      "rev_growth_yoy_accel": -0.052216522013907,
+      "fcf_margin_change": -0.08541685216010485
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -12.1% vs prior quarter YoY: -6.9% (decel: -5.2%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +52.4% vs year-ago OPM: +8.0%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -607,21 +620,9 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +36.1% vs prior quarter YoY: +83.1% (decel: -47.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +40.9% vs year-ago OPM: +5.9%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +19.4% vs year-ago OPM: +8.5%",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-09 (Q3)",
@@ -633,12 +634,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +33.6% vs OpEx growth +9.9% (leverage: 3.4x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +26.4% -> +25.6% -> +28.4% (reversal +2.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -667,7 +662,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:25.434434",
-  "sector": "Industrials",
-  "industry": "Building Products & Equipment"
+  "last_updated": "2026-02-24T10:34:39.191149"
 }

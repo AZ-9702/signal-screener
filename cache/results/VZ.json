@@ -1,25 +1,9 @@
 {
   "ticker": "VZ",
   "name": "VERIZON COMMUNICATIONS INC",
+  "sector": "Communication Services",
+  "industry": "Telecom Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 34692000000,
-      "gross_profit": null,
-      "operating_income": 7180000000,
-      "net_income": 4588000000,
-      "opex": 27512000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 8493000000,
-      "fcf": 9296000000,
-      "ocf": 9296000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.2069641415888389,
-      "fcf_margin": 0.2679580306698951
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.23640733866796482,
-      "fcf_margin": 0.2949462987190799,
-      "fcf_margin_change": 0.026988268049184805
+      "fcf_margin": 0.2949462987190799
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.22332462500366923,
       "fcf_margin": 0.24589778964980774,
-      "incr_op_margin_yoy": -0.6848,
-      "rev_growth_yoy": -0.018015680848610632,
       "op_leverage_ratio": 0.34313261071196477,
       "fcf_margin_change": -0.07991111206673485
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.20328425821064552,
       "incr_op_margin_yoy": 0.03784570596797671,
       "rev_growth_yoy": 0.020902424924696503,
-      "rev_growth_yoy_accel": 0.038918105773307135,
       "fcf_margin_change": -0.04261353143916222
     },
     {
@@ -436,6 +416,29 @@
       "rev_growth_yoy": 0.014731473147314732,
       "rev_growth_yoy_accel": -0.037348048745599036,
       "fcf_margin_change": 0.07299188041256438
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 36381000000,
+      "gross_profit": null,
+      "operating_income": 5004000000,
+      "net_income": 2342000000,
+      "opex": 31377000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 10380000000,
+      "fcf": 9114000000,
+      "ocf": 9114000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.1375443225859652,
+      "fcf_margin": 0.2505153789065721,
+      "incr_op_margin_yoy": -3.452857142857143,
+      "rev_growth_yoy": 0.01961828424091253,
+      "rev_growth_yoy_accel": 0.0048868110935977975,
+      "op_leverage_ratio": 0.3438458468660727,
+      "fcf_margin_change": -0.08259127080810219
     }
   ],
   "signals": [
@@ -545,5 +548,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:46:14.631609"
+  "last_updated": "2026-02-24T10:36:45.153638"
 }

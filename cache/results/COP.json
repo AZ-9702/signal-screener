@@ -1,25 +1,9 @@
 {
   "ticker": "COP",
   "name": "ConocoPhillips",
+  "sector": "Energy",
+  "industry": "Oil & Gas E&P",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 6049000000,
-      "gross_profit": 3601000000,
-      "operating_income": null,
-      "net_income": -772000000,
-      "opex": null,
-      "cogs": 2448000000,
-      "rd": null,
-      "sga": 181000000,
-      "fcf": 1672000000,
-      "ocf": 1672000000,
-      "capex": null,
-      "gross_margin": 0.595305009092412,
-      "op_margin": null,
-      "fcf_margin": 0.2764093238551827
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.575433279666635,
       "op_margin": null,
-      "fcf_margin": 0.19698835116961833,
-      "fcf_margin_change": -0.07942097268556436
+      "fcf_margin": 0.19698835116961833
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.5929336590866379,
       "op_margin": null,
       "fcf_margin": 0.3676000751738395,
-      "rev_growth_yoy": 1.6389485865432303,
       "fcf_margin_change": -0.045364800859218346
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.28532822880306274,
       "rev_growth_yoy": 0.6821668718628658,
-      "rev_growth_yoy_accel": -0.9567817146803644,
       "fcf_margin_change": -0.08227184637077678
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.15259565984203666,
       "rev_growth_yoy_accel": 0.1244018272429177,
       "fcf_margin_change": 0.14220100984861697
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 13392000000,
+      "gross_profit": 8197000000,
+      "operating_income": null,
+      "net_income": 1442000000,
+      "opex": null,
+      "cogs": 5195000000,
+      "rd": null,
+      "sga": 181000000,
+      "fcf": 4318000000,
+      "ocf": 4318000000,
+      "capex": null,
+      "gross_margin": 0.6120818399044206,
+      "op_margin": null,
+      "fcf_margin": 0.32243130227001193,
+      "rev_growth_yoy": -0.0592863163810059,
+      "rev_growth_yoy_accel": -0.21188197622304256,
+      "fcf_margin_change": -0.06862717687309233
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -5.9% vs prior quarter YoY: +15.3% (decel: -21.2%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -541,22 +549,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +68.2% vs prior quarter YoY: +163.9% (decel: -95.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.7% -> +41.6% (+21.9%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +59.5% -> +57.5% -> +70.6% (reversal +13.1%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -586,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:48:23.190107",
-  "sector": "Energy",
-  "industry": "Oil & Gas E&P"
+  "last_updated": "2026-02-24T10:34:24.131132"
 }

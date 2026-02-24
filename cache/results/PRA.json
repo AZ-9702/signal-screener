@@ -1,25 +1,9 @@
 {
   "ticker": "PRA",
   "name": "ProAssurance Corporation",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 229602000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 14305000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 19170000,
-      "ocf": 19170000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.08349230407400632
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.13044446565492668,
-      "fcf_margin_change": 0.04695216158092036
+      "fcf_margin": 0.13044446565492668
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.014715746839324615,
-      "rev_growth_yoy": 0.36351599724741074,
       "fcf_margin_change": -0.10910730772961307
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.05039353945286005,
       "rev_growth_yoy": 0.2865914906575401,
-      "rev_growth_yoy_accel": -0.07692450658987066,
       "fcf_margin_change": 0.03567779261353543
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.019978755701079393,
       "rev_growth_yoy_accel": 0.026867346484176585,
       "fcf_margin_change": 0.1986987992645533
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 269643000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 33370000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -13144000,
+      "ocf": -13144000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": -0.04874593443924003,
+      "rev_growth_yoy": -0.07051706308169596,
+      "rev_growth_yoy_accel": -0.05053830738061657,
+      "fcf_margin_change": -0.14603661888660976
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -7.1% vs prior quarter YoY: -2.0% (decel: -5.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -469,12 +477,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +28.7% vs prior quarter YoY: +36.4% (decel: -7.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.8% -> +12.4% (+11.6%)",
@@ -509,5 +511,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:55:00.902039"
+  "last_updated": "2026-02-24T10:06:16.905785"
 }

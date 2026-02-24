@@ -1,25 +1,9 @@
 {
   "ticker": "FORM",
   "name": "FormFactor,\u00a0Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 197043000,
-      "gross_profit": 77614000,
-      "operating_income": 20828000,
-      "net_income": 19273000,
-      "opex": 56786000,
-      "cogs": 119429000,
-      "rd": 23970000,
-      "sga": 32816000,
-      "fcf": 31069000,
-      "ocf": 45047000,
-      "capex": -13978000,
-      "gross_margin": 0.3938937186299437,
-      "op_margin": 0.10570281613657932,
-      "fcf_margin": 0.15767624325654805
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -13470000,
       "gross_margin": 0.4109925201997471,
       "op_margin": 0.1213324331854519,
-      "fcf_margin": 0.10119162433828414,
-      "fcf_margin_change": -0.05648461891826391
+      "fcf_margin": 0.10119162433828414
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.43687743295056536,
       "op_margin": 0.1550746836554503,
       "fcf_margin": 0.11602064410384491,
-      "incr_op_margin_yoy": 1.3780012570710245,
-      "rev_growth_yoy": 0.04037189851961247,
       "op_leverage_ratio": 5.614400898611635,
       "fcf_margin_change": 0.041001166729184454
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.14479089535131406,
       "incr_op_margin_yoy": 1.0949895615866387,
       "rev_growth_yoy": 0.05646284746779828,
-      "rev_growth_yoy_accel": 0.016090948948185815,
       "fcf_margin_change": 0.028770251247469153
     },
     {
@@ -343,7 +323,7 @@
       "incr_op_margin_yoy": 0.4168180067139948,
       "rev_growth_yoy": 0.21181407547719655,
       "rev_growth_yoy_accel": -0.054726882474521066,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01731045733371804
     },
     {
@@ -410,7 +390,7 @@
       "incr_op_margin_yoy": 3.2613365155131264,
       "rev_growth_yoy": -0.008487193250757061,
       "rev_growth_yoy_accel": -0.0240806144983493,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.27081366940937535
     },
     {
@@ -435,9 +415,50 @@
       "rev_growth_yoy_accel": -0.016719980765797622,
       "op_leverage_ratio": 1.0708312361672998,
       "fcf_margin_change": 0.33804086011340706
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 215163000,
+      "gross_profit": 90764000,
+      "operating_income": 23490000,
+      "net_income": 23218000,
+      "opex": 67274000,
+      "cogs": 124399000,
+      "rd": 30403000,
+      "sga": 35167000,
+      "fcf": 34662000,
+      "ocf": 45975000,
+      "capex": -11313000,
+      "gross_margin": 0.42183832722168774,
+      "op_margin": 0.10917304555151211,
+      "fcf_margin": 0.16109647104753141,
+      "incr_op_margin_yoy": 0.6090342679127726,
+      "rev_growth_yoy": 0.135526669938728,
+      "rev_growth_yoy_accel": 0.16073384395528267,
+      "op_leverage_ratio": 0.8291683823207148,
+      "fcf_margin_change": 0.06495287239746925
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +9.6% -> +16.1% (+6.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +13.6% vs prior quarter YoY: -2.5% (accel: +16.1%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +60.9% vs year-ago OPM: +4.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -617,12 +638,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +7.9% vs OpEx growth +1.4% (leverage: 5.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +137.8% vs year-ago OPM: +10.6%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -650,7 +665,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:58:23.209930",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-24T10:13:15.698179"
 }

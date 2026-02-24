@@ -1,25 +1,9 @@
 {
   "ticker": "TROX",
   "name": "TRONOX HOLDINGS PLC",
+  "sector": "Basic Materials",
+  "industry": "Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 783000000,
-      "gross_profit": 178000000,
-      "operating_income": 94000000,
-      "net_income": 45000000,
-      "opex": 84000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 84000000,
-      "fcf": 199000000,
-      "ocf": 199000000,
-      "capex": null,
-      "gross_margin": 0.227330779054917,
-      "op_margin": 0.12005108556832694,
-      "fcf_margin": 0.2541507024265645
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.23120089786756454,
       "op_margin": 0.14029180695847362,
-      "fcf_margin": 0.15151515151515152,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10263555091141299
+      "fcf_margin": 0.15151515151515152
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.24487594390507011,
       "op_margin": 0.16181229773462782,
       "fcf_margin": 0.22653721682847897,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07502206531332745
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.24660633484162897,
       "op_margin": 0.1515837104072398,
       "fcf_margin": 0.15723981900452488,
-      "incr_op_margin_yoy": 0.39603960396039606,
-      "rev_growth_yoy": 0.12899106002554278,
       "op_leverage_ratio": 0.15287356321839082,
       "fcf_margin_change": -0.1370130545586935
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.19585492227979276,
       "incr_op_margin_yoy": -0.7567567567567568,
       "rev_growth_yoy": 0.08305274971941638,
-      "rev_growth_yoy_accel": -0.0459383103061264,
       "op_leverage_ratio": 0.09742826049601924,
       "fcf_margin_change": 0.038615103275267876
     },
@@ -324,7 +303,7 @@
       "incr_op_margin_yoy": -0.3076923076923077,
       "rev_growth_yoy": 0.0327455919395466,
       "rev_growth_yoy_accel": -0.06047474704350425,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.23258965147791014
     },
     {
@@ -437,9 +416,44 @@
       "rev_growth_yoy": -0.13059701492537312,
       "rev_growth_yoy_accel": -0.022060429559519465,
       "fcf_margin_change": -0.11984875794813384
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 730000000,
+      "gross_profit": 39000000,
+      "operating_income": -114000000,
+      "net_income": -176000000,
+      "opex": 153000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 74000000,
+      "fcf": 121000000,
+      "ocf": 121000000,
+      "capex": null,
+      "gross_margin": 0.05342465753424658,
+      "op_margin": -0.15616438356164383,
+      "fcf_margin": 0.16575342465753426,
+      "incr_op_margin_yoy": -3.0,
+      "rev_growth_yoy": 0.07988165680473373,
+      "rev_growth_yoy_accel": 0.21047867173010687,
+      "op_leverage_ratio": 0.07264071826747572,
+      "fcf_margin_change": 0.24729848903521667
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -8.2% -> +16.6%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +8.0% vs prior quarter YoY: -13.1% (accel: +21.0%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -591,12 +605,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +39.6% vs year-ago OPM: +12.0%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +22.7% -> +29.4% (+6.8%)",
@@ -634,5 +642,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:00:26.958857"
+  "last_updated": "2026-02-24T10:16:10.598904"
 }

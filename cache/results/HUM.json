@@ -1,25 +1,9 @@
 {
   "ticker": "HUM",
-  "name": "HUMANA INC",
+  "name": "HUMANA INC.",
+  "sector": "Healthcare",
+  "industry": "Healthcare Plans",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 19062000000,
-      "gross_profit": null,
-      "operating_income": -346000000,
-      "net_income": -274000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": 3068000000,
-      "fcf": -13000000,
-      "ocf": 283000000,
-      "capex": -296000000,
-      "gross_margin": null,
-      "op_margin": -0.01815129577169237,
-      "fcf_margin": -0.0006819851012485574
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -290000000,
       "gross_margin": null,
       "op_margin": 0.059173601703115926,
-      "fcf_margin": -0.054528740081285075,
-      "fcf_margin_change": -0.05384675498003652
+      "fcf_margin": -0.054528740081285075
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.002897311674741142,
       "fcf_margin": -0.023415977961432508,
-      "incr_op_margin_yoy": 0.2043172690763052,
-      "rev_growth_yoy": 0.10450110166824048,
       "fcf_margin_change": -0.14464127631385074
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.0002920317062995411,
       "incr_op_margin_yoy": 0.019987886129618413,
       "rev_growth_yoy": 0.15976388620089027,
-      "rev_growth_yoy_accel": 0.055262784532649795,
       "fcf_margin_change": 0.02370800966773205
     },
     {
@@ -427,6 +407,28 @@
       "rev_growth_yoy": 0.11062353301357282,
       "rev_growth_yoy_accel": 0.014211887786761718,
       "fcf_margin_change": -0.010117422616664696
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 32515000000,
+      "gross_profit": null,
+      "operating_income": -808000000,
+      "net_income": -796000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 4438000000,
+      "fcf": -1854000000,
+      "ocf": -1652000000,
+      "capex": -202000000,
+      "gross_margin": null,
+      "op_margin": -0.024850069198831308,
+      "fcf_margin": -0.057019836998308475,
+      "incr_op_margin_yoy": -0.08025439127801333,
+      "rev_growth_yoy": 0.11303186937322425,
+      "rev_growth_yoy_accel": 0.0024083363596514307,
+      "fcf_margin_change": -0.08262552170534392
     }
   ],
   "signals": [
@@ -497,18 +499,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +16.0% vs prior quarter YoY: +10.5% (accel: +5.5%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -1.8% (year-ago) -> +0.3%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +0.2% -> +12.1% (+12.0%)",
@@ -518,12 +508,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -5.5% -> +0.2%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -1.8% -> +5.9%",
       "severity": "HIGH"
     }
   ],
@@ -554,7 +538,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:13:14.036199",
-  "sector": "Healthcare",
-  "industry": "Healthcare Plans"
+  "last_updated": "2026-02-24T10:18:30.990178"
 }

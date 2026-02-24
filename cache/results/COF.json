@@ -1,25 +1,9 @@
 {
   "ticker": "COF",
-  "name": "CAPITAL ONE FINANCIAL CORP",
+  "name": "CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 7337000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 2566000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 4460000000,
-      "ocf": 4627000000,
-      "capex": -167000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.607877879242197
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -178000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.20497680303669338,
-      "fcf_margin_change": -0.40290107620550364
+      "fcf_margin": 0.20497680303669338
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5503818674550381,
-      "rev_growth_yoy": 0.10644677661169415,
       "fcf_margin_change": 0.3216462352711301
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.03780741465802031,
       "rev_growth_yoy": 0.14902291578799381,
-      "rev_growth_yoy_accel": 0.04257613917629967,
       "fcf_margin_change": -0.5881892821130584
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.5337527461553825,
       "rev_growth_yoy_accel": 0.21963534661824802,
       "fcf_margin_change": 0.11715505476079735
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 15583000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 2134000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 7387000000,
+      "ocf": 7831000000,
+      "capex": -444000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4740422255021498,
+      "rev_growth_yoy": 0.5292443572129539,
+      "rev_growth_yoy_accel": -0.004508388942428554,
+      "fcf_margin_change": -0.09676316547382524
     }
   ],
   "signals": [
@@ -503,7 +505,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:47:35.809958",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-24T10:22:48.809875"
 }

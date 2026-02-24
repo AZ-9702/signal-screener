@@ -1,25 +1,9 @@
 {
   "ticker": "ADI",
   "name": "Analog Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2021-01-30T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 1558458000,
-      "gross_profit": 1045371000,
-      "operating_income": 463860000,
-      "net_income": 388519000,
-      "opex": 581511000,
-      "cogs": 513087000,
-      "rd": 288150000,
-      "sga": 185275000,
-      "fcf": 360553000,
-      "ocf": 427941000,
-      "capex": -67388000,
-      "gross_margin": 0.6707726483485599,
-      "op_margin": 0.2976403598942031,
-      "fcf_margin": 0.23135240089883718
-    },
     {
       "date": "2021-05-01T00:00:00",
       "quarter_label": "2021-05 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -59170000,
       "gross_margin": 0.6841412128394788,
       "op_margin": 0.31280113783076635,
-      "fcf_margin": 0.40760150884160234,
-      "op_leverage_ratio": 1.0840274287190308,
-      "fcf_margin_change": 0.17624910794276516
+      "fcf_margin": 0.40760150884160234
     },
     {
       "date": "2021-07-31T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.6943070285009606,
       "op_margin": 0.34661566373085184,
       "fcf_margin": 0.3091224792521035,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09847902958949883
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.5222965600253028,
       "op_margin": 0.1358856875907362,
       "fcf_margin": 0.27764480256067425,
-      "incr_op_margin_yoy": -0.08802622053853362,
-      "rev_growth_yoy": 0.7224031703132199,
       "op_leverage_ratio": 10.4476442078729,
       "fcf_margin_change": -0.06855030696381914
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.37113198100713846,
       "incr_op_margin_yoy": 0.30402385978940333,
       "rev_growth_yoy": 0.788883759367813,
-      "rev_growth_yoy_accel": 0.06648058905459309,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0934871784464642
     },
     {
@@ -168,7 +147,7 @@
       "incr_op_margin_yoy": 1.1049641688359166,
       "rev_growth_yoy": 0.3881690978847377,
       "rev_growth_yoy_accel": -0.37996047292078156,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08810407266741632
     },
     {
@@ -391,7 +370,7 @@
       "incr_op_margin_yoy": 0.6066598895284899,
       "rev_growth_yoy": 0.22279773547397708,
       "rev_growth_yoy_accel": 0.2584286733003187,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12732434001880788
     },
     {
@@ -439,9 +418,38 @@
       "rev_growth_yoy_accel": 0.013337245848278056,
       "op_leverage_ratio": 2.653902755058359,
       "fcf_margin_change": 0.10594393981969874
+    },
+    {
+      "date": "2026-01-31T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 3160263000,
+      "gross_profit": 2044976000,
+      "operating_income": 997026000,
+      "net_income": 830826000,
+      "opex": 1047950000,
+      "cogs": 1115287000,
+      "rd": 467400000,
+      "sga": 345253000,
+      "fcf": 1259202000,
+      "ocf": 1368515000,
+      "capex": -109313000,
+      "gross_margin": 0.6470904478519668,
+      "op_margin": 0.31548829954975266,
+      "fcf_margin": 0.3984484835597544,
+      "incr_op_margin_yoy": 0.68609489491771,
+      "rev_growth_yoy": 0.3041832736732897,
+      "rev_growth_yoy_accel": 0.045133378146716974,
+      "op_leverage_ratio": 0.530963202284903,
+      "fcf_margin_change": -0.08451656620915882
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +68.6% vs year-ago OPM: +20.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-11 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
@@ -641,12 +649,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +78.9% vs prior quarter YoY: +72.2% (accel: +6.6%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2022-01 (Q1)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +14.7% vs OpEx growth +1.4% (leverage: 10.4x)",
@@ -656,12 +658,6 @@
       "quarter": "2022-01 (Q1)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +69.4% -> +47.9% -> +52.2% (reversal +4.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-05 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +23.1% -> +40.8% (+17.6%)",
       "severity": "MEDIUM"
     }
   ],
@@ -690,7 +686,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:47:02.579055",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-24T10:29:30.605179"
 }

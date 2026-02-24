@@ -1,25 +1,9 @@
 {
   "ticker": "VRE",
   "name": "VERIS RESIDENTIAL, INC.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 76564000,
-      "gross_profit": 73411000,
-      "operating_income": null,
-      "net_income": 65632000,
-      "opex": 72055000,
-      "cogs": 3153000,
-      "rd": null,
-      "sga": null,
-      "fcf": 8834000,
-      "ocf": 8834000,
-      "capex": null,
-      "gross_margin": 0.9588187659996865,
-      "op_margin": null,
-      "fcf_margin": 0.11538059662504571
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": 0.9462236999461185,
       "op_margin": null,
-      "fcf_margin": 0.34371098524174365,
-      "fcf_margin_change": 0.22833038861669794
+      "fcf_margin": 0.34371098524174365
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +59,7 @@
       "gross_margin": 0.9573342567825754,
       "op_margin": null,
       "fcf_margin": 0.15795758502101642,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13588907787613722
     },
     {
@@ -96,7 +79,6 @@
       "gross_margin": 0.9548241587614611,
       "op_margin": null,
       "fcf_margin": 0.16932440243446328,
-      "rev_growth_yoy": 0.15240844261010397,
       "op_leverage_ratio": 0.2266194446266528,
       "fcf_margin_change": 0.011366817413446861
     },
@@ -118,8 +100,7 @@
       "op_margin": null,
       "fcf_margin": 0.3178740451467724,
       "rev_growth_yoy": 0.30234055695004797,
-      "rev_growth_yoy_accel": 0.149932114339944,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14854964271230914
     },
     {
@@ -226,7 +207,7 @@
       "fcf_margin": 0.1784836095389137,
       "rev_growth_yoy": -0.13901485731465937,
       "rev_growth_yoy_accel": 0.1856503764414835,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0022709664790168116
     },
     {
@@ -334,7 +315,7 @@
       "fcf_margin": 0.20426842684268426,
       "rev_growth_yoy": -0.04626339498055455,
       "rev_growth_yoy_accel": -0.028032371686166443,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04372245494156385
     },
     {
@@ -421,9 +402,36 @@
       "rev_growth_yoy": 0.07722772277227723,
       "rev_growth_yoy_accel": -0.048031628700839143,
       "fcf_margin_change": -0.12929537046792866
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 71310000,
+      "gross_profit": 69312000,
+      "operating_income": null,
+      "net_income": -203000,
+      "opex": 58794000,
+      "cogs": 1998000,
+      "rd": null,
+      "sga": null,
+      "fcf": 25469000,
+      "ocf": 25469000,
+      "capex": null,
+      "gross_margin": 0.9719814892721919,
+      "op_margin": null,
+      "fcf_margin": 0.35715888374702004,
+      "rev_growth_yoy": 0.04739802887651837,
+      "rev_growth_yoy_accel": -0.02982969389575886,
+      "fcf_margin_change": 0.17313110596924225
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +18.4% -> +35.7% (+17.3%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -509,21 +517,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +30.2% vs prior quarter YoY: +15.2% (accel: +15.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.2% -> +15.8% (+13.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.5% -> +34.4% (+22.8%)",
       "severity": "MEDIUM"
     }
   ],
@@ -554,5 +550,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:44:25.617548"
+  "last_updated": "2026-02-24T10:07:30.768776"
 }

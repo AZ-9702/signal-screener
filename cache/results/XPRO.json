@@ -1,25 +1,9 @@
 {
   "ticker": "XPRO",
   "name": "Expro Group Holdings N.V.",
+  "sector": "Energy",
+  "industry": "Oil & Gas Equipment & Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 96348000,
-      "gross_profit": 1252000,
-      "operating_income": -17652000,
-      "net_income": -8206000,
-      "opex": 18904000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -41589000,
-      "ocf": 45076000,
-      "capex": -86665000,
-      "gross_margin": 0.012994561381658156,
-      "op_margin": -0.18321086063021547,
-      "fcf_margin": -0.4316540042346494
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -19168000,
       "gross_margin": -0.4456972292244571,
       "op_margin": -0.20868886521606142,
-      "fcf_margin": -0.1004841210408075,
-      "fcf_margin_change": 0.3311698831938419
+      "fcf_margin": -0.1004841210408075
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.5033679740401323,
       "op_margin": -0.18138257154608015,
       "fcf_margin": -0.02431868138355547,
-      "incr_op_margin_yoy": -0.18095483231792453,
-      "rev_growth_yoy": 4.274307717856105,
       "op_leverage_ratio": 4.176793052363486,
       "fcf_margin_change": 0.13019537365337652
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.08820331078840689,
       "incr_op_margin_yoy": 0.04304503786369071,
       "rev_growth_yoy": 1.9582748837160244,
-      "rev_growth_yoy_accel": -2.3160328341400804,
       "fcf_margin_change": -0.06388462940485141
     },
     {
@@ -189,7 +169,7 @@
       "incr_op_margin_yoy": -0.7201007614358504,
       "rev_growth_yoy": -0.3093518101261588,
       "rev_growth_yoy_accel": -2.218244198394923,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2347044822759876
     },
     {
@@ -438,9 +418,43 @@
       "rev_growth_yoy": -0.027131599610243407,
       "rev_growth_yoy_accel": 0.07273595908339985,
       "fcf_margin_change": 0.030403624559051448
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 382127000,
+      "gross_profit": 95569000,
+      "operating_income": 11796000,
+      "net_income": 5772000,
+      "opex": 370331000,
+      "cogs": 286558000,
+      "rd": null,
+      "sga": null,
+      "fcf": 23196000,
+      "ocf": 57071000,
+      "capex": -33875000,
+      "gross_margin": 0.25009748068050675,
+      "op_margin": 0.03086931831563852,
+      "fcf_margin": 0.0607023319472322,
+      "incr_op_margin_yoy": 0.36800935740916735,
+      "rev_growth_yoy": -0.12525323743312816,
+      "rev_growth_yoy_accel": -0.09812163782288476,
+      "fcf_margin_change": -0.03406473113194982
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -12.5% vs prior quarter YoY: -2.7% (decel: -9.8%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +36.8% vs year-ago OPM: +7.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -664,12 +678,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +195.8% vs prior quarter YoY: +427.4% (decel: -231.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -15.5% -> -2.4% (+13.0%)",
@@ -698,18 +706,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +13.7% vs OpEx growth +5.5% (leverage: 2.5x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +1.3% -> -44.6% -> -37.0% (reversal +7.6%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -43.2% -> -10.0% (+33.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -737,5 +733,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:40:10.684425"
+  "last_updated": "2026-02-24T10:21:19.089711"
 }

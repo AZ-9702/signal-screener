@@ -1,25 +1,9 @@
 {
   "ticker": "TDY",
-  "name": "Teledyne Technologies Inc",
+  "name": "TELEDYNE TECHNOLOGIES INC",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2021-01-03T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 809300000,
-      "gross_profit": 315700000,
-      "operating_income": 143800000,
-      "net_income": 132100000,
-      "opex": 665500000,
-      "cogs": 493600000,
-      "rd": null,
-      "sga": 171900000,
-      "fcf": 217000000,
-      "ocf": 236400000,
-      "capex": -19400000,
-      "gross_margin": 0.3900902014086247,
-      "op_margin": 0.17768441863338688,
-      "fcf_margin": 0.26813295440504137
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,8 +20,7 @@
       "capex": -17600000,
       "gross_margin": 0.3887302966364652,
       "op_margin": 0.16780439369492367,
-      "fcf_margin": 0.13317612014397417,
-      "fcf_margin_change": -0.1349568342610672
+      "fcf_margin": 0.13317612014397417
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.3969615468488769,
       "op_margin": 0.14181871047466743,
       "fcf_margin": 0.190157737878898,
-      "incr_op_margin_yoy": 0.09057203389830508,
-      "rev_growth_yoy": 0.6998640800691956,
       "op_leverage_ratio": 0.9361821468790046,
       "fcf_margin_change": 0.06545311100184945
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.17993943981831945,
       "incr_op_margin_yoy": 0.17135649136425382,
       "rev_growth_yoy": 0.6395680774481817,
-      "rev_growth_yoy_accel": -0.06029600262101398,
       "fcf_margin_change": -0.37009717769721745
     },
     {
@@ -439,9 +419,44 @@
       "rev_growth_yoy_accel": -0.03508874795322149,
       "op_leverage_ratio": 0.993314519838307,
       "fcf_margin_change": 0.07421513369405161
+    },
+    {
+      "date": "2025-12-28T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1612300000,
+      "gross_profit": 691200000,
+      "operating_income": 329500000,
+      "net_income": 275600000,
+      "opex": 1282800000,
+      "cogs": 921100000,
+      "rd": 77200000,
+      "sga": 229600000,
+      "fcf": 339200000,
+      "ocf": 379000000,
+      "capex": -39800000,
+      "gross_margin": 0.42870433542144765,
+      "op_margin": 0.2043664330459592,
+      "fcf_margin": 0.21038268312348818,
+      "incr_op_margin_yoy": 0.84,
+      "rev_growth_yoy": 0.07322106103973906,
+      "rev_growth_yoy_accel": 0.006716038525017898,
+      "op_leverage_ratio": 2.276893901214381,
+      "fcf_margin_change": 0.006485313847749308
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +4.7% vs OpEx growth +2.1% (leverage: 2.3x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +84.0% vs year-ago OPM: +15.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -545,12 +560,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +64.0% vs prior quarter YoY: +70.0% (decel: -6.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2022-01 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +12.5% -> +19.0% (+6.5%)",
@@ -588,5 +597,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:45.355972"
+  "last_updated": "2026-02-24T10:12:15.827284"
 }

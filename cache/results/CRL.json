@@ -1,25 +1,9 @@
 {
   "ticker": "CRL",
-  "name": "CHARLES RIVER LABORATORIES INTERNATIONAL, INC.",
+  "name": "CHARLES RIVER LABORATORIES INTERNATIONAL,\u00a0INC.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 790990000,
-      "gross_profit": 299968000,
-      "operating_income": 128927000,
-      "net_income": 143191000,
-      "opex": 171041000,
-      "cogs": null,
-      "rd": null,
-      "sga": 143033000,
-      "fcf": 138379000,
-      "ocf": 138379000,
-      "capex": null,
-      "gross_margin": 0.37923109015284645,
-      "op_margin": 0.1629944752778164,
-      "fcf_margin": 0.17494405744699681
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.15002195094146498,
-      "fcf_margin": 0.2064467853391966,
-      "fcf_margin_change": 0.031502727892199794
+      "fcf_margin": 0.2064467853391966
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": null,
       "op_margin": 0.19093641235290867,
       "fcf_margin": 0.2533097618916082,
-      "incr_op_margin_yoy": 0.3847098018586709,
-      "rev_growth_yoy": 0.14419904170722764,
       "fcf_margin_change": 0.05829381769017439
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.11229537524249696,
       "incr_op_margin_yoy": 0.2805971151371373,
       "rev_growth_yoy": 0.1083758001178802,
-      "rev_growth_yoy_accel": -0.03582324158934744,
       "fcf_margin_change": -0.14101438664911126
     },
     {
@@ -317,7 +297,7 @@
       "incr_op_margin_yoy": 0.3930514488468362,
       "rev_growth_yoy": -0.031907556769883494,
       "rev_growth_yoy_accel": -0.01460284798113539,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06020544247115994
     },
     {
@@ -429,6 +409,28 @@
       "rev_growth_yoy": -0.004863517478853949,
       "rev_growth_yoy_accel": -0.010728345758669993,
       "fcf_margin_change": 0.01456073649740533
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 994227000,
+      "gross_profit": null,
+      "operating_income": -283440000,
+      "net_income": -276555000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": 196136000,
+      "fcf": 147520000,
+      "ocf": 147520000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.2850858003252778,
+      "fcf_margin": 0.14837657798470572,
+      "incr_op_margin_yoy": 13.90927661619803,
+      "rev_growth_yoy": -0.008300841155893628,
+      "rev_growth_yoy_accel": -0.0034373236770396786,
+      "fcf_margin_change": -0.0644169478280508
     }
   ],
   "signals": [
@@ -539,12 +541,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +19.5% -> +25.3% (+5.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +38.5% vs year-ago OPM: +16.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -555,7 +551,7 @@
         20
       ],
       "gross_profit": [
-        7,
+        6,
         20
       ],
       "op_income": [
@@ -569,12 +565,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 7/20Q"
+      "gross_profit: 6/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:35:53.094938",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:31:40.531070"
 }

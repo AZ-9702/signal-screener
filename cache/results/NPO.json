@@ -1,25 +1,9 @@
 {
   "ticker": "NPO",
-  "name": "ENPRO INC",
+  "name": "ENPRO INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 276000000,
-      "gross_profit": 103500000,
-      "operating_income": 11100000,
-      "net_income": -8100000,
-      "opex": 92400000,
-      "cogs": 172500000,
-      "rd": null,
-      "sga": 85200000,
-      "fcf": null,
-      "ocf": null,
-      "capex": -1600000,
-      "gross_margin": 0.375,
-      "op_margin": 0.04021739130434782,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -6200000,
       "gross_margin": 0.3916935195130684,
       "op_margin": 0.09738632295023272,
-      "fcf_margin": 0.050483351235230935,
-      "op_leverage_ratio": Infinity
+      "fcf_margin": 0.050483351235230935
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -93,9 +76,7 @@
       "capex": -4000000,
       "gross_margin": 0.3700047014574518,
       "op_margin": 0.031029619181946404,
-      "fcf_margin": null,
-      "incr_op_margin_yoy": 0.07109004739336493,
-      "rev_growth_yoy": -0.22934782608695653
+      "fcf_margin": null
     },
     {
       "date": "2022-03-31T00:00:00",
@@ -116,8 +97,7 @@
       "fcf_margin": 0.084271372071798,
       "incr_op_margin_yoy": 0.004048582995951417,
       "rev_growth_yoy": 0.17687074829931973,
-      "rev_growth_yoy_accel": 0.4062185743862763,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-06-30T00:00:00",
@@ -139,7 +119,7 @@
       "incr_op_margin_yoy": 0.5129682997118156,
       "rev_growth_yoy": 0.11620897521768252,
       "rev_growth_yoy_accel": -0.06066177308163721,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.013238378903299514
     },
     {
@@ -204,7 +184,7 @@
       "incr_op_margin_yoy": -0.3557483731019523,
       "rev_growth_yoy": -0.1402494675996349,
       "rev_growth_yoy_accel": -0.41857574874679054,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2023-06-30T00:00:00",
@@ -311,7 +291,7 @@
       "incr_op_margin_yoy": -13.48,
       "rev_growth_yoy": -0.01805706031058144,
       "rev_growth_yoy_accel": 0.07076105716995643,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14823925129527205
     },
     {
@@ -377,7 +357,7 @@
       "incr_op_margin_yoy": 0.8789808917197452,
       "rev_growth_yoy": 0.06097087378640777,
       "rev_growth_yoy_accel": 0.02363646993253382,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -423,6 +403,28 @@
       "rev_growth_yoy": 0.09850517439632044,
       "rev_growth_yoy_accel": 0.0389244461874201,
       "fcf_margin_change": 0.03949838112057413
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 295400000,
+      "gross_profit": 124300000,
+      "operating_income": 33200000,
+      "net_income": -32000000,
+      "opex": 91100000,
+      "cogs": 171100000,
+      "rd": null,
+      "sga": 89600000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -12200000,
+      "gross_margin": 0.42078537576167907,
+      "op_margin": 0.11238997968855789,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.02702702702702703,
+      "rev_growth_yoy": 0.14318885448916407,
+      "rev_growth_yoy_accel": 0.04468368009284364,
+      "op_leverage_ratio": 0.20634676570428281
     }
   ],
   "signals": [
@@ -565,12 +567,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +17.7% vs prior quarter YoY: -22.9% (accel: +40.6%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.0% -> +11.5% (+6.4%)",
@@ -610,7 +606,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:03:44.531459",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:23:58.503842"
 }

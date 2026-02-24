@@ -1,25 +1,9 @@
 {
   "ticker": "TYL",
   "name": "TYLER TECHNOLOGIES, INC.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 283285000,
-      "gross_profit": 138669000,
-      "operating_income": 48036000,
-      "net_income": 54094000,
-      "opex": 90633000,
-      "cogs": 144616000,
-      "rd": null,
-      "sga": 62736000,
-      "fcf": 85135000,
-      "ocf": 88761000,
-      "capex": -3626000,
-      "gross_margin": 0.489503503538839,
-      "op_margin": 0.1695677497926117,
-      "fcf_margin": 0.3005277370845615
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -6564000,
       "gross_margin": 0.48916560945990867,
       "op_margin": 0.12960563361171226,
-      "fcf_margin": 0.2209584738231084,
-      "op_leverage_ratio": 0.23979565767898606,
-      "fcf_margin_change": -0.07956926326145308
+      "fcf_margin": 0.2209584738231084
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.42667432095382857,
       "op_margin": 0.12217286076808162,
       "fcf_margin": 0.4323802441108741,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5016891595349909
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.43170479105589604,
       "op_margin": 0.11083713731469286,
       "fcf_margin": 0.2349534180473639,
-      "incr_op_margin_yoy": 0.00010648776721774086,
-      "rev_growth_yoy": 0.5303916550470374,
       "fcf_margin_change": -0.19742682606351022
     },
     {
@@ -120,8 +100,7 @@
       "fcf_margin": 0.10734738263744552,
       "incr_op_margin_yoy": 0.10948135841196235,
       "rev_growth_yoy": 0.5471672512398152,
-      "rev_growth_yoy_accel": 0.016775596192777797,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.12760603540991838
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 0.5430800375253049,
       "rev_growth_yoy": 0.0858445320894431,
       "rev_growth_yoy_accel": 0.022351240092830835,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.16386559413112048
     },
     {
@@ -414,7 +393,7 @@
       "incr_op_margin_yoy": 0.3184744563936091,
       "rev_growth_yoy": 0.10192873621010913,
       "rev_growth_yoy_accel": -0.0011357166442371447,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06048026318390819
     },
     {
@@ -438,6 +417,28 @@
       "rev_growth_yoy": 0.09670241489167865,
       "rev_growth_yoy_accel": -0.005226321318430482,
       "fcf_margin_change": 0.2660406895138221
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 575179000,
+      "gross_profit": 261983000,
+      "operating_income": 74975000,
+      "net_income": 65531000,
+      "opex": 187008000,
+      "cogs": 313196000,
+      "rd": null,
+      "sga": null,
+      "fcf": 239566000,
+      "ocf": 243883000,
+      "capex": -4317000,
+      "gross_margin": 0.455480815537424,
+      "op_margin": 0.13035072560020447,
+      "fcf_margin": 0.4165068613422952,
+      "incr_op_margin_yoy": 0.09659891917293233,
+      "rev_growth_yoy": 0.06292006926234128,
+      "rev_growth_yoy_accel": -0.033782345629337365,
+      "fcf_margin_change": -0.0052482265195022415
     }
   ],
   "signals": [
@@ -599,5 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:20:33.524551"
+  "last_updated": "2026-02-24T10:29:09.051043"
 }

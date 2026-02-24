@@ -1,25 +1,9 @@
 {
   "ticker": "NXPI",
   "name": "NXP Semiconductors N.V.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2507000000,
-      "gross_profit": 1288000000,
-      "operating_income": 463000000,
-      "net_income": 309000000,
-      "opex": 829000000,
-      "cogs": 1219000000,
-      "rd": 460000000,
-      "sga": 221000000,
-      "fcf": 925000000,
-      "ocf": 1029000000,
-      "capex": -104000000,
-      "gross_margin": 0.5137614678899083,
-      "op_margin": 0.18468288791384124,
-      "fcf_margin": 0.36896689270043875
-    },
     {
       "date": "2021-04-04T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -150000000,
       "gross_margin": 0.5278535255161667,
       "op_margin": 0.19166342033502143,
-      "fcf_margin": 0.22672380210362292,
-      "op_leverage_ratio": 0.5835425514441915,
-      "fcf_margin_change": -0.14224309059681584
+      "fcf_margin": 0.22672380210362292
     },
     {
       "date": "2021-07-04T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.5477657935285054,
       "op_margin": 0.22072419106317412,
       "fcf_margin": 0.187211093990755,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03951270811286792
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.5616979269496545,
       "op_margin": 0.26554787759131293,
       "fcf_margin": 0.17077986179664364,
-      "incr_op_margin_yoy": 0.6466165413533834,
-      "rev_growth_yoy": 0.21220582369365776,
       "op_leverage_ratio": 1.937584261247316,
       "fcf_margin_change": -0.08192898126522283
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.1836734693877551,
       "incr_op_margin_yoy": 0.6695957820738138,
       "rev_growth_yoy": 0.22165952473704714,
-      "rev_growth_yoy_accel": 0.009453701043389384,
       "op_leverage_ratio": 7.181638696939783,
       "fcf_margin_change": 0.012893607591111467
     },
@@ -347,7 +326,7 @@
       "incr_op_margin_yoy": 0.010869565217391304,
       "rev_growth_yoy": -0.05358182877111241,
       "rev_growth_yoy_accel": -0.0014448175555925521,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0017405721876460611
     },
     {
@@ -439,9 +418,44 @@
       "rev_growth_yoy_accel": 0.04058655383631399,
       "op_leverage_ratio": 4.621753246753247,
       "fcf_margin_change": -0.0777665448324131
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3335000000,
+      "gross_profit": 1807000000,
+      "operating_income": 744000000,
+      "net_income": 455000000,
+      "opex": 1058000000,
+      "cogs": 1528000000,
+      "rd": 665000000,
+      "sga": 359000000,
+      "fcf": 793000000,
+      "ocf": 891000000,
+      "capex": -98000000,
+      "gross_margin": 0.5418290854572714,
+      "op_margin": 0.22308845577211395,
+      "fcf_margin": 0.23778110944527736,
+      "incr_op_margin_yoy": 0.3080357142857143,
+      "rev_growth_yoy": 0.07200257152041144,
+      "rev_growth_yoy_accel": 0.09569487921271913,
+      "op_leverage_ratio": 0.2743479433017288,
+      "fcf_margin_change": 0.07768025851555785
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +16.0% -> +23.8% (+7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +7.2% vs prior quarter YoY: -2.4% (accel: +9.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -611,12 +625,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +64.7% vs year-ago OPM: +18.5%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-10 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +18.7% -> +25.3% (+6.5%)",
@@ -654,7 +662,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:57:26.961017",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-24T10:23:51.799646"
 }

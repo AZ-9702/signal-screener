@@ -1,25 +1,9 @@
 {
   "ticker": "FRHC",
   "name": "FREEDOM HOLDING CORP.",
+  "sector": "Financial Services",
+  "industry": "Financial Conglomerates",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 100233000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 42321000,
-      "opex": 21921000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 308659000,
-      "ocf": 307541000,
-      "capex": 1118000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 3.0794149631358936
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -507000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.5997717781493427,
-      "op_leverage_ratio": 1.7209648714614985,
-      "fcf_margin_change": -3.6791867412852364
+      "fcf_margin": -0.5997717781493427
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -4.52878833639933,
-      "rev_growth_yoy": 0.45345345345345345,
       "fcf_margin_change": -4.792078140277021
     },
     {
@@ -117,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": -12.781716002670821,
       "rev_growth_yoy": -1.1424167743060234,
-      "rev_growth_yoy_accel": -1.5958702277594767,
       "fcf_margin_change": -8.252927666271491
     },
     {
@@ -201,7 +181,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -2.1706279720707227,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07117237239139662
     },
     {
@@ -337,17 +317,17 @@
       "date": "2024-12-31T00:00:00",
       "quarter_label": "2024-12 (Q4)",
       "revenue": 655190000,
-      "gross_profit": null,
+      "gross_profit": 645802000,
       "operating_income": null,
       "net_income": 78281000,
       "opex": 556862000,
-      "cogs": null,
+      "cogs": 9388000,
       "rd": null,
       "sga": null,
       "fcf": -92701000,
       "ocf": -72761000,
       "capex": -19940000,
-      "gross_margin": null,
+      "gross_margin": 0.9856713319800363,
       "op_margin": null,
       "fcf_margin": -0.14148720218562555,
       "rev_growth_yoy": 0.5650663825680666,
@@ -359,17 +339,17 @@
       "date": "2025-03-31T00:00:00",
       "quarter_label": "2025-03 (Q1)",
       "revenue": 363722000,
-      "gross_profit": null,
+      "gross_profit": 351355000,
       "operating_income": null,
       "net_income": -142689000,
       "opex": 519189000,
-      "cogs": null,
+      "cogs": 12367000,
       "rd": null,
       "sga": null,
       "fcf": 1337747000,
       "ocf": 1337747000,
       "capex": null,
-      "gross_margin": null,
+      "gross_margin": 0.9659987572926576,
       "op_margin": null,
       "fcf_margin": 3.677938095578491,
       "rev_growth_yoy": -0.21722137930292368,
@@ -395,7 +375,7 @@
       "fcf_margin": 0.8436906545087107,
       "rev_growth_yoy": 0.1835039881077843,
       "rev_growth_yoy_accel": 0.40072536741070797,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -2.83424744106978
     },
     {
@@ -418,9 +398,43 @@
       "rev_growth_yoy": -0.09432432432432432,
       "rev_growth_yoy_accel": -0.2778283124321086,
       "fcf_margin_change": 0.023726049697847973
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 628621000,
+      "gross_profit": 603273000,
+      "operating_income": null,
+      "net_income": 76235000,
+      "opex": 534676000,
+      "cogs": 25348000,
+      "rd": null,
+      "sga": null,
+      "fcf": 651726000,
+      "ocf": 717784000,
+      "capex": -66058000,
+      "gross_margin": 0.9596768163965251,
+      "op_margin": null,
+      "fcf_margin": 1.036755055908091,
+      "rev_growth_yoy": -0.0405515957203254,
+      "rev_growth_yoy_accel": 0.05377272860399892,
+      "op_leverage_ratio": 1.3138522495520342,
+      "fcf_margin_change": 0.16933835170153222
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +86.7% -> +103.7% (+16.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -4.1% vs prior quarter YoY: -9.4% (accel: +5.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -548,12 +562,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -114.2% vs prior quarter YoY: +45.3% (decel: -159.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -51.8% -> +26.3%",
@@ -570,12 +578,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -60.0% -> -51.8% (+8.2%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +25.9% vs OpEx growth +15.0% (leverage: 1.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -586,7 +588,7 @@
         20
       ],
       "gross_profit": [
-        4,
+        7,
         20
       ],
       "op_income": [
@@ -600,13 +602,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 4/20Q",
+      "gross_profit: 7/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:47:03.284378",
-  "sector": "Financial Services",
-  "industry": "Financial Conglomerates"
+  "last_updated": "2026-02-24T11:06:32.461722"
 }

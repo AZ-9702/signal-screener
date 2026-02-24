@@ -1,25 +1,9 @@
 {
   "ticker": "MDGL",
   "name": "MADRIGAL PHARMACEUTICALS, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 0,
-      "gross_profit": null,
-      "operating_income": -59555000,
-      "net_income": -59123000,
-      "opex": 59555000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -54957000,
-      "ocf": -54947000,
-      "capex": -10000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -312,7 +296,7 @@
       "op_margin": -0.6484320557491289,
       "fcf_margin": -1.01317266744096,
       "incr_op_margin_yoy": 0.4856755710414247,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07670268438855343
     },
     {
@@ -380,9 +364,38 @@
       "rev_growth_yoy_accel": -9.917328123457445,
       "op_leverage_ratio": 0.6441807104707012,
       "fcf_margin_change": 0.49608710238493703
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 321083000,
+      "gross_profit": null,
+      "operating_income": -59609000,
+      "net_income": -58575000,
+      "opex": 380692000,
+      "cogs": null,
+      "rd": null,
+      "sga": 239976000,
+      "fcf": -133070000,
+      "ocf": -133460000,
+      "capex": 390000,
+      "gross_margin": null,
+      "op_margin": -0.1856498164026124,
+      "fcf_margin": -0.41444112581482045,
+      "incr_op_margin_yoy": 0.033922199822743075,
+      "rev_growth_yoy": 2.1076558265582657,
+      "rev_growth_yoy_accel": -1.5126578043223136,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.6894212837161531
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +210.8% vs prior quarter YoY: +362.0% (decel: -151.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -459,7 +472,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:34:26.647189",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:23:24.969293"
 }

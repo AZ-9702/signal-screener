@@ -1,25 +1,9 @@
 {
   "ticker": "CWAN",
   "name": "Clearwater Analytics Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 54758000,
-      "gross_profit": 40711000,
-      "operating_income": -61498000,
-      "net_income": null,
-      "opex": 102209000,
-      "cogs": 14047000,
-      "rd": 16433000,
-      "sga": null,
-      "fcf": -33182000,
-      "ocf": -32521000,
-      "capex": -661000,
-      "gross_margin": 0.743471273603857,
-      "op_margin": -1.1230870375105007,
-      "fcf_margin": -0.605975382592498
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1310000,
       "gross_margin": 0.748268710233065,
       "op_margin": 0.21060217246106794,
-      "fcf_margin": -0.34587126937814183,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.2601041132143561
+      "fcf_margin": -0.34587126937814183
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.7107205825437553,
       "op_margin": 0.00937459684933274,
       "fcf_margin": 0.15611427260868943,
-      "incr_op_margin_yoy": 4.142085971342886,
-      "rev_growth_yoy": 0.2740238869206326,
       "op_leverage_ratio": 0.3399957590884159,
       "fcf_margin_change": 0.06268748664519178
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.06624939953092769,
       "incr_op_margin_yoy": -0.7708873523480265,
       "rev_growth_yoy": 0.24403276268147783,
-      "rev_growth_yoy_accel": -0.029991124239154787,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08986487307776174
     },
     {
@@ -283,7 +262,7 @@
       "incr_op_margin_yoy": -0.0786798922361009,
       "rev_growth_yoy": 0.1975159335808531,
       "rev_growth_yoy_accel": -0.039081412014297906,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09634203243443809
     },
     {
@@ -329,7 +308,7 @@
       "incr_op_margin_yoy": 0.6485927152317881,
       "rev_growth_yoy": 0.1881640872728891,
       "rev_growth_yoy_accel": -0.025922384135758036,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3134825717529321
     },
     {
@@ -443,11 +422,40 @@
       "incr_op_margin_yoy": -0.008781165296476334,
       "rev_growth_yoy": 0.7708153468936699,
       "rev_growth_yoy_accel": 0.06714181635270677,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.023320053970102284
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 217457000,
+      "gross_profit": 146221000,
+      "operating_income": -6743000,
+      "net_income": -12066000,
+      "opex": 152964000,
+      "cogs": 71236000,
+      "rd": 57009000,
+      "sga": null,
+      "fcf": 52289000,
+      "ocf": 55331000,
+      "capex": -3042000,
+      "gross_margin": 0.6724133966715259,
+      "op_margin": -0.03100842925267984,
+      "fcf_margin": 0.24045673397499276,
+      "incr_op_margin_yoy": -0.08749120801828732,
+      "rev_growth_yoy": 0.7195034199185545,
+      "rev_growth_yoy_accel": -0.05131192697511544,
+      "op_leverage_ratio": 0.3074453280450831,
+      "fcf_margin_change": 0.021418169302378054
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +72.0% vs prior quarter YoY: +77.1% (decel: -5.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -569,12 +577,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -112.3% (year-ago) -> +0.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +1.8% -> +9.3% (+7.5%)",
@@ -584,18 +586,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -34.6% -> +1.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -60.6% -> -34.6% (+26.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -112.3% -> +21.1%",
       "severity": "HIGH"
     }
   ],
@@ -624,7 +614,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:49:53.540087",
-  "sector": "Technology",
-  "industry": "Software - Application"
+  "last_updated": "2026-02-24T10:30:35.440631"
 }

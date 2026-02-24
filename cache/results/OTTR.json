@@ -1,25 +1,9 @@
 {
   "ticker": "OTTR",
   "name": "OTTER TAIL CORPORATION",
+  "sector": "Industrials",
+  "industry": "Conglomerates",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 226849000,
-      "gross_profit": 144159000,
-      "operating_income": 27959000,
-      "net_income": 18668000,
-      "opex": 198890000,
-      "cogs": 82690000,
-      "rd": null,
-      "sga": null,
-      "fcf": 70645000,
-      "ocf": 70645000,
-      "capex": null,
-      "gross_margin": 0.6354843971099718,
-      "op_margin": 0.12324938615554841,
-      "fcf_margin": 0.311418608854348
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.6103435099919758,
       "op_margin": 0.16888540751213174,
-      "fcf_margin": 0.05834702533338428,
-      "op_leverage_ratio": 1.6413942940353057,
-      "fcf_margin_change": -0.25307158352096376
+      "fcf_margin": 0.05834702533338428
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.6110727661209008,
       "op_margin": 0.21354191674268977,
       "fcf_margin": 0.22954278100542566,
-      "incr_op_margin_yoy": 0.4060799187840162,
-      "rev_growth_yoy": 0.46895952814427216,
       "op_leverage_ratio": 0.6375593678309676,
       "fcf_margin_change": -0.04291891602328815
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.12114034526172034,
       "incr_op_margin_yoy": 0.47794052688305033,
       "rev_growth_yoy": 0.4325169080279699,
-      "rev_growth_yoy_accel": -0.03644262011630228,
       "op_leverage_ratio": 2.255249191129826,
       "fcf_margin_change": -0.10840243574370532
     },
@@ -437,9 +416,37 @@
       "rev_growth_yoy": -0.03408558742804977,
       "rev_growth_yoy_accel": -0.004982029580165144,
       "fcf_margin_change": 0.03688876111494055
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 303986000,
+      "gross_profit": 212873000,
+      "operating_income": 67619000,
+      "net_income": 51774000,
+      "opex": 240480000,
+      "cogs": 91113000,
+      "rd": null,
+      "sga": 26132000,
+      "fcf": 97036000,
+      "ocf": 97036000,
+      "capex": null,
+      "gross_margin": 0.7002723809649128,
+      "op_margin": 0.2224411650536538,
+      "fcf_margin": 0.3192120689768608,
+      "incr_op_margin_yoy": 0.7666345226615237,
+      "rev_growth_yoy": 0.003423018395835603,
+      "rev_growth_yoy_accel": 0.03750860582388537,
+      "fcf_margin_change": -0.078380954350315
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +76.7% vs year-ago OPM: +22.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -627,12 +634,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +40.6% vs year-ago OPM: +12.3%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +18.7% -> +27.2% (+8.6%)",
@@ -654,12 +655,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.1% vs OpEx growth +3.8% (leverage: 2.4x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +15.4% vs OpEx growth +9.4% (leverage: 1.6x)",
       "severity": "MEDIUM"
     }
   ],
@@ -688,5 +683,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:16:21.414281"
+  "last_updated": "2026-02-24T10:09:17.145831"
 }

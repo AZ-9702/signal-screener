@@ -1,25 +1,9 @@
 {
   "ticker": "ETR",
-  "name": "ENTERGY CORPORATION",
+  "name": "Entergy Corporation",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2370101000,
-      "gross_profit": null,
-      "operating_income": 152112000,
-      "net_income": null,
-      "opex": 2217991000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 319700000,
-      "ocf": 319700000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.06417954340342458,
-      "fcf_margin": 0.13488876634371277
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.17856798875718055,
-      "fcf_margin": -0.017422784706897194,
-      "op_leverage_ratio": 3.738064759849871,
-      "fcf_margin_change": -0.15231155105060998
+      "fcf_margin": -0.017422784706897194
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": 0.24686509626268663,
       "fcf_margin": 0.3770460517448469,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09494390686537901
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.12545620572012917,
       "fcf_margin": 0.10642228928585072,
-      "incr_op_margin_yoy": 0.5376310822891686,
-      "rev_growth_yoy": 0.14866666019718147,
       "fcf_margin_change": -0.27062376245899616
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": 0.1869284293371092,
       "incr_op_margin_yoy": 1.7548584036026234,
       "rev_growth_yoy": 0.011630539243359377,
-      "rev_growth_yoy_accel": -0.1370361209538221,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08050614005125849
     },
     {
@@ -166,7 +145,7 @@
       "incr_op_margin_yoy": 0.1466159894484113,
       "rev_growth_yoy": 0.25796175494970675,
       "rev_growth_yoy_accel": 0.054874659307146495,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.153619102970328
     },
     {
@@ -323,7 +302,7 @@
       "incr_op_margin_yoy": -1.2853597784263062,
       "rev_growth_yoy": 0.037804995456822955,
       "rev_growth_yoy_accel": 0.10034350945470089,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1108243095833179
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": 0.08487951865595722,
       "rev_growth_yoy": -0.05741085717178201,
       "rev_growth_yoy_accel": -0.09521585262860496,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.17109843200218117
     },
     {
@@ -439,6 +418,28 @@
       "rev_growth_yoy_accel": -0.002252380757261141,
       "op_leverage_ratio": 1.7941637913696096,
       "fcf_margin_change": 0.2887935946985427
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2958944000,
+      "gross_profit": null,
+      "operating_income": 545708000,
+      "net_income": null,
+      "opex": 2413236000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -909707000,
+      "ocf": 1218066000,
+      "capex": -2127773000,
+      "gross_margin": null,
+      "op_margin": 0.18442660624871576,
+      "fcf_margin": -0.30744312835930654,
+      "incr_op_margin_yoy": -0.5719514953447902,
+      "rev_growth_yoy": 0.07899887138739127,
+      "rev_growth_yoy_accel": -0.04578912542592199,
+      "fcf_margin_change": -0.3719685150375996
     }
   ],
   "signals": [
@@ -594,20 +595,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +1.2% vs prior quarter YoY: +14.9% (decel: -13.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +175.5% vs year-ago OPM: +17.9%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +53.8% vs year-ago OPM: +6.4%",
       "severity": "HIGH"
     },
     {
@@ -621,12 +610,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.7% -> +28.2%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +20.0% vs OpEx growth +5.4% (leverage: 3.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -656,7 +639,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:02:07.351177",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:18:51.582948"
 }

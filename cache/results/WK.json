@@ -1,25 +1,9 @@
 {
   "ticker": "WK",
   "name": "WORKIVA INC",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 93834000,
-      "gross_profit": 70183000,
-      "operating_income": -5140000,
-      "net_income": -8013000,
-      "opex": 75323000,
-      "cogs": 23651000,
-      "rd": 24386000,
-      "sga": null,
-      "fcf": 13243000,
-      "ocf": 13353000,
-      "capex": -110000,
-      "gross_margin": 0.7479485048063602,
-      "op_margin": -0.054777585949655774,
-      "fcf_margin": 0.1411322122045314
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -849000,
       "gross_margin": 0.7728310721344822,
       "op_margin": -0.03976127880869682,
-      "fcf_margin": 0.10222409855884554,
-      "op_leverage_ratio": 0.8902229775566877,
-      "fcf_margin_change": -0.03890811364568586
+      "fcf_margin": 0.10222409855884554
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.7585670168815147,
       "op_margin": -0.09520379523608455,
       "fcf_margin": 0.06760057292830944,
-      "incr_op_margin_yoy": -0.23596422872833872,
-      "rev_growth_yoy": 0.28719866999168747,
       "op_leverage_ratio": 0.7633706299319121,
       "fcf_margin_change": -0.07031393817708308
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.011328408162006262,
       "incr_op_margin_yoy": -0.5120619204777621,
       "rev_growth_yoy": 0.2442094759263879,
-      "rev_growth_yoy_accel": -0.04298919406529958,
       "op_leverage_ratio": 0.5904080493534709,
       "fcf_margin_change": -0.07892898109031571
     },
@@ -190,7 +169,7 @@
       "incr_op_margin_yoy": -0.07723718505647263,
       "rev_growth_yoy": 0.19058973531043277,
       "rev_growth_yoy_accel": 0.011732131022677533,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.046229673271245775
     },
     {
@@ -236,7 +215,7 @@
       "incr_op_margin_yoy": 0.23448217100498445,
       "rev_growth_yoy": 0.17843541189974838,
       "rev_growth_yoy_accel": 0.020230991584187813,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1277390127200677
     },
     {
@@ -259,7 +238,7 @@
       "incr_op_margin_yoy": 0.576206270236121,
       "rev_growth_yoy": 0.19063749068491295,
       "rev_growth_yoy_accel": 0.012202078785164577,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07434418519247905
     },
     {
@@ -443,11 +422,52 @@
       "incr_op_margin_yoy": 0.4767674147100791,
       "rev_growth_yoy": 0.20765430635542315,
       "rev_growth_yoy_accel": -0.0046463308169063244,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.023686839184030722
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 238935000,
+      "gross_profit": 192768000,
+      "operating_income": 7860000,
+      "net_income": 11816000,
+      "opex": 184908000,
+      "cogs": 46167000,
+      "rd": 54818000,
+      "sga": null,
+      "fcf": 50736000,
+      "ocf": 50962000,
+      "capex": -226000,
+      "gross_margin": 0.8067800866344403,
+      "op_margin": 0.0328959758930253,
+      "fcf_margin": 0.21234226881787935,
+      "incr_op_margin_yoy": 0.5424371254417866,
+      "rev_growth_yoy": 0.1953384128191146,
+      "rev_growth_yoy_accel": -0.012315893536308548,
+      "op_leverage_ratio": 3.2133937574549547,
+      "fcf_margin_change": 0.006851694868217045
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +6.6% vs OpEx growth +2.1% (leverage: 3.2x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -6.7% (year-ago) -> +3.3%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -1.5% -> +3.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -546,5 +566,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:08:48.458182"
+  "last_updated": "2026-02-24T10:25:40.650305"
 }

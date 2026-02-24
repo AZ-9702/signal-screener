@@ -1,25 +1,9 @@
 {
   "ticker": "COHU",
-  "name": "COHU, INC.",
+  "name": "COHU, INC",
+  "sector": "Technology",
+  "industry": "Semiconductor Equipment & Materials",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 202355000,
-      "gross_profit": 91241000,
-      "operating_income": 18774000,
-      "net_income": 14861000,
-      "opex": 183581000,
-      "cogs": 111114000,
-      "rd": 22762000,
-      "sga": 33584000,
-      "fcf": 16759000,
-      "ocf": 21860000,
-      "capex": -5101000,
-      "gross_margin": 0.4508957030960441,
-      "op_margin": 0.09277754441451903,
-      "fcf_margin": 0.08281979689160139
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2700000,
       "gross_margin": 0.45326137089335133,
       "op_margin": 0.1584563258355212,
-      "fcf_margin": 0.015468672390548499,
-      "op_leverage_ratio": 3.3975679237589334,
-      "fcf_margin_change": -0.06735112450105289
+      "fcf_margin": 0.015468672390548499
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.42751518567991403,
       "op_margin": 0.4677924698635229,
       "fcf_margin": 0.10896516791052398,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09349649551997548
     },
     {
@@ -96,8 +78,6 @@
       "gross_margin": 0.43987282393411864,
       "op_margin": 0.09149900969456895,
       "fcf_margin": 0.1289273428541645,
-      "incr_op_margin_yoy": 0.11615054787994283,
-      "rev_growth_yoy": -0.05186429789231796,
       "fcf_margin_change": -0.008882959150163183
     },
     {
@@ -119,8 +99,7 @@
       "fcf_margin": -0.003428450067507092,
       "incr_op_margin_yoy": 0.2898200569759475,
       "rev_growth_yoy": -0.12298215426098062,
-      "rev_growth_yoy_accel": -0.07111785636866266,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13235579292167157
     },
     {
@@ -433,9 +412,37 @@
       "rev_growth_yoy_accel": 0.295717380403805,
       "op_leverage_ratio": 1.9496136855990815,
       "fcf_margin_change": -0.26666119239089026
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 122230000,
+      "gross_profit": 48929000,
+      "operating_income": -15491000,
+      "net_income": -22488000,
+      "opex": 137721000,
+      "cogs": 73301000,
+      "rd": 23419000,
+      "sga": 31921000,
+      "fcf": 36461000,
+      "ocf": 39836000,
+      "capex": -3375000,
+      "gross_margin": 0.4003027080094903,
+      "op_margin": -0.12673648040579236,
+      "fcf_margin": 0.29829829010881126,
+      "incr_op_margin_yoy": 0.2183008396186139,
+      "rev_growth_yoy": 0.2986336881919211,
+      "rev_growth_yoy_accel": -0.0255361425227692,
+      "fcf_margin_change": 0.44062813034516957
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -14.2% -> +29.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -570,12 +577,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -12.3% vs prior quarter YoY: -5.2% (decel: -7.1%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +29.0% vs year-ago OPM: +15.8%",
       "severity": "MEDIUM"
@@ -584,12 +585,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +1.5% -> +10.9% (+9.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +11.4% vs OpEx growth +3.4% (leverage: 3.4x)",
       "severity": "MEDIUM"
     }
   ],
@@ -618,7 +613,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:52:24.886511",
-  "sector": "Technology",
-  "industry": "Semiconductor Equipment & Materials"
+  "last_updated": "2026-02-24T10:38:11.734908"
 }

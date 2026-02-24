@@ -1,25 +1,9 @@
 {
   "ticker": "FISV",
-  "name": "FISERV, INC.",
+  "name": "FISERV INC",
+  "sector": "",
+  "industry": "",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3832000000,
-      "gross_profit": null,
-      "operating_income": 516000000,
-      "net_income": 300000000,
-      "opex": 3316000000,
-      "cogs": null,
-      "rd": null,
-      "sga": 1459000000,
-      "fcf": 975000000,
-      "ocf": 1186000000,
-      "capex": -211000000,
-      "gross_margin": null,
-      "op_margin": 0.13465553235908143,
-      "fcf_margin": 0.2544363256784969
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -234000000,
       "gross_margin": null,
       "op_margin": 0.12649800266311584,
-      "fcf_margin": 0.19121171770972037,
-      "fcf_margin_change": -0.06322460796877652
+      "fcf_margin": 0.19121171770972037
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.12520554381019497,
       "fcf_margin": 0.2342024900164435,
-      "incr_op_margin_yoy": 0.04,
-      "rev_growth_yoy": 0.11090814196242171,
       "op_leverage_ratio": 0.40425991115836757,
       "fcf_margin_change": 0.14820681382139184
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.11696471725471243,
       "incr_op_margin_yoy": 0.9686684073107049,
       "rev_growth_yoy": 0.10199733688415447,
-      "rev_growth_yoy_accel": -0.008910805078267248,
       "fcf_margin_change": -0.11723777276173107
     },
     {
@@ -189,7 +169,7 @@
       "incr_op_margin_yoy": 1.7272727272727273,
       "rev_growth_yoy": 0.08785529715762273,
       "rev_growth_yoy_accel": 0.002580255120630176,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11514612391863485
     },
     {
@@ -257,7 +237,7 @@
       "incr_op_margin_yoy": 1.8253521126760563,
       "rev_growth_yoy": 0.07857459052678176,
       "rev_growth_yoy_accel": 0.00981054558296153,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13395545423996597
     },
     {
@@ -324,7 +304,7 @@
       "incr_op_margin_yoy": 0.8461538461538461,
       "rev_growth_yoy": 0.07380151387720774,
       "rev_growth_yoy_accel": -9.336186503990096e-05,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1102694373982681
     },
     {
@@ -347,7 +327,7 @@
       "incr_op_margin_yoy": 0.2894736842105263,
       "rev_growth_yoy": 0.0701826390313975,
       "rev_growth_yoy_accel": -0.0036188748458102354,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.15762235617047346
     },
     {
@@ -438,6 +418,28 @@
       "rev_growth_yoy": 0.009204218600191754,
       "rev_growth_yoy_accel": -0.07088193765592729,
       "fcf_margin_change": 0.03161652137453899
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5284000000,
+      "gross_profit": null,
+      "operating_income": 1291000000,
+      "net_income": 811000000,
+      "opex": 3993000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 1728000000,
+      "fcf": 1502000000,
+      "ocf": 1944000000,
+      "capex": -442000000,
+      "gross_margin": null,
+      "op_margin": 0.2443224829674489,
+      "fcf_margin": 0.28425435276305827,
+      "incr_op_margin_yoy": -11.424242424242424,
+      "rev_growth_yoy": 0.006284517234812417,
+      "rev_growth_yoy_accel": -0.0029197013653793373,
+      "fcf_margin_change": 0.03762695394109361
     }
   ],
   "signals": [
@@ -601,5 +603,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:05:39.674422"
+  "last_updated": "2026-02-24T10:23:13.176887"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "OSK",
   "name": "Oshkosh Corporation",
+  "sector": "Industrials",
+  "industry": "Farm & Heavy Construction Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1576500000,
-      "gross_profit": 242600000,
-      "operating_income": 95900000,
-      "net_income": null,
-      "opex": 146700000,
-      "cogs": 1333900000,
-      "rd": null,
-      "sga": 145400000,
-      "fcf": 346500000,
-      "ocf": 368100000,
-      "capex": -21600000,
-      "gross_margin": 0.15388518870916587,
-      "op_margin": 0.060830954646368535,
-      "fcf_margin": 0.219790675547098
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -16700000,
       "gross_margin": 0.1668078348332451,
       "op_margin": 0.0745367919534145,
-      "fcf_margin": 0.16416093170989943,
-      "op_leverage_ratio": 1.0536031936458032,
-      "fcf_margin_change": -0.05562974383719857
+      "fcf_margin": 0.16416093170989943
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.09583077524139086,
       "op_margin": 0.010046324719540102,
       "fcf_margin": -0.11302115309482615,
-      "incr_op_margin_yoy": -0.36198884758364314,
-      "rev_growth_yoy": 0.13650491595306058,
       "fcf_margin_change": -0.28810598101533025
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.15562522485480804,
       "incr_op_margin_yoy": -1.966490299823633,
       "rev_growth_yoy": 0.030015881418740075,
-      "rev_growth_yoy_accel": -0.1064890345343205,
       "op_leverage_ratio": 0.7219019333532796,
       "fcf_margin_change": 0.2686463779496342
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 0.9411764705882353,
       "rev_growth_yoy": -0.0646504889532778,
       "rev_growth_yoy_accel": -0.09466637037201787,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.36666104286061635
     },
     {
@@ -188,7 +167,7 @@
       "incr_op_margin_yoy": 0.31318281136198106,
       "rev_growth_yoy": 0.22989339733214265,
       "rev_growth_yoy_accel": 0.22809989272719838,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10674987092956702
     },
     {
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": 0.47680783635839813,
       "rev_growth_yoy": 0.1680058083252662,
       "rev_growth_yoy_accel": 0.0023070880703451035,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.045987905130595766
     },
     {
@@ -302,7 +281,7 @@
       "incr_op_margin_yoy": 0.46753717809212914,
       "rev_growth_yoy": 0.12155548697147392,
       "rev_growth_yoy_accel": 0.0021145721048919652,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3341981737618669
     },
     {
@@ -438,9 +417,37 @@
       "rev_growth_yoy": -0.01926023199824907,
       "rev_growth_yoy_accel": 0.021064331562114832,
       "fcf_margin_change": 0.15490359308686275
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2688800000,
+      "gross_profit": 424100000,
+      "operating_income": 212000000,
+      "net_income": null,
+      "opex": 212100000,
+      "cogs": 2264700000,
+      "rd": 40500000,
+      "sga": 198200000,
+      "fcf": 540300000,
+      "ocf": 600100000,
+      "capex": -59800000,
+      "gross_margin": 0.15772835465635227,
+      "op_margin": 0.0788455816721214,
+      "fcf_margin": 0.20094465932758107,
+      "incr_op_margin_yoy": -0.13120176405733186,
+      "rev_growth_yoy": 0.03491012663099958,
+      "rev_growth_yoy_accel": 0.05417035862924865,
+      "fcf_margin_change": 0.02825255191108178
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +3.5% vs prior quarter YoY: -1.9% (accel: +5.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -616,12 +623,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +3.0% vs prior quarter YoY: +13.7% (decel: -10.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +4.5% -> +17.5% (+13.0%)",
@@ -659,5 +660,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:39:32.127604"
+  "last_updated": "2026-02-24T10:35:30.636029"
 }

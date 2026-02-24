@@ -1,25 +1,9 @@
 {
   "ticker": "KTCC",
   "name": "KEY TRONIC CORPORATION",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 128262000,
-      "gross_profit": 10622000,
-      "operating_income": 2720000,
-      "net_income": 1580000,
-      "opex": 7902000,
-      "cogs": 117640000,
-      "rd": 2392000,
-      "sga": 5510000,
-      "fcf": -11161000,
-      "ocf": -7384000,
-      "capex": -3777000,
-      "gross_margin": 0.08281486332662831,
-      "op_margin": 0.021206592755453682,
-      "fcf_margin": -0.08701719917044799
-    },
     {
       "date": "2021-04-03T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": -2692000,
       "gross_margin": 0.0824368499257058,
       "op_margin": 0.019138187221396732,
-      "fcf_margin": -0.026396731054977713,
-      "op_leverage_ratio": 0.6318336875082602,
-      "fcf_margin_change": 0.06062046811547028
+      "fcf_margin": -0.026396731054977713
     },
     {
       "date": "2021-07-03T00:00:00",
@@ -95,8 +77,6 @@
       "gross_margin": 0.0729457963943595,
       "op_margin": 0.012279109894686738,
       "fcf_margin": 0.023226929255667283,
-      "incr_op_margin_yoy": -0.1725863739102357,
-      "rev_growth_yoy": 0.04829177776738239,
       "op_leverage_ratio": 0.90830820686109,
       "fcf_margin_change": 0.1468843010939945
     },
@@ -119,7 +99,6 @@
       "fcf_margin": -0.017472234466114126,
       "incr_op_margin_yoy": 0.056185702980743865,
       "rev_growth_yoy": 0.028164933135215453,
-      "rev_growth_yoy_accel": -0.020126844632166935,
       "op_leverage_ratio": 0.42477475333845605,
       "fcf_margin_change": -0.04069916372178141
     },
@@ -165,7 +144,7 @@
       "incr_op_margin_yoy": 0.28149300155520995,
       "rev_growth_yoy": 0.03390277338395023,
       "rev_growth_yoy_accel": 0.0823310959981598,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0925576596809807
     },
     {
@@ -344,7 +323,7 @@
       "incr_op_margin_yoy": -0.07257019438444924,
       "rev_growth_yoy": -0.1096688616230044,
       "rev_growth_yoy_accel": 0.14145247996308744,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01636537666288556
     },
     {
@@ -434,9 +413,37 @@
       "rev_growth_yoy": -0.24938050137581902,
       "rev_growth_yoy_accel": -0.122401140460493,
       "fcf_margin_change": -0.025238173987104616
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 96319000,
+      "gross_profit": 560000,
+      "operating_income": -10258000,
+      "net_income": -8570000,
+      "opex": 10818000,
+      "cogs": 95759000,
+      "rd": 1844000,
+      "sga": 8974000,
+      "fcf": 3073000,
+      "ocf": 6378000,
+      "capex": -3305000,
+      "gross_margin": 0.005814013849811564,
+      "op_margin": -0.1065002751274411,
+      "fcf_margin": 0.03190440100084096,
+      "incr_op_margin_yoy": 0.5211018592448956,
+      "rev_growth_yoy": -0.15400560371707378,
+      "rev_growth_yoy_accel": 0.09537489765874524,
+      "fcf_margin_change": -0.012875345834602078
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -15.4% vs prior quarter YoY: -24.9% (accel: +9.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
@@ -568,12 +575,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -2.6% -> +1.3%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -8.7% -> -2.6% (+6.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -601,7 +602,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:51:45.665577",
-  "sector": "Technology",
-  "industry": "Computer Hardware"
+  "last_updated": "2026-02-24T11:07:59.128724"
 }

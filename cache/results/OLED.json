@@ -1,25 +1,9 @@
 {
   "ticker": "OLED",
   "name": "UNIVERSAL DISPLAY CORPORATION",
+  "sector": "Technology",
+  "industry": "Electronic Components",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 141543000,
-      "gross_profit": 114545000,
-      "operating_income": 65779000,
-      "net_income": 53902000,
-      "opex": 48766000,
-      "cogs": 26998000,
-      "rd": 22186000,
-      "sga": 16217000,
-      "fcf": 64187000,
-      "ocf": 72965000,
-      "capex": -8778000,
-      "gross_margin": 0.8092593770091068,
-      "op_margin": 0.464728033177197,
-      "fcf_margin": 0.45348056774266476
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -9938000,
       "gross_margin": 0.826134328358209,
       "op_margin": 0.4743134328358209,
-      "fcf_margin": 0.145955223880597,
-      "fcf_margin_change": -0.30752534386206776
+      "fcf_margin": 0.145955223880597
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.7795305202841768,
       "op_margin": 0.38607287670858204,
       "fcf_margin": 0.2948026284299849,
-      "incr_op_margin_yoy": -1.9806547619047619,
-      "rev_growth_yoy": 0.03323371696233653,
       "op_leverage_ratio": 0.317901121950378,
       "fcf_margin_change": -0.16740962908648238
     },
@@ -119,8 +100,7 @@
       "fcf_margin": 0.27817505150528343,
       "incr_op_margin_yoy": -0.07941712204007285,
       "rev_growth_yoy": 0.12291044776119403,
-      "rev_growth_yoy_accel": 0.08967673079885749,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01662757692470146
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": 0.6337820285748023,
       "rev_growth_yoy": 0.11793786294197106,
       "rev_growth_yoy_accel": 0.06471404680746543,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.008058011665443426
     },
     {
@@ -278,7 +258,7 @@
       "incr_op_margin_yoy": 1.7118185212845407,
       "rev_growth_yoy": -0.0633726158360547,
       "rev_growth_yoy_accel": 0.05794953967354942,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06450653860259001
     },
     {
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": 0.9036009732360097,
       "rev_growth_yoy": 0.1456651332251182,
       "rev_growth_yoy_accel": 0.06419957187008801,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04458949190821815
     },
     {
@@ -391,7 +371,7 @@
       "incr_op_margin_yoy": 6.671905697445973,
       "rev_growth_yoy": 0.006160027593050908,
       "rev_growth_yoy_accel": -0.018934717227565564,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.030515008066974256
     },
     {
@@ -438,9 +418,50 @@
       "rev_growth_yoy": -0.13620249092045264,
       "rev_growth_yoy_accel": -0.22004211743065738,
       "fcf_margin_change": 0.38602378970283413
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 172927000,
+      "gross_profit": 131629000,
+      "operating_income": 67236000,
+      "net_income": 66342000,
+      "opex": 64393000,
+      "cogs": 41298000,
+      "rd": 38503000,
+      "sga": 18825000,
+      "fcf": 15062000,
+      "ocf": 31149000,
+      "capex": -16087000,
+      "gross_margin": 0.7611824642768336,
+      "op_margin": 0.38881146379686227,
+      "fcf_margin": 0.08710033713647955,
+      "incr_op_margin_yoy": 1.3867782584164001,
+      "rev_growth_yoy": 0.06552346681619046,
+      "rev_growth_yoy_accel": 0.2017259577366431,
+      "op_leverage_ratio": 4.268642928484725,
+      "fcf_margin_change": -0.5169694844417402
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +23.9% vs OpEx growth +5.6% (leverage: 4.3x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +6.6% vs prior quarter YoY: -13.6% (accel: +20.2%)",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +138.7% vs year-ago OPM: +32.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -646,12 +667,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +12.3% vs prior quarter YoY: +3.3% (accel: +9.0%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +14.6% -> +46.2% (+31.7%)",
@@ -689,7 +704,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:59:18.868954",
-  "sector": "Technology",
-  "industry": "Electronic Components"
+  "last_updated": "2026-02-24T10:18:11.285539"
 }

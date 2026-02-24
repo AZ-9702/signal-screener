@@ -1,25 +1,9 @@
 {
   "ticker": "HR",
-  "name": "HEALTHCARE REALTY TRUST INCORPORATED",
+  "name": "Healthcare Realty Trust Incorporated",
+  "sector": "Real Estate",
+  "industry": "REIT - Healthcare Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 187018000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 28055000,
-      "opex": 166510000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 200421000,
-      "ocf": 200421000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 1.0716668983734186
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.34128140454220257,
-      "op_leverage_ratio": 1.3347674790052815,
-      "fcf_margin_change": -0.730385493831216
+      "fcf_margin": 0.34128140454220257
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -76,7 +58,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.10808210726647217,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.7738510015749842
     },
     {
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.3187176486819313,
-      "rev_growth_yoy": 0.04643938016661498,
       "op_leverage_ratio": 0.2826825902253156,
       "fcf_margin_change": 0.42679975594840347
     },
@@ -118,8 +99,7 @@
       "op_margin": null,
       "fcf_margin": 0.2166859734062039,
       "rev_growth_yoy": 0.054879290626811426,
-      "rev_growth_yoy_accel": 0.008439910460196445,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1020316752757274
     },
     {
@@ -415,9 +395,36 @@
       "rev_growth_yoy": -0.05598196707278797,
       "rev_growth_yoy_accel": 0.0035143689392503966,
       "fcf_margin_change": -0.16659542449994025
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 286303000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 14391000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 132339000,
+      "ocf": 132339000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.4622340667055532,
+      "rev_growth_yoy": -0.07574427148234474,
+      "rev_growth_yoy_accel": -0.019762304409556765,
+      "fcf_margin_change": 0.08021133065531227
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +38.2% -> +46.2% (+8.0%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -543,7 +550,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:56:52.598115",
-  "sector": "Real Estate",
-  "industry": "REIT - Healthcare Facilities"
+  "last_updated": "2026-02-24T10:43:03.512094"
 }

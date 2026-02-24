@@ -1,6 +1,8 @@
 {
   "ticker": "ESAB",
   "name": "ESAB Corporation",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
   "quarters": [
     {
       "date": "2021-04-02T00:00:00",
@@ -212,7 +214,7 @@
       "incr_op_margin_yoy": 0.38418431935184405,
       "rev_growth_yoy": 0.08960535529820306,
       "rev_growth_yoy_accel": 0.03390480383357288,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.029690210575247476
     },
     {
@@ -302,7 +304,7 @@
       "incr_op_margin_yoy": -0.8015558381329942,
       "rev_growth_yoy": -0.01855717898676054,
       "rev_growth_yoy_accel": -0.026954839805473987,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05092993271582316
     },
     {
@@ -392,7 +394,7 @@
       "incr_op_margin_yoy": -1.2025079104652525,
       "rev_growth_yoy": 0.01206840222727292,
       "rev_growth_yoy_accel": 0.028894934969855672,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.010869949821557243
     },
     {
@@ -417,6 +419,28 @@
       "rev_growth_yoy_accel": 0.06902331704491424,
       "op_leverage_ratio": 0.21918282321417812,
       "fcf_margin_change": 0.04425183925274688
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 720986000,
+      "gross_profit": 257793000,
+      "operating_income": 86613000,
+      "net_income": 37673000,
+      "opex": 28971000,
+      "cogs": 463193000,
+      "rd": 12900000,
+      "sga": 153660000,
+      "fcf": 77420000,
+      "ocf": 97053000,
+      "capex": -19633000,
+      "gross_margin": 0.35755618000904316,
+      "op_margin": 0.12013132016433051,
+      "fcf_margin": 0.10738072583933668,
+      "incr_op_margin_yoy": -0.49400756520007966,
+      "rev_growth_yoy": 0.07488565141422514,
+      "rev_growth_yoy_accel": -0.0062060678579620165,
+      "fcf_margin_change": 0.010798349097035781
     }
   ],
   "signals": [
@@ -500,23 +524,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
-        19,
-        19
+        20,
+        20
       ],
       "op_income": [
-        19,
-        19
+        20,
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -524,7 +548,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:50:07.031676",
-  "sector": "Industrials",
-  "industry": "Metal Fabrication"
+  "last_updated": "2026-02-24T10:12:39.120417"
 }

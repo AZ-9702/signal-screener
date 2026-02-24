@@ -1,25 +1,9 @@
 {
   "ticker": "EXAS",
-  "name": "EXACT SCIENCES CORPORATION",
+  "name": "EXACT SCIENCES CORP",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 466339000,
-      "gross_profit": 346021000,
-      "operating_income": -415302000,
-      "net_income": -436810000,
-      "opex": 761323000,
-      "cogs": 99765000,
-      "rd": 446399000,
-      "sga": null,
-      "fcf": 94697000,
-      "ocf": 111404000,
-      "capex": -16707000,
-      "gross_margin": 0.7419945576072342,
-      "op_margin": -0.890558156191097,
-      "fcf_margin": 0.20306472330214714
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -12920000,
       "gross_margin": 0.6753159220746275,
       "op_margin": -0.7474712555057862,
-      "fcf_margin": -0.22420332423888956,
-      "fcf_margin_change": -0.4272680475410367
+      "fcf_margin": -0.22420332423888956
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.6891672167039619,
       "op_margin": -0.3947941557291655,
       "fcf_margin": 0.036228867643778216,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.26043219188266775
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.7039458688256102,
       "op_margin": -0.4673794669615797,
       "fcf_margin": -0.17720952614116992,
-      "incr_op_margin_yoy": 25.94031847986083,
-      "rev_growth_yoy": 0.01602482314367874,
       "op_leverage_ratio": 0.25008396972075486,
       "fcf_margin_change": -0.0026966760757637376
     },
@@ -120,7 +101,6 @@
       "fcf_margin": -0.42620090387630993,
       "incr_op_margin_yoy": 1.4622813454209767,
       "rev_growth_yoy": 0.21014382817221577,
-      "rev_growth_yoy_accel": 0.19411900502853704,
       "op_leverage_ratio": 0.1376525740011859,
       "fcf_margin_change": -0.24899137773514002
     },
@@ -189,7 +169,7 @@
       "incr_op_margin_yoy": 1.2953285427427605,
       "rev_growth_yoy": 0.16711902611162233,
       "rev_growth_yoy_accel": 0.020981714797999207,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12589366533495425
     },
     {
@@ -258,7 +238,7 @@
       "incr_op_margin_yoy": 1.3765924096328315,
       "rev_growth_yoy": 0.20124342109036406,
       "rev_growth_yoy_accel": 0.008671915837699384,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10693062042740507
     },
     {
@@ -281,7 +261,7 @@
       "incr_op_margin_yoy": 0.5436255192246245,
       "rev_growth_yoy": 0.16978453693071366,
       "rev_growth_yoy_accel": -0.031458884159650397,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05484341343282477
     },
     {
@@ -326,7 +306,7 @@
       "incr_op_margin_yoy": 0.656619714659652,
       "rev_growth_yoy": 0.12405058407665735,
       "rev_growth_yoy_accel": 0.06583164474559253,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.289985378652334
     },
     {
@@ -416,7 +396,7 @@
       "incr_op_margin_yoy": 0.21560350917984994,
       "rev_growth_yoy": 0.15991242220391727,
       "rev_growth_yoy_accel": 0.051271806321221094,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05806279602565057
     },
     {
@@ -441,6 +421,29 @@
       "rev_growth_yoy_accel": 0.04058570452911925,
       "op_leverage_ratio": 0.6151445350957604,
       "fcf_margin_change": 0.16581943007474045
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 878381000,
+      "gross_profit": 615826000,
+      "operating_income": -82595000,
+      "net_income": -85955000,
+      "opex": 698421000,
+      "cogs": 262555000,
+      "rd": 191495000,
+      "sga": null,
+      "fcf": 120446000,
+      "ocf": 151689000,
+      "capex": -31243000,
+      "gross_margin": 0.7010921228942794,
+      "op_margin": -0.0940309501230104,
+      "fcf_margin": 0.1371227292029313,
+      "incr_op_margin_yoy": 4.811896433616034,
+      "rev_growth_yoy": 0.2312187422906995,
+      "rev_growth_yoy_accel": 0.030720615557662978,
+      "op_leverage_ratio": 0.2226368244597075,
+      "fcf_margin_change": -0.08624307393998326
     }
   ],
   "signals": [
@@ -547,12 +550,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +21.0% vs prior quarter YoY: +1.6% (accel: +19.4%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +5.0% vs OpEx growth +2.1% (leverage: 2.3x)",
@@ -590,7 +587,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:19:12.301330",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T10:44:24.445308"
 }

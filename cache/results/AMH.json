@@ -1,6 +1,8 @@
 {
   "ticker": "AMH",
   "name": "AMERICAN HOMES 4 RENT",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
     {
       "date": "2012-06-30T00:00:00",
@@ -355,16 +357,16 @@
       "gross_profit": null,
       "operating_income": null,
       "net_income": null,
-      "opex": 264349000,
+      "opex": null,
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 46689000,
-      "ocf": 46689000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.1559757462374931,
+      "fcf_margin": null,
       "rev_growth_yoy": 0.05395936762790043,
       "rev_growth_yoy_accel": 0.012039044735817184
     }
@@ -393,7 +395,7 @@
         19
       ],
       "fcf": [
-        1,
+        0,
         19
       ]
     },
@@ -412,14 +414,12 @@
     "warnings": [
       "gross_profit: no data",
       "op_income: no data",
-      "fcf: 1/19Q",
+      "fcf: no data",
       "gap: 2Q missing between 2012-09 (Q3) and 2013-06 (Q2)",
       "gap: 14Q missing between 2013-09 (Q3) and 2017-06 (Q2)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:29:39.361575",
-  "sector": "Real Estate",
-  "industry": "REIT - Residential"
+  "last_updated": "2026-02-24T10:15:19.784495"
 }

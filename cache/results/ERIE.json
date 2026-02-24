@@ -1,25 +1,9 @@
 {
   "ticker": "ERIE",
   "name": "ERIE INDEMNITY COMPANY",
+  "sector": "Financial Services",
+  "industry": "Insurance Brokers",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 609252000,
-      "gross_profit": null,
-      "operating_income": 65052000,
-      "net_income": 62785000,
-      "opex": 544200000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 108117000,
-      "ocf": 108117000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.10677355183076953,
-      "fcf_margin": 0.1774585885643379
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.1207517887831514,
-      "fcf_margin": 0.053131104435737896,
-      "op_leverage_ratio": 1.8913948014512394,
-      "fcf_margin_change": -0.12432748412860001
+      "fcf_margin": 0.053131104435737896
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": null,
       "op_margin": 0.13826345990849603,
       "fcf_margin": 0.1981830050346084,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.059603824704328845
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.09723381939235547,
       "fcf_margin": 0.21819348325525884,
-      "incr_op_margin_yoy": -0.12061921361370366,
-      "rev_growth_yoy": 0.043789761871934764,
       "fcf_margin_change": 0.02001047822065044
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.035043370876791,
       "incr_op_margin_yoy": 0.19595545274604725,
       "rev_growth_yoy": 0.06654162243306246,
-      "rev_growth_yoy_accel": 0.02275186056112769,
       "op_leverage_ratio": 2.383853561652724,
       "fcf_margin_change": -0.18315011237846784
     },
@@ -440,6 +419,28 @@
       "rev_growth_yoy": 0.06686062211092064,
       "rev_growth_yoy_accel": -0.0034708877867205973,
       "fcf_margin_change": 0.038169977750938666
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 951023000,
+      "gross_profit": null,
+      "operating_income": 157714000,
+      "net_income": 63380000,
+      "opex": 793309000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 171557000,
+      "ocf": 171557000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.1658361574851502,
+      "fcf_margin": 0.18039206202163355,
+      "incr_op_margin_yoy": -0.35629153826161214,
+      "rev_growth_yoy": 0.029145429557727063,
+      "rev_growth_yoy_accel": -0.03771519255319358,
+      "fcf_margin_change": -0.02528711535915032
     }
   ],
   "signals": [
@@ -574,12 +575,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.3% -> +13.9% (+8.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +3.4% vs OpEx growth +1.8% (leverage: 1.9x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -609,7 +604,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:49.046249",
-  "sector": "Financial Services",
-  "industry": "Insurance Brokers"
+  "last_updated": "2026-02-24T10:06:24.173342"
 }

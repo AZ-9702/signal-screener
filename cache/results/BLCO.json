@@ -1,6 +1,8 @@
 {
   "ticker": "BLCO",
   "name": "Bausch & Lomb Corp",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
     {
       "date": "2021-03-31T00:00:00",
@@ -57,7 +59,7 @@
       "gross_margin": null,
       "op_margin": 0.09905163329820864,
       "fcf_margin": 0.24446786090621708,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.024981779535767412
     },
     {
@@ -415,9 +417,38 @@
       "rev_growth_yoy": 0.07107023411371237,
       "rev_growth_yoy_accel": 0.020083392008449212,
       "fcf_margin_change": 0.09143384899561302
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1405000000,
+      "gross_profit": null,
+      "operating_income": 112000000,
+      "net_income": -58000000,
+      "opex": 1293000000,
+      "cogs": null,
+      "rd": null,
+      "sga": 564000000,
+      "fcf": 60000000,
+      "ocf": 136000000,
+      "capex": -76000000,
+      "gross_margin": null,
+      "op_margin": 0.0797153024911032,
+      "fcf_margin": 0.042704626334519574,
+      "incr_op_margin_yoy": 0.2,
+      "rev_growth_yoy": 0.09765625,
+      "rev_growth_yoy_accel": 0.02658601588628763,
+      "op_leverage_ratio": 1.072935133912612,
+      "fcf_margin_change": -0.006475701534332884
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +20.0% vs year-ago OPM: +6.8%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -558,23 +589,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
         0,
-        19
+        20
       ],
       "op_income": [
-        19,
-        19
+        20,
+        20
       ],
       "fcf": [
-        19,
-        19
+        20,
+        20
       ]
     },
     "gaps": [],
@@ -584,7 +615,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:56:42.200733",
-  "sector": "Healthcare",
-  "industry": "Medical Instruments & Supplies"
+  "last_updated": "2026-02-24T10:27:24.985797"
 }

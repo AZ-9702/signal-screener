@@ -1,25 +1,9 @@
 {
   "ticker": "EMN",
   "name": "EASTMAN CHEMICAL CO",
+  "sector": "Basic Materials",
+  "industry": "Specialty Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2186000000,
-      "gross_profit": 526000000,
-      "operating_income": null,
-      "net_income": 32000000,
-      "opex": null,
-      "cogs": 1660000000,
-      "rd": 57000000,
-      "sga": 174000000,
-      "fcf": 301000000,
-      "ocf": 406000000,
-      "capex": -105000000,
-      "gross_margin": 0.24062214089661482,
-      "op_margin": null,
-      "fcf_margin": 0.13769441903019214
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -91000000,
       "gross_margin": 0.24823578248235784,
       "op_margin": null,
-      "fcf_margin": 0.05188875051888751,
-      "fcf_margin_change": -0.08580566851130464
+      "fcf_margin": 0.05188875051888751
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.2074981440237565,
       "op_margin": null,
       "fcf_margin": 0.07052709725315516,
-      "rev_growth_yoy": 0.232387923147301,
       "fcf_margin_change": -0.08756113804096248
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": -0.03500368459837878,
       "rev_growth_yoy": 0.1266085512660855,
-      "rev_growth_yoy_accel": -0.1057793718812155,
       "fcf_margin_change": -0.10553078185153394
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": -0.10633116883116883,
       "rev_growth_yoy_accel": -0.0741686635412831,
       "fcf_margin_change": 0.08405305507931535
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1973000000,
+      "gross_profit": 338000000,
+      "operating_income": null,
+      "net_income": 105000000,
+      "opex": null,
+      "cogs": 1635000000,
+      "rd": 58000000,
+      "sga": 159000000,
+      "fcf": 390000000,
+      "ocf": 502000000,
+      "capex": -112000000,
+      "gross_margin": 0.17131272174353776,
+      "op_margin": null,
+      "fcf_margin": 0.19766852508869742,
+      "rev_growth_yoy": -0.12115812917594655,
+      "rev_growth_yoy_accel": -0.01482696034477772,
+      "fcf_margin_change": 0.07732338430758934
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +12.0% -> +19.8% (+7.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -523,12 +531,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +12.7% vs prior quarter YoY: +23.2% (decel: -10.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +5.2% -> +12.0% (+6.8%)",
@@ -562,7 +564,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:46:06.029517",
-  "sector": "Basic Materials",
-  "industry": "Specialty Chemicals"
+  "last_updated": "2026-02-24T10:45:25.249067"
 }

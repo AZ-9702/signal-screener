@@ -1,25 +1,9 @@
 {
   "ticker": "ACH",
-  "name": "Owens\u00a0& Minor,\u00a0Inc.",
+  "name": "Accendra Health,\u00a0Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2361837000,
-      "gross_profit": 398529000,
-      "operating_income": 95613000,
-      "net_income": 50742000,
-      "opex": 302916000,
-      "cogs": 1963308000,
-      "rd": null,
-      "sga": 283016000,
-      "fcf": 42281000,
-      "ocf": 71027000,
-      "capex": -28746000,
-      "gross_margin": 0.16873687726968456,
-      "op_margin": 0.04048247190640167,
-      "fcf_margin": 0.01790174343106658
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -5048000,
       "gross_margin": 0.19030497727520854,
       "op_margin": 0.06305173274923126,
-      "fcf_margin": 0.008757662686210475,
-      "fcf_margin_change": -0.009144080744856104
+      "fcf_margin": 0.008757662686210475
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.13844782594949792,
       "op_margin": 0.02513876357540251,
       "fcf_margin": 0.014511504386039578,
-      "incr_op_margin_yoy": -0.3189850819967904,
-      "rev_growth_yoy": 0.04458775097519431,
       "fcf_margin_change": -0.005316844950038034
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": 0.02911981626555079,
       "incr_op_margin_yoy": -1.0648486657216045,
       "rev_growth_yoy": 0.034565581246609765,
-      "rev_growth_yoy_accel": -0.010022169728584544,
       "fcf_margin_change": 0.014608311879511211
     },
     {
@@ -268,17 +248,17 @@
       "cogs": 2086227000,
       "rd": null,
       "sga": 457225000,
-      "fcf": 61373000,
+      "fcf": 79868000,
       "ocf": 111765000,
-      "capex": -50392000,
+      "capex": -31897000,
       "gross_margin": 0.21456732488752517,
       "op_margin": 0.022596991886753383,
-      "fcf_margin": 0.023105999284678953,
+      "fcf_margin": 0.030069084953786497,
       "incr_op_margin_yoy": 1.080509886427463,
       "rev_growth_yoy": 0.041175458340242096,
       "rev_growth_yoy_accel": 0.003399786752059021,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.01922344554432023
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.012260359875212685
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -300,7 +280,7 @@
       "incr_op_margin_yoy": -0.00123565361623493,
       "rev_growth_yoy": 0.03560696656835189,
       "rev_growth_yoy_accel": -0.005568491771890206,
-      "fcf_margin_change": -0.06098243267874176
+      "fcf_margin_change": -0.0679455183478493
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 0.08777138615698646,
       "rev_growth_yoy": 0.042048574725755745,
       "rev_growth_yoy_accel": 0.006441608157403855,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0647453359723423
     },
     {
@@ -359,16 +339,16 @@
       "cogs": 2116307000,
       "rd": null,
       "sga": 493067000,
-      "fcf": 8167000,
+      "fcf": 48746000,
       "ocf": 71001000,
-      "capex": -62834000,
+      "capex": -22255000,
       "gross_margin": 0.21504091320969423,
       "op_margin": -0.09716613756378259,
-      "fcf_margin": 0.0030292206479572326,
+      "fcf_margin": 0.018080370969183697,
       "incr_op_margin_yoy": -8.065225559201464,
       "rev_growth_yoy": 0.015030401144513676,
       "rev_growth_yoy_accel": -0.034890848732981844,
-      "fcf_margin_change": 0.014180858297826312
+      "fcf_margin_change": 0.029232008619052778
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -390,7 +370,7 @@
       "incr_op_margin_yoy": -0.49421726559273027,
       "rev_growth_yoy": 0.007413077759235727,
       "rev_growth_yoy_accel": -0.007617323385277949,
-      "fcf_margin_change": -0.016351926008953688
+      "fcf_margin_change": -0.03140307633018015
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -434,11 +414,39 @@
       "incr_op_margin_yoy": -0.0011196421098089247,
       "rev_growth_yoy": -0.743758923239469,
       "rev_growth_yoy_accel": 0.0009376442710494759,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.38037735822520824
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 708967000,
+      "gross_profit": 323258000,
+      "operating_income": 20909000,
+      "net_income": -56326000,
+      "opex": 302349000,
+      "cogs": 385709000,
+      "rd": null,
+      "sga": 271499000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -13133000,
+      "gross_margin": 0.45595634211465413,
+      "op_margin": 0.029492204855797236,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": -0.14235576763393598,
+      "rev_growth_yoy": -0.7370371647948701,
+      "rev_growth_yoy_accel": 0.00672175844459888,
+      "op_leverage_ratio": 0.74955199294589
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -9.7% (year-ago) -> +2.9%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
@@ -472,7 +480,7 @@
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.1% -> +0.3%",
+      "detail": "FCF margin: -1.1% -> +1.8%",
       "severity": "HIGH"
     },
     {
@@ -540,7 +548,7 @@
         20
       ],
       "fcf": [
-        20,
+        19,
         20
       ]
     },
@@ -549,7 +557,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:07:14.085150",
-  "sector": "Healthcare",
-  "industry": "Medical Distribution"
+  "last_updated": "2026-02-24T10:12:47.702652"
 }

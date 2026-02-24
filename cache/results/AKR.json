@@ -1,25 +1,9 @@
 {
   "ticker": "AKR",
   "name": "ACADIA REALTY TRUST",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2019-12-31T00:00:00",
-      "quarter_label": "2019-12 (Q4)",
-      "revenue": 77786000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2020-03-31T00:00:00",
       "quarter_label": "2020-03 (Q1)",
@@ -79,19 +63,18 @@
       "quarter_label": "2020-12 (Q4)",
       "revenue": 69010000,
       "gross_profit": null,
-      "operating_income": -49253000,
+      "operating_income": null,
       "net_income": null,
-      "opex": 118437000,
+      "opex": null,
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 21441000,
-      "ocf": 21441000,
+      "fcf": null,
+      "ocf": null,
       "capex": null,
       "gross_margin": null,
-      "op_margin": -0.7137081582379365,
-      "fcf_margin": 0.3106941023040139,
-      "rev_growth_yoy": -0.11282235877921477
+      "op_margin": null,
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -110,9 +93,7 @@
       "gross_margin": null,
       "op_margin": 0.12509727065740553,
       "fcf_margin": 0.4463498285154336,
-      "rev_growth_yoy": -0.02836740408849062,
-      "rev_growth_yoy_accel": 0.08445495469072416,
-      "fcf_margin_change": 0.1356557262114197
+      "rev_growth_yoy": -0.02836740408849062
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -174,10 +155,9 @@
       "gross_margin": null,
       "op_margin": 0.12799122950716382,
       "fcf_margin": 0.4233652985873962,
-      "incr_op_margin_yoy": 5.741760896878322,
       "rev_growth_yoy": 0.14993479205912186,
       "rev_growth_yoy_accel": -0.25206594895606893,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.13371079764158555
     },
     {
@@ -289,7 +269,7 @@
       "fcf_margin": 0.7262063319444275,
       "rev_growth_yoy": 0.004073269780509649,
       "rev_growth_yoy_accel": -0.011312896531220884,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3199788256772082
     },
     {
@@ -426,9 +406,38 @@
       "rev_growth_yoy": 0.07805435423628858,
       "rev_growth_yoy_accel": 0.10800499238277321,
       "fcf_margin_change": 0.14070036562194654
+    },
+    {
+      "date": "2024-12-31T00:00:00",
+      "quarter_label": "2024-12 (Q4)",
+      "revenue": 93334000,
+      "gross_profit": null,
+      "operating_income": 16370000,
+      "net_income": null,
+      "opex": 76571000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 37872000,
+      "ocf": 37872000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.17539160434568324,
+      "fcf_margin": 0.4057685302247841,
+      "incr_op_margin_yoy": 0.7353279631760644,
+      "rev_growth_yoy": 0.09145977804544338,
+      "rev_growth_yoy_accel": 0.013405423809154798,
+      "op_leverage_ratio": 0.7082669623954028,
+      "fcf_margin_change": -0.10203248407802523
     }
   ],
   "signals": [
+    {
+      "quarter": "2024-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +73.5% vs year-ago OPM: +12.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2024-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -569,12 +578,6 @@
     },
     {
       "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -71.4% (year-ago) -> +12.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -1.9% -> +12.8%",
       "severity": "HIGH"
@@ -595,24 +598,6 @@
       "quarter": "2021-06 (Q2)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +14.6% vs prior quarter YoY: -2.8% (accel: +17.4%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +31.1% -> +44.6% (+13.6%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: -2.8% vs prior quarter YoY: -11.3% (accel: +8.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -71.4% -> +12.5%",
       "severity": "HIGH"
     }
   ],
@@ -643,7 +628,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:25:35.403288",
-  "sector": "Real Estate",
-  "industry": "REIT - Retail"
+  "last_updated": "2026-02-24T10:40:38.852514"
 }

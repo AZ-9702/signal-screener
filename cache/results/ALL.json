@@ -1,25 +1,9 @@
 {
   "ticker": "ALL",
   "name": "ALLSTATE CORP",
+  "sector": "Financial Services",
+  "industry": "Insurance - Property & Casualty",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 12018000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 2624000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 1246000000,
-      "ocf": 1319000000,
-      "capex": -73000000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.10367781660842071
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -61000000,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.10657778491687414,
-      "fcf_margin_change": 0.0028999683084534322
+      "fcf_margin": 0.10657778491687414
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.06240873107370686,
-      "rev_growth_yoy": 0.08262606090863704,
       "fcf_margin_change": -0.03695024328526749
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.024479208883845343,
       "rev_growth_yoy": -0.009155891093084893,
-      "rev_growth_yoy_accel": -0.09178195200172193,
       "fcf_margin_change": -0.03792952218986152
     },
     {
@@ -411,6 +392,27 @@
       "rev_growth_yoy": 0.03776989234377819,
       "rev_growth_yoy_accel": -0.020712989163158294,
       "fcf_margin_change": 0.07487225499478813
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 17345000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 3832000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2900000000,
+      "ocf": 2989000000,
+      "capex": -89000000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.1671951571057942,
+      "rev_growth_yoy": 0.0508300012116806,
+      "rev_growth_yoy_accel": 0.01306010886790241,
+      "fcf_margin_change": -0.020344686417822166
     }
   ],
   "signals": [
@@ -437,12 +439,6 @@
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +2.4% -> +12.9% (+10.4%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -0.9% vs prior quarter YoY: +8.3% (decel: -9.2%)",
-      "severity": "WARNING"
     }
   ],
   "data_quality": {
@@ -473,7 +469,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:59:16.638034",
-  "sector": "Financial Services",
-  "industry": "Insurance - Property & Casualty"
+  "last_updated": "2026-02-24T10:15:59.345445"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "PWR",
   "name": "Quanta Services, Inc.",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2912185000,
-      "gross_profit": 465873000,
-      "operating_income": 175503000,
-      "net_income": 170051000,
-      "opex": 290370000,
-      "cogs": 2446312000,
-      "rd": null,
-      "sga": 265775000,
-      "fcf": 183075000,
-      "ocf": 276090000,
-      "capex": -93015000,
-      "gross_margin": 0.15997369672599784,
-      "op_margin": 0.060265058710212434,
-      "fcf_margin": 0.06286516824995665
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -83486000,
       "gross_margin": 0.13792447868216265,
       "op_margin": 0.04206605979254922,
-      "fcf_margin": 0.015581926341396836,
-      "fcf_margin_change": -0.047283241908559814
+      "fcf_margin": 0.015581926341396836
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.15240887178867643,
       "op_margin": 0.03569839262420805,
       "fcf_margin": 0.024747307149822432,
-      "incr_op_margin_yoy": -0.03504117751170956,
-      "rev_growth_yoy": 0.3472832254818976,
       "op_leverage_ratio": 0.28449359291701753,
       "fcf_margin_change": 0.041666870633673164
     },
@@ -120,8 +101,7 @@
       "fcf_margin": -0.0062657529583094295,
       "incr_op_margin_yoy": 0.0030009255561261037,
       "rev_growth_yoy": 0.46676759453480404,
-      "rev_growth_yoy_accel": 0.11948436905290644,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03101306010813186
     },
     {
@@ -144,7 +124,7 @@
       "incr_op_margin_yoy": 0.03790414928902837,
       "rev_growth_yoy": 0.41075419292383264,
       "rev_growth_yoy_accel": -0.0560134016109714,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0055939670451141885
     },
     {
@@ -167,7 +147,7 @@
       "incr_op_margin_yoy": 0.03498846340508948,
       "rev_growth_yoy": 0.3299693613234572,
       "rev_growth_yoy_accel": -0.08078483160037542,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.053904282661336456
     },
     {
@@ -234,7 +214,7 @@
       "incr_op_margin_yoy": 0.08684348774869674,
       "rev_growth_yoy": 0.19295992937623155,
       "rev_growth_yoy_accel": 0.07612773187400927,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.013847379522198885
     },
     {
@@ -440,9 +420,38 @@
       "rev_growth_yoy_accel": -0.03538074629979038,
       "op_leverage_ratio": 1.3043109549376395,
       "fcf_margin_change": 0.03223450343304145
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7841948000,
+      "gross_profit": 1217036000,
+      "operating_income": 484929000,
+      "net_income": 315450000,
+      "opex": 732107000,
+      "cogs": 6624912000,
+      "rd": null,
+      "sga": 593938000,
+      "fcf": 933971000,
+      "ocf": 1127565000,
+      "capex": -193594000,
+      "gross_margin": 0.1551956223122112,
+      "op_margin": 0.06183782396924846,
+      "fcf_margin": 0.11909936153618973,
+      "incr_op_margin_yoy": 0.024994451023883105,
+      "rev_growth_yoy": 0.19661880464892997,
+      "rev_growth_yoy_accel": 0.0213205257043102,
+      "op_leverage_ratio": 0.5865135512814751,
+      "fcf_margin_change": 0.0639264498008979
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +5.5% -> +11.9% (+6.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-03 (Q1)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -534,12 +543,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +46.7% vs prior quarter YoY: +34.7% (accel: +11.9%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -1.7% -> +2.5%",
@@ -577,5 +580,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:54:49.908661"
+  "last_updated": "2026-02-24T10:21:27.132560"
 }

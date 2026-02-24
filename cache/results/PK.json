@@ -1,25 +1,9 @@
 {
   "ticker": "PK",
   "name": "Park Hotels & Resorts Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Hotel & Motel",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 113000000,
-      "gross_profit": null,
-      "operating_income": -159000000,
-      "net_income": -217000000,
-      "opex": 272000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -180000000,
-      "ocf": -164000000,
-      "capex": -16000000,
-      "gross_margin": null,
-      "op_margin": -1.407079646017699,
-      "fcf_margin": -1.592920353982301
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -5000000,
       "gross_margin": null,
       "op_margin": -0.7454545454545455,
-      "fcf_margin": -0.46060606060606063,
-      "op_leverage_ratio": 7.823008849557522,
-      "fcf_margin_change": 1.1323142933762402
+      "fcf_margin": -0.46060606060606063
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.004434589800443459,
       "fcf_margin": -0.15077605321507762,
-      "incr_op_margin_yoy": 0.47633136094674555,
-      "rev_growth_yoy": 2.9911504424778763,
       "op_leverage_ratio": 1.2260252852297255,
       "fcf_margin_change": -0.2713434291016024
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.04801670146137787,
       "incr_op_margin_yoy": 0.39490445859872614,
       "rev_growth_yoy": 1.903030303030303,
-      "rev_growth_yoy_accel": -1.0881201394475732,
       "op_leverage_ratio": 0.9612355684685373,
       "fcf_margin_change": 0.1987927546764555
     },
@@ -412,7 +391,7 @@
       "incr_op_margin_yoy": 4.0,
       "rev_growth_yoy": -0.02040816326530612,
       "rev_growth_yoy_accel": -0.006323656223052599,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08244047619047619
     },
     {
@@ -436,9 +415,38 @@
       "rev_growth_yoy": -0.060092449922958396,
       "rev_growth_yoy_accel": -0.03968428665765228,
       "fcf_margin_change": -0.04590651834504294
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 629000000,
+      "gross_profit": null,
+      "operating_income": -164000000,
+      "net_income": -205000000,
+      "opex": 804000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -3000000,
+      "ocf": 105000000,
+      "capex": -108000000,
+      "gross_margin": null,
+      "op_margin": -0.26073131955484896,
+      "fcf_margin": -0.0047694753577106515,
+      "incr_op_margin_yoy": -61.75,
+      "rev_growth_yoy": 0.0064,
+      "rev_growth_yoy_accel": 0.0664924499229584,
+      "op_leverage_ratio": 0.07451753475824861,
+      "fcf_margin_change": -0.055589147488858195
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +0.6% vs prior quarter YoY: -6.0% (accel: +6.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -579,20 +587,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +190.3% vs prior quarter YoY: +299.1% (decel: -108.8%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -74.5% (year-ago) -> +0.2%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -140.7% (year-ago) -> +0.4%",
       "severity": "HIGH"
     },
     {
@@ -624,18 +620,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +95.8% vs OpEx growth +29.5% (leverage: 3.2x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: -159.3% -> -46.1% (+113.2%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +46.0% vs OpEx growth +5.9% (leverage: 7.8x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -665,5 +649,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:33:51.909101"
+  "last_updated": "2026-02-24T10:16:24.063623"
 }

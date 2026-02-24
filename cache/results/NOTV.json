@@ -1,25 +1,9 @@
 {
   "ticker": "NOTV",
   "name": "INOTIV, INC.",
+  "sector": "Healthcare",
+  "industry": "Diagnostics & Research",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 17885000,
-      "gross_profit": 5877000,
-      "operating_income": 14000,
-      "net_income": -366000,
-      "opex": 5863000,
-      "cogs": 12008000,
-      "rd": 196000,
-      "sga": null,
-      "fcf": 1652000,
-      "ocf": 1652000,
-      "capex": null,
-      "gross_margin": 0.3285993849594632,
-      "op_margin": 0.0007827788649706458,
-      "fcf_margin": 0.0923679060665362
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.3349154711748707,
       "op_margin": -0.027785184790144527,
-      "fcf_margin": 0.15327182550263985,
-      "op_leverage_ratio": 0.30265371095717547,
-      "fcf_margin_change": 0.06090391943610364
+      "fcf_margin": 0.15327182550263985
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.39948462789896805,
       "fcf_margin": -0.013573048651601334,
-      "incr_op_margin_yoy": -0.5074179054970901,
-      "rev_growth_yoy": 3.708470785574504,
       "fcf_margin_change": -0.10324587748522282
     },
     {
@@ -120,7 +100,6 @@
       "fcf_margin": 0.03684619386656974,
       "incr_op_margin_yoy": 0.06901005248350636,
       "rev_growth_yoy": 6.482960908751533,
-      "rev_growth_yoy_accel": 2.774490123177029,
       "fcf_margin_change": 0.05041924251817107
     },
     {
@@ -430,9 +409,37 @@
       "rev_growth_yoy": 0.059233075442618674,
       "rev_growth_yoy_accel": -0.17611942866945662,
       "fcf_margin_change": 0.16054574178213246
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 120879000,
+      "gross_profit": null,
+      "operating_income": -16330000,
+      "net_income": -28378000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -5433000,
+      "ocf": -5433000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": -0.1350937714574078,
+      "fcf_margin": -0.04494577221849949,
+      "incr_op_margin_yoy": -0.8205383848454636,
+      "rev_growth_yoy": 0.008366979211852248,
+      "rev_growth_yoy_accel": -0.050866096230766426,
+      "fcf_margin_change": -0.14849863811011826
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +0.8% vs prior quarter YoY: +5.9% (decel: -5.1%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -567,12 +574,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +648.3% vs prior quarter YoY: +370.8% (accel: +277.4%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -2.8% (year-ago) -> +5.6%",
       "severity": "HIGH"
@@ -582,12 +583,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -39.9% -> +5.6%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +9.2% -> +15.3% (+6.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -598,7 +593,7 @@
         20
       ],
       "gross_profit": [
-        4,
+        3,
         20
       ],
       "op_income": [
@@ -612,12 +607,10 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 4/20Q"
+      "gross_profit: 3/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-03T00:00:53.208578",
-  "sector": "Healthcare",
-  "industry": "Diagnostics & Research"
+  "last_updated": "2026-02-24T11:07:25.829363"
 }

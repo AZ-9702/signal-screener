@@ -1,25 +1,9 @@
 {
   "ticker": "NTGR",
   "name": "NETGEAR, Inc.",
+  "sector": "Technology",
+  "industry": "Communication Equipment",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 367073000,
-      "gross_profit": 111116000,
-      "operating_income": 33842000,
-      "net_income": null,
-      "opex": 77274000,
-      "cogs": 255957000,
-      "rd": 23376000,
-      "sga": null,
-      "fcf": 41904000,
-      "ocf": 46088000,
-      "capex": -4184000,
-      "gross_margin": 0.30270818066161226,
-      "op_margin": 0.09219419570494153,
-      "fcf_margin": 0.11415712950829944
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -1588000,
       "gross_margin": 0.34895336950538647,
       "op_margin": 0.09853581819611544,
-      "fcf_margin": 0.03821341511362743,
-      "fcf_margin_change": -0.07594371439467201
+      "fcf_margin": 0.03821341511362743
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -94,8 +77,6 @@
       "gross_margin": 0.29738402066985953,
       "op_margin": 0.0033879141834569464,
       "fcf_margin": 0.003873608108699893,
-      "incr_op_margin_yoy": 0.284684949001605,
-      "rev_growth_yoy": -0.3157028710910364,
       "fcf_margin_change": 0.07063218126051793
     },
     {
@@ -117,7 +98,6 @@
       "fcf_margin": 0.0016005091233769317,
       "incr_op_margin_yoy": 0.837054215913642,
       "rev_growth_yoy": -0.3377117244633168,
-      "rev_growth_yoy_accel": -0.022008853372280424,
       "fcf_margin_change": -0.0022730989853229615
     },
     {
@@ -140,7 +120,7 @@
       "incr_op_margin_yoy": 0.3686774860668092,
       "rev_growth_yoy": -0.27715010151840447,
       "rev_growth_yoy_accel": 0.06056162294491235,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.0166412569949616
     },
     {
@@ -163,7 +143,7 @@
       "incr_op_margin_yoy": 0.3714222320834258,
       "rev_growth_yoy": -0.1398001033947958,
       "rev_growth_yoy_accel": 0.13734999812360868,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08772054506115205
     },
     {
@@ -252,7 +232,7 @@
       "incr_op_margin_yoy": -0.029047968768118743,
       "rev_growth_yoy": -0.20731047690785176,
       "rev_growth_yoy_accel": 0.015833091884034423,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3252195497371248
     },
     {
@@ -341,7 +321,7 @@
       "incr_op_margin_yoy": -6.4342605563338005,
       "rev_growth_yoy": -0.07577143723622028,
       "rev_growth_yoy_accel": 0.09441764893379005,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.46752279479925174
     },
     {
@@ -433,9 +413,36 @@
       "rev_growth_yoy_accel": -0.17573765063767366,
       "op_leverage_ratio": 1.0422260957982747,
       "fcf_margin_change": -0.061485499198392274
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 182468000,
+      "gross_profit": 73635000,
+      "operating_income": -4744000,
+      "net_income": -684000,
+      "opex": 78379000,
+      "cogs": 108833000,
+      "rd": 23239000,
+      "sga": null,
+      "fcf": 13624000,
+      "ocf": 19508000,
+      "capex": -5884000,
+      "gross_margin": 0.40355021154394194,
+      "op_margin": -0.025999079290615342,
+      "fcf_margin": 0.07466514676546024,
+      "rev_growth_yoy": 0.0002686123704219407,
+      "rev_growth_yoy_accel": -0.009066704330333852,
+      "fcf_margin_change": 0.167241584907863
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -9.3% -> +7.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -555,12 +562,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -6.7% -> +0.4%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +28.5% vs year-ago OPM: +9.2%",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -588,7 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:16:39.678934",
-  "sector": "Technology",
-  "industry": "Communication Equipment"
+  "last_updated": "2026-02-24T10:41:30.540833"
 }

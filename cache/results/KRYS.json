@@ -1,6 +1,8 @@
 {
   "ticker": "KRYS",
   "name": "KRYSTAL BIOTECH, INC.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2022-09-30T00:00:00",
@@ -175,7 +177,7 @@
       "fcf_margin": 0.6895313748643265,
       "incr_op_margin_yoy": 0.6432357043235705,
       "rev_growth_yoy": 8.799088359046284,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.7649254901679517
     },
     {
@@ -198,7 +200,7 @@
       "incr_op_margin_yoy": 0.7804922850844966,
       "rev_growth_yoy": 1.162613008091498,
       "rev_growth_yoy_accel": -7.636475350954786,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1185134791226572
     },
     {
@@ -266,11 +268,40 @@
       "incr_op_margin_yoy": 1.3569023569023568,
       "rev_growth_yoy": 0.16649372025619924,
       "rev_growth_yoy_accel": -0.19999082814742036,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1411076257153855
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 107105000,
+      "gross_profit": null,
+      "operating_income": 44270000,
+      "net_income": 51400000,
+      "opex": 62835000,
+      "cogs": null,
+      "rd": 14794000,
+      "sga": 41449000,
+      "fcf": 75369000,
+      "ocf": 77508000,
+      "capex": -2139000,
+      "gross_margin": null,
+      "op_margin": 0.41333271089118157,
+      "fcf_margin": 0.7036926380654498,
+      "incr_op_margin_yoy": 0.18107227859200803,
+      "rev_growth_yoy": 0.1751829622883727,
+      "rev_growth_yoy_accel": 0.008689242032173472,
+      "op_leverage_ratio": 0.8376575661590407,
+      "fcf_margin_change": 0.3156047035051226
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +38.8% -> +70.4% (+31.6%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -375,23 +406,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 13,
+    "n_quarters": 14,
     "coverage": {
       "revenue": [
-        13,
-        13
+        14,
+        14
       ],
       "gross_profit": [
         0,
-        13
+        14
       ],
       "op_income": [
-        13,
-        13
+        14,
+        14
       ],
       "fcf": [
-        13,
-        13
+        14,
+        14
       ]
     },
     "gaps": [],
@@ -401,7 +432,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:45:27.190574",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:37:09.222666"
 }

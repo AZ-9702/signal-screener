@@ -1,25 +1,9 @@
 {
   "ticker": "OMC",
-  "name": "OMNICOM GROUP INC.",
+  "name": "Omnicom Group Inc.",
+  "sector": "Communication Services",
+  "industry": "Advertising Agencies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3757000000,
-      "gross_profit": 769800000,
-      "operating_income": 614700000,
-      "net_income": 398100000,
-      "opex": 3142300000,
-      "cogs": 2987200000,
-      "rd": null,
-      "sga": 101300000,
-      "fcf": 2360600000,
-      "ocf": 2386000000,
-      "capex": -25400000,
-      "gross_margin": 0.204897524620708,
-      "op_margin": 0.1636145861059356,
-      "fcf_margin": 0.6283204684588768
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -12400000,
       "gross_margin": 0.17225480755201494,
       "op_margin": 0.1358078730047565,
-      "fcf_margin": -0.13811316350053984,
-      "fcf_margin_change": -0.7664336319594166
+      "fcf_margin": -0.13811316350053984
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.20397842211732975,
       "op_margin": 0.16144509569998444,
       "fcf_margin": 0.2810311738160693,
-      "incr_op_margin_yoy": 0.07894736842105263,
-      "rev_growth_yoy": 0.02629757785467128,
       "op_leverage_ratio": 1.0428126775877655,
       "fcf_margin_change": 0.13122040234590918
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.16646629328798052,
       "incr_op_margin_yoy": 6.771084337349397,
       "rev_growth_yoy": -0.004844028130380227,
-      "rev_growth_yoy_accel": -0.03114160598505151,
       "fcf_margin_change": -0.4474974671040498
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 6.090909090909091,
       "rev_growth_yoy": -0.0012319408668383918,
       "rev_growth_yoy_accel": 0.003612087263541835,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10627903157010656
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.21311475409836064,
       "rev_growth_yoy": 0.011970172684458399,
       "rev_growth_yoy_accel": 0.0022936046405912913,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08093821366003491
     },
     {
@@ -436,9 +416,44 @@
       "rev_growth_yoy": 0.03979292226858291,
       "rev_growth_yoy_accel": -0.002191612476344175,
       "fcf_margin_change": 0.06675596542536152
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5528800000,
+      "gross_profit": -585000000,
+      "operating_income": -977200000,
+      "net_income": -941100000,
+      "opex": 6506000000,
+      "cogs": 6113800000,
+      "rd": null,
+      "sga": 293900000,
+      "fcf": 2998300000,
+      "ocf": 3037400000,
+      "capex": -39100000,
+      "gross_margin": -0.10580957893213717,
+      "op_margin": -0.17674721458544349,
+      "fcf_margin": 0.5423057444653451,
+      "incr_op_margin_yoy": -1.3778385546162772,
+      "rev_growth_yoy": 0.27916338901485355,
+      "rev_growth_yoy_accel": 0.23937046674627063,
+      "op_leverage_ratio": 0.43208708220914244,
+      "fcf_margin_change": 0.43371294270170285
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +10.9% -> +54.2% (+43.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +27.9% vs prior quarter YoY: +4.0% (accel: +23.9%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -576,12 +591,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.2% vs OpEx growth +1.4% (leverage: 3.0x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +20.5% -> +17.2% -> +20.3% (reversal +3.1%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -609,7 +618,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:13:43.427110",
-  "sector": "Communication Services",
-  "industry": "Advertising Agencies"
+  "last_updated": "2026-02-24T10:14:14.209494"
 }

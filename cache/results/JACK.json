@@ -1,6 +1,8 @@
 {
   "ticker": "JACK",
   "name": "JACK IN THE BOX INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
     {
       "date": "2019-07-07T00:00:00",
@@ -76,7 +78,7 @@
       "fcf_margin": 0.112607574037767,
       "incr_op_margin_yoy": 0.6793030729062061,
       "rev_growth_yoy": 0.08956687159053603,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2020-09-27T00:00:00",
@@ -231,7 +233,7 @@
       "incr_op_margin_yoy": 0.1260306147893725,
       "rev_growth_yoy": 0.44646153404152933,
       "rev_growth_yoy_accel": -0.031709461067170375,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.06027352317830457
     },
     {
@@ -603,7 +605,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:33:02.369303",
-  "sector": "Consumer Cyclical",
-  "industry": "Restaurants"
+  "last_updated": "2026-02-24T10:27:53.623787"
 }

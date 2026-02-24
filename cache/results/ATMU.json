@@ -1,6 +1,8 @@
 {
   "ticker": "ATMU",
   "name": "Atmus Filtration Technologies Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Auto Parts",
   "quarters": [
     {
       "date": "2022-06-30T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": 0.24850448654037888,
       "op_margin": 0.16176470588235295,
       "fcf_margin": 0.10543369890329013,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
     },
     {
       "date": "2022-12-31T00:00:00",
@@ -75,7 +77,7 @@
       "gross_margin": 0.2623029144768275,
       "op_margin": 0.16531294792164358,
       "fcf_margin": 0.08695652173913043,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.07581606393065149
     },
     {
@@ -163,7 +165,7 @@
       "incr_op_margin_yoy": -0.075,
       "rev_growth_yoy": 0.019111323459149548,
       "rev_growth_yoy_accel": -0.018531459510736228,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10786723422782746
     },
     {
@@ -253,7 +255,7 @@
       "incr_op_margin_yoy": 0.36633663366336633,
       "rev_growth_yoy": -0.0236755743084857,
       "rev_growth_yoy_accel": -0.041188709159624054,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.014547505749287669
     },
     {
@@ -300,9 +302,37 @@
       "rev_growth_yoy": 0.10899182561307902,
       "rev_growth_yoy_accel": 0.060679296718025855,
       "fcf_margin_change": 0.08245337741178176
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 446600000,
+      "gross_profit": 127400000,
+      "operating_income": 70500000,
+      "net_income": 48000000,
+      "opex": 56900000,
+      "cogs": 319200000,
+      "rd": 10900000,
+      "sga": 46400000,
+      "fcf": 31200000,
+      "ocf": 47500000,
+      "capex": -16300000,
+      "gross_margin": 0.2852664576802508,
+      "op_margin": 0.15785938199731303,
+      "fcf_margin": 0.06986117330944917,
+      "incr_op_margin_yoy": 0.39849624060150374,
+      "rev_growth_yoy": 0.0981067125645439,
+      "rev_growth_yoy_accel": -0.010885113048535122,
+      "fcf_margin_change": -0.08403652604279564
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +39.8% vs year-ago OPM: +13.4%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -407,23 +437,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 14,
+    "n_quarters": 15,
     "coverage": {
       "revenue": [
-        14,
-        14
+        15,
+        15
       ],
       "gross_profit": [
-        14,
-        14
+        15,
+        15
       ],
       "op_income": [
-        14,
-        14
+        15,
+        15
       ],
       "fcf": [
-        13,
-        14
+        14,
+        15
       ]
     },
     "gaps": [],
@@ -431,7 +461,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:07:23.037275",
-  "sector": "Consumer Cyclical",
-  "industry": "Auto Parts"
+  "last_updated": "2026-02-24T10:47:35.456404"
 }

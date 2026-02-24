@@ -1,25 +1,9 @@
 {
   "ticker": "GOOD",
-  "name": "GLADSTONE COMMERCIAL CORP",
+  "name": "Gladstone Commercial Corp",
+  "sector": "Real Estate",
+  "industry": "REIT - Diversified",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 32865000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 8829000,
-      "opex": 24656000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 13110000,
-      "ocf": 13110000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.3989046097672296
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.48674914208264847,
-      "op_leverage_ratio": 0.6047151806727944,
-      "fcf_margin_change": 0.08784453231541889
+      "fcf_margin": 0.48674914208264847
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.46543178406548275,
-      "rev_growth_yoy": 0.07430397078959379,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09651846932765523
     },
     {
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.4837184430497312,
       "rev_growth_yoy": 0.024627274562390056,
-      "rev_growth_yoy_accel": -0.049676696227203734,
       "fcf_margin_change": 0.01828665898424847
     },
     {
@@ -421,9 +401,43 @@
       "rev_growth_yoy_accel": -0.025883145607430817,
       "op_leverage_ratio": 0.9508430352942027,
       "fcf_margin_change": -0.4440654501494463
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 43461000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 5382000,
+      "opex": 26365000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 15721000,
+      "ocf": 15721000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.36172660546236857,
+      "rev_growth_yoy": 0.1628361204013378,
+      "rev_growth_yoy_accel": 0.12190327982532148,
+      "op_leverage_ratio": 4.85255497354175,
+      "fcf_margin_change": -0.10099467952085905
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +6.4% vs OpEx growth +1.3% (leverage: 4.9x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +16.3% vs prior quarter YoY: +4.1% (accel: +12.2%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -489,12 +503,6 @@
       "signal": "YoY REVENUE GROWTH ACCELERATION",
       "detail": "YoY growth: +9.1% vs prior quarter YoY: +2.5% (accel: +6.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +39.9% -> +48.7% (+8.8%)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -525,7 +533,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:21:00.552160",
-  "sector": "Real Estate",
-  "industry": "REIT - Diversified"
+  "last_updated": "2026-02-24T10:27:36.872155"
 }

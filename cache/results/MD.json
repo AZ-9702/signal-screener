@@ -1,25 +1,9 @@
 {
   "ticker": "MD",
   "name": "Pediatrix Medical Group, Inc.",
+  "sector": "Healthcare",
+  "industry": "Medical Care Facilities",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 416630000,
-      "gross_profit": null,
-      "operating_income": 32305000,
-      "net_income": -64296000,
-      "opex": 384325000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -11866000,
-      "ocf": -11866000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.07753882341646065,
-      "fcf_margin": -0.02848090631975614
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.05843049738893751,
-      "fcf_margin": -0.18396742719131154,
-      "op_leverage_ratio": 0.7649845287475486,
-      "fcf_margin_change": -0.1554865208715554
+      "fcf_margin": -0.18396742719131154
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,9 +79,7 @@
       "gross_margin": null,
       "op_margin": 0.13641104848253865,
       "fcf_margin": 0.08873287465147534,
-      "incr_op_margin_yoy": 0.4358974358974359,
-      "rev_growth_yoy": 0.1965772988022946,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03521909603920463
     },
     {
@@ -121,7 +101,6 @@
       "fcf_margin": -0.2021487716416889,
       "incr_op_margin_yoy": 0.36655767279287405,
       "rev_growth_yoy": 0.07940853223145676,
-      "rev_growth_yoy_accel": -0.11716876657083784,
       "fcf_margin_change": -0.29088164629316426
     },
     {
@@ -233,7 +212,7 @@
       "incr_op_margin_yoy": -0.11393014301430143,
       "rev_growth_yoy": 0.029923894056576406,
       "rev_growth_yoy_accel": 0.011718850394747689,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.3834329564100455
     },
     {
@@ -346,7 +325,7 @@
       "incr_op_margin_yoy": -1.4177298724153102,
       "rev_growth_yoy": 0.008973336596843344,
       "rev_growth_yoy_accel": 0.0015439101549572804,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.032413249245974496
     },
     {
@@ -413,7 +392,7 @@
       "incr_op_margin_yoy": -6.137594493963669,
       "rev_growth_yoy": -0.07029998254993099,
       "rev_growth_yoy_accel": 0.0039111380093084375,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.5488328224978279
     },
     {
@@ -438,6 +417,28 @@
       "rev_growth_yoy_accel": 0.03453217690079706,
       "op_leverage_ratio": 1.3228034163650604,
       "fcf_margin_change": -0.01402508108324807
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 493771000,
+      "gross_profit": null,
+      "operating_income": 48794000,
+      "net_income": 33683000,
+      "opex": 444977000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 114102000,
+      "ocf": 114102000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.09881908820080564,
+      "fcf_margin": 0.23108282989482978,
+      "incr_op_margin_yoy": -1.1059001512859303,
+      "rev_growth_yoy": -0.017105126959734377,
+      "rev_growth_yoy_accel": 0.01866267868939955,
+      "fcf_margin_change": -0.04745635346809188
     }
   ],
   "signals": [
@@ -521,20 +522,8 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.9% vs prior quarter YoY: +19.7% (decel: -11.7%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +36.7% vs year-ago OPM: +5.8%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +43.6% vs year-ago OPM: +7.8%",
       "severity": "HIGH"
     },
     {
@@ -583,7 +572,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:41:10.784477",
-  "sector": "Healthcare",
-  "industry": "Medical Care Facilities"
+  "last_updated": "2026-02-24T10:25:51.101698"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "DOV",
-  "name": "DOVER Corp",
+  "name": "Dover Corporation",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1780390000,
-      "gross_profit": 651449000,
-      "operating_income": 245929000,
-      "net_income": 182106000,
-      "opex": 405520000,
-      "cogs": 1128941000,
-      "rd": null,
-      "sga": 405520000,
-      "fcf": 375763000,
-      "ocf": 417891000,
-      "capex": -42128000,
-      "gross_margin": 0.3659024146394891,
-      "op_margin": 0.13813209465341864,
-      "fcf_margin": 0.21105656625795471
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -31260000,
       "gross_margin": 0.3862881383970564,
       "op_margin": 0.16732685511705384,
-      "fcf_margin": 0.07812191331339295,
-      "op_leverage_ratio": 5.730997260581084,
-      "fcf_margin_change": -0.13293465294456175
+      "fcf_margin": 0.07812191331339295
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.36269570965723,
       "op_margin": 0.1421662096232974,
       "fcf_margin": 0.1392349320216063,
-      "incr_op_margin_yoy": 0.17655677655677657,
-      "rev_growth_yoy": 0.11730295047714265,
       "fcf_margin_change": -0.01109339388539618
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.013011348988084709,
       "incr_op_margin_yoy": -0.07173369565217391,
       "rev_growth_yoy": 0.0985062912863155,
-      "rev_growth_yoy_accel": -0.018796659190827153,
       "op_leverage_ratio": 2.6792752324789495,
       "fcf_margin_change": -0.152246281009691
     },
@@ -143,7 +122,7 @@
       "incr_op_margin_yoy": 0.10012673273561662,
       "rev_growth_yoy": 0.0625291631145911,
       "rev_growth_yoy_accel": -0.035977128171724396,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07257317164647176
     },
     {
@@ -255,7 +234,7 @@
       "incr_op_margin_yoy": -0.4696396575751543,
       "rev_growth_yoy": -0.0023273043347722803,
       "rev_growth_yoy_accel": 0.024831908437640937,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.08669398839265405
     },
     {
@@ -322,7 +301,7 @@
       "incr_op_margin_yoy": 0.574063651248465,
       "rev_growth_yoy": 0.03722514220846194,
       "rev_growth_yoy_accel": 0.030049656415375475,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01661932058762064
     },
     {
@@ -430,10 +409,38 @@
       "incr_op_margin_yoy": 0.4616803995800592,
       "rev_growth_yoy": 0.047540712523354685,
       "rev_growth_yoy_accel": 0.10661074174848922,
-      "op_leverage_ratio": Infinity
+      "op_leverage_ratio": null
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2099079000,
+      "gross_profit": 820813000,
+      "operating_income": 345302000,
+      "net_income": 282075000,
+      "opex": 475511000,
+      "cogs": 1278266000,
+      "rd": null,
+      "sga": 475511000,
+      "fcf": null,
+      "ocf": null,
+      "capex": -56989000,
+      "gross_margin": 0.391034830037364,
+      "op_margin": 0.16450166954173712,
+      "fcf_margin": null,
+      "incr_op_margin_yoy": 0.29689208275959883,
+      "rev_growth_yoy": 0.08768121724513515,
+      "rev_growth_yoy_accel": 0.04014050472178047,
+      "op_leverage_ratio": 0.24464438930963928
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +29.7% vs year-ago OPM: +15.3%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -529,12 +536,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +8.8% vs OpEx growth +4.7% (leverage: 1.9x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +4.9% vs OpEx growth +0.9% (leverage: 5.7x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -553,18 +554,16 @@
         20
       ],
       "fcf": [
-        15,
+        14,
         20
       ]
     },
     "gaps": [],
     "warnings": [
-      "fcf: 15/20Q"
+      "fcf: 14/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:10:04.056911",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:41:34.849840"
 }

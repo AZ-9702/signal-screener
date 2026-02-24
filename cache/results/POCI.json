@@ -1,25 +1,9 @@
 {
   "ticker": "POCI",
   "name": "PRECISION OPTICS CORPORATION, INC.",
+  "sector": "Healthcare",
+  "industry": "Medical Instruments & Supplies",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2785450,
-      "gross_profit": 854440,
-      "operating_income": -212725,
-      "net_income": -213454,
-      "opex": 1067165,
-      "cogs": 1931010,
-      "rd": 145970,
-      "sga": 921195,
-      "fcf": -49647,
-      "ocf": -44804,
-      "capex": -4843,
-      "gross_margin": 0.3067511533145452,
-      "op_margin": -0.07637006587804485,
-      "fcf_margin": -0.01782369096555314
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -13366,
       "gross_margin": 0.332761391048249,
       "op_margin": -0.10414475102611978,
-      "fcf_margin": 0.052334753019375256,
-      "fcf_margin_change": 0.0701584439849284
+      "fcf_margin": 0.052334753019375256
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.2872902799842239,
       "op_margin": -0.11812808743864897,
       "fcf_margin": -0.13798597448679653,
-      "incr_op_margin_yoy": -0.22276628724054082,
-      "rev_growth_yoy": 0.39907052720386293,
       "op_leverage_ratio": 2.1925780000819537,
       "fcf_margin_change": -0.049529394462622015
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.04195059844965507,
       "incr_op_margin_yoy": 0.08886980851430556,
       "rev_growth_yoy": 0.8921087422557957,
-      "rev_growth_yoy_accel": 0.4930382150519328,
       "op_leverage_ratio": 1.4604319723641805,
       "fcf_margin_change": 0.09603537603714146
     },
@@ -166,7 +146,7 @@
       "incr_op_margin_yoy": 0.202026805075525,
       "rev_growth_yoy": 1.1766062703095093,
       "rev_growth_yoy_accel": 0.38347719149729975,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05845665076157011
     },
     {
@@ -297,7 +277,7 @@
       "fcf_margin": -0.06156092259172442,
       "rev_growth_yoy": 0.03853238815268821,
       "rev_growth_yoy_accel": 0.21904521981574832,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.011542152986503837
     },
     {
@@ -361,7 +341,7 @@
       "fcf_margin": -0.18039469333034674,
       "rev_growth_yoy": -0.061642658638402466,
       "rev_growth_yoy_accel": -0.032900545525429495,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09867759326036907
     },
     {
@@ -406,7 +386,7 @@
       "incr_op_margin_yoy": 0.00020954000849080686,
       "rev_growth_yoy": 0.31065383409237934,
       "rev_growth_yoy_accel": 0.512197959607703,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.37811176819461856
     },
     {
@@ -431,6 +411,29 @@
       "rev_growth_yoy_accel": 0.28113521408023134,
       "op_leverage_ratio": 0.45072614737732575,
       "fcf_margin_change": 0.11127641595797047
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7367837,
+      "gross_profit": 204660,
+      "operating_income": -1742329,
+      "net_income": -1780791,
+      "opex": 1946989,
+      "cogs": 7163177,
+      "rd": 249574,
+      "sga": 1697415,
+      "fcf": -256079,
+      "ocf": -256079,
+      "capex": null,
+      "gross_margin": 0.027777487476989514,
+      "op_margin": -0.23647767994867422,
+      "fcf_margin": -0.034756333507378084,
+      "incr_op_margin_yoy": -0.2929702597388883,
+      "rev_growth_yoy": 0.6275653553298091,
+      "rev_growth_yoy_accel": 0.03577630715719837,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.046465519636093064
     }
   ],
   "signals": [
@@ -573,22 +576,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +89.2% vs prior quarter YoY: +39.9% (accel: +49.3%)",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +66.8% vs OpEx growth +30.5% (leverage: 2.2x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -1.8% -> +5.2%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -616,5 +607,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:44:59.032520"
+  "last_updated": "2026-02-24T10:38:03.695573"
 }

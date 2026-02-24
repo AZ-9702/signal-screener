@@ -1,25 +1,9 @@
 {
   "ticker": "KNX",
   "name": "Knight-Swift Transportation Holdings Inc.",
+  "sector": "Industrials",
+  "industry": "Trucking",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1277961000,
-      "gross_profit": null,
-      "operating_income": 194691000,
-      "net_income": 142329000,
-      "opex": 0,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 264626000,
-      "ocf": 264626000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.15234502461342717,
-      "fcf_margin": 0.2070689168135804
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.13267141668043048,
-      "fcf_margin": 0.2502939459401119,
-      "fcf_margin_change": 0.043225029126531506
+      "fcf_margin": 0.2502939459401119
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.18836684629902486,
       "fcf_margin": 0.20509516698874267,
-      "incr_op_margin_yoy": 0.2737902163303631,
-      "rev_growth_yoy": 0.42168579479342483,
       "op_leverage_ratio": 1.4250526251774434,
       "fcf_margin_change": -0.0128847349257811
     },
@@ -120,7 +101,6 @@
       "fcf_margin": 0.2500617135625885,
       "incr_op_margin_yoy": 0.22488844736951033,
       "rev_growth_yoy": 0.493841444169895,
-      "rev_growth_yoy_accel": 0.07215564937647018,
       "fcf_margin_change": 0.04496654657384583
     },
     {
@@ -321,7 +301,7 @@
       "incr_op_margin_yoy": -0.10409466246701285,
       "rev_growth_yoy": 0.18910429567946507,
       "rev_growth_yoy_accel": 0.07576116352736591,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12761204979101243
     },
     {
@@ -436,9 +416,43 @@
       "rev_growth_yoy_accel": 0.01856819593151186,
       "op_leverage_ratio": 0.7159315055921678,
       "fcf_margin_change": -0.003409126726660411
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1856330000,
+      "gross_profit": null,
+      "operating_income": 26457000,
+      "net_income": -6797000,
+      "opex": 1829873000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 723216000,
+      "ocf": 723216000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.014252315051741878,
+      "fcf_margin": 0.38959452252562854,
+      "incr_op_margin_yoy": 6.476669601308012,
+      "rev_growth_yoy": -0.004264914999401914,
+      "rev_growth_yoy_accel": -0.031110785037703675,
+      "fcf_margin_change": 0.27672707750454195
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.3% -> +39.0% (+27.7%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +647.7% vs year-ago OPM: +4.2%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -542,18 +556,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +49.4% vs prior quarter YoY: +42.2% (accel: +7.2%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +27.4% vs year-ago OPM: +15.2%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +11.7% -> +21.8% (+10.1%)",
@@ -587,7 +589,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:42:30.148179",
-  "sector": "Industrials",
-  "industry": "Trucking"
+  "last_updated": "2026-02-24T10:18:07.629660"
 }

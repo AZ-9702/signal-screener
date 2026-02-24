@@ -1,6 +1,8 @@
 {
   "ticker": "ALAB",
-  "name": "Astera Labs,\u00a0Inc.",
+  "name": "Astera Labs, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
   "quarters": [
     {
       "date": "2023-03-31T00:00:00",
@@ -76,7 +78,7 @@
       "gross_margin": 0.7725581027042008,
       "op_margin": 0.1785643583956923,
       "fcf_margin": 0.2650354357207903,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2940107390136846
     },
     {
@@ -121,7 +123,7 @@
       "incr_op_margin_yoy": -0.10178047822012636,
       "rev_growth_yoy": 6.190306886227545,
       "rev_growth_yoy_accel": 3.4959001833289944,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.4016720831002944
     },
     {
@@ -213,7 +215,7 @@
       "incr_op_margin_yoy": 0.557210514881599,
       "rev_growth_yoy": 1.4973975276512688,
       "rev_growth_yoy_accel": 0.054141528386810744,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.6573544613222617
     },
     {
@@ -238,9 +240,44 @@
       "rev_growth_yoy_accel": -0.45846255780531076,
       "op_leverage_ratio": 1.457471979007672,
       "fcf_margin_change": -0.4090543772696411
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 270583000,
+      "gross_profit": 204475000,
+      "operating_income": 66958000,
+      "net_income": 44982000,
+      "opex": 137517000,
+      "cogs": 66108000,
+      "rd": 93792000,
+      "sga": null,
+      "fcf": 76576000,
+      "ocf": 95265000,
+      "capex": -18689000,
+      "gross_margin": 0.7556830990860476,
+      "op_margin": 0.2474582660403647,
+      "fcf_margin": 0.2830037363766386,
+      "incr_op_margin_yoy": 0.5159900221643872,
+      "rev_growth_yoy": 0.9177226852639337,
+      "rev_growth_yoy_accel": -0.12121228458202427,
+      "op_leverage_ratio": 1.2209766593874782,
+      "fcf_margin_change": -0.0027080710612882863
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +91.8% vs prior quarter YoY: +103.9% (decel: -12.1%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +51.6% vs year-ago OPM: +0.1%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -357,23 +394,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 11,
+    "n_quarters": 12,
     "coverage": {
       "revenue": [
-        11,
-        11
+        12,
+        12
       ],
       "gross_profit": [
-        11,
-        11
+        12,
+        12
       ],
       "op_income": [
-        11,
-        11
+        12,
+        12
       ],
       "fcf": [
-        11,
-        11
+        12,
+        12
       ]
     },
     "gaps": [],
@@ -381,7 +418,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:09:57.311749",
-  "sector": "Technology",
-  "industry": "Semiconductors"
+  "last_updated": "2026-02-24T10:13:01.266726"
 }

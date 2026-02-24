@@ -1,6 +1,8 @@
 {
   "ticker": "PRK",
   "name": "PARK NATIONAL CORPORATION",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
     {
       "date": "2024-03-31T00:00:00",
@@ -138,6 +140,27 @@
       "rev_growth_yoy": -0.004766992685131914,
       "rev_growth_yoy_accel": -0.07441911255982911,
       "fcf_margin_change": 0.014582104582444133
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 168267000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 42639000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 55735000,
+      "ocf": 58216000,
+      "capex": -2481000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3312295340143938,
+      "rev_growth_yoy": 0.02180025140122786,
+      "rev_growth_yoy_accel": 0.026567244086359774,
+      "fcf_margin_change": 0.02997190981515596
     }
   ],
   "signals": [
@@ -161,23 +184,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 7,
+    "n_quarters": 8,
     "coverage": {
       "revenue": [
-        7,
-        7
+        8,
+        8
       ],
       "gross_profit": [
         0,
-        7
+        8
       ],
       "op_income": [
         0,
-        7
+        8
       ],
       "fcf": [
-        7,
-        7
+        8,
+        8
       ]
     },
     "gaps": [],
@@ -188,5 +211,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:28:22.311457"
+  "last_updated": "2026-02-24T10:06:34.869431"
 }

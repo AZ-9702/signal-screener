@@ -1,25 +1,9 @@
 {
   "ticker": "AIRT",
-  "name": "Air T, Inc.",
+  "name": "AIR T, INC.",
+  "sector": "Industrials",
+  "industry": "Conglomerates",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 55819000,
-      "gross_profit": null,
-      "operating_income": 1068000,
-      "net_income": 2098000,
-      "opex": 54751000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -2742000,
-      "ocf": -1035000,
-      "capex": -1707000,
-      "gross_margin": null,
-      "op_margin": 0.019133270033501137,
-      "fcf_margin": -0.04912305845679787
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -484000,
       "gross_margin": null,
       "op_margin": -0.13469440164355417,
-      "fcf_margin": 0.09317753809279233,
-      "fcf_margin_change": 0.1423005965495902
+      "fcf_margin": 0.09317753809279233
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": null,
       "op_margin": 0.0005502608236304008,
       "fcf_margin": 0.05942816895208329,
-      "incr_op_margin_yoy": 0.10042364721740805,
-      "rev_growth_yoy": -0.18606567656174422,
       "op_leverage_ratio": 0.7513086522805608,
       "fcf_margin_change": 0.3979729675089083
     },
@@ -119,8 +100,7 @@
       "fcf_margin": -0.2667094366032894,
       "incr_op_margin_yoy": 3.0414012738853504,
       "rev_growth_yoy": 0.10079609655880842,
-      "rev_growth_yoy_accel": 0.2868617731205526,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.3261376055553727
     },
     {
@@ -437,9 +417,38 @@
       "rev_growth_yoy": -0.21038379163486867,
       "rev_growth_yoy_accel": -0.2775262830895976,
       "fcf_margin_change": -0.0689280329621129
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 71131000,
+      "gross_profit": null,
+      "operating_income": -3780000,
+      "net_income": -2451000,
+      "opex": 74911000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -19279000,
+      "ocf": -18496000,
+      "capex": -783000,
+      "gross_margin": null,
+      "op_margin": -0.05314138701831832,
+      "fcf_margin": -0.2710351323614177,
+      "incr_op_margin_yoy": 0.8291598755371166,
+      "rev_growth_yoy": -0.08665896250642013,
+      "rev_growth_yoy_accel": 0.12372482912844854,
+      "op_leverage_ratio": 0.7739105583362627,
+      "fcf_margin_change": -0.18339678473865853
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -8.7% vs prior quarter YoY: -21.0% (accel: +12.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -616,12 +625,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +10.1% vs prior quarter YoY: -18.6% (accel: +28.7%)",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
       "detail": "Op margin: -13.5% (year-ago) -> +15.6%",
       "severity": "HIGH"
@@ -636,12 +639,6 @@
       "quarter": "2021-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.0% -> +1.6%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -4.9% -> +9.3%",
       "severity": "HIGH"
     }
   ],
@@ -672,7 +669,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:34:12.943292",
-  "sector": "Industrials",
-  "industry": "Conglomerates"
+  "last_updated": "2026-02-24T10:45:43.781360"
 }

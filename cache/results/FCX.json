@@ -1,25 +1,9 @@
 {
   "ticker": "FCX",
   "name": "Freeport-McMoRan Inc.",
+  "sector": "Basic Materials",
+  "industry": "Copper",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 4495000000,
-      "gross_profit": 1429000000,
-      "operating_income": 1709000000,
-      "net_income": null,
-      "opex": 2786000000,
-      "cogs": 3066000000,
-      "rd": null,
-      "sga": 97000000,
-      "fcf": 1327000000,
-      "ocf": 1327000000,
-      "capex": null,
-      "gross_margin": 0.31790878754171303,
-      "op_margin": 0.38020022246941043,
-      "fcf_margin": 0.29521690767519465
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.3389690721649484,
       "op_margin": 0.31587628865979384,
-      "fcf_margin": 0.22164948453608246,
-      "op_leverage_ratio": 0.4135881974123295,
-      "fcf_margin_change": -0.07356742313911219
+      "fcf_margin": 0.22164948453608246
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.41624198586223904,
       "op_margin": 0.4047345060003288,
       "fcf_margin": 0.32303139898076605,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09363526768590064
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.3960090850097339,
       "op_margin": 0.3739454899415964,
       "fcf_margin": 0.3698896820246593,
-      "incr_op_margin_yoy": 0.35710005991611743,
-      "rev_growth_yoy": 0.37130144605116794,
       "op_leverage_ratio": 0.20259035720156876,
       "fcf_margin_change": 0.04685828304389328
     },
@@ -121,8 +101,7 @@
       "fcf_margin": 0.25609571406936243,
       "incr_op_margin_yoy": 0.728465487735311,
       "rev_growth_yoy": 0.3614432989690722,
-      "rev_growth_yoy_accel": -0.009858147082095758,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.11379396795529689
     },
     {
@@ -280,7 +259,7 @@
       "incr_op_margin_yoy": 1.3061224489795917,
       "rev_growth_yoy": 0.025529697811740186,
       "rev_growth_yoy_accel": -0.13857184126481387,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.011314098687087687
     },
     {
@@ -326,7 +305,7 @@
       "incr_op_margin_yoy": 0.7204058624577226,
       "rev_growth_yoy": 0.15461042356632387,
       "rev_growth_yoy_accel": -0.01833446416794965,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.004662684082733237
     },
     {
@@ -440,9 +419,37 @@
       "rev_growth_yoy": 0.026804123711340205,
       "rev_growth_yoy_accel": -0.1178214801533941,
       "fcf_margin_change": -0.05083248924400921
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5633000000,
+      "gross_profit": 1017000000,
+      "operating_income": 811000000,
+      "net_income": null,
+      "opex": 4822000000,
+      "cogs": 4616000000,
+      "rd": null,
+      "sga": 133000000,
+      "fcf": 693000000,
+      "ocf": 693000000,
+      "capex": null,
+      "gross_margin": 0.18054322740990592,
+      "op_margin": 0.14397301615480207,
+      "fcf_margin": 0.12302503106692704,
+      "incr_op_margin_yoy": 4.9655172413793105,
+      "rev_growth_yoy": -0.01520979020979021,
+      "rev_growth_yoy_accel": -0.042013913921130415,
+      "fcf_margin_change": -0.11564393049360079
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +496.6% vs year-ago OPM: +21.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -673,7 +680,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:29.292195",
-  "sector": "Basic Materials",
-  "industry": "Copper"
+  "last_updated": "2026-02-24T10:42:07.482890"
 }

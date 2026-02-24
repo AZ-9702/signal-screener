@@ -1,25 +1,9 @@
 {
   "ticker": "ASIX",
   "name": "AdvanSix Inc.",
+  "sector": "Basic Materials",
+  "industry": "Chemicals",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 340272000,
-      "gross_profit": 52608000,
-      "operating_income": null,
-      "net_income": 26764000,
-      "opex": null,
-      "cogs": 287665000,
-      "rd": null,
-      "sga": 20043000,
-      "fcf": 32406000,
-      "ocf": 47761000,
-      "capex": -15355000,
-      "gross_margin": 0.1546057271829595,
-      "op_margin": null,
-      "fcf_margin": 0.09523557624488645
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -14177000,
       "gross_margin": 0.15538427612299174,
       "op_margin": null,
-      "fcf_margin": 0.11401418236211519,
-      "fcf_margin_change": 0.018778606117228744
+      "fcf_margin": 0.11401418236211519
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.1285796483549653,
       "op_margin": null,
       "fcf_margin": 0.03298087081195291,
-      "rev_growth_yoy": 0.2462500587765082,
       "fcf_margin_change": -0.109226768691289
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.05874470070323312,
       "rev_growth_yoy": 0.27283378898621885,
-      "rev_growth_yoy_accel": 0.026583730209710638,
       "fcf_margin_change": 0.02576382989128021
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": -0.05955493273261056,
       "rev_growth_yoy_accel": 0.03627530416920849,
       "fcf_margin_change": 0.017626530842287106
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 359947000,
+      "gross_profit": 27370000,
+      "operating_income": null,
+      "net_income": -2791000,
+      "opex": null,
+      "cogs": 332577000,
+      "rd": null,
+      "sga": 28500000,
+      "fcf": 36126000,
+      "ocf": 63722000,
+      "capex": -27596000,
+      "gross_margin": 0.07603897240427063,
+      "op_margin": null,
+      "fcf_margin": 0.10036477592534457,
+      "rev_growth_yoy": 0.0938576924713276,
+      "rev_growth_yoy_accel": 0.15341262520393817,
+      "fcf_margin_change": 0.10018852823859546
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +0.0% -> +10.0% (+10.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +9.4% vs prior quarter YoY: -6.0% (accel: +15.3%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -580,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:30:35.634306",
-  "sector": "Basic Materials",
-  "industry": "Chemicals"
+  "last_updated": "2026-02-24T10:15:04.526637"
 }

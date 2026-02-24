@@ -1,25 +1,9 @@
 {
   "ticker": "GGG",
   "name": "Graco Inc.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-25T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 470340000,
-      "gross_profit": 244824000,
-      "operating_income": 132128000,
-      "net_income": 114691000,
-      "opex": 112696000,
-      "cogs": 225516000,
-      "rd": 19450000,
-      "sga": null,
-      "fcf": 105734000,
-      "ocf": 131316000,
-      "capex": -25582000,
-      "gross_margin": 0.5205255772419951,
-      "op_margin": 0.28092018539779734,
-      "fcf_margin": 0.22480333375855763
-    },
     {
       "date": "2021-03-26T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -21415000,
       "gross_margin": 0.5446337934815878,
       "op_margin": 0.2824880155198193,
-      "fcf_margin": 0.17672071151589086,
-      "fcf_margin_change": -0.04808262224266677
+      "fcf_margin": 0.17672071151589086
     },
     {
       "date": "2021-06-25T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.5087978740555836,
       "op_margin": 0.2679575774759599,
       "fcf_margin": 0.09029889607297001,
-      "incr_op_margin_yoy": 0.17995352126907144,
-      "rev_growth_yoy": 0.1472955734149764,
       "op_leverage_ratio": 2.1248597816349393,
       "fcf_margin_change": -0.13430742902524326
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.031900624133849906,
       "incr_op_margin_yoy": 0.0019175216655045323,
       "rev_growth_yoy": 0.0884242142651097,
-      "rev_growth_yoy_accel": -0.0588713591498667,
       "fcf_margin_change": -0.12219952020681991
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": 0.3585288645095812,
       "rev_growth_yoy": 0.0815968799047251,
       "rev_growth_yoy_accel": -0.0068273343603846015,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14472960688282127
     },
     {
@@ -436,9 +416,38 @@
       "rev_growth_yoy": 0.046505088480235435,
       "rev_growth_yoy_accel": 0.012952020479375055,
       "fcf_margin_change": 0.03812819831166114
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 593156000,
+      "gross_profit": 306695000,
+      "operating_income": 158579000,
+      "net_income": 132487000,
+      "opex": 148116000,
+      "cogs": 286461000,
+      "rd": 21940000,
+      "sga": null,
+      "fcf": 184306000,
+      "ocf": 196329000,
+      "capex": -12023000,
+      "gross_margin": 0.5170562212976013,
+      "op_margin": 0.2673478815016623,
+      "fcf_margin": 0.3107209570500846,
+      "incr_op_margin_yoy": 0.6420510745436562,
+      "rev_growth_yoy": 0.08107576111046308,
+      "rev_growth_yoy_accel": 0.034570672630227645,
+      "op_leverage_ratio": 0.4832550099388009,
+      "fcf_margin_change": -0.01263859595180361
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +64.2% vs year-ago OPM: +23.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -548,12 +557,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-04 (Q2)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +8.8% vs prior quarter YoY: +14.7% (decel: -5.9%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +10.9% vs OpEx growth +5.1% (leverage: 2.1x)",
@@ -591,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:17.087926",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:32:59.418447"
 }

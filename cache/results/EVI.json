@@ -1,25 +1,9 @@
 {
   "ticker": "EVI",
   "name": "EVI Industries, Inc.",
+  "sector": "Industrials",
+  "industry": "Industrial Distribution",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 57165000,
-      "gross_profit": 14380000,
-      "operating_income": 512000,
-      "net_income": 461000,
-      "opex": 13868000,
-      "cogs": 42785000,
-      "rd": null,
-      "sga": 13868000,
-      "fcf": 3106000,
-      "ocf": 3106000,
-      "capex": null,
-      "gross_margin": 0.2515525233971836,
-      "op_margin": 0.00895652934487886,
-      "fcf_margin": 0.05433394559608152
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.25241536218416033,
       "op_margin": 0.01168025892041722,
-      "fcf_margin": -0.03100315639370003,
-      "op_leverage_ratio": 1.1003835581560026,
-      "fcf_margin_change": -0.08533710198978155
+      "fcf_margin": -0.03100315639370003
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.2768772033870383,
       "op_margin": 0.01599617805014662,
       "fcf_margin": 0.15549734769859314,
-      "incr_op_margin_yoy": 0.1297709923664122,
-      "rev_growth_yoy": 0.06187352400944634,
       "fcf_margin_change": 0.3192224226111298
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": -0.08422437626994438,
       "incr_op_margin_yoy": 0.22817376634331504,
       "rev_growth_yoy": -0.03798888052168619,
-      "rev_growth_yoy_accel": -0.09986240453113253,
       "fcf_margin_change": -0.23972172396853753
     },
     {
@@ -435,9 +414,44 @@
       "rev_growth_yoy": 0.15641121495327104,
       "rev_growth_yoy_accel": -0.06334340532938154,
       "fcf_margin_change": -0.08095110829205049
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 115294000,
+      "gross_profit": 35530000,
+      "operating_income": 4249000,
+      "net_income": 2370000,
+      "opex": 31281000,
+      "cogs": 79764000,
+      "rd": null,
+      "sga": 31281000,
+      "fcf": 4038000,
+      "ocf": 4038000,
+      "capex": null,
+      "gross_margin": 0.30816868180477736,
+      "op_margin": 0.03685360903429493,
+      "fcf_margin": 0.03502350512602564,
+      "incr_op_margin_yoy": 0.08231855820750122,
+      "rev_growth_yoy": 0.24358490362524404,
+      "rev_growth_yoy_accel": 0.087173688671973,
+      "op_leverage_ratio": 2.0693506910422585,
+      "fcf_margin_change": 0.0255748171359269
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +6.5% vs OpEx growth +3.1% (leverage: 2.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +24.4% vs prior quarter YoY: +15.6% (accel: +8.7%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -596,12 +610,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.8% vs prior quarter YoY: +6.2% (decel: -10.0%)",
-      "severity": "WARNING"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +22.8% vs year-ago OPM: +1.2%",
       "severity": "HIGH"
@@ -611,12 +619,6 @@
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -16.4% -> +15.5%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +13.0% vs year-ago OPM: +0.9%",
-      "severity": "MEDIUM"
     },
     {
       "quarter": "2021-06 (Q2)",
@@ -656,7 +658,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:42:32.104785",
-  "sector": "Industrials",
-  "industry": "Industrial Distribution"
+  "last_updated": "2026-02-24T11:06:28.811756"
 }

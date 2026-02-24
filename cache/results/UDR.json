@@ -1,25 +1,9 @@
 {
   "ticker": "UDR",
   "name": "UDR, Inc.",
+  "sector": "Real Estate",
+  "industry": "REIT - Residential",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 302384000,
-      "gross_profit": null,
-      "operating_income": 88257000,
-      "net_income": 26532000,
-      "opex": 272101000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 147724000,
-      "ocf": 147724000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": 0.2918706016191333,
-      "fcf_margin": 0.488531139213715
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": 0.2490371250095375,
-      "fcf_margin": 0.4100470738884226,
-      "fcf_margin_change": -0.0784840653252924
+      "fcf_margin": 0.4100470738884226
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": null,
       "op_margin": 0.11494212264090342,
       "fcf_margin": 0.6634120020041883,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.25336492811576566
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.3559395533703993,
       "fcf_margin": 0.5192040389652162,
-      "incr_op_margin_yoy": 0.7787185754189944,
-      "rev_growth_yoy": 0.1515424096513043,
       "op_leverage_ratio": 1.2865328970260748,
       "fcf_margin_change": 0.05520792045837808
     },
@@ -120,8 +101,7 @@
       "fcf_margin": 0.45070059843366006,
       "incr_op_margin_yoy": -0.4868786386027765,
       "rev_growth_yoy": 0.18519378584864035,
-      "rev_growth_yoy_accel": 0.03365137619733605,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.0685034405315561
     },
     {
@@ -258,7 +238,7 @@
       "incr_op_margin_yoy": 0.8045555909525327,
       "rev_growth_yoy": 0.048132237149786476,
       "rev_growth_yoy_accel": -0.047707856899790006,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.10169279941311898
     },
     {
@@ -438,9 +418,43 @@
       "rev_growth_yoy_accel": 0.003588020549437871,
       "op_leverage_ratio": 0.7053722205190808,
       "fcf_margin_change": -0.044454676034665574
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 433106000,
+      "gross_profit": null,
+      "operating_income": 277666000,
+      "net_income": 222902000,
+      "opex": 350414000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 261407000,
+      "ocf": 261407000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.6411040253425259,
+      "fcf_margin": 0.6035635618070403,
+      "incr_op_margin_yoy": 20.367893621121603,
+      "rev_growth_yoy": 0.024550065290210255,
+      "rev_growth_yoy_accel": -0.0033059895460426023,
+      "fcf_margin_change": 0.059561283311958535
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +54.4% -> +60.4% (+6.0%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +2036.8% vs year-ago OPM: +15.7%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -544,12 +558,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +77.9% vs year-ago OPM: +29.2%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +41.0% -> +66.3% (+25.3%)",
@@ -583,5 +591,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:28:34.550025"
+  "last_updated": "2026-02-24T10:32:48.593996"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "USB",
   "name": "US BANCORP \\DE\\",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2018-03-31T00:00:00",
-      "quarter_label": "2018-03 (Q1)",
-      "revenue": 5469000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": null,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": null,
-      "ocf": null,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": null
-    },
     {
       "date": "2018-06-30T00:00:00",
       "quarter_label": "2018-06 (Q2)",
@@ -90,8 +74,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": null,
-      "rev_growth_yoy": 0.019747668678003292
+      "fcf_margin": null
     },
     {
       "date": "2019-06-30T00:00:00",
@@ -110,8 +93,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": null,
-      "rev_growth_yoy": 0.03226950354609929,
-      "rev_growth_yoy_accel": 0.012521834868095997
+      "rev_growth_yoy": 0.03226950354609929
     },
     {
       "date": "2019-09-30T00:00:00",
@@ -239,15 +221,15 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 416000000,
-      "ocf": 416000000,
+      "fcf": 362000000,
+      "ocf": 362000000,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.06152026027802426,
+      "fcf_margin": 0.05353445726116533,
       "rev_growth_yoy": 0.06187185929648241,
       "rev_growth_yoy_accel": -0.04973104933456407,
-      "fcf_margin_change": -0.4892476578107129
+      "fcf_margin_change": -0.4972334608275718
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -268,7 +250,7 @@
       "fcf_margin": 0.396276991809382,
       "rev_growth_yoy": -0.06411149825783972,
       "rev_growth_yoy_accel": -0.12598335755432213,
-      "fcf_margin_change": 0.3347567315313577
+      "fcf_margin_change": 0.3427425345482166
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -323,15 +305,15 @@
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 4766000000,
-      "ocf": 4766000000,
+      "fcf": 4843000000,
+      "ocf": 4843000000,
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.6799828791553717,
+      "fcf_margin": 0.6909687544585533,
       "rev_growth_yoy": 0.0365276545400769,
       "rev_growth_yoy_accel": 0.060418439523012055,
-      "fcf_margin_change": 0.53837448754698
+      "fcf_margin_change": 0.5493603628501618
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -352,7 +334,7 @@
       "fcf_margin": -0.040960045990227074,
       "rev_growth_yoy": 0.036187639612807146,
       "rev_growth_yoy_accel": -0.00034001492726975363,
-      "fcf_margin_change": -0.7209429251455988
+      "fcf_margin_change": -0.7319288004487804
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -395,6 +377,27 @@
       "rev_growth_yoy": 0.06774475524475525,
       "rev_growth_yoy_accel": 0.04779426740435915,
       "fcf_margin_change": 0.1722960055026545
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7365000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 2045000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2836000000,
+      "ocf": 2836000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.3850644942294637,
+      "rev_growth_yoy": 0.05079183906406049,
+      "rev_growth_yoy_accel": -0.016952916180694756,
+      "fcf_margin_change": -0.07720866718409886
     }
   ],
   "signals": [
@@ -413,7 +416,7 @@
     {
       "quarter": "2024-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +14.2% -> +68.0% (+53.8%)",
+      "detail": "FCF margin: +14.2% -> +69.1% (+54.9%)",
       "severity": "MEDIUM"
     },
     {
@@ -425,7 +428,7 @@
     {
       "quarter": "2024-03 (Q1)",
       "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +6.2% -> +39.6% (+33.5%)",
+      "detail": "FCF margin: +5.4% -> +39.6% (+34.3%)",
       "severity": "MEDIUM"
     },
     {
@@ -469,7 +472,7 @@
         20
       ],
       "fcf": [
-        13,
+        14,
         20
       ]
     },
@@ -483,11 +486,11 @@
     "warnings": [
       "gross_profit: no data",
       "op_income: no data",
-      "fcf: 13/20Q",
+      "fcf: 14/20Q",
       "gap: 11Q missing between 2019-09 (Q3) and 2022-09 (Q3)"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:51:46.739233"
+  "last_updated": "2026-02-24T10:07:05.944474"
 }

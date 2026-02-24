@@ -1,25 +1,9 @@
 {
   "ticker": "ENVA",
-  "name": "ENOVA INTERNATIONAL, INC.",
+  "name": "Enova International, Inc.",
+  "sector": "Financial Services",
+  "industry": "Credit Services",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 263852000,
-      "gross_profit": 243503000,
-      "operating_income": 120141000,
-      "net_income": 230691000,
-      "opex": 123362000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 107982000,
-      "ocf": 117638000,
-      "capex": -9656000,
-      "gross_margin": 0.9228772190470416,
-      "op_margin": 0.4553348089080242,
-      "fcf_margin": 0.409252156511984
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -7106000,
       "gross_margin": 0.9187570342732921,
       "op_margin": 0.4758444982346865,
-      "fcf_margin": 0.4236829527759362,
-      "fcf_margin_change": 0.014430796263952217
+      "fcf_margin": 0.4236829527759362
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": 0.771102395986887,
       "op_margin": 0.2218873072099624,
       "fcf_margin": 0.3824668324129282,
-      "incr_op_margin_yoy": -0.3955752034965315,
-      "rev_growth_yoy": 0.3780755878295408,
       "op_leverage_ratio": 0.5497587943432168,
       "fcf_margin_change": 0.07762550307759591
     },
@@ -120,8 +101,7 @@
       "fcf_margin": 0.39804682537830766,
       "incr_op_margin_yoy": -0.259005281620436,
       "rev_growth_yoy": 0.48676014862552225,
-      "rev_growth_yoy_accel": 0.10868456079598143,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.01557999296537943
     },
     {
@@ -144,7 +124,7 @@
       "incr_op_margin_yoy": -0.2318978153137433,
       "rev_growth_yoy": 0.5412133575098217,
       "rev_growth_yoy_accel": 0.05445320888429944,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18685721638742187
     },
     {
@@ -190,7 +170,7 @@
       "incr_op_margin_yoy": 0.20047162113646005,
       "rev_growth_yoy": 0.33705529031264436,
       "rev_growth_yoy_accel": -0.08785725341549155,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.04354247463562699
     },
     {
@@ -304,7 +284,7 @@
       "incr_op_margin_yoy": 0.16997149242298612,
       "rev_growth_yoy": 0.2620412369427384,
       "rev_growth_yoy_accel": 0.06163972634137754,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.032978127501112064
     },
     {
@@ -396,7 +376,7 @@
       "incr_op_margin_yoy": 0.3030696193200248,
       "rev_growth_yoy": 0.2224208011621787,
       "rev_growth_yoy_accel": -0.02768372391698623,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06547186676869765
     },
     {
@@ -444,9 +424,38 @@
       "rev_growth_yoy_accel": -0.05235530578484168,
       "op_leverage_ratio": 1.9777198363972792,
       "fcf_margin_change": 0.014721166886416226
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 839391000,
+      "gross_profit": 501894000,
+      "operating_income": 186647000,
+      "net_income": 78981000,
+      "opex": 315247000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 498811000,
+      "ocf": 498811000,
+      "capex": null,
+      "gross_margin": 0.5979263537493255,
+      "op_margin": 0.22236002053870008,
+      "fcf_margin": 0.5942534528008997,
+      "incr_op_margin_yoy": 0.2863346686088857,
+      "rev_growth_yoy": 0.1505583571265066,
+      "rev_growth_yoy_accel": -0.012871238017306358,
+      "op_leverage_ratio": 0.23524815709132085,
+      "fcf_margin_change": -0.0059897331341826066
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +57.8% -> +57.4% -> +59.8% (reversal +2.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -526,22 +535,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +48.7% vs prior quarter YoY: +37.8% (accel: +10.9%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +30.5% -> +38.2% (+7.8%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +92.3% -> +91.9% -> +97.9% (reversal +6.0%)",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -569,7 +566,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:14:01.524031",
-  "sector": "Financial Services",
-  "industry": "Credit Services"
+  "last_updated": "2026-02-24T10:17:15.126926"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "BMI",
-  "name": "Badger Meter, Inc.",
+  "name": "BADGER METER, INC.",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 112329000,
-      "gross_profit": 44055000,
-      "operating_income": 16962000,
-      "net_income": 13094000,
-      "opex": 27093000,
-      "cogs": 68276000,
-      "rd": null,
-      "sga": 27092000,
-      "fcf": 12696000,
-      "ocf": 15900000,
-      "capex": -3204000,
-      "gross_margin": 0.3921961381299575,
-      "op_margin": 0.1510028576770024,
-      "fcf_margin": 0.11302513153326389
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -1759000,
       "gross_margin": 0.41888291101644576,
       "op_margin": 0.15059995587311825,
-      "fcf_margin": 0.24436957960659186,
-      "op_leverage_ratio": 0.2940509852138748,
-      "fcf_margin_change": 0.13134444807332796
+      "fcf_margin": 0.24436957960659186
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": 0.4077676224271378,
       "op_margin": 0.15199114504065306,
       "fcf_margin": 0.09680228536083145,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14756729424576043
     },
     {
@@ -97,8 +79,6 @@
       "gross_margin": 0.4039470194772667,
       "op_margin": 0.16840763768158648,
       "fcf_margin": 0.19280578719391814,
-      "incr_op_margin_yoy": 0.25188949143857553,
-      "rev_growth_yoy": 0.20848578728556294,
       "op_leverage_ratio": 7.515278418520393,
       "fcf_margin_change": 0.0848345588075831
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.06124529840938959,
       "incr_op_margin_yoy": 0.07657967032967034,
       "rev_growth_yoy": 0.12355526891940055,
-      "rev_growth_yoy_accel": -0.08493051836616239,
       "fcf_margin_change": -0.13156048878452856
     },
     {
@@ -440,6 +419,28 @@
       "rev_growth_yoy": 0.06607720281330659,
       "rev_growth_yoy_accel": -0.03286675494500374,
       "fcf_margin_change": 0.04616668214509906
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 220706000,
+      "gross_profit": 92987000,
+      "operating_income": 43049000,
+      "net_income": 33575000,
+      "opex": 49938000,
+      "cogs": 127719000,
+      "rd": null,
+      "sga": 49938000,
+      "fcf": 50768000,
+      "ocf": 54801000,
+      "capex": -4033000,
+      "gross_margin": 0.4213161400233795,
+      "op_margin": 0.19505133526048227,
+      "fcf_margin": 0.23002546373909183,
+      "incr_op_margin_yoy": 0.2464570986859057,
+      "rev_growth_yoy": 0.07565965825462273,
+      "rev_growth_yoy_accel": 0.00958245544131614,
+      "fcf_margin_change": 0.013137010872222049
     }
   ],
   "signals": [
@@ -558,12 +559,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +12.4% vs prior quarter YoY: +20.8% (decel: -8.5%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.8% -> +19.3% (+8.5%)",
@@ -576,21 +571,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +25.2% vs year-ago OPM: +15.1%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +4.8% vs OpEx growth +1.0% (leverage: 4.7x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +11.3% -> +24.4% (+13.1%)",
       "severity": "MEDIUM"
     }
   ],
@@ -619,7 +602,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:05:33.507953",
-  "sector": "Technology",
-  "industry": "Scientific & Technical Instruments"
+  "last_updated": "2026-02-24T10:34:44.062631"
 }

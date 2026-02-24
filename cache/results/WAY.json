@@ -1,6 +1,8 @@
 {
   "ticker": "WAY",
   "name": "Waystar Holding Corp.",
+  "sector": "Healthcare",
+  "industry": "Health Information Services",
   "quarters": [
     {
       "date": "2023-06-30T00:00:00",
@@ -120,7 +122,7 @@
       "incr_op_margin_yoy": -0.11829914350393242,
       "rev_growth_yoy": 0.2172176231731242,
       "rev_growth_yoy_accel": 0.020380368301180174,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.2623823652082045
     },
     {
@@ -143,7 +145,7 @@
       "incr_op_margin_yoy": 0.41315796508674846,
       "rev_growth_yoy": 0.18097680156752705,
       "rev_growth_yoy_accel": -0.03624082160559716,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.06291524870306336
     },
     {
@@ -213,9 +215,38 @@
       "rev_growth_yoy": 0.11885703338442061,
       "rev_growth_yoy_accel": -0.03510620576575654,
       "fcf_margin_change": -0.052164029377488985
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 303538000,
+      "gross_profit": 210901000,
+      "operating_income": 59018000,
+      "net_income": 19988000,
+      "opex": 244520000,
+      "cogs": 92637000,
+      "rd": 18520000,
+      "sga": null,
+      "fcf": 66634000,
+      "ocf": 66634000,
+      "capex": null,
+      "gross_margin": 0.694809216638444,
+      "op_margin": 0.19443364586970988,
+      "fcf_margin": 0.2195244088054873,
+      "incr_op_margin_yoy": 0.09884581734975435,
+      "rev_growth_yoy": 0.24348837780927646,
+      "rev_growth_yoy_accel": 0.12463134442485585,
+      "op_leverage_ratio": 0.7497098891566244,
+      "fcf_margin_change": -0.08581597704827837
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +24.3% vs prior quarter YoY: +11.9% (accel: +12.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "INCREMENTAL MARGIN (YoY)",
@@ -272,23 +303,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 10,
+    "n_quarters": 11,
     "coverage": {
       "revenue": [
-        10,
-        10
+        11,
+        11
       ],
       "gross_profit": [
-        10,
-        10
+        11,
+        11
       ],
       "op_income": [
-        10,
-        10
+        11,
+        11
       ],
       "fcf": [
-        9,
-        10
+        10,
+        11
       ]
     },
     "gaps": [],
@@ -296,5 +327,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:00:46.709798"
+  "last_updated": "2026-02-24T10:38:56.493437"
 }

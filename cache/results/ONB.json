@@ -1,6 +1,8 @@
 {
   "ticker": "ONB",
-  "name": "OLD NATIONAL BANCORP",
+  "name": "Old National Bancorp /IN/",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
     {
       "date": "2017-03-31T00:00:00",
@@ -299,17 +301,17 @@
       "revenue": 29638000,
       "gross_profit": null,
       "operating_income": null,
-      "net_income": 74120000,
+      "net_income": null,
       "opex": null,
       "cogs": null,
       "rd": null,
       "sga": null,
-      "fcf": 117143000,
-      "ocf": 121149000,
-      "capex": -4006000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 3.95245968014036,
+      "fcf_margin": null,
       "rev_growth_yoy": -0.09083100708610693,
       "rev_growth_yoy_accel": -0.001496984775398405
     },
@@ -331,8 +333,7 @@
       "op_margin": null,
       "fcf_margin": 2.331653292658664,
       "rev_growth_yoy": -0.02738091398716419,
-      "rev_growth_yoy_accel": 0.06345009309894274,
-      "fcf_margin_change": -1.620806387481696
+      "rev_growth_yoy_accel": 0.06345009309894274
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -458,7 +459,7 @@
         20
       ],
       "fcf": [
-        5,
+        4,
         20
       ]
     },
@@ -466,12 +467,10 @@
     "warnings": [
       "gross_profit: no data",
       "op_income: no data",
-      "fcf: 5/20Q"
+      "fcf: 4/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:40:44.557001",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-24T10:18:56.070690"
 }

@@ -1,25 +1,9 @@
 {
   "ticker": "WING",
   "name": "WINGSTOP INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Restaurants",
   "quarters": [
-    {
-      "date": "2020-12-26T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 63282000,
-      "gross_profit": 51066000,
-      "operating_income": 10081000,
-      "net_income": -6410000,
-      "opex": 40985000,
-      "cogs": 12216000,
-      "rd": null,
-      "sga": 24199000,
-      "fcf": 16428000,
-      "ocf": 18751000,
-      "capex": -2323000,
-      "gross_margin": 0.8069593249265193,
-      "op_margin": 0.1593028033248001,
-      "fcf_margin": 0.25959988622357066
-    },
     {
       "date": "2021-03-27T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -2841000,
       "gross_margin": 0.8121516480407412,
       "op_margin": 0.2801386334700806,
-      "fcf_margin": 0.1548592445890508,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10474064163451988
+      "fcf_margin": 0.1548592445890508
     },
     {
       "date": "2021-06-26T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.7955794968623313,
       "op_margin": 0.1973954573221525,
       "fcf_margin": -0.23109068695507304,
-      "incr_op_margin_yoy": 0.4730162359935971,
-      "rev_growth_yoy": 0.13820675705571886,
       "op_leverage_ratio": 0.21164858103600515,
       "fcf_margin_change": -0.44615818057054185
     },
@@ -120,7 +100,6 @@
       "fcf_margin": 0.1846729217242963,
       "incr_op_margin_yoy": -0.5795104261106074,
       "rev_growth_yoy": 0.0780166926014995,
-      "rev_growth_yoy_accel": -0.06019006445421936,
       "op_leverage_ratio": 2.981640493030223,
       "fcf_margin_change": 0.41576360867936935
     },
@@ -418,7 +397,7 @@
       "incr_op_margin_yoy": 0.21545893719806763,
       "rev_growth_yoy": 0.11965394768110264,
       "rev_growth_yoy_accel": -0.05391881843979811,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.14556140629327025
     },
     {
@@ -442,9 +421,37 @@
       "rev_growth_yoy": 0.08146561803837586,
       "rev_growth_yoy_accel": -0.03818832964272678,
       "fcf_margin_change": 0.39544411930102635
+    },
+    {
+      "date": "2025-12-27T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 175694000,
+      "gross_profit": 151218000,
+      "operating_income": 46835000,
+      "net_income": 26761000,
+      "opex": 104383000,
+      "cogs": 24476000,
+      "rd": null,
+      "sga": 33320000,
+      "fcf": 34475000,
+      "ocf": 57315000,
+      "capex": -22840000,
+      "gross_margin": 0.8606896080685738,
+      "op_margin": 0.26657142531902056,
+      "fcf_margin": 0.19622184024497136,
+      "incr_op_margin_yoy": 0.36005189937288257,
+      "rev_growth_yoy": 0.08573052941212822,
+      "rev_growth_yoy_accel": 0.004264911373752359,
+      "fcf_margin_change": -0.15461122753852208
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +36.0% vs year-ago OPM: +25.9%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -596,22 +603,10 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +7.8% vs prior quarter YoY: +13.8% (decel: -6.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +80.8% -> +76.9% -> +79.6% (reversal +2.7%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +47.3% vs year-ago OPM: +15.9%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -639,5 +634,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:47:40.274196"
+  "last_updated": "2026-02-24T10:31:59.148846"
 }

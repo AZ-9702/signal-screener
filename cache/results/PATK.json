@@ -1,25 +1,9 @@
 {
   "ticker": "PATK",
   "name": "PATRICK INDUSTRIES, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Recreational Vehicles",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 772613000,
-      "gross_profit": 142318000,
-      "operating_income": 62159000,
-      "net_income": 37824000,
-      "opex": 80159000,
-      "cogs": 630295000,
-      "rd": null,
-      "sga": 40695000,
-      "fcf": 37454000,
-      "ocf": 47395000,
-      "capex": -9941000,
-      "gross_margin": 0.18420347573752965,
-      "op_margin": 0.08045295639602233,
-      "fcf_margin": 0.04847705125334417
-    },
     {
       "date": "2021-03-28T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -14239000,
       "gross_margin": 0.18992972228721797,
       "op_margin": 0.08052012797433929,
-      "fcf_margin": 0.042391205938272725,
-      "op_leverage_ratio": 0.6266718074094924,
-      "fcf_margin_change": -0.0060858453150714475
+      "fcf_margin": 0.042391205938272725
     },
     {
       "date": "2021-06-27T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.19784588650424104,
       "op_margin": 0.0825217716402653,
       "fcf_margin": 0.073259728500478,
-      "incr_op_margin_yoy": 0.0867856780823014,
-      "rev_growth_yoy": 0.4851924572845655,
       "op_leverage_ratio": 0.5423434582494945,
       "fcf_margin_change": 0.025284720553691756
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.031074189282321606,
       "incr_op_margin_yoy": 0.18970005613270097,
       "rev_growth_yoy": 0.578132661087876,
-      "rev_growth_yoy_accel": 0.09294020380331047,
       "op_leverage_ratio": 17.848286063240554,
       "fcf_margin_change": -0.1043339177827996
     },
@@ -234,7 +213,7 @@
       "incr_op_margin_yoy": 0.1773884340405904,
       "rev_growth_yoy": -0.3760999069589678,
       "rev_growth_yoy_accel": -0.04672780570540547,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.20069535525744958
     },
     {
@@ -438,9 +417,43 @@
       "rev_growth_yoy": 0.06110975763613662,
       "rev_growth_yoy_accel": 0.030685529996419283,
       "fcf_margin_change": -0.14278646500612707
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 924168000,
+      "gross_profit": 212673000,
+      "operating_income": 57405000,
+      "net_income": 29079000,
+      "opex": 155268000,
+      "cogs": 711495000,
+      "rd": null,
+      "sga": 88429000,
+      "fcf": 112666000,
+      "ocf": 130843000,
+      "capex": -18177000,
+      "gross_margin": 0.23012374373490535,
+      "op_margin": 0.06211532968031786,
+      "fcf_margin": 0.12191073484474685,
+      "incr_op_margin_yoy": 0.22824011788070986,
+      "rev_growth_yoy": 0.09223836250757869,
+      "rev_growth_yoy_accel": 0.03112860487144207,
+      "fcf_margin_change": 0.13953420109376927
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.8% -> +12.2%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +22.8% vs year-ago OPM: +4.7%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -557,12 +570,6 @@
     },
     {
       "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +57.8% vs prior quarter YoY: +48.5% (accel: +9.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2022-03 (Q1)",
       "signal": "INCREMENTAL MARGIN (YoY)",
       "detail": "YoY Incr OPM: +19.0% vs year-ago OPM: +8.1%",
       "severity": "MEDIUM"
@@ -593,5 +600,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:10:33.473052"
+  "last_updated": "2026-02-24T10:23:43.001446"
 }

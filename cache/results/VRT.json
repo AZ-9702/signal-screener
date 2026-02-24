@@ -1,25 +1,9 @@
 {
   "ticker": "VRT",
   "name": "Vertiv Holdings Co",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1305500000,
-      "gross_profit": 427200000,
-      "operating_income": 120000000,
-      "net_income": 74900000,
-      "opex": 307200000,
-      "cogs": 878300000,
-      "rd": null,
-      "sga": 265500000,
-      "fcf": 171400000,
-      "ocf": 194500000,
-      "capex": -23100000,
-      "gross_margin": 0.327230945997702,
-      "op_margin": 0.09191880505553428,
-      "fcf_margin": 0.13129069322098813
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -16800000,
       "gross_margin": 0.32592862345229423,
       "op_margin": 0.07265112891478515,
-      "fcf_margin": 0.03996722505462491,
-      "fcf_margin_change": -0.09132346816636322
+      "fcf_margin": 0.03996722505462491
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.2649415101028004,
       "op_margin": -0.0027649769585253456,
       "fcf_margin": 0.0045373980857851826,
-      "incr_op_margin_yoy": -1.18,
-      "rev_growth_yoy": 0.08042895442359249,
       "op_leverage_ratio": 0.5703674682436176,
       "fcf_margin_change": -0.029232640159800302
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.1273780698720166,
       "incr_op_margin_yoy": -2.1551724137931036,
       "rev_growth_yoy": 0.0528040786598689,
-      "rev_growth_yoy_accel": -0.02762487576372359,
       "fcf_margin_change": -0.1319154679578018
     },
     {
@@ -142,7 +122,7 @@
       "incr_op_margin_yoy": -0.5463695183321352,
       "rev_growth_yoy": 0.11037054669523129,
       "rev_growth_yoy_accel": 0.05756646803536239,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.036120572403244205
     },
     {
@@ -188,7 +168,7 @@
       "incr_op_margin_yoy": 0.6812781646866038,
       "rev_growth_yoy": 0.17305919886565047,
       "rev_growth_yoy_accel": -0.03216498536414855,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.09895891749480744
     },
     {
@@ -346,7 +326,7 @@
       "incr_op_margin_yoy": 0.3647627682079178,
       "rev_growth_yoy": 0.18988867209916216,
       "rev_growth_yoy_accel": 0.06377137782547551,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.014551404464385298
     },
     {
@@ -439,9 +419,44 @@
       "rev_growth_yoy_accel": -0.06045695288480185,
       "op_leverage_ratio": 0.16308505112271487,
       "fcf_margin_change": 0.06787825906875071
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2880000000,
+      "gross_profit": 1121400000,
+      "operating_income": 579900000,
+      "net_income": 445600000,
+      "opex": 541500000,
+      "cogs": 1758600000,
+      "rd": null,
+      "sga": 461600000,
+      "fcf": 885600000,
+      "ocf": 978900000,
+      "capex": -93300000,
+      "gross_margin": 0.389375,
+      "op_margin": 0.20135416666666667,
+      "fcf_margin": 0.3075,
+      "incr_op_margin_yoy": 0.22994752623688156,
+      "rev_growth_yoy": 0.22741220593249234,
+      "rev_growth_yoy_accel": -0.0630628362666878,
+      "op_leverage_ratio": 0.793661708647881,
+      "fcf_margin_change": 0.13428077584273862
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +17.3% -> +30.8% (+13.4%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +22.7% vs prior quarter YoY: +29.0% (decel: -6.3%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -648,5 +663,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T19:54:27.767890"
+  "last_updated": "2026-02-24T10:44:03.744714"
 }

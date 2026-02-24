@@ -1,25 +1,9 @@
 {
   "ticker": "WEX",
-  "name": "WEX Inc.",
+  "name": "WEX INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 398990000,
-      "gross_profit": 230419000,
-      "operating_income": -197129000,
-      "net_income": -224075000,
-      "opex": 427548000,
-      "cogs": 168571000,
-      "rd": null,
-      "sga": null,
-      "fcf": -58472000,
-      "ocf": -37652000,
-      "capex": -20820000,
-      "gross_margin": 0.5775057018972907,
-      "op_margin": -0.4940700268177147,
-      "fcf_margin": -0.14655003884809142
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -18280000,
       "gross_margin": 0.6158677758382693,
       "op_margin": 0.1230435512967521,
-      "fcf_margin": -0.5735142675596521,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.42696422871156064
+      "fcf_margin": -0.5735142675596521
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -77,7 +59,7 @@
       "gross_margin": 0.6272920101747438,
       "op_margin": 0.20884324431813475,
       "fcf_margin": 0.19301977777961904,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.026412960987702905
     },
     {
@@ -97,9 +79,7 @@
       "gross_margin": 0.6126064742793516,
       "op_margin": 0.21779039992925164,
       "fcf_margin": -0.126143128766044,
-      "incr_op_margin_yoy": 3.09989040873483,
-      "rev_growth_yoy": 0.2469936589889471,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.31916290654566304
     },
     {
@@ -121,8 +101,7 @@
       "fcf_margin": -0.3727284145033669,
       "incr_op_margin_yoy": 0.6717956882503887,
       "rev_growth_yoy": 0.25995418215636007,
-      "rev_growth_yoy_accel": 0.012960523167412974,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2465852857373229
     },
     {
@@ -440,6 +419,28 @@
       "rev_growth_yoy_accel": 0.0601576143551884,
       "op_leverage_ratio": 2.9560259806581337,
       "fcf_margin_change": 0.14508815122869634
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 672900000,
+      "gross_profit": 389300000,
+      "operating_income": 166300000,
+      "net_income": 84300000,
+      "opex": 223000000,
+      "cogs": 283600000,
+      "rd": null,
+      "sga": null,
+      "fcf": 256300000,
+      "ocf": 294700000,
+      "capex": -38400000,
+      "gross_margin": 0.5785406449695348,
+      "op_margin": 0.24713924803091097,
+      "fcf_margin": 0.38088869074156634,
+      "incr_op_margin_yoy": 0.24725274725274726,
+      "rev_growth_yoy": 0.057187745483110765,
+      "rev_growth_yoy_accel": 0.017668586955687772,
+      "fcf_margin_change": -0.11289563998985891
     }
   ],
   "signals": [
@@ -588,12 +589,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
-      "detail": "Op margin: -49.4% (year-ago) -> +21.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -57.4% -> +16.7%",
@@ -604,12 +599,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +11.9% vs OpEx growth +1.5% (leverage: 7.7x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -49.4% -> +12.3%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -637,5 +626,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:00:59.799526"
+  "last_updated": "2026-02-24T10:46:01.367587"
 }

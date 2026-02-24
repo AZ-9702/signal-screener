@@ -1,25 +1,9 @@
 {
   "ticker": "RELY",
   "name": "Remitly Global, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 80017000,
-      "gross_profit": null,
-      "operating_income": -8842000,
-      "net_income": -9005000,
-      "opex": 88859000,
-      "cogs": null,
-      "rd": 11338000,
-      "sga": null,
-      "fcf": -43272000,
-      "ocf": -43033000,
-      "capex": -239000,
-      "gross_margin": null,
-      "op_margin": -0.11050151842733419,
-      "fcf_margin": -0.5407850831698264
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -265000,
       "gross_margin": null,
       "op_margin": -0.09413986997012827,
-      "fcf_margin": 0.6880491126339835,
-      "op_leverage_ratio": 1.1383439745491077,
-      "fcf_margin_change": 1.22883419580381
+      "fcf_margin": 0.6880491126339835
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": null,
       "op_margin": -0.12228013751802151,
       "fcf_margin": -0.284093009500573,
-      "incr_op_margin_yoy": -0.13934248162496832,
-      "rev_growth_yoy": 0.6903283052351376,
       "op_leverage_ratio": 0.8653359643263345,
       "fcf_margin_change": 0.05841466098209008
     },
@@ -121,7 +101,6 @@
       "fcf_margin": 0.28951431470289823,
       "incr_op_margin_yoy": -0.3247920281151297,
       "rev_growth_yoy": 0.4937401159725883,
-      "rev_growth_yoy_accel": -0.19658818926254923,
       "fcf_margin_change": 0.5736073242034712
     },
     {
@@ -273,17 +252,17 @@
       "cogs": null,
       "rd": 59240000,
       "sga": null,
-      "fcf": -29011000,
-      "ocf": -28422000,
+      "fcf": 91385000,
+      "ocf": 91974000,
       "capex": -589000,
       "gross_margin": null,
       "op_margin": -0.11709183480763566,
-      "fcf_margin": -0.10957553690540041,
+      "fcf_margin": 0.3451642632139539,
       "incr_op_margin_yoy": -0.11031386485093454,
       "rev_growth_yoy": 0.3859353406759077,
       "rev_growth_yoy_accel": -0.04163424203461291,
       "op_leverage_ratio": 1.5476517513069366,
-      "fcf_margin_change": -0.2268048429903488
+      "fcf_margin_change": 0.22793495712900547
     },
     {
       "date": "2024-03-31T00:00:00",
@@ -305,8 +284,8 @@
       "incr_op_margin_yoy": 0.1243620982943313,
       "rev_growth_yoy": 0.320079464351409,
       "rev_growth_yoy_accel": -0.06585587632449869,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": -0.10502549312603561
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.5597652932453899
     },
     {
       "date": "2024-06-30T00:00:00",
@@ -365,17 +344,17 @@
       "cogs": null,
       "rd": 70611000,
       "sga": null,
-      "fcf": 52829000,
-      "ocf": 55635000,
+      "fcf": -30060000,
+      "ocf": -27254000,
       "capex": -2806000,
       "gross_margin": null,
       "op_margin": -0.010625328578126998,
-      "fcf_margin": 0.15012716861563818,
+      "fcf_margin": -0.08542320862757356,
       "incr_op_margin_yoy": 0.3128636514913297,
       "rev_growth_yoy": 0.32911942226486074,
       "rev_growth_yoy_accel": -0.06362317071859735,
       "op_leverage_ratio": 0.7882513344905617,
-      "fcf_margin_change": -0.2826553421487284
+      "fcf_margin_change": -0.5182057193919402
     },
     {
       "date": "2025-03-31T00:00:00",
@@ -397,8 +376,8 @@
       "incr_op_margin_yoy": 0.34793418805266685,
       "rev_growth_yoy": 0.3437376912729732,
       "rev_growth_yoy_accel": 0.014618269008112472,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.1787779925462316
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.4143283697894434
     },
     {
       "date": "2025-06-30T00:00:00",
@@ -445,9 +424,44 @@
       "rev_growth_yoy_accel": -0.09752468766251529,
       "op_leverage_ratio": 0.7013985603707189,
       "fcf_margin_change": -0.057876149687431294
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 442177000,
+      "gross_profit": null,
+      "operating_income": 38815000,
+      "net_income": 41216000,
+      "opex": 403362000,
+      "cogs": null,
+      "rd": 82139000,
+      "sga": null,
+      "fcf": 143257000,
+      "ocf": 149618000,
+      "capex": -6361000,
+      "gross_margin": null,
+      "op_margin": 0.08778158972538147,
+      "fcf_margin": 0.32398112068244167,
+      "incr_op_margin_yoy": 0.47134534015639884,
+      "rev_growth_yoy": 0.25655948507367254,
+      "rev_growth_yoy_accel": 0.010020574377056807,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": 0.3124124212493151
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +1.2% -> +32.4% (+31.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -1.1% (year-ago) -> +8.8%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH DECELERATION",
@@ -468,9 +482,9 @@
     },
     {
       "quarter": "2025-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +15.0% -> +32.9% (+17.9%)",
-      "severity": "MEDIUM"
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -8.5% -> +32.9%",
+      "severity": "HIGH"
     },
     {
       "quarter": "2025-03 (Q1)",
@@ -534,6 +548,12 @@
     },
     {
       "quarter": "2023-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.7% -> +34.5% (+22.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2023-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +9.6% vs OpEx growth +6.2% (leverage: 1.5x)",
       "severity": "MEDIUM"
@@ -593,12 +613,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +49.4% vs prior quarter YoY: +69.0% (decel: -19.7%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -34.3% -> -28.4% (+5.8%)",
@@ -609,12 +623,6 @@
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +22.0% vs OpEx growth +13.4% (leverage: 1.6x)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -54.1% -> +68.8%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -644,5 +652,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:23:51.741326"
+  "last_updated": "2026-02-24T10:29:15.971691"
 }

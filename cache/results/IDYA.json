@@ -1,6 +1,8 @@
 {
   "ticker": "IDYA",
   "name": "IDEAYA Biosciences, Inc.",
+  "sector": "Healthcare",
+  "industry": "Biotechnology",
   "quarters": [
     {
       "date": "2020-09-30T00:00:00",
@@ -25,18 +27,18 @@
       "quarter_label": "2020-12 (Q4)",
       "revenue": 10571000,
       "gross_profit": null,
-      "operating_income": -5280000,
-      "net_income": -5135000,
-      "opex": 15851000,
+      "operating_income": null,
+      "net_income": null,
+      "opex": null,
       "cogs": null,
-      "rd": 12051000,
+      "rd": null,
       "sga": null,
-      "fcf": -11775000,
-      "ocf": -11596000,
-      "capex": -179000,
+      "fcf": null,
+      "ocf": null,
+      "capex": null,
       "gross_margin": null,
-      "op_margin": -0.4994797086368366,
-      "fcf_margin": -1.1138965093179454
+      "op_margin": null,
+      "fcf_margin": null
     },
     {
       "date": "2021-03-31T00:00:00",
@@ -54,8 +56,7 @@
       "capex": -1003000,
       "gross_margin": null,
       "op_margin": -1.2605215951428177,
-      "fcf_margin": -2.0321512349937905,
-      "fcf_margin_change": -0.9182547256758451
+      "fcf_margin": -2.0321512349937905
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -115,7 +116,6 @@
       "gross_margin": null,
       "op_margin": -6.201553004726536,
       "fcf_margin": -5.827819041188386,
-      "incr_op_margin_yoy": 1.720199763438034,
       "rev_growth_yoy": -0.7197994513291079,
       "rev_growth_yoy_accel": -0.7208031314896968,
       "fcf_margin_change": -4.387756652596586
@@ -401,8 +401,29 @@
       "op_margin": 0.5218202988923852,
       "fcf_margin": 0.684065167393208,
       "incr_op_margin_yoy": 0.843678127736559,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 18.220779453107493
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 10876000,
+      "gross_profit": null,
+      "operating_income": -94570000,
+      "net_income": -83273000,
+      "opex": 105446000,
+      "cogs": null,
+      "rd": 86599000,
+      "sga": null,
+      "fcf": -90829000,
+      "ocf": -90496000,
+      "capex": -333000,
+      "gross_margin": null,
+      "op_margin": -8.695292386906951,
+      "fcf_margin": -8.35132401618242,
+      "incr_op_margin_yoy": 12.78844169246646,
+      "rev_growth_yoy": 0.5537142857142857,
+      "fcf_margin_change": -9.035389183575628
     }
   ],
   "signals": [
@@ -558,23 +579,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 19,
+    "n_quarters": 20,
     "coverage": {
       "revenue": [
-        19,
-        19
+        20,
+        20
       ],
       "gross_profit": [
         0,
-        19
+        20
       ],
       "op_income": [
         18,
-        19
+        20
       ],
       "fcf": [
         18,
-        19
+        20
       ]
     },
     "gaps": [
@@ -591,7 +612,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:22:10.618747",
-  "sector": "Healthcare",
-  "industry": "Biotechnology"
+  "last_updated": "2026-02-24T10:37:16.523863"
 }

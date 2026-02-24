@@ -1,25 +1,9 @@
 {
   "ticker": "NUS",
   "name": "NU SKIN ENTERPRISES, INC.",
+  "sector": "Consumer Defensive",
+  "industry": "Household & Personal Products",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 748193000,
-      "gross_profit": 553442000,
-      "operating_income": 88697000,
-      "net_income": 73467000,
-      "opex": 464745000,
-      "cogs": 194751000,
-      "rd": null,
-      "sga": null,
-      "fcf": 79680000,
-      "ocf": 94693000,
-      "capex": -15013000,
-      "gross_margin": 0.7397048622481098,
-      "op_margin": 0.11854828901099047,
-      "fcf_margin": 0.10649658577399147
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -19373000,
       "gross_margin": 0.748065805449126,
       "op_margin": 0.09292553018643301,
-      "fcf_margin": -0.05646607368106986,
-      "fcf_margin_change": -0.16296265945506133
+      "fcf_margin": -0.05646607368106986
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.7419576619010567,
       "op_margin": 0.030172132169946363,
       "fcf_margin": 0.13554071953385324,
-      "incr_op_margin_yoy": 0.9146701981085383,
-      "rev_growth_yoy": -0.09991673271468725,
       "op_leverage_ratio": 0.335946121531906,
       "fcf_margin_change": 0.10952660743563004
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.0045263754775590635,
       "incr_op_margin_yoy": 0.14929222066632467,
       "rev_growth_yoy": -0.10653505182961955,
-      "rev_growth_yoy_accel": -0.006618319114932297,
       "fcf_margin_change": -0.14006709501141232
     },
     {
@@ -230,7 +210,7 @@
       "incr_op_margin_yoy": 0.14945823254581,
       "rev_growth_yoy": -0.10766390481881505,
       "rev_growth_yoy_accel": 0.09639826093116965,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11131128514578514
     },
     {
@@ -409,7 +389,7 @@
       "incr_op_margin_yoy": -2.952930510171316,
       "rev_growth_yoy": -0.1205768411750907,
       "rev_growth_yoy_accel": 0.0059873587165954895,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1288546712298973
     },
     {
@@ -433,9 +413,38 @@
       "rev_growth_yoy": -0.15328319520161807,
       "rev_growth_yoy_accel": -0.03270635402652737,
       "fcf_margin_change": -0.044423119611849866
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 370320000,
+      "gross_profit": 261981000,
+      "operating_income": 23244000,
+      "net_income": 14491000,
+      "opex": 238737000,
+      "cogs": 108339000,
+      "rd": null,
+      "sga": null,
+      "fcf": 5861000,
+      "ocf": 16621000,
+      "capex": -10760000,
+      "gross_margin": 0.7074449125081012,
+      "op_margin": 0.06276733635774465,
+      "fcf_margin": 0.015826852451933462,
+      "incr_op_margin_yoy": -1.014528392173543,
+      "rev_growth_yoy": -0.16885122275289977,
+      "rev_growth_yoy_accel": -0.015568027551281699,
+      "op_leverage_ratio": 1.0785205119844594,
+      "fcf_margin_change": -0.03240343164162769
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -11.9% (year-ago) -> +6.3%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -563,12 +572,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +91.5% vs year-ago OPM: +11.9%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -5.6% -> +0.5%",
@@ -606,7 +609,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T22:23:35.080991",
-  "sector": "Consumer Defensive",
-  "industry": "Household & Personal Products"
+  "last_updated": "2026-02-24T10:42:59.576060"
 }

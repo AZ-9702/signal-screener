@@ -1,25 +1,9 @@
 {
   "ticker": "REG",
   "name": "REGENCY CENTERS CORPORATION",
+  "sector": "Real Estate",
+  "industry": "REIT - Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 258460000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 38487000,
-      "opex": 195581000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 124529000,
-      "ocf": 124529000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.48181149887796954
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": 0.5073188134093912,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.025507314531421688
+      "fcf_margin": 0.5073188134093912
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.6474636003050575,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.14014478689566623
     },
     {
@@ -77,7 +59,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5959853599023993,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05147824040265814
     },
     {
@@ -97,7 +79,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5082445339548167,
-      "rev_growth_yoy": 0.14881993345198483,
       "fcf_margin_change": -0.08774082594758259
     },
     {
@@ -118,8 +99,7 @@
       "op_margin": null,
       "fcf_margin": 0.47091779733911604,
       "rev_growth_yoy": 0.10458567980691874,
-      "rev_growth_yoy_accel": -0.044234253645066085,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.037326736615700684
     },
     {
@@ -205,7 +185,7 @@
       "fcf_margin": 0.5097821540551675,
       "rev_growth_yoy": 0.04793150382456753,
       "rev_growth_yoy_accel": -0.011319348245322408,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10416655934963487
     },
     {
@@ -292,7 +272,7 @@
       "fcf_margin": 0.46106109077317153,
       "rev_growth_yoy": 0.14427144101617412,
       "rev_growth_yoy_accel": 0.0009182995325659193,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.01698142265826974
     },
     {
@@ -379,7 +359,7 @@
       "incr_op_margin_yoy": 0.6213364595545134,
       "rev_growth_yoy": 0.04688719589283555,
       "rev_growth_yoy_accel": 0.010925415712414864,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09098439865993507
     },
     {
@@ -426,6 +406,29 @@
       "rev_growth_yoy_accel": 0.009733861579464237,
       "op_leverage_ratio": 0.4632468151997816,
       "fcf_margin_change": -0.07660672450987382
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 404194000,
+      "gross_profit": null,
+      "operating_income": 287102000,
+      "net_income": 202479000,
+      "opex": 256180000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 203948000,
+      "ocf": 203948000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.7103074266317659,
+      "fcf_margin": 0.5045794841091159,
+      "incr_op_margin_yoy": 0.702002653357761,
+      "rev_growth_yoy": 0.08497970665922219,
+      "rev_growth_yoy_accel": 0.009191261454845431,
+      "op_leverage_ratio": 0.8727989610478967,
+      "fcf_margin_change": -0.05961537101382963
     }
   ],
   "signals": [
@@ -526,7 +529,7 @@
         20
       ],
       "op_income": [
-        7,
+        8,
         20
       ],
       "fcf": [
@@ -537,10 +540,10 @@
     "gaps": [],
     "warnings": [
       "gross_profit: no data",
-      "op_income: 7/20Q"
+      "op_income: 8/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:30:11.599910"
+  "last_updated": "2026-02-24T10:47:21.253719"
 }

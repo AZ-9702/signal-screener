@@ -1,25 +1,9 @@
 {
   "ticker": "CSGS",
-  "name": "CSG SYSTEMS INTERNATIONAL INC",
+  "name": "CSG SYSTEMS INTERNATIONAL, INC.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 260487000,
-      "gross_profit": 125322000,
-      "operating_income": 23675000,
-      "net_income": 13265000,
-      "opex": 236812000,
-      "cogs": 135165000,
-      "rd": 32822000,
-      "sga": 61864000,
-      "fcf": 51668000,
-      "ocf": 56864000,
-      "capex": -5196000,
-      "gross_margin": 0.4811065427449355,
-      "op_margin": 0.09088745311666226,
-      "fcf_margin": 0.19835154921358839
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -8239000,
       "gross_margin": 0.47241416092825905,
       "op_margin": 0.12396145686416271,
-      "fcf_margin": -0.0413362884651093,
-      "fcf_margin_change": -0.23968783767869767
+      "fcf_margin": -0.0413362884651093
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.4835887646577584,
       "op_margin": 0.10137260249068267,
       "fcf_margin": 0.17410417234796838,
-      "incr_op_margin_yoy": 0.2892419865180905,
-      "rev_growth_yoy": 0.0558108466065485,
       "op_leverage_ratio": 0.6195101933541173,
       "fcf_margin_change": 0.027046131019594355
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.06022692889561271,
       "incr_op_margin_yoy": -1.3263008598528498,
       "rev_growth_yoy": 0.04456797000620261,
-      "rev_growth_yoy_accel": -0.01124287660034589,
       "fcf_margin_change": -0.23433110124358109
     },
     {
@@ -164,7 +144,7 @@
       "incr_op_margin_yoy": -1.2660659471234776,
       "rev_growth_yoy": 0.03836874878898518,
       "rev_growth_yoy_accel": 0.010798922736792997,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.10475672622817606
     },
     {
@@ -344,7 +324,7 @@
       "incr_op_margin_yoy": -0.10984894259818731,
       "rev_growth_yoy": 0.028846019772160017,
       "rev_growth_yoy_accel": 0.014907411118417967,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02523164817359562
     },
     {
@@ -436,6 +416,29 @@
       "rev_growth_yoy_accel": 0.005247692805186811,
       "op_leverage_ratio": 0.9915296136514556,
       "fcf_margin_change": 0.02836205980794569
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 323093000,
+      "gross_profit": 161696000,
+      "operating_income": 29050000,
+      "net_income": 7001000,
+      "opex": 294043000,
+      "cogs": 161397000,
+      "rd": 39951000,
+      "sga": 86216000,
+      "fcf": 55807000,
+      "ocf": 59201000,
+      "capex": -3394000,
+      "gross_margin": 0.5004627150696549,
+      "op_margin": 0.0899121924647083,
+      "fcf_margin": 0.17272735713865667,
+      "incr_op_margin_yoy": -2.056202453035243,
+      "rev_growth_yoy": 0.020340942106792315,
+      "rev_growth_yoy_accel": -0.008363787464974591,
+      "op_leverage_ratio": 0.8389881276621405,
+      "fcf_margin_change": 0.028001306054224073
     }
   ],
   "signals": [
@@ -548,12 +551,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +28.9% vs year-ago OPM: +9.1%",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
       "detail": "FCF margin: -4.1% -> +14.7%",
@@ -585,7 +582,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:32:19.684363",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure"
+  "last_updated": "2026-02-24T10:22:55.565452"
 }

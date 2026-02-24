@@ -1,25 +1,9 @@
 {
   "ticker": "WAB",
   "name": "WESTINGHOUSE AIR BRAKE TECHNOLOGIES CORPORATION",
+  "sector": "Industrials",
+  "industry": "Railroads",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 2023700000,
-      "gross_profit": 505500000,
-      "operating_income": 161100000,
-      "net_income": 87900000,
-      "opex": 344400000,
-      "cogs": 1518200000,
-      "rd": 38400000,
-      "sga": 235200000,
-      "fcf": 288600000,
-      "ocf": 325900000,
-      "capex": -37300000,
-      "gross_margin": 0.24978998863467905,
-      "op_margin": 0.07960666106636359,
-      "fcf_margin": 0.14261007066264764
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -27000000,
       "gross_margin": 0.29188066877936836,
       "op_margin": 0.10468801223909956,
-      "fcf_margin": 0.1447929188066878,
-      "fcf_margin_change": 0.002182848144040156
+      "fcf_margin": 0.1447929188066878
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.3147737141754318,
       "op_margin": 0.12742449097751615,
       "fcf_margin": 0.12641127086750942,
-      "incr_op_margin_yoy": 2.1063394683026586,
-      "rev_growth_yoy": 0.02416366062163364,
       "op_leverage_ratio": 11.160209414931739,
       "fcf_margin_change": 0.010516362901701035
     },
@@ -119,7 +100,6 @@
       "fcf_margin": 0.07317073170731707,
       "incr_op_margin_yoy": 0.4896694214876033,
       "rev_growth_yoy": 0.0528903944924052,
-      "rev_growth_yoy_accel": 0.02872673387077156,
       "fcf_margin_change": -0.05324053916019235
     },
     {
@@ -390,7 +370,7 @@
       "incr_op_margin_yoy": 0.5486725663716814,
       "rev_growth_yoy": 0.04525430516619944,
       "rev_growth_yoy_accel": 0.022688984501116304,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.19106492050142176
     },
     {
@@ -438,9 +418,44 @@
       "rev_growth_yoy_accel": 0.06029082348289413,
       "op_leverage_ratio": 0.688839615668884,
       "fcf_margin_change": 0.04528475260182578
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2965000000,
+      "gross_profit": 966000000,
+      "operating_income": 356000000,
+      "net_income": 202000000,
+      "opex": 610000000,
+      "cogs": 1999000000,
+      "rd": 68000000,
+      "sga": 461000000,
+      "fcf": 870000000,
+      "ocf": 992000000,
+      "capex": -122000000,
+      "gross_margin": 0.3258010118043845,
+      "op_margin": 0.12006745362563238,
+      "fcf_margin": 0.2934232715008432,
+      "incr_op_margin_yoy": 0.05759162303664921,
+      "rev_growth_yoy": 0.1478900503290747,
+      "rev_growth_yoy_accel": 0.06414990763286742,
+      "op_leverage_ratio": 0.1412916412916413,
+      "fcf_margin_change": 0.18531516339273507
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +10.8% -> +29.3% (+18.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +14.8% vs prior quarter YoY: +8.4% (accel: +6.4%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -616,12 +631,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +210.6% vs year-ago OPM: +8.0%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +29.2% -> +28.8% -> +31.6% (reversal +2.8%)",
@@ -653,5 +662,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:03:31.973642"
+  "last_updated": "2026-02-24T10:41:42.876677"
 }

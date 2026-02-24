@@ -1,6 +1,8 @@
 {
   "ticker": "SEVN",
   "name": "Seven Hills Realty Trust",
+  "sector": "Real Estate",
+  "industry": "REIT - Mortgage",
   "quarters": [
     {
       "date": "2022-06-30T00:00:00",
@@ -37,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.4687780484677523,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.03906345791027027
     },
     {
@@ -57,7 +59,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.30017226528854435,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.16860578317920794
     },
     {
@@ -118,7 +120,7 @@
       "fcf_margin": 0.34068177179016124,
       "rev_growth_yoy": 0.2563149121682267,
       "rev_growth_yoy_accel": 0.04399162595857081,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.212563552742292
     },
     {
@@ -289,9 +291,37 @@
       "rev_growth_yoy": -0.1992774077001242,
       "rev_growth_yoy_accel": 0.012556280999236141,
       "fcf_margin_change": -0.2269268867541276
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7304000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 4794000,
+      "opex": 2502000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 3210000,
+      "ocf": 3210000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.43948521358159914,
+      "rev_growth_yoy": -0.04833876221498371,
+      "rev_growth_yoy_accel": 0.1509386454851405,
+      "op_leverage_ratio": null,
+      "fcf_margin_change": -0.006792282188282428
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: -4.8% vs prior quarter YoY: -19.9% (accel: +15.1%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -342,23 +372,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 14,
+    "n_quarters": 15,
     "coverage": {
       "revenue": [
-        14,
-        14
+        15,
+        15
       ],
       "gross_profit": [
         0,
-        14
+        15
       ],
       "op_income": [
         0,
-        14
+        15
       ],
       "fcf": [
-        14,
-        14
+        15,
+        15
       ]
     },
     "gaps": [],
@@ -369,5 +399,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:02:13.463415"
+  "last_updated": "2026-02-24T10:28:07.436728"
 }

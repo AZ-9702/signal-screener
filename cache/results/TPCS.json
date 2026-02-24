@@ -1,25 +1,9 @@
 {
   "ticker": "TPCS",
-  "name": "TECHPRECISION CORPORATION",
+  "name": "TECHPRECISION CORP",
+  "sector": "Industrials",
+  "industry": "Metal Fabrication",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3569718,
-      "gross_profit": 705444,
-      "operating_income": -10917,
-      "net_income": -48172,
-      "opex": 716361,
-      "cogs": 2864274,
-      "rd": null,
-      "sga": 716361,
-      "fcf": 207818,
-      "ocf": 399920,
-      "capex": -192102,
-      "gross_margin": 0.19761897158262923,
-      "op_margin": -0.0030582247673345627,
-      "fcf_margin": 0.05821692357771678
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.23154071765843992,
       "op_margin": 0.07387460409561565,
-      "fcf_margin": 0.24208575905684793,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.18386883547913113
+      "fcf_margin": 0.24208575905684793
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.07341946531619908,
       "op_margin": -0.1759741680840689,
       "fcf_margin": -0.10070960979524136,
-      "incr_op_margin_yoy": -0.38581224480360565,
-      "rev_growth_yoy": 0.8240446444228928,
       "op_leverage_ratio": 0.931399017229392,
       "fcf_margin_change": 0.22494110590343774
     },
@@ -120,8 +100,7 @@
       "fcf_margin": 0.18567906420009386,
       "incr_op_margin_yoy": -0.1615028131599205,
       "rev_growth_yoy": 0.8765981979370534,
-      "rev_growth_yoy_accel": 0.05255355351416058,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.28638867399533524
     },
     {
@@ -339,7 +318,7 @@
       "fcf_margin": -0.21830985915492956,
       "rev_growth_yoy": 0.12244711035740392,
       "rev_growth_yoy_accel": 0.039061547005783306,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.2065391058455009
     },
     {
@@ -427,9 +406,42 @@
       "rev_growth_yoy_accel": 0.09164531747901869,
       "op_leverage_ratio": 15.016474483993942,
       "fcf_margin_change": -0.1467395307139795
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 7094000,
+      "gross_profit": 381000,
+      "operating_income": -1352000,
+      "net_income": -1473000,
+      "opex": 1733000,
+      "cogs": 6713000,
+      "rd": null,
+      "sga": 1733000,
+      "fcf": -827000,
+      "ocf": 183000,
+      "capex": -1010000,
+      "gross_margin": 0.05370735833098393,
+      "op_margin": -0.19058359176769102,
+      "fcf_margin": -0.11657738934310685,
+      "rev_growth_yoy": -0.06927315665179742,
+      "rev_growth_yoy_accel": -0.084922608920968,
+      "fcf_margin_change": 0.11201605111474039
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: -22.9% -> -11.7% (+11.2%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -6.9% vs prior quarter YoY: +1.6% (decel: -8.5%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -605,28 +617,10 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +87.7% vs prior quarter YoY: +82.4% (accel: +5.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: -32.6% -> -10.1% (+22.5%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +5.8% -> +24.2% (+18.4%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -0.3% -> +7.4%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -654,5 +648,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T23:40:17.575223"
+  "last_updated": "2026-02-24T10:36:01.945455"
 }

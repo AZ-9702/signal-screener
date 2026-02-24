@@ -1,6 +1,8 @@
 {
   "ticker": "HHH",
   "name": "HOWARD HUGHES HOLDINGS INC.",
+  "sector": "Real Estate",
+  "industry": "Real Estate - Development",
   "quarters": [
     {
       "date": "2022-09-30T00:00:00",
@@ -187,7 +189,7 @@
       "incr_op_margin_yoy": 14.113339488442074,
       "rev_growth_yoy": 0.21770348285372906,
       "rev_growth_yoy_accel": -0.20364115881995307,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.8141321988820942
     },
     {
@@ -280,9 +282,50 @@
       "rev_growth_yoy_accel": 0.3709381118101452,
       "op_leverage_ratio": 4.40886829426341,
       "fcf_margin_change": -0.29575568961943044
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 624449000,
+      "gross_profit": null,
+      "operating_income": 26157000,
+      "net_income": 6000000,
+      "opex": 580297000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 360263000,
+      "ocf": 360263000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": 0.04188812857415097,
+      "fcf_margin": 0.5769294209775337,
+      "incr_op_margin_yoy": 0.6525375827321303,
+      "rev_growth_yoy": -0.3651328297359672,
+      "rev_growth_yoy_accel": -0.5579758024668803,
+      "op_leverage_ratio": 0.3599709374282754,
+      "fcf_margin_change": 0.19316579136973333
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +38.4% -> +57.7% (+19.3%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -36.5% vs prior quarter YoY: +19.3% (decel: -55.8%)",
+      "severity": "WARNING"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +65.3% vs year-ago OPM: +26.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OPERATING LEVERAGE",
@@ -429,23 +472,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 13,
+    "n_quarters": 14,
     "coverage": {
       "revenue": [
-        13,
-        13
+        14,
+        14
       ],
       "gross_profit": [
         0,
-        13
+        14
       ],
       "op_income": [
-        13,
-        13
+        14,
+        14
       ],
       "fcf": [
-        12,
-        13
+        13,
+        14
       ]
     },
     "gaps": [],
@@ -455,7 +498,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:06:12.221567",
-  "sector": "Real Estate",
-  "industry": "Real Estate - Development"
+  "last_updated": "2026-02-24T10:19:17.902790"
 }

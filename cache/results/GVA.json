@@ -1,25 +1,9 @@
 {
   "ticker": "GVA",
-  "name": "GRANITE CONSTRUCTION INC",
+  "name": "GRANITE CONSTRUCTION INCORPORATED",
+  "sector": "Industrials",
+  "industry": "Engineering & Construction",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 830390000,
-      "gross_profit": 93319000,
-      "operating_income": 7977000,
-      "net_income": 8010000,
-      "opex": 85342000,
-      "cogs": 838923000,
-      "rd": null,
-      "sga": 100752000,
-      "fcf": 111442000,
-      "ocf": 129794000,
-      "capex": -18352000,
-      "gross_margin": 0.11237972518936885,
-      "op_margin": 0.009606329555991763,
-      "fcf_margin": 0.13420440997603536
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -18777000,
       "gross_margin": 0.09451675068255132,
       "op_margin": -0.127913624604986,
-      "fcf_margin": 0.028824638423198237,
-      "fcf_margin_change": -0.10537977155283712
+      "fcf_margin": 0.028824638423198237
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.12129163676190555,
       "op_margin": 0.07110764469410022,
       "fcf_margin": -0.10034620378936539,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1291708422125636
     },
     {
@@ -96,8 +79,6 @@
       "gross_margin": 0.07560348713985444,
       "op_margin": -0.03732750191745853,
       "fcf_margin": -0.08758394369990456,
-      "incr_op_margin_yoy": 0.2274481296791989,
-      "rev_growth_yoy": -0.17725887835836174,
       "fcf_margin_change": -0.1482159384952637
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.14874193277403003,
       "incr_op_margin_yoy": -0.5647404089040032,
       "rev_growth_yoy": -0.1826013228583413,
-      "rev_growth_yoy_accel": -0.0053424444999795595,
       "fcf_margin_change": -0.061157989074125466
     },
     {
@@ -165,7 +145,7 @@
       "incr_op_margin_yoy": -0.3111251266173576,
       "rev_growth_yoy": -0.049262377733778104,
       "rev_growth_yoy_accel": 0.15390261772346397,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.18719788330618953
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": 0.17912578877066926,
       "rev_growth_yoy": 0.16955404627964066,
       "rev_growth_yoy_accel": 0.1467594532842025,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.11848111438880844
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": 0.30968173366533647,
       "rev_growth_yoy": 0.2047004513929077,
       "rev_growth_yoy_accel": 0.004355136181183411,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.03220690494136086
     },
     {
@@ -412,7 +392,7 @@
       "incr_op_margin_yoy": 0.4081144486866921,
       "rev_growth_yoy": 0.04016495363450428,
       "rev_growth_yoy_accel": -0.0004017787294836733,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.016823335559574604
     },
     {
@@ -437,9 +417,37 @@
       "rev_growth_yoy_accel": 0.0836976581835136,
       "op_leverage_ratio": 1.2214181052223203,
       "fcf_margin_change": 0.20360846343239677
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1165370000,
+      "gross_profit": 167720000,
+      "operating_income": 74981000,
+      "net_income": 52030000,
+      "opex": 92739000,
+      "cogs": 997650000,
+      "rd": null,
+      "sga": 104118000,
+      "fcf": 128764000,
+      "ocf": 179304000,
+      "capex": -50540000,
+      "gross_margin": 0.14391995675193286,
+      "op_margin": 0.0643409389292671,
+      "fcf_margin": 0.11049194676368879,
+      "incr_op_margin_yoy": 0.07676519538249667,
+      "rev_growth_yoy": 0.19243469016262102,
+      "rev_growth_yoy_accel": 0.06857207834460313,
+      "fcf_margin_change": -0.06911486119837323
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +19.2% vs prior quarter YoY: +12.4% (accel: +6.9%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF TURNED POSITIVE",
@@ -628,12 +636,6 @@
     },
     {
       "quarter": "2021-06 (Q2)",
-      "signal": "GROSS MARGIN INFLECTION",
-      "detail": "GM: +11.2% -> +9.5% -> +12.1% (reversal +2.7%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-06 (Q2)",
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -12.8% -> +7.1%",
       "severity": "HIGH"
@@ -664,7 +666,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:01:43.277313",
-  "sector": "Industrials",
-  "industry": "Engineering & Construction"
+  "last_updated": "2026-02-24T10:45:37.299252"
 }

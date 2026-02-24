@@ -1,25 +1,9 @@
 {
   "ticker": "DCOM",
   "name": "DIME COMMUNITY BANCSHARES,\u00a0INC.",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1653000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 8977000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 10250000,
-      "ocf": 11958000,
-      "capex": -1708000,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 6.200846944948578
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -3.054109589041096,
-      "fcf_margin_change": -9.254956533989674
+      "fcf_margin": -3.054109589041096
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -2.803722138065354,
-      "rev_growth_yoy": 1.7955232909860859,
       "fcf_margin_change": -24.97399063839279
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 19.621241991128635,
       "rev_growth_yoy": 0.38972602739726026,
-      "rev_growth_yoy_accel": -1.4057972635888256,
       "fcf_margin_change": 22.424964129193988
     },
     {
@@ -411,9 +392,36 @@
       "rev_growth_yoy": 0.22076400281228029,
       "rev_growth_yoy_accel": 0.052083237454777775,
       "fcf_margin_change": 5.0324352864565345
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5413000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 31856000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 45989000,
+      "ocf": 45989000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 8.496028080546832,
+      "rev_growth_yoy": 0.37316083206494166,
+      "rev_growth_yoy_accel": 0.15239682925266138,
+      "fcf_margin_change": -1.504739821161749
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +37.3% vs prior quarter YoY: +22.1% (accel: +15.2%)",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -523,12 +531,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +39.0% vs prior quarter YoY: +179.6% (decel: -140.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +1719.3% -> +2217.0% (+497.8%)",
@@ -569,7 +571,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:49:40.286875",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-24T10:12:24.284605"
 }

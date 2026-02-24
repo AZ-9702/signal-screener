@@ -1,25 +1,9 @@
 {
   "ticker": "UPBD",
   "name": "Upbound Group, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 716491000,
-      "gross_profit": 427414000,
-      "operating_income": 54639000,
-      "net_income": 56300000,
-      "opex": 372775000,
-      "cogs": 289077000,
-      "rd": null,
-      "sga": null,
-      "fcf": -71712000,
-      "ocf": -59724000,
-      "capex": -11988000,
-      "gross_margin": 0.5965378490448588,
-      "op_margin": 0.07625915747720488,
-      "fcf_margin": -0.10008778896036377
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -11388000,
       "gross_margin": 0.4924111336809474,
       "op_margin": 0.06756097231626321,
-      "fcf_margin": 0.11999147361740463,
-      "op_leverage_ratio": 2.4613834510191057,
-      "fcf_margin_change": 0.2200792625777684
+      "fcf_margin": 0.11999147361740463
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.4850985038747646,
       "op_margin": 0.03143860559693912,
       "fcf_margin": 0.042273263526676035,
-      "incr_op_margin_yoy": -0.0391506478947542,
-      "rev_growth_yoy": 0.634948659508633,
       "fcf_margin_change": -0.004465495163138641
     },
     {
@@ -119,7 +99,6 @@
       "fcf_margin": 0.16287351623923665,
       "incr_op_margin_yoy": -0.4799333007971368,
       "rev_growth_yoy": 0.11857844754249205,
-      "rev_growth_yoy_accel": -0.516370211966141,
       "fcf_margin_change": 0.12060025271256061
     },
     {
@@ -433,6 +412,29 @@
       "rev_growth_yoy": 0.08968254933531924,
       "rev_growth_yoy_accel": 0.014415250378505093,
       "fcf_margin_change": 0.09309619688496987
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1196445000,
+      "gross_profit": 586679000,
+      "operating_income": 57245000,
+      "net_income": 19743000,
+      "opex": 529434000,
+      "cogs": 609766000,
+      "rd": null,
+      "sga": null,
+      "fcf": 24048000,
+      "ocf": 41584000,
+      "capex": -17536000,
+      "gross_margin": 0.4903518339748171,
+      "op_margin": 0.047845910175561765,
+      "fcf_margin": 0.020099544901771498,
+      "incr_op_margin_yoy": -0.18691827977170547,
+      "rev_growth_yoy": 0.10861189665205129,
+      "rev_growth_yoy_accel": 0.018929347316732043,
+      "op_leverage_ratio": 0.7274179475399943,
+      "fcf_margin_change": -0.06398354137583928
     }
   ],
   "signals": [
@@ -539,27 +541,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +11.9% vs prior quarter YoY: +63.5% (decel: -51.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-06 (Q2)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +15.2% vs OpEx growth +9.2% (leverage: 1.6x)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF TURNED POSITIVE",
-      "detail": "FCF margin: -10.0% -> +12.0%",
-      "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +44.7% vs OpEx growth +18.2% (leverage: 2.5x)",
       "severity": "MEDIUM"
     }
   ],
@@ -588,5 +572,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:57:48.225609"
+  "last_updated": "2026-02-24T10:09:52.404569"
 }

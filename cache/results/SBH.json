@@ -1,25 +1,9 @@
 {
   "ticker": "SBH",
   "name": "SALLY BEAUTY HOLDINGS, INC.",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 936022000,
-      "gross_profit": 470724000,
-      "operating_income": 104322000,
-      "net_income": 57191000,
-      "opex": 366402000,
-      "cogs": 465298000,
-      "rd": null,
-      "sga": 366170000,
-      "fcf": 23503000,
-      "ocf": 38986000,
-      "capex": -15483000,
-      "gross_margin": 0.5028984361478683,
-      "op_margin": 0.11145250859488345,
-      "fcf_margin": 0.025109452555602325
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -11612000,
       "gross_margin": 0.504388294427028,
       "op_margin": 0.08151648228273355,
-      "fcf_margin": 0.08739668886182864,
-      "fcf_margin_change": 0.06228723630622631
+      "fcf_margin": 0.08739668886182864
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -56,7 +39,7 @@
       "gross_margin": 0.5031421565415053,
       "op_margin": 0.12462697589073414,
       "fcf_margin": 0.0668817189576941,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.02051496990413454
     },
     {
@@ -95,8 +78,6 @@
       "gross_margin": 0.5102050393215615,
       "op_margin": 0.11505216521074704,
       "fcf_margin": -0.032721211199988574,
-      "incr_op_margin_yoy": 0.1912319971059712,
-      "rev_growth_yoy": 0.047252094502052304,
       "fcf_margin_change": -0.1691661852472085
     },
     {
@@ -118,7 +99,6 @@
       "fcf_margin": -0.01624666579619854,
       "incr_op_margin_yoy": -0.7328826718425808,
       "rev_growth_yoy": -0.016129276023179696,
-      "rev_growth_yoy_accel": -0.063381370525232,
       "fcf_margin_change": 0.016474545403790033
     },
     {
@@ -230,7 +210,7 @@
       "incr_op_margin_yoy": 0.29803998818083327,
       "rev_growth_yoy": -0.03167971443637691,
       "rev_growth_yoy_accel": -0.039716914879218426,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.025654250561837406
     },
     {
@@ -434,6 +414,28 @@
       "rev_growth_yoy_accel": 0.022470887794442167,
       "op_leverage_ratio": 0.5235816473720616,
       "fcf_margin_change": 0.029722191748144243
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 943168000,
+      "gross_profit": 483259000,
+      "operating_income": 75935000,
+      "net_income": 45557000,
+      "opex": 407324000,
+      "cogs": 459909000,
+      "rd": null,
+      "sga": 407324000,
+      "fcf": 57455000,
+      "ocf": 93239000,
+      "capex": -35784000,
+      "gross_margin": 0.512378494605415,
+      "op_margin": 0.08051057711881658,
+      "fcf_margin": 0.06091703704960304,
+      "incr_op_margin_yoy": -4.624502180921676,
+      "rev_growth_yoy": 0.005622164528012197,
+      "rev_growth_yoy_accel": -0.007263011103091898,
+      "fcf_margin_change": -0.021446997093380202
     }
   ],
   "signals": [
@@ -522,21 +524,9 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -1.6% vs prior quarter YoY: +4.7% (decel: -6.3%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +6.7% -> +13.6% (+7.0%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "FCF MARGIN EXPANSION",
-      "detail": "FCF margin: +2.5% -> +8.7% (+6.2%)",
       "severity": "MEDIUM"
     }
   ],
@@ -565,5 +555,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:48:40.893035"
+  "last_updated": "2026-02-24T11:07:49.762880"
 }

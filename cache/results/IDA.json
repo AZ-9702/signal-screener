@@ -1,25 +1,9 @@
 {
   "ticker": "IDA",
   "name": "IDACORP, Inc.",
+  "sector": "Utilities",
+  "industry": "Utilities - Regulated Electric",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 302541000,
-      "gross_profit": null,
-      "operating_income": 53742000,
-      "net_income": 37507000,
-      "opex": 261952000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 6563000,
-      "ocf": 104101000,
-      "capex": -97538000,
-      "gross_margin": null,
-      "op_margin": 0.17763542792547127,
-      "fcf_margin": 0.021692927570147517
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -77293000,
       "gross_margin": null,
       "op_margin": 0.20976085292472033,
-      "fcf_margin": 0.021862031325623782,
-      "fcf_margin_change": 0.0001691037554762652
+      "fcf_margin": 0.021862031325623782
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -96,8 +79,6 @@
       "gross_margin": null,
       "op_margin": 0.173651713751801,
       "fcf_margin": -0.14441781245507943,
-      "incr_op_margin_yoy": 0.5279247501469724,
-      "rev_growth_yoy": -0.011244756908980932,
       "fcf_margin_change": -0.2997711967785023
     },
     {
@@ -119,7 +100,6 @@
       "fcf_margin": -0.02997026858841795,
       "incr_op_margin_yoy": -0.016421522993855894,
       "rev_growth_yoy": 0.09218163781592506,
-      "rev_growth_yoy_accel": 0.10342639472490599,
       "op_leverage_ratio": 32.5267201465076,
       "fcf_margin_change": 0.11444754386666148
     },
@@ -143,7 +123,7 @@
       "incr_op_margin_yoy": 0.9098346969443981,
       "rev_growth_yoy": -0.03350855058314054,
       "rev_growth_yoy_accel": -0.1256901883990656,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.05282106991448958
     },
     {
@@ -211,7 +191,7 @@
       "incr_op_margin_yoy": 0.11017426352913283,
       "rev_growth_yoy": 0.2120924502328856,
       "rev_growth_yoy_accel": -0.05459293682797911,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.4225524358743692
     },
     {
@@ -324,7 +304,7 @@
       "incr_op_margin_yoy": 0.3654053865718965,
       "rev_growth_yoy": 0.1490074734768151,
       "rev_growth_yoy_accel": 0.06543515960937539,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.09121284611792035
     },
     {
@@ -415,7 +395,7 @@
       "incr_op_margin_yoy": -0.403472014366956,
       "rev_growth_yoy": 0.015096095845071855,
       "rev_growth_yoy_accel": 0.03126036598819325,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1606336270219583
     },
     {
@@ -440,6 +420,28 @@
       "rev_growth_yoy_accel": -0.026463722991408693,
       "op_leverage_ratio": 2.052634493056956,
       "fcf_margin_change": 0.105073393125039
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 360093000,
+      "gross_profit": null,
+      "operating_income": 53653000,
+      "net_income": 43607000,
+      "opex": 351590000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": -216202000,
+      "ocf": 137773000,
+      "capex": -353975000,
+      "gross_margin": null,
+      "op_margin": 0.14899762005926248,
+      "fcf_margin": -0.6004060062261694,
+      "incr_op_margin_yoy": -0.78500823723229,
+      "rev_growth_yoy": -0.041987362820086464,
+      "rev_growth_yoy_accel": -0.030619735673749628,
+      "fcf_margin_change": -0.3574725533440819
     }
   ],
   "signals": [
@@ -600,18 +602,6 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +9.2% vs prior quarter YoY: -1.1% (accel: +10.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-12 (Q4)",
-      "signal": "INCREMENTAL MARGIN (YoY)",
-      "detail": "YoY Incr OPM: +52.8% vs year-ago OPM: +17.8%",
-      "severity": "HIGH"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +9.1% -> +15.5% (+6.4%)",
@@ -657,7 +647,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:49:38.776541",
-  "sector": "Utilities",
-  "industry": "Utilities - Regulated Electric"
+  "last_updated": "2026-02-24T10:23:05.309431"
 }

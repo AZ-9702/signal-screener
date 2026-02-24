@@ -1,25 +1,9 @@
 {
   "ticker": "PBI",
-  "name": "PITNEY BOWES INC",
+  "name": "PITNEY BOWES INC.",
+  "sector": "Industrials",
+  "industry": "Integrated Freight & Logistics",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1028417000,
-      "gross_profit": 298572000,
-      "operating_income": null,
-      "net_income": 18879000,
-      "opex": 282973000,
-      "cogs": 729845000,
-      "rd": 9546000,
-      "sga": 242441000,
-      "fcf": 86606000,
-      "ocf": 110806000,
-      "capex": -24200000,
-      "gross_margin": 0.2903219219441141,
-      "op_margin": null,
-      "fcf_margin": 0.08421292141222869
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -43328000,
       "gross_margin": 0.31420776073348144,
       "op_margin": null,
-      "fcf_margin": 0.02468867358612408,
-      "fcf_margin_change": -0.05952424782610461
+      "fcf_margin": 0.02468867358612408
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": 0.2761712777723561,
       "op_margin": null,
       "fcf_margin": 0.042904833935135486,
-      "rev_growth_yoy": -0.04346972094004669,
       "op_leverage_ratio": 9.986686913123389,
       "fcf_margin_change": 0.026637752700249158
     },
@@ -116,7 +98,6 @@
       "op_margin": null,
       "fcf_margin": -0.02372640359375236,
       "rev_growth_yoy": 0.012833302556717297,
-      "rev_growth_yoy_accel": 0.056303023496763985,
       "fcf_margin_change": -0.06663123752888785
     },
     {
@@ -286,7 +267,7 @@
       "fcf_margin": -0.03242228561039073,
       "rev_growth_yoy": -0.0048278209021039185,
       "rev_growth_yoy_accel": 0.41585973955574146,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.1580225713159924
     },
     {
@@ -415,9 +396,37 @@
       "rev_growth_yoy": -0.07966155651169356,
       "rev_growth_yoy_accel": 0.33798031093160363,
       "fcf_margin_change": -0.10120152327992625
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 477625000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 27337000,
+      "opex": 439248000,
+      "cogs": null,
+      "rd": 3505000,
+      "sga": 140956000,
+      "fcf": 201449000,
+      "ocf": 221700000,
+      "capex": -20251000,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.42177231091337347,
+      "rev_growth_yoy": -0.07458716076268937,
+      "rev_growth_yoy_accel": 0.0050743957490041874,
+      "op_leverage_ratio": 0.32041038980435127,
+      "fcf_margin_change": 0.3107134106033718
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +11.1% -> +42.2% (+31.1%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -509,12 +518,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +1.3% vs prior quarter YoY: -4.3% (accel: +5.6%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "OPERATING LEVERAGE",
       "detail": "Rev growth +12.4% vs OpEx growth +1.2% (leverage: 10.0x)",
@@ -529,7 +532,7 @@
         20
       ],
       "gross_profit": [
-        13,
+        12,
         20
       ],
       "op_income": [
@@ -543,11 +546,11 @@
     },
     "gaps": [],
     "warnings": [
-      "gross_profit: 13/20Q",
+      "gross_profit: 12/20Q",
       "op_income: no data"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:42:06.063355"
+  "last_updated": "2026-02-24T10:16:34.394124"
 }

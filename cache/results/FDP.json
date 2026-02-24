@@ -1,25 +1,9 @@
 {
   "ticker": "FDP",
-  "name": "FRESH DEL MONTE PRODUCE INC.",
+  "name": "FRESH DEL MONTE PRODUCE INC",
+  "sector": "Consumer Defensive",
+  "industry": "Farm Products",
   "quarters": [
-    {
-      "date": "2021-01-01T00:00:00",
-      "quarter_label": "2021-01 (Q1)",
-      "revenue": 1002300000,
-      "gross_profit": 36400000,
-      "operating_income": -900000,
-      "net_income": 900000,
-      "opex": 37300000,
-      "cogs": 965900000,
-      "rd": null,
-      "sga": 53800000,
-      "fcf": 6700000,
-      "ocf": 6700000,
-      "capex": null,
-      "gross_margin": 0.03631647211413749,
-      "op_margin": -0.0008979347500748278,
-      "fcf_margin": 0.006684625361668163
-    },
     {
       "date": "2021-04-02T00:00:00",
       "quarter_label": "2021-04 (Q2)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.09648074979325554,
       "op_margin": 0.05485619773959386,
-      "fcf_margin": 0.04300284847927961,
-      "op_leverage_ratio": 0.4000548737902824,
-      "fcf_margin_change": 0.03631822311761145
+      "fcf_margin": 0.04300284847927961
     },
     {
       "date": "2021-07-02T00:00:00",
@@ -96,8 +78,6 @@
       "gross_margin": 0.03912316917330188,
       "op_margin": -0.009043546643074806,
       "fcf_margin": -0.022707166027720438,
-      "incr_op_margin_yoy": -0.5533333333333333,
-      "rev_growth_yoy": 0.014965579167913799,
       "op_leverage_ratio": 0.42296974522292996,
       "fcf_margin_change": -0.03474936347994974
     },
@@ -120,7 +100,6 @@
       "fcf_margin": -0.0002638754507872284,
       "incr_op_margin_yoy": -0.4094650205761317,
       "rev_growth_yoy": 0.04465680419002113,
-      "rev_growth_yoy_accel": 0.02969122502210733,
       "op_leverage_ratio": 5.7607392116386515,
       "fcf_margin_change": 0.02244329057693321
     },
@@ -144,7 +123,7 @@
       "incr_op_margin_yoy": -0.35561877667140823,
       "rev_growth_yoy": 0.0615802382620883,
       "rev_growth_yoy_accel": 0.016923434072067166,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07898324173513412
     },
     {
@@ -211,7 +190,7 @@
       "incr_op_margin_yoy": -4.130952380952381,
       "rev_growth_yoy": -0.007388512622042396,
       "rev_growth_yoy_accel": -0.029702480969629144,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.05594658498347023
     },
     {
@@ -301,7 +280,7 @@
       "incr_op_margin_yoy": 1.4757281553398058,
       "rev_growth_yoy": -0.018254319893664155,
       "rev_growth_yoy_accel": 0.011937987798643537,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.019060020997864077
     },
     {
@@ -438,9 +417,49 @@
       "rev_growth_yoy": 0.0023540951446787643,
       "rev_growth_yoy_accel": -0.03519964706818427,
       "fcf_margin_change": -0.022252120423197103
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1019500000,
+      "gross_profit": 106000000,
+      "operating_income": 46000000,
+      "net_income": 31900000,
+      "opex": 60000000,
+      "cogs": 913500000,
+      "rd": null,
+      "sga": 61200000,
+      "fcf": 10900000,
+      "ocf": 10900000,
+      "capex": null,
+      "gross_margin": 0.10397253555664542,
+      "op_margin": 0.04512015693967631,
+      "fcf_margin": 0.010691515448749387,
+      "incr_op_margin_yoy": 2.492063492063492,
+      "rev_growth_yoy": 0.006217923410975128,
+      "rev_growth_yoy_accel": 0.003863828266296364,
+      "fcf_margin_change": -0.0627011844240366
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "GROSS MARGIN INFLECTION",
+      "detail": "GM: +10.2% -> +7.9% -> +10.4% (reversal +2.5%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +249.2% vs year-ago OPM: +3.0%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
+      "detail": "Op margin: -2.1% -> +4.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF MARGIN EXPANSION",
@@ -548,12 +567,6 @@
       "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
       "detail": "Op margin: -0.9% -> +3.5%",
       "severity": "HIGH"
-    },
-    {
-      "quarter": "2021-04 (Q2)",
-      "signal": "OP MARGIN TURNED POSITIVE (QoQ)",
-      "detail": "Op margin: -0.1% -> +5.5%",
-      "severity": "HIGH"
     }
   ],
   "data_quality": {
@@ -581,7 +594,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:39:23.561430",
-  "sector": "Consumer Defensive",
-  "industry": "Farm Products"
+  "last_updated": "2026-02-24T10:25:06.054731"
 }

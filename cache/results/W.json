@@ -1,25 +1,9 @@
 {
   "ticker": "W",
-  "name": "Wayfair\u00a0Inc.",
+  "name": "Wayfair Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3670851000,
-      "gross_profit": 1064590000,
-      "operating_income": 100565000,
-      "net_income": 23818000,
-      "opex": 964025000,
-      "cogs": 2606261000,
-      "rd": null,
-      "sga": null,
-      "fcf": 167315000,
-      "ocf": 207012000,
-      "capex": -39697000,
-      "gross_margin": 0.290011771112475,
-      "op_margin": 0.027395554872698458,
-      "fcf_margin": 0.04557934931164463
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": -24000000,
       "gross_margin": 0.28843186433542545,
       "op_margin": 0.007574942818412442,
-      "fcf_margin": 0.04399689663719929,
-      "fcf_margin_change": -0.0015824526744453449
+      "fcf_margin": 0.04399689663719929
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -95,8 +78,6 @@
       "gross_margin": 0.27098601286129137,
       "op_margin": -0.06019823646976588,
       "fcf_margin": 0.020296619720995286,
-      "incr_op_margin_yoy": 0.7070664649540181,
-      "rev_growth_yoy": -0.11416371844022,
       "op_leverage_ratio": 0.3205963611298377,
       "fcf_margin_change": 0.07156087639087558
     },
@@ -119,7 +100,6 @@
       "fcf_margin": -0.08887403942532576,
       "incr_op_margin_yoy": 0.694178544450361,
       "rev_growth_yoy": -0.13932868212328448,
-      "rev_growth_yoy_accel": -0.02516496368306448,
       "fcf_margin_change": -0.10917065914632104
     },
     {
@@ -232,7 +212,7 @@
       "incr_op_margin_yoy": -2.0353982300884956,
       "rev_growth_yoy": -0.03440925700365408,
       "rev_growth_yoy_accel": 0.038761474703662986,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.1220131659094211
     },
     {
@@ -322,7 +302,7 @@
       "incr_op_margin_yoy": -1.9814814814814814,
       "rev_growth_yoy": -0.017029328287606435,
       "rev_growth_yoy_accel": -0.0008072662832805527,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.12692038705932185
     },
     {
@@ -435,9 +415,44 @@
       "rev_growth_yoy": 0.08079056865464633,
       "rev_growth_yoy_accel": 0.03074244545926616,
       "fcf_margin_change": -0.03837269790131113
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 3337000000,
+      "gross_profit": 1010000000,
+      "operating_income": 84000000,
+      "net_income": -116000000,
+      "opex": 926000000,
+      "cogs": 2327000000,
+      "rd": null,
+      "sga": null,
+      "fcf": 177000000,
+      "ocf": 202000000,
+      "capex": -25000000,
+      "gross_margin": 0.3026670662271501,
+      "op_margin": 0.025172310458495654,
+      "fcf_margin": 0.053041654180401555,
+      "incr_op_margin_yoy": 0.9305555555555556,
+      "rev_growth_yoy": 0.06920858699134892,
+      "rev_growth_yoy_accel": -0.011581981663297408,
+      "op_leverage_ratio": 2.1080098385199446,
+      "fcf_margin_change": 0.011976527455987054
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +7.1% vs OpEx growth +3.3% (leverage: 2.1x)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OP MARGIN TURNED POSITIVE (YoY)",
+      "detail": "Op margin: -3.7% (year-ago) -> +2.5%",
+      "severity": "HIGH"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "OP MARGIN TURNED POSITIVE (YoY)",
@@ -542,5 +557,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:27:20.565515"
+  "last_updated": "2026-02-24T10:19:45.416959"
 }

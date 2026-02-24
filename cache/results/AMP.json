@@ -1,25 +1,9 @@
 {
   "ticker": "AMP",
-  "name": "AMERIPRISE FINANCIAL,\u00a0INC.",
+  "name": "AMERIPRISE FINANCIAL, INC.",
+  "sector": "Financial Services",
+  "industry": "Asset Management",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 3189000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 177000000,
-      "opex": 2993000000,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": -1016000000,
-      "ocf": -1016000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": -0.31859517089996864
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.29806259314456035,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.020532577755408288
+      "fcf_margin": -0.29806259314456035
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -57,7 +39,7 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.5646198830409357,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.8626824761854961
     },
     {
@@ -96,7 +78,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": 0.41228070175438597,
-      "rev_growth_yoy": 0.17968015051740358,
       "op_leverage_ratio": 0.38146021821460485,
       "fcf_margin_change": 0.12219123169244517
     },
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.11184030626196335,
       "rev_growth_yoy": 0.09001490312965722,
-      "rev_growth_yoy_accel": -0.08966524738774635,
       "fcf_margin_change": -0.30044039549242263
     },
     {
@@ -226,7 +206,7 @@
       "fcf_margin": 0.14000499126528576,
       "rev_growth_yoy": 0.14127029336371405,
       "rev_growth_yoy_accel": 0.08986203522863065,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.13463740145252956
     },
     {
@@ -292,7 +272,7 @@
       "fcf_margin": 0.3338728323699422,
       "rev_growth_yoy": 0.12483745123537061,
       "rev_growth_yoy_accel": -0.009929769020550969,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.18028263787957793
     },
     {
@@ -358,7 +338,7 @@
       "fcf_margin": 0.08238330823833083,
       "rev_growth_yoy": 0.11540307101727447,
       "rev_growth_yoy_accel": -0.0033407955185449645,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.5860377443932481
     },
     {
@@ -424,9 +404,43 @@
       "rev_growth_yoy_accel": 0.05071301888601285,
       "op_leverage_ratio": 0.45770514953597463,
       "fcf_margin_change": 0.057566352004158494
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 5047000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 1008000000,
+      "opex": 3668000000,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 2669000000,
+      "ocf": 2669000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.5288290073310877,
+      "rev_growth_yoy": 0.08560980856098085,
+      "rev_growth_yoy_accel": 0.012583492771507165,
+      "op_leverage_ratio": 2.2321523745406604,
+      "fcf_margin_change": 0.07838960410198492
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +45.0% -> +52.9% (+7.8%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "OPERATING LEVERAGE",
+      "detail": "Rev growth +3.1% vs OpEx growth +1.4% (leverage: 2.2x)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -512,12 +526,6 @@
       "severity": "WARNING"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: +9.0% vs prior quarter YoY: +18.0% (decel: -9.0%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-12 (Q4)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +29.0% -> +41.2% (+12.2%)",
@@ -558,7 +566,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:00:51.654559",
-  "sector": "Financial Services",
-  "industry": "Asset Management"
+  "last_updated": "2026-02-24T10:23:21.439312"
 }

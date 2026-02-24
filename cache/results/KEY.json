@@ -1,25 +1,9 @@
 {
   "ticker": "KEY",
-  "name": "KEYCORP /NEW/",
+  "name": "KeyCorp",
+  "sector": "Financial Services",
+  "industry": "Banks - Regional",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 1845000000,
-      "gross_profit": null,
-      "operating_income": null,
-      "net_income": 582000000,
-      "opex": null,
-      "cogs": null,
-      "rd": null,
-      "sga": null,
-      "fcf": 946000000,
-      "ocf": 946000000,
-      "capex": null,
-      "gross_margin": null,
-      "op_margin": null,
-      "fcf_margin": 0.5127371273712737
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,8 +20,7 @@
       "capex": null,
       "gross_margin": null,
       "op_margin": null,
-      "fcf_margin": -0.11714285714285715,
-      "fcf_margin_change": -0.6298799845141309
+      "fcf_margin": -0.11714285714285715
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -94,7 +77,6 @@
       "gross_margin": null,
       "op_margin": null,
       "fcf_margin": -0.005136106831022085,
-      "rev_growth_yoy": 0.055284552845528454,
       "fcf_margin_change": -0.5073314965126906
     },
     {
@@ -115,7 +97,6 @@
       "op_margin": null,
       "fcf_margin": 0.5194575471698113,
       "rev_growth_yoy": -0.030857142857142857,
-      "rev_growth_yoy_accel": -0.08614169570267131,
       "fcf_margin_change": 0.5245936540008334
     },
     {
@@ -411,9 +392,42 @@
       "rev_growth_yoy": 1.7266187050359711,
       "rev_growth_yoy_accel": 1.5208519946821049,
       "fcf_margin_change": -0.46168119765974525
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 2005000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 510000000,
+      "opex": null,
+      "cogs": null,
+      "rd": null,
+      "sga": null,
+      "fcf": 718000000,
+      "ocf": 718000000,
+      "capex": null,
+      "gross_margin": null,
+      "op_margin": null,
+      "fcf_margin": 0.35810473815461347,
+      "rev_growth_yoy": 1.3179190751445087,
+      "rev_growth_yoy_accel": -0.40869962989146247,
+      "fcf_margin_change": 0.1491337619013153
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "FCF MARGIN EXPANSION",
+      "detail": "FCF margin: +20.9% -> +35.8% (+14.9%)",
+      "severity": "MEDIUM"
+    },
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: +131.8% vs prior quarter YoY: +172.7% (decel: -40.9%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "YoY REVENUE GROWTH ACCELERATION",
@@ -499,12 +513,6 @@
       "severity": "HIGH"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH DECELERATION",
-      "detail": "YoY growth: -3.1% vs prior quarter YoY: +5.5% (decel: -8.6%)",
-      "severity": "WARNING"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +25.5% -> +50.2% (+24.7%)",
@@ -545,7 +553,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:14:49.038167",
-  "sector": "Financial Services",
-  "industry": "Banks - Regional"
+  "last_updated": "2026-02-24T10:08:50.200395"
 }

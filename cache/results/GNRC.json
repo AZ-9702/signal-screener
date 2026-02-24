@@ -1,25 +1,9 @@
 {
   "ticker": "GNRC",
   "name": "GENERAC HOLDINGS INC.",
+  "sector": "Industrials",
+  "industry": "Specialty Industrial Machinery",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 761082000,
-      "gross_profit": 300202000,
-      "operating_income": 171054000,
-      "net_income": 125001000,
-      "opex": 129148000,
-      "cogs": 460880000,
-      "rd": 21489000,
-      "sga": null,
-      "fcf": 190035000,
-      "ocf": 218223000,
-      "capex": -28188000,
-      "gross_margin": 0.3944410720526829,
-      "op_margin": 0.22475107807043132,
-      "fcf_margin": 0.24969057210655357
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": -27469000,
       "gross_margin": 0.39856384546600715,
       "op_margin": 0.23422843229291807,
-      "fcf_margin": 0.15490306328442943,
-      "op_leverage_ratio": 2.2206297575000917,
-      "fcf_margin_change": -0.09478750882212414
+      "fcf_margin": 0.15490306328442943
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,8 +79,6 @@
       "gross_margin": 0.3397515254373889,
       "op_margin": 0.16445110025480966,
       "fcf_margin": 0.03675106904788904,
-      "incr_op_margin_yoy": 0.014467840347202023,
-      "rev_growth_yoy": 0.40204472054259593,
       "op_leverage_ratio": 0.8695330301452777,
       "fcf_margin_change": -0.006928879355523297
     },
@@ -121,7 +101,6 @@
       "fcf_margin": -0.03375603949796453,
       "incr_op_margin_yoy": -0.10470979410636315,
       "rev_growth_yoy": 0.4067477961046971,
-      "rev_growth_yoy_accel": 0.004703075562101144,
       "op_leverage_ratio": 0.6361403189756641,
       "fcf_margin_change": -0.07050710854585357
     },
@@ -370,7 +349,7 @@
       "incr_op_margin_yoy": 0.27491220176356124,
       "rev_growth_yoy": 0.16088730527325204,
       "rev_growth_yoy_accel": 0.06478272747268474,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.07521737796578848
     },
     {
@@ -440,9 +419,37 @@
       "rev_growth_yoy_accel": -0.11353893613841273,
       "op_leverage_ratio": 0.8094095592448264,
       "fcf_margin_change": 0.07295591043156864
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 1091504000,
+      "gross_profit": 396080000,
+      "operating_income": -9315000,
+      "net_income": -24463000,
+      "opex": 405395000,
+      "cogs": 695424000,
+      "rd": 61009000,
+      "sga": null,
+      "fcf": 129943000,
+      "ocf": 189259000,
+      "capex": -59316000,
+      "gross_margin": 0.3628754452571864,
+      "op_margin": -0.008534096072941555,
+      "fcf_margin": 0.11904949500872192,
+      "incr_op_margin_yoy": 1.4468481545321954,
+      "rev_growth_yoy": -0.11604865885272202,
+      "rev_growth_yoy_accel": -0.06559546631001234,
+      "fcf_margin_change": 0.03245485219805061
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "YoY REVENUE GROWTH DECELERATION",
+      "detail": "YoY growth: -11.6% vs prior quarter YoY: -5.0% (decel: -6.6%)",
+      "severity": "WARNING"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -628,12 +635,6 @@
       "signal": "GROSS MARGIN INFLECTION",
       "detail": "GM: +34.0% -> +31.8% -> +35.4% (reversal +3.6%)",
       "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +6.1% vs OpEx growth +2.7% (leverage: 2.2x)",
-      "severity": "MEDIUM"
     }
   ],
   "data_quality": {
@@ -661,7 +662,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:38:04.271826",
-  "sector": "Industrials",
-  "industry": "Specialty Industrial Machinery"
+  "last_updated": "2026-02-24T10:31:32.294903"
 }

@@ -1,6 +1,8 @@
 {
   "ticker": "SVV",
   "name": "Savers Value Village, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Specialty Retail",
   "quarters": [
     {
       "date": "2022-07-02T00:00:00",
@@ -96,7 +98,7 @@
       "fcf_margin": 0.11146340562698166,
       "incr_op_margin_yoy": 0.5149646667590412,
       "rev_growth_yoy": 0.039581208112584594,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": 0.21454309690572176
     },
     {
@@ -209,7 +211,7 @@
       "incr_op_margin_yoy": 13.479275845640782,
       "rev_growth_yoy": 0.00534507433192937,
       "rev_growth_yoy_accel": -0.014599426092758445,
-      "op_leverage_ratio": Infinity,
+      "op_leverage_ratio": null,
       "fcf_margin_change": -0.08405122823903542
     },
     {
@@ -302,9 +304,44 @@
       "rev_growth_yoy_accel": 0.0024074219589601403,
       "op_leverage_ratio": 1.206131640674016,
       "fcf_margin_change": -0.06722385077873658
+    },
+    {
+      "date": "2026-01-03T00:00:00",
+      "quarter_label": "2026-01 (Q1)",
+      "revenue": 464666000,
+      "gross_profit": 257411000,
+      "operating_income": 43335000,
+      "net_income": 22448000,
+      "opex": 421331000,
+      "cogs": 207255000,
+      "rd": null,
+      "sga": 99481000,
+      "fcf": 53223000,
+      "ocf": 90779000,
+      "capex": -37556000,
+      "gross_margin": 0.553969948306956,
+      "op_margin": 0.09326053552444122,
+      "fcf_margin": 0.11454033649976542,
+      "incr_op_margin_yoy": 0.16379764202868494,
+      "rev_growth_yoy": 0.155928703807356,
+      "rev_growth_yoy_accel": 0.07452484308906279,
+      "op_leverage_ratio": 1.1230540196953256,
+      "fcf_margin_change": 0.1293107348039569
     }
   ],
   "signals": [
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "FCF TURNED POSITIVE",
+      "detail": "FCF margin: -1.5% -> +11.5%",
+      "severity": "HIGH"
+    },
+    {
+      "quarter": "2026-01 (Q1)",
+      "signal": "YoY REVENUE GROWTH ACCELERATION",
+      "detail": "YoY growth: +15.6% vs prior quarter YoY: +8.1% (accel: +7.5%)",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-06 (Q2)",
       "signal": "FCF TURNED POSITIVE",
@@ -379,23 +416,23 @@
     }
   ],
   "data_quality": {
-    "n_quarters": 14,
+    "n_quarters": 15,
     "coverage": {
       "revenue": [
-        14,
-        14
+        15,
+        15
       ],
       "gross_profit": [
-        14,
-        14
+        15,
+        15
       ],
       "op_income": [
-        14,
-        14
+        15,
+        15
       ],
       "fcf": [
-        13,
-        14
+        14,
+        15
       ]
     },
     "gaps": [],
@@ -403,5 +440,5 @@
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T21:45:04.178063"
+  "last_updated": "2026-02-24T10:15:45.813121"
 }

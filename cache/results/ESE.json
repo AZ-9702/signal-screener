@@ -1,25 +1,9 @@
 {
   "ticker": "ESE",
-  "name": "ESCO Technologies\u00a0Inc.",
+  "name": "ESCO TECHNOLOGIES\u00a0INC.",
+  "sector": "Technology",
+  "industry": "Scientific & Technical Instruments",
   "quarters": [
-    {
-      "date": "2020-12-31T00:00:00",
-      "quarter_label": "2020-12 (Q4)",
-      "revenue": 162949000,
-      "gross_profit": 64172000,
-      "operating_income": null,
-      "net_income": 13686000,
-      "opex": 145289000,
-      "cogs": 98777000,
-      "rd": null,
-      "sga": 41000000,
-      "fcf": 24792000,
-      "ocf": 24792000,
-      "capex": null,
-      "gross_margin": 0.3938164701839226,
-      "op_margin": null,
-      "fcf_margin": 0.15214576339836391
-    },
     {
       "date": "2021-03-31T00:00:00",
       "quarter_label": "2021-03 (Q1)",
@@ -36,9 +20,7 @@
       "capex": null,
       "gross_margin": 0.38123784834737523,
       "op_margin": null,
-      "fcf_margin": 0.1952065480905403,
-      "op_leverage_ratio": Infinity,
-      "fcf_margin_change": 0.04306078469217639
+      "fcf_margin": 0.1952065480905403
     },
     {
       "date": "2021-06-30T00:00:00",
@@ -97,7 +79,6 @@
       "gross_margin": 0.3881419128862776,
       "op_margin": null,
       "fcf_margin": 0.010993729167843625,
-      "rev_growth_yoy": 0.08629080264377198,
       "fcf_margin_change": -0.22133771264101182
     },
     {
@@ -118,7 +99,6 @@
       "op_margin": null,
       "fcf_margin": 0.10275316208619613,
       "rev_growth_yoy": 0.22973524399318307,
-      "rev_growth_yoy_accel": 0.1434444413494111,
       "op_leverage_ratio": 1.2129705411725764,
       "fcf_margin_change": 0.09175943291835251
     },
@@ -345,7 +325,7 @@
       "quarter_label": "2024-12 (Q4)",
       "revenue": 247026000,
       "gross_profit": 98384000,
-      "operating_income": null,
+      "operating_income": 28054000,
       "net_income": 23473000,
       "opex": 217085000,
       "cogs": 148642000,
@@ -355,7 +335,7 @@
       "ocf": 34174000,
       "capex": null,
       "gross_margin": 0.3982738659088517,
-      "op_margin": null,
+      "op_margin": 0.11356699294811072,
       "fcf_margin": 0.1383417130180629,
       "rev_growth_yoy": 0.13151698929065475,
       "rev_growth_yoy_accel": 0.03657371098574033,
@@ -426,9 +406,37 @@
       "rev_growth_yoy_accel": 0.04499441866097614,
       "op_leverage_ratio": 1.6775321944436052,
       "fcf_margin_change": 0.06293557180181758
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "quarter_label": "2025-12 (Q4)",
+      "revenue": 289659000,
+      "gross_profit": 119919000,
+      "operating_income": 38358000,
+      "net_income": 28691000,
+      "opex": 254181000,
+      "cogs": 169740000,
+      "rd": null,
+      "sga": 61207000,
+      "fcf": 68861000,
+      "ocf": 68861000,
+      "capex": null,
+      "gross_margin": 0.4140006007063478,
+      "op_margin": 0.13242467867388896,
+      "fcf_margin": 0.23773126331306813,
+      "incr_op_margin_yoy": 0.2416907090751296,
+      "rev_growth_yoy": 0.1725850720167108,
+      "rev_growth_yoy_accel": -0.008771762906061548,
+      "fcf_margin_change": -0.07399287852897299
     }
   ],
   "signals": [
+    {
+      "quarter": "2025-12 (Q4)",
+      "signal": "INCREMENTAL MARGIN (YoY)",
+      "detail": "YoY Incr OPM: +24.2% vs year-ago OPM: +11.4%",
+      "severity": "MEDIUM"
+    },
     {
       "quarter": "2025-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
@@ -538,21 +546,9 @@
       "severity": "MEDIUM"
     },
     {
-      "quarter": "2022-03 (Q1)",
-      "signal": "YoY REVENUE GROWTH ACCELERATION",
-      "detail": "YoY growth: +23.0% vs prior quarter YoY: +8.6% (accel: +14.3%)",
-      "severity": "MEDIUM"
-    },
-    {
       "quarter": "2021-09 (Q3)",
       "signal": "FCF MARGIN EXPANSION",
       "detail": "FCF margin: +10.0% -> +23.2% (+13.3%)",
-      "severity": "MEDIUM"
-    },
-    {
-      "quarter": "2021-03 (Q1)",
-      "signal": "OPERATING LEVERAGE",
-      "detail": "Rev growth +2.3% vs OpEx growth +0.0% (leverage: 205.9x)",
       "severity": "MEDIUM"
     }
   ],
@@ -568,7 +564,7 @@
         20
       ],
       "op_income": [
-        0,
+        2,
         20
       ],
       "fcf": [
@@ -578,12 +574,10 @@
     },
     "gaps": [],
     "warnings": [
-      "op_income: no data"
+      "op_income: 2/20Q"
     ]
   },
   "market_cap": null,
   "source": "SEC EDGAR",
-  "last_updated": "2026-02-02T20:57:59.013779",
-  "sector": "Technology",
-  "industry": "Scientific & Technical Instruments"
+  "last_updated": "2026-02-24T11:07:39.960400"
 }
